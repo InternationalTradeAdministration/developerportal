@@ -1,6 +1,6 @@
 name: Developer Portal
 pygments: true
-baseurl: /DeveloperPortal
+baseurl: /developerportal
 exclude:
   - .bundle
   - .git
