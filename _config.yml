@@ -1,0 +1,12 @@
+name: Developer Portal
+pygments: true
+baseurl: /WebSite
+exclude:
+  - .bundle
+  - .git
+  - .gitignore
+  - bin
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
