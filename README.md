@@ -1,6 +1,6 @@
 # International Trade Administration - Developer Portal
 
-View the site here: http://internationaltradeadministration.github.io/WebSite
+View the site here: http://internationaltradeadministration.github.io/DeveloperPortal
 
 This project includes the source code and content for the ITA Developer website.
 
