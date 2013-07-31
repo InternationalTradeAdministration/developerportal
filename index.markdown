@@ -14,18 +14,6 @@ Developers who work with trade and exporting information will find this informat
 Use of the ITA APIs and other data is free of charge, but developers must [register with ITA](#registration_page) to receive a development key and agree to the guidelines outlined in the [Developer License Agreement]({{ site.baseurl }}/developer-license-agreement.html) and [Privacy Policy]({{ site.baseurl }}/privacy-policy.html). 
 
 
-## General Instructions
-
-\[TBD...\]
-
-## Authentication Requirements
-\[How to get credentials and API keys…\]
-
-
-## Security and Authentication Steps…
-\[How credentials are passed to the web server…\]
-
-
 ## Summary of Available APIs
 ITA currently provides access to seven data sets:
 
