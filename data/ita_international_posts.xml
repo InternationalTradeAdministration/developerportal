@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POSTLIST>
+    <POSTINFO>
+        <POST>European Union</POST>
+        <OFFICENAME>U.S. Mission to the European Union</OFFICENAME>
+        <CTRNUMBER>1505</CTRNUMBER>
+        <COUNTRYID name="European Union">999</COUNTRYID>
+        <EMAIL>Office.BrusselsEC@trade.gov</EMAIL>
+        <FAX>+32-2-811-5151</FAX>
+        <MAIL_INSTR/>
+        <PHONE>+32-2-811-4817</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Belgrade</POST>
+        <OFFICENAME>U.S. Commercial Service - Belgrade, Serbia</OFFICENAME>
+        <CTRNUMBER>1264</CTRNUMBER>
+        <COUNTRYID name="Serbia">891</COUNTRYID>
+        <EMAIL>bradley.harker@trade.gov</EMAIL>
+        <FAX>+381 11 706 4010</FAX>
+        <MAIL_INSTR/>
+        <PHONE>+381 11 706 4112</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>95</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Montevideo</POST>
+        <OFFICENAME>U.S. Commercial Service - Montevideo</OFFICENAME>
+        <CTRNUMBER>1261</CTRNUMBER>
+        <COUNTRYID name="Uruguay">858</COUNTRYID>
+        <EMAIL>Office.Montevideo@trade.gov</EMAIL>
+        <FAX>598-2 418-8581</FAX>
+        <MAIL_INSTR>Mail sent by courier delivery should be sent to American Embassy, US Commercial Service, Lauro Muller 1776, Montevideo 11200, Uruguay.  All mail sent by regular post or pouch should be sent to US Embassy Montevideo, Unit 4502, APO  AA  34035</MAIL_INSTR>
+        <PHONE>598-2 419-3209</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>70</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>London</POST>
+        <OFFICENAME>U.S. Commercial Service - London</OFFICENAME>
+        <CTRNUMBER>1260</CTRNUMBER>
+        <COUNTRYID name="United Kingdom">826</COUNTRYID>
+        <EMAIL>Office.London@trade.gov</EMAIL>
+        <FAX>(44-20) 7894-0020</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(44-20) 7894-0419</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>85</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Alexandria</POST>
+        <OFFICENAME>U.S. Commercial Service - Alexandria</OFFICENAME>
+        <CTRNUMBER>1216</CTRNUMBER>
+        <COUNTRYID name="Egypt">818</COUNTRYID>
+        <EMAIL>Alexandria.Office.Box@trade.gov</EMAIL>
+        <FAX>011 +-20 (3) 486-9199</FAX>
+        <MAIL_INSTR>By APO     Work Week: Sunday - Thursday</MAIL_INSTR>
+        <PHONE>011 +-20 (3) 486-5607</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>120</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Cairo</POST>
+        <OFFICENAME>U.S. Commercial Service - Cairo</OFFICENAME>
+        <CTRNUMBER>1216</CTRNUMBER>
+        <COUNTRYID name="Egypt">818</COUNTRYID>
+        <EMAIL>Office.Cairo@trade.gov</EMAIL>
+        <FAX>011-20-2-795-8368</FAX>
+        <MAIL_INSTR>By APO</MAIL_INSTR>
+        <PHONE>011-20-2-797-2340</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>120</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Kiev</POST>
+        <OFFICENAME>U.S. Commercial Service - Kiev</OFFICENAME>
+        <CTRNUMBER>1567</CTRNUMBER>
+        <COUNTRYID name="Ukraine">804</COUNTRYID>
+        <EMAIL>office.kiev@trade.gov</EMAIL>
+        <FAX>380 (44) 521-5051</FAX>
+        <MAIL_INSTR>For expedited delivery - use courier addressed to our international address.</MAIL_INSTR>
+        <PHONE>380 (44) 521-5244</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>125</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Ankara</POST>
+        <OFFICENAME>U.S. Commercial Service - Ankara</OFFICENAME>
+        <CTRNUMBER>1258</CTRNUMBER>
+        <COUNTRYID name="Turkey">792</COUNTRYID>
+        <EMAIL>Ankara.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>(90) 312 428-8760</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(90) 312 455-5555</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>130</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Izmir</POST>
+        <OFFICENAME>U.S. Commercial Service - Izmir</OFFICENAME>
+        <CTRNUMBER>1258</CTRNUMBER>
+        <COUNTRYID name="Turkey">792</COUNTRYID>
+        <EMAIL>Izmir.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>90-232-489-0267</FAX>
+        <MAIL_INSTR/>
+        <PHONE>90-232-441-2446</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>130</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Istanbul</POST>
+        <OFFICENAME>U.S. Commercial Service - Istanbul</OFFICENAME>
+        <CTRNUMBER>1258</CTRNUMBER>
+        <COUNTRYID name="Turkey">792</COUNTRYID>
+        <EMAIL>Istanbul.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>(90-212) 335-9103</FAX>
+        <MAIL_INSTR>Please note that APO regulations require mail to be addressed to the American officer at post and not directly to the FSN staff.</MAIL_INSTR>
+        <PHONE>(90-212) 335-9040</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>130</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Abu Dhabi</POST>
+        <OFFICENAME>U.S. Commercial Service - Abu Dhabi</OFFICENAME>
+        <CTRNUMBER>1259</CTRNUMBER>
+        <COUNTRYID name="United Arab Emirates">784</COUNTRYID>
+        <EMAIL>Office.Abudhabi@trade.gov</EMAIL>
+        <FAX>971-2-414-2228</FAX>
+        <MAIL_INSTR>Work Week: Sunday - Thursday</MAIL_INSTR>
+        <PHONE>971-2-414-2304</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>165</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Dubai</POST>
+        <OFFICENAME>U.S. Commercial Service - Dubai</OFFICENAME>
+        <CTRNUMBER>1259</CTRNUMBER>
+        <COUNTRYID name="United Arab Emirates">784</COUNTRYID>
+        <EMAIL>Office.Dubai@trade.gov</EMAIL>
+        <FAX>+971-4-354-7090</FAX>
+        <MAIL_INSTR>All mail to the UAE is delivered to post boxes only.  There is as yet no street delivery.</MAIL_INSTR>
+        <PHONE>+971-4-309-4000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>165</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Bangkok</POST>
+        <OFFICENAME>U.S. Commercial Service - Bangkok</OFFICENAME>
+        <CTRNUMBER>1257</CTRNUMBER>
+        <COUNTRYID name="Thailand">764</COUNTRYID>
+        <EMAIL>Office.Bangkok@trade.gov</EMAIL>
+        <FAX>66-2-255-2915</FAX>
+        <MAIL_INSTR/>
+        <PHONE>66-2-205-5090</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>205</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Stockholm</POST>
+        <OFFICENAME>U.S. Commercial Service - Stockholm</OFFICENAME>
+        <CTRNUMBER>1255</CTRNUMBER>
+        <COUNTRYID name="Sweden">752</COUNTRYID>
+        <EMAIL>Stockholm.office.box@mail.doc.gov</EMAIL>
+        <FAX>46-8-660-9181</FAX>
+        <MAIL_INSTR>Clients should note that correspondence sent to the U.S. mailing address takes about 15 days to reach Stockholm.  Time-sensitive materials should be sent either by U.S. mail to the street address, or via courier or express delivery service.</MAIL_INSTR>
+        <PHONE>46-8-783-5346</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Madrid</POST>
+        <OFFICENAME>U.S. Commercial Service - Madrid</OFFICENAME>
+        <CTRNUMBER>1254</CTRNUMBER>
+        <COUNTRYID name="Spain">724</COUNTRYID>
+        <EMAIL>Madrid.Office.Box@trade.gov</EMAIL>
+        <FAX>+34-91-563-0859</FAX>
+        <MAIL_INSTR/>
+        <PHONE>+34-91-564-8976</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Cape Town</POST>
+        <OFFICENAME>U.S. Commercial Service - Cape Town</OFFICENAME>
+        <CTRNUMBER>1286</CTRNUMBER>
+        <COUNTRYID name="South Africa">710</COUNTRYID>
+        <EMAIL>cape.town.office.box@trade.gov</EMAIL>
+        <FAX>(27-21) 702-7402</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(27-21) 702-7300</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>140</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Johannesburg</POST>
+        <OFFICENAME>U.S. Commercial Service - Johannesburg</OFFICENAME>
+        <CTRNUMBER>1286</CTRNUMBER>
+        <COUNTRYID name="South Africa">710</COUNTRYID>
+        <EMAIL>johannesburg.office.box@trade.gov</EMAIL>
+        <FAX>27 11 884 0253</FAX>
+        <MAIL_INSTR>Please note that shipments to the Washington, DC address will take approximately three weeks to arrive in South Africa.</MAIL_INSTR>
+        <PHONE>27 11 290 3120</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>140</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Hanoi</POST>
+        <OFFICENAME>U.S. Commercial Service - Hanoi</OFFICENAME>
+        <CTRNUMBER>1280</CTRNUMBER>
+        <COUNTRYID name="Vietnam">704</COUNTRYID>
+        <EMAIL>Office.Hanoi@trade.gov</EMAIL>
+        <FAX>011-84-4-3850-5064</FAX>
+        <MAIL_INSTR>For courier delivery, use the above street address; For pouch, use the above mailing address</MAIL_INSTR>
+        <PHONE>011-84-4-3850-5199</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>205</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Ho Chi Minh City</POST>
+        <OFFICENAME>U.S. Commercial Service - Ho Chi Minh City</OFFICENAME>
+        <CTRNUMBER>1280</CTRNUMBER>
+        <COUNTRYID name="Vietnam">704</COUNTRYID>
+        <EMAIL>Office.HoChiMinhCity@trade.gov</EMAIL>
+        <FAX>011-84-8-3520-4679 / 81</FAX>
+        <MAIL_INSTR>For courier delivery, use the above street address; For pouch, use the above mailing address</MAIL_INSTR>
+        <PHONE>011-84-8-3520-4680</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>205</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Bratislava</POST>
+        <OFFICENAME>U.S. Commercial Service - Bratislava</OFFICENAME>
+        <CTRNUMBER>1569</CTRNUMBER>
+        <COUNTRYID name="Slovak Republic">703</COUNTRYID>
+        <EMAIL>Office.Bratislava@trade.gov</EMAIL>
+        <FAX>+421 2 5922 3345</FAX>
+        <MAIL_INSTR>When sending mail to our local address or by courier service package (FedEx, DHL, etc.), please use the following address:  Americke Velvyslanectvo, U.S. Commercial Service, Hviezdoslavovo namestie 5, 811 02 Bratislava, Slovak Republic</MAIL_INSTR>
+        <PHONE>+421 2 5922 3222</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>95</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Singapore</POST>
+        <OFFICENAME>U.S. Commercial Service - Singapore</OFFICENAME>
+        <CTRNUMBER>1253</CTRNUMBER>
+        <COUNTRYID name="Singapore">702</COUNTRYID>
+        <EMAIL>office.singapore@trade.gov</EMAIL>
+        <FAX>65-6476-9080</FAX>
+        <MAIL_INSTR/>
+        <PHONE>65-6476-9037</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>215</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Dhahran</POST>
+        <OFFICENAME>U.S. Commercial Service - Dhahran</OFFICENAME>
+        <CTRNUMBER>1252</CTRNUMBER>
+        <COUNTRYID name="Saudi Arabia">682</COUNTRYID>
+        <EMAIL>Dhahran.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>966-3-330-2190</FAX>
+        <MAIL_INSTR/>
+        <PHONE>966-3-330-3200</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>150</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Riyadh</POST>
+        <OFFICENAME>U.S. Commercial Service - Riyadh</OFFICENAME>
+        <CTRNUMBER>1252</CTRNUMBER>
+        <COUNTRYID name="Saudi Arabia">682</COUNTRYID>
+        <EMAIL>Office.Riyadh@trade.gov</EMAIL>
+        <FAX>(+966-1) 488-3237</FAX>
+        <MAIL_INSTR>Work Week: Saturday - Wednesday</MAIL_INSTR>
+        <PHONE>(+966-1) 488-3800</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>150</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Jeddah</POST>
+        <OFFICENAME>U.S. Commercial Service - Jeddah</OFFICENAME>
+        <CTRNUMBER>1252</CTRNUMBER>
+        <COUNTRYID name="Saudi Arabia">682</COUNTRYID>
+        <EMAIL>Jeddah.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>966-2-664-4148</FAX>
+        <MAIL_INSTR/>
+        <PHONE>966-2-667-0080</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>150</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Moscow</POST>
+        <OFFICENAME>U.S. Commercial Service - Moscow</OFFICENAME>
+        <CTRNUMBER>1262</CTRNUMBER>
+        <COUNTRYID name="Russia">643</COUNTRYID>
+        <EMAIL>Moscow.Office.Box@trade.gov</EMAIL>
+        <FAX>7-495-728-5585</FAX>
+        <MAIL_INSTR>All couriered items should be sent via DHL - DO NOT USE FedEx</MAIL_INSTR>
+        <PHONE>7-495-728-5580</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>145</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Vladivostok</POST>
+        <OFFICENAME>U.S. Commercial Service - Vladivostok - CLOSED</OFFICENAME>
+        <CTRNUMBER>1262</CTRNUMBER>
+        <COUNTRYID name="Russia">643</COUNTRYID>
+        <EMAIL>Moscow.office.box@trade.gov</EMAIL>
+        <FAX>+7-495-728-5885</FAX>
+        <MAIL_INSTR>CS Vladivostok office was closed effective 12/30/2011.  Please contact CS Moscow for assistance.</MAIL_INSTR>
+        <PHONE>+7-495-728-5880</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>270</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>St. Petersburg</POST>
+        <OFFICENAME>U.S. Commercial Service - St. Petersburg</OFFICENAME>
+        <CTRNUMBER>1262</CTRNUMBER>
+        <COUNTRYID name="Russia">643</COUNTRYID>
+        <EMAIL>StPetersburg.Office.Box@trade.gov</EMAIL>
+        <FAX>7-812-326-2561</FAX>
+        <MAIL_INSTR>(Packages sent by UPS, FEDEX, DHL, etc should be sent via:  American Embassy, GSO Warehouse Takoraudantie 4 00700 Helsinki, Finland (for American Consulate General St. Petersburg, FCS)</MAIL_INSTR>
+        <PHONE>7-812-326-2560</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>145</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Bucharest</POST>
+        <OFFICENAME>U.S. Commercial Service - Bucharest</OFFICENAME>
+        <CTRNUMBER>1251</CTRNUMBER>
+        <COUNTRYID name="Romania">642</COUNTRYID>
+        <EMAIL>office.bucharest@trade.gov</EMAIL>
+        <FAX>(40-21) 316-0690</FAX>
+        <MAIL_INSTR>Courier delivery using the above Street Address; by pouch using the above Mailing address.</MAIL_INSTR>
+        <PHONE>(40-21) 200-3372</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>115</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Doha</POST>
+        <OFFICENAME>U.S. Commercial Service - Doha</OFFICENAME>
+        <CTRNUMBER>1297</CTRNUMBER>
+        <COUNTRYID name="Qatar">634</COUNTRYID>
+        <EMAIL>Robert.Dunn@trade.gov</EMAIL>
+        <FAX>974-4488-4163</FAX>
+        <MAIL_INSTR/>
+        <PHONE>974-4496-6000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>155</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Lisbon</POST>
+        <OFFICENAME>U.S. Commercial Service - Lisbon</OFFICENAME>
+        <CTRNUMBER>1250</CTRNUMBER>
+        <COUNTRYID name="Portugal">620</COUNTRYID>
+        <EMAIL>lisbon.office.box@mail.doc.gov</EMAIL>
+        <FAX>011-351-21-726-8914</FAX>
+        <MAIL_INSTR>When using courier, please use DHL or UPS to the street address</MAIL_INSTR>
+        <PHONE>011-351-21-770 2528 / 727 3300</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>85</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Warsaw</POST>
+        <OFFICENAME>U.S. Commercial Service - Warsaw</OFFICENAME>
+        <CTRNUMBER>1249</CTRNUMBER>
+        <COUNTRYID name="Poland">616</COUNTRYID>
+        <EMAIL>Warsaw.Office.Box@trade.gov</EMAIL>
+        <FAX>48 22 621 6327</FAX>
+        <MAIL_INSTR/>
+        <PHONE>48 22 625 4374</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>100</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Manila</POST>
+        <OFFICENAME>U.S. Commercial Service - Manila</OFFICENAME>
+        <CTRNUMBER>1248</CTRNUMBER>
+        <COUNTRYID name="Philippines">608</COUNTRYID>
+        <EMAIL>businessphilippines@trade.gov</EMAIL>
+        <FAX>011-632-521-0416</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-632-301-6366</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>215</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Lima</POST>
+        <OFFICENAME>U.S. Commercial Service - Lima</OFFICENAME>
+        <CTRNUMBER>1247</CTRNUMBER>
+        <COUNTRYID name="Peru">604</COUNTRYID>
+        <EMAIL>Lima.Office.Box@trade.gov</EMAIL>
+        <FAX>011-511-434-3041</FAX>
+        <MAIL_INSTR>We strongly prefer that you use US mail addressed to our DPO address.  For courier service, please use the street address.  Note:  for courier service, please specify that you are sending documents with no commercial value.  Thank you!</MAIL_INSTR>
+        <PHONE>011-511-434-3040 / 618-2442</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>45</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Panama City</POST>
+        <OFFICENAME>U.S. Commercial Service - Panama City</OFFICENAME>
+        <CTRNUMBER>1246</CTRNUMBER>
+        <COUNTRYID name="Panama">591</COUNTRYID>
+        <EMAIL>enrique.tellez@trade.gov</EMAIL>
+        <FAX>(507) 317-5573</FAX>
+        <MAIL_INSTR>For courier street address, for regular mail from any post  the mailing address</MAIL_INSTR>
+        <PHONE>(507) 317-5000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>45</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Islamabad</POST>
+        <OFFICENAME>U.S. Commercial Service - Islamabad</OFFICENAME>
+        <CTRNUMBER>1245</CTRNUMBER>
+        <COUNTRYID name="Pakistan">586</COUNTRYID>
+        <EMAIL>Tariq.Sayeed@mail.doc.gov</EMAIL>
+        <FAX>92-51-282-3981</FAX>
+        <MAIL_INSTR>Use APO address for regular mail.  FEDEX to the street address.      Work Week: Monday - Friday</MAIL_INSTR>
+        <PHONE>92-51-2080-2530</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>185</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Lahore</POST>
+        <OFFICENAME>U.S. Commercial Service - Lahore</OFFICENAME>
+        <CTRNUMBER>1245</CTRNUMBER>
+        <COUNTRYID name="Pakistan">586</COUNTRYID>
+        <EMAIL>Aftab.Qamar@mail.doc.gov</EMAIL>
+        <FAX>92-42-603-4229</FAX>
+        <MAIL_INSTR>Mail APO care of SCO in Islamabad.</MAIL_INSTR>
+        <PHONE>92-42-603-4000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>185</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Karachi</POST>
+        <OFFICENAME>U.S. Commercial Service - Karachi</OFFICENAME>
+        <CTRNUMBER>1245</CTRNUMBER>
+        <COUNTRYID name="Pakistan">586</COUNTRYID>
+        <EMAIL>Malik.Attiq@trade.gov</EMAIL>
+        <FAX>92-21-3561-2413</FAX>
+        <MAIL_INSTR>Mail care of SCO in Islamabad</MAIL_INSTR>
+        <PHONE>92-21-3527-5017</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>185</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Oslo</POST>
+        <OFFICENAME>U.S. Commercial Service - Oslo</OFFICENAME>
+        <CTRNUMBER>1244</CTRNUMBER>
+        <COUNTRYID name="Norway">578</COUNTRYID>
+        <EMAIL>office.oslo@trade.gov</EMAIL>
+        <FAX>n/a</FAX>
+        <MAIL_INSTR>http://export.gov/norway/</MAIL_INSTR>
+        <PHONE>(47) 21 30 88 66</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Lagos</POST>
+        <OFFICENAME>U.S. Commercial Service - Lagos</OFFICENAME>
+        <CTRNUMBER>1243</CTRNUMBER>
+        <COUNTRYID name="Nigeria">566</COUNTRYID>
+        <EMAIL>Lagos.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>N/A</FAX>
+        <MAIL_INSTR>U.S. Mail, Courier services (e.g. Fedex, UPS) accepted.   Package size/weight restrictions.</MAIL_INSTR>
+        <PHONE>011-234-1 460-3581</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>113</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Wellington</POST>
+        <OFFICENAME>U.S. Commercial Service - Wellington</OFFICENAME>
+        <CTRNUMBER>1242</CTRNUMBER>
+        <COUNTRYID name="New Zealand">554</COUNTRYID>
+        <EMAIL>Office.Wellington@trade.gov</EMAIL>
+        <FAX>011-644-473-0770</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-644-462-6002</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>290</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>The Hague</POST>
+        <OFFICENAME>U.S. Commercial Service - The Hague</OFFICENAME>
+        <CTRNUMBER>1241</CTRNUMBER>
+        <COUNTRYID name="Netherlands">528</COUNTRYID>
+        <EMAIL>Office.Thehague@trade.gov</EMAIL>
+        <FAX>N/A</FAX>
+        <MAIL_INSTR/>
+        <PHONE>+31-70-3102417</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Casablanca</POST>
+        <OFFICENAME>U.S. Commercial Service - Casablanca</OFFICENAME>
+        <CTRNUMBER>1240</CTRNUMBER>
+        <COUNTRYID name="Morocco">504</COUNTRYID>
+        <EMAIL>Casablanca.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>212-522-22-02-59</FAX>
+        <MAIL_INSTR/>
+        <PHONE>212-522-26-45-50</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>90</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Guadalajara</POST>
+        <OFFICENAME>U.S. Commercial Service - Guadalajara</OFFICENAME>
+        <CTRNUMBER>1239</CTRNUMBER>
+        <COUNTRYID name="Mexico">484</COUNTRYID>
+        <EMAIL>guadalajara.office.box@mail.doc.gov</EMAIL>
+        <FAX>52-33-3615-7665</FAX>
+        <MAIL_INSTR>Send promotional materials for Gold Keys, IPSs, shows, missions, etc. via express mail courier service to the street address.  Do not use the Laredo address.  Specify "no commercial value" on the mailing label.</MAIL_INSTR>
+        <PHONE>52-33-3615-1140</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>30</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Monterrey</POST>
+        <OFFICENAME>U.S. Commercial Service - Monterrey</OFFICENAME>
+        <CTRNUMBER>1239</CTRNUMBER>
+        <COUNTRYID name="Mexico">484</COUNTRYID>
+        <EMAIL>John.Howell@trade.gov</EMAIL>
+        <FAX>(52-81) 8047-3788</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(52-81) 8047-3223</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>30</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Mexico City</POST>
+        <OFFICENAME>U.S. Commercial Service - Mexico City</OFFICENAME>
+        <CTRNUMBER>1239</CTRNUMBER>
+        <COUNTRYID name="Mexico">484</COUNTRYID>
+        <EMAIL>office.mexico@mail.doc.gov</EMAIL>
+        <FAX>52-55-5566-1115</FAX>
+        <MAIL_INSTR>All promotional materials for Gold Keys, missions, IPSs, shows, etc. should be sent to the street address using a courier service. Using regular mail or the P.O Box address will delay delivery.  On mailing label, claim "no commercial value."</MAIL_INSTR>
+        <PHONE>52-55-5140-2600</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>30</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Kuala Lumpur</POST>
+        <OFFICENAME>U.S. Commercial Service - Kuala Lumpur</OFFICENAME>
+        <CTRNUMBER>1238</CTRNUMBER>
+        <COUNTRYID name="Malaysia">458</COUNTRYID>
+        <EMAIL>Kuala.Lumpur.Office.Box@trade.gov</EMAIL>
+        <FAX>60-3-2142-1866</FAX>
+        <MAIL_INSTR>Work Week: Monday - Friday</MAIL_INSTR>
+        <PHONE>60-3-2168-5000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>215</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tripoli</POST>
+        <OFFICENAME>U.S. Commercial Service - Tripoli</OFFICENAME>
+        <CTRNUMBER>1588</CTRNUMBER>
+        <COUNTRYID name="Libya">434</COUNTRYID>
+        <EMAIL>Fathi.Hamidan@trade.gov</EMAIL>
+        <FAX>218-21-3622456</FAX>
+        <MAIL_INSTR>Contact Post for appropriate mailing address</MAIL_INSTR>
+        <PHONE>218-913690680</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>120</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Beirut</POST>
+        <OFFICENAME>U.S. Commercial Service - Beirut</OFFICENAME>
+        <CTRNUMBER>1291</CTRNUMBER>
+        <COUNTRYID name="Lebanon">422</COUNTRYID>
+        <EMAIL>Naaman.Tayyar@trade.gov</EMAIL>
+        <FAX>961-4-541-788</FAX>
+        <MAIL_INSTR>Work Week: Monday - Friday</MAIL_INSTR>
+        <PHONE>961-4-544-860</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>130</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Kuwait City</POST>
+        <OFFICENAME>U.S. Commercial Service - Kuwait City</OFFICENAME>
+        <CTRNUMBER>1236</CTRNUMBER>
+        <COUNTRYID name="Kuwait">414</COUNTRYID>
+        <EMAIL>kuwait.city.office.box@trade.gov</EMAIL>
+        <FAX>965 2259-1271</FAX>
+        <MAIL_INSTR>Work Week: Sunday-Thursday    EST + 8 (winter) or est+ 7 (April-Oct)</MAIL_INSTR>
+        <PHONE>965 2259-1011</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>150</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Seoul</POST>
+        <OFFICENAME>U.S. Commercial Service - Seoul</OFFICENAME>
+        <CTRNUMBER>1235</CTRNUMBER>
+        <COUNTRYID name="Korea (South)">410</COUNTRYID>
+        <EMAIL>Office.Seoul@trade.gov</EMAIL>
+        <FAX>82-2-739-1628</FAX>
+        <MAIL_INSTR/>
+        <PHONE>82-2-397-4535</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>230</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Nairobi</POST>
+        <OFFICENAME>U.S. Commercial Service - Nairobi</OFFICENAME>
+        <CTRNUMBER>1234</CTRNUMBER>
+        <COUNTRYID name="Kenya">404</COUNTRYID>
+        <EMAIL>Office.Nairobi@trade.gov</EMAIL>
+        <FAX>254-20-363-6722</FAX>
+        <MAIL_INSTR/>
+        <PHONE>254-20-3636000 ext. 6424</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>155</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Amman</POST>
+        <OFFICENAME>U.S. Commercial Service - Amman</OFFICENAME>
+        <CTRNUMBER>1281</CTRNUMBER>
+        <COUNTRYID name="Jordan">400</COUNTRYID>
+        <EMAIL>office.amman@trade.gov</EMAIL>
+        <FAX>011-962-6-592-0146</FAX>
+        <MAIL_INSTR>Work Week: Sunday - Thursday</MAIL_INSTR>
+        <PHONE>011-962-6-590-6632</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>135</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Almaty</POST>
+        <OFFICENAME>U.S. Commercial Service - Almaty</OFFICENAME>
+        <CTRNUMBER>1558</CTRNUMBER>
+        <COUNTRYID name="Kazakhstan">398</COUNTRYID>
+        <EMAIL>office.almaty@trade.gov</EMAIL>
+        <FAX>7-727-250-0777</FAX>
+        <MAIL_INSTR>Send items to US mailing address if at all possible. We incur high brokerage fees for courier shipments to our Almaty address.</MAIL_INSTR>
+        <PHONE>7 (727) 727-250-7612, ext 6490</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>195</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Nagoya</POST>
+        <OFFICENAME>U.S. Commercial Service - Nagoya</OFFICENAME>
+        <CTRNUMBER>1233</CTRNUMBER>
+        <COUNTRYID name="Japan">392</COUNTRYID>
+        <EMAIL>Closed</EMAIL>
+        <FAX>Closed</FAX>
+        <MAIL_INSTR/>
+        <PHONE>Closed</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>235</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tokyo</POST>
+        <OFFICENAME>U.S. Commercial Service - Tokyo</OFFICENAME>
+        <CTRNUMBER>1233</CTRNUMBER>
+        <COUNTRYID name="Japan">392</COUNTRYID>
+        <EMAIL>Office.Tokyo@trade.gov</EMAIL>
+        <FAX>81-3-3589-4235</FAX>
+        <MAIL_INSTR/>
+        <PHONE>81-3-3224-5060</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>235</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Sapporo</POST>
+        <OFFICENAME>U.S. Commercial Service - Sapporo</OFFICENAME>
+        <CTRNUMBER>1233</CTRNUMBER>
+        <COUNTRYID name="Japan">392</COUNTRYID>
+        <EMAIL>Closed</EMAIL>
+        <FAX>Closed</FAX>
+        <MAIL_INSTR/>
+        <PHONE>Closed</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>235</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Osaka-Kobe</POST>
+        <OFFICENAME>U.S. Commercial Service - Osaka-Kobe</OFFICENAME>
+        <CTRNUMBER>1233</CTRNUMBER>
+        <COUNTRYID name="Japan">392</COUNTRYID>
+        <EMAIL>Office.Osaka-Kobe@trade.gov</EMAIL>
+        <FAX>81-6-6315-5963</FAX>
+        <MAIL_INSTR>Regular post  or pouch mail using above Mailing Address, or international courier delivery using the above Street Address.</MAIL_INSTR>
+        <PHONE>81-6-6315-5957</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>235</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Milan</POST>
+        <OFFICENAME>U.S. Commercial Service - Milan</OFFICENAME>
+        <CTRNUMBER>1231</CTRNUMBER>
+        <COUNTRYID name="Italy">380</COUNTRYID>
+        <EMAIL>Michael.Richardson@trade.gov</EMAIL>
+        <FAX>011-39-02-659-6561</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-39-02-626-8851</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Rome</POST>
+        <OFFICENAME>U.S. Commercial Service - Rome</OFFICENAME>
+        <CTRNUMBER>1231</CTRNUMBER>
+        <COUNTRYID name="Italy">380</COUNTRYID>
+        <EMAIL>Office.Rome@trade.gov</EMAIL>
+        <FAX>011-39-06-4674-2113</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-39-06-4674-2382</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Jerusalem</POST>
+        <OFFICENAME>U.S. Commercial Service - West Bank</OFFICENAME>
+        <CTRNUMBER>1230</CTRNUMBER>
+        <COUNTRYID name="Israel">376</COUNTRYID>
+        <EMAIL>office.jerusalem@trade.gov</EMAIL>
+        <FAX>(972-2) 623-5132</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(972-2) 625-5201</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>135</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tel Aviv</POST>
+        <OFFICENAME>U.S. Commercial Service - Israel</OFFICENAME>
+        <CTRNUMBER>1230</CTRNUMBER>
+        <COUNTRYID name="Israel">376</COUNTRYID>
+        <EMAIL>office.telaviv@trade.gov</EMAIL>
+        <FAX>(972-3) 510-7215</FAX>
+        <MAIL_INSTR>Work Week: Monday - Friday</MAIL_INSTR>
+        <PHONE>(972-3) 519-7327</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>135</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Dublin</POST>
+        <OFFICENAME>U.S. Commercial Service - Dublin</OFFICENAME>
+        <CTRNUMBER>1295</CTRNUMBER>
+        <COUNTRYID name="Ireland">372</COUNTRYID>
+        <EMAIL>office.dublin@trade.gov</EMAIL>
+        <FAX>353-1-667-4754</FAX>
+        <MAIL_INSTR>For courier delivery, use street address.  For sending regular mail, use mailing address.</MAIL_INSTR>
+        <PHONE>353-1-237-5850</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>85</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Baghdad</POST>
+        <OFFICENAME>U.S. Commercial Service - Baghdad</OFFICENAME>
+        <CTRNUMBER>1229</CTRNUMBER>
+        <COUNTRYID name="Iraq">368</COUNTRYID>
+        <EMAIL>Baghdad.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>n/a</FAX>
+        <MAIL_INSTR>ATTN:  Commercial Officer</MAIL_INSTR>
+        <PHONE>1-240-553-0581 x2223</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>158</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Jakarta</POST>
+        <OFFICENAME>U.S. Commercial Service - Jakarta</OFFICENAME>
+        <CTRNUMBER>1227</CTRNUMBER>
+        <COUNTRYID name="Indonesia">360</COUNTRYID>
+        <EMAIL>Jakarta.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>(62-21) 526-2855</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(62-21) 526-2850</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>205</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Surabaya</POST>
+        <OFFICENAME>Surabaya office is closed - Please see office Jakarta</OFFICENAME>
+        <CTRNUMBER>1227</CTRNUMBER>
+        <COUNTRYID name="Indonesia">360</COUNTRYID>
+        <EMAIL>Jakarta.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>62/21/526-2855</FAX>
+        <MAIL_INSTR/>
+        <PHONE>62/21/526-2850</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>205</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Ahmedabad</POST>
+        <OFFICENAME>U.S. Commercial Service - Ahmedabad</OFFICENAME>
+        <CTRNUMBER>1226</CTRNUMBER>
+        <COUNTRYID name="India">356</COUNTRYID>
+        <EMAIL>office.ahmedabad@trade.gov</EMAIL>
+        <FAX>91-79-2656-0763</FAX>
+        <MAIL_INSTR/>
+        <PHONE>91-79- 2656-5210 / 2656-5216</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>190</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>New Delhi</POST>
+        <OFFICENAME>U.S. Commercial Service - New Delhi</OFFICENAME>
+        <CTRNUMBER>1226</CTRNUMBER>
+        <COUNTRYID name="India">356</COUNTRYID>
+        <EMAIL>office.newdelhi@trade.gov</EMAIL>
+        <FAX>91-11-2331 5172</FAX>
+        <MAIL_INSTR/>
+        <PHONE>91-11-23472000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>190</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Mumbai</POST>
+        <OFFICENAME>U.S. Commercial Service - Mumbai</OFFICENAME>
+        <CTRNUMBER>1226</CTRNUMBER>
+        <COUNTRYID name="India">356</COUNTRYID>
+        <EMAIL>office.mumbai@trade.gov</EMAIL>
+        <FAX>91-22-2672 4400</FAX>
+        <MAIL_INSTR/>
+        <PHONE>91-22-2672 4000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>190</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Kolkata</POST>
+        <OFFICENAME>U.S. Commercial Service - Kolkata (Calcutta)</OFFICENAME>
+        <CTRNUMBER>1226</CTRNUMBER>
+        <COUNTRYID name="India">356</COUNTRYID>
+        <EMAIL>office.calcutta@trade.gov</EMAIL>
+        <FAX>91-33-2288-1207</FAX>
+        <MAIL_INSTR/>
+        <PHONE>91-33-2288-1200</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>190</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Hyderabad</POST>
+        <OFFICENAME>U.S. Commercial Service - Hyderabad</OFFICENAME>
+        <CTRNUMBER>1226</CTRNUMBER>
+        <COUNTRYID name="India">356</COUNTRYID>
+        <EMAIL>office.hyderabad@trade.gov</EMAIL>
+        <FAX>91-40 2330-0130</FAX>
+        <MAIL_INSTR/>
+        <PHONE>91-40 2330-5000; 98480-53770</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>190</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Chennai</POST>
+        <OFFICENAME>U.S. Commercial Service - Chennai</OFFICENAME>
+        <CTRNUMBER>1226</CTRNUMBER>
+        <COUNTRYID name="India">356</COUNTRYID>
+        <EMAIL>office.chennai@trade.gov</EMAIL>
+        <FAX>91-44-2857-4212</FAX>
+        <MAIL_INSTR/>
+        <PHONE>91-44-2857-4477</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>190</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Bangalore</POST>
+        <OFFICENAME>U.S. Commercial Service - Bangalore</OFFICENAME>
+        <CTRNUMBER>1226</CTRNUMBER>
+        <COUNTRYID name="India">356</COUNTRYID>
+        <EMAIL>office.bangalore@trade.gov</EMAIL>
+        <FAX>91-80-2220-6405</FAX>
+        <MAIL_INSTR/>
+        <PHONE>91-80-2220 6401</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>190</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Budapest</POST>
+        <OFFICENAME>U.S. Commercial Service - Budapest</OFFICENAME>
+        <CTRNUMBER>1225</CTRNUMBER>
+        <COUNTRYID name="Hungary">348</COUNTRYID>
+        <EMAIL>Office.Budapest@trade.gov</EMAIL>
+        <FAX>011-36-1-475-4676</FAX>
+        <MAIL_INSTR>Please note that if the Washington DC address is used, expect 3-4 weeks for delivery.  For courier service, please use the Budapest address.</MAIL_INSTR>
+        <PHONE>011-36-1-475-4090</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Hong Kong</POST>
+        <OFFICENAME>U.S. Commercial Service - Hong Kong</OFFICENAME>
+        <CTRNUMBER>1224</CTRNUMBER>
+        <COUNTRYID name="Hong Kong">344</COUNTRYID>
+        <EMAIL>office.hongkong@trade.gov</EMAIL>
+        <FAX>011-852-2845-9800</FAX>
+        <MAIL_INSTR>For courier delivery, use the street address.  For sending regular mail or pouch, use the mailing address from U.S.</MAIL_INSTR>
+        <PHONE>011-852-2521-1467</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>210</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tegucigalpa</POST>
+        <OFFICENAME>U.S. Commercial Service Tegucigalpa - GBI Post</OFFICENAME>
+        <CTRNUMBER>1223</CTRNUMBER>
+        <COUNTRYID name="Honduras">340</COUNTRYID>
+        <EMAIL>Office.Tegucigalpa@trade.gov</EMAIL>
+        <FAX>011-504-2238-2888</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-504-2236-9320</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>33</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Guatemala City</POST>
+        <OFFICENAME>U.S. Commercial Service - Guatemala City- GBI Post</OFFICENAME>
+        <CTRNUMBER>1222</CTRNUMBER>
+        <COUNTRYID name="Guatemala">320</COUNTRYID>
+        <EMAIL>Office.Guatemala@trade.gov</EMAIL>
+        <FAX>011-502-2331-7373</FAX>
+        <MAIL_INSTR>Send brochures ONLY via USPS to DPO.  Other methods may result in delay or high customs charges.  Please put PRIORITY for any USPS mail.</MAIL_INSTR>
+        <PHONE>011-502-2326-4000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>33</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Athens</POST>
+        <OFFICENAME>U.S. Commercial Service - Athens</OFFICENAME>
+        <CTRNUMBER>1221</CTRNUMBER>
+        <COUNTRYID name="Greece">300</COUNTRYID>
+        <EMAIL>Office.Athens@trade.gov</EMAIL>
+        <FAX>30/210/721-8660</FAX>
+        <MAIL_INSTR>For  courier mail use street address;  For mailing other than from the U.S. use street address but do not/do not send packages to the att. of FSNs.</MAIL_INSTR>
+        <PHONE>30/210/720-2303 or 720-2302</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>130</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Accra</POST>
+        <OFFICENAME>U.S. Commercial Service - Accra</OFFICENAME>
+        <CTRNUMBER>1220</CTRNUMBER>
+        <COUNTRYID name="Ghana">288</COUNTRYID>
+        <EMAIL>accra.office.box@mail.doc.gov</EMAIL>
+        <FAX>233-302-741401</FAX>
+        <MAIL_INSTR/>
+        <PHONE>233-302-741870 / 741329</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>85</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Berlin</POST>
+        <OFFICENAME>U.S. Commercial Service - Berlin</OFFICENAME>
+        <CTRNUMBER>1219</CTRNUMBER>
+        <COUNTRYID name="Germany">276</COUNTRYID>
+        <EMAIL>Office.Berlin@trade.gov</EMAIL>
+        <FAX>49-30-8305-1949</FAX>
+        <MAIL_INSTR>Use APO address whenever possible</MAIL_INSTR>
+        <PHONE>49-30-8305-1940</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Munich</POST>
+        <OFFICENAME>U.S. Commercial Service - Munich</OFFICENAME>
+        <CTRNUMBER>1219</CTRNUMBER>
+        <COUNTRYID name="Germany">276</COUNTRYID>
+        <EMAIL>office.munich@trade.gov</EMAIL>
+        <FAX>49-89-28 52 61</FAX>
+        <MAIL_INSTR/>
+        <PHONE>49-89-2888-754</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Frankfurt</POST>
+        <OFFICENAME>U.S. Commercial Service - Frankfurt</OFFICENAME>
+        <CTRNUMBER>1219</CTRNUMBER>
+        <COUNTRYID name="Germany">276</COUNTRYID>
+        <EMAIL>Frankfurt.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>49-69-7535-3171</FAX>
+        <MAIL_INSTR/>
+        <PHONE>49-69-7535-3120</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Dusseldorf</POST>
+        <OFFICENAME>U.S. Commercial Service - Dusseldorf</OFFICENAME>
+        <CTRNUMBER>1219</CTRNUMBER>
+        <COUNTRYID name="Germany">276</COUNTRYID>
+        <EMAIL>Dusseldorf.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>49-211-737-767-67</FAX>
+        <MAIL_INSTR/>
+        <PHONE>49-211-737-767-0</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Paris</POST>
+        <OFFICENAME>U.S. Commercial Service - Paris</OFFICENAME>
+        <CTRNUMBER>1218</CTRNUMBER>
+        <COUNTRYID name="France">250</COUNTRYID>
+        <EMAIL>Paris.Office.Box@trade.gov</EMAIL>
+        <FAX>[33] (0)1 43 12 70 50</FAX>
+        <MAIL_INSTR/>
+        <PHONE>[33] (0)1 43 12 70 57</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Helsinki</POST>
+        <OFFICENAME>U.S. Commercial Service - Helsinki</OFFICENAME>
+        <CTRNUMBER>1217</CTRNUMBER>
+        <COUNTRYID name="Finland">246</COUNTRYID>
+        <EMAIL>helsinki.office.box@mail.doc.gov</EMAIL>
+        <FAX>(358) 9 616 25130</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(358) 9 616 250</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>125</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>San Salvador</POST>
+        <OFFICENAME>U.S. Commercial Service San Salvador - GBI Post</OFFICENAME>
+        <CTRNUMBER>1278</CTRNUMBER>
+        <COUNTRYID name="El Salvador">222</COUNTRYID>
+        <EMAIL>office.sansalvador@trade.gov</EMAIL>
+        <FAX>(503) 2501-3067 or  2298-0711</FAX>
+        <MAIL_INSTR>Courier services must be addressed to the local Street Address, Attention FCS Office</MAIL_INSTR>
+        <PHONE>(503) 2501-3211</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>33</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Santo Domingo</POST>
+        <OFFICENAME>U.S. Commercial Service - Santo Domingo</OFFICENAME>
+        <CTRNUMBER>1214</CTRNUMBER>
+        <COUNTRYID name="Dominican Republic">214</COUNTRYID>
+        <EMAIL>office.santodomingo@trade.gov</EMAIL>
+        <FAX>1 809-920-0267</FAX>
+        <MAIL_INSTR>Use weight and space restrictions for APO.</MAIL_INSTR>
+        <PHONE>1 809-227-2121</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>55</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Copenhagen</POST>
+        <OFFICENAME>U.S. Commercial Service - Copenhagen</OFFICENAME>
+        <CTRNUMBER>1213</CTRNUMBER>
+        <COUNTRYID name="Denmark">208</COUNTRYID>
+        <EMAIL>Copenhagen.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>011-45-35420175</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-45-33417100</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Prague</POST>
+        <OFFICENAME>U.S. Commercial Service - Prague</OFFICENAME>
+        <CTRNUMBER>1212</CTRNUMBER>
+        <COUNTRYID name="Czech Republic">203</COUNTRYID>
+        <EMAIL>Office.Prague@trade.gov</EMAIL>
+        <FAX>420-257-02-2810</FAX>
+        <MAIL_INSTR>For courier/express deliveries, use street address. Mailing address from the U.S. is for official post only, but takes 2-3 weeks for delivery.</MAIL_INSTR>
+        <PHONE>420-257-022-434</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>95</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Zagreb</POST>
+        <OFFICENAME>U.S. Commercial Service - Zagreb</OFFICENAME>
+        <CTRNUMBER>1555</CTRNUMBER>
+        <COUNTRYID name="Croatia">191</COUNTRYID>
+        <EMAIL>Zagreb.Office.Box@trade.gov</EMAIL>
+        <FAX>011-385-1-661-2446</FAX>
+        <MAIL_INSTR>Please allow three weeks if using the above State Dept pouch address</MAIL_INSTR>
+        <PHONE>011-385-1-661-2224</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>100</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>San Jose</POST>
+        <OFFICENAME>U.S. Commercial Service - San Jose</OFFICENAME>
+        <CTRNUMBER>1211</CTRNUMBER>
+        <COUNTRYID name="Costa Rica">188</COUNTRYID>
+        <EMAIL>San.JoseCR.Office.Box@trade.gov</EMAIL>
+        <FAX>506-2231-4783</FAX>
+        <MAIL_INSTR>If sent via UPS or Fedex,  please write down "Diplomatic Cargo" (to avoid import duties and waiting time on delivery)</MAIL_INSTR>
+        <PHONE>506 2519-2000 or 2220-2454</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>33</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Bogota</POST>
+        <OFFICENAME>U.S. Commercial Service - Bogota; GBI Post</OFFICENAME>
+        <CTRNUMBER>1210</CTRNUMBER>
+        <COUNTRYID name="Colombia">170</COUNTRYID>
+        <EMAIL>Office.Bogota@trade.gov</EMAIL>
+        <FAX>011 571 275 4575 / 275 4575</FAX>
+        <MAIL_INSTR>Use US Priority mail.  Do not use a courier</MAIL_INSTR>
+        <PHONE>011 571 275 2519</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>45</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Kaohsiung</POST>
+        <OFFICENAME>American Institute in Taiwan - Kaohsiung</OFFICENAME>
+        <CTRNUMBER>1268</CTRNUMBER>
+        <COUNTRYID name="Taiwan">158</COUNTRYID>
+        <EMAIL>Office.Kaohsiung@trade.gov</EMAIL>
+        <FAX>011-886-7-238-5237</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-886-7-238-7744</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>220</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Taipei</POST>
+        <OFFICENAME>American Institute in Taiwan - Taipei</OFFICENAME>
+        <CTRNUMBER>1268</CTRNUMBER>
+        <COUNTRYID name="Taiwan">158</COUNTRYID>
+        <EMAIL>Office.Taipei@trade.gov</EMAIL>
+        <FAX>+886-2-2757-7162</FAX>
+        <MAIL_INSTR/>
+        <PHONE>+886-2-2720-1550</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>220</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Wuhan</POST>
+        <OFFICENAME>U.S. Commercial Service - Wuhan</OFFICENAME>
+        <CTRNUMBER>1267</CTRNUMBER>
+        <COUNTRYID name="China">156</COUNTRYID>
+        <EMAIL>-</EMAIL>
+        <FAX>86-27-8555-7545</FAX>
+        <MAIL_INSTR>FPO mail will continue to be forwarded VIA Beijing</MAIL_INSTR>
+        <PHONE>86-27-8555-7725; 8555-7752</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>210</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Shenyang</POST>
+        <OFFICENAME>U.S. Commercial Service - Shenyang</OFFICENAME>
+        <CTRNUMBER>1267</CTRNUMBER>
+        <COUNTRYID name="China">156</COUNTRYID>
+        <EMAIL>Cathy.Feig@mail.doc.gov</EMAIL>
+        <FAX>011-86-24-2322-2206</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-86-24-2322-1198</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>210</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Shanghai</POST>
+        <OFFICENAME>U.S. Commercial Service - Shanghai</OFFICENAME>
+        <CTRNUMBER>1267</CTRNUMBER>
+        <COUNTRYID name="China">156</COUNTRYID>
+        <EMAIL>office.shanghai@trade.gov</EMAIL>
+        <FAX>011-86-21-6279-7639</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-86-21-6279-7630</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>210</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Guangzhou</POST>
+        <OFFICENAME>U.S. Commercial Service - Guangzhou</OFFICENAME>
+        <CTRNUMBER>1267</CTRNUMBER>
+        <COUNTRYID name="China">156</COUNTRYID>
+        <EMAIL>office.guangzhou@trade.gov</EMAIL>
+        <FAX>011-86-20-3814-5353</FAX>
+        <MAIL_INSTR>Please mail via courier to street address if possible.  Packages send to Washington mailing address takes at least two weeks to arrive.</MAIL_INSTR>
+        <PHONE>011-86-20-3814-5000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>210</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Chengdu</POST>
+        <OFFICENAME>U.S. Commercial Service - Chengdu</OFFICENAME>
+        <CTRNUMBER>1267</CTRNUMBER>
+        <COUNTRYID name="China">156</COUNTRYID>
+        <EMAIL>Office.Chengdu@trade.gov</EMAIL>
+        <FAX>+86 28 85589221</FAX>
+        <MAIL_INSTR/>
+        <PHONE>+86 28 85583992</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>210</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Beijing</POST>
+        <OFFICENAME>U.S. Commercial Service - Beijing</OFFICENAME>
+        <CTRNUMBER>1267</CTRNUMBER>
+        <COUNTRYID name="China">156</COUNTRYID>
+        <EMAIL>Beijing.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>(86-10) 8531-3701</FAX>
+        <MAIL_INSTR/>
+        <PHONE>(86-10) 8531-3000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>210</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Santiago</POST>
+        <OFFICENAME>U.S. Commercial Service - Santiago</OFFICENAME>
+        <CTRNUMBER>1209</CTRNUMBER>
+        <COUNTRYID name="Chile">152</COUNTRYID>
+        <EMAIL>Santiago.Office.Box@trade.gov</EMAIL>
+        <FAX>011-56-22-330-3172</FAX>
+        <MAIL_INSTR>Send brochures ONLY via USPS to DPO.  Other methods may result in delay or high customs charges.  Please put PRIORITY for any USPS mail.</MAIL_INSTR>
+        <PHONE>011-56-22-330-3316</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>56</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Calgary</POST>
+        <OFFICENAME>U.S. Commercial Service - Calgary (GBI Post)</OFFICENAME>
+        <CTRNUMBER>1208</CTRNUMBER>
+        <COUNTRYID name="Canada">124</COUNTRYID>
+        <EMAIL>Office.Calgary@trade.gov</EMAIL>
+        <FAX>403-266-4743</FAX>
+        <MAIL_INSTR/>
+        <PHONE>403-265-2116</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Toronto</POST>
+        <OFFICENAME>U.S. Commercial Service - Toronto</OFFICENAME>
+        <CTRNUMBER>1208</CTRNUMBER>
+        <COUNTRYID name="Canada">124</COUNTRYID>
+        <EMAIL>Office.Toronto@trade.gov</EMAIL>
+        <FAX>(416) 595-5419</FAX>
+        <MAIL_INSTR>For courier delivery, use the street address.  For sending regular mail, use the U.S. mailing address.</MAIL_INSTR>
+        <PHONE>(416) 595-5412</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Ottawa</POST>
+        <OFFICENAME>U.S. Commercial Service - Ottawa</OFFICENAME>
+        <CTRNUMBER>1208</CTRNUMBER>
+        <COUNTRYID name="Canada">124</COUNTRYID>
+        <EMAIL>Office.Ottawa@trade.gov</EMAIL>
+        <FAX>613/238-5999</FAX>
+        <MAIL_INSTR/>
+        <PHONE>613/688-5217</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Montreal</POST>
+        <OFFICENAME>U.S. Commercial Service - Montreal</OFFICENAME>
+        <CTRNUMBER>1208</CTRNUMBER>
+        <COUNTRYID name="Canada">124</COUNTRYID>
+        <EMAIL>Office.Montreal@trade.gov</EMAIL>
+        <FAX>514-398-0711</FAX>
+        <MAIL_INSTR/>
+        <PHONE>514-398-9695, ext. 2220</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Minsk</POST>
+        <OFFICENAME>U.S. Commercial Service - Minsk</OFFICENAME>
+        <CTRNUMBER>1553</CTRNUMBER>
+        <COUNTRYID name="Belarus">112</COUNTRYID>
+        <EMAIL>cary.freeman@trade.gov</EMAIL>
+        <FAX>office closed</FAX>
+        <MAIL_INSTR/>
+        <PHONE>office closed</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>130</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Sofia</POST>
+        <OFFICENAME>U.S. Commercial Service - Sofia</OFFICENAME>
+        <CTRNUMBER>1274</CTRNUMBER>
+        <COUNTRYID name="Bulgaria">100</COUNTRYID>
+        <EMAIL>Office.Sofia@trade.gov</EMAIL>
+        <FAX>359-2-939-5735</FAX>
+        <MAIL_INSTR>Postage for both Pouch and APO is U.S. domestic mail rate.</MAIL_INSTR>
+        <PHONE>359-2-939-5784</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>125</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Belo Horizonte</POST>
+        <OFFICENAME>U.S. Commercial Service - Belo Horizonte</OFFICENAME>
+        <CTRNUMBER>1207</CTRNUMBER>
+        <COUNTRYID name="Brazil">076</COUNTRYID>
+        <EMAIL>Office.BeloHorizonte@trade.gov</EMAIL>
+        <FAX>55-31-3213-1575</FAX>
+        <MAIL_INSTR/>
+        <PHONE>55-31-3213-1571</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>65</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Sao Paulo</POST>
+        <OFFICENAME>U.S. Commercial Service - São Paulo</OFFICENAME>
+        <CTRNUMBER>1207</CTRNUMBER>
+        <COUNTRYID name="Brazil">076</COUNTRYID>
+        <EMAIL>Office.SaoPaulo@trade.gov</EMAIL>
+        <FAX>55/11/3250-5399</FAX>
+        <MAIL_INSTR/>
+        <PHONE>55/11/3250-5172</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>65</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Rio De Janeiro</POST>
+        <OFFICENAME>U.S. Commercial Service - Rio de Janeiro</OFFICENAME>
+        <CTRNUMBER>1207</CTRNUMBER>
+        <COUNTRYID name="Brazil">076</COUNTRYID>
+        <EMAIL>Office.riodejaneiro@trade.gov</EMAIL>
+        <FAX>55-21-3823-2424</FAX>
+        <MAIL_INSTR/>
+        <PHONE>55-21-3823-2000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>65</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Recife</POST>
+        <OFFICENAME>U.S. Commercial Service - Recife</OFFICENAME>
+        <CTRNUMBER>1207</CTRNUMBER>
+        <COUNTRYID name="Brazil">076</COUNTRYID>
+        <EMAIL>Office.Recife@trade.gov</EMAIL>
+        <FAX>55-81-3231-1906</FAX>
+        <MAIL_INSTR/>
+        <PHONE>55-81-3416-3063</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>65</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Brasilia</POST>
+        <OFFICENAME>U.S. Commercial Service - Brasilia</OFFICENAME>
+        <CTRNUMBER>1207</CTRNUMBER>
+        <COUNTRYID name="Brazil">076</COUNTRYID>
+        <EMAIL>Office.brasilia@trade.gov</EMAIL>
+        <FAX>55-61-312-7656</FAX>
+        <MAIL_INSTR/>
+        <PHONE>55-61-312-7418</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>65</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Brussels</POST>
+        <OFFICENAME>U.S. Commercial Service - Brussels</OFFICENAME>
+        <CTRNUMBER>1205</CTRNUMBER>
+        <COUNTRYID name="Belgium">056</COUNTRYID>
+        <EMAIL>Office.Brussels@trade.gov</EMAIL>
+        <FAX>011-32-2-512-6653</FAX>
+        <MAIL_INSTR>APO mail should be addressed to SCO</MAIL_INSTR>
+        <PHONE>011-32-2-811-5086</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Yerevan</POST>
+        <OFFICENAME>U.S. Commercial Service - Yerevan</OFFICENAME>
+        <CTRNUMBER>1551</CTRNUMBER>
+        <COUNTRYID name="Armenia">051</COUNTRYID>
+        <EMAIL>Yerevan.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>374-1-520-800</FAX>
+        <MAIL_INSTR/>
+        <PHONE>374-1-521-611</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>170</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Vienna</POST>
+        <OFFICENAME>U.S. Commercial Service - Vienna</OFFICENAME>
+        <CTRNUMBER>1204</CTRNUMBER>
+        <COUNTRYID name="Austria">040</COUNTRYID>
+        <EMAIL>office.vienna@trade.gov</EMAIL>
+        <FAX>011-43-1-310-6917</FAX>
+        <MAIL_INSTR>Please use the "street address" to mail any time-sensitive materials.  The Diplomatic Postal Office (DPO) uses domestic U.S. Postal Service rates but does not provide express delivery..</MAIL_INSTR>
+        <PHONE>011-43-1-313-39-2296</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>110</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Melbourne</POST>
+        <OFFICENAME>U.S. Commercial Service - Melbourne CLOSED</OFFICENAME>
+        <CTRNUMBER>1203</CTRNUMBER>
+        <COUNTRYID name="Australia">036</COUNTRYID>
+        <EMAIL>office.australia@trade.gov</EMAIL>
+        <FAX>1</FAX>
+        <MAIL_INSTR>As above.  Use street address if sending material via courier.</MAIL_INSTR>
+        <PHONE>1</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>255</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Sydney</POST>
+        <OFFICENAME>U.S. Commercial Service - Sydney</OFFICENAME>
+        <CTRNUMBER>1203</CTRNUMBER>
+        <COUNTRYID name="Australia">036</COUNTRYID>
+        <EMAIL>office.australia@trade.gov</EMAIL>
+        <FAX>011-61-2-9221-0573</FAX>
+        <MAIL_INSTR>As above. Use street address if sending material via courier.</MAIL_INSTR>
+        <PHONE>011-61-2-9373-9205</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>255</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Perth</POST>
+        <OFFICENAME>U.S. Commercial Service - Perth</OFFICENAME>
+        <CTRNUMBER>1203</CTRNUMBER>
+        <COUNTRYID name="Australia">036</COUNTRYID>
+        <EMAIL>office.australia@trade.gov</EMAIL>
+        <FAX>011-61-8-9231-9444</FAX>
+        <MAIL_INSTR/>
+        <PHONE>011-61-8-6144-5149</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>225</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Buenos Aires</POST>
+        <OFFICENAME>U.S. Commercial Service - Buenos Aires</OFFICENAME>
+        <CTRNUMBER>1202</CTRNUMBER>
+        <COUNTRYID name="Argentina">032</COUNTRYID>
+        <EMAIL>office.buenosaires@trade.gov</EMAIL>
+        <FAX>(54-11) 5777-4203</FAX>
+        <MAIL_INSTR>Please use the mailing address from U.S.</MAIL_INSTR>
+        <PHONE>(54-11) 5777-4753</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>70</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Algiers</POST>
+        <OFFICENAME>U.S. Commercial Service - Algiers</OFFICENAME>
+        <CTRNUMBER>1201</CTRNUMBER>
+        <COUNTRYID name="Algeria">012</COUNTRYID>
+        <EMAIL>algiers</EMAIL>
+        <FAX>+213-21-693-132</FAX>
+        <MAIL_INSTR/>
+        <PHONE>+213-770-082-000</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>105</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Kabul</POST>
+        <OFFICENAME>Afghanistan, Kabul US Embassy</OFFICENAME>
+        <CTRNUMBER>1582</CTRNUMBER>
+        <COUNTRYID name="Afghanistan">004</COUNTRYID>
+        <EMAIL>KoenigEW@state.gov</EMAIL>
+        <FAX>-</FAX>
+        <MAIL_INSTR>-</MAIL_INSTR>
+        <PHONE>+93 (0) 700-108-498</PHONE>
+        <POSTTYPE>F</POSTTYPE>
+        <TIMEZONE>175</TIMEZONE>
+    </POSTINFO>
+</POSTLIST>
+
