@@ -3,7 +3,7 @@ layout: default
 title: Developerportal by InternationalTradeAdministration
 ---
 
-# API Documentation Lite
+# API Documentation 
 
 
 ## Overview
