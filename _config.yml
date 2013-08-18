@@ -1,6 +1,6 @@
 name: Developer Portal
 pygments: true
-url: http://developer.trade.gov
+baseurl: /developerportal
 exclude:
   - .bundle
   - .git
