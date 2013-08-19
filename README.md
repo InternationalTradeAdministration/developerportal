@@ -1,8 +1,10 @@
 # International Trade Administration - Developer Portal
 
-View the site here: http://internationaltradeadministration.github.io/developerportal
+View the site here: http://developer.trade.gov
 
 This project includes the source code and content for the ITA Developer website.
+
+The goal of the project to expose ITA data sources to the public under a common taxonomy which allows for the the general public to more easily consume both trade and export information.
 
 ## Local Installation Requirements
 
