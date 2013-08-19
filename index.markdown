@@ -20,7 +20,7 @@ ITA currently provides access to seven data sets:
 * [Trade Events](#trade_events)
 * [Environmental Toolkit](#environmental_toolkit)
 
-### Static Endpoint
+### Static Endpoints
 
 * [ITA Office Locations](#office_locations)
 * [ITA Programs for Exporters](#programs)
