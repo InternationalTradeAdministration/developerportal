@@ -12,4 +12,8 @@ All ITA Programs for Exporters data can be accessed from [api.trade.gov/programs
 
 ## Other Formats
 
-The [ITA Programs for Exporters data model](/data/ita_programs.csv) is available as a CSV file, or you may view the [HTML](ITAPrograms.html).
+The ITA Office Locations data is available as either a CSV file or a JSON file:
+* [ITA Programs - CSV](/data/ita_programs.csv)
+* [ITA Programs - JSON](/data/ita_programs.json)
+
+You can also view the [ITA Programs as an html page](/data/ita_programs.csv).
