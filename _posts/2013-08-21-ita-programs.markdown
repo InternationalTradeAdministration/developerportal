@@ -1,5 +1,5 @@
 ---
-permalink: /ita-programs.html
+permalink: /docs/2013-08-21-ita-programs.html
 layout: default
 title: ITA Programs for Exporters
 ---
