@@ -10,14 +10,14 @@ The International Trade Administration (ITA) within the Department of Commerce (
 
 Developers who work with trade and exporting information will find this information particularly useful as it originates from authoritative, federal government sources.  The API allows developers to create new and innovative applications for the web or mobile devices by enabling them to mash it with other trade-related data.
 
-Use of the ITA APIs and other data is free of charge, but developers must [register with ITA](/_posts/registration-page) to receive a development key and agree to the guidelines outlined in the [Developer License Agreement]({{ site.baseurl }}/developer-license-agreement.html) and [Privacy Policy]({{ site.baseurl }}/privacy-policy.html). 
+Use of the ITA APIs and other data is free of charge, but developers must [register with ITA](/_posts/registration-page.markdown) to receive a development key and agree to the guidelines outlined in the [Developer License Agreement]({{ site.baseurl }}/developer-license-agreement.html) and [Privacy Policy]({{ site.baseurl }}/privacy-policy.html). 
 
 ## Summary of Available APIs
 ITA currently provides access to seven data sets:
 
 ### Dynamic Endpoints
 
-* [Trade Events](/_posts/trade-events.markdown)
+* [Trade Events](/_posts/trade-events)
 * [Environmental Toolkit](/_posts/environmental-toolkit.markdown)
 
 ### Static Endpoints
