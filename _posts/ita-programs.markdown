@@ -12,4 +12,4 @@ All ITA Programs for Exporters data can be accessed from [api.trade.gov/programs
 
 ## Other Formats
 
-The [ITA Programs for Exporters data model](ita_programs.csv) is available as a CSV file, or you may view the [HTML](ITAPrograms.html).
+The [ITA Programs for Exporters data model](/data/ita_programs.csv) is available as a CSV file, or you may view the [HTML](ITAPrograms.html).
