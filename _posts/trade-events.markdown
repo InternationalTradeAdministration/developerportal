@@ -1,5 +1,5 @@
 ---
-permalink: /trade_events.html
+permalink: /trade-events.html
 layout: default
 title: Trade Events
 ---
