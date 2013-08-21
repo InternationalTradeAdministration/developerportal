@@ -14,4 +14,4 @@ The ITA Office Locations data is available as either two XML files or two JSON f
 * [ITA Domestic Offices - XML](/data/ita_domestic_posts.xml)
 * [ITA Domestic Offices - JSON](/data/ita_domestic_posts.json)
 * [ITA International Offices - XML](/data/ita_international_posts.xml)
-* [ITA International Offices - JSON](/data/ita_international_posts.json>
+* [ITA International Offices - JSON](/data/ita_international_posts.json)
