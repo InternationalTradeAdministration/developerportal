@@ -17,7 +17,7 @@ ITA currently provides access to seven data sets:
 
 ### Dynamic Endpoints
 
-* [Trade Events](#trade_events)
+* [Trade Events](_posts/trade-events.markdown)
 * [Environmental Toolkit](#environmental_toolkit)
 
 ### Static Endpoints
