@@ -8,7 +8,7 @@ title: ITA Office Locations
 
 The ITA Office Locations data provides location and contact information for all of ITA’s domestic and international exporter assistance centers.  Developers can use this information to augment their listings of offices that provide business counseling.
 
-## Other Formats
+##Formats
 
 The ITA Office Locations data is available as either two XML files or two JSON files:
 * [ITA Domestic Offices - XML](/data/ita_domestic_posts.xml)
