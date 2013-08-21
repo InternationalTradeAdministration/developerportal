@@ -16,4 +16,4 @@ The ITA Office Locations data is available as either a CSV file or a JSON file:
 * [ITA Programs - CSV](/data/ita_programs.csv)
 * [ITA Programs - JSON](/data/ita_programs.json)
 
-You can also view the [ITA Programs as an html page](/data/ita_programs.csv).
+You can also view the [ITA Programs as an html page](/data/ita_programs.html).
