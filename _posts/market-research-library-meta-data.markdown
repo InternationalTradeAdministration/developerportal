@@ -8,7 +8,8 @@ title: Market Research Library Meta Data
 The Market Research Library Meta Data (MRL Meta Data) API provides information about the reports contained with ITA’s Market Research Library.  The data does not include the content itself, only meta data about and links to:
 * Market Research Reports
 * Best Market Reports
-* Country Commercial Guides
+* Country Commercial Guides 
+
 These reports are categorized by country and industry.  Developers can use this information to augment their catalog of market research that may be of interest to exporters.
 
 ##Formats
