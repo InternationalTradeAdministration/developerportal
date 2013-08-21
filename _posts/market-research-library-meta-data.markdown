@@ -9,8 +9,8 @@ The Market Research Library Meta Data (MRL Medta Data) API provides information 
 
 ## Other Formats
 
-The Market Research Library Meta Data is available as either a TAB file or a JSON file:
-* [MRL Medta Data - TAB](/data/marketResearchLibrary.tab)
-* [MRL Medta Data - JSON](/data/marketResearchLibrary.json)
+The Market Research Library Meta Data is available as either a tab delineated file or a JSON file:
+* [MRL Meta Data - TAB](/data/marketResearchLibrary.tab)
+* [MRL Meta Data - JSON](/data/marketResearchLibrary.json)
 
 You can also view the [MRL Medta Data as an html page](/data/marketResearchLibrary.html).
