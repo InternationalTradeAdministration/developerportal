@@ -1,5 +1,5 @@
 ---
-permalink: /ita_office_locations.html
+permalink: /ita-office-locations.html
 layout: default
 title: ITA Office Locations
 ---
