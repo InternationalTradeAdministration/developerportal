@@ -8,7 +8,7 @@ title: ITA Programs for Exporters
 
 The ITA Programs for Exporters data provides information about various programs sponsored by ITA that provide support for exporters. Assistance includes information on connecting to foreign buyers, regulations, marketing and sales, as well as training and mentoring. Developers can use this data to augment their listings of government programs that provide assistance to businesses.
 
-## Other Formats
+##Formats
 
 The ITA Office Locations data is available as either a CSV file or a JSON file:
 * [ITA Programs - CSV](/data/ita_programs.csv)
