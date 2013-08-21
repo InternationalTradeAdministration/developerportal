@@ -6,7 +6,13 @@ title: ITA Programs for Exporters
 
 # ITA Programs for Exporters
 
-The ITA Programs for Exporters data provides information about various programs sponsored by ITA that provide support for exporters. Assistance includes information on connecting to foreign buyers, regulations, marketing and sales, as well as training and mentoring. Developers can use this data to augment their listings of government programs that provide assistance to businesses.
+The ITA Programs for Exporters data provides information about various programs sponsored by ITA that provide support for exporters. Assistance includes information on:
+* Connecting to foreign buyers
+* Regulations
+* Marketing and sales
+* Training and mentoring
+ 
+Developers can use this data to augment their listings of government programs that provide assistance to businesses.
 
 ##Formats
 
