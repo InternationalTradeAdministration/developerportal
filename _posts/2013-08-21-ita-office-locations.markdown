@@ -23,7 +23,6 @@ The JSON response consists of an object containing the following properties.
 * country -- Coutntry name
 * state -- State abbreviation, for domestic offices
 * email -- office email address
-* fax	FAX number
-* mailInstructions	snail mail instructions
+* fax	-- FAX number
 * phone	office phone number
 * post_type -- 	Type of post (domestic or international)
