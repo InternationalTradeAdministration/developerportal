@@ -1,5 +1,5 @@
 ---
-permalink: /market-research-library-meta-data.html
+permalink: /docs/market2013-08-21-market-research-library-meta-data.html
 layout: default
 title: Market Research Library Meta Data
 ---
@@ -14,8 +14,7 @@ These reports are categorized by country and industry.  Developers can use this 
 
 ##Formats
 
-The Market Research Library Meta Data is available as either a tab delineated file or a JSON file:
-* [MRL Meta Data - TAB](/data/marketResearchLibrary.tab)
-* [MRL Meta Data - JSON](/data/marketResearchLibrary.json)
+The Market Research Library Meta Data is available here:
+[MRL Meta Data - JSON](/data/marketResearchLibrary.json)
 
-You can also view the [MRL Meta Data as an html page](/data/marketResearchLibrary.html).
+###Field -- Description
