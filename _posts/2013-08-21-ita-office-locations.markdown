@@ -10,5 +10,20 @@ The ITA Office Locations data provides location and contact information for all 
 
 ##Formats
 
+The ITA Office Locations data is available here:
+* [ITA Domestic Offices - JSON](/data/ita_domestic_posts.json)
+* [ITA International Offices - JSON](/data/ita_international_posts.json)
+
+##Response Format
 The JSON response consists of an object containing the following properties.
 
+###Field -- Description
+* post -- Name of the post
+* office_name -- Office name
+* country -- Coutntry name
+* state -- State abbreviation, for domestic offices
+* email -- office email address
+* fax	FAX number
+* mailInstructions	snail mail instructions
+* phone	office phone number
+* post_type -- 	Type of post (domestic or international)
