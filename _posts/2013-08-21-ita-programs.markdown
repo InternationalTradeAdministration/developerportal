@@ -16,8 +16,22 @@ Developers can use this data to augment their listings of government programs th
 
 ##Formats
 
-The ITA Office Locations data is available as either a CSV file or a JSON file:
-* [ITA Programs - CSV](/data/ita_programs.csv)
+The ITA Office Locations data is available here:
 * [ITA Programs - JSON](/data/ita_programs.json)
 
-You can also view the [ITA Programs as an html page](/data/ita_programs.html).
+##Response Format
+The JSON response consists of an object containing the following properties.
+
+###Field -- Description
+The JSON response consists of an object containing the following properties.
+
+###Field -- Description
+* programTitle -- title of the Program
+* abstract -- executive summary
+* exportPhase -- topic of the program
+* email	-- email
+* contactName -- contact name
+* officeName -- office name
+* phone -- phone
+* description -- description
+* website -- website URL
