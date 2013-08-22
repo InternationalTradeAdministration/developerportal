@@ -18,3 +18,7 @@ The Market Research Library Meta Data is available here:
 [MRL Meta Data - JSON](/data/marketResearchLibrary.json)
 
 ###Field -- Description
+
+* country
+* description
+* url
