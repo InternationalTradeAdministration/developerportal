@@ -18,4 +18,12 @@ Developers can use this information to augment their listings of U.S business th
 All Environmental Toolkit data can be accessed from [api.trade.gov/etoolkit/q](http://ec2-23-22-114-119.compute-1.amazonaws.com/toolkit/search.json?q=filters&size=50).
 
 ##Response Format
-The JSON response consists of an object containing the following properties...
+The JSON response consists of an object containing the following properties.
+
+###Field -- Description
+* id -- unique ID from the data source
+* issue_module -- name given for the issue
+* solution -- specific type of solution
+* provider -- company name
+* url -- URL for the company
+
