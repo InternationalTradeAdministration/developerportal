@@ -1,5 +1,5 @@
 ---
-permalink: /docs/market2013-08-21-market-research-library-meta-data.html
+permalink: /docs/2013-08-21-market-research-library-meta-data.html
 layout: default
 title: Market Research Library Meta Data
 ---
