@@ -17,7 +17,8 @@ Developers can use this data to augment their listings of government programs th
 ##Formats
 
 The ITA Office Locations data is available here:
-* [ITA Programs - JSON](/data/ita_programs.json)
+
+[ITA Programs - JSON](/data/ita_programs.json)
 
 ##Response Format
 The JSON response consists of an object containing the following properties.
