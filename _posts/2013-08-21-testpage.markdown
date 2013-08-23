@@ -26,4 +26,4 @@ The JSON response consists of an object containing the following properties.
 * solution -- specific type of solution
 * provider -- company name
 * url -- URL for the company
-
+* test
