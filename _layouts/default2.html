@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
   <head>
@@ -32,35 +33,36 @@
 				});
 			</script>
    </head>
- 
    <body>
-	<div id="wrapper"
-        <header>
-		<h1><a href="/">ITA Developer Portal</a></h1>
-        </header>
-
-		<div class="insidewrapper">
-			<nav class="navbar">  
-				<ul class="navbar">  
-					<li><a href="#">ABOUT ITA</a></li>  
-					<li><a href="#">TRADE TOPICS</a></li>  
-					<li><a href="#">SERVICES</a></li>  
-					<li><a href="#">DATA & ANALYSIS</a></li>  
-					<li><a href="#">PROGRAMS</a></li>  
-					<li><a href="#">PUBLICATIONS</a></li>    
-					<li><a href="#">PRESS</a></li>
-				</ul>  
-					<a href="#" id="pull">Menu</a>  
-			</nav>  
-					
-			<section style ="width: 980px; height: 700px;">
-				{{ main }}
-			</section>
-			
-			<footer style ="width: 980px;">
-				{{ Footer }}
-				<p>Project maintained by <a href="https://github.com/InternationalTradeAdministration">InternationalTradeAdministration</a></p>
-			</footer >
+   
+				<header id = "banner" class="body">
+					<h1><a href="/">ITA Developer Portal</a></h1>
+				</header>
+		
+		<div id="wrapper"
+        
+			<div class="insidewrapper">
+				<nav class="navbar">  
+					<ul class="navbar">  
+						<li><a href="#">ABOUT ITA</a></li>  
+						<li><a href="#">TRADE TOPICS</a></li>  
+						<li><a href="#">SERVICES</a></li>  
+						<li><a href="#">DATA & ANALYSIS</a></li>  
+						<li><a href="#">PROGRAMS</a></li>  
+						<li><a href="#">PUBLICATIONS</a></li>    
+						<li><a href="#">PRESS</a></li>
+					</ul>  
+						<a href="#" id="pull">Menu</a>  
+				</nav>  
+						
+				<section id="main" class="body">
+					{{ main }}
+				</section>
+				
+				<footer id="foot" class="body">
+					{{ Footer }}
+					<p>Project maintained by <a href="https://github.com/InternationalTradeAdministration">InternationalTradeAdministration</a></p>
+				</footer >
 		</div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     </div>
