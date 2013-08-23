@@ -1,5 +1,5 @@
 ---
-permalink: /docs/test.html
+permalink: permalink: /docs/2013-08-21-toolkit.html
 layout: default2
 title: Environmental Toolkit
 ---
