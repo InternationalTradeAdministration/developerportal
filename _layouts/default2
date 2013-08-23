@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/ita.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		
+			<script>
+				$(function() {
+					var pull 		= $('#pull');
+						menu 		= $('nav ul');
+						menuHeight	= menu.height();
+					$(pull).on('click', function(e) {
+						e.preventDefault();
+						menu.slideToggle();
+					});
+						$(window).resize(function(){
+						var w = $(window).width();
+						if(w > 320 && menu.is(':hidden')) {
+							menu.removeAttr('style');
+						}
+					});
+				});
+			</script>
+   </head>
+ 
+   <body>
+	<div id="wrapper"
+        <header>
+		<h1><a href="/">ITA Developer Portal</a></h1>
+        </header>
+
+		<div class="insidewrapper">
+			<nav class="navbar">  
+				<ul class="navbar">  
+					<li><a href="#">ABOUT ITA</a></li>  
+					<li><a href="#">TRADE TOPICS</a></li>  
+					<li><a href="#">SERVICES</a></li>  
+					<li><a href="#">DATA & ANALYSIS</a></li>  
+					<li><a href="#">PROGRAMS</a></li>  
+					<li><a href="#">PUBLICATIONS</a></li>    
+					<li><a href="#">PRESS</a></li>
+				</ul>  
+					<a href="#" id="pull">Menu</a>  
+			</nav>  
+					
+			<section style ="width: 980px; height: 700px;">
+				{{ main }}
+			</section>
+			
+			<footer style ="width: 980px;">
+				{{ Footer }}
+				<p>Project maintained by <a href="https://github.com/InternationalTradeAdministration">InternationalTradeAdministration</a></p>
+			</footer >
+		</div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    </div>
+	
+  </body>
+</html>
