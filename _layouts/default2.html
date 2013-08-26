@@ -7,62 +7,609 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/ita.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lte IE 7]>
+		<script src="js/IE8.js" type="text/javascript"></script><![endif]-->
+	<!--[if lt IE 7]>
+	 
+		<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+</head>
+<body>
+ 
+<header id="box1">
+		<!--Start top right nav-->
 		
-			<script>
-				$(function() {
-					var pull 		= $('#pull');
-						menu 		= $('nav ul');
-						menuHeight	= menu.height();
-					$(pull).on('click', function(e) {
-						e.preventDefault();
-						menu.slideToggle();
-					});
-						$(window).resize(function(){
-						var w = $(window).width();
-						if(w > 320 && menu.is(':hidden')) {
-							menu.removeAttr('style');
-						}
-					});
-				});
-			</script>
-   </head>
-   <body>
-   
-				<header id = "banner" class="body">
-					<h1><a href="/">ITA Developer Portal</a></h1>
-				</header>
+		<a href="/index.asp"><img src="http://trade.gov/images/logo.jpg" border="0" style="margin-top:-5px; margin-left:53px; float:left;" /></a>
+
+					<div id="insidewrapper">
 		
-		<div id="wrapper"
-        
-			<div class="insidewrapper">
-				<nav class="navbar">  
-					<ul class="navbar">  
-						<li><a href="#">ABOUT ITA</a></li>  
-						<li><a href="#">TRADE TOPICS</a></li>  
-						<li><a href="#">SERVICES</a></li>  
-						<li><a href="#">DATA & ANALYSIS</a></li>  
-						<li><a href="#">PROGRAMS</a></li>  
-						<li><a href="#">PUBLICATIONS</a></li>    
-						<li><a href="#">PRESS</a></li>
-					</ul>  
-						<a href="#" id="pull">Menu</a>  
-				</nav>  
-						
-				<section id="main" class="body">
-					{{ content }}
-				</section>
-				
-				<footer id="foot" class="body">
-					{{ Footer }}
-					<p>Project maintained by <a href="https://github.com/InternationalTradeAdministration">InternationalTradeAdministration</a></p>
-				</footer >
-		</div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    </div>
+			<table width="650" border="0" cellspacing="0" cellpadding="3" class="topnav noprint">
+          <tr>
+            <td><table width="600" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td class="topnavlinks"><div align="right">
+                <a href="/contact.asp">Contact Us</a> <a href="http://www.trade.gov/jobs">Careers</a> <a href="/help.asp">Help</a> <a href="/faq.asp">FAQs</a> <a href="http://www.export.gov/eac/">Find Local Export Assistance</a></div></td>
+                <form  name="Zip Code" method="get" action="/zipcode.asp">
+                <td style="margin:0;"><div align="right">
+                  <input name="ZipCode" type="text" value="Zip Code" size="8" class="zipcode" onfocus="value=''" />
+                </div></td>
+                <td style="margin:0;"><div align="right">
+                  <input name="" type="image" src="http://trade.gov/images/button_go.jpg" alt="go" style="margin:0px; padding-left:5px;" />
+                </div></td></form>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td>
+            <table width="315" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="25"><a href="http://www.facebook.com/TradeGov"><img src="http://trade.gov/images/icon_facebook.jpg" alt="facebook" border="0" /></a></td>
+                <td width="25"><a href="http://www.twitter.com/TradeGov"><img src="http://trade.gov/images/icon_twitter.jpg" alt="twitter" border="0" /></a></td>
+                <td width="25"><a href="http://blog.trade.gov"><img src="http://trade.gov/images/icon_tra.jpg" alt="tra" border="0" /></a></td>
+                <td width="22"><a href="/connect.asp"><img src="http://trade.gov/images/icon_mail.jpg" alt="email" border="0" /></a></td>
+				<form name="Search Trade.Gov" action="http://search.trade.gov/search" id="search_form" method="get">
+                <td width="106" style="margin:0;"><div align="center">
+                 <!-- <input name="input" type="text" value="Search Trade.gov" size="17" class="search" onfocus="value=''" /> -->
+                  <input id="affiliate" name="affiliate" type="hidden" value="trade.gov" />
+				<input autocomplete="off" class="search" id="searchbox" name="query" type="text" tabindex="1" size="17" onfocus="value=''" value="Search Trade.gov" />
+				<input name="site" type="hidden" value="trade"/>
+        					<input name="client" type="hidden" value="default_frontend"/>
+        					<input name="output" type="hidden" value="xml_no_dtd"/>
+        					<input name="searchdb" type="hidden" value="all"/>
+        					<input name="TabIndex" type="hidden" value="1" />
+
+                </div></td>
+                <td><div align="right">
+                  <input name="commit" type="image" src="http://trade.gov/images/button_search.jpg" value="Search" style="padding-left:5px;" />
+                </div></td></form>
+              </tr>
+            </table></td>
+          </tr>
+        </table>
+		<!--end top right nav-->
 	
-  </body>
+
+
+	
+</header>
+
+<header id="box4">
+	<ul id="menu">
+           
+    <li><a href="#" class="drop">ABOUT ITA</a>
+    
+        <div class="dropdown_4columns">
+        
+                
+            <div class="col_1">
+            
+                <h3><strong>ABOUT ITA</strong></h3>
+                <ul>
+                    <li><a href="#">About ITA</a></li>
+                    <li><a href="#">Organization Charts</a></li>
+                    <li><a href="#">Senior Staff Biographies</a></li>
+                    <li><a href="#">Successes</a></li>
+           
+                </ul>   
+                 
+            </div>
+    
+            <div class="col_1">
+            
+                <h3>Offices</h3>
+                <ul>
+                    <li><a href="#">Office of the Under Secretary</a></li>
+                    <li><a href="#">Office of Legislative and Intergovernmental Affairs</a></li>
+                    <li><a href="#">Office of Public Affairs</a></li>
+                    <li><a href="#">Chief Financial Officer/Administration</a></li>
+                    
+                </ul>   
+                 
+            </div>
+    
+            <div class="col_1">
+            
+                <h3>Business Units</h3>
+                <ul>
+                    <li><a href="#">Commercial Service</a></li>
+                    <li><a href="#">Import Administration</a></li>
+                    <li><a href="#">Manufacturing and Services</a></li>
+                    <li><a href="#">Market Access and Compliance</a></li>
+                    
+                </ul>   
+                 
+            </div>
+    
+                       
+        </div>
+    
+    </li>
+
+	 <li><a href="#" class="drop">TRADE TOPICS</a>
+    
+        <div class="dropdown_4columns">
+        
+                
+            <div class="col_1">
+            
+                <h3><strong>About Trade</strong></h3>
+                <ul>
+                    <li><a href="#">Civil Nuclear</a></li>
+                    <li><a href="#">Competitiveness</a></li>
+                    <li><a href="#">Foreign Direct Investment</a></li>
+                    <li><a href="#">Foreign Trade Zones</a></li>
+           			<li><a href="#">Green</a></li>
+           			<li><a href="#">Intellectual Property Rights</a></li>
+           			<li><a href="#">Market Access</a></li>
+           			<li><a href="#">Standards</a></li>
+           			<li><a href="#">Steel</a></li>
+           			<li><a href="#">Sustainability</a></li>
+           			<li><a href="#">Tariffs</a></li>
+           			<li><a href="#">Trade Barriers</a></li>
+           			<li><a href="#">Trade Events</a></li>
+					<li><a href="#">Trade Policy</a></li>
+					<li><a href="#">Trade Remedies</a></li>
+
+                </ul>   
+                 
+            </div>
+    
+            <div class="col_1">
+            
+                <h3>Exporting</h3>
+                <ul>
+                    <li><a href="#">Export Trading Company Act</a></li>
+                    <li><a href="#">General Export Assistance</a></li>
+                    <li><a href="#">Local Export Assistance</a></li>
+                    <li><a href="#">National Export Initiative</a></li>
+                    <li><a href="#">Our Services</a></li>
+					<li><a href="#">Trade Agreements</a></li>
+
+                </ul>   
+                 
+            </div>
+			
+			<div class="col_1">
+            
+                <h3>Compliance</h3>
+                <ul>
+                    <li><a href="#">Import Monitoring Programs</a></li>
+                    <li><a href="#">Report a Trade Barrier</a></li>
+                    <li><a href="#">Softwood Lumber Export Charges</a></li>
+                    <li><a href="#">Steel Import Monitoring and Analysis</a></li>
+                    <li><a href="#">Trade Compliance Center</a></li>
+				</ul>   
+                 
+            </div>
+			
+			<div class="col_1">
+            
+                <h3>Enforcement</h3>
+                <ul>
+                    <li><a href="#">Anti-Dumping/Countervailing Duties</a></li>
+                    <li><a href="#">Laws and Regulations</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Subsidies</a></li>
+                    <li><a href="#">Trade Compliant Filing</a></li>
+					<li><a href="#">Trade Remedies</a></li>
+
+                </ul>   
+                 
+            </div>
+			
+			<div class="col_1">
+            
+                <h3>Events</h3>
+                <ul>
+                    <li><a href="#">Conferences</a></li>
+                    <li><a href="#">Domestic Trade Shows</a></li>
+                    <li><a href="#">International Buyer Program</a></li>
+                    <li><a href="#">International Catalog Exhibition</a></li>
+                    <li><a href="#">International Trade Fair</a></li>
+					<li><a href="#">Seminars</a></li>
+					<li><a href="#">Trade Events</a></li>
+					<li><a href="#">Trade Missions</a></li>
+					<li><a href="#">Trade Promotion Events</a></li>
+					<li><a href="#">Training</a></li>
+					<li><a href="#">Webinars</a></li>
+                </ul>   
+                 
+            </div>
+    
+                
+                       
+        </div>
+    
+    </li>
+
+	
+	 <li><a href="#" class="drop">SERVICES</a>
+    
+        <div class="dropdown_4columns">
+        
+                
+            <div class="col_1">
+            
+                <ul>
+                    <li><a href="#">AD/CVD Counseling</a></li>
+                    <li><a href="#">Advocacy</a></li>
+                    <li><a href="#">Export Counseling</a></li>
+                    <li><a href="#">Gold Key Matching</a></li>
+           			<li><a href="#">International Buyer Program</a></li>
+           			<li><a href="#">International Company Profile</a></li>
+           			<li><a href="#">International Partner Search</a></li>
+           			<li><a href="#">Market Research</a></li>
+           			<li><a href="#">Platinum Key</a></li>
+
+                </ul>   
+                 
+            </div>
+    
+            <div class="col_1">
+  
+                <ul>
+                    <li><a href="#">Report a Trade Barrier</a></li>
+                    <li><a href="#">Safe Harbor Certification</a></li>
+                    <li><a href="#">Steel Import Licensing</a></li>
+                    <li><a href="#">Trade Complaint Filing</a></li>
+                    <li><a href="#">Trade Fair Certification</a></li>
+					<li><a href="#">Trade Leads</a></li>
+					<li><a href="#">Successes</a></li>
+                </ul>   
+                 
+            </div>
+    
+                
+                       
+        </div>
+    
+    </li>
+	
+	
+	 <li><a href="#" class="drop">DATA & ANALYSIS</a>
+    
+        <div class="dropdown_4columns">
+        
+                
+            <div class="col_1">
+
+                <ul>
+                    <li><a href="#">Competitiveness</a></li>
+                    <li><a href="#">Industry Analysis</a></li>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Trade Stats Express</a></li>
+
+                </ul>   
+                 
+            </div>
+    
+            <div class="col_1">
+            
+                <h3>Industries</h3>
+                <ul>
+                    <li><a href="#">Aerospace</a></li>
+                    <li><a href="#">Automotive</a></li>
+                    <li><a href="#">Building Products</a></li>
+                    <li><a href="#">Construction</a></li>
+                    <li><a href="#">Consumer Goods</a></li>
+					<li><a href="#">E-Commerce</a></li>
+					 <li><a href="#">Energy</a></li>
+                    <li><a href="#">Enviromental Industries</a></li>
+                    <li><a href="#">Health</a></li>
+                    <li><a href="#">Information and Telecomm</a></li>
+                    <li><a href="#">Machinery</a></li>
+					<li><a href="#">Metals</a></li>
+					<li><a href="#">Textiles and Apparel</a></li>
+                    <li><a href="#">Service Industries</a></li>
+					<li><a href="#">Travel and Tourism</a></li>
+
+                </ul>   
+                 
+            </div>
+    
+                
+                       
+        </div>
+    
+    </li>
+	
+	
+	 <li><a href="#" class="drop">PROGRAMS</a>
+    
+        <div class="dropdown_4columns">
+        
+                
+            <div class="col_1">
+
+                <ul>
+                    <li><a href="#">Advisory Committees</a></li>
+                    <li><a href="#">Afghanistan Investment and Reconstruction</a></li>
+                    <li><a href="#">Civil Nuclear Trade Initiative</a></li>
+                    <li><a href="#">Americas Competitiveness Forum</a></li>
+           			<li><a href="#">Good Governance</a></li>
+           			<li><a href="#">SelectUSA</a></li>
+           			<li><a href="#">Iraq Investment and Reconstruction</a></li>
+           			<li><a href="#">Market Development Cooperator Program</a></li>
+           			<li><a href="#">SABIT</a></li>
+           			<li><a href="#">Safe Harbor</a></li>
+           			<li><a href="#">StopFakes</a></li>
+           			<li><a href="#">Strategic Partnership Program</a></li>
+           			<li><a href="#">Sustainable Business</a></li>
+
+                </ul>   
+                 
+            </div>
+                       
+        </div>
+    
+    </li>
+	
+	
+	 <li><a href="#" class="drop">PUBLICATIONS</a>
+    
+        <div class="dropdown_4columns">
+        
+                
+            <div class="col_1">
+
+                <ul>
+                    <li><a href="#">Basic Guide to Exporting</a></li>
+                    <li><a href="#">Export Programs Guide</a></li>
+                    <li><a href="#">Trade Finance Guide</a></li>
+                    <li><a href="#">International Trade Update</a></li>
+           			<li><a href="#">More</a></li>
+
+                </ul>   
+                 
+            </div>
+    
+                                     
+        </div>
+    
+    </li>
+	
+		 <li><a href="#" class="drop">PRESS</a>
+    
+        <div class="dropdown_4columns">
+        
+                
+            <div class="col_1">
+
+                <ul>
+                    <li><a href="#">Office of Public Affairs</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Speeches</a></li>
+                    <li><a href="#">Testimony</a></li>
+           			<li><a href="#">Senior Staff Biographies</a></li>
+
+                </ul>   
+                 
+            </div>
+          
+        </div>
+    
+    </li>
+	
+	
+</ul>
+
+
+</header>
+ 
+<section id="box2">
+				{{ content }}
+				<div id="content" style="width:937px; margin:auto;overflow:visible;min-height: 600px;padding: 20px;">
+				<div id="leftnav" style="width: 250px; height: 600px;float:left;">
+					
+				</div><!-- leftnav -->
+				
+				<div id="main_content">
+					
+					<br>
+					<br>
+					
+				</div><!-- main_content -->
+				<hr style="margin:auto;width:500px;border-style:dashed; border-color:#B0B0B0;" />
+				<div id="secondary_content">
+					<br>
+					<br>
+				</div> <!-- secondary_content -->
+
+</section>
+		
+<footer id="box3">
+<div id="footer" class="noprint">
+				<br><br>
+					<div id="f1">
+					<ul>
+					<li class="footertitle">About ITA</li>
+                    <li><a href="/about.asp">About ITA</a></li>
+                    <li><a href="http://www.ita.doc.gov/ooms/itawrc.htm">Organization Charts</a></li>
+                    <li><a href="/press/bios">Senior Staff Biographies</a></li>
+                    <br />
+                    <li><a href="/success">Successes</a></li>
+                    <br />
+                    <li class="footertitle">Offices</li>
+                    <li><a href="/ous" style="margin-bottom:-35px;">Office of the Under Secretary</a></li>
+                    <li><a href="/olia" style="margin-bottom:-35px;">Office of the Legislative and<br />&nbsp;&nbsp;Intergovernmental Affairs</a></li>
+                    <li><a href="/press" style="margin-bottom:-35px;">Office of Public Affairs</a></li>
+                    <li><a href="http://trade.gov/cfo" style="margin-bottom:-35px;">Chief Financial Officer/Administration</a></li>
+                     <li class="footertitle">Business Units</li>
+                    <li><a href="/cs">Commercial Service</a></li>
+                    <li><a href="/ia">Import Administration</a></li>
+                    <li><a href="/mas">Manufacturing and Services</a></li>
+                    <li><a href="/mac">Market Access and Compliance</a></li>
+					</ul>
+</div>
+
+					<div id="f1">
+					<ul>
+					<li class="footertitle">About Trade</li>
+                	<li><a href="http://trade.gov/mas/ian/nuclear/index.asp">Civil Nuclear</a></li>
+                	<li><a href="/competitiveness">Competitiveness</a></li>
+                    <li><a href="http://www.selectusa.gov">Foreign Direct Investment</a></li>
+                    <li><a href="http://ia.ita.doc.gov/ftzpage/index.html">Foreign Trade Zones</a></li>
+                    <li><a href="/green">Green</a></li>
+                    <li><a href="http://www.stopfakes.gov">Intellectual Property Rights</a></li>
+                    <li><a href="/mac">Market Access</a></li>
+                    <li><a href="http://ita.doc.gov/td/standards">Standards</a></li>
+                    <li><a href="http://ia.ita.doc.gov/steel/license/index.html">Steel</a></li>
+                    <li><a href="/sustainability">Sustainability</a></li>
+                    <li><a href="http://www.export.gov/logistics/eg_main_018130.asp">Tariffs</a></li>
+                    <li><a href="http://tcc.export.gov/Report_a_Barrier/Common_Trade_Problems/index.asp">Trade Barriers</a></li>
+                    <li><a href="http://www.export.gov/tradeevents">Trade Events</a></li>
+                    <li><a href="http://www.trade.gov/mas/ian/otpahome/index.asp">Trade Policy</a></li>
+                    <li><a href="http://ia.ita.doc.gov/intro/index.html">Trade Remedies</a>&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    <br />
+
+                    <li class="footertitle">Exporting</li>
+                	<li><a href="http://trade.gov/mas/ian/etca/index.asp">Export Trading Company Act</a></li>
+                    <li><a href="http://www.export.gov/salesandmarketing/eg_main_018203.asp">General Export Assistance</a></li>
+                    <li><a href="http://www.export.gov/eac/">Local Export Assistance</a></li>
+                    <li><a href="/nei">National Export Initiative</a></li>
+                    <li><a href="/our-services">Our Services</a></li>
+                    <li><a href="/fta">Trade Agreements</a></li>
+                 <br />
+                 <li class="footertitle">Compliance</li>
+                	<li><a href="http://ia.ita.doc.gov/import-monitoring.html">Import Monitoring Programs</a></li>
+                    <li><a href="http://tcc.export.gov/Report_a_Barrier/Common_Trade_Problems/index.asp">Report a Trade Barrier</a></li>
+                    <li><a href="http://ia.ita.doc.gov/sla2008/sla-index.html">Softwood Lumber Export Charges</a></li>
+                    <li><a href="http://ia.ita.doc.gov/steel/license/index.html">Steel Import Monitoring and Analysis</a></li>
+                    <li><a href="http://tcc.export.gov">Trade Compliance Center</a></li>
+                 <br />
+                 <li class="footertitle">Enforcement</li>
+                	<li><a href="http://ia.ita.doc.gov/intro/index.html">Anti-Dumping/Countervailing Duties</a></li>
+                   	<li> <a href="http://ia.ita.doc.gov/regs/index.html">Laws and Regulations</a></li>
+                    <li><a href="http://ia.ita.doc.gov/ia-highlights-and-news.html">News</a></li>
+                    <li><a href="http://esel.trade.gov/esel/groups/public/documents/web_resources/esel_home.hcsp">Subsidies</a></li>
+                    <li><a href="http://ia.ita.doc.gov/petitioncounseling">Trade Complaint Filing</a></li>
+                    <li><a href="http://ia.ita.doc.gov/intro/index.html">Trade Remedies</a></li>
+					<br />
+                	<li class="footertitle">Events</li>
+                	<li><a href="http://www.export.gov/eac/show_short_trade_events.asp?CountryName=null&amp;StateName=null&amp;IndustryName=null&amp;TypeName=Conference&amp;StartDate=null&amp;EndDate=null">Conferences</a></li>
+                    <li><a href="http://www.export.gov/eac/show_short_trade_events.asp?CountryName=null&amp;StateName=null&amp;IndustryName=null&amp;TypeName=U.S. Trade Fair&amp;StartDate=null&amp;EndDate=null">Domestic Trade Shows</a></li>
+                    <li><a href="http://www.export.gov/ibp">International Buyer Program</a></li>
+                    <li><a href="http://www.export.gov/eac/show_short_trade_events.asp?CountryName=null&amp;StateName=null&amp;IndustryName=null&amp;TypeName=Catalog Event&amp;StartDate=null&amp;EndDate=null">International Catalog Exhibition</a></li>
+                    <li><a href="http://www.export.gov/eac/show_short_trade_events.asp?CountryName=null&amp;StateName=null&amp;IndustryName=null&amp;TypeName=International Trade Fair&amp;StartDate=null&amp;EndDate=null">International Trade Fair</a></li>
+                    <li><a href="http://www.export.gov/eac/show_short_trade_events.asp?CountryName=null&amp;StateName=null&amp;IndustryName=null&amp;TypeName=Seminar&amp;StartDate=null&amp;EndDate=null">Seminars</a></li>
+                    <li><a href="http://www.export.gov/eac/trade_events.asp">Trade Events</a></li>
+                    <li><a href="http://www.export.gov/trademissions">Trade Missions</a></li>
+                    <li><a href="http://www.export.gov/eac/show_short_trade_events.asp?CountryName=null&amp;StateName=null&amp;IndustryName=null&amp;TypeName=Trade Promotion Event&amp;StartDate=null&amp;EndDate=null">Trade Promotion Events</a></li>
+                    <li><a href="http://www.export.gov/exportbasics/">Training</a></li>
+                    <li><a href="http://www.export.gov/eac/show_short_trade_events.asp?CountryName=null&amp;StateName=null&amp;IndustryName=null&amp;TypeName=Webinar&amp;StartDate=null&amp;EndDate=null">Webinars</a></li>
+					</ul>
+</div>
+
+					<div id="f1">
+					<ul>
+					<li class="footertitle">Services</li>
+					<li><a href="http://ia.ita.doc.gov/petitioncounseling/">AD/CVD Counseling</a></li>
+                    <li><a href="http://www.export.gov/advocacy">Advocacy</a></li>
+                    <li><a href="http://www.export.gov/salesandmarketing/eg_main_018203.asp">Export Counseling</a></li>
+                    <li><a href="http://www.export.gov/salesandmarketing/eg_main_018195.asp">Gold Key Matching</a></li>
+                    <li><a href="http://www.export.gov/ibp">International Buyer Progam</a></li>
+                    <li><a href="http://www.export.gov/salesandmarketing/eg_main_018198.asp">International Company Profile</a></li>
+                    <li><a href="http://www.export.gov/salesandmarketing/eg_main_018197.asp">International Partner Search</a></li>
+                    <li><a href="http://www.export.gov/mrktresearch/">Market Research</a></li>
+                    <li><a href="http://www.export.gov/salesandmarketing/eg_main_018196.asp">Platinum Key</a></li>
+                	<li><a href="http://tcc.export.gov/Report_a_Barrier/Common_Trade_Problems/index.asp">Report a Trade Barrier</a></li>
+                   	<li> <a href="http://www.export.gov/SafeHarbor">Safe Harbor Certification</a></li>
+                   	<li><a href="http://ia.ita.doc.gov/steel/license/index.html">Steel Import Licensing</a></li>
+                    <li><a href="http://ia.ita.doc.gov/petitioncounseling/">Trade Complaint Filing</a></li>
+                    <li><a href="http://www.export.gov/tradeevents/eg_main_018558.asp">Trade Fair Certification</a></li>
+                    <li><a href="http://www.export.gov/eac/trade_leads.asp">Trade Leads</a></li><br />
+                    <li><a href="/success">Successes</a></li>
+					</ul>
+</div>
+
+					<div id="f1">
+					<ul>
+					<li class="footertitle">Data & Analysis</li>
+					<li><a href="/competitiveness">Competitiveness</a></li>
+                    <li><a href="http://www.trade.gov/mas/ian/index.asp">Industry Analysis</a></li>
+                    <li><a href="http://www.trade.gov/mas/ian/tradestatistics/index.asp">Statistics</a></li>
+                    <li><a href="http://tse.export.gov">Trade Stats Express</a></li>
+					<br />
+					<li class="footertitle">Industries</li>
+                    <li><a href="http://www.trade.gov/mas/manufacturing/OAAI/index.asp">Aerospace</a></li>
+                    <li><a href="http://www.trade.gov/mas/manufacturing/OAAI/index.asp">Automotive</a></li>
+                    <li><a href="http://ita.doc.gov/td/forestprod">Building Products</a></li>
+                    <li><a href="http://ita.doc.gov/td/forestprod">Construction</a></li>
+                    <li><a href="http://ita.doc.gov/td/ocg">Consumer Goods</a></li>
+                    <li><a href="http://web.ita.doc.gov/ITI/itiHome.nsf/(HotNews)/HotNews">E-Commerce</a></li>
+                    <li><a href="http://ita.doc.gov/td/energy">Energy</a></li>
+                    <li><a href="http://environment.ita.doc.gov">Environmental Industries</a></li>
+                    <li><a href="http://ita.doc.gov/td/finance/index.html">Financial Services</a></li>
+                    <li><a href="http://ita.doc.gov/td/health">Health</a></li>
+                    <li><a href="http://web.ita.doc.gov/ITI/itiHome.nsf/(HotNews)/HotNews">Information and Telecomm</a></li>
+                    <li><a href="http://www.trade.gov/mas/manufacturing/OAAI/index.asp">Machinery</a></li>
+                    <li><a href="http://www.ita.doc.gov/td/metals/">Metals</a></li>
+                    <li><a href="http://ita.doc.gov/td/sif/Index.htm">Service Industries</a></li>
+                    <li><a href="http://otexa.ita.doc.gov">Textiles and Apparel</a></li>
+                    <li><a href="http://tinet.ita.doc.gov">Travel and Tourism</a></li>
+					</ul>
+</div>
+
+					<div id="f1">
+					<ul>
+					<li class="footertitle">Programs</li>
+                    <li><a href="http://ita.doc.gov/itac">Advisory Committees</a></li>
+                    <li><a href="http://www.trade.gov/afghanistan">Afghanistan Investment and Reconstruction</a></li>
+                    <li><a href="http://www.trade.gov/competitiveness/ACF">Americas Competitiveness Forum</a></li>
+                    <li><a href="http://trade.gov/mas/ian/nuclear/index.asp">Civil Nuclear Trade Initiative</a></li>
+                    <li><a href="http://ita.doc.gov/goodgovernance">Good Governance</a></li>
+                    <li><a href="http://www.selectusa.gov">SelectUSA</a></li>
+                    <li><a href="http://www.trade.gov/iraq">Iraq Investment and Reconstruction</a></li>
+                    <li><a href="http://ita.doc.gov/td/mdcp">Market Development Cooperator Program</a></li>
+                    <li><a href="http://www.trade.gov/sabit">SABIT</a></li>
+                    <li><a href="http://www.export.gov/safeharbor">Safe Harbor</a></li>
+                    <li><a href="http://www.stopfakes.gov">StopFakes</a></li>
+                    <li><a href="http://export.gov/about/eg_main_019124.asp">Strategic Partnership Program</a></li>
+                    <li><a href="http://www.trade.gov/competitiveness/sustainablemanufacturing/index.asp">Sustainable Business</a></li>
+					</ul>
+</div>
+
+					<div id="f1">
+					<ul>
+					<li class="footertitle">Publications</li>
+					<li><a href="http://www.export.gov/basicguide">Basic Guide to Exporting</a></li>
+					<li><a href="/publications/abstracts/export-programs-guide-2009.asp">Export Programs Guide</a></li>
+					<li><a href="http://www.export.gov/tradefinanceguide">Trade Finance Guide</a></li>
+					<li><a href="/publications/ita-newsletter/">International Trade Update</a></li>
+					<li><a href="/publications">More</a></li>
+					</ul>
+					</div>
+
+					<div id="f1">
+					<ul>
+					<li class="footertitle">Press</li>
+					<li><a href="/press">Office of Public Affairs</a></li>
+					<li><a href="/press/press-releases">Press Releases</a></li>
+					<li><a href="/press/speeches">Speeches</a></li>
+					<li><a href="/press/testimony">Testimony</a></li>
+					<li><a href="/press/bios">Senior Staff Biographies</a></li>
+					</ul>
+	  </div>
+				</div>
+                <!--ending Footer Div -->
+					<div id="footerdivider">
+						<div class="footerdivideotitle">www.TRADE.gov</div><br />
+						<div><a href="/feedback.asp">Website Feedback</a> | <a href="http://www.usa.gov">USA.gov</a> | <a href="http://trade.gov/foia">FOIA</a>  | <a href="/privacy.asp">Privacy Policy</a>  | <a href="/endorse.asp">Disclaimer</a>  |
+                        <a href="/ITAiqs.pdf">Information Quality Guidelines</a>
+                      </div>
+					</div>
+                    <div class="disclamier">
+                    <p>The <a href="http://www.trade.gov">International Trade Administration</a>, <a href="http://www.commerce.gov">U.S.
+                    Department of Commerce</a>, manages this global trade site to provide access to ITA information on promoting trade and investment, strengthening
+                    the competitiveness of U.S. industry, and ensuring fair trade and compliance with trade laws and agreements. External links to other Internet
+                    sites should not be construed as an endorsement of the views or privacy policies contained therein. This site contains PDF documents.
+                    A <a href="http://get.adobe.com/reader">PDF reader</a> is available from Adobe Systems Incorporated.</p></div>
+			</div><!--ending Main Div -->
+
+</footer>
+
+</body>
 </html>
