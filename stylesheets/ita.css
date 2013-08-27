@@ -23,7 +23,7 @@ padding:auto;
 #trade {
 width: 700px; 
 height: 120px;
-font-family:"Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:"Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size:30px; 
 font-weight:bold;
 color:#000099;
@@ -45,13 +45,13 @@ padding:30px 0px 0px 30px;
 }
  
 .grow img:hover {
-  width: 210px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
 }
 
 
 #data {
-font-family:"Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family:"Quattrocento Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size:16px;
 font-weight:bold;
 font-style:italic;
@@ -86,34 +86,33 @@ margin-bottom:50px;
 padding:auto;
 }
 
-nav {
-  width: 270px;
-  position: absolute;
-  top: 200px;
-  left: 55%;
-  margin-left: -580px;
-  text-align: left;
-  font-family:"Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: #003399;
-  
+#leftnav_wrapper li
+{
+	list-style-type: none;
+	font-weight:bold;
+	color: #000099;
+	font-size: 14px;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
-nav ul {
-  list-style: none;
-  list-style-image: none;
-  font-size: 14px;
-  line-height: 24px;
+
+#leftnav_wrapper li ul li a
+{
+	text-decoration: none;
+	color: #777777;
+	font-size: 14px;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
-nav ul li {
-  padding: 5px 0px;
-  line-height: 16px;
-}
-nav ul li.tag-h1 {
-  font-size: 1.2em;
-}
-nav ul li.tag-h1 a {
-  font-weight: bold;
-  color: #707070;
+	
+#leftnav_wrapper li ul li
+{
+	list-style-type: none;
+	font-weight: bold;
+	color: #777777;
+	font-size: 14px;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	padding: 5px;
+	margin-left: -30px;
+	padding-bottom: 10px;
 }
 
 #box3 {
