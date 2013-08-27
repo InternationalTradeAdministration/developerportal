@@ -23,15 +23,35 @@ padding:auto;
 #trade {
 width: 700px; 
 height: 120px;
-font-family:Verdana, Arial, Helvetica, sans-serif;
+font-family:"Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size:30px; 
 font-weight:bold;
 color:#000099;
 padding:30px 0px 0px 30px;
 }
 
+.grow img {
+ 
+  height: 200px;
+  width: 200px;
+  padding:0px;
+  margin-left:25px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 210px;
+  height: 210px;
+}
+
+
 #data {
-font-family:Verdana, Arial, Helvetica, sans-serif;
+font-family:"Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size:16px;
 font-weight:bold;
 font-style:italic;
@@ -64,6 +84,36 @@ margin-right:auto;
 margin-top:-50px;
 margin-bottom:50px;
 padding:auto;
+}
+
+nav {
+  width: 270px;
+  position: absolute;
+  top: 200px;
+  left: 55%;
+  margin-left: -580px;
+  text-align: left;
+  font-family:"Copse", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #003399;
+  
+}
+nav ul {
+  list-style: none;
+  list-style-image: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+nav ul li {
+  padding: 5px 0px;
+  line-height: 16px;
+}
+nav ul li.tag-h1 {
+  font-size: 1.2em;
+}
+nav ul li.tag-h1 a {
+  font-weight: bold;
+  color: #707070;
 }
 
 #box3 {
