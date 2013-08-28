@@ -1,6 +1,6 @@
 ---
 permalink: /registration-page.html
-layout: default2
+layout: template
 title: Registration
 ---
 

@@ -1,6 +1,6 @@
 ---
 permalink: /docs/2013-08-21-trade-events.html
-layout: default2
+layout: template
 title: Trade Events
 ---
 
