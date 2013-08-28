@@ -1,6 +1,6 @@
 ---
 permalink: /docs/2013-08-21-environmental-toolkit.html
-layout: template
+layout: default2
 title: Environmental Toolkit
 ---
 

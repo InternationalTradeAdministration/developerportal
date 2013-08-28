@@ -1,6 +1,6 @@
 ---
 permalink: /docs/2013-08-21-market-research-library-meta-data.html
-layout: template
+layout: default2
 title: Market Research Library Meta Data
 ---
 

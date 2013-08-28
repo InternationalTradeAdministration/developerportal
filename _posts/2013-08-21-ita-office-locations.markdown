@@ -1,6 +1,6 @@
 ---
 permalink: /docs/2013-08-21-ita-office-locations.html
-layout: template
+layout: default2
 title: ITA Office Locations
 ---
 

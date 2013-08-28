@@ -1,6 +1,6 @@
 ---
 permalink: /docs/testpage.html
-layout: template
+layout: default2
 title: Environmental Toolkit
 ---
 

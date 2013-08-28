@@ -1,6 +1,6 @@
 ---
 permalink: /docs/2013-08-21-ita-programs.html
-layout: template
+layout: default2
 title: ITA Programs for Exporters
 ---
 
