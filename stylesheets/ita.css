@@ -90,9 +90,9 @@ padding:auto;
 {
 	list-style-type: none;
 	font-weight:bold;
-	color: #000099;
+	color: #006699;
 	font-size: 14px;
-	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 #leftnav_wrapper li ul li a
@@ -100,7 +100,8 @@ padding:auto;
 	text-decoration: none;
 	color: #777777;
 	font-size: 14px;
-	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-weight: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 	
 #leftnav_wrapper li ul li
@@ -109,7 +110,7 @@ padding:auto;
 	font-weight: bold;
 	color: #777777;
 	font-size: 14px;
-	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 	padding: 5px;
 	margin-left: -30px;
 	padding-bottom: 10px;
@@ -154,7 +155,7 @@ padding-bottom:25px;
 .disclamier {
 width:700px;
 margin:0 auto;
-font-family:Arial, Helvetica, sans-serif;
+font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:12px;
 color:#b3b2b2;
 padding-bottom:25px;
@@ -187,7 +188,7 @@ text-decoration:underline;
 }
 
 .footerdivideotitle {
-font-family:Georgia, "Times New Roman", Times, serif;
+font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:24px;
 color:#b3b2b2;
 text-align:center;
