@@ -1,10 +1,10 @@
 ---
 permalink: /docs/2013-08-21-ita-programs.html
 layout: template
-title: ITA Programs for Exporters
+title: ITA Programs
 ---
 
-# ITA Programs for Exporters
+#ITA Programs
 
 The ITA Programs for Exporters data provides information about various programs sponsored by ITA that provide support for exporters. Assistance includes information on:
 * Connecting to foreign buyers

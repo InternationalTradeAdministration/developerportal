@@ -1,10 +1,10 @@
 ---
 permalink: /docs/2013-08-21-environmental-toolkit.html
 layout: template
-title: Environmental Toolkit
+title: Environmental Solutions Toolkit
 ---
 
-#Environmental Toolkit
+#Environmental Solutions Toolkit
 
 The Environmental Toolkit data provides information about various U.S. businesses that furnish services for solving environmental challenges.  The data is organized by:
 * Environmental issues

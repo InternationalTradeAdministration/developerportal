@@ -1,10 +1,10 @@
 ---
 permalink: /docs/2013-08-21-market-research-library-meta-data.html
 layout: template
-title: Market Research Library Meta Data
+title: Market Research Library
 ---
 
-#Market Research Library Meta Data
+#Market Research Library
 The Market Research Library Meta Data (MRL Meta Data) API provides information about the reports contained with ITA’s Market Research Library.  The data does not include the content itself, only meta data about and links to:
 * Market Research Reports
 * Best Market Reports
