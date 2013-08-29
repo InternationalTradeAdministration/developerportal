@@ -23,11 +23,12 @@ padding:auto;
 #trade {
 width: 700px; 
 height: 120px;
-font-family:Georgia, "Times New Roman", Times, serif;
-font-size:30px; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:28px; 
 font-weight:bold;
 color:#000099;
 padding:30px 0px 0px 30px;
+margin-left:10px;
 }
 
 .grow img {
@@ -51,13 +52,12 @@ padding:30px 0px 0px 30px;
 
 
 #data {
-font-family:Georgia, "Times New Roman", Times, serif;
-font-size:15px;
-font-weight:bold;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:18px;
 font-style:italic;
 padding:0px 0px 0px 30px; 
-margin-top:-70px; 
-margin-left:15px;
+margin-top:-80px; 
+margin-left:20px;
 }
 
 
