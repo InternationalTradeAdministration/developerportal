@@ -2,10 +2,7 @@
 permalink: /docs/2013-08-21-market-research-library-meta-data.html
 layout: template
 title: Market Research Library
-style: |
-  body {
-		font-family:"courier";
-	}
+
 ---
 
 #Market Research Library
