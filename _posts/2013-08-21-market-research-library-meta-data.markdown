@@ -4,7 +4,7 @@ layout: template
 title: Market Research Library
 style: |
   body {
-		font-family:"Courier New", Courier, monospace;
+		font-family:"courier";
 	}
 ---
 
