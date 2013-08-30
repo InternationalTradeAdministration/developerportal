@@ -196,6 +196,54 @@ font-weight:lighter;
 padding-top:25px;
 }
 
+@media print, screen and (max-width: 1060px) {
+  div.wrapper {
+    width: auto;
+    margin: 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  header, section, footer {
+    float: none;
+  }
+  header h1, section h1, footer h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+  }
+
+  #banner {
+    width: 100%;
+  }
+  #banner .downloads {
+    margin-right: 60px;
+  }
+  #banner #logo {
+    margin-right: 15px;
+  }
+
+  section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px auto;
+    margin: 190px auto 20px;
+    max-width: 600px;
+  }
+
+  footer {
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: auto;
+  }
+}
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap: break-word;
@@ -217,6 +265,16 @@ padding-top:25px;
     display: none;
   }
 
+  #banner {
+    top: 80px;
+  }
+  #banner .fork {
+    float: left;
+    display: inline-block;
+    margin-left: 0px;
+    position: fixed;
+    left: 20px;
+  }
 
   section {
     margin-top: 130px;
@@ -247,6 +305,9 @@ padding-top:25px;
     margin-top: 5px;
   }
 
+  #banner {
+    display: none;
+  }
 
   header ul {
     display: none;
@@ -273,13 +334,3 @@ padding-top:25px;
   nav {
     display: none;
   }
-
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left: auto;
-    bottom: auto;
-    width: auto;
-  }
-}
