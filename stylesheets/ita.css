@@ -289,7 +289,7 @@ padding-top:25px;
 @media print, screen and (max-width: 480px) {
   header {
     position: relative;
-    padding: 5px 0px;
+    padding: 0px 0px;
     min-height: 0px;
   }
   header h1 {
