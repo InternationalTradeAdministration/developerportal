@@ -1,6 +1,6 @@
 ---
 permalink: /docs/statetest.html
-layout: /stylesheets/statedummy
+layout: statedummy
 title: State Dummy Page
 ---
 
