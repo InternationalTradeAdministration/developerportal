@@ -1,0 +1,6 @@
+---
+permalink: /docs/3mtest.html
+layout: 3m
+title: 3M Dummy Page
+---
+
