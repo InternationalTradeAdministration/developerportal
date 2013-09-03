@@ -1,6 +1,6 @@
 ---
 permalink: /docs/3mtest.html
-layout: 3m
+layout: 3mdummy
 title: 3M Dummy Page
 ---
 
