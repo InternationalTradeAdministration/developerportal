@@ -3,9 +3,19 @@
 <head>
 
 <meta charset="utf-8" />
-<title>State Dummy</title>
+<title>{{ page.title }}</title>
 <link rel="stylesheet" href="../stylesheets/state.css">
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  <script src="{{ site.baseurl }}/javascripts/pure.min.js"></script>
+	  <script src="{{ site.baseurl }}/javascripts/articles.js"></script>
+    <style>
+.article .title {
+  padding: 10px;
+}
+.article p {
+    margin: 0;
+}
+    </style>
 
 <!--[if IE]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -82,7 +92,51 @@
 	
 	<section id="box2">
 	
-	<div id="content" style="background-color:#FFFFFF;width: 940px;margin:auto;overflow:visible;min-height: 300px;padding: 20px;">
+	  <h1>Articles</h1>
+  <div id="article-1" style="display: none" class="article">
+    <dl>
+      <dt>Title</dt>
+      <dd class="title"></dd>
+      <dt>Summary</dt>
+      <dd>
+        <div class="summary"></div>
+      </dd>
+      <dt>Country</dt>
+      <dd class="country"></dd>
+      <dt>Industry</dt>
+      <dd class="industry"></dd>
+    </dl>
+  </div>
+  <div id="article-2" style="display: none" class="article">
+    <dl>
+      <dt>Title</dt>
+      <dd class="title"></dd>
+      <dt>Summary</dt>
+      <dd>
+        <div class="summary"></div>
+      </dd>
+      <dt>Country</dt>
+      <dd class="country"></dd>
+      <dt>Industry</dt>
+      <dd class="industry"></dd>
+    </dl>
+  </div>
+  <div id="article-3" style="display: none" class="article">
+    <dl>
+      <dt>Title</dt>
+      <dd class="title"></dd>
+      <dt>Summary</dt>
+      <dd>
+        <div class="summary"></div>
+      </dd>
+      <dt>Country</dt>
+      <dd class="country"></dd>
+      <dt>Industry</dt>
+      <dd class="industry"></dd>
+    </dl>
+  </div>
+	
+	<!--<div id="content" style="background-color:#FFFFFF;width: 940px;margin:auto;overflow:visible;min-height: 300px;padding: 20px;">
 		<div id="slide1" style="width:250px; height:300px;margin-left:10px; margin-top:10px; border-style:solid;">
 		Slideshow
 		</div>
@@ -151,7 +205,7 @@
 		
 		<div id="right3" style="width:275px; height:147px;margin-left:650px; margin-top:-125px; margin-bottom:40px; border-style:solid;">
 		COUNTRY COMMERCIAL GUIDE
-		</div>
+		</div>-->
 		
 		<div id="footer" style="width:900px; height:50px;margin-left:15px; margin-top:30px; ">
 		<a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Visas</a>  | <a href="#">U.S. Citizen</a>  | <a href="#">Services</a>  |
