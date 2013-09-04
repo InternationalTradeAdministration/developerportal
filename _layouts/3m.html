@@ -3,10 +3,19 @@
 <head>
 
 <meta charset="utf-8" />
-<title>3M Dummy</title>
+<title>{{ page.title }}</title>
 <link rel="stylesheet" href="../stylesheets/3m.css">
-
-
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  <script src="{{ site.baseurl }}/javascripts/pure.min.js"></script>
+	  <script src="{{ site.baseurl }}/javascripts/articles.js"></script>
+    <style>
+.article .title {
+  padding: 10px;
+}
+.article p {
+    margin: 0;
+}
+    </style>
 <!--[if IE]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 			<!--[if lte IE 7]>
@@ -122,8 +131,50 @@
 								</ul>
 									
 	</div>
-		
-				<div id="slide1" style="width:400px; height:200px;margin-left:300px; margin-top:-650px; border-style:solid;">
+		<h1>Articles</h1>
+  <div id="article-1" style="display: none" class="article">
+    <dl>
+      <dt>Title</dt>
+      <dd class="title"></dd>
+      <dt>Summary</dt>
+      <dd>
+        <div class="summary"></div>
+      </dd>
+      <dt>Country</dt>
+      <dd class="country"></dd>
+      <dt>Industry</dt>
+      <dd class="industry"></dd>
+    </dl>
+  </div>
+  <div id="article-2" style="display: none" class="article">
+    <dl>
+      <dt>Title</dt>
+      <dd class="title"></dd>
+      <dt>Summary</dt>
+      <dd>
+        <div class="summary"></div>
+      </dd>
+      <dt>Country</dt>
+      <dd class="country"></dd>
+      <dt>Industry</dt>
+      <dd class="industry"></dd>
+    </dl>
+  </div>
+  <div id="article-3" style="display: none" class="article">
+    <dl>
+      <dt>Title</dt>
+      <dd class="title"></dd>
+      <dt>Summary</dt>
+      <dd>
+        <div class="summary"></div>
+      </dd>
+      <dt>Country</dt>
+      <dd class="country"></dd>
+      <dt>Industry</dt>
+      <dd class="industry"></dd>
+    </dl>
+  </div>
+				<!--<div id="slide1" style="width:400px; height:200px;margin-left:300px; margin-top:-650px; border-style:solid;">
 		Slideshow
 		</div>
 		
@@ -204,7 +255,7 @@ pellentesque quisque. In
 eget sapien sed, sit duis
 vestibulum ultricies,
 placerat morbi amet vel,
-nullam in in lorem vel. </div>
+nullam in in lorem vel. </div>-->
 		
 		<hr style="margin-top:50px;margin-left:20px;margin-bottom:50px;width:800px; border:2px solid #707070; height: -6px;" />
 		<div id="footer" style="width:900px; height:50px;margin-left:20px; margin-top:-20px; ">
