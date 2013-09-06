@@ -1,88 +1,18 @@
-/* CSS Document */
-
 body {
 background-color:#051854;
-margin:0;
-background-image:url('http://trade.gov/images/bg_body.jpg');
-background-repeat:repeat-x;
+background-image:url('../images/.jpg');
 background-position:center top;
+background-attachment:fixed;
 }
 
-#box1 {
-width:980px;
-height:125px;
+#container{
 background:#fff;
-background-position:center;
+width:980px;
+min-height:500px;
 margin-left:auto;
 margin-right:auto;
 margin-top:25px;
-margin-bottom:50px;
-padding:auto;
-}
-
-#trade {
-width: 700px; 
-height: 120px;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:28px; 
-font-weight:bold;
-color:#000099;
-padding:30px 0px 0px 30px;
-margin-left:10px;
-}
-
-.grow img {
- 
-  height: 180px;
-  width: 180px;
-  padding:0px;
-  margin-left:25px;
- 
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
- 
-.grow img:hover {
-  width: 180px;
-  height: 180px;
-}
-
-
-#data {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:18px;
-font-style:italic;
-padding:0px 0px 0px 30px; 
-margin-top:-80px; 
-margin-left:20px;
-}
-
-
-#box4 {
-width:980px;
-height:90px;
-background:#fff;
-background-position:center;
-margin-left:auto;
-margin-right:auto;
-margin-top:-65px;
-margin-bottom:50px;
-padding:auto;
-}
-
-
-#box2 {
-width:980px;
-height:auto;
-background:#fff;
-background-position:center;
-margin-left:auto;
-margin-right:auto;
-margin-top:-50px;
-margin-bottom:50px;
+margin-bottom:25px;
 padding:auto;
 }
 
@@ -90,45 +20,45 @@ padding:auto;
 {
 	list-style-type: none;
 	font-weight:bold;
-	color: #006699;
-	font-size: 14px;
+	color: #0851ab;
+	font-size: 13px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	display:block;
+	
 }
 
 #leftnav_wrapper li ul li a
 {
 	text-decoration: none;
 	color: #777777;
-	font-size: 14px;
+	font-size: 13px;
+	padding: 3px;
 	font-weight: normal;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	display:block;
 }
 	
 #leftnav_wrapper li ul li
 {
 	list-style-type: none;
-	font-weight: bold;
+	
 	color: #777777;
-	font-size: 14px;
+	font-size: 13px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	padding: 5px;
+	padding: 3px;
 	margin-left: -30px;
 	padding-bottom: 10px;
+	display:block;
 }
 
-#box3 {
-width:980px;
-height:160px;
-background:#fff;
-background-position:center;
-margin-left:auto;
-margin-right:auto;
-margin-top:-50px;
-margin-bottom:20px;
-padding:auto;
+#leftnav_wrapper a:hover{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#fff;
+padding: 3px;
+background-color:#0851ab;
+display:block;
 }
-
-
 
 #footer {
 width:955px;

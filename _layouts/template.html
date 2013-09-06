@@ -45,27 +45,26 @@
 </head>
 <body>
  
-<header id="box1">
-				<div id="trade">Trade Developer Portal</div>
-				<div id="data">Enabling U.S. Exports Through Open Data</div>
-				<div style="width: 280px; height: 120px; margin-left:675px; margin-top:-85px;">	
-				<a href="http://developer.trade.gov/"><img src="../images/logo.jpg" alt="logo" width="90%" height="90%"></a>
-				</div>	
-			</header>
+<div id="container">
+		<header style="position: relative;width: 980px;height: 140px;background-color: #fff;box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;">
+  
+			<div style="padding:40px 0px 0px 40px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:26px;font-weight:bold;color:#0851ab;">Trade Developer Portal</div>
+			<div style="padding:5px 0px 0px 50px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px; font-style:italic;color:#777777;">Enabling U.S. Exports Through Open Data</div>
+			<div style="margin-left:725px; margin-top:-65px;">	
+				<a href="http://developer.trade.gov/"><img src="http://developer.trade.gov/images/logo.jpg" alt="logo" width="80%"></a>
+			</div>
+		
+		</header>
  
-			<section id="box2">
-					<hr style="margin-left:auto;margin-right:auto;margin-top:50px;margin-bottom:-20px;width:970px; border-bottom:solid 8px #000099; box-shadow: 1px 2px 1px #888888" />
-					<div id="secondary_content">
-					<br><br>
-					</div>
-				<div id="content" style="background-color:#FFFFFF;width: 937px;margin:auto;overflow:visible;min-height: 600px;padding: 20px;">
-			<div id="leftnav" style="width: 250px; height: 600px;float:left;margin-left:-15px">
+			<section>
+		<div id="content" style="background-color:#FFFFFF;width: 875px;margin-top:30px;margin-left:50px;overflow:visible;min-height: 600px;">
+			<div id="leftnav" style="width: 225px; height: 400px;float:left;margin-left:-50px;">
 						<ul id="leftnav_wrapper">
 							<li>API Documentation
 								<ul>
 									<li><a href="http://developer.trade.gov/">Home</a></li>
 									<li><a href="/docs/2013-08-21-trade-events.html">Trade Events</a></li>
-								    <li><a href="/docs/2013-09-05-trade-news-articles.html">Trade News &amp; Articles</a></li>
+									<li><a href="/docs/2013-09-05-trade-news-articles.html">Trade News &amp; Articles</a></li>
 									<li><a href="/docs/2013-08-21-environmental-toolkit.html">Environmental Solutions Toolkit</a></li>
 									<li><a href="/docs/2013-08-21-market-research-library-meta-data.html">Market Research Library</a></li>
 									<li><a href="/docs/2013-08-21-ita-office-locations.html">Offices &amp; Centers</a></li>
@@ -74,17 +73,19 @@
 							</li>
 							<li>About
 								<ul>
-									<li><a href="/docs/2013-09-05-about-apis.html">About Our APIs</a></li>
-									<li><a href="/docs/2013-09-05-apps-exporters.html">Apps for Exporters</a></li>
-									<li><a href="/docs/2013-09-05-faq.html">FAQ</a></li>
-									<li><a href="/docs/2013-09-05-change-log.html">Change Log</a></li>
+								<li><a href="/docs/2013-09-05-about-apis.html">About Our APIs</a></li> 
+								<li><a href="/docs/2013-09-05-apps-exporters.html">Apps for Exporters</a></li>  
+								<li><a href="/docs/2013-09-05-faq.html">FAQ</a></li>   
+								<li><a href="/docs/2013-09-05-change-log.html">Change Log</a></li> 
 								</ul>
 							</li>
 						</ul>
 					</div><!-- leftnav -->
+					
+				</section>
 				
 				
-				<div id="main_content"  style="margin-left:275px;  margin-top:0px;width:550px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14px">
+				<div id="main_content"  style="box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;margin-left:275px; margin-top:-615px;width: 650px;min-height:500px">
 					{{ content }}
 				</div><!-- main_content -->
 				
@@ -92,11 +93,17 @@
 				
 				
 				
-			</section>
+			
 		
-			<footer id="box3">
+			<footer style="width:980px; box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+height:180px;
+margin-left:auto;
+margin-right:auto;
+margin-top:50px;
+margin-bottom:20px;
+padding:auto;">
 					<div id="footerdivider">
-					<div><a href="http://trade.gov/feedback.asp">Website Feedback</a> | <a href="http://www.usa.gov">USA.gov</a> | <a href="http://trade.gov/foia">FOIA</a>  | <a href="http://trade.gov/privacy.asp">Privacy Policy</a>  | <a href="http://trade.gov/endorse.asp">Disclaimer</a>  |
+					<div></br></br><a href="http://trade.gov/feedback.asp">Website Feedback</a> | <a href="http://www.usa.gov">USA.gov</a> | <a href="http://trade.gov/foia">FOIA</a>  | <a href="http://trade.gov/privacy.asp">Privacy Policy</a>  | <a href="http://trade.gov/endorse.asp">Disclaimer</a>  |
                     <a href="http://trade.gov/ITAiqs.pdf">Information Quality Guidelines</a>
                     </div>
 					</div>
@@ -108,6 +115,7 @@
                     A <a href="http://get.adobe.com/reader">PDF reader</a> is available from Adobe Systems Incorporated.</p></div>
 					</div>
 			</footer>
+			</div>
 
 </body>
 </html>
