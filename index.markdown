@@ -21,5 +21,11 @@ ITA currently provides access to five data sets:
 * [ITA Programs for Exporters](/docs/2013-08-21-ita-programs.html)
 * [Market Research Library Meta Data](/docs/2013-08-21-market-research-library-meta-data.html)
 
-## Summary of Available APIs
-ITA currently provides access to five data sets:
+## Additional Resources
+ITA provides additional information about the APIs and any updates to them:
+
+* [About Our APIs](/docs/2013-09-05-about-apis.html)
+* [FAQs](/docs/2013-09-05-faq.html)
+* [Apps for Exporters](/docs/2013-09-05-apps-exporters.html)
+* [Change Log](/docs/2013-09-05-change-log.html)
+
