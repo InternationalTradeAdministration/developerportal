@@ -4,22 +4,41 @@ layout: template
 title: Trade Events
 ---
 
-#Trade Events
-The Trade Events data provides information about the time, place, cost, and contact information for ITA Trade Events around the world.  These include conferences, webinars, lectures, and trade missions.  Developers can use this information to augment other event information relevant to exporting.
+#Trade Events API
+This API provides data on events for U.S. businesses interested in selling their products and services overseas.  These events include industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce. Developers can use this API to keep businesses aware of the latest events in their industry or location.
+
+The output format for this API is JSON.
 
 ##Request Methods
-All ITA Trade Events can be accessed from [api.trade.gov/events/q](http://api.trade.gov/trade_events/search.json?q=filters&size=100).
+The Trade Events API may be queried using the following URL template:
 
-##Response Format
-The JSON response consists of an object containing the following properties.
+    http://api.trade.gov/events?q=<query string>
 
-###Field -- Description
-* id -- unique ID from the data source
-* name -- name given for the event
-* startDate -- start date of the event YYYY-MM-DD
-* endDate -- end date of the event YYYY-MM-DD
-* cost -- cost of the event
-* registrationLink -- registration for URL
-* eventDescription -- text describing the event
-* website_link -- URL for the event
-* country -- country name (ISOAlpha-2Code)
+Example:
+
+    http://api.trade.gov/events/q=london
+
+
+###Field:  Description
+    id:  unique ID from the data source
+    event_name:  name given for the event - searchable field
+    start_date:  start date of the event YYYY-MM-DD - searchable field
+    end_date:  end date of the event YYYY-MM-DD - searchable field
+    cost:  cost of the event
+    registration_link:  URL for registration page
+    registration_title:  title of the registration URL
+    description:  text describing the event
+    industry:  industry category assigned to this event - searchable field
+    url:  URL for the event
+    venue:  place where event is held
+    city:  city where event is held - searchable field
+    state:  state where event is held - searchable field
+    country:  country where event is held - searchable field
+    first_name:  first name of the contact
+    last_name:  last name of the contact
+    post:  contact's organization
+    person_title:  contact's job title
+    phone:  contact's phone number
+    email:  contact's email address
+    
+
