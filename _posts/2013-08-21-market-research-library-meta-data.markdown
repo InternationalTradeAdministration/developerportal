@@ -1,25 +1,27 @@
 ---
 permalink: /docs/2013-08-21-market-research-library-meta-data.html
 layout: template
-title: Market Research Library
+title: Market Research Abstracts API
 
 ---
 
-#Market Research Library
-The Market Research Library Meta Data (MRL Meta Data) API provides information about the reports contained with ITA’s Market Research Library.  The data does not include the content itself, only meta data about and links to:
+#Market Research Abstracts API
+The Market Research Abstracts API provides metadata for country and industry reports produced by ITA’s trade experts, and available in ITA’s online market research library.  Categorized by country and industry, these reports include:
+
 * Market Research Reports
 * Best Market Reports
-* Country Commercial Guides 
+* Country Commercial Guides
 
-These reports are categorized by country and industry.  Developers can use this information to augment their catalog of market research that may be of interest to exporters.
+The output format for this API is JSON.
 
-##Formats
+##Request Methods
 
-The Market Research Library Meta Data is available here:
-[MRL Meta Data - JSON](/data/marketResearchLibrary.json)
+The Market Research Abstracts API may be queried using the following URL template:
 
-###Field -- Description
+    http://api.trade.gov/events?q=<query string>
 
-* country
-* description
-* url
+Example:
+
+    http://api.trade.gov/events/q= … 
+
+##Field:  Descriptions
