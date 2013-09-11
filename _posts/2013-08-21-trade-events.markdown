@@ -1,7 +1,7 @@
 ---
 permalink: /docs/2013-08-21-trade-events.html
 layout: template
-title: Trade Events
+title: Trade Events API
 ---
 
 #Trade Events API
