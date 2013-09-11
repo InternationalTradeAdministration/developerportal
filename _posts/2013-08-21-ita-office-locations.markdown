@@ -1,23 +1,27 @@
 ---
 permalink: /docs/2013-08-21-ita-office-locations.html
 layout: template
-title: Offices & Centers
+title: Offices & Centers API
 ---
 
-#Offices & Centers
+#Offices & Centers API
 
-The ITA Office Locations data provides location and contact information for all of ITA’s domestic and international exporter assistance centers.  Developers can use this information to augment their listings of offices that provide business counseling.
+This API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.
 
-##Formats
+The output format for this API is JSON.
 
-The ITA Office Locations data is available here:
-* [ITA Domestic Offices - JSON](/data/ita_domestic_posts.json)
-* [ITA International Offices - JSON](/data/ita_international_posts.json)
+##Request Methods
 
-##Response Format
-The JSON response consists of an object containing the following properties.
+The Offices & Centers API may be queried using the following URL template:
 
-###Field -- Description
+    http://api.trade.gov/events?q=<query string>
+
+Example:
+
+    http://api.trade.gov/events/q=baltimore
+
+
+##Field:  Description
 * post -- Name of the post
 * office_name -- Office name
 * country -- Coutntry name
