@@ -1,32 +1,31 @@
 ---
 permalink: /docs/2013-08-21-ita-programs.html
 layout: template
-title: ITA Programs
+title: ITA Programs Directory API
 ---
 
-#ITA Programs
+#ITA Programs Directory API
 
-The ITA Programs for Exporters data provides information about various programs sponsored by ITA that provide support for exporters. Assistance includes information on:
-* Connecting to foreign buyers
-* Regulations
-* Marketing and sales
+The ITA Programs for Exporters data provides information about programs sponsored by ITA that provide assistance and services to exporters, including:
+
+* Matchmaking to foreign buyers
+* Trade regulations
+* International marketing and sales strategies
 * Training and mentoring
- 
-Developers can use this data to augment their listings of government programs that provide assistance to businesses.
 
-##Formats
+The output format for this API is JSON.
 
-The ITA Office Locations data is available here:
+##Request Methods
 
-[ITA Programs - JSON](/data/ita_programs.json)
+The Programs Directory API may be queried using the following URL template:
 
-##Response Format
-The JSON response consists of an object containing the following properties.
+    http://api.trade.gov/events?q=<query string>
 
-###Field -- Description
-The JSON response consists of an object containing the following properties.
+Example:
 
-###Field -- Description
+    http://api.trade.gov/events/q= … 
+
+##Field:  Description
 * programTitle -- title of the Program
 * abstract -- executive summary
 * exportPhase -- topic of the program
