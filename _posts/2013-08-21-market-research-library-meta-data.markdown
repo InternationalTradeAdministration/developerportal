@@ -1,5 +1,5 @@
 ---
-permalink: /docs/2013-08-21-market-research-library-meta-data.html
+permalink: /docs/market-research-library.html
 layout: template
 title: Market Research Abstracts API
 
