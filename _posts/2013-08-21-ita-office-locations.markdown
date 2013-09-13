@@ -1,5 +1,5 @@
 ---
-permalink: /docs/2013-08-21-ita-office-locations.html
+permalink: /docs/office-centers.html
 layout: template
 title: Offices & Centers API
 ---
@@ -21,12 +21,62 @@ Example:
     http://api.trade.gov/events/q=baltimore
 
 
-##Field:  Description
-* post -- Name of the post
-* office_name -- Office name
-* country -- Coutntry name
-* state -- State abbreviation, for domestic offices
-* email -- office email address
-* fax	-- FAX number
-* phone	office phone number
-* post_type -- 	Type of post (domestic or international)
+##Field Descriptions
+<table border="1">
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>post</td>
+<td>Name of the post</td>
+</tr>
+
+<tr>
+<td>office_name</td>
+<td>Office name</td>
+</tr>
+
+<tr>
+<td>id</td>
+<td>Unique identifier for post</td>
+</tr>
+
+<tr>
+<td>country</td>
+<td>Country name</td>
+</tr>
+
+<tr>
+<td>state</td>
+<td>State abbreviation, for domestic offices</td>
+</tr>
+
+<tr>
+<td>email</td>
+<td>Office email address</td>
+</tr>
+
+<tr>
+<td>fax</td>
+<td>Fax number</td>
+</tr>
+
+<tr>
+<td>mail_instructions</td>
+<td>Snail mail instructions</td>
+</tr>
+
+<tr>
+<td>phone</td>
+<td>Office phone number</td>
+</tr>
+
+<tr>
+<td>post_type</td>
+<td>Type of post (domestic or international)</td>
+</tr>
+
+
+</table>
