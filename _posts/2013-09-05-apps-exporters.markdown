@@ -1,5 +1,5 @@
 ---
-permalink: /docs/2013-09-05-apps-exporters.html
+permalink: /docs/apps-exporters.html
 layout: template
 title: Apps for Exporters
 ---
