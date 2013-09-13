@@ -27,15 +27,31 @@ Example:
 ##Field:  Descriptions
 <table border="1">
 <tr>
-<th>Value</th>
+<th>Field</th>
 <th>Description</th>
 </tr>
 <tr>
-<td>row 1, cell 1</td>
-<td>row 1, cell 2</td>
+<td>id</td>
+<td>Unique identifier assigned to the event</td>
 </tr>
 <tr>
-<td>row 2, cell 1</td>
-<td>row 2, cell 2</td>
+<td>title</td>
+<td>Report title</td>
+</tr>
+<tr>
+<td>industry</td>
+<td>Industry category assigned to the report</td>
+</tr>
+<tr>
+<td>country</td>
+<td>Country category assigned to the report</td>
+</tr>
+<tr>
+<td>description</td>
+<td>Abstract of the report’s content</td>
+</tr>
+<tr>
+<td>website</td>
+<td>URL for the report</td>
 </tr>
 </table> 
