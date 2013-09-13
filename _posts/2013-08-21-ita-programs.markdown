@@ -53,19 +53,49 @@ Example:
 
 <tr>
 <td>export_phase</td>
-<td>How much experience in exporting should a business have to benefit from this program/td>
+<td>How much experience in exporting should a business have to benefit from this program</td>
 <td>Yes</td>
 </tr>
 
 <tr>
 <td>field</td>
-<td>xyz/td>
+<td>xyz</td>
 <td></td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz/td>
+<td>email</td>
+<td>Email</td>
+<td></td>
+</tr>
+
+<tr>
+<td>contact_name</td>
+<td>Contact name</td>
+<td></td>
+</tr>
+
+<tr>
+<td>office_name</td>
+<td>Office name</td>
+<td></td>
+</tr>
+
+<tr>
+<td>phone</td>
+<td>Phone</td>
+<td></td>
+</tr>
+
+<tr>
+<td>description</td>
+<td>Full description of ITA program</td>
+<td></td>
+</tr>
+
+<tr>
+<td>website</td>
+<td>Web site URL</td>
 <td></td>
 </tr>
 
