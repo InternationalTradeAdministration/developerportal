@@ -1,4 +1,5 @@
 ---
+permalink: index.html
 layout: default
 title: ITA API Documentation
 ---
