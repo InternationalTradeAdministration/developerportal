@@ -1,29 +1,24 @@
 ---
-permalink: /docs/2013-08-21-environmental-toolkit.html
+permalink: /docs/environmental-toolkit.html
 layout: template
-title: Environmental Solutions Toolkit
+title: Environmental Solutions Toolkit API
 ---
 
-#Environmental Solutions Toolkit
+#Environmental Solutions Toolkit API
 
-The Environmental Toolkit data provides information about various U.S. businesses that furnish services for solving environmental challenges.  The data is organized by:
-* Environmental issues
-* EPA regulations
-* Solutions
-* Solution providers
- 
-Developers can use this information to augment their listings of U.S business that provide solutions to foreign governments.
+The U.S. Environmental Solutions Toolkit is a buyer’s guide brings together EPA regulations and solutions to environmental issues with a catalogue of U.S. technologies and solution providers.  The U.S. Environmental Solutions Toolkit supports the President’s National Export Initiative by fostering export opportunities for the U.S. environmental industry as well as advancing environmental protection goals.
+
+The output format for this API is JSON.
 
 ##Request Methods
-All Environmental Toolkit data can be accessed from [api.trade.gov/toolkit/q](http://api.trade.gov/toolkit/search.json?q=filters&size=50).
 
-##Response Format
-The JSON response consists of an object containing the following properties.
+The Environmental Solutions Toolkit API may be queried using the following URL template:
 
-###Field -- Description
-* id -- unique ID from the data source
-* issue_module -- name given for the issue
-* solution -- specific type of solution
-* provider -- company name
-* url -- URL for the company
+    http://api.trade.gov/envirotech?q=<query string>
+
+Example:
+
+    http://api.trade.gov/events/q= … 
+
+##Returned Values
 
