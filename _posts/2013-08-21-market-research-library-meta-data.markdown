@@ -24,7 +24,7 @@ Example:
 
     http://api.trade.gov/events/q= … 
 
-##Field:  Descriptions
+##Field Descriptions
 <table border="1">
 <tr>
 <th>Field</th>
