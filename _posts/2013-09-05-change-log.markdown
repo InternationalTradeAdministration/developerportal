@@ -10,5 +10,13 @@ We will continue to add updates and features to ITA’s API on an ongoing basis.
 
 ##Recent Changes
 
-**9/6/2013**
-Currently there are no updates to the API.
+<table border="1">
+<tr>
+<th>Date</th>
+<th>Change</th>
+</tr>
+<tr>
+<td>9/13/2013</td>
+<td>Currently there are no updates to the API.</td>
+</tr>
+</table> 
