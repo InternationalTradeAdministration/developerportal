@@ -1,5 +1,5 @@
 ---
-permalink: /docs/2013-09-05-faq.html
+permalink: /docs/faq.html
 layout: template
 title: FAQ
 ---
