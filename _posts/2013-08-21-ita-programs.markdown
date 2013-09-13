@@ -25,13 +25,48 @@ Example:
 
     http://api.trade.gov/events/q= … 
 
-##Field:  Description
-* programTitle -- title of the Program
-* abstract -- executive summary
-* exportPhase -- topic of the program
-* email	-- email
-* contactName -- contact name
-* officeName -- office name
-* phone -- phone
-* description -- description
-* website -- website URL
+##Field Descriptions
+<table border="1">
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Searchable Field</th>
+</tr>
+
+<tr>
+<td>id</td>
+<td>Unique ID from the data source</td>
+<td></td>
+</tr>
+
+<tr>
+<td>program_title</td>
+<td>Title of the Program</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>abstract</td>
+<td>Executive summary</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>export_phase</td>
+<td>How much experience in exporting should a business have to benefit from this program/td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz/td>
+<td></td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz/td>
+<td></td>
+</tr>
+
+</table>
