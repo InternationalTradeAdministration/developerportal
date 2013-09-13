@@ -25,7 +25,7 @@ Example:
     http://api.trade.gov/market_research_library/search.json?&country=IN
 
 ##Field Descriptions
-<table border="1">
+<table border="0">
 <tr>
 <th>Field</th>
 <th>Description</th>
