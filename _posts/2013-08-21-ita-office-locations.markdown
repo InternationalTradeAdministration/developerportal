@@ -22,7 +22,7 @@ Example:
 
 
 ##Field Descriptions
-<table border="1">
+<table border="0">
 <tr>
 <th>Field</th>
 <th>Description</th>
