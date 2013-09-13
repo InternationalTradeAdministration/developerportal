@@ -1,5 +1,5 @@
 ---
-permalink: /docs/2013-08-21-trade-events.html
+permalink: /docs/trade-events.html
 layout: template
 title: Trade Events API
 ---
@@ -10,35 +10,141 @@ This API provides data on events for U.S. businesses interested in selling their
 The output format for this API is JSON.
 
 ##Request Methods
-The Trade Events API may be queried using the following URL template:
 
-    http://api.trade.gov/events?q=<query string>
+The Offices & Centers API may be queried using the following URL templates:
+
+    http://api.trade.gov/trade_events/search.json?&state={term}
 
 Example:
 
-    http://api.trade.gov/events/q=london
-
-
-###Field:  Description
-    id:  unique ID from the data source
-    event_name:  name given for the event - searchable field
-    start_date:  start date of the event YYYY-MM-DD - searchable field
-    end_date:  end date of the event YYYY-MM-DD - searchable field
-    cost:  cost of the event
-    registration_link:  URL for registration page
-    registration_title:  title of the registration URL
-    description:  text describing the event
-    industry:  industry category assigned to this event - searchable field
-    url:  URL for the event
-    venue:  place where event is held
-    city:  city where event is held - searchable field
-    state:  state where event is held - searchable field
-    country:  country where event is held - searchable field
-    first_name:  first name of the contact
-    last_name:  last name of the contact
-    post:  contact's organization
-    person_title:  contact's job title
-    phone:  contact's phone number
-    email:  contact's email address
+    http://api.trade.gov/trade_events/search.json?&state=NY
     
+##Field Descriptions
+<table border="1">
+<tr>
+<th>Field</th>
+<th>Description</th>
+<th>Searchable Field</th>
+</tr>
 
+<tr>
+<td>id</td>
+<td>unique ID from the data source</td>
+<td></td>
+</tr>
+
+<tr>
+<td>event_name</td>
+<td>name given for the event</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>start_date</td>
+<td>start date of the event</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>end_date</td>
+<td>end date of the event</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>cost</td>
+<td>cost of the event</td>
+<td></td>
+</tr>
+
+<tr>
+<td>registration_link</td>
+<td>URL for registration page</td>
+<td></td>
+</tr>
+
+<tr>
+<td>registration_title</td>
+<td>title of the registration URL</td>
+<td></td>
+</tr>
+
+<tr>
+<td>description</td>
+<td>text describing the event</td>
+<td></td>
+</tr>
+
+<tr>
+<td>industry</td>
+<td>industry category assigned to this event</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>url</td>
+<td>URL, TITLE for the event</td>
+<td></td>
+</tr>
+
+<tr>
+<td>venue</td>
+<td>place where event is held</td>
+<td></td>
+</tr>
+
+<tr>
+<td>city</td>
+<td>city where event is held</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>state</td>
+<td>state where event is held</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>country</td>
+<td>country where event is held</td>
+<td>Yes</td>
+</tr>
+
+<tr>
+<td>first_name</td>
+<td>first name of the contact</td>
+<td></td>
+</tr>
+
+<tr>
+<td>last_name</td>
+<td>last name of the contact</td>
+<td></td>
+</tr>
+
+<tr>
+<td>post</td>
+<td>contact's organization</td>
+<td></td>
+</tr>
+
+<tr>
+<td>person_title</td>
+<td>contact's job title</td>
+<td></td>
+</tr>
+
+<tr>
+<td>phone</td>
+<td>contact's phone number</td>
+<td></td>
+</tr>
+
+<tr>
+<td>email</td>
+<td>contact's email address</td>
+<td></td>
+</tr>
+
+</table>
