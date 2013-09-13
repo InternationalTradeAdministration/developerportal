@@ -20,5 +20,35 @@ Example:
 
     http://api.trade.gov/events/q= … 
 
-##Returned Values
+##Field Descriptions
+<table border="1">
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+<tr>
+<td>field</td>
+<td>xyz/td>
+</tr>
+<tr>
+<td>field</td>
+<td>xyz/td>
+</tr>
+<tr>
+<td>field</td>
+<td>xyz/td>
+</tr>
+</table>
 
