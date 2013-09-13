@@ -16,42 +16,49 @@ The output format for this API is JSON.
 
 ##Request Methods
 
-The Market Research Abstracts API may be queried using the following URL template:
+The Market Research Abstracts API may be queried using the following URL templates:
 
-    http://api.trade.gov/events?q=<query string>
+    http://api.trade.gov/market_research_library/search.json?&country={term}
 
 Example:
 
-    http://api.trade.gov/events/q= … 
+    http://api.trade.gov/market_research_library/search.json?&country=IN
 
 ##Field Descriptions
 <table border="1">
 <tr>
 <th>Field</th>
 <th>Description</th>
+<td>Searchable Field</td>
 </tr>
 <tr>
 <td>id</td>
 <td>Unique identifier assigned to the event</td>
+<td></td>
 </tr>
 <tr>
 <td>title</td>
 <td>Report title</td>
+<td></td>
 </tr>
 <tr>
 <td>industry</td>
 <td>Industry category assigned to the report</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>country</td>
 <td>Country category assigned to the report</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>description</td>
 <td>Abstract of the report’s content</td>
+<td></td>
 </tr>
 <tr>
-<td>website</td>
+<td>url</td>
 <td>URL for the report</td>
+<td></td>
 </tr>
 </table> 
