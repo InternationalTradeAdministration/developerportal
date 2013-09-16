@@ -1,7 +1,8 @@
 ---
-permalink: /docs/trade-events.html
+permalink: "/docs/trade-events.html"
 layout: template
 title: Trade Events API
+published: true
 ---
 
 #Trade Events API
@@ -20,7 +21,7 @@ Example:
     http://api.trade.gov/trade_events/search.json?&state=NY
     
 ##Field Descriptions
-<table border="1">
+<table border="0">
 <tr>
 <th>Field</th>
 <th>Description</th>
