@@ -1,5 +1,5 @@
 ---
-permalink: /docs/2013-08-21-ita-programs.html
+permalink: ita-programs.html
 layout: template
 title: ITA Programs Directory API
 ---
