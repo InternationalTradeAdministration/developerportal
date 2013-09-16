@@ -2,6 +2,7 @@
 permalink: index.html
 layout: default
 title: ITA API Documentation
+published: true
 ---
 
 #Welcome to the International Trade Developer Portal!
@@ -16,17 +17,16 @@ Use of our APIs and other data sets is free of charge and allows unlimited acces
 ## Summary of Available APIs
 ITA currently provides access to five data sets:
 
-* [Trade Events](/docs/2013-08-21-trade-events.html)
-* [Environmental Toolkit](/docs/2013-08-21-environmental-toolkit.html)
-* [ITA Office Locations](/docs/2013-08-21-ita-office-locations.html)
-* [ITA Programs for Exporters](/docs/2013-08-21-ita-programs.html)
-* [Market Research Library Meta Data](/docs/2013-08-21-market-research-library-meta-data.html)
+* [Trade Events](/docs/trade-events.html)
+* [Environmental Toolkit](/docs/environmental-toolkit.html)
+* [ITA Office Locations](/docs/ita-office-locations.html)
+* [ITA Programs for Exporters](/docs/ita-programs.html)
+* [Market Research Library Meta Data](/docs/market-research-library.html)
 
 ## Additional Resources
 ITA provides additional information about the APIs and any updates to them:
 
-* [About Our APIs](/docs/2013-09-05-about-apis.html)
-* [FAQs](/docs/2013-09-05-faq.html)
-* [Apps for Exporters](/docs/2013-09-05-apps-exporters.html)
-* [Change Log](/docs/2013-09-05-change-log.html)
-
+* [About Our APIs](/docs/about-apis.html)
+* [FAQs](/docs/faq.html)
+* [Apps for Exporters](/docs/apps-exporters.html)
+* [Change Log](/docs/change-log.html)
