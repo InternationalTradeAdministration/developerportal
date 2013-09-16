@@ -1,5 +1,5 @@
 ---
-permalink: /docs/office-centers.html
+permalink: ita-office-locations.html
 layout: template
 title: Offices & Centers API
 ---
