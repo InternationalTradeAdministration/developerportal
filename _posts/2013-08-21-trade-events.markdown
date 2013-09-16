@@ -6,13 +6,13 @@ published: true
 ---
 
 #Trade Events API
-This API provides data on events for U.S. businesses interested in selling their products and services overseas.  These events include industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce. Developers can use this API to keep businesses aware of the latest events in their industry or location.
+The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas.  These events include industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce. Developers can use this API to keep businesses aware of the latest events in their industry or location.
 
 The output format for this API is JSON.
 
 ##Request Methods
 
-You may do a full text search of the Offices & Centers API using the following URL template:
+You may do a full text search of the Trade Events API using the following URL template:
 ###Full Text Search
 
     http://api.trade.gov/trade_events/search.json?q={term}
