@@ -1,7 +1,8 @@
 ---
-permalink: /docs/environmental-toolkit.html
+permalink: "/docs/environmental-toolkit.html"
 layout: template
 title: Environmental Solutions Toolkit API
+published: true
 ---
 
 #Environmental Solutions Toolkit API
@@ -40,15 +41,14 @@ Example:
 </tr>
 <tr>
 <td>field</td>
-<td>xyz/td>
+<td>xyz</td>
 </tr>
 <tr>
 <td>field</td>
-<td>xyz/td>
+<td>xyz</td>
 </tr>
 <tr>
 <td>field</td>
-<td>xyz/td>
+<td>xyz</td>
 </tr>
 </table>
-
