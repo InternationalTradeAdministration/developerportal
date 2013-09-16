@@ -1,115 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/ita.css" >
-	<script src="javascripts/main.js"></script>
 
-			<!--[if IE]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-			<!--[if lte IE 7]>
-			<script src="js/IE8.js" type="text/javascript"></script><![endif]-->
-			<!--[if lt IE 7]>
-	 
-			<link rel="stylesheet" type="text/css" media="all" href="css/ie6.css"/><![endif]-->
-			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-			<!-- META -->
-			
-			<meta name="description" content="" />
-			<meta name="keywords" content="" />
-			<meta name="robots" content="noodp" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/ita.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-			<!-- CSS RESET -->
-			<link rel="stylesheet" type="text/css" href="reset.css" media="all" />
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ </head>
+  <body>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1 style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:26px;font-weight:bold;color:#0851ab;">Trade Developer Portal</h1>
+		<h2 style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px; font-style:italic;color:#777777;">Enabling U.S. Exports Through Open Data</h2>
+        
+        
+        
+          <p <a href="http://developer.trade.gov/"><img src="../images/logo.jpg" alt="logo" width="250px"></a></p>
 
-			<!-- TARGET SMARTPHONES -->
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (min-device-width: 320px) and (max-device-width: 480px)" />
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (min-width: 321px)" />
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (max-width: 320px)" />
-
-			<!-- IPADS -->
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px)" />
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)" />
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)" />
-
-			<!-- DESKTOP & LAPTOPS -->
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (min-width: 1224px)" />
-
-			<!-- LARGE SCREEN -->
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (min-width: 1824px)" />
-
-			<link rel="stylesheet" type="text/css" href="" media="only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5)" />
-</head>
-<body>
- 
-<div id="container">
-		<header style="position: relative;width: 980px;height: 140px;background-color: #fff;box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;">
-  
-			<div style="padding:40px 0px 0px 40px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:26px;font-weight:bold;color:#0851ab;">Trade Developer Portal</div>
-			<div style="padding:5px 0px 0px 50px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px; font-style:italic;color:#777777;">Enabling U.S. Exports Through Open Data</div>
-			<div style="margin-left:725px; margin-top:-65px;">	
-				<a href="http://developer.trade.gov/"><img src="http://developer.trade.gov/images/logo.jpg" alt="logo" width="80%"></a>
-			</div>
+        
+      </header>
+	  
+	  			<section style="min-height:600px">
 		
-		</header>
- 
-			<section>
-		<div id="content" style="background-color:#FFFFFF;width: 875px;margin-top:30px;margin-left:50px;overflow:visible;min-height: 600px;">
-			<div id="leftnav" style="width: 225px; height: 400px;float:left;margin-left:-50px;">
+			<div id="leftnav" >
 						<ul id="leftnav_wrapper">
+						
 							<li>API Documentation
 								<ul>
 									<li><a href="http://developer.trade.gov/">Home</a></li>
 									<li><a href="/docs/2013-08-21-trade-events.html">Trade Events</a></li>
-									<!--<li><a href="/docs/2013-09-05-trade-news-articles.html">Trade News &amp; Articles</a></li>-->
+									<li><a href="/docs/2013-09-05-trade-news-articles.html">Trade News &amp; Articles</a></li>
 									<li><a href="/docs/2013-08-21-environmental-toolkit.html">Environmental Solutions Toolkit</a></li>
 									<li><a href="/docs/2013-08-21-market-research-library-meta-data.html">Market Research Library</a></li>
 									<li><a href="/docs/2013-08-21-ita-office-locations.html">Offices &amp; Centers</a></li>
 									<li><a href="/docs/2013-08-21-ita-programs.html">ITA Programs</a></li>
 								</ul>
 							</li>
-							<!--<li>About
+							<li>About
 								<ul>
 								<li><a href="/docs/2013-09-05-about-apis.html">About Our APIs</a></li> 
 								<li><a href="/docs/2013-09-05-apps-exporters.html">Apps for Exporters</a></li>  
 								<li><a href="/docs/2013-09-05-faq.html">FAQ</a></li>   
 								<li><a href="/docs/2013-09-05-change-log.html">Change Log</a></li> 
 								</ul>
-							</li>-->
+							</li>
 						</ul>
-					</div>
+						</div>
 					
-				</section>
-		<div id="main_content"  style="box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;margin-left:275px; margin-top:-615px;width: 650px;min-height:700px">
-					<h2 style="color: #777777;font-weight:bold;font-size: 20px;font-family: Georgia, Times New Roman, Times, serif ;margin-left:50px;"></br>Welcome to the Trade Developer Portal!</h2>
-					
-				
-					<h4 style="font-weight:normal;font-size:14px;font-family: Verdana, Arial, Helvetica, sans-serif;">
-					</h4>
-					<br>
-				
-					
-		
-					
-				
-					<hr style="margin-left:50px;width:500px; border-style:dashed; border-color:#707070; height: px;" />
-				
-				
-				
-					
-					<br>
-					<br>
-									
-					<!--<div class="grow pic">
-					  <a href="/docs/2013-09-05-about-apis.html"><div style="float:left"> <img src="../images/button1.png" alt="1"></div></a>
-					  <a href="/docs/2013-09-05-whats-possible.html"><div style="float:left"><img src="../images/button2.png" alt="2"></div></a>
-					  <a href="/docs/2013-09-05-apps-exporters.html"><div style="float:left"><img src="../images/button3.png" alt="3"> </div></div></a>
-				    </div>-->
-
-					<div id="description" style="width:550px; margin-left:50px;margin-top:-50px;font-weight:normal;font-size:14px;font-family: Verdana, Arial, Helvetica, sans-serif;">
-					</br></br></br>Through this site, the Federal government gives software developers
+					<section style="float: right; background: #fff;
+    width: 65%; margin-top:-400px; border-radius: 0 " >
+        <h3>Welcome to the Trade Developer Portal!</h3>
+		<p>Through this site, the Federal government gives software developers
 access to authoritative information on U.S. exports and international
 trade via standard APIs. </br></br>
 
@@ -124,20 +72,23 @@ unlimited access.  For a limited time period, registration to use the
 APIs is not required.  Starting in late 2013, developers will be
 required to register and receive a development key in order to enjoy
 free, unlimited access to  the the U.S. government’s growing data mart
-of trade information.</div>
-				
-				
-			</div><!-- main_content -->
-				
-		
-			<footer style="width:980px; box-shadow: 0 1px 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
-height:180px;
-margin-left:auto;
-margin-right:auto;
-margin-top:50px;
-margin-bottom:20px;
-padding:auto;">
-					<div id="footerdivider">
+of trade information.</p>
+	  	<div class="grow pic">
+					  <a href="/docs/2013-09-05-about-apis.html"><div style="float:left"> <img src="../images/button1.png" alt="1"></div></a>
+					  <a href="/docs/2013-09-05-whats-possible.html"><div style="float:left"><img src="../images/button2.png" alt="2"></div></a>
+					  <a href="/docs/2013-09-05-apps-exporters.html"><div style="float:left"><img src="../images/button3.png" alt="3"> </div></div></a>
+				    </div>
+					
+
+
+
+      </section>
+      </section >
+	  
+
+    
+    <footer>
+      <div id="footerdivider">
 					<div></br></br><a href="http://trade.gov/feedback.asp">Website Feedback</a> | <a href="http://www.usa.gov">USA.gov</a> | <a href="http://trade.gov/foia">FOIA</a>  | <a href="http://trade.gov/privacy.asp">Privacy Policy</a>  | <a href="http://trade.gov/endorse.asp">Disclaimer</a>  |
                     <a href="http://trade.gov/ITAiqs.pdf">Information Quality Guidelines</a>
                     </div>
@@ -149,9 +100,9 @@ padding:auto;">
                     sites should not be construed as an endorsement of the views or privacy policies contained therein. This site contains PDF documents.
                     A <a href="http://get.adobe.com/reader">PDF reader</a> is available from Adobe Systems Incorporated.</p></div>
 					</div>
-			</footer>
-			</div>
-
-</body>
+			
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    </div>
+  </body>
 </html>
-

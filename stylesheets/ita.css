@@ -1,147 +1,71 @@
-body {
-background-color:#051854;
-background-image:url('../images/globe3.jpg');
-background-position:center top;
-background-attachment:fixed;
-}
+   <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1 style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:26px;font-weight:bold;color:#0851ab;">Trade Developer Portal</h1>
+		<h2 style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:16px; font-style:italic;color:#777777;">Enabling U.S. Exports Through Open Data</h2>
+        
+        
+        
+          <p <a href="http://developer.trade.gov/"><img src="images/logo.jpg" alt="logo" width="250px"></a></p>
 
-#container{
-background:#fff;
-width:980px;
-min-height:1100px;
-margin-left:auto;
-margin-right:auto;
-margin-top:25px;
-margin-bottom:25px;
-padding:auto;
-}
+        
+      </header>
+	  
+	  			<section style="min-height:600px">
+		
+			<div id="leftnav" >
+						<ul id="leftnav_wrapper">
+						
+							<li>API Documentation
+								<ul>
+									<li><a href="http://developer.trade.gov/">Home</a></li>
+									<li><a href="/docs/2013-08-21-trade-events.html">Trade Events</a></li>
+									<li><a href="/docs/2013-09-05-trade-news-articles.html">Trade News &amp; Articles</a></li>
+									<li><a href="/docs/2013-08-21-environmental-toolkit.html">Environmental Solutions Toolkit</a></li>
+									<li><a href="/docs/2013-08-21-market-research-library-meta-data.html">Market Research Library</a></li>
+									<li><a href="/docs/2013-08-21-ita-office-locations.html">Offices &amp; Centers</a></li>
+									<li><a href="/docs/2013-08-21-ita-programs.html">ITA Programs</a></li>
+								</ul>
+							</li>
+							<li>About
+								<ul>
+								<li><a href="/docs/2013-09-05-about-apis.html">About Our APIs</a></li> 
+								<li><a href="/docs/2013-09-05-apps-exporters.html">Apps for Exporters</a></li>  
+								<li><a href="/docs/2013-09-05-faq.html">FAQ</a></li>   
+								<li><a href="/docs/2013-09-05-change-log.html">Change Log</a></li> 
+								</ul>
+							</li>
+						</ul>
+						</div>
+					
+					<section style="float: right; background: #fff;
+    width: 65%; margin-top:-400px; border-radius: 0 " >
+{{ content }}
+      </section>
+     
+	  </div>
 
-#leftnav_wrapper li
-{
-	list-style-type: none;
-	font-weight:bold;
-	color: #0851ab;
-	font-size: 13px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	display:block;
-	
-}
-
-#leftnav_wrapper li ul li a
-{
-	text-decoration: none;
-	color: #777777;
-	font-size: 13px;
-	padding: 3px;
-	font-weight: normal;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	display:block;
-}
-	
-#leftnav_wrapper li ul li
-{
-	list-style-type: none;
-	
-	color: #777777;
-	font-size: 13px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	padding: 3px;
-	margin-left: -30px;
-	padding-bottom: 10px;
-	display:block;
-}
-
-#leftnav_wrapper a:hover{
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:13px;
-color:#fff;
-padding: 3px;
-background-color:#0851ab;
-display:block;
-}
-
-.grow img {
- 
-  height: 180px;
-  width: 180px;
-  padding:0px;
-  margin-left:25px;
- 
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
- 
-.grow img:hover {
-  width: 180px;
-  height: 180px;
-}
-
-#footer {
-width:955px;
-height:750px;
-margin:0 auto;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:9px;
-color:#686868;
-}
-
-
-
-#footerdivider {
-width:722px;
-margin:0 auto;
-clear:both;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:11px;
-color:#b3b2b2;
-text-align:center;
-padding-bottom:25px;
-}
-
-.disclamier {
-width:700px;
-margin:0 auto;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:12px;
-color:#b3b2b2;
-padding-bottom:25px;
-}
-
-.disclamier a{
-text-decoration:underline;
-color:#b3b2b2;
-}
-
-.disclamier a:hover{
-text-decoration:none;
-color:#b3b2b2;
-}
-
-#footerdivider a{
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:11px;
-color:#b3b2b2;
-text-align:center;
-text-decoration:none;
-}
-
-#footerdivider a:hover{
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:11px;
-color:#b3b2b2;
-text-align:center;
-text-decoration:underline;
-}
-
-.footerdivideotitle {
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:24px;
-color:#b3b2b2;
-text-align:center;
-font-weight:lighter;
-padding-top:25px;
-}
-
+    
+    <footer>
+      <div id="footerdivider">
+					<div></br></br><a href="http://trade.gov/feedback.asp">Website Feedback</a> | <a href="http://www.usa.gov">USA.gov</a> | <a href="http://trade.gov/foia">FOIA</a>  | <a href="http://trade.gov/privacy.asp">Privacy Policy</a>  | <a href="http://trade.gov/endorse.asp">Disclaimer</a>  |
+                    <a href="http://trade.gov/ITAiqs.pdf">Information Quality Guidelines</a>
+                    </div>
+					</div>
+                    <div class="disclamier">
+                    <p>The <a href="http://www.trade.gov">International Trade Administration</a>, <a href="http://www.commerce.gov">U.S.
+                    Department of Commerce</a>, manages this global trade site to provide access to ITA information on promoting trade and investment, strengthening
+                    the competitiveness of U.S. industry, and ensuring fair trade and compliance with trade laws and agreements. External links to other Internet
+                    sites should not be construed as an endorsement of the views or privacy policies contained therein. This site contains PDF documents.
+                    A <a href="http://get.adobe.com/reader">PDF reader</a> is available from Adobe Systems Incorporated.</p></div>
+					</div>
+			
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    </div>
+  </body>
+</html>
