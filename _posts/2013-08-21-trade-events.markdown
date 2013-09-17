@@ -21,7 +21,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?q=mission
     
-###Field Search
+###Field Searches
 ####event_name
 
     http://api.trade.gov/trade_events/search.json?event_name={term}
