@@ -1,6 +1,6 @@
 ---
 published: false
-permalink: "/docs/market-research-abstracts.html"
+permalink: "market-research-abstracts.html"
 layout: template
 ---
 
