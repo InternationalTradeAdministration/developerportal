@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 permalink: "market-research-abstracts.html"
 layout: template
 ---
