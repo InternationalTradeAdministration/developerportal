@@ -1,5 +1,5 @@
 ---
-permalink: /docs/about-apis.html
+permalink: about-apis.html
 layout: template
 title: About our APIs
 ---

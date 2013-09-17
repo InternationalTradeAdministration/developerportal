@@ -1,5 +1,5 @@
 ---
-permalink: /docs/2013-09-05-trade-news-articles.html
+permalink: trade-news-articles.html
 layout: template
 title: Trade News & Articles
 ---

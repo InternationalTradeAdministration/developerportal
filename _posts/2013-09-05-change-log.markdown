@@ -1,5 +1,5 @@
 ---
-permalink: /docs/change-log.html
+permalink: change-log.html
 layout: template
 title: Change Log
 ---
