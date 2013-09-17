@@ -14,7 +14,7 @@ The Market Research Abstracts API provides metadata for country and industry rep
 The output format for this API is JSON.
 
 ##Request Methods
-You may do a full text search of the Market Research Abstracts API using the following URL template:
+You may query the Market Research Abstracts API using the following URL templates:
 ###Full Text Search
 
     http://api.trade.gov/market_research_library/search.json?q={term}
@@ -23,9 +23,9 @@ Example:
 
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
-You may query individual fields using the following URL templates:
+###Field Search
 
-###country
+####country
 
     http://api.trade.gov/market_research_library/search.json?country={term}
 
@@ -33,7 +33,7 @@ Example:
 
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
-###industry
+####industry
 
     http://api.trade.gov/market_research_library/search.json?industry={term}
 
