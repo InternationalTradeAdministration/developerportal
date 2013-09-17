@@ -22,7 +22,6 @@ Example:
     http://api.trade.gov/trade_events/search.json?q=mission
     
 ###Field Search
-You may query individual fields using the following URL templates:
 ####event_name
 
     http://api.trade.gov/trade_events/search.json?event_name={term}
