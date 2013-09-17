@@ -12,7 +12,7 @@ The output format for this API is JSON.
 
 ##Request Methods
 
-You may do a full text search of the Trade Events API using the following URL template:
+You may query the Trade Events API using the following URL templates:
 ###Full Text Search
 
     http://api.trade.gov/trade_events/search.json?q={term}
@@ -21,50 +21,51 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?q=mission
     
+###Field Search
 You may query individual fields using the following URL templates:
-###event_name
+####event_name
 
     http://api.trade.gov/trade_events/search.json?event_name={term}
 
 Example:
 
     http://api.trade.gov/trade_events/search.json?event_name=Nanomaterials
-###start_date
+####start_date
 
     http://api.trade.gov/trade_events/search.json?start_date={term}
 
 Example:
 
     http://api.trade.gov/trade_events/search.json?start_date=2013-09-18
-###end_date
+####end_date
 
     http://api.trade.gov/trade_events/search.json?end_date={term}
 
 Example:
 
     http://api.trade.gov/trade_events/search.json?end_date=2013-09-18
-###industry
+####industry
 
     http://api.trade.gov/trade_events/search.json?industry={term}
 
 Example:
 
     http://api.trade.gov/trade_events/search.json?industry=Agribusiness
-###city
+####city
 
     http://api.trade.gov/trade_events/search.json?city={term}
 
 Example:
 
     http://api.trade.gov/trade_events/search.json?city=Chicago
-###state
+####state
 
     http://api.trade.gov/trade_events/search.json?state={term}
 
 Example:
 
     http://api.trade.gov/trade_events/search.json?state=NY
-###country
+####country
 
     http://api.trade.gov/trade_events/search.json?country={term}
 
