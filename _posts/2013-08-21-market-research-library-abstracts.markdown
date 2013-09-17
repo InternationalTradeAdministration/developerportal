@@ -23,7 +23,7 @@ Example:
 
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
-###Field Search
+###Field Searches
 
 ####country
 
