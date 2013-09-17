@@ -12,7 +12,7 @@ The Offices & Centers API provides contact and address information for all of IT
 The output format for this API is JSON.
 
 ##Request Methods
-You may do a full text search of the Offices & Centers API API using the following URL template:
+You may query the Offices & Centers API API using the following URL templates:
 ###Full Text Search
 
     http://api.trade.gov/ita_office_locations/search.json?q={term}
@@ -21,9 +21,9 @@ Example:
 
     http://api.trade.gov/ita_office_locations/search.json?q=Nashville
 
-You may query individual fields using the following URL templates:
+###Field Search
 
-###country
+####country
 
     http://api.trade.gov/ita_office_locations/search.json?country={term}
 
@@ -31,7 +31,7 @@ Example:
 
     http://api.trade.gov/ita_office_locations/search.json?country=Germany
 
-###state
+####state
 
     http://api.trade.gov/ita_office_locations/search.json?state={term}
 
