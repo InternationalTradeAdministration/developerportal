@@ -17,7 +17,7 @@ The ITA Programs for Exporters data provides information about programs sponsore
 The output format for this API is JSON.
 
 ##Request Methods
-You may do a full text search of the ITA Programs Directory API using the following URL template:
+You may query the ITA Programs Directory API using the following URL templates:
 ###Full Text Search
 
     http://api.trade.gov/ita_programs/search.json?q={term}
@@ -26,9 +26,9 @@ Example:
 
     http://api.trade.gov/ita_programs/search.json?q=financing
 
-You may query individual fields using the following URL templates:
+###Field Searches
 
-###program_title
+####program_title
 
     http://api.trade.gov/ita_programs/search.json?program_title={term}
 
@@ -36,7 +36,7 @@ Example:
 
     http://api.trade.gov/ita_programs/search.json?program_title=MDCP
 
-###abstract
+####abstract
 
     http://api.trade.gov/ita_programs/search.json?abstract={term}
 
@@ -44,8 +44,8 @@ Example:
 
     http://api.trade.gov/ita_programs/search.json?abstract=multi-year
 
-###export_phase
-export_phase can be none, one, or all of four values:  learn, ready, exporting, and expand
+####export_phase
+export_phase can be one, some, or all of four values:  **learn**, **ready**, **exporting**, and **expand**
 
     http://api.trade.gov/ita_programs/search.json?export_phase={term}
 
