@@ -21,7 +21,7 @@ Example:
 
     http://api.trade.gov/ita_office_locations/search.json?q=Nashville
 
-###Field Search
+###Field Searches
 
 ####country
 
