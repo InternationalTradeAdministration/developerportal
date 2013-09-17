@@ -1,5 +1,5 @@
 ---
-permalink: "/docs/trade-events.html"
+permalink: "trade-events.html"
 layout: template
 title: Trade Events API
 published: true
