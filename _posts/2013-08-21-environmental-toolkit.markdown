@@ -1,5 +1,5 @@
 ---
-permalink: "/docs/environmental-toolkit.html"
+permalink: "environmental-toolkit.html"
 layout: template
 title: Environmental Solutions Toolkit API
 published: true
