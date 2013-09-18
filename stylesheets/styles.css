@@ -315,11 +315,11 @@ code, pre {
 pre {
   padding: 20px;
   background: #F8F8F8;
-  color: #000000;
+  color: #f8f8f2;
   margin: 0 -20px 20px;
 }
 pre code {
-  color: #f8f8f2;
+  color: #000000;
 }
 li pre {
   margin-left: -60px;
