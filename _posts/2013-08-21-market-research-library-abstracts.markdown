@@ -19,7 +19,7 @@ You may query the Market Research Abstracts API using the following URL template
 
     http://api.trade.gov/market_research_library/search.json?q={term}
 
-  Example:
+#####Example:
 
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
@@ -29,7 +29,7 @@ You may query the Market Research Abstracts API using the following URL template
 
     http://api.trade.gov/market_research_library/search.json?country={term}
 
-  Example:
+#####Example:
   
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
@@ -37,7 +37,7 @@ You may query the Market Research Abstracts API using the following URL template
 
     http://api.trade.gov/market_research_library/search.json?industry={term}
 
-  Example:
+#####Example:
   
     http://api.trade.gov/market_research_library/search.json?industry=Agribusiness
 
