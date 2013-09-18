@@ -314,12 +314,12 @@ code, pre {
 
 pre {
   padding: 20px;
-  background: #F8F8F8;
-  color: #f8f8f2;
+  background: #F0F0F0;
+  
   margin: 0 -20px 20px;
 }
 pre code {
-  color: #000000;
+  color: #f8f8f2;
 }
 li pre {
   margin-left: -60px;
