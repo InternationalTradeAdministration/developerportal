@@ -317,6 +317,11 @@ pre {
   background: #F8F8F8;
   color: #000000;
   margin: auto;
+    -webkit-border-radius: 0 0 8px 8px;
+  -moz-border-radius: 0 0 8px 8px;
+  -ms-border-radius: 0 0 8px 8px;
+  -o-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
 }
 pre code {
   color: #000000;
