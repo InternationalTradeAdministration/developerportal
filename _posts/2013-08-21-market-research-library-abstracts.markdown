@@ -16,23 +16,29 @@ The output format for this API is JSON.
 ##Request Methods
 You may query the Market Research Abstracts API using the following URL templates:
 ###Full Text Search
+
     http://api.trade.gov/market_research_library/search.json?q={term}
 
   Example:
+
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
 ###Field Searches
 
 ####country
+
     http://api.trade.gov/market_research_library/search.json?country={term}
 
   Example:
+  
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
 ####industry
+
     http://api.trade.gov/market_research_library/search.json?industry={term}
 
   Example:
+  
     http://api.trade.gov/market_research_library/search.json?industry=Agribusiness
 
 ##Field Descriptions
