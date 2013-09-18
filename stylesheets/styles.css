@@ -21,7 +21,7 @@ body {
   background-image:url('http://trade.gov/images/bg_body.jpg');
   background-position:center top;
   background-attachment:relative;
-  background-repeat:no-repeat;
+  background-repeat:inherit;
 }
 
 .wrapper {
