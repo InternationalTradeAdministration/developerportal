@@ -313,7 +313,7 @@ code, pre {
 }
 
 pre {
-  padding: 20px auto;
+  padding: 20px 20px;
   background: #F8F8F8;
   color: #000000;
   margin: 20px 20px 20px 20px;
