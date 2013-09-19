@@ -21,7 +21,7 @@ You may query the Market Research Abstracts API using the following URL template
 
 #####Example:
 
-    http://api.trade.gov/market_research_library/search.json?q=modernization
+    <a href=http://api.trade.gov/market_research_library/search.json?q=modernization</a>
 
 ###Field Searches
 
@@ -31,7 +31,7 @@ You may query the Market Research Abstracts API using the following URL template
 
 #####Example:
   
-    http://api.trade.gov/market_research_library/search.json?country=Russia
+    <a href=http://api.trade.gov/market_research_library/search.json?country=Russia</a>
 
 ####industry
 
@@ -39,7 +39,7 @@ You may query the Market Research Abstracts API using the following URL template
 
 #####Example:
   
-    http://api.trade.gov/market_research_library/search.json?industry=Agribusiness
+    <a href=http://api.trade.gov/market_research_library/search.json?industry=Agribusiness</a>
 
 ##Field Descriptions
 <table border="0">
