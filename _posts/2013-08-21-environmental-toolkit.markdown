@@ -19,7 +19,7 @@ The Environmental Solutions Toolkit API may be queried using the following URL t
 
 Example:
 
-    <a href=http://api.trade.gov/events/q= …</a>
+    http://api.trade.gov/events/q= …
 
 ##Field Descriptions
 <table border="0">
