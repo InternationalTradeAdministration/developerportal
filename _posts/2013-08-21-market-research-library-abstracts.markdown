@@ -21,7 +21,7 @@ You may query the Market Research Abstracts API using the following URL template
 
 #####Example:
 
-    http://api.trade.gov/market_research_library/search.json?q=modernization
+    [http://api.trade.gov/market_research_library/search.json?q=modernization](http://api.trade.gov/market_research_library/search.json?q=modernization)
 
 ###Field Searches
 
