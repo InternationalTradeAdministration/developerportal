@@ -39,7 +39,8 @@ You may query the Market Research Abstracts API using the following URL template
 
 #####Example:
   
-    http://api.trade.gov/market_research_library/</br>search.json?industry=Agribusiness
+    http://api.trade.gov/market_research_library/
+	search.json?industry=Agribusiness
 
 ##Field Descriptions
 <table border="0">
