@@ -19,17 +19,16 @@ You may query the Offices & Centers API API using the following URL templates:
 
 Example:
 
-    http://api.trade.gov/ita_office_locations/search.json?q=Nashville
+    <a href=http://api.trade.gov/ita_office_locations/search.json?q=Nashville</a>
 
 ###Field Searches
 
 ####country
 
     http://api.trade.gov/ita_office_locations/search.json?country={term}
-
 Example:
 
-    http://api.trade.gov/ita_office_locations/search.json?country=Germany
+    <a href=http://api.trade.gov/ita_office_locations/search.json?country=Germany</a>
 
 ####state
 
@@ -37,7 +36,8 @@ Example:
 
 Example:
 
-    http://api.trade.gov/ita_office_locations/search.json?state=TN
+    <a href=http://api.trade.gov/ita_office_locations/search.json?state=TN</a>
+
 
 
 

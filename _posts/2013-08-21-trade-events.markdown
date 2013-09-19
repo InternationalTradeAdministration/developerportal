@@ -19,7 +19,7 @@ You may query the Trade Events API using the following URL templates:
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?q=mission
+      <a href=http://api.trade.gov/trade_events/search.json?q=mission</a>
     
 ###Field Searches
 ####event_name
@@ -28,49 +28,49 @@ Example:
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?event_name=Nanomaterials
+      <a href=http://api.trade.gov/trade_events/search.json?event_name=Nanomaterials</a>
 ####start_date
 
     http://api.trade.gov/trade_events/search.json?start_date={term}
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?start_date=2013-09-18
+      <a href=http://api.trade.gov/trade_events/search.json?start_date=2013-09-18</a>
 ####end_date
 
     http://api.trade.gov/trade_events/search.json?end_date={term}
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?end_date=2013-09-18
+      <a href=http://api.trade.gov/trade_events/search.json?end_date=2013-09-18</a>
 ####industry
 
     http://api.trade.gov/trade_events/search.json?industry={term}
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?industry=Agribusiness
+      <a href=http://api.trade.gov/trade_events/search.json?industry=Agribusiness</a>
 ####city
 
     http://api.trade.gov/trade_events/search.json?city={term}
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?city=Chicago
+      <a href=http://api.trade.gov/trade_events/search.json?city=Chicago</a>
 ####state
 
     http://api.trade.gov/trade_events/search.json?state={term}
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?state=NY
+      <a href=http://api.trade.gov/trade_events/search.json?state=NY</a>
 ####country
 
     http://api.trade.gov/trade_events/search.json?country={term}
 
 Example:
 
-    http://api.trade.gov/trade_events/search.json?country=Mexico
+      <a href=http://api.trade.gov/trade_events/search.json?country=Mexico</a>
     
 ##Field Descriptions
 <table border="0">

@@ -24,7 +24,7 @@ You may query the ITA Programs Directory API using the following URL templates:
 
 Example:
 
-    http://api.trade.gov/ita_programs/search.json?q=financing
+      <a href=http://api.trade.gov/ita_programs/search.json?q=financing</a>
 
 ###Field Searches
 
@@ -34,7 +34,7 @@ Example:
 
 Example:
 
-    http://api.trade.gov/ita_programs/search.json?program_title=MDCP
+      <a href=http://api.trade.gov/ita_programs/search.json?program_title=MDCP</a>
 
 ####abstract
 
@@ -42,7 +42,7 @@ Example:
 
 Example:
 
-    http://api.trade.gov/ita_programs/search.json?abstract=multi-year
+      <a href=http://api.trade.gov/ita_programs/search.json?abstract=multi-year</a>
 
 ####export_phase
 export_phase can be one, some, or all of four values:  **learn**, **ready**, **exporting**, and **expand**
@@ -51,7 +51,7 @@ export_phase can be one, some, or all of four values:  **learn**, **ready**, **e
 
 Example:
 
-    http://api.trade.gov/ita_programs/search.json?export_phase=expand
+      <a href=http://api.trade.gov/ita_programs/search.json?export_phase=expand</a>
 
 
 ##Field Descriptions
