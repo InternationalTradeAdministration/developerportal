@@ -47,7 +47,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?end_date=2013-09-18
 ####industry
-Searches for specific controlled industry names
+Searches for specific controlled [industry names](/industry-list.html)
 
     http://api.trade.gov/trade_events/search.json?industry={term}
 
