@@ -43,7 +43,7 @@ Searches for specific controlled [industry names](industry-list.html)
     http://api.trade.gov/market_research_library/
 	search.json?industry=Agribusiness
 
-##Field Descriptions
+##Return Values
 <table border="0">
 <tr>
 <th>Field</th>
