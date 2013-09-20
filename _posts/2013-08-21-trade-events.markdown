@@ -71,7 +71,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?state=NY
 ####country
-Searches for specific controlled country names
+Searches for specific controlled [country names](/country-list.html)
 
     http://api.trade.gov/trade_events/search.json?country={term}
 
