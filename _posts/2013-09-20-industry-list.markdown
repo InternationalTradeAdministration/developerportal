@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 permalink: "industry-list.html"
 layout: template
 ---
