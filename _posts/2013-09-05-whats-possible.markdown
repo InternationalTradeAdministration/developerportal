@@ -1,5 +1,5 @@
 ---
-permalink: "/docs/2013-09-05-whats-possible.html"
+permalink: "whats-possible.html"
 layout: template
 title: "What's Possible"
 published: true
@@ -13,4 +13,3 @@ Developers have a wealth of opportunities to turn ITA's trade information into u
 - Create a widget that aggregates event information, including [ITA's Trade Events](trade-events.html), for businesses in particular industries.
 - Include [ITA's Offices & Centers](ita-office-locations) in a list of resources for businesses in a particular State.
 - Build a widget that searches the [ITA's Consolidated Screening List](consolidated-screening-list.html) for names that are similar to the ones an exporter might do business with.
-
