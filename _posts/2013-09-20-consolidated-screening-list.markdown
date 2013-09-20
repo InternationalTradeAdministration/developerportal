@@ -36,7 +36,7 @@ Searches for term or keyword within any field in the data set
     http://api.trade.gov/consolidated_screening_list/search.json?q=Somali
 
 ####source
-Searches for one of six abbreviations in the **source** field:
+Searches for one of six unique abbreviations in the **source** field:
 
 1. **DPL**	Denied Persons List
 2. **DTC**	AECA Debarred List 
@@ -52,6 +52,24 @@ Searches for one of six abbreviations in the **source** field:
 #####Example
 
     http://api.trade.gov/consolidated_screening_list/search.json?source=DPL
+    
+####sdn_type
+Searches for one of three unique types in the **source** field:
+
+1. **aircraft**
+2. **individual**
+3. **vessel**
+
+
+#####Template
+
+    http://api.trade.gov/consolidated_screening_list/search.json?sdn_type={term}
+        
+#####Example
+
+    http://api.trade.gov/consolidated_screening_list/search.json?sdn_type=DPL
+
+
 
 ##Return Values
 <table border="0">
