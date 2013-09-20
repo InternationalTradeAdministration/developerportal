@@ -63,7 +63,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?city=Chicago
 ####state
-Searches for specific controlled state names
+Searches for specific controlled [state names](/state-list.html)
 
     http://api.trade.gov/trade_events/search.json?state={term}
 
