@@ -18,7 +18,8 @@ The output format for this API is JSON.
 
 ##Request Methods
 You may query the ITA Programs Directory API using the following URL templates:
-###Full Text Search
+####Keywords
+Searches for term or keyword within any field in the data set
 
     http://api.trade.gov/ita_programs/search.json?q={term}
 
@@ -26,9 +27,8 @@ Example:
 
     http://api.trade.gov/ita_programs/search.json?q=financing
 
-###Field Searches
-
 ####program_title
+Searches for term anywhere in the **program_title** field
 
     http://api.trade.gov/ita_programs/search.json?program_title={term}
 
@@ -37,6 +37,7 @@ Example:
     http://api.trade.gov/ita_programs/search.json?program_title=MDCP
 
 ####abstract
+Searches for term anywhere in the **abstract** field
 
     http://api.trade.gov/ita_programs/search.json?abstract={term}
 
@@ -45,7 +46,7 @@ Example:
     http://api.trade.gov/ita_programs/search.json?abstract=multi-year
 
 ####export_phase
-export_phase can be one, some, or all of four values:  **learn**, **ready**, **exporting**, and **expand**
+The **export_phase** field can be one, some, or all of four values:  **learn**, **ready**, **exporting**, and **expand**
 
     http://api.trade.gov/ita_programs/search.json?export_phase={term}
 
@@ -54,7 +55,7 @@ Example:
     http://api.trade.gov/ita_programs/search.json?export_phase=expand
 
 
-##Field Descriptions
+##Return Values
 <table border="0">
 <tr>
 <th>Field</th>
