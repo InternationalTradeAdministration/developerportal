@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 permalink: "state-list.html"
 layout: template
 ---
@@ -118,4 +118,4 @@ The following two letter abbreviations are the only **state** names that the API
 
 **WI**	Wisconsin                                         
 
-**WY**	Wyoming                                           
+**WY**	Wyoming
