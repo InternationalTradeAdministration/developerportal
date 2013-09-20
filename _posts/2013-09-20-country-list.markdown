@@ -1,3 +1,9 @@
+---
+published: false
+permalink: "country-list.html"
+layout: template
+---
+
 ## Controlled Country Names
 
 The following countries are the only **country** names that the API will accept:
