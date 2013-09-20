@@ -1,7 +1,8 @@
 ---
-permalink: apps-exporters.html
+permalink: "apps-exporters.html"
 layout: template
 title: Apps for Exporters
+published: true
 ---
 
 #Apps for Exporters
@@ -14,5 +15,3 @@ We are particularly interested in applications that help businesses:
 * Expand their existing exporting business.
 
 For example, the API includes ITA’s Trade Events that developers can integrate with an existing application that provides general events for businesses.  Or, developers who have applications that provide business news and insight can use ITA’s Market Research Abstracts to enhance their offering.
-
-We are building an app gallery to show off different uses of the data.  We welcome developers to  submit their apps for consideration.
