@@ -13,7 +13,9 @@ The output format for this API is JSON.
 
 ##Request Methods
 You may query the Offices & Centers API API using the following URL templates:
-###Full Text Search
+
+####Keywords
+Searches for term or keyword within any field in the data set
 
     http://api.trade.gov/ita_office_locations/search.json?q={term}
 
@@ -21,9 +23,8 @@ Example:
 
     http://api.trade.gov/ita_office_locations/search.json?q=Nashville
 
-###Field Searches
-
 ####country
+Searches for specific controlled [country names](country-list.html)
 
     http://api.trade.gov/ita_office_locations/search.json?country={term}
 	
@@ -32,6 +33,7 @@ Example:
     http://api.trade.gov/ita_office_locations/search.json?country=Germany
 
 ####state
+Searches for specific controlled [state names](state-list.html)
 
     http://api.trade.gov/ita_office_locations/search.json?state={term}
 
@@ -39,10 +41,7 @@ Example:
 
     http://api.trade.gov/ita_office_locations/search.json?state=TN
 
-
-
-
-##Field Descriptions
+##Return Values
 <table border="0">
 <tr>
 <th>Field</th>
