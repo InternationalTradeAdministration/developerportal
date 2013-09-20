@@ -46,7 +46,7 @@ Searches for term anywhere in the **abstract** field
     http://api.trade.gov/ita_programs/search.json?abstract=multi-year
 
 ####export_phase
-Searches for one of four terms (_learn_, _ready_, _exporting_, and _expand_) in the **export_phase** field:
+Searches for one of four unique terms in the **export_phase** field:
 
 1. _learn_
 2. _ready_
