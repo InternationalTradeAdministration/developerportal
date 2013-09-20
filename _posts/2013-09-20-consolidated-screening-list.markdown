@@ -29,11 +29,11 @@ You may query the Consolidated Screening List API using the following URL templa
 
 Searches for term or keyword within any field in the data set
 
-http://api.trade.gov/consolidated_screening_list/search.json?q={term}
+    http://api.trade.gov/consolidated_screening_list/search.json?q={term}
 
 #####Example:
 
-http://api.trade.gov/consolidated_screening_list/search.json?q=Somali
+    http://api.trade.gov/consolidated_screening_list/search.json?q=Somali
 
 ####source
 Searches for one of six abbreviations in the **source** field:
@@ -47,9 +47,10 @@ Searches for one of six abbreviations in the **source** field:
 
     http://api.trade.gov/consolidated_screening_list/search.json?source={term}
     
+        
 #####Example
 
-    http://api.trade.gov/consolidated_screening_list/search.json?source={DPL}
+    http://api.trade.gov/consolidated_screening_list/search.json?source=DPL
 
 
 
