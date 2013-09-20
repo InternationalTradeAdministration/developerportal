@@ -46,7 +46,7 @@ Example:
     http://api.trade.gov/ita_programs/search.json?abstract=multi-year
 
 ####export_phase
-The **export_phase** field can be one, some, or all of four values:  **learn**, **ready**, **exporting**, and **expand**
+Searches for one of four terms (_learn_, _ready_, _exporting_, and _expand_) in the **export_phase** field
 
     http://api.trade.gov/ita_programs/search.json?export_phase={term}
 
