@@ -13,7 +13,8 @@ The output format for this API is JSON.
 ##Request Methods
 
 You may query the Trade Events API using the following URL templates:
-###Full Text Search
+####Keyword
+Searches for term or keyword within any field in the data set
 
     http://api.trade.gov/trade_events/search.json?q={term}
 
@@ -21,8 +22,8 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?q=mission
     
-###Field Searches
 ####event_name
+Searches for term anywhere in the **event_name** field
 
     http://api.trade.gov/trade_events/search.json?event_name={term}
 
@@ -30,6 +31,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?event_name=Nanomaterials
 ####start_date
+Searches for dates only in YYYY-MM-DD format
 
     http://api.trade.gov/trade_events/search.json?start_date={term}
 
@@ -37,6 +39,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?start_date=2013-09-18
 ####end_date
+Searches for dates only in YYYY-MM-DD format
 
     http://api.trade.gov/trade_events/search.json?end_date={term}
 
@@ -44,6 +47,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?end_date=2013-09-18
 ####industry
+Searches for specific controlled industry names
 
     http://api.trade.gov/trade_events/search.json?industry={term}
 
@@ -51,6 +55,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?industry=Agribusiness
 ####city
+Searches for term anywhere in the **city** field
 
     http://api.trade.gov/trade_events/search.json?city={term}
 
@@ -58,6 +63,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?city=Chicago
 ####state
+Searches for specific controlled state names
 
     http://api.trade.gov/trade_events/search.json?state={term}
 
@@ -65,6 +71,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?state=NY
 ####country
+Searches for specific controlled country names
 
     http://api.trade.gov/trade_events/search.json?country={term}
 
@@ -72,7 +79,7 @@ Example:
 
     http://api.trade.gov/trade_events/search.json?country=Mexico
     
-##Field Descriptions
+##Return Values
 <table border="0">
 <tr>
 <th>Field</th>
