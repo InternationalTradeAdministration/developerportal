@@ -19,7 +19,7 @@ Searches for term or keyword within any field in the data set
 
     http://api.trade.gov/ita_office_locations/search.json?q={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_office_locations/search.json?q=Nashville
 
@@ -28,7 +28,7 @@ Searches for specific controlled [country names](country-list.html)
 
     http://api.trade.gov/ita_office_locations/search.json?country={term}
 	
-Example:
+#####Example:
 
     http://api.trade.gov/ita_office_locations/search.json?country=Germany
 
@@ -37,7 +37,7 @@ Searches for specific controlled [state names](state-list.html)
 
     http://api.trade.gov/ita_office_locations/search.json?state={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_office_locations/search.json?state=TN
 
