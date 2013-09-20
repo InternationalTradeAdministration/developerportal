@@ -45,57 +45,49 @@ Searches for one of six abbreviations in the **source** field:
 5. **SDN**	Specially Designated Nationals List
 6. **UVL**	Unverified List
 
+#####Template
+
     http://api.trade.gov/consolidated_screening_list/search.json?source={term}
-    
         
 #####Example
 
     http://api.trade.gov/consolidated_screening_list/search.json?source=DPL
-
-
 
 ##Return Values
 <table border="0">
 <tr>
 <th>Field</th>
 <th>Description</th>
-<th>Searchable Field</th>
 </tr>
 
 <tr>
 <td>field</td>
 <td>xyz</td>
-<td></td>
 </tr>
 
 <tr>
 <td>field</td>
 <td>xyz</td>
-<td></td>
 </tr>
 
 <tr>
 <td>field</td>
 <td>xyz</td>
-<td></td>
 </tr>
 
 <tr>
 <td>field</td>
 <td>xyz</td>
-<td></td>
 </tr>
 
 <tr>
 <td>field</td>
 <td>xyz</td>
-<td></td>
 </tr>
 
 <tr>
 <td>field</td>
 <td>xyz</td>
-<td></td>
 </tr>
 
 </table>
