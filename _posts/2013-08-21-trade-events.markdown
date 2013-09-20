@@ -18,7 +18,7 @@ Searches for term or keyword within any field in the data set
 
     http://api.trade.gov/trade_events/search.json?q={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?q=mission
     
@@ -27,7 +27,7 @@ Searches for term anywhere in the **event_name** field
 
     http://api.trade.gov/trade_events/search.json?event_name={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?event_name=Nanomaterials
 ####start_date
@@ -35,7 +35,7 @@ Searches for dates only in YYYY-MM-DD format
 
     http://api.trade.gov/trade_events/search.json?start_date={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?start_date=2013-09-18
 ####end_date
@@ -43,7 +43,7 @@ Searches for dates only in YYYY-MM-DD format
 
     http://api.trade.gov/trade_events/search.json?end_date={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?end_date=2013-09-18
 ####industry
@@ -51,7 +51,7 @@ Searches for specific controlled [industry names](/industry-list.html)
 
     http://api.trade.gov/trade_events/search.json?industry={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?industry=Agribusiness
 ####city
@@ -59,7 +59,7 @@ Searches for term anywhere in the **city** field
 
     http://api.trade.gov/trade_events/search.json?city={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?city=Chicago
 ####state
@@ -67,7 +67,7 @@ Searches for specific controlled [state names](/state-list.html)
 
     http://api.trade.gov/trade_events/search.json?state={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?state=NY
 ####country
@@ -75,7 +75,7 @@ Searches for specific controlled [country names](/country-list.html)
 
     http://api.trade.gov/trade_events/search.json?country={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search.json?country=Mexico
     
