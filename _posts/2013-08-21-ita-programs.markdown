@@ -23,7 +23,7 @@ Searches for term or keyword within any field in the data set
 
     http://api.trade.gov/ita_programs/search.json?q={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_programs/search.json?q=financing
 
@@ -32,7 +32,7 @@ Searches for term anywhere in the **program_title** field
 
     http://api.trade.gov/ita_programs/search.json?program_title={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_programs/search.json?program_title=MDCP
 
@@ -41,16 +41,23 @@ Searches for term anywhere in the **abstract** field
 
     http://api.trade.gov/ita_programs/search.json?abstract={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_programs/search.json?abstract=multi-year
 
 ####export_phase
-Searches for one of four terms (_learn_, _ready_, _exporting_, and _expand_) in the **export_phase** field
+Searches for one of four terms (_learn_, _ready_, _exporting_, and _expand_) in the **export_phase** field:
+
+1. _learn_
+2. _ready_
+3. _exporting_
+4. _expand_
+
+#####Template
 
     http://api.trade.gov/ita_programs/search.json?export_phase={term}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_programs/search.json?export_phase=expand
 
