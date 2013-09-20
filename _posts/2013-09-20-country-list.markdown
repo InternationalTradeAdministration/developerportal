@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 permalink: "country-list.html"
 layout: template
 ---
@@ -499,4 +499,3 @@ Yemen
 Zambia
 
 Zimbabwe
-
