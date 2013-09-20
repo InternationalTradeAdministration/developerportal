@@ -38,12 +38,12 @@ Searches for term or keyword within any field in the data set
 ####source
 Searches for one of six unique abbreviations in the **source** field:
 
-1. **DPL**	Denied Persons List
-2. **DTC**	AECA Debarred List 
-3. **EL**	Entity List
-4. **ISN**	Nonproliferation Sanctions
-5. **SDN**	Specially Designated Nationals List
-6. **UVL**	Unverified List
+1. _DPL_	Denied Persons List
+2. _DTC_	AECA Debarred List 
+3. _EL_	Entity List
+4. _ISN_	Nonproliferation Sanctions
+5. _SDN_	Specially Designated Nationals List
+6. _UVL_	Unverified List
 
 #####Template
 
@@ -56,9 +56,9 @@ Searches for one of six unique abbreviations in the **source** field:
 ####sdn_type
 Searches for one of three unique types in the **source** field:
 
-1. **aircraft**
-2. **individual**
-3. **vessel**
+1. _aircraft_
+2. _individual_
+3. _vessel_
 
 
 #####Template
