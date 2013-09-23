@@ -163,5 +163,5 @@ Searches for particular keywords assigned by the editor
 
 #####Example:
 
-    http://api.trade.gov/trade_articles/search.json?keyword=Mexico
+    http://api.trade.gov/trade_articles/search.json?keyword=Customs
 
