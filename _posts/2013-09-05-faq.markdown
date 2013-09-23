@@ -2,6 +2,7 @@
 permalink: faq.html
 layout: template
 title: FAQ
+published: true
 ---
 
 #FAQ
@@ -14,7 +15,7 @@ Use of our APIs and other data sets is free of charge and allows unlimited acces
 ###Are there any data limits for a single application or a developer?
 Currently there are no limits.  However, starting in late 2013 we will control and meter traffic associated with an individual API key.
 
-The default setting will be no more than **X** calls per second and **XXX** calls per day. This threshold can be raised for either a specific API key or globally if needed. We expect to make adjustments to the default settings over time. Our goal is to encourage the development of applications that help exporters.. We do not want to introduce any limitations that work against that.
+<!-- The default setting will be no more than **X** calls per second and **XXX** calls per day. This threshold can be raised for either a specific API key or globally if needed. We expect to make adjustments to the default settings over time. Our goal is to encourage the development of applications that help exporters. We do not want to introduce any limitations that work against that. -->
 
 ###What kind of data can I get from the API?
 Visit the links on the [Home page](http://developer.trade.gov) to learn more about the different data sets and their methods.
@@ -28,20 +29,23 @@ No. It's completely free.
 Yes, any application (including those for-profit) are welcome to use the API in any way that they see fit as long as they conform to the **Terms of Use**.
 
 ###Other than agreeing to a license, do developers need accounts/API keys or other mechanisms?
-Developers need to **register** and get an API key. ITA uses **XXX** to handle registration, API key distribution, and general management of the data flow.
+
+No, not at the moment.  Starting in late 2013, developers will be required to register and receive a development key.
+
+<!-- Developers need to **register** and get an API key. ITA uses **XXX** to handle registration, API key distribution, and general management of the data flow. -->
 
 ##Data Formats
 
 ###What is the format of this feed?
 API data is accessible as JavaScript Object Notation (JSON).
 
-###I am ready to deploy my application. How can I get my data limits increased?
-When you are ready to release your app, please **XXX...**
+<!-- ###I am ready to deploy my application. How can I get my data limits increased?
+When you are ready to release your app, please **XXX...** -->
 
 ##General
 
 ###Did something change?  My app is not working.
-The ITA API is constantly evolving and we will continually make updates. If you have an application that's no longer working, visit the **Change Log** page to see if any updates are affecting it.
+The ITA API is constantly evolving and we will continually make updates. If you have an application that's no longer working, visit the [Change Log](/change-log.html) page to see if any updates are affecting it.
 
 ###What sort of load are ITA's servers able to handle?
 ITA uses cloud computing, so there is no impact on ITA’s infrastructure.
