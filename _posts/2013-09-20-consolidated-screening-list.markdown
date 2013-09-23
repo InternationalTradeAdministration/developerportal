@@ -17,7 +17,7 @@ In the event that a company, entity, or person on the list appears to match a pa
 
 ### Information Developers Should Provide to Their Users
 
-The consolidated screening list is a list of parties for which the United States Government maintains restrictions on certain exports, re-exports, or transfers of items. If a party to the user's transaction matches a party name on the consolidated list, the user must check the official publication of restricted parties in the [Federal Register](http://www.gpoaccess.gov/fr/). They must also check the official lists of restricted parties maintained on the web sites of the Departments of Commerce, State and the Treasury to ensure full compliance with all of the terms and conditions of the restrictions placed on the parties on this list.
+The consolidated screening list is a list of parties for which the United States Government maintains restrictions on certain exports, re-exports, or transfers of items. If a party to the user's transaction matches a party name on the consolidated list, the user must check the official publication of restricted parties in the [Federal Register](http://www.gpoaccess.gov/fr/). They must also check the official lists of restricted parties maintained on the web sites, populated in the **source_list_ur field**, of the Departments of Commerce, State and the Treasury to ensure full compliance with all of the terms and conditions of the restrictions placed on the parties on this list.
 
 If users have any questions related to the content of the information in the consolidated list, please refer them to the appropriate agency responsible for the list as indicated in the **source** field. 
 
@@ -200,33 +200,33 @@ List (EL)</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>address_remarks</td>
+<td>Additional remarks or notes regarding the SDN address</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>alt_number</td>
+<td>A number used by OFAC to uniquely identify multiple aliases of the Specially Designated Nationals (SDNs)</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>alt_type</td>
+<td>Abbreviation used by OFAC to identify the alias type (aka, fka, nka, etc.) </td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>alt_name</td>
+<td>Alias name used by the company, entity or person on the OFAC Specially Designed Nationals List or BIS’s Entity List</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>alt_remarks</td>
+<td>Additional remarks or notes regarding the SDN or BIS’s Entity List alternate name</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>source_list_url</td>
+<td>Website of the specific agency list</td>
 </tr>
 
 </table>
