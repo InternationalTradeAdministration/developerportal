@@ -145,7 +145,7 @@ Searches for one of three unique types in the **source** field:
 
 <tr>
 <td>standard_order</td>
-<td>Whether or not (Y/N) the standard order applies to the Denied Party as defined by the Bureau of Industry and Security</td>
+<td>Whether or not (Y/N) the standard order applies to the Denied Party as defined by the Bureau of Industry and Security (BIS)</td>
 </tr>
 
 <tr>
@@ -196,7 +196,7 @@ List (EL)</td>
 
 <tr>
 <td>address_number</td>
-<td>A number used by OFAC to uniquely identify multiple locations of the Specially Designated Nationals (SDNs)</td>
+<td>A number used to uniquely identify multiple locations of the Specially Designated Nationals (SDNs)</td>
 </tr>
 
 <tr>
@@ -206,22 +206,22 @@ List (EL)</td>
 
 <tr>
 <td>alt_number</td>
-<td>A number used by OFAC to uniquely identify multiple aliases of the Specially Designated Nationals (SDNs)</td>
+<td>A number used to uniquely identify multiple aliases of the Specially Designated Nationals (SDNs)</td>
 </tr>
 
 <tr>
 <td>alt_type</td>
-<td>Abbreviation used by OFAC to identify the alias type (aka, fka, nka, etc.) </td>
+<td>Abbreviation used to identify the alias type (aka, fka, nka, etc.) </td>
 </tr>
 
 <tr>
 <td>alt_name</td>
-<td>Alias name used by the company, entity or person on the OFAC Specially Designed Nationals List or BIS’s Entity List</td>
+<td>Alias name used by the entity on the Specially Designed Nationals List or Entity List</td>
 </tr>
 
 <tr>
 <td>alt_remarks</td>
-<td>Additional remarks or notes regarding the SDN or BIS’s Entity List alternate name</td>
+<td>Additional remarks or notes regarding the SDN or Entity List alternate name</td>
 </tr>
 
 <tr>
