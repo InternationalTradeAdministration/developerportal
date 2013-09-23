@@ -15,13 +15,12 @@ The following terms are the only **industry** and **industry_sector** names that
 </tr>
 
 <tr>
-  <td>Aerospace &amp;  Defense</td>
+  <td>**Aerospace &amp;  Defense**</td>
   <td>Aircraft &amp; Parts</td>
  </tr>
  <tr>
   <td></td>
-  <td>Airport &amp; Ground
-  Support Equipment</td>
+  <td>Airport &amp; Ground Support Equipment</td>
  </tr>
  <tr>
   <td></td>
@@ -32,7 +31,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Defense Industry Equipment</td>
  </tr>
  <tr>
-  <td>Agribusiness</td>
+  <td>**Agribusiness**</td>
   <td>Agricultural Chemicals</td>
  </tr>
  <tr>
@@ -60,7 +59,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Veterinary Medicine Equipment &amp; Supplies</td>
  </tr>
  <tr>
-  <td>Arts, Entertainment &amp; Media</td>
+  <td>**Arts, Entertainment &amp; Media**</td>
   <td>Artwork</td>
  </tr>
  <tr>
@@ -88,7 +87,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Printing &amp; Graphic Arts Equipment</td>
  </tr>
  <tr>
-  <td>Automotive &amp; Ground Transportation</td>
+  <td>**Automotive &amp; Ground Transportation**</td>
   <td>Automobiles, Light Trucks &amp; Vans</td>
  </tr>
  <tr>
@@ -108,7 +107,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Trucks, Trailers &amp; Busses</td>
  </tr>
  <tr>
-  <td>Business &amp; Professional Services</td>
+  <td>**Business &amp; Professional Services**</td>
   <td>Advertising Services</td>
  </tr>
  <tr>
@@ -146,7 +145,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Trade Promotion Services</td>
  </tr>
  <tr>
-  <td>Chemicals</td>
+  <td>**Chemicals**</td>
   <td>Chemical Production Machinery</td>
  </tr>
  <tr>
@@ -154,7 +153,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Industrial Chemicals</td>
  </tr>
  <tr>
-  <td>Construction, Building &amp; Heavy Equipment</td>
+  <td>**Construction, Building &amp; Heavy Equipment**</td>
   <td>Air Conditioning &amp; Refrigeration Equipment</td>
  </tr>
  <tr>
@@ -166,7 +165,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Construction Equipment</td>
  </tr>
  <tr>
-  <td>Consumer Goods</td>
+  <td>**Consumer Goods**</td>
   <td>Consumer Electronics</td>
  </tr>
  <tr>
@@ -202,7 +201,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Toys &amp; Games</td>
  </tr>
 <tr>
-  <td>Energy &amp; Mining</td>
+  <td>**Energy &amp; Mining**</td>
   <td>Coal</td>
  </tr>
  <tr>
@@ -218,11 +217,11 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Oil &amp; Gas Field Machinery</td>
  </tr>
  <tr>
-  <td>Energy &amp; Mining</td>
+  <td></td>
   <td>Oil, Gas &amp; Mineral Production &amp; Exploration Services</td>
  </tr>
  <tr>
-  <td>Environmental Industries</td>
+  <td>**Environmental Industries**</td>
   <td>Pollution Control Equipment</td>
  </tr>
  <tr>
@@ -234,7 +233,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Water Resources Equipment &amp; Services</td>
  </tr>
 <tr>
-  <td>Financial Services</td>
+  <td>**Financial Services**</td>
   <td>Accounting Services</td>
  </tr>
  <tr>
@@ -250,7 +249,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Leasing Services</td>
  </tr>
 <tr>
-  <td>Food Processing &amp; Packaging</td>
+  <td>**Food Processing &amp; Packaging**</td>
   <td>Food Processing &amp; Packaging Equipment</td>
  </tr>
  <tr>
@@ -262,7 +261,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Processed Foods</td>
  </tr>
   <tr>
-  <td>Healthcare, Biotechnology &amp; Pharmaceuticals</td>
+  <td>**Healthcare, Biotechnology &amp; Pharmaceuticals**</td>
   <td>Biotechnology</td>
  </tr>
  <tr>
@@ -282,7 +281,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Pharmaceuticals</td>
  </tr>
  <tr>
-  <td>Industrial Machinery &amp; Equipment</td>
+  <td>**Industrial Machinery &amp; Equipment**</td>
   <td>Business Equipment (Non-Computer)</td>
  </tr>
  <tr>
@@ -334,7 +333,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Used &amp; Reconditioned Equipment</td>
  </tr>
  <tr>
-  <td>Industrial Materials</td>
+  <td>**Industrial Materials**</td>
   <td>Ceramics</td>
  </tr>
  <tr>
@@ -366,7 +365,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Plastics</td>
  </tr>
  <tr>
-  <td>Information Technology &amp; Services</td>
+  <td>**Information Technology &amp; Services**</td>
   <td>Computer Services</td>
  </tr>
  <tr>
@@ -394,7 +393,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Telecommunications Services</td>
  </tr>
  <tr>
-  <td>Marine Industries</td>
+  <td>**Marine Industries**</td>
   <td>Commercial Fishing Equipment</td>
  </tr>
  <tr>
@@ -410,7 +409,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Port &amp; Shipbuilding Equipment</td>
  </tr>
  <tr>
-  <td>Public Administration</td>
+  <td>**Public Administration**</td>
   <td>Economy</td>
  </tr>
  <tr>
@@ -418,11 +417,11 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Regulations</td>
  </tr>
  <tr>
-  <td>Security &amp; Safety</td>
+  <td>**Security &amp; Safety**</td>
   <td>&nbsp;</td>
  </tr>
  <tr>
-  <td>Textiles &amp; Apparel</td>
+  <td>**Textiles &amp; Apparel**</td>
   <td>Apparel</td>
  </tr>
  <tr>
@@ -450,7 +449,7 @@ The following terms are the only **industry** and **industry_sector** names that
   <td>Yarns</td>
  </tr>
  <tr>
-  <td>Travel, Tourism &amp; Hospitality</td>
+  <td>**Travel, Tourism &amp; Hospitality**</td>
   <td>Hotel &amp; Restaurant
   Equipment</td>
  </tr>
