@@ -15,7 +15,7 @@ The output format for this API is JSON.
 
 You may query the Trade News & Articles API using the following URL templates:
 
-####Keyword
+####General search
 
 Searches for term or keyword within any field in the data set
 
@@ -127,12 +127,41 @@ Searches for specific controlled [trade region names](/trade-region-list.html)
 
 ####geo_region
 
-Searches for specific controlled [geo region names](/geo-region-list.html)
+Searches for specific controlled [geo-region names](/geo-region-list.html)
 
     http://api.trade.gov/trade_articles/search.json?geo_region={term}
     
 #####Example
 
     http://api.trade.gov/trade_articles/search.json?geo_region=Asia
+
+####geo_subregion
+
+Searches for specific controlled [geo-subregion names](/geo-region-list.html)
+
+    http://api.trade.gov/trade_articles/search.json?geo_subregion={term}
     
+#####Example
+
+    http://api.trade.gov/trade_articles/search.json?geo_subregion=Esat%20Asia
+    
+####country
+
+Searches for specific controlled country names
+
+    http://api.trade.gov/trade_articles/search.json?country={term}
+
+#####Example:
+
+    http://api.trade.gov/trade_articles/search.json?country=Mexico
+
+####keyword
+
+Searches for particular keywords assigned by the editor
+
+    http://api.trade.gov/trade_articles/search.json?keyword={term}
+
+#####Example:
+
+    http://api.trade.gov/trade_articles/search.json?keyword=Mexico
 
