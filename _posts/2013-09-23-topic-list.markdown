@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 permalink: "topic-list.html"
 layout: template
 ---
