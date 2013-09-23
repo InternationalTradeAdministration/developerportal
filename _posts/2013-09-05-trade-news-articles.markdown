@@ -123,5 +123,28 @@ Searches for specific controlled [trade region names](/trade-region-list.html)
 
 #####Example:
 
-http://api.trade.gov/trade_articles/search.json?trade_region=African%20Growth%20and%20Opportunity%20Act
+    http://api.trade.gov/trade_articles/search.json?trade_region=African%20Growth%20and%20Opportunity%20Act
+
+####geo_region
+
+Searches for one of nine unique values in the **geo_region** field
+
+1. _Africa_
+2. _Asia_
+3. _Caribbean_
+4. _Central America_
+5. _Europe_
+6. _Middle East_
+7. _North America_
+8. _Oceania_
+9. _South America_
+
+#####Template
+
+    http://api.trade.gov/trade_articles/search.json?geo_region={term}
+    
+#####Example
+
+    http://api.trade.gov/trade_articles/search.json?geo_region=Asia
+    
 
