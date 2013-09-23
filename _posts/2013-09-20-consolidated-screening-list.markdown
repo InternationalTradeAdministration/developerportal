@@ -43,7 +43,7 @@ Searches for one of six unique abbreviations in the **source** field:
 3. _EL_	- Entity List (Department of Commerce)
 4. _ISN_ - Nonproliferation Sanctions (Department of State)
 5. _SDN_ - Specially Designated Nationals List (Department of Treasury)
-6. _UVL_ - Unverified List )Department of Commerce)
+6. _UVL_ - Unverified List (Department of Commerce)
 
 #####Template
 
