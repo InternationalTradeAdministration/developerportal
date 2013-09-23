@@ -147,7 +147,7 @@ Searches for specific controlled [geo-subregion names](/geo-region-list.html)
     
 ####country
 
-Searches for specific controlled country names
+Searches for specific controlled [country names](/country-list.html)
 
     http://api.trade.gov/trade_articles/search.json?country={term}
 
