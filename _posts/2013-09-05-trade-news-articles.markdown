@@ -92,7 +92,7 @@ Searches for specific controlled [industry sector names](/industry-list.html)
 
 #####Example:
 
-    http://api.trade.gov/trade_articles/search.json?industry_sector=Coal
+    http://api.trade.gov/trade_articles/search.json?industry_sector=Agricultural%20Chemicals
 
 ####topic
 
@@ -114,4 +114,14 @@ Searches for specific controlled [sub-topic areas](/topic-list.html)
 #####Example:
 
     http://api.trade.gov/trade_articles/search.json?subtopic=Marketing
+
+####trade_region
+
+Searches for specific controlled [trade region names](/trade-region-list.html)
+
+    http://api.trade.gov/trade_articles/search.json?trade_region={term}
+
+#####Example:
+
+http://api.trade.gov/trade_articles/search.json?trade_region=African%20Growth%20and%20Opportunity%20Act
 
