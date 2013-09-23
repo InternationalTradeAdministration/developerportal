@@ -38,12 +38,12 @@ Searches for term or keyword within any field in the data set
 ####source
 Searches for one of six unique abbreviations in the **source** field:
 
-1. _DPL_ - Denied Persons List - Department of Commerce
-2. _DTC_ - AECA Debarred List  - Department of State
-3. _EL_	- Entity List - Department of Commerce
-4. _ISN_ - Nonproliferation Sanctions - Department of State
-5. _SDN_ - Specially Designated Nationals List - Department of Treasury
-6. _UVL_ - Unverified List - Department of Commerce
+1. _DPL_ - Denied Persons List (Department of Commerce)
+2. _DTC_ - AECA Debarred List  (Department of State)
+3. _EL_	- Entity List (Department of Commerce)
+4. _ISN_ - Nonproliferation Sanctions (Department of State)
+5. _SDN_ - Specially Designated Nationals List (Department of Treasury)
+6. _UVL_ - Unverified List )Department of Commerce)
 
 #####Template
 
@@ -76,6 +76,126 @@ Searches for one of three unique types in the **source** field:
 <tr>
 <th>Field</th>
 <th>Description</th>
+</tr>
+
+<tr>
+<td>source</td>
+<td>Abbreviation of the list to which the entity belongs</td>
+</tr>
+
+<tr>
+<td>entity_number</td>
+<td>Unique id assigned by the originating list</td>
+</tr>
+
+<tr>
+<td>sdn_type</td>
+<td>Entity type from the SDN list</td>
+</tr>
+
+<tr>
+<td>programs</td>
+<td>Agency program related to the entity on the list</td>
+</tr>
+
+<tr>
+<td>name</td>
+<td>Entity's name</td>
+</tr>
+
+<tr>
+<td>title</td>
+<td>Entity's title</td>
+</tr>
+
+<tr>
+<td>address</td>
+<td>Entity's address</td>
+</tr>
+
+<tr>
+<td>city</td>
+<td>Entity's city</td>
+</tr>
+
+<tr>
+<td>state</td>
+<td>Entity's state</td>
+</tr>
+
+<tr>
+<td>country</td>
+<td>Entity's country</td>
+</tr>
+
+<tr>
+<td>federal_register_notice</td>
+<td>The official source of information about the parties on this list</td>
+</tr>
+
+<tr>
+<td>start_date</td>
+<td>The effective date of the entity on the list as defined by the Federal Register Notice</td>
+</tr>
+
+<tr>
+<td>end_date</td>
+<td>The date the entity was lifted, waived or expired on or from the lists</td>
+</tr>
+
+<tr>
+<td>standard_order</td>
+<td>Whether or not (Y/N) the standard order applies to the Denied Party as defined by the Bureau of Industry and Security</td>
+</tr>
+
+<tr>
+<td>license_requirement</td>
+<td>The license requirement as determined by the Export Administration Regulations for the names on the Entity List (EL)</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
+</tr>
+
+<tr>
+<td>field</td>
+<td>xyz</td>
 </tr>
 
 <tr>
