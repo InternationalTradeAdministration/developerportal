@@ -9,9 +9,9 @@ layout: template
 The following terms are the only **topic** and **subtopic** terms that the API will accept:
 <table border="0">
 <tr>
-<th>Topic</th>
+<th>topic</th>
 <th>Topic Description</th>
-<th>Subtopic</th>
+<th>subtopic</th>
 
 </tr>
 
