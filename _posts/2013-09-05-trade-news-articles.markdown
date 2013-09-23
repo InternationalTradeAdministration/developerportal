@@ -84,6 +84,16 @@ Searches for specific controlled [industry names](/industry-list.html)
 
     http://api.trade.gov/trade_articles/search.json?industry=Agribusiness
 
+####industry_sector
+
+Searches for specific controlled [industry sector names](/industry-list.html)
+
+    http://api.trade.gov/trade_articles/search.json?industry_sector={term}
+
+#####Example:
+
+    http://api.trade.gov/trade_articles/search.json?industry_sector=Coal
+
 ####topic
 
 Searches for specific controlled [topic areas](/topic-list.html)
@@ -103,5 +113,5 @@ Searches for specific controlled [sub-topic areas](/topic-list.html)
 
 #####Example:
 
-    http://api.trade.gov/trade_articles/search.json?topic=Marketing
+    http://api.trade.gov/trade_articles/search.json?subtopic=Marketing
 
