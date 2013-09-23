@@ -1,16 +1,16 @@
 ---
-published: false
+published: true
 permalink: "trade-region-list.html"
 layout: template
 ---
 
 ## Controlled Trade Region Terms
 
-The following terms are the only **trade region** terms that the API will accept.  The countries in each trade region are included here for informational purposes only:
+The following terms are the only **trade_region** terms that the API will accept.  The countries in each trade region are included here for informational purposes only:
 
 <table border="0">
 <tr>
-<th>Trade Region</th>
+<th>trade_region</th>
 <th>Countries</th>
 </tr>
 
