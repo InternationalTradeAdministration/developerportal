@@ -54,7 +54,7 @@ Searches for one of six unique abbreviations in the **source** field:
     http://api.trade.gov/consolidated_screening_list/search.json?source=DPL
     
 ####sdn_type
-Searches for one of three unique types in the **source** field:
+Searches for one of three unique types in the **sdn_type** field:
 
 1. _aircraft_
 2. _individual_
