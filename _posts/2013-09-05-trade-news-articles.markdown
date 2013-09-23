@@ -173,63 +173,88 @@ Searches for particular keywords assigned by the editor
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>id</td>
+<tdUunique record id</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>evergreen</td>
+<td>Flag to designate articles that are always relevant to particular topic</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>content	</td>
+<td>Body of the article</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>publish_date</td>
+<td>Earliest date article can be published</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>title</td>
+<td>Title of the article</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>update_date</td>
+<td>Date the article was last updated</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>content_type</td>
+<td>Type of content embodied by the article</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>export_phase</td>
+<td>Phase of exporting that a business should be in to benefit from the article</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>industry</td>
+<td>Industry category assigned to this article</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>industry_sector</td>
+<td>Sector assigned to this article</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>topic</td>
+<td>Topic assigned to this article</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>subtopic</td>
+<td>Subtopic assigned to this article</td>
+</tr>
+
+<tr>
+<td>trade_region</td>
+<td>Trade region that this article is relevant to</td>
+</tr>
+
+<tr>
+<td>geo_region</td>
+<td>Geo-region that this article is relevant to</td>
+</tr>
+
+<tr>
+<td>geo_subregion</td>
+<td>Geo-subregion that this article is relevant to</td>
+</tr>
+
+<tr>
+<td>country</td>
+<td>Country that this article is relevant to</td>
+</tr>
+
+<tr>
+<td>keyword</td>
+<td>Keywords assigned by the editor</td>
 </tr>
 
 </table>
