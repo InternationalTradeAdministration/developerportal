@@ -15,7 +15,7 @@ The output format for this API is JSON.
 
 You may query the Trade News & Articles API using the following URL templates:
 
-###Keyword
+####Keyword
 
 Searches for term or keyword within any field in the data set
 
@@ -82,4 +82,26 @@ Searches for specific controlled [industry names](/industry-list.html)
 
 #####Example:
 
-http://api.trade.gov/trade_articles/search.json?industry=Agribusiness
+    http://api.trade.gov/trade_articles/search.json?industry=Agribusiness
+
+####topic
+
+Searches for specific controlled [topic areas](/topic-list.html)
+
+    http://api.trade.gov/trade_articles/search.json?topic={term}
+
+#####Example:
+
+    http://api.trade.gov/trade_articles/search.json?topic=Exporting
+
+
+####subtopic
+
+Searches for specific controlled [sub-topic areas](/topic-list.html)
+
+    http://api.trade.gov/trade_articles/search.json?subtopic={term}
+
+#####Example:
+
+    http://api.trade.gov/trade_articles/search.json?topic=Marketing
+
