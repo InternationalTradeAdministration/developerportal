@@ -73,3 +73,13 @@ Searches for one of four unique values in the **export_phase** field
 #####Example
 
     http://api.trade.gov/trade_articles/search.json?export_phase=ready
+
+####industry
+
+Searches for specific controlled [industry names](/industry-list.html)
+
+    http://api.trade.gov/trade_articles/search.json?industry={term}
+
+#####Example:
+
+http://api.trade.gov/trade_articles/search.json?industry=Agribusiness
