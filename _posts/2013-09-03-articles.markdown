@@ -1,5 +1,0 @@
----
-permalink: /docs/sharepoint-articles.html
-layout: pure
-title: SharePoint Articles
----
