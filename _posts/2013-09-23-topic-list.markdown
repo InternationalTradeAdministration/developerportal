@@ -1,5 +1,7 @@
 ---
 published: false
+permalink: "topic-list.html"
+layout: template
 ---
 
 ## Controlled Topic Terms
