@@ -154,48 +154,49 @@ Searches for one of three unique types in the **source** field:
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>license_policy</td>
+<td>The policy set forth in the Export Administration Regulations regarding denial of the name on the Entity 
+List (EL)</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>call_sign</td>
+<td>Call sign of the vessel listed on the Specially Designated Nationals list</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>vessel_type</td>
+<td>Describes the type of vessel (ferry, bulk cargo, tug) listed on the Specially Designated Nationals List </td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>gross_tonnage</td>
+<td>The gross weight in tons not-registered for the vessel on the Specially Designated Nationals list</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>gross_register_tonnage</td>
+<td>The gross weight in tons registered for the vessel on the Specially Designated Nationals list </td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>vessel_flag</td>
+<td>Country flag of the vessel on the Specially Designated Nationals List</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>vessel_owner</td>
+<td>Owner/Operator of the vessel on the Specially Designated Nationals List </td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>remarks</td>
+<td>Additional remarks or notes regarding the company, entity or person on the list</td>
 </tr>
 
 <tr>
-<td>field</td>
-<td>xyz</td>
+<td>address_number</td>
+<td>A number used by OFAC to uniquely identify multiple locations of the Specially Designated Nationals (SDNs)</td>
 </tr>
 
 <tr>
