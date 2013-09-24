@@ -26,7 +26,7 @@ Visit the links on the [Home page](http://developer.trade.gov) to learn more abo
 No. It's completely free.
 
 ###Does ITA allow for profit applications that use this data?
-Yes, any application (including those for-profit) are welcome to use the API in any way that they see fit as long as they conform to the **Terms of Use**.
+Yes, any application (including those for-profit) are welcome to use the API in any way that they see fit as long as they conform to the [Developer License Agreement](/developer-license.html).
 
 ###Other than agreeing to a license, do developers need accounts/API keys or other mechanisms?
 
