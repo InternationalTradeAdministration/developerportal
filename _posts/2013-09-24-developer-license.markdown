@@ -1,10 +1,10 @@
 ---
-published: false
+published: true
 permalink: "developer-license.html"
 layout: template
 ---
 
-## ITA Developer License Agreement
+## Developer License Agreement
 
 1.	The International Trade Administration (ITA) Trade Data is now publicly available and allows the general public access to a wide array of trade information.  ITA makes its Trade Data available to users via an Application Programming Interface (API) that allows the user/developer to receive the trade data and use it in the user’s own application provided that the user maintains compatibility with ITA’s API, as updated from time to time. ITA maintains title, ownership, rights and interest in and to the Trade Data. To obtain ITA’s Trade Data, the user/developer must enter into this License Agreement, which grants you (Licensee) non-exclusive, limited and revocable rights to download, use, reproduce, and redistribute ITA’s Trade Data, subject to the following Terms:
 
