@@ -4,9 +4,9 @@ permalink: "topic-list.html"
 layout: template
 ---
 
-## Controlled Topic Terms
+## Controlled Topic Areas
 
-The following terms are the only **topic** and **subtopic** terms that the API will accept:
+The following terms are the only **topic** and **subtopic** areas that the API will accept:
 <table border="0">
 <tr>
 <th>topic</th>
