@@ -44,7 +44,7 @@ Searches for specific controlled [industry names](industry-list.html)
 	search.json?industry=Agribusiness
 
 ##Return Values
-<table border="0">
+<table>
 <tr>
 <th>Field</th>
 <th>Description</th>
