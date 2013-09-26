@@ -31,7 +31,7 @@ Searches for term anywhere in the **event_name** field
 
     http://api.trade.gov/trade_events/search.json?event_name=Nanomaterials
 ####start_date
-Searches for dates only in YYYY-MM-DD format
+Searches for dates only in YYYY-DD-MM format
 
     http://api.trade.gov/trade_events/search.json?start_date={term}
 
@@ -39,7 +39,7 @@ Searches for dates only in YYYY-MM-DD format
 
     http://api.trade.gov/trade_events/search.json?start_date=2013-09-18
 ####end_date
-Searches for dates only in YYYY-MM-DD format
+Searches for dates only in YYYY-DD-MM format
 
     http://api.trade.gov/trade_events/search.json?end_date={term}
 
