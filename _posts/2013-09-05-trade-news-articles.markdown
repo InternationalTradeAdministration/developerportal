@@ -2,7 +2,6 @@
 permalink: "trade-news-articles.html"
 layout: template
 title: "Trade News & Articles"
-published: true
 ---
 
 ##Trade News & Articles
