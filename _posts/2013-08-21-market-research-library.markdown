@@ -16,27 +16,27 @@ The output format for this API is JSON.
 ##Request Methods
 You may query the Market Research Library API using the following URL templates:
 ####Keyword
-Searches for term or keyword within any field in the data set
+Returns market research reports for any keyword in the data set
 
-    http://api.trade.gov/market_research_library/search.json?q=<search term>
+    http://api.trade.gov/market_research_library/search.json?q=<keyword>
 
 #####Example:
 
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
 ####country
-Searches for specific controlled [country names](country-list.html)
+Returns market research reports for a [specific country](country-list.html)
 
-    http://api.trade.gov/market_research_library/search.json?country=<search term>
+    http://api.trade.gov/market_research_library/search.json?country=<country name>
 
 #####Example:
   
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
 ####industry
-Searches for specific controlled [industry names](industry-list.html)
+Returns market research reports for a specific [industry](industry-list.html)
 
-    http://api.trade.gov/market_research_library/search.json?industry=<search term>
+    http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
 #####Example:
   
