@@ -18,7 +18,7 @@ You may query the Market Research Library API using the following URL templates:
 ####Keyword
 Searches for term or keyword within any field in the data set
 
-    http://api.trade.gov/market_research_library/search.json?q={term}
+    http://api.trade.gov/market_research_library/search.json?q=<search term>
 
 #####Example:
 
@@ -27,7 +27,7 @@ Searches for term or keyword within any field in the data set
 ####country
 Searches for specific controlled [country names](country-list.html)
 
-    http://api.trade.gov/market_research_library/search.json?country={term}
+    http://api.trade.gov/market_research_library/search.json?country=<search term>
 
 #####Example:
   
@@ -36,12 +36,12 @@ Searches for specific controlled [country names](country-list.html)
 ####industry
 Searches for specific controlled [industry names](industry-list.html)
 
-    http://api.trade.gov/market_research_library/search.json?industry={term}
+    http://api.trade.gov/market_research_library/search.json?industry=<search term>
 
 #####Example:
   
     http://api.trade.gov/market_research_library/
-	search.json?industry=Agribusiness
+	search.json?industry=agribusiness
 
 ##Return Values
 <table>
