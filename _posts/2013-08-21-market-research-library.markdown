@@ -11,10 +11,10 @@ The Market Research Library API provides metadata for country and industry repor
 * Best Market Reports
 * Country Commercial Guides
 
-The output format for this API is JSON.
+JSON is the output format for this API
 
 ##Request Methods
-You may query the Market Research Library API using the following URL templates:
+You may call the Market Research Library API using the following request methods:
 ####Keyword
 Returns market research reports for any keyword in the data set
 
@@ -24,7 +24,7 @@ Returns market research reports for any keyword in the data set
 
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
-####country
+####Country
 Returns market research reports for a [specific country](country-list.html)
 
     http://api.trade.gov/market_research_library/search.json?country=<country name>
@@ -33,15 +33,14 @@ Returns market research reports for a [specific country](country-list.html)
   
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
-####industry
+####Industry
 Returns market research reports for a specific [industry](industry-list.html)
 
     http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
 #####Example:
   
-    http://api.trade.gov/market_research_library/
-	search.json?industry=agribusiness
+    http://api.trade.gov/market_research_library/search.json?industry=agribusiness
 
 ##Return Values
 <table>
