@@ -20,7 +20,7 @@ Returns market research reports for any keyword in the data set
 
     http://api.trade.gov/market_research_library/search.json?q=<keyword>
 
-#####Example:
+Example:
 
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
@@ -29,7 +29,7 @@ Returns market research reports for a [specific country](country-list.html)
 
     http://api.trade.gov/market_research_library/search.json?country=<country name>
 
-#####Example:
+Example:
   
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
@@ -38,38 +38,38 @@ Returns market research reports for a specific [industry](industry-list.html)
 
     http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
-#####Example:
+Example:
   
     http://api.trade.gov/market_research_library/search.json?industry=agribusiness
 
 ##Return Values
 <table>
 <tr>
-<th>Field</th>
-<th>Description</th>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
 </tr>
 <tr>
-<td>id</td>
+<td><strong>id</strong></td>
 <td>Unique identifier assigned to the event</td>
 </tr>
 <tr>
-<td>title</td>
+<td><strong>title</strong></td>
 <td>Report title</td>
 </tr>
 <tr>
-<td>industry</td>
+<td><strong>industry</strong></td>
 <td>Industry category assigned to the report</td>
 </tr>
 <tr>
-<td>country</td>
+<td><strong>country</strong></td>
 <td>Country category assigned to the report</td>
 </tr>
 <tr>
-<td>description</td>
+<td>dvescription</strong></td>
 <td>Abstract of the report’s content</td>
 </tr>
 <tr>
-<td>url</td>
+<td><strong>url</strong></td>
 <td>URL for the report</td>
 </tr>
 </table>
