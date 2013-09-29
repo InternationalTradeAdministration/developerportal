@@ -265,6 +265,11 @@ section {
   position: relative;
 }
 
+h5 {
+font-size:40px;
+text-indent:25px;
+
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -293,11 +298,7 @@ h3, h4, h5, h6 {
   color: #494949;
 }
 
-h5 {
-font-size:40px;
-text-indent:25px;
 
-}
 
 blockquote {
   margin: 0 -20px 20px;
