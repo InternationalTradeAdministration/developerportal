@@ -26,7 +26,7 @@ Example:
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
 ####Country
-Returns market research reports for a [specific country](country-list.html)
+Returns market research reports for a specific [country](country-list.html)
 
     http://api.trade.gov/market_research_library/search.json?country=<country name>
 
