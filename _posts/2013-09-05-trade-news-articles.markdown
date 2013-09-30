@@ -26,95 +26,21 @@ Example:
 
     
 ##Return Values
-<table border="0">
-<tr>
-<th>Field</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td>id</td>
-<tdUunique record id</td>
-</tr>
-
-<tr>
-<td>evergreen</td>
-<td>Flag to designate "timeless" articles, always topically relevant/td>
-</tr>
-
-<tr>
-<td>content	</td>
-<td>Body of the article</td>
-</tr>
-
-<tr>
-<td>publish_date</td>
-<td>Earliest date article can be published</td>
-</tr>
-
-<tr>
-<td>title</td>
-<td>Title of the article</td>
-</tr>
-
-<tr>
-<td>update_date</td>
-<td>Date the article was last updated</td>
-</tr>
-
-<tr>
-<td>content_type</td>
-<td>Type of content embodied by the article</td>
-</tr>
-
-<tr>
-<td>export_phase</td>
-<td>Phase of exporting that a business should be in to benefit from the article</td>
-</tr>
-
-<tr>
-<td>industry</td>
-<td>Industry category assigned to this article</td>
-</tr>
-
-<tr>
-<td>industry_sector</td>
-<td>Sector assigned to this article</td>
-</tr>
-
-<tr>
-<td>topic</td>
-<td>Topic assigned to this article</td>
-</tr>
-
-<tr>
-<td>subtopic</td>
-<td>Subtopic assigned to this article</td>
-</tr>
-
-<tr>
-<td>trade_region</td>
-<td>Trade region covered by an article's content/td>
-</tr>
-
-<tr>
-<td>geo_region</td>
-<td>World region covered by an article's content</td>
-</tr>
-
-<tr>
-<td>geo_subregion</td>
-<td>Would sub-region covered by an article's content</td>
-</tr>
-
-<tr>
-<td>country</td>
-<td>Country covered by an article's content/td>
-</tr>
-
-<tr>
-<td>keyword</td>
-<td>Keywords assigned by the article's author</td>
-</tr>
-
-</table>
+Field | Description
+id | Unique record id
+evergreen | Flag to designate "timeless" articles, always topically relevant/td>
+content	| Body of the article
+publish_date | Earliest date article can be published
+title | Title of the article
+update_date | Date the article was last updated
+content_type | Type of content embodied by the article
+export_phase | Phase of exporting that a business should be in to benefit from the article
+industry | Industry category assigned to this article
+industry_sector | Sector assigned to this article
+topic | Topic assigned to this article
+subtopic | Subtopic assigned to this article
+trade_region | Trade region covered by an article's content
+geo_region | World region covered by an article's content
+geo_subregion | Would sub-region covered by an article's content
+country | Country covered by an article's content
+keyword | Keywords assigned by the article's author
