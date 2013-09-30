@@ -31,7 +31,7 @@ Returns market research reports for a specific [country](http://developer.trade.
     http://api.trade.gov/market_research_library/search.json?country=<country name>
 
 Example:
-  
+
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
 ####Industry
@@ -40,14 +40,15 @@ Returns market research reports for a specific [industry](http://developer.trade
     http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
 Example:
-  
+
     http://api.trade.gov/market_research_library/search.json?industry=agribusiness
 
 ##Return Values
-Field | Description
-id | Unique identifier assigned to the event
-title | Report title
-industry | [Industry category assigned to the report]((http://developer.trade.gov/industry-list.html)
-country | ><a href="country-list.html">[Country category assigned to the report](http://developer.trade.gov/country-list.html)
-description | Abstract of the report’s content
-url | URL for the report
+| Field       | Description                                                     |
+| ----------- | --------------------------------------------------------------- |
+| id          | Unique identifier assigned to the event                         |
+| title       | Report title                                                    |
+| industry    | [Industry category assigned to the report](/industry-list.html) |
+| country     | [Country category assigned to the report](/country-list.html)   |
+| description | Abstract of the report’s content                                |
+| url         | URL for the report                                              |

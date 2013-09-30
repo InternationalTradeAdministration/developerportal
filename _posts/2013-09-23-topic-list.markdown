@@ -7,6 +7,8 @@ layout: template
 ## Controlled Topic Areas
 
 The following terms are the only **topic** and **subtopic** areas that the API will accept:
+
+<!--
 <table border="0">
 <tr>
 <th>topic</th>
@@ -209,6 +211,7 @@ The following terms are the only **topic** and **subtopic** areas that the API w
  </tr>
  <tr>
   <td></td> <td></td> <td>Safeguards</td>
- </tr> 
- 
+ </tr>
+
  </table>
+ -->
