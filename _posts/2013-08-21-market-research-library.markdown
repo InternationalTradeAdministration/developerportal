@@ -26,7 +26,7 @@ Example:
     http://api.trade.gov/market_research_library/search.json?q=modernization
 
 ####Country
-Returns market research reports for a specific [country](country-list.html)
+Returns market research reports for a specific [country](http://developer.trade.gov/country-list.html)
 
     http://api.trade.gov/market_research_library/search.json?country=<country name>
 
@@ -35,7 +35,7 @@ Example:
     http://api.trade.gov/market_research_library/search.json?country=Russia
 
 ####Industry
-Returns market research reports for a specific [industry](industry-list.html)
+Returns market research reports for a specific [industry](http://developer.trade.gov/industry-list.html)
 
     http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
@@ -48,6 +48,6 @@ Field | Description
 id | Unique identifier assigned to the event
 title | Report title
 industry | [Industry category assigned to the report]((http://developer.trade.gov/industry-list.html)
-country | ><a href="country-list.html">[Country category assigned to the report](country-list.html)
+country | ><a href="country-list.html">[Country category assigned to the report](http://developer.trade.gov/country-list.html)
 description | Abstract of the report’s content
 url | URL for the report
