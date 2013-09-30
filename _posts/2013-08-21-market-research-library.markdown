@@ -58,15 +58,15 @@ Example:
 <td>Report title</td>
 </tr>
 <tr>
-<td><strong><a href="industry-list.html">industry</a></strong></td>
-<td>Industry category assigned to the report</td>
+<td><strong>industry</strong></td>
+<td><a href="industry-list.html">Industry category</a> assigned to the report</td>
 </tr>
 <tr>
-<td><strong><a href="country-list.html">country</a></strong></td>
-<td>Country category assigned to the report</td>
+<td><strong>country</a></strong></td>
+<td><a href="country-list.html">Country category</a> assigned to the report</td>
 </tr>
 <tr>
-<td>description</strong></td>
+<td><strong>description</strong></td>
 <td>Abstract of the report’s content</td>
 </tr>
 <tr>
