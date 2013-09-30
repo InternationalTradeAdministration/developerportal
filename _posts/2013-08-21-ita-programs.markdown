@@ -7,60 +7,26 @@ published: true
 
 #ITA Programs Directory API
 
-The ITA Programs for Exporters data provides information about programs sponsored by ITA that provide assistance and services to exporters, including:
+This API provides information about ITA programs that provide assistance and services to exporters, including:
 
 * Matchmaking to foreign buyers
 * Trade regulations
 * International marketing and sales strategies
 * Training and mentoring
 
-The output format for this API is JSON.
+JSON is the output format for this API.
 
 ##Request Methods
-You may query the ITA Programs Directory API using the following URL templates:
-####Keywords
-Searches for term or keyword within any field in the data set
+You may call the ITA Programs Directory API using the following request method:
 
-    http://api.trade.gov/ita_programs/search.json?q={term}
+####Keyword
+Returns a listing of ITA programs that match any keyword in the data set
 
-#####Example:
+    http://api.trade.gov/ita_programs/search.json?q=<keyword>
+
+Example:
 
     http://api.trade.gov/ita_programs/search.json?q=financing
-
-####program_title
-Searches for term anywhere in the **program_title** field
-
-    http://api.trade.gov/ita_programs/search.json?program_title={term}
-
-#####Example:
-
-    http://api.trade.gov/ita_programs/search.json?program_title=MDCP
-
-####abstract
-Searches for term anywhere in the **abstract** field
-
-    http://api.trade.gov/ita_programs/search.json?abstract={term}
-
-#####Example:
-
-    http://api.trade.gov/ita_programs/search.json?abstract=multi-year
-
-####export_phase
-Searches for one of four unique terms in the **export_phase** field:
-
-1. _learn_
-2. _ready_
-3. _exporting_
-4. _expand_
-
-#####Template
-
-    http://api.trade.gov/ita_programs/search.json?export_phase={term}
-
-#####Example:
-
-    http://api.trade.gov/ita_programs/search.json?export_phase=expand
-
 
 ##Return Values
 <table border="0">
@@ -91,32 +57,32 @@ Searches for one of four unique terms in the **export_phase** field:
 
 <tr>
 <td>email</td>
-<td>Email</td>
+<td>Program contact's email address</td>
 </tr>
 
 <tr>
 <td>contact_name</td>
-<td>Contact name</td>
+<td>Program contact's name</td>
 </tr>
 
 <tr>
 <td>office_name</td>
-<td>Office name</td>
+<td>Name of the office sponsoring the program</td>
 </tr>
 
 <tr>
 <td>phone</td>
-<td>Phone</td>
+<td>Contact's phone number</td>
 </tr>
 
 <tr>
 <td>description</td>
-<td>Full description of ITA program</td>
+<td>Full description of the program</td>
 </tr>
 
 <tr>
 <td>website</td>
-<td>Web site URL</td>
+<td>URL for the program's website</td>
 </tr>
 
 </table>
