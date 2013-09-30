@@ -44,33 +44,10 @@ Example:
     http://api.trade.gov/market_research_library/search.json?industry=agribusiness
 
 ##Return Values
-<table>
-<tr>
-<th>Field</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>id</td>
-<td>Unique identifier assigned to the event</td>
-</tr>
-<tr>
-<td>title</td>
-<td>Report title</td>
-</tr>
-<tr>
-<td>industry</td>
-<td><a href="industry-list.html">Industry category</a> assigned to the report</td>
-</tr>
-<tr>
-<td>country</a></td>
-<td><a href="country-list.html">Country category</a> assigned to the report</td>
-</tr>
-<tr>
-<td>description</td>
-<td>Abstract of the report’s content</td>
-</tr>
-<tr>
-<td>url</td>
-<td>URL for the report</td>
-</tr>
-</table>
+Field | Description
+id | Unique identifier assigned to the event
+title | Report title
+industry | [Industry category assigned to the report]((http://developer.trade.gov/industry-list.html)
+country | ><a href="country-list.html">[Country category assigned to the report](country-list.html)
+description | Abstract of the report’s content
+url | URL for the report
