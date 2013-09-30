@@ -14,7 +14,7 @@ JSON is the output format for this API.
 ##Request Methods
 You may call the ITA Office Locations API using the following request methods:
 
-####Keywords
+####Keyword
 Returns office locations for a keyword within any field in the data set
 
     http://api.trade.gov/ita_office_locations/search.json?q=<keyword>
