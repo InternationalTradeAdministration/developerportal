@@ -37,7 +37,7 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
     http://api.trade.gov/ita_office_locations/search.json?state=<state postal code abbreviation>
 
-#####Example:
+Example:
 
     http://api.trade.gov/ita_office_locations/search.json?state=TN
 
