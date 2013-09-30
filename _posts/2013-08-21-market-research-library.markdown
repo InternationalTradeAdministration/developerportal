@@ -46,31 +46,31 @@ Example:
 ##Return Values
 <table>
 <tr>
-<th><strong>Field</strong></th>
-<th><strong>Description</strong></th>
+<th>Field</th>
+<th>Description</th>
 </tr>
 <tr>
-<td><strong>id</strong></td>
+<td>id</td>
 <td>Unique identifier assigned to the event</td>
 </tr>
 <tr>
-<td><strong>title</strong></td>
+<td>title</td>
 <td>Report title</td>
 </tr>
 <tr>
-<td><strong>industry</strong></td>
+<td>industry</td>
 <td><a href="industry-list.html">Industry category</a> assigned to the report</td>
 </tr>
 <tr>
-<td><strong>country</a></strong></td>
+<td>country</a></td>
 <td><a href="country-list.html">Country category</a> assigned to the report</td>
 </tr>
 <tr>
-<td><strong>description</strong></td>
+<td>description</td>
 <td>Abstract of the report’s content</td>
 </tr>
 <tr>
-<td><strong>url</strong></td>
+<td>url</td>
 <td>URL for the report</td>
 </tr>
 </table>
