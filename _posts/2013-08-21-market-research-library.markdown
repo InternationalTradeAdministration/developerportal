@@ -1,11 +1,12 @@
 ---
 published: true
 permalink: "market-research-library.html"
+title: "Market Research Library API"
 layout: template
 ---
 
-#Market Research Library
-The Market Research Library API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.  Categorized by country and industry, these reports include:
+#Market Research Library API
+This API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.  Categorized by country and industry, these reports include:
 
 * Market Research Reports
 * Best Market Reports
