@@ -1,41 +1,41 @@
 ---
 permalink: "ita-office-locations.html"
 layout: template
-title: "Offices & Centers API"
+title: "ITA Office Locations API"
 published: true
 ---
 
-#Offices & Centers API
+#ITA Office Locations API
 
-The Offices & Centers API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.
+This API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.
 
-The output format for this API is JSON.
+JSON is the output format for this API.
 
 ##Request Methods
-You may query the Offices & Centers API API using the following URL templates:
+You may call the ITA Office Locations API using the following request methods:
 
 ####Keywords
-Searches for term or keyword within any field in the data set
+Returns office locations for a keyword within any field in the data set
 
-    http://api.trade.gov/ita_office_locations/search.json?q={term}
+    http://api.trade.gov/ita_office_locations/search.json?q=<keyword>
 
-#####Example:
+Example:
 
     http://api.trade.gov/ita_office_locations/search.json?q=Nashville
 
-####country
-Searches for specific controlled [country names](country-list.html)
+####Country
+Returns office locations in a specific [country](country-list.html)
 
-    http://api.trade.gov/ita_office_locations/search.json?country={term}
+    http://api.trade.gov/ita_office_locations/search.json?country=<country name>
 	
-#####Example:
+Example:
 
     http://api.trade.gov/ita_office_locations/search.json?country=Germany
 
-####state
-Searches for specific controlled [state names](state-list.html)
+####State
+Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](state-list.html)
 
-    http://api.trade.gov/ita_office_locations/search.json?state={term}
+    http://api.trade.gov/ita_office_locations/search.json?state=<state postal code abbreviation>
 
 #####Example:
 
