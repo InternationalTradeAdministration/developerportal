@@ -119,8 +119,8 @@ header {
   background: #fff;
   position: relative;
   padding: 15px 20px;
-  border-bottom: 10px solid #0851ab;
-  min-height: 100px;
+  border-bottom: 5px solid #0851ab;
+  min-height: 75px;
 }
 header h1 {
   margin: 0;
