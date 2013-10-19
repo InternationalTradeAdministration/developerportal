@@ -83,10 +83,11 @@ body {
 #leftnav_wrapper a:hover{
 font-family:Verdana, Arial, Helvetica, sans-serif;
 font-size:13px;
-color:#fff;
+color:#0069ba;
+text-shadow: 0px 0px 1px;
 width: 220px;
 padding: 3px;
-background-color:#0851ab;
+
 display:block;
 }
 
