@@ -144,7 +144,6 @@ header.without-description p {
 header p {
   margin: 0;
   color: #61778B;
-  width: 300px;
   font-size: 13px;
 }
 header p.view {
