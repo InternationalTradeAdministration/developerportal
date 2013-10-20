@@ -121,7 +121,7 @@ header {
   position: relative;
   padding: 15px 20px;
   border-bottom: 5px solid #0851ab;
-  min-height: 75px;
+  min-height: 85px;
 }
 header h1 {
   margin: 0;
@@ -132,11 +132,16 @@ header h1 {
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
 }
 header.without-description h1 {
-  margin: 10px 0;
+  margin: 10px 20px;
   
 }
+header.without-description h2 {
+  margin: 10px 20px;
+  
+}
+
 header.without-description p {
-  margin: -95px 0 0 0;
+  margin: -80px 20px 0 0;
   float: right;
   
   
