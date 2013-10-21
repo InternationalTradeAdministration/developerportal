@@ -1,7 +1,7 @@
 ---
 permalink: "ita-office-locations.html"
 layout: template
-title: "ITA Office Locations API"
+title: ITA Office Locations API
 published: true
 ---
 
@@ -21,7 +21,7 @@ Returns office locations for a match within the post or office name fields.
 
     http://api.trade.gov/ita_office_locations/search?q={keyword}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo
 
@@ -31,7 +31,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
     http://api.trade.gov/ita_office_locations/search?country={country name}
 	
-Example:
+#####Example:
 
     http://api.trade.gov/ita_office_locations/search?country=BR
 
@@ -41,7 +41,7 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
     http://api.trade.gov/ita_office_locations/search?state={state postal code abbreviation>}
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_office_locations/search?state=TN
 
@@ -49,7 +49,7 @@ Example:
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-Example:
+#####Example:
 
     http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1
 
