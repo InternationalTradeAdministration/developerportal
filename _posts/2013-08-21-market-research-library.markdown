@@ -12,30 +12,35 @@ This API provides metadata for country and industry reports that are produced by
 * Best Market Reports
 * Country Commercial Guides
 
-JSON is the output format for this API
+##Resource URL
 
-##Request Methods
-You may call the Market Research Library API using the following request methods:
-####Keyword
-Returns market research reports for any keyword in the data set
+    http://api.trade.gov/market_research_library/search
 
-    http://api.trade.gov/market_research_library/search.json?q=<keyword>
+##Search Parameters
 
-Example:
+###keyword
 
-    http://api.trade.gov/market_research_library/search.json?q=modernization
+Returns market research reports for a match in the description or title fields.
 
-####Country
-Returns market research reports for a specific [country](http://developer.trade.gov/country-list.html)
-
-    http://api.trade.gov/market_research_library/search.json?country=<country name>
+    http://api.trade.gov/market_research_library/search?q=<keyword>
 
 Example:
 
-    http://api.trade.gov/market_research_library/search.json?country=Russia
+    http://api.trade.gov/market_research_library/search?q=modernization
 
-####Industry
-Returns market research reports for a specific [industry](http://developer.trade.gov/industry-list.html)
+###countries
+
+Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
+
+    http://api.trade.gov/market_research_library/search?country=<country name>
+
+Example:
+
+    http://api.trade.gov/market_research_library/search.json?country=MX
+
+###industry
+
+Returns market research reports for a specific [industry](/industry-list-market-research-library.html)
 
     http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
@@ -43,12 +48,21 @@ Example:
 
     http://api.trade.gov/market_research_library/search.json?industry=agribusiness
 
+###size + offset
+
+The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
+
+Example:
+
+    http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1
+
 ##Return Values
+
 | Field       | Description                                                     |
 | ----------- | --------------------------------------------------------------- |
 | id          | Unique identifier assigned to the event                         |
-| title       | Report title                                                    |
-| industry    | [Industry category assigned to the report](/industry-list.html) |
-| country     | [Country category assigned to the report](/country-list.html)   |
+| countries     | Country category(ies) assigned to the report   |
 | description | Abstract of the report’s content                                |
+| industry    | Industry category assigned to the report |
+| title       | Report title  (default sort)  |
 | url         | URL for the report                                              |

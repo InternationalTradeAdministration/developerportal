@@ -9,94 +9,61 @@ published: true
 
 This API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.
 
-JSON is the output format for this API.
+##Resource URL
 
-##Request Methods
-You may call the ITA Office Locations API using the following request methods:
+    http://api.trade.gov/ita_office_locations/search
 
-####Keyword
-Returns office locations for a keyword within any field in the data set
+##Search Parameters
 
-    http://api.trade.gov/ita_office_locations/search.json?q=<keyword>
+###keyword
+
+Returns office locations for a match within the post or office name fields.
+
+    http://api.trade.gov/ita_office_locations/search?q={keyword}
 
 Example:
 
-    http://api.trade.gov/ita_office_locations/search.json?q=Nashville
+    http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo
 
-####Country
-Returns office locations in a specific [country](country-list.html)
+###country
 
-    http://api.trade.gov/ita_office_locations/search.json?country=<country name>
+Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
+
+    http://api.trade.gov/ita_office_locations/search?country={country name}
 	
 Example:
 
-    http://api.trade.gov/ita_office_locations/search.json?country=Germany
+    http://api.trade.gov/ita_office_locations/search?country=BR
 
-####State
-Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](state-list.html)
+###state
 
-    http://api.trade.gov/ita_office_locations/search.json?state=<state postal code abbreviation>
+Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](https://www.usps.com/send/official-abbreviations.htm).
+
+    http://api.trade.gov/ita_office_locations/search?state={state postal code abbreviation>}
 
 Example:
 
-    http://api.trade.gov/ita_office_locations/search.json?state=TN
+    http://api.trade.gov/ita_office_locations/search?state=TN
 
-##Return Values
-<table border="0">
-<tr>
-<th>Field</th>
-<th>Description</th>
-</tr>
+###size + offset
 
-<tr>
-<td>post</td>
-<td>Name of the post</td>
-</tr>
+The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-<tr>
-<td>office_name</td>
-<td>Office name</td>
-</tr>
+Example:
 
-<tr>
-<td>id</td>
-<td>Unique identifier for post</td>
-</tr>
-
-<tr>
-<td>country</td>
-<td>Country name</td>
-</tr>
-
-<tr>
-<td>state</td>
-<td>State abbreviation, for domestic offices</td>
-</tr>
-
-<tr>
-<td>email</td>
-<td>Office email address</td>
-</tr>
-
-<tr>
-<td>fax</td>
-<td>Fax number</td>
-</tr>
-
-<tr>
-<td>mail_instructions</td>
-<td>Snail mail instructions</td>
-</tr>
-
-<tr>
-<td>phone</td>
-<td>Office phone number</td>
-</tr>
-
-<tr>
-<td>post_type</td>
-<td>Type of post (domestic or international)</td>
-</tr>
+    http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1
 
 
-</table>
+##Data Elements
+
+| Field             | Description                                                     |
+| ----------------- | --------------------------------------------------------------- |
+| id                | Unique identifier for post                                      |
+| post              | Name of the post (Default sort)                                 |
+| office_name       | Office Name                                                     |
+| state             | State abbreviation, for domestic offices                        |
+| email             | Office email address                                            |
+| fax               | Fax number                                                      |
+| mail_instructions | Snail mail instructions                                         |
+| phone             | Office phone number                                             |
+| post_type         | Type of post (domestic or international)                        |
