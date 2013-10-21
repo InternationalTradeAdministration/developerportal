@@ -22,7 +22,7 @@ Searches for a match within the event_name and description fields.
 
     http://api.trade.gov/trade_events/search?q={term}
 
-####Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search?q=computer
 
@@ -50,7 +50,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1
 
