@@ -2,6 +2,7 @@
 permalink: "trade-news-articles.html"
 layout: template
 title: "Trade News & Articles"
+published: true
 ---
 
 ##Trade News & Articles
@@ -20,7 +21,7 @@ Returns articles for a match in the content and body fields.
 
     http://api.trade.gov/trade_articles/search?q=<keyword>
 
-####Example:
+#####Example:
 
     http://api.trade.gov/trade_articles/search?q=logistics
 
@@ -30,7 +31,7 @@ Flag to designate articles that are always relevant to particular topic.
 
     http://api.trade.gov/trade_articles/search?evergreen={true or false}
 
-####Example:
+#####Example:
 
     http://api.trade.gov/trade_articles/search?evergreen=true
 
@@ -62,7 +63,7 @@ Returns articles created on a specified date.
 
     http://api.trade.gov/trade_articles/search?update_date={YYYY-MM-DD}
 
-####Example
+#####Example
 
     http://api.trade.gov/trade_articles/search?update_date=2013-04-30
 
@@ -70,7 +71,7 @@ Returns articles created on a specified date.
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-Example:
+#####Example:
 
     http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1
     
