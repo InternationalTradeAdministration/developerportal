@@ -2,6 +2,7 @@
 permalink: "trade-news-articles.html"
 layout: template
 title: "Trade News & Articles"
+published: true
 ---
 
 ##Trade News & Articles
@@ -26,21 +27,21 @@ Example:
 
     
 ##Return Values
-Field | Description
-id | Unique record id
-evergreen | Flag to designate "timeless" articles, always topically relevant/td>
-content	| Body of the article
-publish_date | Earliest date article can be published
-title | Title of the article
-update_date | Date the article was last updated
-content_type | Type of content embodied by the article
-export_phase | Phase of exporting that a business should be in to benefit from the article
-industry | Industry category assigned to this article
-industry_sector | Sector assigned to this article
-topic | Topic assigned to this article
-subtopic | Subtopic assigned to this article
-trade_region | Trade region covered by an article's content
-geo_region | World region covered by an article's content
-geo_subregion | Would sub-region covered by an article's content
-country | Country covered by an article's content
-keyword | Keywords assigned by the article's author
+| Field | Description |
+| id | Unique record id |
+| evergreen | Flag to designate "timeless" articles, always topically relevant |
+| content	| Body of the article |
+| publish_date | Earliest date article can be published |
+| title | Title of the article |
+| update_date | Date the article was last updated |
+| content_type | Type of content embodied by the article |
+| export_phase | Phase of exporting that a business should be in to benefit from the | article |
+| industry | Industry category assigned to this article |
+| industry_sector | Sector assigned to this article |
+| topic | Topic assigned to this article |
+| subtopic | Subtopic assigned to this article |
+| trade_region | Trade region covered by an article's content |
+| geo_region | World region covered by an article's content |
+| geo_subregion | Would sub-region covered by an article's content |
+| country | Country covered by an article's content |
+| keyword | Keywords assigned by the article's author |
