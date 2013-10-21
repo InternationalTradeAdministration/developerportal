@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "market-research-library.html"
-title: "Market Research Library API"
+title: Market Research Library API
 layout: template
 ---
 
@@ -24,7 +24,7 @@ Returns market research reports for a match in the description or title fields.
 
     http://api.trade.gov/market_research_library/search?q=<keyword>
 
-Example:
+#####Example:
 
     http://api.trade.gov/market_research_library/search?q=modernization
 
@@ -34,7 +34,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
     http://api.trade.gov/market_research_library/search?country=<country name>
 
-Example:
+#####Example:
 
     http://api.trade.gov/market_research_library/search.json?country=MX
 
@@ -44,7 +44,7 @@ Returns market research reports for a specific [industry](/industry-list-market-
 
     http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
-Example:
+#####Example:
 
     http://api.trade.gov/market_research_library/search.json?industry=agribusiness
 
@@ -52,7 +52,7 @@ Example:
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-Example:
+#####Example:
 
     http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1
 
