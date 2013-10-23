@@ -39,7 +39,8 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](https://www.usps.com/send/official-abbreviations.htm).
 
-    http://api.trade.gov/ita_office_locations/search?state<wbr>={state postal code abbreviation>}
+    http://api.trade.gov/ita_office_locations/search?state
+    ={state postal code abbreviation>}
 
 #####Example:
 
