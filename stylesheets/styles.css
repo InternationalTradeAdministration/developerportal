@@ -39,6 +39,16 @@ body {
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
 }
 
+#container:before, #container:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+
+#container:after {
+  clear: both;
+}
+
 
 #leftnav_wrapper li
 {
