@@ -1,7 +1,0 @@
----
-permalink: /docs/testpage.html
-layout: pure
-title: Pure test
----
-
-
