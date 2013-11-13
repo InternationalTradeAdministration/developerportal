@@ -101,6 +101,15 @@ padding: 3px;
 display:block;
 }
 
+img {
+    height: auto;
+    max-width: 100%; /* remove */
+}
+a img
+{
+  border:none;
+}
+
 header, section, footer {
   display: block;
 }
