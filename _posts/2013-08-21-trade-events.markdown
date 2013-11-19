@@ -40,11 +40,11 @@ Searches for specific controlled [industry names](/industry-list-trade-events.ht
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/trade_events/search?country={term}
+    http://api.trade.gov/trade_events/search?countries={term}
 
 #####Example:
 
-    http://api.trade.gov/trade_events/search?country=MX
+    http://api.trade.gov/trade_events/search?countries=MX
 
 ###size + offset
 
