@@ -42,7 +42,6 @@ body {
 #container:before, #container:after {
   content: "";
   display: table;
-  
   display: block;
   line-height: 0;
 }
