@@ -401,11 +401,11 @@ footer {
   width: 640px;
   margin: 0 auto;
   padding: -50px 0 0;
-  color: #ccc;
+  color: #000;
   overflow: hidden;
 }
 footer a {
-  color: #fff;
+  color: #051854;
   font-weight: bold;
 }
 footer p {
