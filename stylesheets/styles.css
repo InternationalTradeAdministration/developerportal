@@ -41,8 +41,8 @@ body {
 
 #container:before, #container:after {
   content: "";
-  
-  display: inline-block;
+  display: table;
+  display: block;
   line-height: 0;
 }
 
