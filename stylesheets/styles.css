@@ -42,6 +42,8 @@ body {
 #container:before, #container:after {
   content: "";
   display: table;
+  height: auto;
+  width: auto:
   line-height: 0;
 }
 
