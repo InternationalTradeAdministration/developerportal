@@ -36,7 +36,7 @@ Searches for specific controlled [industry names](/industry-list-trade-events.ht
 
     http://api.trade.gov/trade_events/search?industry=Agribusiness
 
-###country
+###countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 

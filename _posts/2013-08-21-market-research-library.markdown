@@ -32,11 +32,11 @@ Returns market research reports for a match in the description or title fields.
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/market_research_library/search?country=<country name>
+    http://api.trade.gov/market_research_library/search?countries=<country name>
 
 #####Example:
 
-    http://api.trade.gov/market_research_library/search.json?country=MX
+    http://api.trade.gov/market_research_library/search.json?countries=MX
 
 ###industry
 
