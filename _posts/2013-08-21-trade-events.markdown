@@ -75,7 +75,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | country | country where event is held | 
 | first_name | first name of the contact |
 | last_name | last name of the contact |
-| post | contact's organization</td>
-|person_title  | contact's job title |
+| post | contact's organization |
+| person_title | contact's job title |
 | phone | contact's phone number |
 | email | contact's email address |
