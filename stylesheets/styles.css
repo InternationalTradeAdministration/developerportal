@@ -431,6 +431,10 @@ footer p + p {
     box-shadow: none;
     width: 100%;
   }
+  
+  #leftnav {
+  float: left;
+  }
 
   footer {
     -webkit-border-radius: 0;
@@ -457,6 +461,10 @@ footer p + p {
   header p.view {
     display: block;
   }
+  
+    #leftnav {
+  float: left;
+  }
 
   header p {
     width: 100%;
@@ -465,5 +473,9 @@ footer p + p {
 @media print {
   header p.view a small:before {
     content: 'at http://github.com/';
+  }
+  
+    #leftnav {
+  float: left;
   }
 }
