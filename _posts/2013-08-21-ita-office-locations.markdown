@@ -70,7 +70,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | office_name       | Office Name                                                     |
 | state             | State abbreviation, for domestic offices                        |
 | city              | City                                                            |
-| address           | Postal address of office                                        |
+| address           | Street address of office                                        |
 | email             | Office email address                                            |
 | fax               | Fax number                                                      |
 | mail_instructions | Snail mail instructions                                         |
