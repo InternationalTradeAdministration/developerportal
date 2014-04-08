@@ -25,6 +25,12 @@ Returns office locations for a match within the post or office name fields.
 
     http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo
 
+###city
+
+Returns office locations based on city name
+
+    http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo
+
 ###country
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
@@ -63,6 +69,8 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | post              | Name of the post (Default sort)                                 |
 | office_name       | Office Name                                                     |
 | state             | State abbreviation, for domestic offices                        |
+| city              | City                                                            |
+| address           | Postal address of office                                        |
 | email             | Office email address                                            |
 | fax               | Fax number                                                      |
 | mail_instructions | Snail mail instructions                                         |
