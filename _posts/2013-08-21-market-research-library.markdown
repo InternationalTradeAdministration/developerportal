@@ -58,12 +58,13 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 ##Return Values
 
-| Field       | Description                                                     |
-| ----------- | --------------------------------------------------------------- |
-| id          | Unique identifier assigned to the event                         |
-| countries   | Country category(ies) assigned to the report                    |
-| description | Abstract of the report’s content                                |
-| industry    | Industry category assigned to the report                        |
-| report_type | Report type                                                     |
-| title       | Report title  (default sort)                                    |
-| url         | URL for the report                                              |
+| Field           | Description                                                     |
+| --------------- | --------------------------------------------------------------- |
+| id              | Unique identifier assigned to the event                         |
+| countries       | Country category(ies) assigned to the report                    |
+| description     | Abstract of the report’s content                                |
+| expiration_date | Expiration date                                                 |
+| industry        | Industry category assigned to the report                        |
+| report_type     | Report type                                                     |
+| title           | Report title  (default sort)                                    |
+| url             | URL for the report                                              |
