@@ -61,8 +61,9 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | Field       | Description                                                     |
 | ----------- | --------------------------------------------------------------- |
 | id          | Unique identifier assigned to the event                         |
-| countries     | Country category(ies) assigned to the report   |
+| countries   | Country category(ies) assigned to the report                    |
 | description | Abstract of the report’s content                                |
-| industry    | Industry category assigned to the report |
-| title       | Report title  (default sort)  |
+| industry    | Industry category assigned to the report                        |
+| report_type | Report type                                                     |
+| title       | Report title  (default sort)                                    |
 | url         | URL for the report                                              |
