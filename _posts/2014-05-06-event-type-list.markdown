@@ -6,7 +6,7 @@ layout: template
 
 ## Controlled Event Type Terms
 
-The following terms are the only **event_type** names that the API will return:
+The following terms are the only **event_types** that the API will return:
 
 
 | event_type            | Region                                                     |
