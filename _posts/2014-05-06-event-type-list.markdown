@@ -4,7 +4,7 @@ permalink: "event-type-list.html"
 layout: template
 ---
 
-## Controlled Event Type Terms
+## Event Types for Trade Events
 
 The following terms are the only **event_types** that the API will return:
 
