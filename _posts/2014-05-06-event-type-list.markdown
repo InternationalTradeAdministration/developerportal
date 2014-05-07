@@ -24,6 +24,6 @@ The following terms are the only **event_types** that the API will return:
 
 ###Region
 
-Region refers to who has initiated the event:
+Region refers to the office that has initiated the event:
 * **Official** ITA Event - sponsored by the International Trade Administration
 * **Local Event** - sponsored by your local US Export Assistance Center or similar office
