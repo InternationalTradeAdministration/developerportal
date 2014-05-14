@@ -1,5 +1,9 @@
---- permalink: "apps-exporters.html" layout: template title: Apps for
-Exporters published: true ---
+--- 
+permalink: "apps-exporters.html" 
+layout: template 
+title: Apps for Exporters 
+published: true 
+---
 
 #Apps for Exporters
 #
