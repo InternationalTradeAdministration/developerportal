@@ -10,6 +10,7 @@ published: true
 ITA encourages developers to use the APIs to build applications that benefit businesses who export their products and services overseas.  Developers can also enhance their existing applications by mashing ITA’s data with other trade-related data.  The data sets particularly useful as they originate from authoritative, federal government sources.
 
 We are particularly interested in applications that help businesses:
+
 * Learn about exporting and have only just gotten started
 * Get ready to export and find where to start
 * Expand their existing exporting business.
