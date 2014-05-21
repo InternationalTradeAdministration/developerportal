@@ -82,7 +82,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | id                | Unique identifier for post                                      |
 | evergreen | Flag to designate "timeless" articles, always topically relevant |
 | content	| Body of the article |
-| publish_date | Earliest date article can be published (default sort) |
+| pub_date | Earliest date article can be published (default sort) |
 | title | Title of the article |
 | update_date | Date the article was last updated |
 | content_type | Type of content embodied by the article |
