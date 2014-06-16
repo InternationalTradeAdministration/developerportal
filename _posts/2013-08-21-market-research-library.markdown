@@ -67,4 +67,8 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | industry        | Industry category assigned to the report                        |
 | report_type     | The report type can either be CCG, Best Market Report, or Market Research Report|
 | title           | Report title  (default sort)                                    |
+<<<<<<< HEAD
 | url             | URL for the report                                              |
+=======
+| url             | URL for the report                                              |
+>>>>>>> edd7874023fc16e484e410ba011aefdab0e58986
