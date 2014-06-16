@@ -1,6 +1,6 @@
 ---
 permalink: whats-possible.html
-layout: template
+layout: body
 title: What's Possible
 ---
 

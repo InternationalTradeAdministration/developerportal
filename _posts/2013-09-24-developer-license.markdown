@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "developer-license.html"
-layout: template
+layout: body
 ---
 
 ## Developer License Agreement

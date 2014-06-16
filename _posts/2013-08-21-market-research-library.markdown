@@ -2,7 +2,7 @@
 published: true
 permalink: "market-research-library.html"
 title: Market Research Library API
-layout: template
+layout: body
 ---
 
 #Market Research Library API
@@ -40,7 +40,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 ###industry
 
-Returns market research reports for a specific [industry](/industry-list-market-research-library.html)
+Returns market research reports for a specific [industry](industry-list-market-research-library.html)
 
     http://api.trade.gov/market_research_library/search.json?industry=<industry name>
 
@@ -58,11 +58,13 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 ##Return Values
 
-| Field       | Description                                                     |
-| ----------- | --------------------------------------------------------------- |
-| id          | Unique identifier assigned to the event                         |
-| countries     | Country category(ies) assigned to the report   |
-| description | Abstract of the report’s content                                |
-| industry    | Industry category assigned to the report |
-| title       | Report title  (default sort)  |
-| url         | URL for the report                                              |
+| Field           | Description                                                     |
+| --------------- | --------------------------------------------------------------- |
+| id              | Unique identifier assigned to the event                         |
+| countries       | Country category(ies) assigned to the report                    |
+| description     | Abstract of the report’s content                                |
+| expiration_date | Date when the report is no longer valid                         |
+| industry        | Industry category assigned to the report                        |
+| report_type     | The report type can either be CCG, Best Market Report, or Market Research Report|
+| title           | Report title  (default sort)                                    |
+| url             | URL for the report                                              |

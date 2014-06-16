@@ -1,6 +1,6 @@
 ---
 permalink: "trade-events.html"
-layout: template
+layout: body
 title: Trade Events API
 published: true
 ---
@@ -28,7 +28,7 @@ Searches for a match within the event_name and description fields.
 
 ###industry
 
-Searches for specific controlled [industry names](/industry-list-trade-events.html)
+Searches for specific controlled [industry names](industry-list-trade-events.html)
 
     http://api.trade.gov/trade_events/search?industry={term}
 
@@ -54,28 +54,29 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
     http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1
 
-    
+
 ##Return Values
 
-| Field             | Description                                                     |
-| ----------------- | --------------------------------------------------------------- |
-| id                | Unique identifier for post                                      |
-| event_name         | name given for the event |
-| start_date | start date of the event (default sort) |
-| end_date | end date of the event |
-| cost| cost of the event |
-| registration_link | URL for registration page |
-| registration_title | title of the registration URL |
-| description | text describing the event |
-| industry | industry category assigned to the event |
-| url | URL for the event |
-| venue | place where event is held |
-| city | city where event is held |
-| state | state where event is held |
-| country | country where event is held |
-| first_name | first name of the contact |
-| last_name | last name of the contact |
-| post | contact's organization |
-| person_title | contact's job title |
-| phone | contact's phone number |
-| email | contact's email address |
+| Field              | Description                             |
+| ------------------ | --------------------------------------- |
+| id                 | Unique identifier for post              |
+| event_name         | name given for the event                |
+| event_type         | [The type of the event (controlled value)](event-type-list.html)  |
+| start_date         | start date of the event (default sort)  |
+| end_date           | end date of the event                   |
+| cost               | cost of the event                       |
+| registration_link  | URL for registration page               |
+| registration_title | title of the registration URL           |
+| description        | text describing the event               |
+| industry           | industry category assigned to the event |
+| url                | URL for the event                       |
+| venue              | place where event is held               |
+| city               | city where event is held                |
+| state              | state where event is held               |
+| country            | country where event is held             |
+| first_name         | first name of the contact               |
+| last_name          | last name of the contact                |
+| post               | contact's organization                  |
+| person_title       | contact's job title                     |
+| phone              | contact's phone number                  |
+| email              | contact's email address                 |

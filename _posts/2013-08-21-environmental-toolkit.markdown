@@ -1,6 +1,6 @@
 ---
 permalink: "environmental-toolkit.html"
-layout: template
+layout: body
 title: Environmental Solutions Toolkit API
 published: true
 ---

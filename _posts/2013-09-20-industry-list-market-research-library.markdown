@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "industry-list-market-research-library.html"
-layout: template
+layout: body
 ---
 
 ## Industry Terms for Market Research Library

@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "topic-list.html"
-layout: template
+layout: body
 ---
 
 ## Controlled Topic Areas

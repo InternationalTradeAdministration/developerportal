@@ -1,11 +1,11 @@
 ---
 permalink: "trade-news-articles.html"
-layout: template
-title: "Trade News & Articles"
+layout: body
+title: Trade News & Articles API
 published: true
 ---
 
-##Trade News & Articles
+#Trade News & Articles API
 
 The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government.  The news and articles are categorized by industry, country, and topic area.  Developers can use this API to provide exporters with the latest insights into their industry and into the countries with which they would like to do business.
 
@@ -82,13 +82,12 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | id                | Unique identifier for post                                      |
 | evergreen | Flag to designate "timeless" articles, always topically relevant |
 | content	| Body of the article |
-| publish_date | Earliest date article can be published (default sort) |
+| pub_date | Earliest date article can be published (default sort) |
 | title | Title of the article |
 | update_date | Date the article was last updated |
 | content_type | Type of content embodied by the article |
 | export_phase | Phase of exporting that a business should be in to benefit from the article |
 | industry | Industry category assigned to this article |
-| industry_sector | Sector assigned to this article |
 | topic | Topic assigned to this article |
 | subtopic | Subtopic assigned to this article |
 | trade_region | Trade region covered by an article's content |

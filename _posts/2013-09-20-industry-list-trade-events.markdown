@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "industry-list-trade-events.html"
-layout: template
+layout: body
 ---
 
 ## Industry Terms for Trade Events

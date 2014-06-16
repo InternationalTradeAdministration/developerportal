@@ -1,7 +1,7 @@
 ---
 permalink: "whats-possible.html"
-layout: template
-title: "What's Possible"
+layout: body
+title: What's Possible
 published: true
 ---
 

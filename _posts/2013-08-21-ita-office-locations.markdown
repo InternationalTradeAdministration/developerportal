@@ -1,11 +1,11 @@
 ---
 permalink: "ita-office-locations.html"
-layout: template
-title: ITA Office Locations API
+layout: body
+title: ITA Offices & Centers API
 published: true
 ---
 
-#ITA Office Locations API
+#ITA Offices & Centers API
 
 This API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.
 
@@ -24,6 +24,12 @@ Returns office locations for a match within the post or office name fields.
 #####Example:
 
     http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo
+
+###city
+
+Returns office locations based on city name
+
+    http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo
 
 ###country
 
@@ -63,6 +69,8 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | post              | Name of the post (Default sort)                                 |
 | office_name       | Office Name                                                     |
 | state             | State abbreviation, for domestic offices                        |
+| city              | City                                                            |
+| address           | Street address of office                                        |
 | email             | Office email address                                            |
 | fax               | Fax number                                                      |
 | mail_instructions | Snail mail instructions                                         |

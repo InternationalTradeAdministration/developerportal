@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "geo-region-list.html"
-layout: template
+layout: body
 ---
 
 ## Controlled Geo Region Terms

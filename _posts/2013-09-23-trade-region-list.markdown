@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "trade-region-list.html"
-layout: template
+layout: body
 ---
 
 ## Controlled Trade Region Terms

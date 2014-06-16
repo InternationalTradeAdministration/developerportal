@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "industry-list.html"
-layout: template
+layout: body
 ---
 
 ## Controlled Industry Terms

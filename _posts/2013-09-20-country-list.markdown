@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "country-list.html"
-layout: template
+layout: body
 ---
 
 ## Controlled Country Names

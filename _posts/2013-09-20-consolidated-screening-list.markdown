@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "consolidated-screening-list.html"
-layout: template
+layout: body
 ---
 
 ## ITA Consolidated Screening List

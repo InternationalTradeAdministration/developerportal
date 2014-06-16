@@ -1,6 +1,6 @@
 ---
 permalink: "ita-programs.html"
-layout: template
+layout: body
 title: ITA Programs Directory API
 published: true
 ---

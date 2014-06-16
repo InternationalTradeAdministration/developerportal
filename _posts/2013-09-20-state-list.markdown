@@ -1,7 +1,7 @@
 ---
 published: true
 permalink: "state-list.html"
-layout: template
+layout: body
 ---
 
 ## Controlled State Names
