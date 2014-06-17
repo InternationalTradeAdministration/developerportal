@@ -10,4 +10,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-markdown: kramdown

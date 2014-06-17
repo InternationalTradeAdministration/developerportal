@@ -61,11 +61,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | ------------------ | --------------------------------------- |
 | id                 | Unique identifier for post              |
 | event_name         | name given for the event                |
-<<<<<<< HEAD
 | event_type         | [The type of the event (controlled value)](event-type-list.html)  |
-=======
-| event_type         | [The type of the event (controlled value)](/event-type-list.html)  |
->>>>>>> edd7874023fc16e484e410ba011aefdab0e58986
 | start_date         | start date of the event (default sort)  |
 | end_date           | end date of the event                   |
 | cost               | cost of the event                       |
