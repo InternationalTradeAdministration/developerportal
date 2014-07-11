@@ -1,6 +1,6 @@
 ---
 permalink: "trade-leads.html"
-layout: template
+layout: body
 title: Trade Leads API
 published: true
 ---
