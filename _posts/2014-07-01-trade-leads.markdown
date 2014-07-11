@@ -18,8 +18,7 @@ The output format for this API is JSON.
 
 The Department of State aggregates provides leads from its partners, U.S. government sources, and foreign countries included. The data is vetted by the vendors and the government ministries.The Department of State has an [online interface](http://bids.state.gov/) and [open sources](https://github.com/USStateDept/bids) the information.
 
-### Return Values from BIDS
-
+*Return Values from BIDS*
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
@@ -46,7 +45,7 @@ The Department of State aggregates provides leads from its partners, U.S. govern
 | url | url of the opportunity |
 | status | Status of the lead (note this API only shows open leads) |
 
-### Licence - BIDS
+*Licence - BIDS*
 
 State Department's leads are subject to their license located at:
 
@@ -56,7 +55,7 @@ https://github.com/USStateDept/bids#license
 
 The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.  Leads provided by the Canadian government have the following data model:
 
-### Return Values from Canada
+*Return Values from Canada*
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
@@ -81,7 +80,7 @@ The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides p
 | urls | URLs that pertain to the bid|
 | country | Canada |
 
-### Licence - Canada
+*Licence - Canada*
 
 Canadian leads are subject to Canadian's license located at:
 
@@ -91,7 +90,7 @@ Canadian leads are subject to Canadian's license located at:
 
 The [UK Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities. Leads provided by the UK government have the following data model:
 
-### Return Values from the UK
+*Return Values from the UK*
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
@@ -113,7 +112,7 @@ The [UK Government](https://buyandsell.gc.ca/procurement-data/) provides procure
 | region | Location of the opportunity |
 | country | GB |
 
-### Licence - UK
+*Licence - UK*
 
 UK leads are subject to their open government license located at:
 
