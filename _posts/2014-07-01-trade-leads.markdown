@@ -49,7 +49,7 @@ The Department of State aggregates provides leads from its partners, U.S. govern
 
 State Department's leads are subject to their license located at:
 
-https://github.com/USStateDept/bids#license
+[https://github.com/USStateDept/bids#license](https://github.com/USStateDept/bids#license)
 
 ###Canadian leads
 
