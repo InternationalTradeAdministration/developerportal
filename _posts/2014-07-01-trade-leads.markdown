@@ -103,7 +103,7 @@ Searches for a match within the title and description fields.
 
     http://api.trade.gov/trade_leads/search?industry=Agribusiness
     
-Note: will soon search for specific controlled [industry names](/industry-list-trade-events.html)
+Note: will soon search for specific controlled industry names.
 
     http://api.trade.gov/trade_leads/search?industry={term}
 
