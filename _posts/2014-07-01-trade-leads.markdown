@@ -59,7 +59,6 @@ The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides p
 | ----------------- | --------------------------------------------------------------- |
 | id                | ID of the trade lead |
 | reference_number         | Reference number for the opportunity |
-| contract_number | Contract Number for the opportunity |
 | publish_date | Date lead was posted |
 | min_contract_value | Minimum value of the lead (in pounds) |
 | max_contract_value | Maximum value of the lead (in pounds) |
@@ -69,7 +68,6 @@ The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides p
 | contact | Point of contact |
 | title                | Title of the opportunity |
 | description | Description of the opporunity |
-| industry | Industry category assigned to the event |
 | notice_type | Type of contract |
 | industry | Industry category assigned to the opportunity |
 | specific_location | Location of the opportunity |
