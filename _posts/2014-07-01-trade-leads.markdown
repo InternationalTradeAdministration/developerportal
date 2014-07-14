@@ -41,7 +41,7 @@ The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides p
 | implementing_entity | Agency responsible for the implementation |
 | contact | Point of contact |
 | urls | URLs that pertain to the bid|
-| country | Canada |
+| country | CA |
 
 **Licence - Canada**
 
@@ -72,7 +72,7 @@ The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides p
 | industry | Industry category assigned to the event |
 | notice_type | Type of contract |
 | industry | Industry category assigned to the opportunity |
-| region | Location of the opportunity |
+| specific_location | Location of the opportunity |
 | country | GB |
 
 **Licence - UK**
