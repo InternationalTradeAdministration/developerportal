@@ -101,11 +101,11 @@ Searches for a match within the title and description fields.
 
 #####Example:
 
-    http://api.trade.gov/trade_leads/search?industry=Agribusiness
+    http://api.trade.gov/trade_leads/search?industries=agribusiness
     
 Note: will soon search for specific controlled industry names.
 
-    http://api.trade.gov/trade_leads/search?industry={term}
+    http://api.trade.gov/trade_leads/search?industries={term}
 
 ###countries
 
