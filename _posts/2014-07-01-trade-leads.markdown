@@ -51,7 +51,7 @@ Canadian leads are subject to Canadian's license located at:
 
 ###UK Government leads
 
-The [UK Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities. Leads provided by the UK government have the following data model:
+The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides procurement information for their government opportunities. Leads provided by the UK government have the following data model:
 
 **Return Values from the UK**
 
