@@ -100,20 +100,20 @@ Searches for a match within the title and description fields.
 
 ###industries
 
-#####Example:
-
-    http://api.trade.gov/trade_leads/search?industries=agribusiness
-    
-Note: will soon search for specific controlled industry names.
+Returns industry that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
 
     http://api.trade.gov/trade_leads/search?industries={term}
 
+#####Example:
+
+    http://api.trade.gov/trade_leads/search?industries=agribusiness
+
 ###countries
 
-Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
+Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
 
     http://api.trade.gov/trade_leads/search?countries={term}
-
+    
 #####Example:
 
     http://api.trade.gov/trade_leads/search?countries=MX,CA,GB
