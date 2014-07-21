@@ -124,4 +124,4 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-    http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1
+    http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1
