@@ -125,3 +125,82 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 #####Example:
 
     http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1
+
+###State Departmenet leads
+
+The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
+
+**Return Values from BIDS**
+
+| Field             | Description                                                     |
+| ----------------- | --------------------------------------------------------------- |
+| type                | Trade lead source |
+| id                | ID of the trade lead |
+| source            | Source of the trade lead, typically an organization |
+| specific_location | Location of the opportunity |
+| project_number | Number for the opportunity |
+| industry | Industry category assigned to the opportunity |
+| project_size | Industry category assigned to the opportunity |
+| description | Description of the opporunity |
+| tags | Keywords of the opportunity |
+| publish_date | Date lead was posted |
+| end_date | Closing date for the lead |
+| funding_source | Funding source of the project |
+| borrowing_entity | Bank funding the project |
+| procurement_organization | Agency responsible for the contract |
+| project_pocs | Point of contact |
+| comments | comments about the project |
+| submitting_officer | Contract officer name |
+| submitting_officer_contact | Contract officer email |
+| url | URL that pertain to the bid|
+| status | Status of the lead (note this API only shows open leads) |
+
+**Licence - State**
+
+State Department leads are subject to their open government license located at:
+
+[https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
+
+##Resource URL
+
+    http://api.trade.gov/trade_leads/search
+
+##Search Parameters
+
+###keyword
+
+Searches for a match within the title and description fields.
+
+    http://api.trade.gov/trade_leads/search?q={term}
+
+#####Example:
+
+    http://api.trade.gov/trade_leads/search?q=electrical
+
+###industries
+
+Returns industry that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
+
+    http://api.trade.gov/trade_leads/search?industries={term}
+
+#####Example:
+
+    http://api.trade.gov/trade_leads/search?industries=agribusiness
+
+###countries
+
+Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
+
+    http://api.trade.gov/trade_leads/search?countries={term}
+    
+#####Example:
+
+    http://api.trade.gov/trade_leads/search?countries=BR,MX
+
+###size + offset
+
+The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
+
+#####Example:
+
+    http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1
