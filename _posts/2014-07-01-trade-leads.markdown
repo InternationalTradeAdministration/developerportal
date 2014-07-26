@@ -32,7 +32,7 @@ The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides p
 | end_date| Closing date for the lead |
 | publish_date_amended | Date of latest change to the original lead |
 | status | Status of the lead (note this API only shows open leads) |
-| description | Description of the opporunity |
+| description | Description of the opportunity |
 | industry | Industry category assigned to the opportunity |
 | specific_location | The locations of the work in the contract |
 | notice_type | Type of contract |
@@ -48,7 +48,7 @@ The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides p
 
 **Licence - Canada**
 
-Canadian leads are subject to Canadian's license located at:
+Canadian leads are subject to Canada's license located at:
 
 [http://data.gc.ca/eng/open-government-licence-canada](http://data.gc.ca/eng/open-government-licence-canada)
 
@@ -70,7 +70,7 @@ The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides p
 | procurement_organization | Agency responsible for the contract |
 | contact | Point of contact |
 | title                | Title of the opportunity |
-| description | Description of the opporunity |
+| description | Description of the opportunity |
 | notice_type | Type of contract |
 | industry | Industry category assigned to the opportunity |
 | specific_location | Location of the opportunity |
@@ -126,7 +126,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
     http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1
 
-###State Departmenet leads
+###State Department leads
 
 The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
 
@@ -141,7 +141,7 @@ The [State Department's](http://bids.state.gov/) Business Information Database S
 | project_number | Number for the opportunity |
 | industry | Industry category assigned to the opportunity |
 | project_size | Industry category assigned to the opportunity |
-| description | Description of the opporunity |
+| description | Description of the opportunity |
 | tags | Keywords of the opportunity |
 | publish_date | Date lead was posted |
 | end_date | Closing date for the lead |
