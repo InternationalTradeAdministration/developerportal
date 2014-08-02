@@ -19,7 +19,7 @@ We will soon be including leads from FedBizOpps.  All leads are consolidated int
 Developers can use this API to keep businesses aware of the latest leads in particular industries or locations.  They can also enhance the value of the leads by incorporating reports from ITA’s [Market Research Library](http://developer.trade.gov/market-research-library.html) or [Trade News & Articles](http://developer.trade.gov/trade-news-articles.html) APIs.
 
 
-The output format for this API is JSON.  Search parameters can be found towards the bottom of this page.
+The output format for this API is JSON.  Resource URL and Search Parameters can be found towards the bottom of this page.
 
 ##Current Sources
 
@@ -127,7 +127,7 @@ UK leads are subject to their open government license located at:
 
     http://api.trade.gov/trade_leads/search
 
-##Search Parameters for All Leads
+##Search Parameters for all leads
 
 ###keyword
 
