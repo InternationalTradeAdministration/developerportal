@@ -88,7 +88,7 @@ Returns industry that the lead relates to.  Note:  This method allows you to sea
 
 Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
 
-    http://api.trade.gov/trade_leads/search?countries={term}
+    http://api.trade.gov/trade_leads/search?countries={country code}
     
 #####Example:
 
@@ -198,7 +198,7 @@ Returns industry that the lead relates to.  Note:  This method allows you to sea
 
 Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
 
-    http://api.trade.gov/trade_leads/search?countries={term}
+    http://api.trade.gov/trade_leads/search?countries={country code}
     
 #####Example:
 
