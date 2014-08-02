@@ -35,7 +35,7 @@ Returns office locations based on city name
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/ita_office_locations/search?country={country name}
+    http://api.trade.gov/ita_office_locations/search?country={country code}
 	
 #####Example:
 
