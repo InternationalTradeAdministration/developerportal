@@ -19,7 +19,7 @@ We will soon be including leads from FedBizOpps.  All leads are consolidated int
 Developers can use this API to keep businesses aware of the latest leads in particular industries or locations.  They can also enhance the value of the leads by incorporating reports from ITA’s [Market Research Library](http://developer.trade.gov/market-research-library.html) or [Trade News & Articles](http://developer.trade.gov/trade-news-articles.html) APIs.
 
 
-The output format for this API is JSON.
+The output format for this API is JSON.  Search parameters can be found towards the bottom of this page.
 
 ##Current Sources
 
@@ -57,51 +57,6 @@ The [State Department's](http://bids.state.gov/) Business Information Database S
 State Department leads are subject to their open government license located at:
 
 [https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
-
-##Resource URL
-
-    http://api.trade.gov/trade_leads/search
-
-##Search Parameters
-
-###keyword
-
-Searches for a match within the title and description fields.
-
-    http://api.trade.gov/trade_leads/search?q={term}
-
-#####Example:
-
-    http://api.trade.gov/trade_leads/search?q=electrical
-
-###industries
-
-Returns industry that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
-
-    http://api.trade.gov/trade_leads/search?industries={term}
-
-#####Example:
-
-    http://api.trade.gov/trade_leads/search?industries=agribusiness
-
-###countries
-
-Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
-
-    http://api.trade.gov/trade_leads/search?countries={country code}
-    
-#####Example:
-
-    http://api.trade.gov/trade_leads/search?countries=BR,MX
-
-###size + offset
-
-The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
-
-#####Example:
-
-    http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1
-
 
 ###Canadian leads
 
@@ -172,7 +127,7 @@ UK leads are subject to their open government license located at:
 
     http://api.trade.gov/trade_leads/search
 
-##Search Parameters
+##Search Parameters for All Leads
 
 ###keyword
 
