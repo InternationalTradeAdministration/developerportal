@@ -56,7 +56,7 @@ ITA uses cloud computing, so there is no impact on ITA’s infrastructure.
 It will vary based on the type of information requested and the system that it is drawn from. Our goal is to provide the data as close to “real-time” as possible.
 
 ###What sort of applications does ITA expect/hope developers will make?
-We get excited for unique and creative applications that provide benefit to businesses that export their products and services overseas.  Applications that share ITA’s resources with a wide audience are particularly desirable.
+We get excited for unique and creative applications that provide benefit to businesses that export their products and services overseas.  Applications that share ITA’s resources with a wide audience are particularly desirable.  Visit our [Apps for Exporters page](apps-exporters.html)
 
 ###Why does ITA offer this data?
-ITA would like to share its valuable resources (data, content, information) with as many businesses as possible.  Our mission is to assist American businesses in planning their international sales strategies and succeed in today’s global marketplace.  By sharing ITA’s resources, your applications help us help them!
+ITA would like to share its valuable resources (data, content, information) with as many businesses as possible.  Our mission is to assist American businesses in planning their international sales strategies and succeed in today’s global marketplace.  **By sharing ITA’s resources, your applications help us help them!**
