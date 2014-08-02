@@ -52,7 +52,7 @@ The [State Department's](http://bids.state.gov/) Business Information Database S
 | url | URL that pertain to the bid|
 | status | Status of the lead (note this API only shows open leads) |
 
-**Licence - State**
+**Licence - State Department**
 
 State Department leads are subject to their open government license located at:
 
