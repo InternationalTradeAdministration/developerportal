@@ -17,9 +17,9 @@ The Trade News & Articles API provides in-depth news and articles written by Tra
 
 ###keyword
 
-Returns articles for a match in the content and body fields.
+Returns articles for a match in the content and title fields.
 
-    http://api.trade.gov/trade_articles/search?q=<keyword>
+    http://api.trade.gov/trade_articles/search?q={keyword}
 
 #####Example:
 
