@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 --- 
@@ -42,4 +42,3 @@ We are particularly interested in applications that help businesses:
 ---
 [<img src="images/drewcompany.png" width="350" style="float:left;margin:0 25px 0 0;box-shadow: 3px 3px 2px #888888;" />](http://sources.drewcompany.com/ita/)
 The <strong>Drew Company</strong> created some quick widgets to help their business teams understand the power behind each API.  You too can take advantage of the work they’ve done and explore the code for each search tool yourself.  There’s one for [Market Research](http://sources.drewcompany.com/ita/example.html), [Trade News](http://sources.drewcompany.com/ita/news.html), and [Trade Events](http://sources.drewcompany.com/ita/events.html).
-
