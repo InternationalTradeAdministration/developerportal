@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
----
-published: true
----
-
->>>>>>> FETCH_HEAD
 --- 
 permalink: "apps-exporters.html" 
 layout: body 
