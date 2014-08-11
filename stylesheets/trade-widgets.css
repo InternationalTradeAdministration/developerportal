@@ -1,0 +1,170 @@
+.widget-container {
+	background: #F9F9F9;
+ 	width: 30%;
+border: 1px solid #e8e8e8;
+	font-weight:normal;
+	  
+	
+}
+
+
+.widget-title {
+	font-size: 12px;
+	font-weight:lighter;
+	font-family: arial,sans-serif;
+	color: #fff;
+	padding:10px;
+	padding-left: 5px;
+	background-color:#666666;
+	border-bottom: 1px solid #e8e8e8;
+	background-image:url('../images/ita.png');
+	background-repeat:no-repeat;
+background-position:right center;
+background-size: 60px;
+background-origin:padding-box; 
+padding-right: 15%;
+
+}
+
+.leads-container {
+	background: #F5F5F5;
+	
+	
+	
+}
+
+.results-title {
+	font-size: 12px;
+
+	color: #252525;
+}
+
+.results-legend {
+
+	
+	font-size: 12px;
+	font-family: inherit;
+	
+}
+
+.results-link {
+	font-size: 10px;
+
+	color: #1f53ac;
+	text-decoration: underline;
+}
+
+.search-input{
+	height: 19px;
+	font-size: 10pt;
+	
+	color: #959595;
+	margin: 0;
+}
+.search-button{
+display:none;
+}
+
+.search-button2{
+display: none;
+}
+
+.search-button3{
+
+	
+  width: 75px;
+  height: 25px;
+  border: none;
+  background: #454545;
+color:#fff;
+  background-repeat: no-repeat;
+  border-radius: 0 0 0 0;
+}
+
+.search-button-clear{
+	background: darkgrey;
+}
+
+
+.results-container {
+    padding: 0 0px;
+    overflow:scroll;
+    background: #F9F9F9;
+    max-height:200px;
+    font-family: Futura;
+    font-size:10px;
+}
+
+.results-container a{
+	font-weight:normal;
+    color:#000;
+    text-decoration:none;
+    font-size:12px;
+    
+}
+
+.results-container p{
+	padding: 0px 20px;
+	border-bottom: 1px solid #e8e8e8;
+	padding-bottom:10px;
+
+    
+}
+.results-container a:hover{
+	
+    text-decoration:underline;
+    font-weight:normal;
+    
+}
+.form-container {
+    
+    background: none;
+    padding: 0 0px 0px;
+    margin:0;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+.search-combo {
+margin:0px;
+padding:0px;
+}
+.search-input, select {
+    border-radius: 3px 0 0 3px;
+    border: 5px solid #F5F7F8;
+    
+    padding: 6px;
+    background: #FFF;
+    display: inline-block;
+    width: 100%;
+	max-width: 300px;
+	-webkit-appearance:none;
+	font-size: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	height: 45px;
+}
+.search-combo, .select-input {
+    white-space: nowrap;
+}
+.search-button {
+    background-position: center;
+    white-space: nowrap;
+    top: 4px;
+    width: 40px;
+    height: 33px;
+    padding: 6px;
+    border: 1px solid #bbb;
+    border-radius: 0 3px 3px 0;
+}
+.input-with-button {
+    display: inline-block;
+}
+.input-with-button .search-input {
+    border-radius: 3px 0 0 3px;
+    border-right:none;
+    padding-right:1px;
+}
+
