@@ -23,6 +23,15 @@ We are particularly interested in applications that help businesses:
 
 **ITA** has created several widgets that take advantage of the APIs’ search capabilities so you don’t have to.  Visit the [ITA Trade Widgets page](widgets.html) for code that you can immediately add to your Web page or mobile app.
 
+
+
+
+
+
+
+
+
+
 ###Applications Currently Using ITA's Data
 
 ---
