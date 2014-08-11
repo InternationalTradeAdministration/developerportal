@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#535353;
   font-weight:300;
   background:#f1f1f1;
@@ -24,8 +24,14 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:20px;
+  font-size:28px;
   color: #494949;
+ 
+}
+
+h7 {
+font-size:12px;
+
 }
 
 h2 {
@@ -59,7 +65,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:1100px;
   margin:0 auto;
 }
 
@@ -69,6 +75,8 @@ blockquote {
   padding:0 0 0 20px;
   font-style:italic;
 }
+
+
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
@@ -159,6 +167,10 @@ header ul a {
   height:40px;
 }
 
+header p {
+margin-left:20px;
+}
+
 .view a {
 color:#494949;
 
@@ -199,7 +211,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:750px;
   float:right;
   padding:30px 15px ;
   background:#fff;
@@ -215,6 +227,25 @@ section a {
 color: #08c;
 font-weight:bold;
 }
+
+section p a {
+color: #08c;
+font-weight:normal;
+}
+
+#home {
+background:#0B5394;
+color: #fff;
+ border: 1px solid;
+border-color: #e5e5e5 #dbdbdb #d2d2d2;
+-webkit-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -khtml-border-radius:3px;
+
+margin: 0px;
+}
+
 
 #foot {
 background:transparent;
