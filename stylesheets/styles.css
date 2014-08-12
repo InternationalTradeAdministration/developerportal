@@ -119,6 +119,11 @@ img {
 outline:none;
 }
 
+td img {
+
+ box-shadow: 3px 3px 2px #888888;
+}
+
 img a{
 border:none;
 outline:none;
