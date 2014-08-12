@@ -16,11 +16,14 @@ We are particularly interested in applications that help businesses:
 * Expand their existing exporting business.
 
 ###ITA Trade Widgets
+
 |               |                             |
 | ------------------ | --------------------------------------- |
 | **ITA** has created several widgets that take advantage of the APIs’ search capabilities so you don’t have to.  Visit the [ITA Trade Widgets page](widgets.html) for code that you can immediately add to your Web page or mobile app.                 | [![](images/itawidget2.png)](widgets.html)[![](images/itawidget.png)](widgets.html)              |
 
 ###Applications Currently Using ITA's Data 
+
+
 |               |                             |
 | ------------------ | --------------------------------------- |
 | [![](images/businessusa.png)](http://business.usa.gov/export)                 | **BusinessUSA** helps small businesses find the government resources they need. Their [Exporting](http://business.usa.gov/export) section automatically populates its pages using ITA's [Trade Events](http://business.usa.gov/events-search/) and [Offices & Centers APIs](http://business.usa.gov/export). Just click Change Location and enter a new zip code to see the results.              |
