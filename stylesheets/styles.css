@@ -76,6 +76,31 @@ blockquote {
   font-style:italic;
 }
 
+.container:before,
+.container:after {
+  content:"";
+  display:table;
+}
+.container:after {
+  clear:both;
+}
+.container {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+#info {
+max-width:400px;	
+display: inline-block;
+float:left;
+padding-right: 25px;
+}
+
+#side {
+width:200px;	
+display: inline-block;
+float:left;
+}
 
 
 code, pre {
