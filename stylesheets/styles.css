@@ -255,7 +255,7 @@ border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-
 
 section a {
 color: #08c;
-font-weight:bold;
+font-weight:normal;
 }
 
 section p a {
