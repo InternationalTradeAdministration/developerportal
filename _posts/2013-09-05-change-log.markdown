@@ -4,7 +4,7 @@ layout: body
 title: Change Log
 ---
 
-#Change Log
+#<a href="change-log.html">Change Log</a>
 
 We will continue to add updates and features to ITA’s API on an ongoing basis.  Please check this page regularly to ensure you have the latest updates to the API.
 

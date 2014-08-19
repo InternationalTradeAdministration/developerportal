@@ -5,7 +5,8 @@ title: Trade Leads API
 published: true
 ---
 
-#Trade Leads API
+#<a href="trade-leads.html">Trade Leads API</a>
+
 The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources and we continue to expand the number of leads available.
 
 We currently provide trade leads, procurement opportunities, and contract notifications from:

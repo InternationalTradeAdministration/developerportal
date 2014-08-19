@@ -5,7 +5,7 @@ title: Trade Events API
 published: true
 ---
 
-#Trade Events API
+#<a href="trade-events.html">Trade Events API</a>
 The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas.  These events include industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce. Developers can use this API to keep businesses aware of the latest events in their industry or location.
 
 The output format for this API is JSON.

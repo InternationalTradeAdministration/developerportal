@@ -5,7 +5,7 @@ title: ITA Offices & Centers API
 published: true
 ---
 
-#ITA Offices & Centers API
+#<a href="ita-office-locations.html">ITA Offices & Centers API</a>
 
 This API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.
 
