@@ -11,7 +11,7 @@ This API provides contact and address information for all of ITA’s domestic an
 
 ##Resource URL
 
-<a href="http://api.trade.gov/ita_office_locations/search"><pre>http://api.trade.gov/ita_office_locations/search</pre></a>
+	[http://api.trade.gov/ita_office_locations/search](http://api.trade.gov/ita_office_locations/search)
 
 ##Search Parameters
 
@@ -23,13 +23,13 @@ Returns office locations for a match within the post or office name fields.
 
 #####Example:
 
-<a href="http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo"><pre>http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo</pre></a>
+	[http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo](http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo)
 
 ###city
 
 Returns office locations based on city name
 
-<a href="http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo"><pre>http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo</pre></a>
+	[http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo](http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo)
 
 ###country
 
@@ -39,7 +39,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 	
 #####Example:
 
-<a href="http://api.trade.gov/ita_office_locations/search?country=BR"><pre> http://api.trade.gov/ita_office_locations/search?country=BR</pre></a>
+	[http://api.trade.gov/ita_office_locations/search?country=BR](http://api.trade.gov/ita_office_locations/search?country=BR)
 
 ###state
 
@@ -50,7 +50,7 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
 #####Example:
 
-<a href="http://api.trade.gov/ita_office_locations/search?state=TN"><pre>http://api.trade.gov/ita_office_locations/search?state=TN</pre></a>
+	[http://api.trade.gov/ita_office_locations/search?state=TN](http://api.trade.gov/ita_office_locations/search?state=TN)
 
 ###size + offset
 
@@ -58,7 +58,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-<a href="http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1</pre></a>
+	[http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1](http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1)
 
 
 ##Data Elements

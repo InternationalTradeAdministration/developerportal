@@ -14,7 +14,7 @@ This API provides metadata for country and industry reports that are produced by
 
 ##Resource URL
 
-<a href="http://api.trade.gov/market_research_library/search"><pre>http://api.trade.gov/market_research_library/search</pre></a>
+	[http://api.trade.gov/market_research_library/search](http://api.trade.gov/market_research_library/search)
 
 ##Search Parameters
 
@@ -26,7 +26,7 @@ Returns market research reports for a match in the description or title fields.
 
 #####Example:
 
-<a href="http://api.trade.gov/market_research_library/search?q=modernization"><pre>http://api.trade.gov/market_research_library/search?q=modernization</pre></a>
+	[http://api.trade.gov/market_research_library/search?q=modernization](http://api.trade.gov/market_research_library/search?q=modernization)
 
 ###countries
 
@@ -36,7 +36,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 #####Example:
 
-<a href="http://api.trade.gov/market_research_library/search.json?countries=MX"><pre>http://api.trade.gov/market_research_library/search.json?countries=MX</pre></a>
+	[http://api.trade.gov/market_research_library/search.json?countries=MX](http://api.trade.gov/market_research_library/search.json?countries=MX)
 
 ###industry
 
@@ -46,7 +46,7 @@ Returns market research reports for a specific [industry](industry-list-market-r
 
 #####Example:
 
-<a href="http://api.trade.gov/market_research_library/search.json?industry=agribusiness"><pre>http://api.trade.gov/market_research_library/search.json?industry=agribusiness</pre></a>
+	[http://api.trade.gov/market_research_library/search.json?industry=agribusiness](http://api.trade.gov/market_research_library/search.json?industry=agribusiness)
 
 ###size + offset
 
@@ -54,7 +54,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-<a href=" http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1"><pre> http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1</pre></a>
+	[http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1)
 
 ##Return Values
 

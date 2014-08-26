@@ -11,7 +11,7 @@ The Trade News & Articles API provides in-depth news and articles written by Tra
 
 ##Resource URL
 
-<a href="http://api.trade.gov/trade_articles/search"><pre>http://api.trade.gov/trade_articles/search</pre></a>
+	[http://api.trade.gov/trade_articles/search](http://api.trade.gov/trade_articles/search)
 
 ##Request Methods
 
@@ -23,7 +23,7 @@ Returns articles for a match in the content and title fields.
 
 #####Example:
 
-<a href="http://api.trade.gov/trade_articles/search?q=logistics"><pre>http://api.trade.gov/trade_articles/search?q=logistics</pre></a>
+	[http://api.trade.gov/trade_articles/search?q=logistics](http://api.trade.gov/trade_articles/search?q=logistics)
 
 ###evergreen
 
@@ -33,7 +33,7 @@ Flag to designate articles that are always relevant to particular topic.
 
 #####Example:
 
-<a href="http://api.trade.gov/trade_articles/search?evergreen=true"><pre>http://api.trade.gov/trade_articles/search?evergreen=true</pre></a>
+	[http://api.trade.gov/trade_articles/search?evergreen=true](http://api.trade.gov/trade_articles/search?evergreen=true)
 
 ###pub_date
 
@@ -45,7 +45,7 @@ Returns articles created on or after a specific date.
 
 #####Example
 
-<a href="http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04"><pre>http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04</pre></a>
+	[http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04](http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04)
 
 ####pub_date_end
 
@@ -55,7 +55,7 @@ Returns articles created on or before a specified date.
 
 #####Example
 
-<a href="http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07"><pre>http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07</pre></a>
+	[http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07](http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07)
 
 ###update_date
 
@@ -65,7 +65,7 @@ Returns articles created on a specified date.
 
 #####Example
 
-<a href="http://api.trade.gov/trade_articles/search?update_date=2013-04-30"><pre>http://api.trade.gov/trade_articles/search?update_date=2013-04-30</pre></a>
+	[http://api.trade.gov/trade_articles/search?update_date=2013-04-30](http://api.trade.gov/trade_articles/search?update_date=2013-04-30)
 
 ###size + offset
 
@@ -73,7 +73,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-<a href="http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1"><pre>http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1</pre></a>
+	[http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1](http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1)
     
 ##Return Values
 
