@@ -12,7 +12,7 @@ The output format for this API is JSON.
 
 ##Resource URL
 
-    http://api.trade.gov/trade_events/search
+<a href="http://api.trade.gov/trade_events/search"><pre>http://api.trade.gov/trade_events/search</pre></a>
 
 ##Search Parameters
 
@@ -20,21 +20,21 @@ The output format for this API is JSON.
 
 Searches for a match within the event_name and description fields.
 
-    http://api.trade.gov/trade_events/search?q={term}
+    http://api.trade.gov/trade_events/search?q={keyword}
 
 #####Example:
 
-    http://api.trade.gov/trade_events/search?q=computer
+<a href="http://api.trade.gov/trade_events/search?q=computer"><pre>http://api.trade.gov/trade_events/search?q=computer</pre></a>
 
 ###industry
 
 Searches for specific controlled [industry names](industry-list-trade-events.html)
 
-    http://api.trade.gov/trade_events/search?industry={term}
+    http://api.trade.gov/trade_events/search?industry={industry name}
 
 #####Example:
 
-    http://api.trade.gov/trade_events/search?industry=Agribusiness
+<a href="http://api.trade.gov/trade_events/search?industry=Chemical"><pre>http://api.trade.gov/trade_events/search?industry=Chemical</pre></a>
 
 ###countries
 
@@ -44,7 +44,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 #####Example:
 
-    http://api.trade.gov/trade_events/search?countries=MX
+<a href="http://api.trade.gov/trade_events/search?countries=MX"><pre>http://api.trade.gov/trade_events/search?countries=MX</pre></a>
 
 ###size + offset
 
@@ -52,7 +52,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-    http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1
+<a href="http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1</pre></a>
 
 
 ##Return Values

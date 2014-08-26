@@ -11,7 +11,7 @@ This API provides contact and address information for all of ITA’s domestic an
 
 ##Resource URL
 
-    http://api.trade.gov/ita_office_locations/search
+<a href="http://api.trade.gov/ita_office_locations/search"><pre>http://api.trade.gov/ita_office_locations/search</pre></a>
 
 ##Search Parameters
 
@@ -23,13 +23,13 @@ Returns office locations for a match within the post or office name fields.
 
 #####Example:
 
-    http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo
+<a href="http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo"><pre>http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo</pre></a>
 
 ###city
 
 Returns office locations based on city name
 
-    http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo
+<a href="http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo"><pre>http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo</pre></a>
 
 ###country
 
@@ -39,7 +39,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 	
 #####Example:
 
-    http://api.trade.gov/ita_office_locations/search?country=BR
+<a href="http://api.trade.gov/ita_office_locations/search?country=BR"><pre> http://api.trade.gov/ita_office_locations/search?country=BR</pre></a>
 
 ###state
 
@@ -50,7 +50,7 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
 #####Example:
 
-    http://api.trade.gov/ita_office_locations/search?state=TN
+<a href="http://api.trade.gov/ita_office_locations/search?state=TN"><pre>http://api.trade.gov/ita_office_locations/search?state=TN</pre></a>
 
 ###size + offset
 
@@ -58,7 +58,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-    http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1
+<a href="http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1</pre></a>
 
 
 ##Data Elements

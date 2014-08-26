@@ -126,7 +126,7 @@ UK leads are subject to their open government license located at:
 
 ##Resource URL
 
-    http://api.trade.gov/trade_leads/search
+<a href="http://api.trade.gov/trade_leads/search"><pre>http://api.trade.gov/trade_leads/search</pre></a>
 
 ##Search Parameters for all leads
 
@@ -138,7 +138,7 @@ Searches for a match within the title and description fields.
 
 #####Example:
 
-    http://api.trade.gov/trade_leads/search?q=electrical
+<a href="http://api.trade.gov/trade_leads/search?q=electrical"><pre>http://api.trade.gov/trade_leads/search?q=electrical</pre></a>
 
 ###industries
 
@@ -148,7 +148,7 @@ Returns industry that the lead relates to.  Note:  This method allows you to sea
 
 #####Example:
 
-    http://api.trade.gov/trade_leads/search?industries=agribusiness
+<a href="http://api.trade.gov/trade_leads/search?industries=agribusiness"><pre>http://api.trade.gov/trade_leads/search?industries=agribusiness</pre></a>
 
 ###countries
 
@@ -158,7 +158,7 @@ Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org
     
 #####Example:
 
-    http://api.trade.gov/trade_leads/search?countries=MX,CA,GB
+<a href="http://api.trade.gov/trade_leads/search?countries=MX,CA,GB"><pre>http://api.trade.gov/trade_leads/search?countries=MX,CA,GB</pre></a>
 
 ###size + offset
 
@@ -166,6 +166,6 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-    http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1
+<a href="http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1</pre></a>
 
 
