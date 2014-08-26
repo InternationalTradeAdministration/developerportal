@@ -276,41 +276,6 @@ border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-
 margin: 0px;
 }
 
-.imageBox {
-		position: relative;
-		float: right;
-		width:100px;
-		}
-		.imageBox .hoverImg {
-			position: absolute;
-			left: 0;
-			top: 0;
-			display: none;
-		
-	}
-		.imageBox:hover .hoverImg {
-			display: block;
-			
-		}
-		
-		div.item {
-    /* To correctly align image, regardless of content height: */
-    vertical-align: top;
-    display: inline-block;
-    /* To horizontally center images and caption */
-    text-align: center;
-    /* The width of the container also implies margin around the images. */
-    width: 120px;
-}
-img {
-    
-
-}
-.caption {
-    /* Make the caption a block so it occupies its own line. */
-    display: block;
-    font-size:10px;
-    }
 
 #foot {
 background:transparent;
