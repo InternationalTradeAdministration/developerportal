@@ -14,7 +14,7 @@ This API provides metadata for country and industry reports that are produced by
 
 ##Resource URL
 
-    http://api.trade.gov/market_research_library/search
+<div><a href="http://api.trade.gov/market_research_library/search"><pre>http://api.trade.gov/market_research_library/search</pre></a></div>
 
 ##Search Parameters
 
@@ -26,7 +26,7 @@ Returns market research reports for a match in the description or title fields.
 
 #####Example:
 
-    http://api.trade.gov/market_research_library/search?q=modernization
+<div><a href="http://api.trade.gov/market_research_library/search?q=modernization"><pre>http://api.trade.gov/market_research_library/search?q=modernization</pre></a></div>
 
 ###countries
 
@@ -36,7 +36,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 #####Example:
 
-    http://api.trade.gov/market_research_library/search.json?countries=MX
+<div><a href="http://api.trade.gov/market_research_library/search.json?countries=MX"><pre>http://api.trade.gov/market_research_library/search.json?countries=MX</pre></a></div>
 
 ###industry
 
@@ -46,7 +46,7 @@ Returns market research reports for a specific [industry](industry-list-market-r
 
 #####Example:
 
-    http://api.trade.gov/market_research_library/search.json?industry=agribusiness
+<div><a href="http://api.trade.gov/market_research_library/search.json?industry=agribusiness"><pre>http://api.trade.gov/market_research_library/search.json?industry=agribusiness</pre></a></div>
 
 ###size + offset
 
@@ -54,7 +54,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-    http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1
+<div><a href=" http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1"><pre> http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1</pre></a></div>
 
 ##Return Values
 
