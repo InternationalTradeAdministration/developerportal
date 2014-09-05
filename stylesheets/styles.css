@@ -224,6 +224,12 @@ color:#494949;
 .clearfix { display: block; }
 /* close commented backslash hack */
 
+a.current {
+color: #08C;
+font-weight: bold;
+}
+
+
 strong {
   color:#222;
   font-weight:700;

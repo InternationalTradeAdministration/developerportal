@@ -23,3 +23,11 @@ In addition to meeting these requirements we include additional documentation an
 4. We use common core metadata to describe our information and also provide crosswalks between our taxonomies and other known taxonomies.
 
 In addition to publishing a growing number of datasets, ITA is using the datasets to populate its own Web sites.  ITA will be publishing new datasets on an ongoing basis to help developers help exporters, and to expand the breadth of information available on trade.gov and export.gov.
+
+###What's Possible
+
+Developers have a wealth of opportunities to turn ITA's trade information into useful and valuable applications for exporters.  Immediate ideas for using the trade information include:
+
+- Add [ITA's Trade Event](trade-events.html), [Trade Leads](trade-leads.html), [Market Research](market-research-library.html), and [Trade News & Articles](trade-news-articles.html) to specific _Country_ pages.
+- Create a widget that aggregates event information, including [ITA's Trade Events](trade-events.html), for businesses in particular industries.
+- Include [ITA's Offices & Centers](ita-office-locations) in a list of resources for businesses in a particular State.

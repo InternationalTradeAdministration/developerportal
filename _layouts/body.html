@@ -43,7 +43,6 @@ Title: Body
 		
 		<h3>Additional Resources</h3>
 		<p class="view"><a href="about-apis.html">About Our APIs</a></p>
-        <p class="view"><a href="whats-possible.html">What's Possible</a></p>
         <p class="view"><a href="apps-exporters.html">Apps for Exporters</a></p>
         <p class="view"><a href="faq.html">FAQs</a></p>
         <p class="view"><a href="change-log.html">Change Log</a></p>
@@ -75,6 +74,16 @@ Title: Body
 
     </div>
     <script src="javascripts/scale.fix.js"></script>
+            <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
     
   </body>
   
