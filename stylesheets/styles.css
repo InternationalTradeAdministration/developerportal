@@ -163,6 +163,11 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  margin-bottom: auto;
+}
+
+header h3 {
+margin:5px;
 }
 
 header ul {
@@ -189,7 +194,7 @@ header li {
   width:89px;
   float:left;
   border-right:1px solid #d2d2d2;
-  height:40px;
+  height:10px;
 }
 
 header ul a {
@@ -204,7 +209,10 @@ header ul a {
 
 header p {
 margin-left:20px;
+margin:0 20px 5px;
+
 }
+
 
 .view a {
 color:#494949;
@@ -252,7 +260,7 @@ header ul a strong {
 }
 
 section {
-  width:750px;
+  width:785px;
   float:right;
   padding:30px 15px ;
   background:#fff;
@@ -263,6 +271,7 @@ border-color: #e5e5e5 #dbdbdb #d2d2d2;
 box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
 border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; -o-border-radius:3px; -khtml-border-radius:3px;
 }
+
 
 section a {
 color: #08c;
