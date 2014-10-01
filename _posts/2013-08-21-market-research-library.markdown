@@ -36,17 +36,17 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 #####Example:
 
-<div><a href="http://api.trade.gov/market_research_library/search.json?countries=MX"><pre>http://api.trade.gov/market_research_library/search.json?countries=MX</pre></a></div>
+<div><a href="http://api.trade.gov/market_research_library/search?countries=MX"><pre>http://api.trade.gov/market_research_library/search?countries=MX</pre></a></div>
 
 ###industry
 
 Returns market research reports for a specific [industry](industry-list-market-research-library.html)
 
-    http://api.trade.gov/market_research_library/search.json?industry={industry name}
+    http://api.trade.gov/market_research_library/search?industry={industry name}
 
 #####Example:
 
-<div><a href="http://api.trade.gov/market_research_library/search.json?industry=agribusiness"><pre>http://api.trade.gov/market_research_library/search.json?industry=agribusiness</pre></a></div>
+<div><a href="http://api.trade.gov/market_research_library/search?industry=agribusiness"><pre>http://api.trade.gov/market_research_library/search?industry=agribusiness</pre></a></div>
 
 ###size + offset
 
