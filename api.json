@@ -1,0 +1,427 @@
+{
+  "name": "Trade API",
+  "description": "This is an inventory of APIs available at the International Trade Administration",
+  "image": "http://developer.trade.gov/images/trade_url_white2.png",
+  "tags": [
+    "Market Research Library",
+    "ITA Offices & Centers",
+    "Trade Events",
+    "Trade Leads",
+    "Trade News & Articles"
+  ],
+  "created": "2014-04-07",
+  "modified": "2014-07-09",
+  "url": "need to fill with our location",
+  "SpecificationVersion": "0.14",
+  "apis": [
+    {
+      "name": "Market Research Library",
+      "description": "This API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library. Categorized by country and industry, these reports include: Market Research Reports, Best Market Reports, and Country Commercial Guides.",
+      "image": "http://developer.trade.gov/images/trade_url_white2.png",
+      "humanURL": "http://developer.trade.gov/",
+      "baseURL": "http://developer.trade.gov/market-research-library",
+      "tags": [
+        "Market Research Reports",
+        "Best Market Reports",
+        "Country Commercial Guides",
+        "API",
+      ],
+      "properties": [
+        {
+          "type": "id",
+          "url": "http://api.trade.gov/market_research_library/search?id="
+        },
+        {
+          "type": "countries",
+          "url": "http://api.trade.gov/market_research_library/search?countries="
+        },
+        {
+          "type": "description",
+          "url": "http://api.trade.gov/market_research_library/search?description="
+        },
+        {
+          "type": "expiration_date",
+          "url": "http://api.trade.gov/market_research_library/search?expiration_date="
+        },
+        {
+          "type": "industries",
+          "url": "http://api.trade.gov/market_research_library/search?industries="
+        },
+        {
+          "type": "report_type",
+          "url": "http://api.trade.gov/market_research_library/search?report_type="
+        },
+        {
+          "type": "title",
+          "url": "http://api.trade.gov/market_research_library/search?title="
+        },
+        {
+          "type": "url",
+          "url": "http://api.trade.gov/market_research_library/search?url="
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Market Research Library API",
+          "email": "DataServices@trade.gov"
+        }
+      ]
+    },
+    {
+      "name": "ITA Offices & Centers",
+      "description": "This API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.",
+      "image": "http://developer.trade.gov/images/trade_url_white2.png",
+      "humanURL": "http://developer.trade.gov/",
+      "baseURL": "http://developer.trade.gov/ita-office-locations",
+      "tags": [
+        "centers",
+        "address",
+        "API"
+      ],
+      "properties": [
+        {
+          "type": "id",
+          "url": "http://api.trade.gov/ita_office_locations/search?id="
+        },
+        {
+          "type": "post",
+          "url": "http://api.trade.gov/ita_office_locations/search?post="
+        },
+        {
+          "type": "office_name",
+          "url": "http://api.trade.gov/ita_office_locations/search?office_name="
+        },
+       {
+          "type": "country",
+          "url": "http://api.trade.gov/ita_office_locations/search?country="
+        },
+       {
+          "type": "state",
+          "url": "http://api.trade.gov/ita_office_locations/search?state="
+        },
+       {
+          "type": "city",
+          "url": "http://api.trade.gov/ita_office_locations/search?city="
+        },
+       {
+          "type": "address",
+          "url": "http://api.trade.gov/ita_office_locations/search?address="
+        },
+        {
+          "type": "email",
+          "url": "http://api.trade.gov/ita_office_locations/search?email="
+        },
+         {
+          "type": "fax",
+          "url": "http://api.trade.gov/ita_office_locations/search?fax="
+        },
+         {
+          "type": "mail_instructions",
+          "url": "http://api.trade.gov/ita_office_locations/search?mail_instructions="
+        },
+         {
+          "type": "phone",
+          "url": "http://api.trade.gov/ita_office_locations/search?phone="
+        },
+         {
+          "type": "post_type",
+          "url": "http://api.trade.gov/ita_office_locations/search?post_type="
+        },
+      ],
+      "contact": [
+        {
+          "FN": "ITA Offices & Centers API",
+          "email": "DataServices@trade.gov"
+        }
+      ]
+    },
+    {
+      "name": "Trade Events",
+      "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce. Developers can use this API to keep businesses aware of the latest events in their industry or location.",
+      "image": "http://developer.trade.gov/images/trade_url_white2.png",
+      "humanURL": "http://developer.trade.gov/",
+      "baseURL": "http://developer.trade.gov/trade-events",
+      "tags": [
+        "news",
+        "articles",
+        "API"
+      ],
+      "properties": [
+        {
+          "type": "id",
+          "url": "http://api.trade.gov/trade_articles/search?id="
+        },
+         {
+          "type": "content",
+          "url": "http://api.trade.gov/trade_articles/search?content="
+        },
+         {
+          "type": "pub_date",
+          "url": "http://api.trade.gov/trade_articles/search?pub_date="
+        },
+         {
+          "type": "title",
+          "url": "http://api.trade.gov/trade_articles/search?title="
+        },
+         {
+          "type": "update_date",
+          "url": "http://api.trade.gov/trade_articles/search?update_date="
+        },
+         {
+          "type": "evergreen",
+          "url": "http://api.trade.gov/trade_articles/search?evergreen="
+        },
+         {
+          "type": "content_type",
+          "url": "http://api.trade.gov/trade_articles/search?content_type="
+        },
+         {
+          "type": "export_phase",
+          "url": "http://api.trade.gov/trade_articles/search?export_phase="
+        },
+         {
+          "type": "industry",
+          "url": "http://api.trade.gov/trade_articles/search?industry="
+        },
+         {
+          "type": "topic",
+          "url": "http://api.trade.gov/trade_articles/search?topic="
+        },
+         {
+          "type": "subtopic",
+          "url": "http://api.trade.gov/trade_articles/search?subtopic="
+        },
+         {
+          "type": "trade_region",
+          "url": "http://api.trade.gov/trade_articles/search?trade_region="
+        },
+        {
+          "type": "geo_region",
+          "url": "http://api.trade.gov/trade_articles/search?geo_region="
+        },
+        {
+          "type": "geo_subregion",
+          "url": "http://api.trade.gov/trade_articles/search?geo_subregion="
+        },
+        {
+          "type": "country",
+          "url": "http://api.trade.gov/trade_articles/search?country="
+        },
+        {
+          "type": "keyword",
+          "url": "http://api.trade.gov/trade_articles/search?keyword="
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Trade Events API",
+          "email": "DataServices@trade.gov"
+        }
+      ]
+    },
+    {
+      "name": "Trade Leads",
+      "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas.",
+      "image": "http://developer.trade.gov/images/trade_url_white2.png",
+      "humanURL": "http://developer.trade.gov/",
+      "baseURL": "http://developer.trade.gov/trade-leads",
+      "tags": [
+        "leads",
+        "opportunities",
+        "products",
+        "services",
+        "API"
+      ],
+      "properties": [
+        {
+          "type": "type",
+          "url": "http://api.trade.gov/trade_leads/search?type="
+        },
+        {
+          "type": "id",
+          "url": "http://api.trade.gov/trade_leads/search?id="
+        },
+        {
+          "type": "source",
+          "url": "http://api.trade.gov/trade_leads/search?source="
+        },
+        {
+          "type": "country",
+          "url": "http://api.trade.gov/trade_leads/search?country="
+        },
+        {
+          "type": "specific_location",
+          "url": "http://api.trade.gov/trade_leads/search?specific_location="
+        },
+        {
+          "type": "title",
+          "url": "http://api.trade.gov/trade_leads/search?title="
+        },
+        {
+          "type": "project_number",
+          "url": "http://api.trade.gov/trade_leads/search?project_number="
+        },
+        {
+          "type": "industry",
+          "url": "http://api.trade.gov/trade_leads/search?industry="
+        },
+        {
+          "type": "project_size",
+          "url": "http://api.trade.gov/trade_leads/search?project_size="
+        },
+        {
+          "type": "description",
+          "url": "http://api.trade.gov/trade_leads/search?description="
+        },
+        {
+          "type": "tags",
+          "url": "http://api.trade.gov/trade_leads/search?tags="
+        },
+        {
+          "type": "publish_date",
+          "url": "http://api.trade.gov/trade_leads/search?publish_date="
+        },
+        {
+          "type": "end_date",
+          "url": "http://api.trade.gov/trade_leads/search?end_date="
+        },
+        {
+          "type": "funding_source",
+          "url": "http://api.trade.gov/trade_leads/search?funding_source="
+        },
+        {
+          "type": "borrowing_entity",
+          "url": "http://api.trade.gov/trade_leads/search?borrowing_entity="
+        },
+         {
+          "type": "procurement_organization",
+          "url": "http://api.trade.gov/trade_leads/search?procurement_organization="
+        },
+         {
+          "type": "contact",
+          "url": "http://api.trade.gov/trade_leads/search?contact="
+        },
+         {
+          "type": "comments",
+          "url": "http://api.trade.gov/trade_leads/search?comments="
+        },
+         {
+          "type": "submitting_officer",
+          "url": "http://api.trade.gov/trade_leads/search?submitting_officer="
+        },
+         {
+          "type": "submitting_officer_contact",
+          "url": "http://api.trade.gov/trade_leads/search?submitting_officer_contact="
+        }
+        {
+          "type": "url",
+          "url": "http://api.trade.gov/trade_leads/search?url="
+        }
+        {
+          "type": "status",
+          "url": "http://api.trade.gov/trade_leads/search?status="
+        }
+      ],
+      "contact": [
+        {
+          "FN": "Trade Leads API",
+          "email": "DataServices@trade.gov"
+        }
+      ]
+    },
+    {
+      "name": "Trade News & Articles API",
+      "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas.",
+      "image": "http://developer.trade.gov/images/trade_url_white2.png",
+      "humanURL": "http://developer.trade.gov/",
+      "baseURL": "http://developer.trade.gov/trade-events",
+      "tags": [
+        "events",
+        "conferences",
+        "webinars",
+        "lectures",
+        "trade missions",
+        "API"
+      ],
+      "properties": [
+        {
+          "type": "id",
+          "url": "http://api.trade.gov/trade_articles/search?id="
+        },
+        {
+          "type": "content",
+          "url": "http://api.trade.gov/trade_articles/search?content="
+        },
+        {
+          "type": "pub_date",
+          "url": "http://api.trade.gov/trade_articles/search?pub_date="
+        },
+        {
+          "type": "title",
+          "url": "http://api.trade.gov/trade_articles/search?title="
+        },
+        {
+          "type": "update_date",
+          "url": "http://api.trade.gov/trade_articles/search?update_date="
+        },
+        {
+          "type": "evergreen",
+          "url": "http://api.trade.gov/trade_articles/search?evergreen="
+        },
+        {
+          "type": "content_type",
+          "url": "http://api.trade.gov/trade_articles/search?content_type="
+        },
+        {
+          "type": "export_phase",
+          "url": "http://api.trade.gov/trade_articles/search?export_phase="
+        },
+        {
+          "type": "industry",
+          "url": "http://api.trade.gov/trade_articles/search?industry="
+        },
+        {
+          "type": "topic",
+          "url": "http://api.trade.gov/trade_articles/search?topic="
+        },
+        {
+          "type": "subtopic",
+          "url": "http://api.trade.gov/trade_articles/search?subtopic="
+        },
+        {
+          "type": "trade_region",
+          "url": "http://api.trade.gov/trade_articles/search?trade_region="
+        },
+        {
+          "type": "geo_region",
+          "url": "http://api.trade.gov/trade_articles/search?geo_region="
+        },
+        {
+          "type": "geo_subregion",
+          "url": "http://api.trade.gov/trade_articles/search?geo_subregion="
+        },
+        {
+          "type": "country",
+          "url": "http://api.trade.gov/trade_articles/search?country="
+        },
+        {
+          "type": "keyword",
+          "url": "http://api.trade.gov/trade_articles/search?keyword="
+        },
+        
+      ],
+      "contact": [
+        {
+          "FN": "Trade Events API",
+          "email": "DataServices@trade.gov"
+        }
+      ]
+    }
+  ],
+  "maintainers": [
+    {
+      "email": "DataServices@trade.gov",
+      "vCard":"https://github.com/InternationalTradeAdministration/developerportal"
+    }
+  ]
+}
