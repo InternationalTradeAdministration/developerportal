@@ -9,9 +9,9 @@
     "Trade Leads",
     "Trade News & Articles"
   ],
-  "created": "2014-04-07",
-  "modified": "2014-07-09",
-  "url": "need to fill with our location",
+  "created": "2014-10-02",
+  "modified": "2014-10-02",
+  "url": "http://developer.trade.gov/api.json",
   "SpecificationVersion": "0.14",
   "apis": [
     {
@@ -126,7 +126,7 @@
          {
           "type": "post_type",
           "url": "http://api.trade.gov/ita_office_locations/search?post_type="
-        },
+        }
       ],
       "contact": [
         {
@@ -312,11 +312,11 @@
          {
           "type": "submitting_officer_contact",
           "url": "http://api.trade.gov/trade_leads/search?submitting_officer_contact="
-        }
+        },
         {
           "type": "url",
           "url": "http://api.trade.gov/trade_leads/search?url="
-        }
+        },
         {
           "type": "status",
           "url": "http://api.trade.gov/trade_leads/search?status="
@@ -407,7 +407,7 @@
         {
           "type": "keyword",
           "url": "http://api.trade.gov/trade_articles/search?keyword="
-        },
+        }
         
       ],
       "contact": [
