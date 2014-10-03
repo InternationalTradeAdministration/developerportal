@@ -1,5 +1,5 @@
 {
-  "name": "Trade API",
+  "name": "Trade APIs",
   "description": "This is an inventory of APIs available at the International Trade Administration",
   "image": "http://developer.trade.gov/images/trade_url_white2.png",
   "tags": [
@@ -131,7 +131,7 @@
     },
     {
       "name": "Trade News & Articles",
-      "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas.",
+      "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government.",
       "image": "http://developer.trade.gov/images/trade_url_white2.png",
       "humanURL": "http://developer.trade.gov/",
       "baseURL": "http://developer.trade.gov/trade-news-articles",
@@ -165,7 +165,7 @@
   "include": [],
   "maintainers": [
     {
-      "FN": "Trade Events API",
+      "FN": "Trade APIs",
       "email": "DataServices@trade.gov"
     }
   ]
