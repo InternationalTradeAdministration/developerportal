@@ -16,7 +16,7 @@
   "apis": [
     {
       "name": "Market Research Library",
-      "description": "This API provides metadata for country and industry reports that are produced by ITAâ€™s trade experts and are available in ITAâ€™s online market research library. Categorized by country and industry, these reports include: Market Research Reports, Best Market Reports, and Country Commercial Guides.",
+      "description": "This API provides metadata for country and industry reports that are produced by ITA's trade experts and are available in ITA's online market research library. Categorized by country and industry, these reports include: Market Research Reports, Best Market Reports, and Country Commercial Guides.",
       "image": "http://developer.trade.gov/images/trade_url_white2.png",
       "humanURL": "http://developer.trade.gov/",
       "baseURL": "http://developer.trade.gov/market-research-library",
@@ -41,9 +41,11 @@
           "FN": "Market Research Library API",
           "email": "DataServices@trade.gov"
         }
-      ],
+      ]
+    },
+    {
       "name": "ITA Offices & Centers",
-      "description": "This API provides contact and address information for all of ITA’s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.",
+      "description": "This API provides contact and address information for all of ITA's domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.",
       "image": "http://developer.trade.gov/images/trade_url_white2.png",
       "humanURL": "http://developer.trade.gov/",
       "baseURL": "http://developer.trade.gov/ita-office-locations",
@@ -67,7 +69,9 @@
           "FN": "ITA Offices & Centers API",
           "email": "DataServices@trade.gov"
         }
-      ],
+      ]
+    },
+    {
       "name": "Trade Events",
       "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce. Developers can use this API to keep businesses aware of the latest events in their industry or location.",
       "image": "http://developer.trade.gov/images/trade_url_white2.png",
@@ -93,7 +97,9 @@
           "FN": "Trade Events API",
           "email": "DataServices@trade.gov"
         }
-      ],
+      ]
+    },
+    {
       "name": "Trade Leads",
       "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas.",
       "image": "http://developer.trade.gov/images/trade_url_white2.png",
@@ -121,7 +127,9 @@
           "FN": "Trade Leads API",
           "email": "DataServices@trade.gov"
         }
-      ],
+      ]
+    },
+    {
       "name": "Trade News & Articles",
       "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas.",
       "image": "http://developer.trade.gov/images/trade_url_white2.png",
@@ -148,12 +156,12 @@
       "contact": [
         {
           "FN": "Trade News & Articles API",
+
           "email": "DataServices@trade.gov"
         }
       ]
     }
   ],
-  
   "include": [],
   "maintainers": [
     {
