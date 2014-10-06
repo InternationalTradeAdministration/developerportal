@@ -22,6 +22,7 @@
       "baseURL": "http://developer.trade.gov/market-research-library.html",
       "tags": [
         "Trade",
+        "ITA",
         "Market Research Reports",
         "Best Market Reports",
         "Country Commercial Guides",
@@ -60,6 +61,7 @@
       "baseURL": "http://developer.trade.gov/ita-office-locations.html",
       "tags": [
       	"Trade",
+      	"ITA",
         "centers",
         "address",
         "API"
@@ -97,6 +99,7 @@
       "baseURL": "http://developer.trade.gov/trade-events.html",
       "tags": [
       	"Trade",
+      	"ITA",
         "news",
         "articles",
         "API"
@@ -134,6 +137,7 @@
       "baseURL": "http://developer.trade.gov/trade-leads.html",
       "tags": [
       	"Trade",
+      	"ITA",
         "leads",
         "opportunities",
         "products",
@@ -173,6 +177,7 @@
       "baseURL": "http://developer.trade.gov/trade-news-articles.html",
       "tags": [
       	"Trade",
+      	"ITA",
         "events",
         "conferences",
         "webinars",
