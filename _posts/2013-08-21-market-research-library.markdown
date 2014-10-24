@@ -6,6 +6,8 @@ layout: body
 ---
 
 #<a href="market-research-library.html">Market Research Library API</a>
+**Currently the market research reports that this API points to are offline.  We are working with the owners of the host systme to make those reports available as quickly as possible.**
+
 This API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.  Categorized by country and industry, these reports include:
 
 * Market Research Reports
