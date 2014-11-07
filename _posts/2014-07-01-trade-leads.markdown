@@ -19,110 +19,7 @@ We will soon be including leads from FedBizOpps.  All leads are consolidated int
 
 Developers can use this API to keep businesses aware of the latest leads in particular industries or locations.  They can also enhance the value of the leads by incorporating reports from ITA’s [Market Research Library](http://developer.trade.gov/market-research-library.html) or [Trade News & Articles](http://developer.trade.gov/trade-news-articles.html) APIs.
 
-
 The output format for this API is JSON.  Resource URL and Search Parameters can be found towards the bottom of this page.
-
-##Current Sources
-
-###State Department leads
-
-The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
-
-**Return Values from BIDS**
-
-| Field             | Description                                                     |
-| ----------------- | --------------------------------------------------------------- |
-| type                | Trade lead source |
-| id                | ID of the trade lead |
-| source            | Source of the trade lead, typically an organization |
-| specific_location | Location of the opportunity |
-| project_number | Number for the opportunity |
-| industry | Industry category assigned to the opportunity |
-| project_size | Industry category assigned to the opportunity |
-| description | Description of the opportunity |
-| tags | Keywords of the opportunity |
-| publish_date | Date lead was posted |
-| end_date | Closing date for the lead |
-| funding_source | Funding source of the project |
-| borrowing_entity | Bank funding the project |
-| procurement_organization | Agency responsible for the contract |
-| project_pocs | Point of contact |
-| comments | comments about the project |
-| submitting_officer | Contract officer name |
-| submitting_officer_contact | Contract officer email |
-| url | URL that pertain to the bid|
-| status | Status of the lead (note this API only shows open leads) |
-
-**Licence - State Department**
-
-State Department leads are subject to their open government license located at:
-
-[https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
-
-###Canadian leads
-
-The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.  Leads provided by the Canadian government have the following data model:
-
-**Return Values from Canada**
-
-| Field             | Description                                                     |
-| ----------------- | --------------------------------------------------------------- |
-| title                | Title of the opportunity |
-| reference_number         | Reference number for the opportunity |
-| contract_number | Contract Number for the opportunity |
-| publish_date | Date lead was posted |
-| end_date| Closing date for the lead |
-| publish_date_amended | Date of latest change to the original lead |
-| status | Status of the lead (note this API only shows open leads) |
-| description | Description of the opportunity |
-| industry | Industry category assigned to the opportunity |
-| specific_location | The locations of the work in the contract |
-| notice_type | Type of contract |
-| trade_agreement | Relevant trade agreement for the contract |
-| bid_type | The criteria for the contract |
-| competitive_procurement_strategy | Bidding criteria for respondents |
-| non_competitive_procurement_strategy | States whether it is a competitive procurement |
-| procurement_organization | Agency responsible for the contract |
-| implementing_entity | Agency responsible for the implementation |
-| contact | Point of contact |
-| urls | URLs that pertain to the bid|
-| country | CA |
-
-**Licence - Canada**
-
-Canadian leads are subject to Canada's license located at:
-
-[http://data.gc.ca/eng/open-government-licence-canada](http://data.gc.ca/eng/open-government-licence-canada)
-
-###UK Government leads
-
-The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides procurement information for their government opportunities. Leads provided by the UK government have the following data model:
-
-**Return Values from the UK**
-
-| Field             | Description                                                     |
-| ----------------- | --------------------------------------------------------------- |
-| id                | ID of the trade lead |
-| reference_number         | Reference number for the opportunity |
-| publish_date | Date lead was posted |
-| min_contract_value | Minimum value of the lead (in pounds) |
-| max_contract_value | Maximum value of the lead (in pounds) |
-| status | Status of the lead (note this API only shows open leads) |
-| url | URL that pertain to the bid|
-| procurement_organization | Agency responsible for the contract |
-| contact | Point of contact |
-| title                | Title of the opportunity |
-| description | Description of the opportunity |
-| notice_type | Type of contract |
-| industry | Industry category assigned to the opportunity |
-| specific_location | Location of the opportunity |
-| country | GB |
-
-**Licence - UK**
-
-UK leads are subject to their open government license located at:
-
-[http://www.nationalarchives.gov.uk/doc/open-government-licence/](http://www.nationalarchives.gov.uk/doc/open-government-licence/)
 
 ##Resource URL
 
@@ -167,5 +64,100 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 #####Example:
 
 <div><a href="http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1</pre></a></div>
+
+
+## Return Values for All Leads
+
+
+| Field	| Description |
+| ------| -------------|
+| description | Description of the opportunity |
+| industry | Industry category assigned to the opportunity | 
+| procurement_organization | Agency responsible for the contract | 
+| publish_date | Date lead was posted | 
+| specific_location | Location of the opportunity | 
+| status | Status of the lead (note this API only shows open leads) |
+| url  | URL that pertain to the bid |
+
+## Additional Return Values for Canada
+
+| Field	| Description |
+| ------| -------------|
+| bid_type 	 The criteria for the contract  |
+| competitive_procurement_strategy 	 Bidding criteria for respondents |
+| contract_number 	 Contract Number for the opportunity |
+| country | Canada |
+| end_date	 Closing date for the lead |
+| implementing_entity | Agency responsible for the implementation |
+| non_competitive_procurement_strategy | States whether it is a competitive procurement |
+| notice_type | Type of contract |
+| procurement_organization | Agency responsible for the contract |
+| trade_agreement | Relevant trade agreement for the contract | 
+| contact | Point of contact |
+
+## Additional Return Values for Great Britain
+
+| Field	| Description |
+| ------| -------------|
+| contact | Point of contact |
+| country | Great Britain |
+| id | ID of the trade lead |
+| max_contract_value  | Maximum value of the lead (in pounds) |
+| min_contract_value 	 Minimum value of the lead (in pounds) |
+| notice_type | Type of contract 
+| procurement_organization 	| Agency responsible for the contract |
+| reference_number | Reference number for the opportunity |
+| status | Status of the lead (note this API only shows open leads) |
+| title| Title of the opportunity |
+
+## Additional Return Values for State Department
+
+| borrowing_entity | Bank funding the project|
+| comments | comments about the project|
+| contract_number | Contract Number for the opportunity|
+| end_date | Closing date for the lead|
+| funding_source | Funding source of the project|
+| id | ID of the trade lead|
+| project_number | Number for the opportunity|
+| project_pocs | Point of contact|
+| project_size | Industry category assigned to the opportunity|
+| reference_number | Reference number for the opportunity|
+| source | Source of the trade lead, typically an organization|
+| submitting_officer | Contract officer name|
+| submitting_officer_contact | Contract officer email|
+| tags | Keywords of the opportunity|
+| title | Title of the opportunity (Canadian Leads)	State
+| type | Trade lead source|
+
+###State Department Description
+
+The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
+
+**Licence - State Department**
+
+State Department leads are subject to their open government license located at:
+
+[https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
+
+###Canadian leads
+
+The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.  Leads provided by the Canadian government have the following data model:
+
+**Licence - Canada**
+
+Canadian leads are subject to Canada's license located at:
+
+[http://data.gc.ca/eng/open-government-licence-canada](http://data.gc.ca/eng/open-government-licence-canada)
+
+###UK Government leads
+
+The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides procurement information for their government opportunities. Leads provided by the UK government have the following data model:
+
+**Licence - UK**
+
+UK leads are subject to their open government license located at:
+
+[http://www.nationalarchives.gov.uk/doc/open-government-licence/](http://www.nationalarchives.gov.uk/doc/open-government-licence/)
+
 
 
