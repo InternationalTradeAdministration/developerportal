@@ -103,8 +103,8 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | country | Great Britain |
 | id | ID of the trade lead |
 | max_contract_value  | Maximum value of the lead (in pounds) |
-| min_contract_value 	 Minimum value of the lead (in pounds) |
-| notice_type | Type of contract 
+| min_contract_value | Minimum value of the lead (in pounds) |
+| notice_type | Type of contract |
 | procurement_organization 	| Agency responsible for the contract |
 | reference_number | Reference number for the opportunity |
 | status | Status of the lead (note this API only shows open leads) |
