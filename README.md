@@ -1,10 +1,13 @@
-# International Trade Administration - Developer Portal
+# NCBI GitHub Portal sources
 
-View the site here: http://developer.trade.gov
+View the site here: http://ncbi.github.io
 
-This project includes the source code and content for the ITA Developer website.
+This project includes the source code and content for the NCBI GitHub portal website.
 
-The goal of the project to expose ITA data sources to the public under a common taxonomy which allows for the the general public to more easily consume both trade and export information.
+The goal of this site is to facilitate access to NCBI resources that exist on GitHub.
+This site was forked and modified from the [Developer.trade.gov](http://developer.trade.gov)
+site.
+
 
 ## Local Installation Requirements
 
@@ -25,11 +28,12 @@ The goal of the project to expose ITA data sources to the public under a common 
 
 `curl -L https://get.rvm.io | bash -s stable --ruby`
 
-Visit the following links for more detailed information on how to set up Ruby using a method applicable to your environment:
+Visit the following links for more detailed information on how to set up Ruby using a method
+applicable to your environment:
 
 Three Ways of Installing Ruby (Linux/Unix)
 http://www.ruby-lang.org/en/downloads/
- 
+
 RubyInstaller for Windows
 http://rubyinstaller.org/
 
@@ -37,7 +41,7 @@ How to Install Ruby on a Mac
 http://net.tutsplus.com/tutorials/ruby/how-to-install-ruby-on-a-mac/
 
 
-## Install rubygems: 
+## Install rubygems:
 
 - `cd ~/`
 - `wget http://production.cf.rubygems.org/rubygems/rubygems-1.8.24.tgz`
@@ -48,9 +52,11 @@ http://net.tutsplus.com/tutorials/ruby/how-to-install-ruby-on-a-mac/
 
 ## Managing Dependencies Using Bundler
 
-We recommend using Bundler to manage dependencies. Once you have Ruby installed, install Bundler by running the following command: 'gem install bundler'
+We recommend using Bundler to manage dependencies. Once you have Ruby installed, install Bundler by
+running the following command: 'gem install bundler'
 
-Once Bundler is installed, you install/update depencies by simply running 'bundle install' within your project folder.
+Once Bundler is installed, you install/update depencies by simply running 'bundle install' within
+your project folder.
 
 More information on Bundler may be found here: http://gembundler.com/
 
@@ -71,8 +77,7 @@ https://github.com/mojombo/jekyll
 
 ## Clone the repository
 
-- `cd /var/www/html` (or the location you would like the compiled site to live)
-- `git clone https://github.com/InternationalTradeAdministration/WebSite.git`
+- `git clone https://github.com/ncbi/ncbi.github.io.git`
 
 
 ## Generate the site and serve
