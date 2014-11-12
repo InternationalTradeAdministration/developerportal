@@ -28,7 +28,7 @@ Searches for a match within the question and answer fields.
 
 ###industries
 
-Searches for specific controlled [industry names](industry-list.html).  Enter multiple terms by separating with a comma.
+Returns FAQs based on industry name.  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/faqs/search?industries={terms}
 
