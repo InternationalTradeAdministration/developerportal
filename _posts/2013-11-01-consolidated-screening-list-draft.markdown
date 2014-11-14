@@ -6,15 +6,15 @@ layout: body
 
 # ITA Consolidated Screening List
 
-Developers must provide the following information to their users to help them stay compliant with exporting law.
-
 ## Background
 
-The Consolidated Screening List API consolidates export screening lists of the Departments of Commerce, State and the Treasury into one spreadsheet as an aide to industry in conducting electronic screens of potential parties to regulated transactions. In the event that a company, entity or person on the list appears to match a party potentially involved in an export transaction, additional due diligence should be conducted before proceeding. There may be a strict export prohibition, requirement for seeking a license application, evaluation of the end-use or user to ensure it does not result in an activity prohibited by any U.S. export regulations, or other restriction.
+The Consolidated Screening List API consolidates nine export screening lists of the Departments of Commerce, State and the Treasury into one spreadsheet as an aide to industry in conducting electronic screens of potential parties to regulated transactions. In the event that a company, entity or person on the list appears to match a party potentially involved in an export transaction, additional due diligence should be conducted before proceeding. There may be a strict export prohibition, requirement for seeking a license application, evaluation of the end-use or user to ensure it does not result in an activity prohibited by any U.S. export regulations, or other restriction.
 
 ##Instruct Users How to Stay Compliant
 
-If a party to a user’s transaction matches a party name on the consolidated list, the user must check the official publication of restricted parties in the [Federal Register](http://www.gpoaccess.gov/fr/) or the official lists of restricted parties maintained on the websites of the Departments of Commerce, State and the Treasury to ensure full compliance with all of the terms and conditions of the restrictions placed on the parties on this list.  Links to these websites are found below as well as in the “Source List URL” and “Source Information URL” fields that accompany each party returned in the API.  These links connect users to the specific webpage that contain additional information about how to use each specific list.
+Developers must provide the following information to their users to help them stay compliant with exporting law.
+
+If a party to a user’s transaction matches the name of a party on the consolidated list, the user must check the official publication of restricted parties in the [Federal Register](http://www.gpoaccess.gov/fr/) or the official lists of restricted parties maintained on the websites of the Departments of Commerce, State and the Treasury to ensure full compliance with all of the terms and conditions of the restrictions placed on the parties on this list.  Links to these websites are found below as well as in the “Source List URL” and “Source Information URL” fields that accompany each party returned in the API.  These links connect users to the specific webpage that contain additional information about how to use each specific list.
 
 ##Resource URL
 
@@ -24,7 +24,7 @@ If a party to a user’s transaction matches a party name on the consolidated li
 
 ###keyword
 
-Searches for a match within the name, remarks, and title fields as applicable.
+Searches for a match within the **name**, **remarks**, and **title** fields from all nine lists.
 
     http://api.trade.gov/consolidated_screening_list/search?q={term}
 
@@ -34,7 +34,7 @@ Searches for a match within the name, remarks, and title fields as applicable.
 
 ###sources
 
-Abbreviation of the list to which the entity belongs
+Searches only the lists specified by the **Source** Abbreviation.
 
 	http://api.govwizely.com/consolidated_screening_list/search?sources={csl_type}
 
@@ -42,7 +42,7 @@ Abbreviation of the list to which the entity belongs
 
 [http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN]
 	
-Source abbreviations as follows:
+Source Abbreviations as follows:
 
 * Denied Persons List = DPL
 * Entity List = EL
@@ -56,7 +56,7 @@ Source abbreviations as follows:
 
 ###countries
 
-Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
+Searches only parties whose **country** field matches the country code based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per party.  
 
     http://api.trade.gov/consolidated_screening_list/search?countries={country code}
 
