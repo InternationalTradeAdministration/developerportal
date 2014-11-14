@@ -18,7 +18,7 @@ If a party to a user’s transaction matches a party name on the consolidated li
 
 ##Resource URL
 
-	http://api.trade.gov/consolidated_screening_list
+[http://api.trade.gov/consolidated_screening_list]
 
 ##Search Parameters for consolidated screening list sources
 
@@ -30,17 +30,17 @@ Searches for a match within the name, remarks, and title fields as applicable.
 
 **_Example_**
 
-    http://api.trade.gov/consolidated_screening_list/search?q=electrical
+[http://api.trade.gov/consolidated_screening_list/search?q=electrical]
 
 ###sources
 
 Abbreviation of the list to which the entity belongs
 
-	[http://api.govwizely.com/consolidated_screening_list/search?sources={csl_type}
+	http://api.govwizely.com/consolidated_screening_list/search?sources={csl_type}
 
 **_Example_**
 
-	http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN
+[http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN]
 	
 Source abbreviations as follows:
 
