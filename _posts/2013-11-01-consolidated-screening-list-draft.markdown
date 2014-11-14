@@ -171,12 +171,12 @@ Note: The Department of the Treasury data sources share the same output structur
 | citizenships | Entity's citizenships |
 | dates_of_birth | Entity's date of birth |
 | entity_number | Unique id assigned by the originating list |
-| ids | An array holding identifications comprising country, expiration_date, issue_date, number | 
-| country | Entity's country |
-| expiration_date | The date on which the entity’s inclusion on the list will have expired |
-| issue_date | The effective date of the entity on the list as defined by the Federal Register Notice |
-| number | Unique id assigned by the originating list |
-| type | Describes the type of vessel (ferry, bulk cargo, tug) if applicable |
+| ids | An array showing specific identification information of the entity. Array fields in _italics_ | 
+| _country_ | _Entity's country_ |
+| _expiration_date_ | The date on which the identification will expire |
+| _issue_date_ | _The effective date of the entity on the list as defined by the Federal Register Notice_ |
+| _number_ | _Unique number assigned to the identification_  |
+| _type_ | Describes the type of identification_ (i.e. passport, license, etc.)_ |
 | name | Entity's name | 
 | nationalities | Entity's nationalities |
 | places_of_birth | Entity's place of birth |
