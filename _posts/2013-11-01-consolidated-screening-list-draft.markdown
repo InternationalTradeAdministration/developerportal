@@ -30,7 +30,7 @@ Searches for a match within the name, remarks, and title fields as applicable.
 
 **_Example_**
 
-[http://api.trade.gov/consolidated_screening_list/search?q=electrical]
+[http://api.trade.gov/consolidated_screening_list/search?q=chemical]
 
 ###sources
 
