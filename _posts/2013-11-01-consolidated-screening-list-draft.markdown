@@ -153,14 +153,14 @@ Each list returns a unique set of fields.  Where appropriate, the Consolidated S
 
 ####Department of the Treasury – Office of Foreign Assets Control (OFAC)
 
-* [Specially Designated Nationals List](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx) -- Parties who may be prohibited from export transactions based on OFAC’s regulations. The Export Administration Regulations (EAR) require a license for exports or re-exports to any party in any entry on this list that contains any of the suffixes "SDGT", "SDT", "FTO", "IRAQ2" or "NPWMD".”
-
 * [Foreign Sanctions Evaders List](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/fse_list.aspx) -- Foreign individuals and entities determined to have violated, attempted to violate, conspired to violate, or caused a violation of U.S. sanctions on Syria or Iran, as well as foreign persons who have facilitated deceptive transactions for or on behalf of persons subject to U.S. Sanctions. Transactions by U.S. persons or within the United States involving Foreign Sanctions Evaders (FSEs) are prohibited.
 
 * [Palestinian Legislative Council List](http://www.treasury.gov/resource-center/sanctions/Terrorism-Proliferation-Narcotics/Pages/index.aspx) -- The individuals in this list are Palestinian Legislative Council members who were elected on the party slate of a Foreign Terrorist Organization, Specially Designated Terrorist, or Specially Designated Global Terrorist. They do not, however, appear on the SDN List.  Transactions involving these individuals must be rejected.
 
 * [Sectoral Sanctions Identifications List](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/ssi_list.aspx) -- 
 This Sectoral Sanctions Identifications List includes persons determined by OFAC to be operating in sectors of the Russian economy identified by the Secretary of the Treasury pursuant to Executive Order 13662. The prohibitions on dealings related to the persons identified on this list are described in the [Sectoral Sanctions Identifications List circular](http://www.treasury.gov/ofac/downloads/ssi/ssi.pdf).
+
+* [Specially Designated Nationals List](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx) -- Parties who may be prohibited from export transactions based on OFAC’s regulations. The Export Administration Regulations (EAR) require a license for exports or re-exports to any party in any entry on this list that contains any of the suffixes "SDGT", "SDT", "FTO", "IRAQ2" or "NPWMD".”
 
 Note: The Department of the Treasury data sources share the same output structure 
 
@@ -170,21 +170,21 @@ Note: The Department of the Treasury data sources share the same output structur
 | alt_names | Alias names used by the entity | 
 | citizenships | Entity's citizenships |
 | dates_of_birth | Entity's date of birth |
-| entity_number | Unique id assigned by the originating list. 
-| ids | An array holding entries with country, expiration_date, issue_date, number | 
+| entity_number | Unique id assigned by the originating list |
+| ids | An array holding identifications comprising country, expiration_date, issue_date, number | 
 | country | Entity's country |
-| expiration_date | The date the entity was lifted, waived or expired on or from the lists |
+| expiration_date | The date on which the entity’s inclusion on the list will have expired |
 | issue_date | The effective date of the entity on the list as defined by the Federal Register Notice |
 | number | Unique id assigned by the originating list |
 | type | Describes the type of vessel (ferry, bulk cargo, tug) if applicable |
- name | Entity's name | 
+| name | Entity's name | 
 | nationalities | Entity's nationalities |
 | places_of_birth | Entity's place of birth |
 | programs | Agency program related to the entity on the list |
 | remarks | Additional remarks or notes regarding the company, entity or person on the list |
 | type | Classification of the entity |
-| source_list_url | Location of the opportunity | 
-| source_information_url | Location of the original list |
+| source_list_url | Location of the original list | 
+| source_information_url | Information from the Source agency about the list |
 | title | Entity's title |
 
 OFAC provides [further documentation](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx) for their program tag definitions.
