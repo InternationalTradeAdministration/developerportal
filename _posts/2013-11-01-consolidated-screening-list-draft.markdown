@@ -187,7 +187,7 @@ Note: The Department of the Treasury data sources share the same output structur
 | source_information_url | Information from the Source agency about the list |
 | title | Entity's title |
 
-OFAC provides [further documentation](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx) for their program tag definitions.
+OFAC provides [further documentation](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/program_tags.aspx) for the **programs** field.
 
 	
 ## ITA’s Process for Consolidating the Screening Lists
