@@ -18,7 +18,7 @@ Developers must provide the following information to their users to help them st
 
 ##Resource URL
 
-[http://api.trade.gov/consolidated_screening_list]
+[http://api.trade.gov/consolidated_screening_list](http://api.trade.gov/consolidated_screening_list)
 
 ##Search Parameters for consolidated screening list sources
 
@@ -173,10 +173,10 @@ Note: The Department of the Treasury data sources share the same output structur
 | entity_number | Unique id assigned by the originating list |
 | ids | An array showing specific identification information of the entity. Array fields in _italics_ | 
 | _country_ | _Entity's country_ |
-| _expiration_date_ | The date on which the identification will expire |
-| _issue_date_ | _The effective date of the entity on the list as defined by the Federal Register Notice_ |
+| _expiration_date_ | _The date on which the identification will expire_ |
+| _issue_date_ | _The effective date of the identification_ |
 | _number_ | _Unique number assigned to the identification_  |
-| _type_ | Describes the type of identification_ (i.e. passport, license, etc.)_ |
+| _type_ | _Describes the type of identification (i.e. passport, license, etc.)_ |
 | name | Entity's name | 
 | nationalities | Entity's nationalities |
 | places_of_birth | Entity's place of birth |
