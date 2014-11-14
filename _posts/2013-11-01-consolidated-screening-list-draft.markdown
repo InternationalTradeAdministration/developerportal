@@ -62,7 +62,7 @@ Searches only parties whose **country** field matches the country code based on 
 
 **_Example_**
 
-	http://api.trade.gov/consolidated_screening_list/search?countries=JO,PS
+[http://api.trade.gov/consolidated_screening_list/search?countries=JO,PS](http://api.trade.gov/consolidated_screening_list/search?countries=JO,PS)
 
 ###size + offset
 
@@ -70,7 +70,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 **_Example_**
 
-	http://api.trade.gov/consolidated_screening_list/search?country=PS&size=1&offset=1
+[http://api.trade.gov/consolidated_screening_list/search?country=PS&size=1&offset=1](http://api.trade.gov/consolidated_screening_list/search?country=PS&size=1&offset=1)
 
 ###The Nine Screening Lists, Their Sources and Specific Fields
 
