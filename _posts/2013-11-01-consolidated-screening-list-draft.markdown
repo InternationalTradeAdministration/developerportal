@@ -17,8 +17,9 @@ Developers must provide the following information to their users to help them st
 *If a party to a user’s transaction matches the name of a party on the consolidated list, the user must check the official publication of restricted parties in the [Federal Register](http://www.gpoaccess.gov/fr/) or the official lists of restricted parties maintained on the websites of the Departments of Commerce, State and the Treasury to ensure full compliance with all of the terms and conditions of the restrictions placed on the parties on this list.  Links to these websites are found below as well as in the “Source List URL” and “Source Information URL” fields that accompany each party returned in the API.  These links connect users to the specific webpage that contain additional information about how to use each specific list.*
 
 ##Resource URL
+The below URL will search across all nine screening lists. To search a subset, see sources below.
 
-[http://api.trade.gov/consolidated_screening_list](http://api.trade.gov/consolidated_screening_list)
+[http://api.trade.gov/consolidated_screening_list/search](http://api.trade.gov/consolidated_screening_list/search)
 
 ##Search Parameters for consolidated screening list sources
 
