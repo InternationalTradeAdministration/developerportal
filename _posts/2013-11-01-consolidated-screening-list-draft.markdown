@@ -46,13 +46,13 @@ Source Abbreviations as follows:
 
 * Denied Persons List = **DPL**
 * Entity List = **EL**
-* Unverified List = **UVL**
-* ITAR Debarred = **DTC**
-* Nonproliferation Sanctions = **ISN **
 * Foreign Sanctions Evaders = **FSE**
-* Nonproliferation Sanctions = **ISN **
+* ITAR Debarred = **DTC**
+* Nonproliferation Sanctions = **ISN**
 * Palestinian Legislative Council List = **PLC**
 * Sectoral Sanctions Identifications List = **SSI**
+* Specially Designated Nationals - **SDN**
+* Unverified List = **UVL**
 
 ###countries
 
