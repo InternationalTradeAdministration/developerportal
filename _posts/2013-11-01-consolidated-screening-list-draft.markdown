@@ -44,15 +44,15 @@ Searches only the lists specified by the **Source** Abbreviation.
 	
 Source Abbreviations as follows:
 
-* Denied Persons List = DPL
-* Entity List = EL
-* Unverified List = UVL
-* ITAR Debarred = DTC
-* Nonproliferation Sanctions = ISN 
-* Foreign Sanctions Evaders = FSE
-* Nonproliferation Sanctions = ISN 
-* Palestinian Legislative Council List = PLC
-* Sectoral Sanctions Identifications List = SSI
+* Denied Persons List = **DPL**
+* Entity List = **EL**
+* Unverified List = **UVL**
+* ITAR Debarred = **DTC**
+* Nonproliferation Sanctions = **ISN **
+* Foreign Sanctions Evaders = **FSE**
+* Nonproliferation Sanctions = **ISN **
+* Palestinian Legislative Council List = **PLC**
+* Sectoral Sanctions Identifications List = **SSI**
 
 ###countries
 
