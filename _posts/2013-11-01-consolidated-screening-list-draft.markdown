@@ -36,7 +36,7 @@ Searches for a match within the **name**, **remarks**, and **title** fields from
 
 Searches only the lists specified by the **Source** Abbreviation.
 
-http://api.govwizely.com/consolidated_screening_list/search?sources={csl_type}
+    http://api.trade.gov/consolidated_screening_list/search?sources={csl_type}
 
 **_Example_**
 
