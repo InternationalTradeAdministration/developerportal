@@ -74,6 +74,8 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 ###The Nine Screening Lists, Their Sources and Specific Fields
 
+Each list returns a unique set of fields.  Where appropriate, the Consolidated Screening List normalizes the field labels, such as **name**, **address**, and **federal_register_notice**.
+
 ####Department of Commerce – Bureau of Industry and Security (BIS)
 
 * [Denied Persons List](http://www.bis.doc.gov/dpl/default.shtm) -- Individuals and entities that have been denied export privileges. Any dealings with a party on this list that would violate the terms of its denial order are prohibited.
