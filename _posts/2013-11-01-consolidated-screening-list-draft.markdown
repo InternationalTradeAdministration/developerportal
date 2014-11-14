@@ -18,19 +18,19 @@ If a party to a user’s transaction matches a party name on the consolidated li
 
 ##Resource URL
 
-http://api.trade.gov/consolidated_screening_list
+	http://api.trade.gov/consolidated_screening_list
 
 ##Search Parameters for consolidated screening list sources
 
 ###keyword
 
-Searches for a match within the text fields.
+Searches for a match within the name, remarks, and title fields as applicable.
 
     http://api.trade.gov/consolidated_screening_list/search?q={term}
 
-#####Example:
+**_Example_**
 
-    [http://api.trade.gov/consolidated_screening_list/search?q=electrical]
+    http://api.trade.gov/consolidated_screening_list/search?q=electrical
 
 ###sources
 
@@ -38,9 +38,9 @@ Abbreviation of the list to which the entity belongs
 
 	[http://api.govwizely.com/consolidated_screening_list/search?sources={csl_type}
 
-#####Example:
+**_Example_**
 
-	[http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN]
+	http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN
 	
 Source abbreviations as follows:
 
@@ -60,18 +60,17 @@ Returns location of lead based on ISO [alpha-2 country codes](http://www.iso.org
 
     http://api.trade.gov/consolidated_screening_list/search?countries={country code}
 
-#####Example:
+**_Example_**
 
-	[http://api.trade.gov/consolidated_screening_list/search?countries=JO,PS]
+	http://api.trade.gov/consolidated_screening_list/search?countries=JO,PS
 
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-#####Example:
+**_Example_**
 
-	[http://api.trade.gov/consolidated_screening_list/search?country=PS&size=1&offset=1]
-
+	http://api.trade.gov/consolidated_screening_list/search?country=PS&size=1&offset=1
 
 ###The Nine Screening Lists, Their Sources and Specific Fields
 
@@ -153,36 +152,14 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 * [Specially Designated Nationals List](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx) -- Parties who may be prohibited from export transactions based on OFAC’s regulations. The Export Administration Regulations (EAR) require a license for exports or re-exports to any party in any entry on this list that contains any of the suffixes "SDGT", "SDT", "FTO", "IRAQ2" or "NPWMD".”
 
-| Field	| Description |
-| ------| -------------|
-| address | Entity's street/PO address |
-| alt_names | Alias names used by the entity | 
-| citizenships | Entity's citizenships |
-| dates_of_birth | Entity's date of birth |
-| entity_number | Unique id assigned by the originating list. 
-| ids | An array holding entries with country, expiration_date, issue_date, number | 
-| country | Entity's country |
-| expiration_date | The date the entity was lifted, waived or expired on or from the lists |
-| issue_date | The effective date of the entity on the list as defined by the Federal Register Notice |
-| number | Unique id assigned by the originating list |
-| type | Describes the type of vessel (ferry, bulk cargo, tug) if applicable |
- name | Entity's name | 
-| nationalities | Entity's nationalities |
-| places_of_birth | Entity's place of birth |
-| programs | Agency program related to the entity on the list |
-| remarks | Additional remarks or notes regarding the company, entity or person on the list |
-| type | Classification of the entity |
-| source_list_url | Location of the opportunity | 
-| source_information_url | Location of the original list |
-| title | Entity's title |
-
-
 * [Foreign Sanctions Evaders List](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/fse_list.aspx) -- Foreign individuals and entities determined to have violated, attempted to violate, conspired to violate, or caused a violation of U.S. sanctions on Syria or Iran, as well as foreign persons who have facilitated deceptive transactions for or on behalf of persons subject to U.S. Sanctions. Transactions by U.S. persons or within the United States involving Foreign Sanctions Evaders (FSEs) are prohibited.
 
 * [Palestinian Legislative Council List](http://www.treasury.gov/resource-center/sanctions/Terrorism-Proliferation-Narcotics/Pages/index.aspx) -- The individuals in this list are Palestinian Legislative Council members who were elected on the party slate of a Foreign Terrorist Organization, Specially Designated Terrorist, or Specially Designated Global Terrorist. They do not, however, appear on the SDN List.  Transactions involving these individuals must be rejected.
 
 * [Sectoral Sanctions Identifications List](http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/ssi_list.aspx) -- 
 This Sectoral Sanctions Identifications List includes persons determined by OFAC to be operating in sectors of the Russian economy identified by the Secretary of the Treasury pursuant to Executive Order 13662. The prohibitions on dealings related to the persons identified on this list are described in the [Sectoral Sanctions Identifications List circular](http://www.treasury.gov/ofac/downloads/ssi/ssi.pdf).
+
+Note: The Department of the Treasury data sources share the same output structure 
 
 | Field	| Description |
 | ------| -------------|
