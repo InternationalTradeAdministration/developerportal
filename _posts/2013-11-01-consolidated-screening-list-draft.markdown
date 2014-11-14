@@ -30,17 +30,17 @@ Searches for a match within the **name**, **remarks**, and **title** fields from
 
 **_Example_**
 
-[http://api.trade.gov/consolidated_screening_list/search?q=chemical]
+[http://api.trade.gov/consolidated_screening_list/search?q=chemical](http://api.trade.gov/consolidated_screening_list/search?q=chemical)
 
 ###sources
 
 Searches only the lists specified by the **Source** Abbreviation.
 
-	http://api.govwizely.com/consolidated_screening_list/search?sources={csl_type}
+http://api.govwizely.com/consolidated_screening_list/search?sources={csl_type}
 
 **_Example_**
 
-[http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN]
+[http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN](http://api.govwizely.com/consolidated_screening_list/search?sources=ISN,SDN)
 	
 Source Abbreviations as follows:
 
