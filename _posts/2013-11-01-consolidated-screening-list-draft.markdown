@@ -74,7 +74,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 ###The Nine Screening Lists, Their Sources and Specific Fields
 
-Each list returns a unique set of fields.  Where appropriate, the Consolidated Screening List normalizes the field labels, such as **name**, **address**, and **federal_register_notice**.
+Each list returns a unique set of fields.  Where appropriate, the Consolidated Screening List normalizes the field names, such as **address**, **start_date**, and **federal_register_notice**.
 
 ####Department of Commerce – Bureau of Industry and Security (BIS)
 
@@ -83,14 +83,14 @@ Each list returns a unique set of fields.  Where appropriate, the Consolidated S
 | Field	| Description |
 | ------| -------------|
 | address | Entity's street/PO address |
-| end_date | The date the entity was lifted, waived or expired on or from the lists | 
+| end_date | The date on which the entity's inclusion on the list will be lifted, wavied, or will have expired | 
 | federal_register_notice | The official source of information about the parties on this list | 
 | name | Entity's name | 
-| remarks | Additional remarks or notes regarding the company, entity or person on the list. | 
-| standard_order | Whether or not (Y/N) the standard order applies to the Denied Party as defined by the Bureau of Industry and Security (BIS)|
-| start_date  | The effective date of the entity on the list as defined by the Federal Register Notice |
-| source_list_url | Location of the opportunity | 
-| source_information_url | Location of the original list |
+| remarks | Additional remarks or notes regarding the company, entity, or person on the list. | 
+| standard_order | Whether or not (Y/N) the [standard order](http://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/denied-persons-list/12-policy-guidance/list-parties-of-concern/321-the-denied-persons-list-standard-order) applies to the Denied Party as defined by the Bureau of Industry and Security (BIS)|
+| start_date  | The effective date for the entity to be included on the list as defined by the Federal Register Notice |
+| source_list_url | Location of the original list | 
+| source_information_url | Information from the Source agency about the list |
 
 * [Unverified List](http://www.bis.doc.gov/enforcement/unverifiedlist/unverified_parties.html) -- End-users who BIS has been unable to verify in prior transactions. The presence of a party on this list in a transaction is a “Red Flag” that should be resolved before proceeding with the transaction.
 
