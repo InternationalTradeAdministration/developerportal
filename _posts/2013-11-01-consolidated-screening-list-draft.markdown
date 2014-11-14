@@ -92,17 +92,6 @@ Each list returns a unique set of fields.  Where appropriate, the Consolidated S
 | source_list_url | Location of the original list | 
 | source_information_url | Information from the Source agency about the list |
 
-* [Unverified List](http://www.bis.doc.gov/enforcement/unverifiedlist/unverified_parties.html) -- End-users who BIS has been unable to verify in prior transactions. The presence of a party on this list in a transaction is a “Red Flag” that should be resolved before proceeding with the transaction.
-
-| Field	| Description |
-| ------| -------------|
-| address | Entity's street/PO address |
-| alt_names | Alias names used by the entity | 
-| name | Entity's name | 
-| source_list_url | Location of the opportunity | 
-| source_information_url | Location of the original list |
-
-
 * [Entity List](http://www.bis.doc.gov/entities/default.htm) -- Parties whose presence in a transaction can trigger a license requirement supplemental to those elsewhere in the Export Administration Regulations (EAR). The list specifies the license requirements and policy that apply to each listed party.
 
 | Field	| Description |
@@ -115,12 +104,21 @@ Each list returns a unique set of fields.  Where appropriate, the Consolidated S
 | license_policy | The policy set forth in the Export Administration Regulations regarding denial |
 | name | Entity's name | 
 | programs | Agency program related to the entity on the list |
-| standard_order | Whether or not (Y/N) the standard order applies to the Denied Party as defined by the Bureau of Industry and Security (BIS)|
+| standard_order | Whether or not (Y/N) the [standard order](http://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/denied-persons-list/12-policy-guidance/list-parties-of-concern/321-the-denied-persons-list-standard-order) applies to the Denied Party as defined by the Bureau of Industry and Security (BIS)|
 | start_date  | The effective date of the entity on the list as defined by the Federal Register Notice |
-| end_date | The date the entity was lifted, waived or expired on or from the lists | 
-| source_list_url | Location of the opportunity | 
-| source_information_url | Location of the original list |
+| end_date | The date on which the entity’s inclusion on the list will be lifted, wavied, or will have expired | 
+| source_list_url | Location of the original list | 
+| source_information_url | Information from the Source agency about the list |
 
+* [Unverified List](http://www.bis.doc.gov/enforcement/unverifiedlist/unverified_parties.html) -- End-users who BIS has been unable to verify in prior transactions. The presence of a party on this list in a transaction is a “Red Flag” that should be resolved before proceeding with the transaction.
+
+| Field	| Description |
+| ------| -------------|
+| address | Entity's street/PO address |
+| alt_names | Alias names used by the entity | 
+| name | Entity's name | 
+| source_list_url | Location of the original list | 
+| source_information_url | Information from the Source agency about the list |
 
 ####Department of State – Bureau of International Security and Non-proliferation
 
