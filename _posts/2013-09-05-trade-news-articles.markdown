@@ -5,13 +5,15 @@ title: Trade News & Articles API
 published: true
 ---
 
-#<a href="trade-news-articles.html">Trade News & Articles API</a>
+#Trade News & Articles API
+
+## Background
 
 The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government.  The news and articles are categorized by industry, country, and topic area.  Developers can use this API to provide exporters with the latest insights into their industry and into the countries with which they would like to do business.
 
 ##Resource URL
 
-<div><a href="http://api.trade.gov/trade_articles/search"><pre>http://api.trade.gov/trade_articles/search</pre></a></div>
+[http://api.trade.gov/trade_articles/search](http://api.trade.gov/trade_articles/search)
 
 ##Request Methods
 
@@ -21,9 +23,9 @@ Returns articles for a match in the content and title fields.
 
     http://api.trade.gov/trade_articles/search?q={keyword}
 
-#####Example:
+**_Example_**
 
-<div><a href="http://api.trade.gov/trade_articles/search?q=logistics"><pre>http://api.trade.gov/trade_articles/search?q=logistics</pre></a></div>
+[http://api.trade.gov/trade_articles/search?q=logistics](http://api.trade.gov/trade_articles/search?q=logistics)
 
 ###evergreen
 
@@ -31,9 +33,9 @@ Flag to designate articles that are always relevant to particular topic.
 
     http://api.trade.gov/trade_articles/search?evergreen={true or false}
 
-#####Example:
+**_Example_**
 
-<div><a href="http://api.trade.gov/trade_articles/search?evergreen=true"><pre>http://api.trade.gov/trade_articles/search?evergreen=true</pre></a></div>
+[http://api.trade.gov/trade_articles/search?evergreen=true](http://api.trade.gov/trade_articles/search?evergreen=true)
 
 ###pub_date
 
@@ -43,9 +45,9 @@ Returns articles created on or after a specific date.
 
     http://api.trade.gov/trade_articles/search?pub_date_start={YYYY-MM-DD}
 
-#####Example
+**_Example_**
 
-<div><a href="http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04"><pre>http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04</pre></a></div>
+[http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04](http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04)
 
 ####pub_date_end
 
@@ -53,9 +55,9 @@ Returns articles created on or before a specified date.
 
     http://api.trade.gov/trade_articles/search?pub_date_end={YYYY-MM-DD}
 
-#####Example
+**_Example_**
 
-<div><a href="http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07"><pre>http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07</pre></a></div>
+[http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07](http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07)
 
 ###update_date
 
@@ -63,19 +65,19 @@ Returns articles created on a specified date.
 
     http://api.trade.gov/trade_articles/search?update_date={YYYY-MM-DD}
 
-#####Example
+**_Example_**
 
-<div><a href="http://api.trade.gov/trade_articles/search?update_date=2013-04-30"><pre>http://api.trade.gov/trade_articles/search?update_date=2013-04-30</pre></a></div>
+[http://api.trade.gov/trade_articles/search?update_date=2013-04-30](http://api.trade.gov/trade_articles/search?update_date=2013-04-30)
 
 ###size + offset
 
-The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
+The **size** parameter allows you to configure the maximum amount of hits to be returned. The **offset** parameter defines the offset from the first result you want to fetch.
 
-#####Example:
+**_Example_**
 
-<div><a href="http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1"><pre>http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1</pre></a></div>
+[http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1](http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1)
     
-##Return Values
+###Return Values
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |

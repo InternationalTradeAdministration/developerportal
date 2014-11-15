@@ -5,28 +5,33 @@ title: Market Research Library API
 layout: body
 ---
 
-#<a href="market-research-library.html">Market Research Library API</a>
+#Market Research Library API
+
+## Background
+
 This API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.  Categorized by country and industry, these reports include:
 
 * Market Research Reports
 * Best Market Reports
 * Country Commercial Guides
 
+Test the API using the [demo search app](http://internationaltradeadministration.github.io/explorer/#/market-research-library)
+
 ##Resource URL
 
-<div><a href="http://api.trade.gov/market_research_library/search"><pre>http://api.trade.gov/market_research_library/search</pre></a></div>
+[http://api.trade.gov/market_research_library/search](http://api.trade.gov/market_research_library/search)
 
-##Search Parameters
+##Search Parameters for market research library sources
 
 ###keyword
 
-Returns market research reports for a match in the description or title fields.
+Returns market research reports for a match in the **description** or **title** fields.
 
     http://api.trade.gov/market_research_library/search?q={keyword}
 
-#####Example:
+**_Example_**
 
-<div><a href="http://api.trade.gov/market_research_library/search?q=modernization"><pre>http://api.trade.gov/market_research_library/search?q=modernization</pre></a></div>
+[http://api.trade.gov/market_research_library/search?q=modernization](http://api.trade.gov/market_research_library/search?q=modernization)
 
 ###countries
 
@@ -34,9 +39,9 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
     http://api.trade.gov/market_research_library/search?countries={country code}
 
-#####Example:
+**_Example_**
 
-<div><a href="http://api.trade.gov/market_research_library/search?countries=MX"><pre>http://api.trade.gov/market_research_library/search?countries=MX</pre></a></div>
+[http://api.trade.gov/market_research_library/search?countries=MX](http://api.trade.gov/market_research_library/search?countries=MX)
 
 ###industry
 
@@ -44,19 +49,19 @@ Returns market research reports for a specific [industry](industry-list-market-r
 
     http://api.trade.gov/market_research_library/search?industry={industry name}
 
-#####Example:
+**_Example_**
 
-<div><a href="http://api.trade.gov/market_research_library/search?industry=agribusiness"><pre>http://api.trade.gov/market_research_library/search?industry=agribusiness</pre></a></div>
+[http://api.trade.gov/market_research_library/search?industry=agribusiness](http://api.trade.gov/market_research_library/search?industry=agribusiness)
 
 ###size + offset
 
-The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
+The **size** parameter allows you to configure the maximum amount of hits to be returned. The **offset** parameter defines the offset from the first result you want to fetch.
 
-#####Example:
+**_Example_**
 
-<div><a href=" http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1"><pre> http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1</pre></a></div>
+[http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1)
 
-##Return Values
+###Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |

@@ -5,7 +5,7 @@ title: FAQs
 published: true
 ---
 
-#<a href="faq.html">FAQs</a>
+#FAQs
 
 ##Getting Started
 
