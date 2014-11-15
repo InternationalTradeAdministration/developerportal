@@ -1,0 +1,88 @@
+---
+permalink: "ita-faqs.html"
+layout: body
+title: ITA FAQs API
+published: true
+---
+
+#<a href="parature-faqs.html">ITA FAQs API</a>
+The International Trade Administration's list of frequently asked questions.  The FAQs are searchable by keyword, and filterable by industry, country, topic, and update date.  
+
+The output format for this API is JSON.
+
+##Resource URL
+
+<div><a href="http://api.trade.gov/faqs/search"><pre>http://api.trade.gov/faqs/search</pre></a></div>
+
+##Search Parameters
+
+###keyword
+
+Searches for a match within the question and answer fields.
+
+    http://api.trade.gov/faqs/search?q={term}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/faqs/search?q=tpcc"><pre>http://api.trade.gov/faqs/search?q=tpcc</pre></a></div>
+
+###industries
+
+Returns FAQs based on industry name.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/faqs/search?industries={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/faqs/search?industries=Education,Legal Assistance"><pre>http://api.trade.gov/faqs/search?industries=Education,Legal Assistance</pre></a></div>
+
+###countries
+
+Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
+
+    http://api.trade.gov/faqs/search?countries={country codes}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/faqs/search?countries=MX,TR"><pre>http://api.trade.gov/faqs/search?countries=MX,TR</pre></a></div>
+
+###topics
+
+Returns FAQs based on topic name.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/faqs/search?topics={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/faqs/search?topics=CE Marking,Trade Barriers"><pre>http://api.trade.gov/faqs/search?topics=CE Marking,Trade Barriers</pre></a></div>
+
+###update_date
+
+Returns FAQs based on the date they were last updated.  Dates are filtered by entering a starting date and/or ending date (update_date_start and update_date_end).
+
+    http://api.trade.gov/faqs/search?update_date_start={term}&update_date_end={term}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01"><pre>http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-1</pre></a></div>
+
+###size + offset
+
+The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
+
+#####Example:
+
+<div><a href="http://api.trade.gov/faqs/search?countries=BR&size=1&offset=1"><pre>http://api.trade.gov/faqs/search?countries=BR&size=1&offset=1</pre></a></div>
+
+
+##Return Values
+
+| Field              | Description                             |
+| ------------------ | --------------------------------------- |
+| id                 | Unique identifier for the FAQ.             |
+| question         	 | The question being addressed by the FAQ.|
+| answer             | The answer portion of the FAQ.  |
+| update_date        | The date the FAQ was last updated.  |
+| industry           | Industry category assigned to the FAQ. |
+| country            | Countries relevent to the FAQ.          |
+| topic              | Topic category assigned to the FAQ.      |
