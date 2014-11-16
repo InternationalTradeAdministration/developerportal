@@ -1,11 +1,10 @@
 ---
-permalink: "consolidated-screening-list.html"
-layout: body
-title: Consolidated Screening API
 published: true
+permalink: "consolidated-screening-list-draft.html"
+layout: body
 ---
 
-# Consolidated Screening List API
+# ITA Consolidated Screening List
 
 ## Background
 
