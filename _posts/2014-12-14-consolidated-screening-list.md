@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "consolidated-screening-list-draft.html"
+permalink: "consolidated-screening-list.html"
 layout: body
 ---
 
