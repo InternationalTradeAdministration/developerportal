@@ -30,7 +30,7 @@ Searches for a match within the title, short_title, summary, content, and keywor
 
 ###export_phases
 
-Returns articles based on the export phase.  Enter multiple terms by separating with a comma.
+Returns articles based on the [export phase](export-phases-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?export_phases={terms}
 
@@ -60,7 +60,7 @@ Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/hom
 
 ###topics
 
-Returns articles based on topic.  Enter multiple terms by separating with a comma.
+Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?topics={terms}
 
@@ -70,7 +70,7 @@ Returns articles based on topic.  Enter multiple terms by separating with a comm
 
 ###sub_topics
 
-Returns articles based on sub-topic.  Enter multiple terms by separating with a comma.
+Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?sub_topics={terms}
 
@@ -80,7 +80,7 @@ Returns articles based on sub-topic.  Enter multiple terms by separating with a 
 
 ###geo_regions
 
-Returns articles based on geo region.  Enter multiple terms by separating with a comma.
+Returns articles based on [geo region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?geo_regions={terms}
 
@@ -90,7 +90,7 @@ Returns articles based on geo region.  Enter multiple terms by separating with a
 
 ###geo_subregions
 
-Returns articles based on geo sub-region.  Enter multiple terms by separating with a comma.
+Returns articles based on [geo sub-region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?geo_subregions={terms}
 
@@ -100,7 +100,7 @@ Returns articles based on geo sub-region.  Enter multiple terms by separating wi
 
 ###trade_regions
 
-Returns articles based on trade region.  Enter multiple terms by separating with a comma.
+Returns articles based on [trade region](trade-region-list.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?trade_regions={terms}
 
@@ -110,7 +110,7 @@ Returns articles based on trade region.  Enter multiple terms by separating with
 
 ###trade_programs
 
-Returns articles based on trade program.  Enter multiple terms by separating with a comma.
+Returns articles based on [trade program](trade-program-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?trade_programs={terms}
 
@@ -120,7 +120,7 @@ Returns articles based on trade program.  Enter multiple terms by separating wit
 
 ###trade_initiatives
 
-Returns articles based on trade initiative.  Enter multiple terms by separating with a comma.
+Returns articles based on [trade initiative](trade-initiative-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?trade_initiatives={terms}
 
