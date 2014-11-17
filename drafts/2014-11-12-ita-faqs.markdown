@@ -64,7 +64,7 @@ Returns FAQs based on the date they were last updated.  Dates are filtered by en
 
 #####Example:
 
-<div><a href="http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01"><pre>http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-1</pre></a></div>
+<div><a href="http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01"><pre>http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01</pre></a></div>
 
 ###size + offset
 
