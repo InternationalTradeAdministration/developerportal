@@ -86,15 +86,75 @@ Returns articles based on geo region.  Enter multiple terms by separating with a
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?geo_regions=Africa,Asia"><pre>http://api.trade.gov/sharepoint_trade_articles/search?geo_regions=Africa,Asia</pre></a></div>
 
-###update_date
+###geo_subregions
 
-Returns FAQs based on the date they were last updated.  Dates are filtered by entering a starting date and/or ending date (update_date_start and update_date_end).
+Returns articles based on geo sub-region.  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/faqs/search?update_date_start={term}&update_date_end={term}
+    http://api.trade.gov/sharepoint_trade_articles/search?geo_subregions={terms}
 
 #####Example:
 
-<div><a href="http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01"><pre>http://api.trade.gov/faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-1</pre></a></div>
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?geo_subregions=North Africa,East Asia"><pre>http://api.trade.gov/sharepoint_trade_articles/search?geo_subregions=North Africa,East Asia</pre></a></div>
+
+###trade_regions
+
+Returns articles based on trade region.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/sharepoint_trade_articles/search?trade_regions={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act"><pre>http://api.trade.gov/sharepoint_trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act</pre></a></div>
+
+###trade_programs
+
+Returns articles based on trade program.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/sharepoint_trade_articles/search?trade_programs={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?trade_programs=Advisory Committees,Advocacy"><pre>http://api.trade.gov/sharepoint_trade_articles/search?trade_programs=Advisory Committees,Advocacy</pre></a></div>
+
+###trade_initiatives
+
+Returns articles based on trade initiative.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/sharepoint_trade_articles/search?trade_initiatives={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next"><pre>http://api.trade.gov/sharepoint_trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next</pre></a></div>
+
+###creation_date
+
+Returns articles based on the date they were created.  Dates are filtered by entering a starting date and/or ending date (creation_date_start and creation_date_end).
+
+    http://api.trade.gov/sharepoint_trade_articles/search?creation_date_start={term}&creation_date_end={term}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-01"><pre>http://api.trade.gov/sharepoint_trade_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-1</pre></a></div>
+
+###release_date
+
+Returns articles based on the date their release date.  Dates are filtered by entering a starting date and/or ending date (release_date_start and release_date_end).
+
+    http://api.trade.gov/sharepoint_trade_articles/search?release_date_start={term}&crelease_date_end={term}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-01"><pre>http://api.trade.gov/sharepoint_trade_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-1</pre></a></div>
+
+###expiration_date
+
+Returns articles based on their expiration date.  Dates are filtered by entering a starting date and/or ending date (creation_date_start and creation_date_end).
+
+    http://api.trade.gov/sharepoint_trade_articles/search?expiration_date_start={term}&expiration_date_end={term}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-01"><pre>http://api.trade.gov/sharepoint_trade_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-1</pre></a></div>
 
 ###size + offset
 
@@ -109,10 +169,36 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 | Field              | Description                             |
 | ------------------ | --------------------------------------- |
-| id                 | Unique identifier for the FAQ.             |
-| question         	 | The question being addressed by the FAQ.|
-| answer             | The answer portion of the FAQ.  |
-| update_date        | The date the FAQ was last updated.  |
-| industry           | Industry category assigned to the FAQ. |
-| country            | Countries relevent to the FAQ.          |
-| topic              | Topic category assigned to the FAQ.      |
+| id                 | Unique identifier for the article.             |
+| title         	 | The title of the article.|
+| short_title             | A shortened title for the article.  |
+| summary        | A summary of the article's content.  |
+| creation_date           | The date of the article's creation. |
+| release_date            | The date of the article's release.          |
+| expiration_date             | The date of the article's expiration.     |
+| source_agencies            | The article's source agencies.    |
+| source_business_units            | The business units for each source agency.    |
+| source_offices            | The offices for each source business unit.     |
+
+| evergreen            | The date of the article's expiration.     |
+| content           | The main text of the article.    |
+| keyword            | A list of keywords for the article.    |
+| export_phases            | The export phases assigned to the article.     |
+| industries           | The industries assigned to the article.    |
+| countries            | The countries associated with the article    |
+| topics             | The topics assigned to the article.     |
+| sub_topics             | The sub-topics assigned to the article for each topic.     |
+| geo_regions           | The geo regions associated with the article.   |
+| geo_subregions           | The geo sub-regions associated with the article for each geo region.    |
+| trade_regions             | The trade regions associated with the article.    |
+| trade_programs            | The trade programs associated with the article.   |
+| trade_initiatives            | The trade initiatives associated with the article.     |
+
+| seo_metadata_title             | Title metadata for the article.    |
+| seo_metadata_description            | Description metadata for the article.    |
+| seo_metadata_keyword             | Keyword metadata for the article.   |
+| trade_url             | The date of the article's expiration.     |
+| file_url             | The URL path for files included in the article.     |
+| image_url             | The URL path for images included in the article.    |
+| url_html_source             | The URL for the HTML of the article's source.     |
+| url_xml_source            | The URL for the XML of the article's source.    |
