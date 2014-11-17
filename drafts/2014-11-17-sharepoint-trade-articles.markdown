@@ -179,24 +179,24 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | source_agencies            | The article's source agencies.    |
 | source_business_units            | The business units for each source agency.    |
 | source_offices            | The offices for each source business unit.     |
-| evergreen            | The date of the article's expiration.     |
-| content           | The main text of the article.    |
-| keyword            | A list of keywords for the article.    |
+| evergreen            | Flag to designate “timeless” articles, always topically relevant.     |
+| content           | The body of the article.    |
+| keyword            | A list of keywords for the article assigned by the author.    |
 | export_phases            | The export phases assigned to the article.     |
 | industries           | The industries assigned to the article.    |
 | countries            | The countries associated with the article    |
 | topics             | The topics assigned to the article.     |
 | sub_topics             | The sub-topics assigned to the article for each topic.     |
-| geo_regions           | The geo regions associated with the article.   |
-| geo_subregions           | The geo sub-regions associated with the article for each geo region.    |
-| trade_regions             | The trade regions associated with the article.    |
-| trade_programs            | The trade programs associated with the article.   |
-| trade_initiatives            | The trade initiatives associated with the article.     |
+| geo_regions           | The world regions covered by the article's content.   |
+| geo_subregions           | The world sub-regions associated with the article for each geo region.    |
+| trade_regions             | The trade regions covered by the article's content.    |
+| trade_programs            | The trade programs covered by the article's content.   |
+| trade_initiatives            | The trade initiatives covered by the article's content.     |
 | seo_metadata_title             | Title metadata for the article.    |
 | seo_metadata_description            | Description metadata for the article.    |
 | seo_metadata_keyword             | Keyword metadata for the article.   |
-| trade_url             | The date of the article's expiration.     |
-| file_url             | The URL path for files included in the article.     |
-| image_url             | The URL path for images included in the article.    |
+| trade_url             | The article's export.gov URL.     |
+| file_url             | The URLs for files included in the article.     |
+| image_url             | The URLs for images included in the article.    |
 | url_html_source             | The URL for the HTML of the article's source.     |
 | url_xml_source            | The URL for the XML of the article's source.    |
