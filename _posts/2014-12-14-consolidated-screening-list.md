@@ -5,7 +5,7 @@ title: Consolidated Screening API
 published: true
 ---
 
-# Consolidated Screening List API
+# ITA Consolidated Screening List
 
 ## Background
 
@@ -19,6 +19,7 @@ When using this API, developers must provide the following information to their 
 
 Note: The API only contains active entities on the list. For historical research, please reference the sources directly.
 
+Test the API using the [demo search app](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries)
 
 ##Resource URL
 This endpoint will search across all nine screening lists. To search a subset, see sources below.
