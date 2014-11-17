@@ -5,50 +5,70 @@ title: Sharepoint Trade Articles API
 published: true
 ---
 
-#<a href="parature-faqs.html">ITA FAQs API</a>
-The International Trade Administration's list of frequently asked questions.  The FAQs are searchable by keyword, and filterable by industry, country, topic, and update date.  
+#<a href="sharepoint-trade-articles.html">Sharepoint Trade Articles API</a>
+Trade articles published via the International Trade Administration's Sharepoint system.   
 
 The output format for this API is JSON.
 
 ##Resource URL
 
-<div><a href="http://api.trade.gov/faqs/search"><pre>http://api.trade.gov/faqs/search</pre></a></div>
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search"><pre>http://api.trade.gov/sharepoint_trade_articles/search</pre></a></div>
 
 ##Search Parameters
 
 ###keyword
 
-Searches for a match within the question and answer fields.
+Searches for a match within the title, short_title, summary, content, and keyword fields.
 
     http://api.trade.gov/faqs/search?q={term}
 
 #####Example:
 
-<div><a href="http://api.trade.gov/faqs/search?q=tpcc"><pre>http://api.trade.gov/faqs/search?q=tpcc</pre></a></div>
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?q=logistics"><pre>http://api.trade.gov/sharepoint_trade_articles/search?q=logistics</pre></a></div>
+
+###export_phases
+
+Returns articles based on the export phase.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/sharepoint_trade_articles/search?export_phases={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?export_phases=Expand,Exporting"><pre>http://api.trade.gov/sharepoint_trade_articles/search?export_phases=Expand,Exporting</pre></a></div>
 
 ###industries
 
-Returns FAQs based on industry name.  Enter multiple terms by separating with a comma.
+Returns articles based on industry name.  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/faqs/search?industries={terms}
+    http://api.trade.gov/sharepoint_trade_articles/search?industries={terms}
 
 #####Example:
 
-<div><a href="http://api.trade.gov/faqs/search?industries=Education,Legal Assistance"><pre>http://api.trade.gov/faqs/search?industries=Education,Legal Assistance</pre></a></div>
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?industries=Education,Finance"><pre>http://api.trade.gov/sharepoint_trade_articles/search?industries=Education,Finance</pre></a></div>
 
 ###countries
 
-Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
+Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/faqs/search?countries={country codes}
+    http://api.trade.gov/sharepoint_trade_articles/search?countries={country codes}
 
 #####Example:
 
-<div><a href="http://api.trade.gov/faqs/search?countries=MX,TR"><pre>http://api.trade.gov/faqs/search?countries=MX,TR</pre></a></div>
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?countries=MX,TR"><pre>http://api.trade.gov/sharepoint_trade_articles/search?countries=MX,TR</pre></a></div>
 
 ###topics
 
-Returns FAQs based on topic name.  Enter multiple terms by separating with a comma.
+Returns articles based on topic.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/sharepoint_trade_articles/search?topics={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?topics=Exporting,Trade Finance"><pre>http://api.trade.gov/sharepoint_trade_articles/search?topics=Exporting,Trade Finance</pre></a></div>
+
+###sub_topics
+
+Returns articles based on sub-topic.  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/faqs/search?topics={terms}
 
