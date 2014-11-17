@@ -138,9 +138,9 @@ Returns articles based on the date they were created.  Dates are filtered by ent
 
 ###release_date
 
-Returns articles based on the date their release date.  Dates are filtered by entering a starting date and/or ending date (release_date_start and release_date_end).
+Returns articles based on their release date.  Dates are filtered by entering a starting date and/or ending date (release_date_start and release_date_end).
 
-    http://api.trade.gov/sharepoint_trade_articles/search?release_date_start={term}&crelease_date_end={term}
+    http://api.trade.gov/sharepoint_trade_articles/search?release_date_start={term}&release_date_end={term}
 
 #####Example:
 
@@ -148,7 +148,7 @@ Returns articles based on the date their release date.  Dates are filtered by en
 
 ###expiration_date
 
-Returns articles based on their expiration date.  Dates are filtered by entering a starting date and/or ending date (creation_date_start and creation_date_end).
+Returns articles based on their expiration date.  Dates are filtered by entering a starting date and/or ending date (expiration_date_start and expiration_date_end).
 
     http://api.trade.gov/sharepoint_trade_articles/search?expiration_date_start={term}&expiration_date_end={term}
 
@@ -162,7 +162,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-<div><a href="http://api.trade.gov/faqs/search?countries=BR&size=1&offset=1"><pre>http://api.trade.gov/faqs/search?countries=BR&size=1&offset=1</pre></a></div>
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?countries=BR&size=1&offset=1"><pre>http://api.trade.gov/sharepoint_trade_articles/search?countries=BR&size=1&offset=1</pre></a></div>
 
 
 ##Return Values
@@ -179,7 +179,6 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | source_agencies            | The article's source agencies.    |
 | source_business_units            | The business units for each source agency.    |
 | source_offices            | The offices for each source business unit.     |
-
 | evergreen            | The date of the article's expiration.     |
 | content           | The main text of the article.    |
 | keyword            | A list of keywords for the article.    |
@@ -193,7 +192,6 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | trade_regions             | The trade regions associated with the article.    |
 | trade_programs            | The trade programs associated with the article.   |
 | trade_initiatives            | The trade initiatives associated with the article.     |
-
 | seo_metadata_title             | Title metadata for the article.    |
 | seo_metadata_description            | Description metadata for the article.    |
 | seo_metadata_keyword             | Keyword metadata for the article.   |
