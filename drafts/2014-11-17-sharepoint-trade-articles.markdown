@@ -20,7 +20,7 @@ The output format for this API is JSON.
 
 Searches for a match within the title, short_title, summary, content, and keyword fields.
 
-    http://api.trade.gov/faqs/search?q={term}
+    http://api.trade.gov/sharepoint_trade_articles/search?q={term}
 
 #####Example:
 
@@ -70,11 +70,21 @@ Returns articles based on topic.  Enter multiple terms by separating with a comm
 
 Returns articles based on sub-topic.  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/faqs/search?topics={terms}
+    http://api.trade.gov/sharepoint_trade_articles/search?sub_topics={terms}
 
 #####Example:
 
-<div><a href="http://api.trade.gov/faqs/search?topics=CE Marking,Trade Barriers"><pre>http://api.trade.gov/faqs/search?topics=CE Marking,Trade Barriers</pre></a></div>
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?sub_topics=Export Training,Shipping"><pre>http://api.trade.gov/sharepoint_trade_articles/search?sub_topics=Export Training,Shipping</pre></a></div>
+
+###geo_regions
+
+Returns articles based on geo region.  Enter multiple terms by separating with a comma.
+
+    http://api.trade.gov/sharepoint_trade_articles/search?geo_regions={terms}
+
+#####Example:
+
+<div><a href="http://api.trade.gov/sharepoint_trade_articles/search?geo_regions=Africa,Asia"><pre>http://api.trade.gov/sharepoint_trade_articles/search?geo_regions=Africa,Asia</pre></a></div>
 
 ###update_date
 
