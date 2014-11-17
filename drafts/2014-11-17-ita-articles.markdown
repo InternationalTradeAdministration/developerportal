@@ -5,7 +5,7 @@ title: ITA Trade Articles API
 layout: body
 ---
 
-#ITA Trade Articles API
+#ITA Articles API
 
 ## Background
 Trade articles published by the International Trade Administration.   
