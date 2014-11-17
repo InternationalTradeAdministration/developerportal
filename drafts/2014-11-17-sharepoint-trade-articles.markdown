@@ -1,11 +1,13 @@
 ---
-permalink: "sharepoint-trade-articles.html"
-layout: body
-title: Sharepoint Trade Articles API
 published: true
+permalink: "sharepoint-trade-articles.html"
+title: Sharepoint Trade Articles API
+layout: body
 ---
 
-#<a href="sharepoint-trade-articles.html">Sharepoint Trade Articles API</a>
+#Sharepoint Trade Articles API
+
+## Background
 Trade articles published via the International Trade Administration's Sharepoint system.   
 
 The output format for this API is JSON.
@@ -22,7 +24,7 @@ Searches for a match within the title, short_title, summary, content, and keywor
 
     http://api.trade.gov/sharepoint_trade_articles/search?q={term}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?q=logistics"><pre>http://api.trade.gov/sharepoint_trade_articles/search?q=logistics</pre></a></div>
 
@@ -32,7 +34,7 @@ Returns articles based on the export phase.  Enter multiple terms by separating 
 
     http://api.trade.gov/sharepoint_trade_articles/search?export_phases={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?export_phases=Expand,Exporting"><pre>http://api.trade.gov/sharepoint_trade_articles/search?export_phases=Expand,Exporting</pre></a></div>
 
@@ -42,7 +44,7 @@ Returns articles based on industry name.  Enter multiple terms by separating wit
 
     http://api.trade.gov/sharepoint_trade_articles/search?industries={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?industries=Education,Finance"><pre>http://api.trade.gov/sharepoint_trade_articles/search?industries=Education,Finance</pre></a></div>
 
@@ -52,7 +54,7 @@ Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/hom
 
     http://api.trade.gov/sharepoint_trade_articles/search?countries={country codes}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?countries=MX,TR"><pre>http://api.trade.gov/sharepoint_trade_articles/search?countries=MX,TR</pre></a></div>
 
@@ -62,7 +64,7 @@ Returns articles based on topic.  Enter multiple terms by separating with a comm
 
     http://api.trade.gov/sharepoint_trade_articles/search?topics={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?topics=Exporting,Trade Finance"><pre>http://api.trade.gov/sharepoint_trade_articles/search?topics=Exporting,Trade Finance</pre></a></div>
 
@@ -72,7 +74,7 @@ Returns articles based on sub-topic.  Enter multiple terms by separating with a 
 
     http://api.trade.gov/sharepoint_trade_articles/search?sub_topics={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?sub_topics=Export Training,Shipping"><pre>http://api.trade.gov/sharepoint_trade_articles/search?sub_topics=Export Training,Shipping</pre></a></div>
 
@@ -82,7 +84,7 @@ Returns articles based on geo region.  Enter multiple terms by separating with a
 
     http://api.trade.gov/sharepoint_trade_articles/search?geo_regions={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?geo_regions=Africa,Asia"><pre>http://api.trade.gov/sharepoint_trade_articles/search?geo_regions=Africa,Asia</pre></a></div>
 
@@ -92,7 +94,7 @@ Returns articles based on geo sub-region.  Enter multiple terms by separating wi
 
     http://api.trade.gov/sharepoint_trade_articles/search?geo_subregions={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?geo_subregions=North Africa,East Asia"><pre>http://api.trade.gov/sharepoint_trade_articles/search?geo_subregions=North Africa,East Asia</pre></a></div>
 
@@ -102,7 +104,7 @@ Returns articles based on trade region.  Enter multiple terms by separating with
 
     http://api.trade.gov/sharepoint_trade_articles/search?trade_regions={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act"><pre>http://api.trade.gov/sharepoint_trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act</pre></a></div>
 
@@ -112,7 +114,7 @@ Returns articles based on trade program.  Enter multiple terms by separating wit
 
     http://api.trade.gov/sharepoint_trade_articles/search?trade_programs={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?trade_programs=Advisory Committees,Advocacy"><pre>http://api.trade.gov/sharepoint_trade_articles/search?trade_programs=Advisory Committees,Advocacy</pre></a></div>
 
@@ -122,7 +124,7 @@ Returns articles based on trade initiative.  Enter multiple terms by separating 
 
     http://api.trade.gov/sharepoint_trade_articles/search?trade_initiatives={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next"><pre>http://api.trade.gov/sharepoint_trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next</pre></a></div>
 
@@ -132,7 +134,7 @@ Returns articles based on the date they were created.  Dates are filtered by ent
 
     http://api.trade.gov/sharepoint_trade_articles/search?creation_date_start={term}&creation_date_end={term}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-01"><pre>http://api.trade.gov/sharepoint_trade_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-1</pre></a></div>
 
@@ -142,7 +144,7 @@ Returns articles based on their release date.  Dates are filtered by entering a 
 
     http://api.trade.gov/sharepoint_trade_articles/search?release_date_start={term}&release_date_end={term}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-01"><pre>http://api.trade.gov/sharepoint_trade_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-1</pre></a></div>
 
@@ -152,7 +154,7 @@ Returns articles based on their expiration date.  Dates are filtered by entering
 
     http://api.trade.gov/sharepoint_trade_articles/search?expiration_date_start={term}&expiration_date_end={term}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-01"><pre>http://api.trade.gov/sharepoint_trade_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-1</pre></a></div>
 
@@ -160,7 +162,7 @@ Returns articles based on their expiration date.  Dates are filtered by entering
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/sharepoint_trade_articles/search?countries=BR&size=1&offset=1"><pre>http://api.trade.gov/sharepoint_trade_articles/search?countries=BR&size=1&offset=1</pre></a></div>
 
