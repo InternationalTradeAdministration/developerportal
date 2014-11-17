@@ -40,7 +40,7 @@ Returns articles based on the export phase.  Enter multiple terms by separating 
 
 ###industries
 
-Returns articles based on industry name.  Enter multiple terms by separating with a comma.
+Returns articles based on [industry name](industry-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/ita_articles/search?industries={terms}
 
