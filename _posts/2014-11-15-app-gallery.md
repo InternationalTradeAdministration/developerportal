@@ -15,7 +15,7 @@ We are particularly interested in applications that help businesses:
 * Get ready to export
 * Expand their existing exporting business.
 
-**ITA** has developed [simple search apps for each API](demo-search-apps.html) designed to help users easily see the data available at each endpoint.  Developers can also use the code for these demo apps as building-blocks for their own search applications.
+ITA has developed [simple search apps for each API](demo-search-apps.html) designed to help users easily see the data available at each endpoint.  Developers can also use the code for these demo apps as building-blocks for their own search applications.
 
 ------
 
