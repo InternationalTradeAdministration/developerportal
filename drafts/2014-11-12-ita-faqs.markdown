@@ -5,7 +5,7 @@ title: ITA FAQs API
 published: true
 ---
 
-#<a href="parature-faqs.html">ITA FAQs API</a>
+#<a href="ita-faqs.html">ITA FAQs API</a>
 The International Trade Administration's list of frequently asked questions.  The FAQs are searchable by keyword, and filterable by industry, country, topic, and update date.  
 
 The output format for this API is JSON.
