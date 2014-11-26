@@ -13,7 +13,7 @@ published: true
 Use of our APIs and other data sets is free of charge and allows unlimited access.  For a limited time period, registration to use the APIs is not required.  Starting in 2015, developers will be required to register and receive a development key in order to enjoy free, unlimited access to the the U.S. government’s growing data mart of trade information.
 
 ###Are there any data limits for a single application or a developer?
-Currently there are no limits.  However, starting in mid-2014 we will control and meter traffic associated with an individual API key.
+Currently there are no limits.  However, starting in 2015 we will control and meter traffic associated with an individual API key.
 
 <!-- The default setting will be no more than **X** calls per second and **XXX** calls per day. This threshold can be raised for either a specific API key or globally if needed. We expect to make adjustments to the default settings over time. Our goal is to encourage the development of applications that help exporters. We do not want to introduce any limitations that work against that. -->
 
