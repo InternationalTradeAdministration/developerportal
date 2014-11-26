@@ -10,7 +10,7 @@ published: true
 ##Getting Started
 
 ###Do I need to register?
-Use of our APIs and other data sets is free of charge and allows unlimited access.  For a limited time period, registration to use the APIs is not required.  Starting in mid-2014, developers will be required to register and receive a development key in order to enjoy free, unlimited access to the the U.S. government’s growing data mart of trade information.
+Use of our APIs and other data sets is free of charge and allows unlimited access.  For a limited time period, registration to use the APIs is not required.  Starting in 2015, developers will be required to register and receive a development key in order to enjoy free, unlimited access to the the U.S. government’s growing data mart of trade information.
 
 ###Are there any data limits for a single application or a developer?
 Currently there are no limits.  However, starting in mid-2014 we will control and meter traffic associated with an individual API key.
@@ -32,7 +32,7 @@ Yes, any application (including those for-profit) are welcome to use the API in 
 
 ###Other than agreeing to a license, do developers need accounts/API keys or other mechanisms?
 
-No, not at the moment.  Starting in mid-2014, developers will be required to register and receive a development key.
+No, not at the moment.  Starting in 2015, developers will be required to register and receive a development key.
 
 <!-- Developers need to **register** and get an API key. ITA uses **XXX** to handle registration, API key distribution, and general management of the data flow. -->
 
@@ -56,7 +56,7 @@ ITA uses cloud computing, so there is no impact on ITA’s infrastructure.
 It will vary based on the type of information requested and the system that it is drawn from. Our goal is to provide the data as close to “real-time” as possible.
 
 ###What sort of applications does ITA expect/hope developers will make?
-We get excited for unique and creative applications that provide benefit to businesses that export their products and services overseas.  Applications that share ITA’s resources with a wide audience are particularly desirable.  Visit our [Apps for Exporters page](apps-exporters.html) for ideas.
+We get excited for unique and creative applications that provide benefit to businesses that export their products and services overseas.  Applications that share ITA’s resources with a wide audience are particularly desirable.  Visit our [Apps Gallery page](app-gallery.html) for ideas.
 
 ###Why does ITA offer this data?
 ITA would like to share its valuable resources (data, content, information) with as many businesses as possible.  Our mission is to assist American businesses in planning their international sales strategies and succeed in today’s global marketplace.  **By sharing ITA’s resources, your applications help us help them!**
