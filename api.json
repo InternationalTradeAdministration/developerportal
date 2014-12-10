@@ -202,10 +202,44 @@
           "type": "TermsOfService",
           "url": "http://developer.trade.gov/tos.html"
         }
+      ]
+    },
+      {
+      "name": "Consolidated Screening List",
+      "description": "The Consolidated Screening List API consolidates nine export screening lists of the Departments of Commerce, State and the Treasury into one spreadsheet as an aide to industry in conducting electronic screens of potential parties to regulated transactions.",
+      "image": "http://developer.trade.gov/images/trade_url_white2.png",
+      "humanURL": "http://developer.trade.gov/consolidated-screening-list.html",
+      "baseURL": "http://developer.trade.gov/consolidated-screening-list.html",
+      "tags": [
+      	"Trade",
+      	"ITA",
+        "CSL",
+        "compliant",
+        "federal register",
+        "export regulations",
+        "API"
+      ],
+      "properties": [
+        {
+          "type": "X-Portal",
+          "url": "http://developer.trade.gov/consolidated-screening-list.html"
+        },
+        {
+          "type": "X-Documentation",
+          "url": "http://developer.trade.gov/consolidated-screening-list.html"
+        },
+        {
+          "type": "Swagger",
+          "url": "http://developer.trade.gov.apievangelist.com/definitions/consolidated-screening-list.json"
+        },
+        {
+          "type": "TermsOfService",
+          "url": "http://developer.trade.gov/tos.html"
+        }
       ],
       "contact": [
         {
-          "FN": "Trade News & Articles API",
+          "FN": "Consolidated Screening List API",
 
           "email": "DataServices@trade.gov"
         }
