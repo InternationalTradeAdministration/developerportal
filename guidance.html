@@ -1,0 +1,206 @@
+---
+Title: Guidance
+---
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Trade.gov Developer Portal</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+    <div class="wrapper">
+      <header>
+      <a href="/devportal" style="text-decoration:none;"><img src="images/trade_url_white2.png"  width="210"></a>
+        
+        </br></br>
+		<h3>Available APIs</h3>
+        <p class="view"><a href="market-research-library.html">Market Research Library</a></p>
+        <p class="view"><a href="consolidated-screening-list.html">Consolidated Screening List</a></p>
+        <p class="view"><a href="trade-events.html">Trade Events</a></p>
+        <p class="view"><a href="trade-leads.html">Trade Leads</a></p>
+        <p class="view"><a href="ita-office-locations.html">ITA Offices & Centers</a></p>
+        <p class="view"><a href="trade-news-articles.html">Trade News & Articles</a></p>
+		</br>
+		<h3>Additional Resources</h3>
+		<p class="view"><a href="guidance.html">Guidance</a></p>
+        <p class="view"><a href="app-gallery.html">App Gallery</a></p>
+        <p class="view"><a href="faq.html">FAQs</a></p>
+        <p class="view"><a href="change-log.html">Change Log</a></p>
+        <p class="view"><a href="tos.html">Terms of Service</a></p>
+        <p class="view"><a href="contact-us.html">Contact Us</a></p>
+      </header>
+      
+      
+      
+       <section id="guidance-for-information-users">
+       <div style="padding:0 25px;">
+      	<center><h1 style="color:#3a4047;">Guidance for Information Users</h1></center>
+      	<p>This page provides guidance for information users who may not be developers. Get more information on:</p>
+		<ul>
+      	<a href="#access-to-data-services-and-apis" style="font-weight:normal;"><li>Getting access to ITA’s data services and APIs</li></a>
+      	<a href="#how-does-it-work" style="font-weight:normal;"><li>How the APIs work</li></a>
+      	<a href="#using-the-data-as-building-blocks-for-innovative-applications" style="font-weight:normal;"><li>Examples for using the data as building blocks for innovative applications</li></a>
+      	<a href="#data-requests" style="font-weight:normal;"><li>Instructions for making data requests</li></a>
+      	<a href="#help" style="font-weight:normal;"><li>Contact information for getting help</li></a>
+      	<a href="#why-does-ita-provide-these-apis" style="font-weight:normal;"><li>Why ITA provides these APIs</li></a>
+      	<a href="#compliance-with-open-data-policies" style="font-weight:normal;"><li>How ITA stays compliant with Open Data policies</li></a>
+      	</ul>
+      	</div>
+        </section>
+         
+         
+         
+         
+         
+       <section id="access-to-data-services-and-apis">
+         <div style="padding:0 25px;">
+      <center><h1 style="color:#3a4047;font-weight:normal;">Access to Data Services and APIs</h1></center>
+      <p>Through its Trade Developer Portal, the International Trade Administration (ITA) gives software developers documentation and instructions for accessing ITA’s Data Services platform.  In turn, the Data Services platform provides direct access to authoritative information on U.S. exporting and international trade via standard APIs. To learn more about what “API” stands for and what they are used for, visit the <a href="https://www.digitalgov.gov/2013/04/30/apis-in-government/">APIs in Government</a> site.</p>
+
+<p>This data and information is intended specifically for public use and dissemination. In fact, we publish information that is targeted specifically to U.S. businesses looking to export their products and services overseas. Trade experts from ITA and from Trade Promotion Coordinating Committee (TPCC) agencies produce the wide spectrum of available data.</p>
+
+<p>In addition to information developed by ITA, the APIs also provide related information from other trade organizations such as the Departments of State and Treasury, the Small Business Administration, the Trade Development Agency, and Ex-Im Bank.  We only aggregate this additional information to add further value to ITA’s APIs – we don’t alter it.  We also include references to the original publisher of the data so users can always refer back to the original source.</p>
+</div>
+        
+        </section>
+        
+        <section id="how-does-it-work" style="background:#F9FCFD;color:#000;">
+        <div style="padding:0 25px;">
+      <center><h1 style="color:#3a4047;font-weight:normal;">How does it work?</h1></center>
+      <p>ITA’s Data Services platform pulls data from the original sources on a nightly basis.  We always refer to the system of record to make sure we are acquiring the information from the authoritative source.  Much of the data comes from ITA’s internal systems, though some comes from external agencies that provide ITA with proprietary data feeds.</p>
+
+<p>Regardless of the source, the Data Services platform normalizes the tags from each data feeds, then aggregates them with similar data types.  For example, the Data Services platform imports trade events from various agencies, such as the Small Business Administration and from the Export-Import Bank.  Because these two agencies use slightly different terminology to describe their events, we map the industry topics assigned to their events to our <a href="industry-list-market-research-library.html">industry list</a>, then aggregate the events with ITA’s.</p>
+
+<p>Once the Data Services platform has normalized and aggregated the data, we publish one API for that data type.  Within the API we do specify what the source of the data is so you can always find the data from just one agency if you need to.</p>
+
+        </div>
+        </section>
+        
+        <section id="using-the-data-as-building-blocks-for-innovative-applications">
+        <div style="padding:0 25px;">
+      <center><h1 style="color:#3a4047;font-weight:normal;">Using the Data as Building Blocks for Innovative Applications</h1></center>
+      <p>ITA merely provides the data – it does not prescribe how you should use it.  In fact, we hope you and your developers will create new and innovative ways to integrate ITA’s data with other data and make it more useful for U.S. businesses.</p>
+
+<p>The Developer Portal includes comprehensive documentation for each API to help developers get started with the APIs and to learn how to use them.  We also provide <a href="demo-search-apps.html">basic search engines</a>, and the code behind them, so you can easily see what information is provided in the search results.  Your developers can use the code as building blocks for creating much more advanced search tools.</p>
+
+<p>You have a wealth of opportunities to turn ITA’s trade information into useful and valuable applications for exporters. Immediate ideas for using the trade information include:</p>
+
+		<ul>
+      	<li><strong>Country Pages: </strong>  Add ITA’s Trade Event, Trade Leads, Market Research, Consolidated Screening List data, and Trade News & Articles to pages for specific countries.</li>
+      	<li><strong>Industry Pages: </strong>  Create a widget that aggregates event information from other trade organizations with ITA’s Trade Events for businesses in particular industries.  Add a search tool for finding Tariff information for a particular industry.</li>
+      	<li><strong>State Resources: </strong>  Include ITA’s Offices & Centers in a list of resources for businesses in a particular State.</li>
+      	</ul>
+        
+<p><a href="contact-us.html">Let us know</a> what you are using the data for or what other data you need from ITA.</p>   
+        </div>
+        </section>
+        
+        
+        <section id="data-requests" style="background:#F9FCFD;color:#000;">
+        <div style="padding:0 25px;">
+      <center><h1 style="color:#3a4047;font-weight:normal;">Data Requests</h1></center>
+      <p>We definitely want to hear from you when you are looking for particular trade data that is not available through our Data Services platform.  Your request helps give us the justification needed to spend time and money opening closed data sets.  Please <a href="contact-us.html">contact us</a> with your request.  We prioritize new data sets by the number of requests we get from information users like you.</p>
+
+        </div>
+        </section>
+        
+        <section id="help">
+        <div style="padding:0 25px;">
+      <center><h1 style="color:#3a4047;font-weight:normal;">Help</h1></center>
+      <p>If you have trouble with any of the data sets, because the documentation is unclear or because the API itself is not working, please <a href="contact-us.html">contact us</a> immediately and we will set things right.  Your satisfaction with ITA’s Data Services platform is extremely important to us.</p>
+
+        </div>
+        </section>
+        
+        <section id="why-does-ita-provide-these-apis" style="background:#F9FCFD;color:#000;">
+        <div style="padding:0 25px;">
+      <center><h1 style="color:#3a4047;font-weight:normal;">Why Does ITA Provide These APIs?</h1></center>
+      <p>A core tenet of ITA’s mission is to educate and inform small and medium-sized businesses about the intricacies of exporting.  To support the mission, ITA is committed to making access to ITA’s breadth of knowledge and resources quick and easy.</p>
+		<p>The Data Services platform is a key component to enabling access to those resources.  Data easily flows from ITA and other TPCC agencies, into the Data Services platform, out of the platform as APIs, onto Web sites and mobile apps, and into the hands of U.S. exporters.</p>
+		
+		<p>The result is a triple win:</p>
+		<ol>
+      	<li>ITA widely shares its exporting knowledge more broadly</li>
+      	<li>Trade organizations use this valuable knowledge to help their customers (potential exporters)</li>
+      	<li>More exporters see the information on both ITA Web sites and on other Web sites about exporting.</li>
+      	</ol>
+		
+		<p>There are two complementary benefits to opening ITA’s data for public use.  First, trade organizations that use ITA’s content reach customers that ITA might never reach.  They make the final connection between ITA's exporting resources and an aspiring exporter.  Second, ITA learns what exporting information is important to businesses because ITA now has exponentially more feedback channels.</p>
+		<p>By including ITA’s data in your online service offerings, you help make the final connection between trade export and aspiring exporter.</p>
+        </div>
+        </section>
+        
+        <section id="compliance-with-open-data-policies">
+        <div style="padding:0 25px;">
+      <center><h1 style="color:#3a4047;font-weight:normal;">Compliance with Open Data Policies</h1></center>
+      <p>The APIs conform to the Open Data policies of President Obama and Secretary Pritzker that advance Government information as an asset. The President’s policy, with support of the Secretary, directs agencies to “Collect or create information in a way that supports downstream information processing and dissemination activities” and has four requirements:</p>
+		
+		<ol>
+      	<li>Use machine-readable and open formats</li>
+      	<li>Use data standards</li>
+      	<li>Ensure information stewardship through the use of open licenses</li>
+      	<li>Use common core and extensible metadata (ways of describing the data in the API)</li>
+      	</ol>
+		
+		<p>We go beyond these requirements because:</p>
+		
+		<ul>
+      	<li>We use machine-readable and open formats and we also provide additional guidance on how to best use the information.</li>
+      	<li>We follow data standards that promote interoperability and actively open up datasets that are common across many trade organizations.</li>
+      	<li>We place no restrictions on copying, publishing, distributing, transmitting, adapting, or otherwise using the information and encourage developers to do so.</li>
+      	<li>We use common core metadata to describe our information and also provide crosswalks between our taxonomies and other known taxonomies (words used to describe the content in our APIs).</li>
+      	</ul>
+		
+		<p>In addition to publishing a growing number of datasets, ITA is using the datasets to populate its own Web sites. ITA will be publishing new datasets on an ongoing basis to help developers help exporters, and to expand the breadth of information available.</p>
+        </div>
+        </section>
+        
+       
+      
+      <section id="foot">
+       <center><p><small><a href="http://www.usa.gov">USA.gov</a> | <a href="http://trade.gov/foia">FOIA</a>  | <a href="http://trade.gov/privacy.asp">Privacy Policy</a>  | <a href="http://trade.gov/endorse.asp">Disclaimer</a>  |
+                    <a href="http://trade.gov/ITAiqs.pdf">Information Quality Guidelines</a></small></p></center>
+                    
+       			<p style="font-size:10px;">The <a href="http://www.trade.gov">International Trade Administration</a>, <a href="http://www.commerce.gov">U.S.
+                    Department of Commerce</a>, manages this global trade site to provide access to ITA information on promoting trade and investment, strengthening
+                    the competitiveness of U.S. industry, and ensuring fair trade and compliance with trade laws and agreements. External links to other Internet
+                    sites should not be construed as an endorsement of the views or privacy policies contained therein.</p>
+        </section>
+      
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+<script type="text/javascript" src="http://sylvain-hamel.github.io/simple-expand/javascripts/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://sylvain-hamel.github.io/simple-expand/javascripts/simple-expand.js"></script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $('.expander').simpleexpand();
+            prettyPrint();
+        });
+    </script>
+</body>
+  
+</html>

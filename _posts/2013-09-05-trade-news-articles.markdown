@@ -7,9 +7,7 @@ published: true
 
 #Trade News & Articles API
 
-## Background
-
-The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government.  The news and articles are categorized by industry, country, and topic area.  Developers can use this API to provide exporters with the latest insights into their industry and into the countries with which they would like to do business.
+{% include articles-tabs %}
 
 ##Resource URL
 

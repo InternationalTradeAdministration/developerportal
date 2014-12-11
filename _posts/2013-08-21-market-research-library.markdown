@@ -7,15 +7,7 @@ layout: body
 
 #Market Research Library API
 
-## Background
-
-This API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.  Categorized by country and industry, these reports include:
-
-* Market Research Reports
-* Best Market Reports
-* Country Commercial Guides
-
-Test the API using the [demo search app](http://internationaltradeadministration.github.io/explorer/#/market-research-library)
+{% include mrl-tabs %}
 
 ##Resource URL
 

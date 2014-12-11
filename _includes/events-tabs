@@ -1,0 +1,18 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+	<div class="pane" id="step1">
+		<p>The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures, and trade missions organized by ITA and other trade agencies including:</p>
+		<ul><li>The U.S. Trade and Development Agency</li><li>The Export-Import Bank</li><li>The State Department</li><li>The Small Business Administration.</li></ul><p>The output format for this API is JSON.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/trade-events">demo search app</a>.</p>
+	</div>
+	<div class="pane" id="step2">
+		<p>Exporting can be very lucrative but also very complicated – especially for new businesses.  Businesses can get tremendous value from meeting with trade specialists and learning about new opportunities for their business.</p>
+	</div>
+	<div class="pane" id="step3">
+		<p>ITA and the trade agencies add new events all the time, so this is a great resource for dynamic content.  Use these events to augment information you have about a particular country, industry, or topic.  For example, ThinkGlobal.com uses them as a way to attract customers to their mobile app.</p>
+	</div>
+
+</div>

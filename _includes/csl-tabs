@@ -1,0 +1,20 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="images/announcement.png" alt="announcement">Stay Compliant</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+	<div class="pane" id="step1">
+		<p>The Consolidated Screening List API consolidates nine export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aide to industry in conducting electronic screens of potential parties to regulated transactions. In the event that a company, entity or person on the list appears to match a party potentially involved in an export transaction, additional due diligence should be conducted before proceeding. There may be a strict export prohibition, requirement for seeking a license application, evaluation of the end-use or user to ensure it does not result in an activity prohibited by any U.S. export regulations, or other restriction.</p>
+		<p>Note: The API only contains active entities on the list. For historical research, please reference the sources directly.</p>
+		<p>The output format for this API is JSON.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries">demo search app</a>.</p>
+	</div>
+	<div class="pane" id="step2">
+		<p>When using this API, developers must provide the following information to their users to help them <a href="http://export.gov/ecr/index.asp">stay compliant with exporting law</a>.</p>
+		<p><i>If a party to a user’s transaction matches the name of a party on the consolidated list, the user must check the official publication of restricted parties in the Federal Register or the official lists of restricted parties maintained on the websites of the Departments of Commerce, State and the Treasury to ensure full compliance with all of the terms and conditions of the restrictions placed on the parties on this list. Links to these websites are found below as well as in the “Source List URL” and “Source Information URL” fields that accompany each party returned in the API. These links connect users to the specific webpage that contain additional information about how to use each specific list.</i></p>
+	</div>
+	<div class="pane" id="step3">
+		<p>There are many screening lists available that developers can integrate with this Consolidated Screening List API.  Because this API only provides screening lists that relate to the export of products from the U.S. to foreign countries, consider other screening lists that address the sale of products domestically or the sales among foreign countries.</p><p>Furthermore, the results in this API often refer to notices in the Federal Register.  Consider mashing this API with <a href="https://www.federalregister.gov/blog/learn/developers">data from the Federal Register</a> to create a more comprehensive search tool.</p>
+	</div>
+
+</div>

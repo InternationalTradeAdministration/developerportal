@@ -1,0 +1,20 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+	<div class="pane" id="step1">
+		<p>The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources and we continue to expand the number of leads available.</p>
+		<p>We currently provide trade leads, procurement opportunities, and contract notifications from:</p>
+		<ul><li>The State Department’s Business Information Database System (BIDS)</li><li>The United Kingdom</li><li>Canada</li></ul><p>We will soon be including leads from FedBizOpps.</p><p>All leads are consolidated into one endpoint and the output format for this API is JSON.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/trade-leads">demo search app</a>.  Resource URL and Search Parameters can be found towards the bottom of this page.</p>
+	</div>
+	<div class="pane" id="step2">
+		<p>U.S. Businesses often request more notifications about trade leads.  It can be difficult for them to learn about overseas opportunities especially those within complex industries where partnerships and sub-contracts are the norm.  This API aggregates trade leads from several domestic and international sources so users have a broad selection of opportunities to choose from.</p>
+	</div>
+	<div class="pane" id="step3">
+		<p>Use this API to keep businesses aware of the latest leads in particular industries or locations.<p>
+		<p>You can also enhance the value of the leads by incorporating reports from ITA’s Market Research Library or Trade News & Articles APIs.</p>
+   </div>
+
+</div>
