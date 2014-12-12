@@ -355,6 +355,11 @@ color: #A9A9A9;
 margin-bottom:0px;
 }
 
+.list{
+margin-bottom:20px;
+border-bottom: 1px solid #e8e8e8;
+} 
+
 #home {
 padding:15px;
 background:#0B5394;
