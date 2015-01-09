@@ -30,7 +30,6 @@ ITA has developed [simple search apps for each API](demo-search-apps.html) desig
 [![thinkglobal](images/thinkglobal.png)](http://www.thinkglobal.com/exusa)
 
 **ThinkGlobal**, a B2B trade leads platform, helps U.S. exporters find overseas buyers and distributors. ThinkGlobal has developed  an *Export Resources* app for both [Android](https://play.google.com/store/apps/details?id=com.thinkglobal.trade&hl=en) and [Apple iOS](https://itunes.apple.com/us/app/export-resources/id924508501?mt=8) devices. The mobile apps and [the Export USA magazine home page](http://www.thinkglobal.com/exusa) provide Trade Resources for U.S. companies by displaying the most current [Trade Leads](http://www.thinkglobal.com/trade_resources/trade_leads), [Market Research Reports](http://www.thinkglobal.com/trade_resources/market), [Trade News](http://www.thinkglobal.com/trade_resources/trade_articles), and [Trade Events](http://www.thinkglobal.com/trade_resources/trade_events) from ITA.  
-> *Open data from the Commerce Department and other Federal agencies is a positive step toward better use of government information. Moreover, it leverages the private sector to help disseminate information to the public.*
 
 ------
 
