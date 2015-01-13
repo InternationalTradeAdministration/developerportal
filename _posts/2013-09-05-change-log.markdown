@@ -12,7 +12,7 @@ We will continue to add updates and features to ITA’s API on an ongoing basis.
 
 | Date            | Change                                                     |
 | --------------- | --------------------------------------------------------------- |
-|1/13/2015        | Enable the use of both HTTP and HTTPS for API calls |
+|1/13/2015        | Enabled the use of both HTTP and HTTPS for API calls |
 |11/20/2014       | Added the new [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html)
 |11/17/2014       | [Updated widgets](http://developer.trade.gov/demo-search-apps.html) to use the Ember JavaScript framework.  Each endpoint now has a basic search app that developers can use to build upon | 
 | 8/12/2014       | Added widgets for three APIs
