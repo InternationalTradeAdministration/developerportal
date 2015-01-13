@@ -33,7 +33,7 @@ Returns **industry** that the lead relates to.  Note:  This method allows you to
 
 **_Example_**
 
-[http://api.trade.gov/trade_leads/search?industries=agribusiness](http://api.trade.gov/trade_leads/search?industries=agribusiness)
+[http://api.trade.gov/trade_leads/search?industries=chemical](http://api.trade.gov/trade_leads/search?industries=chemical)
 
 ###countries
 
