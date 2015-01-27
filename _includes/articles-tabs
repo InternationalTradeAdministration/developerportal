@@ -1,12 +1,12 @@
 <div class="tabs">
 
-<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="images/background.png" alt="background">Background</label>
-<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="images/why.png" alt="why">Why This Data Matters</label>
-<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 
 	<div class="pane" id="step1">
 		<p>The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies such as:</p>
-		<ul><li>Export-Import Bank</li><li>Overseas Private Investment Corporation (OPIC)</li><li>U.S. Trade and Development Agency (USTDA)</li><li>Small Business Administration (SBA)</li></ul><p>The news and articles are categorized by industry, country, and topic area.  The output format for this API is JSON.</p>
+		<ul><li>Export-Import Bank</li><li>Overseas Private Investment Corporation (OPIC)</li><li>U.S. Trade and Development Agency (USTDA)</li><li>Small Business Administration (SBA)</li></ul><p>The news and articles are categorized by industry, country, and topic area.  This data set is updated daily.  The output format for this API is JSON.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>Exporting can be very lucrative but also very complicated – especially for new businesses.  The Trade News and Articles provide cover a broad range of topics to help businesses learn about exporting.  Topics including:  the basics, licenses and regulations, compliance, and resolving trade problems.</p>

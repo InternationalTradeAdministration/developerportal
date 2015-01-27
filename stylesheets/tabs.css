@@ -14,7 +14,7 @@
 
 /* ==========
    Setup Page */
-*, *:before, *:after {
+.tabs *, .tabs *:before, .tabs *:after {
   box-sizing: border-box;
 }
 
@@ -24,8 +24,8 @@
 .tabs {
   background: white;
   border-radius: 10px;
-margin-bottom:40px;
-margin-top: 50px;
+margin-bottom:10px;
+margin-top: 10px;
 }
 
 .tabs img {

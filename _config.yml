@@ -1,6 +1,6 @@
 name: Developer Portal
-pygments: true
-baseurl:
+highlighter: pygments
+baseurl: /developerportal
 exclude:
   - .bundle
   - .git
@@ -11,3 +11,4 @@ exclude:
   - Gemfile.lock
   - vendor
 markdown: kramdown
+apikeyurl: 'https://api.govwizely.com'
