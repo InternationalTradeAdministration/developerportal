@@ -47,7 +47,7 @@ Returns market research reports for a specific [industry](industry-list-market-r
 
 ###size + offset
 
-The **size** parameter allows you to configure the maximum amount of hits to be returned. The **offset** parameter defines the offset from the first result you want to fetch. If the developer specifies size and offset, the API returns 10 results by default with a maximum of 100 results.
+The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
 **_Example_**
 
