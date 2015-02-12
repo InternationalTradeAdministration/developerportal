@@ -69,7 +69,7 @@ Returns articles created on a specified date.
 
 ###size + offset
 
-The **size** parameter allows you to configure the maximum amount of hits to be returned. The **offset** parameter defines the offset from the first result you want to fetch.
+The **size** parameter allows you to configure the maximum amount of hits to be returned. The **offset** parameter defines the offset from the first result you want to fetch. If the developer specifies size and offset, the API returns 10 results by default with a maximum of 100 results.
 
 **_Example_**
 
