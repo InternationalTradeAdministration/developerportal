@@ -9,6 +9,7 @@ published: true
 
 {% include offices-tabs %}
 
+_Data set updated **weekly**_
 
 ##Resource URL
 
