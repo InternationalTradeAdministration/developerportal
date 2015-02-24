@@ -13,7 +13,7 @@
 	</div>
 	<div class="pane" id="step3">
 		<p>The API provides methods for accessing the city, state, and country for each export assistance center. This enables you to use the listing of ITA centers to augment a directory of business counseling services. Business.usa.gov publishes the ITA centers alongside Small Business Development Centers (SBDCs), SBA District Offices, and Women’s Business Centers.</p>
-		<p>As always, please let us know if you've built an app using this data so we can include it in our <a href="/app-gallery.html">App Gallery</a></p>
+		<p>As always, please let us know if you've built an app using this data so we can include it in our <a href="/app-gallery.html">App Gallery</a>.</p>
 	</div>
 
 </div>
