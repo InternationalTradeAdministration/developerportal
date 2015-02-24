@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "event-type-list.html"
+permalink: "/v1/event-type-list.html"
 layout: body
 ---
 

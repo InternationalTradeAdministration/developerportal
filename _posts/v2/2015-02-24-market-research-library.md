@@ -1,11 +1,13 @@
 ---
 published: true
-permalink: "market-research-library.html"
+permalink: "/market-research-library.html"
 title: Market Research Library API
 layout: body
 ---
 
-#Market Research Library API
+#Market Research Library API v2
+
+[API v1 Documentation](/v1/market-research-library.html)
 
 {% include mrl-tabs %}
 
@@ -61,7 +63,7 @@ The **size** parameter allows you to configure the number of results to be retur
 | countries       | Country category(ies) assigned to the report                    |
 | description     | Abstract of the report’s content                                |
 | expiration_date | Date when the report is no longer valid                         |
-| industry        | Industry category assigned to the report                        |
+| industries        | Industry categories assigned to the report                        |
 | report_type     | The report type can either be CCG, Best Market Report, or Market Research Report|
 | title           | Report title  (default sort)                                    |
 | url             | URL for the report                                              |

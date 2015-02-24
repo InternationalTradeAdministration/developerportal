@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "state-list.html"
+permalink: "/v1/state-list.html"
 layout: body
 ---
 

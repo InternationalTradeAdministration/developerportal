@@ -1,5 +1,5 @@
 ---
-permalink: "trade-leads.html"
+permalink: "/v1/trade-leads.html"
 layout: body
 title: Trade Leads API
 published: true

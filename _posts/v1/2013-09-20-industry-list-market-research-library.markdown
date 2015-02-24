@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "industry-list-market-research-library.html"
+permalink: "/v1/industry-list-market-research-library.html"
 layout: body
 ---
 

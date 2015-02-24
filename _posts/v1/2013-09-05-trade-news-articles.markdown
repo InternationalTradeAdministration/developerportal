@@ -1,5 +1,5 @@
 ---
-permalink: "trade-news-articles.html"
+permalink: "/v1/trade-news-articles.html"
 layout: body
 title: Trade News & Articles API
 published: true

@@ -5,28 +5,30 @@ title: ITA Trade Articles API
 layout: body
 ---
 
-#ITA Articles API
+#Trade Articles API v2
 
-## Background
-Trade articles published by the International Trade Administration.   
+[API v1 Documentation](/v1/trade-news-articles.html)
 
-The output format for this API is JSON.
+{% include articles-tabs %}
+
 
 ##Resource URL
 
 <div><a href="http://api.trade.gov/ita_articles/search"><pre>http://api.trade.gov/ita_articles/search</pre></a></div>
 
+
 ##Search Parameters
 
 ###keyword
 
-Searches for a match within the title, short_title, summary, content, and keyword fields.
+Searches for a match within the **title**, **short_title**, **summary**, **content**, and **keyword** fields.
 
     http://api.trade.gov/ita_articles/search?q={term}
 
 **_Example_**
 
 <div><a href="http://api.trade.gov/ita_articles/search?q=logistics"><pre>http://api.trade.gov/ita_articles/search?q=logistics</pre></a></div>
+
 
 ###export_phases
 
@@ -38,6 +40,7 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 
 <div><a href="http://api.trade.gov/ita_articles/search?export_phases=Expand,Exporting"><pre>http://api.trade.gov/ita_articles/search?export_phases=Expand,Exporting</pre></a></div>
 
+
 ###industries
 
 Returns articles based on [industry name](industry-list-ita-articles.html).  Enter multiple terms by separating with a comma.
@@ -47,6 +50,7 @@ Returns articles based on [industry name](industry-list-ita-articles.html).  Ent
 **_Example_**
 
 <div><a href="http://api.trade.gov/ita_articles/search?industries=Education,Finance"><pre>http://api.trade.gov/ita_articles/search?industries=Education,Finance</pre></a></div>
+
 
 ###countries
 
@@ -58,6 +62,7 @@ Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/hom
 
 <div><a href="http://api.trade.gov/ita_articles/search?countries=MX,TR"><pre>http://api.trade.gov/ita_articles/search?countries=MX,TR</pre></a></div>
 
+
 ###topics
 
 Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
@@ -67,6 +72,7 @@ Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple
 **_Example_**
 
 <div><a href="http://api.trade.gov/ita_articles/search?topics=Exporting,Trade Finance"><pre>http://api.trade.gov/ita_articles/search?topics=Exporting,Trade Finance</pre></a></div>
+
 
 ###sub_topics
 
@@ -78,6 +84,7 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
 <div><a href="http://api.trade.gov/ita_articles/search?sub_topics=Export Training,Shipping"><pre>http://api.trade.gov/ita_articles/search?sub_topics=Export Training,Shipping</pre></a></div>
 
+
 ###geo_regions
 
 Returns articles based on [geo region](geo-region-list.html).  Enter multiple terms by separating with a comma.
@@ -87,6 +94,7 @@ Returns articles based on [geo region](geo-region-list.html).  Enter multiple te
 **_Example_**
 
 <div><a href="http://api.trade.gov/ita_articles/search?geo_regions=Africa,Asia"><pre>http://api.trade.gov/ita_articles/search?geo_regions=Africa,Asia</pre></a></div>
+
 
 ###geo_subregions
 
@@ -98,6 +106,7 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 
 <div><a href="http://api.trade.gov/ita_articles/search?geo_subregions=North Africa,East Asia"><pre>http://api.trade.gov/ita_articles/search?geo_subregions=North Africa,East Asia</pre></a></div>
 
+
 ###trade_regions
 
 Returns articles based on [trade region](trade-region-list.html).  Enter multiple terms by separating with a comma.
@@ -107,6 +116,7 @@ Returns articles based on [trade region](trade-region-list.html).  Enter multipl
 **_Example_**
 
 <div><a href="http://api.trade.gov/ita_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act"><pre>http://api.trade.gov/ita_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act</pre></a></div>
+
 
 ###trade_programs
 
@@ -118,6 +128,7 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 
 <div><a href="http://api.trade.gov/ita_articles/search?trade_programs=Advisory Committees,Advocacy"><pre>http://api.trade.gov/ita_articles/search?trade_programs=Advisory Committees,Advocacy</pre></a></div>
 
+
 ###trade_initiatives
 
 Returns articles based on [trade initiative](trade-initiative-list-ita-articles.html).  Enter multiple terms by separating with a comma.
@@ -127,6 +138,7 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 **_Example_**
 
 <div><a href="http://api.trade.gov/ita_articles/search?trade_initiatives=Discover Global Markets,NEI Next"><pre>http://api.trade.gov/ita_articles/search?trade_initiatives=Discover Global Markets,NEI Next</pre></a></div>
+
 
 ###creation_date
 
@@ -138,6 +150,7 @@ Returns articles based on the date they were created.  Dates are filtered by ent
 
 <div><a href="http://api.trade.gov/ita_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-01"><pre>http://api.trade.gov/ita_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-1</pre></a></div>
 
+
 ###release_date
 
 Returns articles based on their release date.  Dates are filtered by entering a starting date and/or ending date (release_date_start and release_date_end).
@@ -148,6 +161,7 @@ Returns articles based on their release date.  Dates are filtered by entering a 
 
 <div><a href="http://api.trade.gov/ita_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-01"><pre>http://api.trade.gov/ita_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-1</pre></a></div>
 
+
 ###expiration_date
 
 Returns articles based on their expiration date.  Dates are filtered by entering a starting date and/or ending date (expiration_date_start and expiration_date_end).
@@ -157,6 +171,7 @@ Returns articles based on their expiration date.  Dates are filtered by entering
 **_Example_**
 
 <div><a href="http://api.trade.gov/ita_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-01"><pre>http://api.trade.gov/ita_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-1</pre></a></div>
+
 
 ###size + offset
 

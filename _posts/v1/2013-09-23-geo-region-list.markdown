@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "geo-region-list.html"
+permalink: "/v1/geo-region-list.html"
 layout: body
 ---
 

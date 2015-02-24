@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "industry-list-trade-events.html"
+permalink: "/v1/industry-list-trade-events.html"
 layout: body
 ---
 

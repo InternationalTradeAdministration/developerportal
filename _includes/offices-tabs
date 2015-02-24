@@ -1,8 +1,8 @@
 <div class="tabs">
 
-<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="images/background.png" alt="background">Background</label>
-<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="images/why.png" alt="why">Why This Data Matters</label>
-<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="/images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="/images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 
 	<div class="pane" id="step1">
 		<p>The ITA Offices & Centers API provides contact and address information for all of ITA’s domestic and international export assistance centers.  There are almost 200 ITA centers worldwide whose locations are managed by ITA’s internal office management system.</p>

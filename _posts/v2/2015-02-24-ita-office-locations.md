@@ -1,11 +1,13 @@
 ---
-permalink: "ita-office-locations.html"
+permalink: "/ita-office-locations.html"
 layout: body
 title: ITA Offices & Centers API
 published: true
 ---
 
-#ITA Offices & Centers API
+#ITA Offices & Centers API v2
+
+[API v1 Documentation](/v1/ita-office-locations.html)
 
 {% include offices-tabs %}
 
@@ -30,17 +32,21 @@ Returns office locations for a match within the **post** or **office name** fiel
 
 Returns office locations based on city name
 
+    http://api.trade.gov/ita_office_locations/search?city={name of city}
+
+**_Example_**
+
 [http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo](http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo)
 
-###country
+###countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/ita_office_locations/search?country={country code}
+    http://api.trade.gov/ita_office_locations/search?countries={country codes}
 	
 **_Example_**
 
-[http://api.trade.gov/ita_office_locations/search?country=BR](http://api.trade.gov/ita_office_locations/search?country=BR)
+[http://api.trade.gov/ita_office_locations/search?countries=BR,GT](http://api.trade.gov/ita_office_locations/search?countries=BR,GT)
 
 ###state
 

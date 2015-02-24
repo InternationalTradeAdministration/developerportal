@@ -1,5 +1,5 @@
 ---
-permalink: "trade-events.html"
+permalink: "/v1/trade-events.html"
 layout: body
 title: Trade Events API
 published: true
