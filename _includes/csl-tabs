@@ -18,7 +18,7 @@
 	<div class="pane" id="step3">
 		<p>There are many screening lists available that developers can integrate with this Consolidated Screening List API.  Because this API only provides screening lists that relate to the export of products from the U.S. to foreign countries, consider other screening lists that address the sale of products domestically or the sales among foreign countries.</p>
 		<p>Furthermore, the results in this API often refer to notices in the Federal Register.  Consider mashing this API with <a href="https://www.federalregister.gov/blog/learn/developers">data from the Federal Register</a> to create a more comprehensive search tool.</p>
-		<p>As always, please let us know if you've built an app using this data so we can include it in our <a href="/app-gallery.html">App Gallery</a></p>
+		<p>As always, please let us know if you've built an app using this data so we can include it in our <a href="/app-gallery.html">App Gallery</a>.</p>
 	</div>
 
 </div>
