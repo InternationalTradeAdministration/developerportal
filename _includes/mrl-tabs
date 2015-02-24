@@ -16,6 +16,7 @@
 	<div class="pane" id="step3">
 		<p>Use these reports to augment other market intelligence that you provide for your customers.  For example, WebPort Global provides access to ITA’s reports alongside market research from the World Trade Center of Dublin, the World Bank Group, and the Small Business Administration.</p>
 		<p>The API provides methods for accessing the reports by country or by industry.  Therefore, you can display links to specific reports depending upon which country or industry your customer is interested in.  The API also provides access to two years worth of reports so you may want to use the expiration_date field to display only the most recent.</p>
+		<p>As always, please let us know if you've built an app using this data so we can include it in our <a href="/app-gallery.html">App Gallery</a></p>
 	</div>
 </div>
 
