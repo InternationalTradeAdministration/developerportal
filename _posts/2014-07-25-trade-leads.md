@@ -9,8 +9,6 @@ published: true
 
 {% include trade-leads-tabs %}
 
-_Data set updated **daily**_
-
 ##Resource URL
 
 [http://api.trade.gov/trade_leads/search](http://api.trade.gov/trade_leads/search)

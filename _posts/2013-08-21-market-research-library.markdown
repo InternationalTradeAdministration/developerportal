@@ -9,8 +9,6 @@ layout: body
 
 {% include mrl-tabs %}
 
-_Data set updated **weekly**_
-
 ##Resource URL
 
 [http://api.trade.gov/market_research_library/search](http://api.trade.gov/market_research_library/search)

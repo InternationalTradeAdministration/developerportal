@@ -9,8 +9,6 @@ published: true
 
 {% include articles-tabs %}
 
-_Data set updated **weekly**_
-
 ##Resource URL
 
 [http://api.trade.gov/trade_articles/search](http://api.trade.gov/trade_articles/search)

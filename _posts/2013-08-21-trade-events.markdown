@@ -9,8 +9,6 @@ published: true
 
 {% include events-tabs %}
 
-_Data set updated **daily**_
-
 ##Resource URL
 
 [http://api.trade.gov/trade_events/search](http://api.trade.gov/trade_events/search)

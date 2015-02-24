@@ -6,7 +6,7 @@
 
 	<div class="pane" id="step1">
 		<p>The ITA Offices & Centers API provides contact and address information for all of ITA’s domestic and international export assistance centers.  There are almost 200 ITA centers worldwide whose locations are managed by ITA’s internal office management system.</p>
-		<p>The output format for this API is JSON.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/ita-office-locations">demo search app</a>.</p>
+		<p>The output format for this API is JSON. Data set updated <strong>weekly</strong>. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/ita-office-locations">demo search app</a>.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>ITA centers are often collocated with offices from the State Department or other trade agencies.  Therefore, the addresses change with some regularity.  You can be confident that when you use this resource to help your customers it will be accurate.</p>

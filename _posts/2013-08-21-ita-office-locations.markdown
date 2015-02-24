@@ -9,8 +9,6 @@ published: true
 
 {% include offices-tabs %}
 
-_Data set updated **weekly**_
-
 ##Resource URL
 
 [http://api.trade.gov/ita_office_locations/search](http://api.trade.gov/ita_office_locations/search)
