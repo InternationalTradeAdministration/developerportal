@@ -5,7 +5,7 @@ title: Tariff Rates API
 published: true
 ---
 
-#Tariff Rates API v2
+#Tariff Rates API
 
 Includes information on tariff rates for the following countries:  Australia, Bahrain, Chile, Colombia, Costa Rica, Dominican Republic, El Salvador, Guatemala, Honduras, Morocco, Nicaragua, Oman, Panama, Peru, Singapore, South Korea, United States.
 

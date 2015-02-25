@@ -5,7 +5,7 @@ title: ITA FAQs API
 published: true
 ---
 
-#Trade FAQs API v2
+#Trade FAQs API
 
 The International Trade Administration's list of frequently asked questions.  The FAQs are searchable by keyword, and filterable by industry, country, topic, and update date.  
 

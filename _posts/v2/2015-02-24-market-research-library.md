@@ -5,7 +5,7 @@ title: Market Research Library API
 layout: body
 ---
 
-#Market Research Library API v2
+#Market Research Library API
 
 [API v1 Documentation](/v1/market-research-library.html)
 

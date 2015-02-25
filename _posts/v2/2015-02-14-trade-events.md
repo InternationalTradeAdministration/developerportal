@@ -5,7 +5,7 @@ title: Trade Events API
 published: true
 ---
 
-#Trade Events API v2
+#Trade Events API
 
 [API v1 Documentation](/v1/trade-events.html)
 

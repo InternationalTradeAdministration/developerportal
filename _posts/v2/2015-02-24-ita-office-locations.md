@@ -5,7 +5,7 @@ title: ITA Offices & Centers API
 published: true
 ---
 
-#ITA Offices & Centers API v2
+#ITA Offices & Centers API
 
 [API v1 Documentation](/v1/ita-office-locations.html)
 

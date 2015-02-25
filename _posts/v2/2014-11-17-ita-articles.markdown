@@ -5,7 +5,7 @@ title: ITA Trade Articles API
 layout: body
 ---
 
-#Trade Articles API v2
+#Trade Articles API
 
 [API v1 Documentation](/v1/trade-news-articles.html)
 

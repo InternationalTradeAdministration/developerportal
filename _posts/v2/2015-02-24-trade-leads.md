@@ -5,7 +5,7 @@ title: Trade Leads API
 published: true
 ---
 
-#Trade Leads API v2
+#Trade Leads API
 
 [API v1 Documentation](/v1/trade-leads.html)
 
