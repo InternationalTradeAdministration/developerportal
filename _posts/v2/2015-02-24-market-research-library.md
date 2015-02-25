@@ -7,7 +7,7 @@ layout: body
 
 #Market Research Library API
 
-[API v1 Documentation](/v1/market-research-library.html)
+[API v1 Documentation]({{ site.baseurl }}/v1/market-research-library.html)
 
 {% include mrl-tabs %}
 
@@ -39,7 +39,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 ###industry
 
-Returns market research reports for a specific [industry](industry-list-market-research-library.html)
+Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/industry-list-market-research-library.html)
 
     http://api.trade.gov/market_research_library/search?industry={industry name}
 

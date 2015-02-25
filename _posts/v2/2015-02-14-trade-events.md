@@ -7,7 +7,7 @@ published: true
 
 #Trade Events API
 
-[API v1 Documentation](/v1/trade-events.html)
+[API v1 Documentation]({{ site.baseurl }}/v1/trade-events.html)
 
 {% include events-tabs %}
 
@@ -30,7 +30,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 ###industry
 
-Searches for specific controlled [industry names](/v1/industry-list-trade-events.html)
+Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html)
 
     http://api.trade.gov/trade_events/search?industry={term}
 
@@ -126,7 +126,7 @@ _Example_
 | ------------------ | --------------------------------------- |
 | id                 | Unique identifier for event              |
 | event_name         | Name given for the event                |
-| event_type         | [The type of the event (controlled value)](/v1/event-type-list.html) |
+| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) |
 | start_date         | Start date of the event                 |
 | end_date           | The date the event will end             |
 | cost               | Cost of the event                       |
@@ -150,7 +150,7 @@ _Example_
 | ------------------ | --------------------------------------- |
 | id                 | Unique identifier for event              |
 | event_name         | Name given for the event                |
-| event_type         | [The type of the event (controlled value)](/v1/event-type-list.html) |
+| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) |
 | start_date         | Start date of the event                 |
 | start_time         | Start time of the event                 |
 | end_date           | The date the event will end             |
@@ -175,7 +175,7 @@ _Example_
 | ------------------ | --------------------------------------- |
 | id                 | Unique identifier for event              |
 | event_name         | Name given for the event                |
-| event_type         | [The type of the event (controlled value)](/v1/event-type-list.html) |
+| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) |
 | start_date         | Start date of the event                 |
 | end_date           | The date the event will end             |
 | cost               | Cost of the event                       |

@@ -7,7 +7,7 @@ layout: body
 
 #Trade Articles API
 
-[API v1 Documentation](/v1/trade-news-articles.html)
+[API v1 Documentation]({{ site.baseurl }}/v1/trade-news-articles.html)
 
 {% include articles-tabs %}
 

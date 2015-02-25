@@ -7,7 +7,7 @@ published: true
 
 #Trade Leads API
 
-[API v1 Documentation](/v1/trade-leads.html)
+[API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html)
 
 {% include trade-leads-tabs %}
 

@@ -7,7 +7,7 @@ published: true
 
 #ITA Offices & Centers API
 
-[API v1 Documentation](/v1/ita-office-locations.html)
+[API v1 Documentation]({{ site.baseurl }}/v1/ita-office-locations.html)
 
 {% include offices-tabs %}
 
