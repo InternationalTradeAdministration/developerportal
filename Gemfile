@@ -1,10 +1,2 @@
-source 'http://gems.github.com'
 source 'https://rubygems.org'
-
-gem 'jekyll',     '=2.4.0'
-gem 'liquid'
-gem 'redcarpet'
-gem 'maruku'
-gem 'rdiscount'
-gem 'RedCloth'
-gem 'kramdown'
+gem 'github-pages'

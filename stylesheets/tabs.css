@@ -14,7 +14,7 @@
 
 /* ==========
    Setup Page */
-*, *:before, *:after {
+.tabs *, .tabs *:before, .tabs *:after {
   box-sizing: border-box;
 }
 
