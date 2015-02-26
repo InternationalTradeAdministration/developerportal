@@ -5,6 +5,8 @@ title: Trade News & Articles API
 published: true
 ---
 
+{% include ribbon %}
+
 #Trade News & Articles API
 
 {% include articles-tabs %}

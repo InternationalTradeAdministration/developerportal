@@ -5,6 +5,8 @@ title: Trade Events API
 published: true
 ---
 
+{% include ribbon %}
+
 #Trade Events API
 
 {% include events-tabs %}

@@ -5,6 +5,8 @@ title: ITA Offices & Centers API
 published: true
 ---
 
+{% include ribbon %}
+
 #ITA Offices & Centers API
 
 {% include offices-tabs %}

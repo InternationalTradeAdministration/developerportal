@@ -5,6 +5,8 @@ title: Trade Leads API
 published: true
 ---
 
+{% include ribbon %}
+
 #Trade Leads API
 
 {% include trade-leads-tabs %}

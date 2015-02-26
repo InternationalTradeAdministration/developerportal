@@ -5,6 +5,8 @@ title: Market Research Library API
 layout: body
 ---
 
+{% include ribbon %}
+
 #Market Research Library API
 
 {% include mrl-tabs %}
