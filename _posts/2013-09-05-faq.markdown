@@ -10,7 +10,7 @@ published: true
 ##Getting Started
 
 ###Do I need to register?
-Use of our APIs and other data sets is free of charge and allows unlimited access.  For a limited time period, registration to use the APIs is not required.  Starting in 2015, developers will be required to register and receive a development key in order to enjoy free, unlimited access to the the U.S. government’s growing data mart of trade information.
+You are now required to [register for](http://api.govwizely.com/) and use a key to access the data in the APIs.  Nevertheless, you may still use the APIs and other data free of charge and you are allowed unlimited access.  Just don’t spike us ;-)
 
 ###Are there any data limits for a single application or a developer?
 Currently there are no limits.  However, starting in 2015 we will control and meter traffic associated with an individual API key.

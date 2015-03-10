@@ -7,19 +7,7 @@ published: true
 
 #Tariff Rates API
 
-Includes information on tariff rates for the following countries:  Australia, Bahrain, Chile, Colombia, Costa Rica, Dominican Republic, El Salvador, Guatemala, Honduras, Morocco, Nicaragua, Oman, Panama, Peru, Singapore, South Korea, United States.
-
-**Canada**:
-The North American Free Trade Agreement between the United States, Canada, and Mexico entered into force on January 1, 1994. Under NAFTA, trade in all goods between the United States and Canada became duty-free on January 1, 2008. 
- 
-**Israel**:
-The U.S.-Israel Free Trade Agreement entered into force on August 19, 1985. By 1995, trade in all non-agricultural goods between the United States and Israel was duty free.  Under the FTA, trade in agricultural goods was not fully liberalized and has been subject to subsequent agreements. 
- 
-**Jordan**:
-The U.S.-Jordan Free Trade Agreement entered into force on December 17, 2001.  By January 1, 2010, trade in all non-agricultural goods and virtually all agricultural goods between the United States and Jordan was duty free. 
- 
-**Mexico**:
-The North American Free Trade Agreement between the United States, Canada, and Mexico entered into force on January 1, 1994. Under NAFTA, trade in all goods between the United States and Mexico became duty-free on January 1, 2008. 
+{% include tariffs-tabs %}
 
 ##Resource URL
 

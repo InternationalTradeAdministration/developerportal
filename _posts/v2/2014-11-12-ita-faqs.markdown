@@ -7,9 +7,7 @@ published: true
 
 #Trade FAQs API
 
-The International Trade Administration's list of frequently asked questions.  The FAQs are searchable by keyword, and filterable by industry, country, topic, and update date.  
-
-The output format for this API is JSON.
+{% include faqs-tabs %}
 
 ##Resource URL
 
