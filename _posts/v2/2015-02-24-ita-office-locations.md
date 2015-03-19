@@ -7,9 +7,9 @@ published: true
 
 #ITA Offices & Centers API
 
-[API v1 Documentation]({{ site.baseurl }}/v1/ita-office-locations.html)
-
 {% include offices-tabs %}
+
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/ita-office-locations.html) page for the Version 1 documentation.
 
 
 ##Resource URL

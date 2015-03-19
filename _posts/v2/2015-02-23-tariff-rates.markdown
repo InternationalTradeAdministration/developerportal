@@ -26,25 +26,16 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 <div><a href="http://api.trade.gov/tariff_rates/search?q=horses"><pre>http://api.trade.gov/tariff_rates/search?q=horses</pre></a></div>
 
-###countries
-
-Returns tariff rates based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
-
-    http://api.trade.gov/tariff_rates/search?countries={country codes}
-
-#####Example:
-
-<div><a href="http://api.trade.gov/tariff_rates/search?countries=kr,gt"><pre>http://api.trade.gov/tariff_rates/search?countries=kr,gt</pre></a></div>
 
 ###sources
 
-Returns tariff rates based on the source country.
+Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.
 
 	http://api.trade.gov/tariff_rates/search?sources={source countries}
 
 #####Example:
 
-<div><a href="http://api.trade.gov/tariff_rates/search?sources=guatemala,australia"><pre>http://api.trade.gov/tariff_rates/search?countries=guatemala,australia</pre></a></div>
+<div><a href="http://api.trade.gov/tariff_rates/search?sources=GT,AU"><pre>http://api.trade.gov/tariff_rates/search?sources=GT,AU</pre></a></div>
 
 ###size + offset
 
@@ -52,7 +43,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 #####Example:
 
-<div><a href="http://api.trade.gov/tariff_rates/search?countries=KR&size=1&offset=1"><pre>http://api.trade.gov/tariff_rates/search?countries=KR&size=1&offset=1</pre></a></div>
+<div><a href="http://api.trade.gov/tariff_rates/search?size=1&offset=1"><pre>http://api.trade.gov/tariff_rates/search?size=1&offset=1</pre></a></div>
 
 
 
@@ -84,7 +75,6 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | rule_text                    |       |
 | link_text                    |       |
 | link_url                     |       |
-| annual_rates                 | Rates for the last ten years (contains y2006-y2015)      |
+| annual_rates                 |      |
 | alt_annual_rates             |       |
-| countries                    |       |
 | source                       |       |

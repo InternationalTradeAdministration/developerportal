@@ -7,9 +7,10 @@ layout: body
 
 #Market Research Library API
 
-[API v1 Documentation]({{ site.baseurl }}/v1/market-research-library.html)
 
 {% include mrl-tabs %}
+
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/market-research-library.html) page for the Version 1 documentation.
 
 ##Resource URL
 

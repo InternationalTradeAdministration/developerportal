@@ -7,9 +7,9 @@ published: true
 
 #Trade Leads API
 
-[API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html)
-
 {% include trade-leads-tabs %}
+
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html) page for the Version 1 documentation.
 
 ##Resource URL
 
@@ -58,7 +58,7 @@ Searches only the leads specified by the **Source** field.
 
 [http://api.trade.gov/consolidated_screening_list/search?sources=state,uk](http://api.trade.gov/consolidated_screening_list/search?sources=state,uk)
 	
-Possible values of the source field:  AUSTRALIA, CANADA, FBOPEN, STATE, UK (United Kingdom)
+Possible values of the source field:  CANADA, FBOPEN, STATE, UK (United Kingdom)
 
 ###size + offset
 
@@ -69,23 +69,7 @@ The **size** parameter allows you to configure the number of results to be retur
 [http://api.trade.gov/trade_leads/search?size=1&offset=1](http://api.trade.gov/trade_leads/search?size=1&offset=1)
 
 
-##Return Values for Australia
-
-| Field	                   | Description |
-| ------                   | -------------|
-| agency                   | Agency responsible for the contract |
-| contract_value           | The value of the lead |
-| description              | Description of the opportunity |
-| parent_id                | Parent id of the lead |
-| procurement_method       | Procurement method of the lead |
-| publish_date_amended     | Amended date that the lead was posted |
-| status                   | Status of the lead (note this API only shows open leads) |
-| topic                    | Topic tag assigned to the lead |
-| url                      | URL that pertains to the bid |
-| source                   | AUSTRALIA |
-
-
-###Canadian leads
+###Canadian Leads
 
 The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.
 
@@ -120,6 +104,11 @@ Canadian leads are subject to Canada's license located at:
 | contact                              | Point of contact |
 | urls                                 | URLs that pertain to the bid |
 | source                               | CANADA |
+
+
+### FedBizOps / FBOpen Leads
+
+[FedBizOps](https://www.fbo.gov/) is an online system provided by the General Services Administration that publishes procurement opportunities on behalf of 132 federal agencies.  The ITA Trade Leads API includes only non-U.S. based  procurements that are available through the [FBOpen endpoint](https://fbopen.gsa.gov/).
 
 
 ##Return Values for FBOpen
