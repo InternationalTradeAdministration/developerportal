@@ -35,7 +35,7 @@ font-size:12px;
 }
 
 h2 {
-  font-size:16px; font-style:italic;color:#535353;
+  font-size:18px; color:#535353;
   border-bottom:1px solid #e5e5e5;
     border-width:1px 0;
     padding-bottom:20px;
@@ -44,6 +44,10 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
+}
+
+h3 {
+font-size: 14px;
 }
 
 a {
