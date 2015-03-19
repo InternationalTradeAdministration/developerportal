@@ -1,11 +1,11 @@
 ---
-permalink: "ita-faqs.html"
+permalink: "faqs-exporting.html"
 layout: body
-title: ITA FAQs API
+title: FAQs on Exporting API
 published: true
 ---
 
-#Trade FAQs API
+#FAQs on Exporting API
 
 {% include faqs-tabs %}
 

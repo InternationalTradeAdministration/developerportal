@@ -1,11 +1,11 @@
 ---
-permalink: faq.html
+permalink: api-faqs.html
 layout: body
-title: FAQs
+title: API FAQs
 published: true
 ---
 
-#FAQs
+#API FAQs
 
 ##Getting Started
 
