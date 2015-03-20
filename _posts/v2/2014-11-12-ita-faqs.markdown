@@ -21,7 +21,7 @@ Searches for a match within the question and answer fields.
 
     http://api.trade.gov/ita_faqs/search?q={term}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/ita_faqs/search?q=tpcc"><pre>http://api.trade.gov/ita_faqs/search?q=tpcc</pre></a></div>
 
@@ -31,7 +31,7 @@ Returns FAQs based on industry name.  Enter multiple terms by separating with a 
 
     http://api.trade.gov/ita_faqs/search?industries={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/ita_faqs/search?industries=Education,Legal Assistance"><pre>http://api.trade.gov/ita_faqs/search?industries=Education,Legal Assistance</pre></a></div>
 
@@ -41,7 +41,7 @@ Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/st
 
     http://api.trade.gov/ita_faqs/search?countries={country codes}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/ita_faqs/search?countries=MX,TR"><pre>http://api.trade.gov/ita_faqs/search?countries=MX,TR</pre></a></div>
 
@@ -51,7 +51,7 @@ Returns FAQs based on topic name.  Enter multiple terms by separating with a com
 
     http://api.trade.gov/ita_faqs/search?topics={terms}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/ita_faqs/search?topics=CE Marking,Trade Barriers"><pre>http://api.trade.gov/ita_faqs/search?topics=CE Marking,Trade Barriers</pre></a></div>
 
@@ -61,7 +61,7 @@ Returns FAQs based on the date they were last updated.  Dates are filtered by en
 
     http://api.trade.gov/ita_faqs/search?update_date_start={term}&update_date_end={term}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/ita_faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01"><pre>http://api.trade.gov/ita_faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01</pre></a></div>
 
@@ -69,7 +69,7 @@ Returns FAQs based on the date they were last updated.  Dates are filtered by en
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/ita_faqs/search?countries=BR&size=1&offset=1"><pre>http://api.trade.gov/ita_faqs/search?countries=BR&size=1&offset=1</pre></a></div>
 
