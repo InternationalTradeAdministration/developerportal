@@ -24,7 +24,8 @@ $(function(){
 <script type="text/javascript" src="http://sylvain-hamel.github.io/simple-expand/javascripts/simple-expand.js"></script>
 <script type="text/javascript">
     $(function () {
-        $('.expander').simpleexpand();
+        $('.expander').simpleexpand({'keepStateInCookie': false,
+'cookieName': 'simple-expand'});
         prettyPrint();
     });
 </script>
