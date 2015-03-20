@@ -4,7 +4,6 @@ layout: body
 title: Change Log
 ---
 
-{% include ribbon %}
 #Change Log
 
 We will continue to add updates and features to ITA’s API on an ongoing basis.  Please check this page regularly to ensure you have the latest updates to the API.

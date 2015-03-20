@@ -5,7 +5,7 @@ title: Market Research Library API
 layout: body
 ---
 
-{% include ribbon %}
+#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/market-research-library.html).
 
 #Market Research Library API
 
