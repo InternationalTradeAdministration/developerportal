@@ -1,4 +1,1 @@
-<div class='l-ribbon ribbon'>
-    <h1 class='ribbon__title'><span style="color:yellow;">!!</span> This is a deprecated API intended for historical purposes</h1>
-
-</div>
+<h3 style="color:red;font-size:15px;">This is an old version of the API and will be deprecated soon. Please upgrade to the new version of the API.</h3>
