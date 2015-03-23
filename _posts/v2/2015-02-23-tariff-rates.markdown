@@ -11,7 +11,7 @@ published: true
 
 ##Resource URL
 
-<div><a href="http://api.trade.gov/tariff_rates/search"><pre>http://api.trade.gov/tariff_rates/search</pre></a></div>
+[http://api.trade.gov/tariff_rates/search](http://api.trade.gov/tariff_rates/search)
 
 
 ##Search Parameters
@@ -24,7 +24,7 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 **_Example_**
 
-<div><a href="http://api.trade.gov/tariff_rates/search?q=horses"><pre>http://api.trade.gov/tariff_rates/search?q=horses</pre></a></div>
+[http://api.trade.gov/tariff_rates/search?q=horses](http://api.trade.gov/tariff_rates/search?q=horses)
 
 
 ###sources
@@ -35,7 +35,7 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 
 **_Example_**
 
-<div><a href="http://api.trade.gov/tariff_rates/search?sources=GT,AU"><pre>http://api.trade.gov/tariff_rates/search?sources=GT,AU</pre></a></div>
+[http://api.trade.gov/tariff_rates/search?sources=GT,AU](http://api.trade.gov/tariff_rates/search?sources=GT,AU)
 
 ###size + offset
 
@@ -43,7 +43,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 **_Example_**
 
-<div><a href="http://api.trade.gov/tariff_rates/search?size=1&offset=1"><pre>http://api.trade.gov/tariff_rates/search?size=1&offset=1</pre></a></div>
+[http://api.trade.gov/tariff_rates/search?size=1&offset=1](http://api.trade.gov/tariff_rates/search?size=1&offset=1)
 
 
 

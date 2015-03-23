@@ -54,7 +54,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-[http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1)
+[http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/market_research_library/search?country=CA&size=1&offset=1)
 
 ###Return Values
 
