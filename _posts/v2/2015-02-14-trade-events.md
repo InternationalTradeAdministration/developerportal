@@ -73,11 +73,19 @@ Source Abbreviations as follows:
 
 Searches against fields in the **venues** array.
 
-    http://api.trade.gov/trade_events/search?venue={query}
+| Field              | Description                             |
+| ------------------ | --------------------------------------- |
+| address            | street address of venue                 |
+| city               | city of venue                           |
+| country            | country of venue                        |
+| state              | state of venue                          |
+| venue              | name of the venue                       | 
+
+    http://api.trade.gov/trade_events/search?venues={query}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?venue=Hong Kong](http://api.trade.gov/trade_events/search?venue=Hong Kong)
+[http://api.trade.gov/trade_events/search?venues=Hong Kong](http://api.trade.gov/trade_events/search?venues=Hong Kong)
 
 
 ###contacts
@@ -86,12 +94,12 @@ Searches against fields in the **contacts** array.
 
 | Field              | Description                             |
 | ------------------ | --------------------------------------- |
-| first_name         | Contact's first name                    |
-| last_name          | Contact's last name                     |
-| post               | Contact's location                      |
-| person_title       | Contact's company title                 |
-| phone              | Contact's phone number                  | 
-| email              | Contact's email address                 |  
+| first_name         | contact's first name                    |
+| last_name          | contact's last name                     |
+| post               | contact's location                      |
+| person_title       | contact's company title                 |
+| phone              | contact's phone number                  | 
+| email              | contact's email address                 |  
 
     http://api.trade.gov/trade_events/search?contacts={query}
 
