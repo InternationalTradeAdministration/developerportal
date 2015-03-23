@@ -113,7 +113,18 @@ _Example_
 | url                | Link to the event's web page  |
 | venues             | The location where the event is held    |
 | industries         | Industry categories assigned to the event |
-| source             | State Department (DL)                   |              
+| source             | State Department (DL)                   |   
+| address            | street address of the venue location    | 
+| city               | city of the venue                       | 
+| country            | country of the venue                    | 
+| state              | state of the venue                      | 
+| venue              | name of the venue                       |  
+| first_name         | contact's first name                    |
+| last_name          | contact's last name                     |
+| post               | contact's location                      |
+| person_title       | contact's company title                 |
+| phone              | contact's phone number                  | 
+| email              | contact's email address                 |          
 
 
 #### International Trade Administration (ITA)
@@ -138,6 +149,17 @@ _Example_
 | industries         | Industry categories assigned to the event |
 | contacts           | Contact info for the event              |
 | source             | State Department (DL)                   |    
+| address            | street address of the venue location    | 
+| city               | city of the venue                       | 
+| country            | country of the venue                    | 
+| state              | state of the venue                      | 
+| venue              | name of the venue                       |  
+| first_name         | contact's first name                    |
+| last_name          | contact's last name                     |
+| post               | contact's location                      |
+| person_title       | contact's company title                 |
+| phone              | contact's phone number                  | 
+| email              | contact's email address                 |  
 
 
 #### Small Business Administration (SBA)
