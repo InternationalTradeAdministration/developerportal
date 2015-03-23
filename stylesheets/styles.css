@@ -597,6 +597,24 @@ header {
 text-align: center;
 padding-bottom:25px;
 }
+
+.imageBox {
+margin-top: -30px;
+}
+
+.imageBox img {
+width: 25px;
+}
+
+#sect2{
+padding-left:50px;
+padding-right:50px;
+}
+
+#side {
+    padding-left:50px;
+padding-right:50px;
+}
     
 }
 
