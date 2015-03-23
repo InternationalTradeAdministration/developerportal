@@ -77,149 +77,53 @@ The **size** parameter allows you to configure the number of results to be retur
 [http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1](http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1)
 
 
-### The Five Event Sources: 
-**State Department (DL)**, **Export-Import Bank (EXIM)**, **International Trade Administration (ITA)**, **Small Business Administration (SBA)**, **U.S. Trade and Development Agency (USTDA)**
+### Examples of the Five Event Sources: 
+
+State Department (DL) [http://api.trade.gov/trade_events/search?sources=DL](http://api.trade.gov/trade_events/search?sources=DL)
+
+
+Export-Import Bank (EXIM) [http://api.trade.gov/trade_events/search?sources=EXIM](http://api.trade.gov/trade_events/search?sources=EXIM)    
+
+
+International Trade Administration (ITA) [http://api.trade.gov/trade_events/search?sources=ITA](http://api.trade.gov/trade_events/search?sources=ITA)
+
+
+Small Business Administration (SBA) [http://api.trade.gov/trade_events/search?sources=SBA](http://api.trade.gov/trade_events/search?sources=SBA)
+
+
+U.S. Trade and Development Agency (USTDA)  [http://api.trade.gov/trade_events/search?sources=SBA](http://api.trade.gov/trade_events/search?sources=SBA)
 
 Each event source returns a unique set of fields.
 
-(new list)
-
 | Field              | Description                             | Source             |
 | ------------------ | --------------------------------------- | ------------------ |
-| id                 | Unique identifier for event             | DL					|
-| event_name         | Name given for the event                | DL					|
-| venue              | name of the venue                       | EXIM, ITA          |
-
-(/new list)
-
-
-#### State Department (DL)
-
-_Example_
-
-[http://api.trade.gov/trade_events/search?sources=DL](http://api.trade.gov/trade_events/search?sources=DL)
-
-| Field              | Description                             |
-| ------------------ | --------------------------------------- |
-| id                 | Unique identifier for event              |
-| event_name         | Name given for the event                |
-| description         | Text describing the event |
-| url        | Link to the event's web page  |
-| source     | State Department (DL)         |
-
-
-#### Export-Import Bank (EXIM)
-
-_Example_
-
-[http://api.trade.gov/trade_events/search?sources=EXIM](http://api.trade.gov/trade_events/search?sources=EXIM)
-
-| Field              | Description                             |
-| ------------------ | --------------------------------------- |
-| id                 | Unique identifier for event              |
-| event_name         | Name given for the event                |
-| start_date         | Start date of the event                 |
-| end_date           | The date the event will end             |
-| registration_link  | URL for the event's registration page   |
-| description         | Text describing the event |
-| url                | Link to the event's web page  |
-| venues             | The location where the event is held    |
-| industries         | Industry categories assigned to the event |
-| source             | State Department (DL)                   |   
-| address            | street address of the venue location    | 
-| city               | city of the venue                       | 
-| country            | country of the venue                    | 
-| state              | state of the venue                      | 
-| venue              | name of the venue                       |  
-| first_name         | contact's first name                    |
-| last_name          | contact's last name                     |
-| post               | contact's location                      |
-| person_title       | contact's company title                 |
-| phone              | contact's phone number                  | 
-| email              | contact's email address                 |          
-
-
-#### International Trade Administration (ITA)
-
-_Example_
-
-[http://api.trade.gov/trade_events/search?sources=ITA](http://api.trade.gov/trade_events/search?sources=ITA)
-
-| Field              | Description                             |
-| ------------------ | --------------------------------------- |
-| id                 | Unique identifier for event              |
-| event_name         | Name given for the event                |
-| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) |
-| start_date         | Start date of the event                 |
-| end_date           | The date the event will end             |
-| cost               | Cost of the event                       |
-| registration_link  | URL for the event's registration page   |
-| registration_title | Title of the registration URL           |
-| description         | Text describing the event |
-| url                | Link to the event's web page  |
-| venues             | The location where the event is held    |
-| industries         | Industry categories assigned to the event |
-| contacts           | Contact info for the event              |
-| source             | State Department (DL)                   |    
-| address            | street address of the venue location    | 
-| city               | city of the venue                       | 
-| country            | country of the venue                    | 
-| state              | state of the venue                      | 
-| venue              | name of the venue                       |  
-| first_name         | contact's first name                    |
-| last_name          | contact's last name                     |
-| post               | contact's location                      |
-| person_title       | contact's company title                 |
-| phone              | contact's phone number                  | 
-| email              | contact's email address                 |  
-
-
-#### Small Business Administration (SBA)
-
-_Example_
-
-[http://api.trade.gov/trade_events/search?sources=SBA](http://api.trade.gov/trade_events/search?sources=SBA)
-
-| Field              | Description                             |
-| ------------------ | --------------------------------------- |
-| id                 | Unique identifier for event              |
-| event_name         | Name given for the event                |
-| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) |
-| start_date         | Start date of the event                 |
-| start_time         | Start time of the event                 |
-| end_date           | The date the event will end             |
-| end_time           | The time that the event will end        |
-| time_zone          | The time zone of the event              |
-| cost               | Cost of the event                       |
-| registration_link  | URL for the event's registration page   |
-| description         | Text describing the event |
-| venues             | The location where the event is held    |
-| industries         | Industry categories assigned to the event |
-| contacts           | Contact info for the event              |
-| source             | State Department (DL)                   |  
-
-
-#### U.S. Trade and Development Agency (USTDA)
-
-_Example_
-
-[http://api.trade.gov/trade_events/search?sources=SBA](http://api.trade.gov/trade_events/search?sources=SBA)
-
-| Field              | Description                             |
-| ------------------ | --------------------------------------- |
-| id                 | Unique identifier for event              |
-| event_name         | Name given for the event                |
-| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) |
-| start_date         | Start date of the event                 |
-| end_date           | The date the event will end             |
-| cost               | Cost of the event                       |
-| cost_currency      | The currency of the cost value          |
-| registration_link  | URL for the event's registration page   |
-| registration_title | Title of the registration URL           |
-| description         | Text describing the event |
-| venues             | The location where the event is held    |
-| industries         | Industry categories assigned to the event |
-| contacts           | Contact info for the event              |
-| source             | State Department (DL)                   | 
-
+| id                 | Unique identifier for event             | DL, EXIM, ITA, SBA, USTDA					|
+| event_name         | Name given for the event                | DL, EXIM, ITA, SBA, USTDA 					|
+| description        | Text describing the event 			   | DL, EXIM, ITA, SBA, USTDA 					|
+| url        		 | Link to the event's web page 		   | DL, EXIM, ITA 								|
+| source        	 | State Department (DL) 			   	   | DL, EXIM, ITA								|
+| event_name         | Name given for the event                | ITA, SBA, USTDA 					        |
+| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) | ITA, SBA, USTDA 					    |
+| cost               | Cost of the event                       | ITA, SBA, USTDA							|
+| cost_currency      | The currency of the cost value          | USTDA										|
+| registration_link  | URL for the event's registration page   | ITA, SBA, USTDA							|
+| registration_title | Title of the registration URL           | ITA, USTDA									|
+| start_date         | Start date of the event 			       | EXIM, ITA, SBA, USTDA 					    |
+| end_date           | The date the event will end  		   | EXIM, ITA, SBA, USTDA 					    |
+| description        | Text describing the event 			   | DL, EXIM, ITA, SBA, USTDA 					|
+| registration_link  | URL for the event's registration page   | DL, EXIM, ITA, SBA, USTDA 					|
+| contacts           | Contact info for the event              | ITA, SBA, USTDA 							|
+| venues             | The location where the event is held    | EXIM, ITA, SBA, USTDA						|
+| industries         | Industry categories assigned to the event    | EXIM, ITA, SBA, USTDA						|
+| address            | street address of the venue     		   | EXIM, ITA, SBA, USTDA 						|
+| city               | city of the venue                       | EXIM, ITA, SBA, USTDA 						|
+| country            | country of the venue                    | EXIM, ITA, SBA, USTDA 						|
+| state              | state of the venue                      | EXIM, ITA, SBA, USTDA 						|
+| venue              | name of the venue                       | EXIM, ITA, SBA, USTDA 						| 
+| first_name         | contact's first name                    | EXIM, ITA, SBA, USTDA 						|
+| last_name          | contact's last name                     | EXIM, ITA, SBA, USTDA 						|
+| post               | contact's location                      | EXIM, ITA, SBA, USTDA 						|
+| person_title       | contact's company title                 | EXIM, ITA, SBA, USTDA 						|
+| phone              | contact's phone number                  | EXIM, ITA, SBA, USTDA 						|
+| email              | contact's email address                 | EXIM, ITA, SBA, USTDA 						| 
 
