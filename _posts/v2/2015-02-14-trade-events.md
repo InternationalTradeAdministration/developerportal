@@ -77,9 +77,21 @@ The **size** parameter allows you to configure the number of results to be retur
 [http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1](http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1)
 
 
-### The Five Event Sources
+### The Five Event Sources: 
+**State Department (DL)**, **Export-Import Bank (EXIM)**, **International Trade Administration (ITA)**, **Small Business Administration (SBA)**, **U.S. Trade and Development Agency (USTDA)**
 
 Each event source returns a unique set of fields.
+
+(new list)
+
+| Field              | Description                             | Source             |
+| ------------------ | --------------------------------------- | ------------------ |
+| id                 | Unique identifier for event             | DL					|
+| event_name         | Name given for the event                | DL					|
+| venue              | name of the venue                       | EXIM, ITA          |
+
+(/new list)
+
 
 #### State Department (DL)
 
