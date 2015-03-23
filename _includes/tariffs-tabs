@@ -11,7 +11,7 @@
 
 		<p>Because the North American Free Trade Agreement (NAFTA) tariff rates have declined to zero, Canada and Mexico data is not included.  Similarly, the tariff rates for almost all products shipped to Israel and Jordon have declined to zero and are not included here.</p>
 
-		<p>The output format for this API is JSON.  This data set is updated daily.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/tariff-rates">demo search app.</a></p>
+		<p>The output format for this API is JSON.  This data set is updated only when the corresponding Free Trade Agreement is negotiated or updated.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/tariff-rates">demo search app.</a></p>
 	</div>
 	<div class="pane" id="step2">
 		<p>Free Trade Agreements help lower the cost for companies to ship their products overseas.  Knowing tariffs rates for exporting specific products to each country helps companies understand the true cost of doing business with that country.  There are other tariff schedules, such as those negotiated by the World Bank, so it’s important for U.S. companies to know their options.</p>
