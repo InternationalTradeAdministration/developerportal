@@ -22,7 +22,7 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
     http://api.trade.gov/tariff_rates/search?q={term}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/tariff_rates/search?q=horses"><pre>http://api.trade.gov/tariff_rates/search?q=horses</pre></a></div>
 
@@ -33,7 +33,7 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 
 	http://api.trade.gov/tariff_rates/search?sources={source countries}
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/tariff_rates/search?sources=GT,AU"><pre>http://api.trade.gov/tariff_rates/search?sources=GT,AU</pre></a></div>
 
@@ -41,7 +41,7 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-#####Example:
+**_Example_**
 
 <div><a href="http://api.trade.gov/tariff_rates/search?size=1&offset=1"><pre>http://api.trade.gov/tariff_rates/search?size=1&offset=1</pre></a></div>
 
