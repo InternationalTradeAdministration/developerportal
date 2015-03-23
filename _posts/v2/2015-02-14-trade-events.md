@@ -68,46 +68,6 @@ Source Abbreviations as follows:
 * Small Business Administration = **SBA**
 * U.S. Trade and Development Agency = **USTDA**
 
-
-###venues
-
-Searches against fields in the **venues** array.
-
-| Field              | Description                             |
-| ------------------ | --------------------------------------- |
-| address            | street address of venue                 |
-| city               | city of venue                           |
-| country            | country of venue                        |
-| state              | state of venue                          |
-| venue              | name of the venue                       | 
-
-    http://api.trade.gov/trade_events/search?venues={query}
-
-**_Example_**
-
-[http://api.trade.gov/trade_events/search?venues=Hong Kong](http://api.trade.gov/trade_events/search?venues=Hong Kong)
-
-
-###contacts
-
-Searches against fields in the **contacts** array.  
-
-| Field              | Description                             |
-| ------------------ | --------------------------------------- |
-| first_name         | contact's first name                    |
-| last_name          | contact's last name                     |
-| post               | contact's location                      |
-| person_title       | contact's company title                 |
-| phone              | contact's phone number                  | 
-| email              | contact's email address                 |  
-
-    http://api.trade.gov/trade_events/search?contacts={query}
-
-**_Example_**
-
-[http://api.trade.gov/trade_events/search?contacts=Veronica](http://api.trade.gov/trade_events/search?contacts=Veronica)
-
-
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
