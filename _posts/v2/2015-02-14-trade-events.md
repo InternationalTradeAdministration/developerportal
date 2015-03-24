@@ -110,7 +110,7 @@ Each event source returns a unique set of fields.
 | &nbsp;&nbsp;&nbsp;&nbsp; _country_            | country of the venue                    | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _state_              | state of the venue                      | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _venue_              | name of the venue                       | EXIM, ITA, SBA, USTDA 						| 
-| contacts           | Contacts array. Fields in italics.              | ITA, SBA, USTDA 							|
+| contacts           | Contacts array. Fields in italics.              | EXIM, ITA, SBA, USTDA 							|
 | &nbsp;&nbsp;&nbsp;&nbsp; _email_              | contact's email address                 | EXIM, ITA, SBA, USTDA 						| 
 | &nbsp;&nbsp;&nbsp;&nbsp; _first_name_         | contact's first name                    | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _last_name_          | contact's last name                     | EXIM, ITA, SBA, USTDA 						|
