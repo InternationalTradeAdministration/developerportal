@@ -10,7 +10,7 @@ published: true
 ##Getting Started
 
 ###Do I need to register?
-You are now required to [register for](http://api.govwizely.com/) and use a key to access the data in the APIs.  Nevertheless, you may still use the APIs and other data free of charge and you are allowed unlimited access.  Just don’t spike us ;-)
+You are now required to [register for](https://api.trade.gov/users/sign_up) and use a key to access the data in the APIs.  Nevertheless, you may still use the APIs and other data free of charge and you are allowed unlimited access.  Just don’t spike us ;-)
 
 ###Are there any data limits for a single application or a developer?
 Currently there are no limits, however, we track traffic associated with an individual API key.
@@ -29,10 +29,6 @@ No. It's completely free.
 Yes, any application (including those for-profit) are welcome to use the API in any way that they see fit.
 
 <!-- as long as they conform to the [Developer License Agreement](/developer-license.html). -->
-
-###Other than agreeing to a license, do developers need accounts/API keys or other mechanisms?
-
-No, not at the moment.  Starting in 2015, developers will be required to register and receive a development key.
 
 <!-- Developers need to **register** and get an API key. ITA uses **XXX** to handle registration, API key distribution, and general management of the data flow. -->
 

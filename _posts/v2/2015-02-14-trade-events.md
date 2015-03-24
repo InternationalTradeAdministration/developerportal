@@ -62,7 +62,7 @@ Searches only the events specified by the **Source** Abbreviation.
 
 Source Abbreviations as follows:
 
-* State Department = **DL**
+* State Department's Direct Line = **DL**
 * Export-Import Bank = **EXIM**
 * International Trade Administration = **ITA**
 * Small Business Administration = **SBA**
@@ -100,7 +100,6 @@ Each event source returns a unique set of fields.
 | id                 | Unique identifier for event             | DL, EXIM, ITA, SBA, USTDA					|
 | event_name         | Name given for the event                | DL, EXIM, ITA, SBA, USTDA 					|
 | description        | Text describing the event 			   | DL, EXIM, ITA, SBA, USTDA 					|
-| description        | Text describing the event 			   | DL, EXIM, ITA, SBA, USTDA 					|
 | registration_link  | URL for the event's registration page   | DL, EXIM, ITA, SBA, USTDA 					|
 | start_date         | Start date of the event 			       | EXIM, ITA, SBA, USTDA 					    |
 | end_date           | The date the event will end  		   | EXIM, ITA, SBA, USTDA 					    |
@@ -118,8 +117,7 @@ Each event source returns a unique set of fields.
 | &nbsp;&nbsp;&nbsp;&nbsp; _last_name_          | contact's last name                     | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _phone_              | contact's phone number                  | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _post_               | contact's location                      | EXIM, ITA, SBA, USTDA 						|
-| event_name         | Name given for the event                | ITA, SBA, USTDA 					        |
-| event_type         | [The type of the event (controlled value)]({{ site.baseurl }}/v1/event-type-list.html) | ITA, SBA, USTDA 					    |
+| event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1/event-type-list.html)) | ITA, SBA, USTDA 					    |
 | cost               | Cost of the event                       | ITA, SBA, USTDA							|
 | registration_link  | URL for the event's registration page   | ITA, SBA, USTDA							|
 | url        		 | Link to the event's web page 		   | DL, EXIM, ITA 								|
