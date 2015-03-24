@@ -19,10 +19,11 @@ $(function(){
   });
 });
 </script>
-<script type="text/javascript" src="javascripts/simple-expand.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/simple-expand.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/jquery.cookie.js"></script>
 <script type="text/javascript">
     $(function () {
-        $('.expander').simpleexpand();
+        $('.expander').simpleexpand({'keepStateInCookie': false, 'cookieName': 'simple-expand'});
         prettyPrint();
     });
 </script>
