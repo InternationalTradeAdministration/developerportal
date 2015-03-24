@@ -8,7 +8,6 @@ published: true
 #Trade Leads API
 
 {% include trade-leads-tabs %}
-
 This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html) page for the Version 1 documentation.
 
 ##Resource URL
@@ -58,7 +57,7 @@ Searches only the leads specified by the **Source** field.
 
 [http://api.trade.gov/consolidated_screening_list/search?sources=state,uk](http://api.trade.gov/consolidated_screening_list/search?sources=state,uk)
 	
-Possible values of the source field:  CANADA, FBOPEN, STATE, UK (United Kingdom)
+Possible values of the source field:  CANADA, FBO, STATE, UK (United Kingdom)
 
 ###size + offset
 
@@ -131,7 +130,7 @@ Canadian leads are subject to Canada's license located at:
 | url                                  | URL that pertains to the bid |
 | specific_location                    | Location of the opportunity | 
 | specific_address                     | Address of the opportunity's location | 
-| source                               | FBOPEN |
+| source                               | FBO |
 
 
 ###State Department Description
