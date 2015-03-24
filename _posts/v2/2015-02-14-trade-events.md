@@ -104,8 +104,6 @@ Each event source returns a unique set of fields.
 | start_date         | Start date of the event 			       | EXIM, ITA, SBA, USTDA 					    |
 | end_date           | The date the event will end  		   | EXIM, ITA, SBA, USTDA 					    |
 | industries         | Industry categories assigned to the event    | EXIM, ITA, SBA, USTDA						|
-| first_name         | contact's first name                    | EXIM, ITA, SBA, USTDA 						|
-| person_title       | contact's company title                 | EXIM, ITA, SBA, USTDA 						|
 | venues             | Venues array. Fields in italics.    | EXIM, ITA, SBA, USTDA						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _address_            | street address of the venue     		   | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _city_               | city of the venue                       | EXIM, ITA, SBA, USTDA 						|
@@ -114,7 +112,9 @@ Each event source returns a unique set of fields.
 | &nbsp;&nbsp;&nbsp;&nbsp; _venue_              | name of the venue                       | EXIM, ITA, SBA, USTDA 						| 
 | contacts           | Contacts array. Fields in italics.              | ITA, SBA, USTDA 							|
 | &nbsp;&nbsp;&nbsp;&nbsp; _email_              | contact's email address                 | EXIM, ITA, SBA, USTDA 						| 
+| &nbsp;&nbsp;&nbsp;&nbsp; _first_name_         | contact's first name                    | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _last_name_          | contact's last name                     | EXIM, ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _person_title_       | contact's company title                 | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _phone_              | contact's phone number                  | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _post_               | contact's location                      | EXIM, ITA, SBA, USTDA 						|
 | event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1/event-type-list.html)) | ITA, SBA, USTDA 					    |
