@@ -6,7 +6,7 @@ layout: body
 
 ## Event Types for Trade Events
 
-The following terms are the only **event_types** that the API will return:
+For ITA events, the API returns the following terms for **event_types:**
 
 
 | event_type            | Region                                                     |
