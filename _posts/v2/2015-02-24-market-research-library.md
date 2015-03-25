@@ -9,7 +9,6 @@ layout: body
 
 
 {% include mrl-tabs %}
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/market-research-library.html) page for the Version 1 documentation.
 
 ##Resource URL
 
@@ -79,3 +78,6 @@ The **size** parameter allows you to configure the number of results to be retur
 | report_type     | The report type can either be CCG, Best Market Report, or Market Research Report|
 | title           | Report title  (default sort)                                    |
 | url             | URL for the report                                              |
+
+
+_This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/market-research-library.html) page for the Version 1 documentation._

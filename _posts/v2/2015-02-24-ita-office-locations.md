@@ -8,8 +8,6 @@ published: true
 #ITA Offices & Centers API
 
 {% include offices-tabs %}
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/ita-office-locations.html) page for the Version 1 documentation.
-
 
 ##Resource URL
 
@@ -83,3 +81,5 @@ The **size** parameter allows you to configure the number of results to be retur
 | mail_instructions | Snail mail instructions                                         |
 | phone             | Office phone number                                             |
 | post_type         | Type of post (domestic or international)                        |
+
+_This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/ita-office-locations.html) page for the Version 1 documentation._
