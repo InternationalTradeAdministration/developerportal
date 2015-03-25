@@ -141,35 +141,35 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 
 ###creation_date
 
-Returns articles based on the date they were created.  Dates are filtered by entering a starting date and/or ending date (creation_date_start and creation_date_end).
+Returns articles based on the date they were created.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
 
-    http://api.trade.gov/trade_articles/search?creation_date_start={term}&creation_date_end={term}
+    http://api.trade.gov/trade_articles/search?creation_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
-[http://api.trade.gov/trade_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-01](http://api.trade.gov/trade_articles/search?creation_date_start=2014-01-01&creation_date_end=2014-11-1)
+[http://api.trade.gov/trade_articles/search?creation_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/trade_articles/search?creation_date=2014-01-01 TO 2014-11-1)
 
 
 ###release_date
 
-Returns articles based on their release date.  Dates are filtered by entering a starting date and/or ending date (release_date_start and release_date_end).
+Returns articles based on their release date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
 
-    http://api.trade.gov/trade_articles/search?release_date_start={term}&release_date_end={term}
+    http://api.trade.gov/trade_articles/search?release_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
-[http://api.trade.gov/trade_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-01](http://api.trade.gov/trade_articles/search?release_date_start=2014-01-01&release_date_end=2014-11-1)
+[http://api.trade.gov/trade_articles/search?release_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/trade_articles/search?release_date=2014-01-01 TO 2014-11-01)
 
 
 ###expiration_date
 
-Returns articles based on their expiration date.  Dates are filtered by entering a starting date and/or ending date (expiration_date_start and expiration_date_end).
+Returns articles based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
 
-    http://api.trade.gov/trade_articles/search?expiration_date_start={term}&expiration_date_end={term}
+    http://api.trade.gov/trade_articles/search?expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
-[http://api.trade.gov/trade_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-01](http://api.trade.gov/trade_articles/search?expiration_date_start=2014-01-01&expiration_date_end=2014-11-1)
+[http://api.trade.gov/trade_articles/search?expiration_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/trade_articles/search?expiration_date=2014-01-01 TO 2014-11-1)
 
 
 ###size + offset

@@ -67,6 +67,29 @@ Source Abbreviations as follows:
 * Small Business Administration = **SBA**
 * U.S. Trade and Development Agency = **USTDA**
 
+
+###start_date
+
+Returns events based on their start date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+
+    http://api.trade.gov/trade_events/search?start_date={YYYY-mm-dd TO YYYY-mm-dd}
+
+**_Example_**
+
+[http://api.trade.gov/trade_events/search?start_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/trade_events/search?start_date=2015-03-25 TO 2015-12-31)
+
+
+###end_date
+
+Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+
+    http://api.trade.gov/trade_events/search?end_date={YYYY-mm-dd TO YYYY-mm-dd}
+
+**_Example_**
+
+[http://api.trade.gov/trade_events/search?end_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/trade_events/search?end_date=2015-03-25 TO 2015-12-31)
+
+
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.

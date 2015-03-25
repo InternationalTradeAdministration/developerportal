@@ -57,13 +57,13 @@ Returns FAQs based on topic name.  Enter multiple terms by separating with a com
 
 ###update_date
 
-Returns FAQs based on the date they were last updated.  Dates are filtered by entering a starting date and/or ending date (update_date_start and update_date_end).
+Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
 
-    http://api.trade.gov/ita_faqs/search?update_date_start={term}&update_date_end={term}
+    http://api.trade.gov/ita_faqs/search?update_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
-[http://api.trade.gov/ita_faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01](http://api.trade.gov/ita_faqs/search?update_date_start=2014-01-01&update_date_end=2014-11-01)
+[http://api.trade.gov/ita_faqs/search?update_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/ita_faqs/search?update_date=2014-01-01 TO 2014-11-01)
 
 ###size + offset
 
