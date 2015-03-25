@@ -147,6 +147,6 @@ Each event source returns a unique set of fields.
 | cost_currency      | The currency of the cost value          | USTDA										|
 
 
-_This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-events.html) page for the Version 1 documentation._
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-events.html) page for the Version 1 documentation.
 
 

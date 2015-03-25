@@ -232,5 +232,5 @@ UK leads are subject to their open government license located at:
 | industry                        | Industry tag associated with the lead |
 | specific_location               | Location of the opportunity | 
 
-_This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html) page for the Version 1 documentation._
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html) page for the Version 1 documentation.
 

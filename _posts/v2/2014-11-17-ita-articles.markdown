@@ -216,4 +216,4 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | url_html_source             | The URL for the HTML of the article's source.     |
 | url_xml_source            | The URL for the XML of the article's source.    |
 
-_This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-news-articles.html) page for the Version 1 documentation._
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-news-articles.html) page for the Version 1 documentation.
