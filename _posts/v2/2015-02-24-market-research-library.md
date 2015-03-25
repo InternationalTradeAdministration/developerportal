@@ -49,7 +49,8 @@ Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/
 
 ###expiration_date
 
-Returns entries based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns entries based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/market_research_library/search?expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 

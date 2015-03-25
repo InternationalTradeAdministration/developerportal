@@ -61,7 +61,8 @@ Possible values of the source field:  CANADA, FBO, STATE, UK (United Kingdom)
 
 ###publish_date
 
-Returns leads based on their publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns leads based on their publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_leads/search?publish_date={YYYY-mm-dd TO YYYY-mm-dd}
 
@@ -72,7 +73,8 @@ Returns leads based on their publish date.  Dates are filtered by comparing them
 
 ###end_date
 
-Returns leads based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns leads based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_leads/search?end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
@@ -83,7 +85,8 @@ Returns leads based on their end date.  Dates are filtered by comparing them aga
 
 ###publish_date_amended
 
-Returns leads based on their amended publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns leads based on their amended publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_leads/search?publish_date_amended={YYYY-mm-dd TO YYYY-mm-dd}
 

@@ -40,7 +40,8 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 
 ###final_year
 
-Returns entries based on the final_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.
+Returns entries based on the final_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/tariff_rates/search?final_year={YYYY TO YYYY}
 
@@ -51,7 +52,8 @@ Returns entries based on the final_year field.  Dates are filtered by comparing 
 
 ###partner_start_year
 
-Returns entries based on the partner_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.
+Returns entries based on the partner_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/tariff_rates/search?partner_start_year={YYYY TO YYYY}
 
@@ -62,7 +64,8 @@ Returns entries based on the partner_start_year field.  Dates are filtered by co
 
 ###reporter_start_year
 
-Returns entries based on the reporter_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.
+Returns entries based on the reporter_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/tariff_rates/search?reporter_start_year={YYYY TO YYYY}
 

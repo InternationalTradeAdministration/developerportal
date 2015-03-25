@@ -140,7 +140,8 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 
 ###creation_date
 
-Returns articles based on the date they were created.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns articles based on the date they were created.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_articles/search?creation_date={YYYY-mm-dd TO YYYY-mm-dd}
 
@@ -151,7 +152,8 @@ Returns articles based on the date they were created.  Dates are filtered by com
 
 ###release_date
 
-Returns articles based on their release date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns articles based on their release date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_articles/search?release_date={YYYY-mm-dd TO YYYY-mm-dd}
 
@@ -162,7 +164,8 @@ Returns articles based on their release date.  Dates are filtered by comparing t
 
 ###expiration_date
 
-Returns articles based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns articles based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_articles/search?expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 

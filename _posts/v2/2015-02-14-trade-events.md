@@ -69,7 +69,8 @@ Source Abbreviations as follows:
 
 ###start_date
 
-Returns events based on their start date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns events based on their start date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_events/search?start_date={YYYY-mm-dd TO YYYY-mm-dd}
 
@@ -80,7 +81,8 @@ Returns events based on their start date.  Dates are filtered by comparing them 
 
 ###end_date
 
-Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.
+Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
 
     http://api.trade.gov/trade_events/search?end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
