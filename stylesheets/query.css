@@ -135,12 +135,13 @@
 }
 
 .api-explorer .btn,.api-demo .btn {
-    font-size:14px;
+    font-size:13px;
+    padding:7px 10px;
     font-weight:400;
     color:#fafafa;
     white-space:nowrap;
-    border:1px solid #1d2643;
-    background:#026dd9;
+    border:none;
+    background:#3288c5;
 
 }
 
