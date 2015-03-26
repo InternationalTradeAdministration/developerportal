@@ -21,7 +21,7 @@ This endpoint will search across all five trade event sources.  To search a subs
 
 Searches for a match within the **registration_title**, **description**, **event_name**, **industries**, **city**, **venues.city**, **venues.state**, **venues.country**, **contacts.first_name**, **contacts.last_name**, and **contacts.person_title** fields.
 
-    http://api.trade.gov/trade_events/search?q={term}
+    http://api.trade.gov/trade_events/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -31,7 +31,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html)
 
-    http://api.trade.gov/trade_events/search?industry={term}
+    http://api.trade.gov/trade_events/search?api_key={your key}&industry={term}
 
 **_Example_**
 
@@ -41,7 +41,7 @@ Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/trade_events/search?countries={country code}
+    http://api.trade.gov/trade_events/search?api_key={your key}&countries={country code}
 
 **_Example_**
 
@@ -52,7 +52,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 Searches only the events specified by the **Source** Abbreviation.
 
-	 http://api.trade.gov/trade_events/search?sources={event source}
+	 http://api.trade.gov/trade_events/search?api_key={your key}&sources={event source}
 
 **_Example_**
 
@@ -72,7 +72,7 @@ Source Abbreviations as follows:
 Returns events based on their start date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/trade_events/search?start_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/trade_events/search?api_key={your key}&start_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -84,7 +84,7 @@ Returns events based on their start date.  Dates are filtered by comparing them 
 Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/trade_events/search?end_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/trade_events/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 

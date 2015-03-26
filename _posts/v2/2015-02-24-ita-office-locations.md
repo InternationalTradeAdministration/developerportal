@@ -19,7 +19,7 @@ published: true
 
 Returns office locations for a match within the **post** or **office name** fields.
 
-    http://api.trade.gov/ita_office_locations/search?q={keyword}
+    http://api.trade.gov/ita_office_locations/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Returns office locations for a match within the **post** or **office name** fiel
 
 Returns office locations based on city name
 
-    http://api.trade.gov/ita_office_locations/search?city={name of city}
+    http://api.trade.gov/ita_office_locations/search?api_key={your key}&city={name of city}
 
 **_Example_**
 
@@ -39,7 +39,7 @@ Returns office locations based on city name
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/ita_office_locations/search?countries={country codes}
+    http://api.trade.gov/ita_office_locations/search?api_key={your key}&countries={country codes}
 	
 **_Example_**
 
@@ -49,8 +49,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](https://www.usps.com/send/official-abbreviations.htm).
 
-    http://api.trade.gov/ita_office_locations/search?state
-	={state postal code abbreviation>}
+    http://api.trade.gov/ita_office_locations/search?api_key={your key}&state={state postal code abbreviation>}
 
 **_Example_**
 

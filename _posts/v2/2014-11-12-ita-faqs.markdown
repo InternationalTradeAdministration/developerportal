@@ -19,7 +19,7 @@ published: true
 
 Searches for a match within the question and answer fields.
 
-    http://api.trade.gov/ita_faqs/search?q={term}
+    http://api.trade.gov/ita_faqs/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Searches for a match within the question and answer fields.
 
 Returns FAQs based on industry name.  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/ita_faqs/search?industries={terms}
+    http://api.trade.gov/ita_faqs/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
@@ -39,7 +39,7 @@ Returns FAQs based on industry name.  Enter multiple terms by separating with a 
 
 Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/ita_faqs/search?countries={country codes}
+    http://api.trade.gov/ita_faqs/search?api_key={your key}&countries={country codes}
 
 **_Example_**
 
@@ -49,7 +49,7 @@ Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/st
 
 Returns FAQs based on topic name.  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/ita_faqs/search?topics={terms}
+    http://api.trade.gov/ita_faqs/search?api_key={your key}&topics={terms}
 
 **_Example_**
 
@@ -59,7 +59,7 @@ Returns FAQs based on topic name.  Enter multiple terms by separating with a com
 
 Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
-    http://api.trade.gov/ita_faqs/search?update_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 

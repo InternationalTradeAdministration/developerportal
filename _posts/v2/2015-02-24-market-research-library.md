@@ -20,7 +20,7 @@ layout: body
 
 Returns market research reports for a match in the **description** or **title** fields.
 
-    http://api.trade.gov/market_research_library/search?q={keyword}
+    http://api.trade.gov/market_research_library/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -30,7 +30,7 @@ Returns market research reports for a match in the **description** or **title** 
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/market_research_library/search?countries={country code}
+    http://api.trade.gov/market_research_library/search?api_key={your key}&countries={country code}
 
 **_Example_**
 
@@ -40,7 +40,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/industry-list-market-research-library.html)
 
-    http://api.trade.gov/market_research_library/search?industry={industry name}
+    http://api.trade.gov/market_research_library/search?api_key={your key}&industry={industry name}
 
 **_Example_**
 
@@ -52,7 +52,7 @@ Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/
 Returns entries based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/market_research_library/search?expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 

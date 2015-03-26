@@ -19,7 +19,7 @@ published: true
 
 Searches for a match within the **title**, **description**, **topic**, **tags**, and **procurement_organization** fields.
 
-    http://api.trade.gov/trade_leads/search?q={term}
+    http://api.trade.gov/trade_leads/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 Returns **industry** that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
 
-    http://api.trade.gov/trade_leads/search?industries={term}
+    http://api.trade.gov/trade_leads/search?api_key={your key}&industries={term}
 
 **_Example_**
 
@@ -39,7 +39,7 @@ Returns **industry** that the lead relates to.  Note:  This method allows you to
 
 Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
 
-    http://api.trade.gov/trade_leads/search?countries={country code}
+    http://api.trade.gov/trade_leads/search?api_key={your key}&countries={country code}
     
 **_Example_**
 
@@ -50,7 +50,7 @@ Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso
 
 Searches only the leads specified by the **Source** field.
 
-    http://api.trade.gov/trade_leads/search?sources={lead source}
+    http://api.trade.gov/trade_leads/search?api_key={your key}&sources={lead source}
 
 **_Example_**
 
@@ -64,7 +64,7 @@ Possible values of the source field:  CANADA, FBO, STATE, UK (United Kingdom)
 Returns leads based on their publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/trade_leads/search?publish_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/trade_leads/search?api_key={your key}&publish_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -76,7 +76,7 @@ Returns leads based on their publish date.  Dates are filtered by comparing them
 Returns leads based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/trade_leads/search?end_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/trade_leads/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -88,7 +88,7 @@ Returns leads based on their end date.  Dates are filtered by comparing them aga
 Returns leads based on their amended publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/trade_leads/search?publish_date_amended={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/trade_leads/search?api_key={your key}&publish_date_amended={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
