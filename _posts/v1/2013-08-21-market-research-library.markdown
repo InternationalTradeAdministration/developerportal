@@ -17,8 +17,6 @@ layout: body
 
 ##Search Parameters for market research library sources
 
-{% include query.html %}
-
 ###keyword
 
 Returns market research reports for a match in the **description** or **title** fields.
