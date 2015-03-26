@@ -13,6 +13,8 @@ published: true
 
 [http://api.trade.gov/ita_office_locations/search](http://api.trade.gov/ita_office_locations/search)
 
+{% include office-centers-query.html %}
+
 ##Search Parameters for ITA office locations sources
 
 ###keyword

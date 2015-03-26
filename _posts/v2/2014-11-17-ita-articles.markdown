@@ -14,6 +14,7 @@ layout: body
 
 [http://api.trade.gov/trade_articles/search](http://api.trade.gov/trade_articles/search)
 
+{% include articles-query.html %}
 
 ##Search Parameters
 

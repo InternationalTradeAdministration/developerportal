@@ -13,6 +13,7 @@ published: true
 
 [http://api.trade.gov/tariff_rates/search](http://api.trade.gov/tariff_rates/search)
 
+{% include tariff-rates-query.html %}
 
 ##Search Parameters
 

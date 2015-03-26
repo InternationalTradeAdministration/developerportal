@@ -13,6 +13,8 @@ published: true
 
 [http://api.trade.gov/ita_faqs/search](http://api.trade.gov/ita_faqs/search)
 
+{% include faqs-query.html %}
+
 ##Search Parameters
 
 ###keyword

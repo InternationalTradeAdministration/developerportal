@@ -13,6 +13,8 @@ published: true
 
 [http://api.trade.gov/trade_leads/search](http://api.trade.gov/trade_leads/search)
 
+{% include trade-leads-query.html %}
+
 ##Search Parameters for all leads
 
 ###keyword

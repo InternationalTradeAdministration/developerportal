@@ -15,6 +15,8 @@ This endpoint will search across all five trade event sources.  To search a subs
 
 [http://api.trade.gov/trade_events/search](http://api.trade.gov/trade_events/search)
 
+{% include trade-events-query.html %}
+
 ##Search Parameters for trade events sources
 
 ###keyword

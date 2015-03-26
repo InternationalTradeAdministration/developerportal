@@ -96,7 +96,7 @@
 
 @media (min-width:768px) {
 .api-explorer .explorer {
-    border-top:1px solid #dadada;
+    
     float:none!important;
     display:table-cell
 }
@@ -163,7 +163,7 @@
 .api-explorer textarea,.api-demo textarea {
     color:#bedfff;
     text-shadow:0 1px 0 rgba(0,0,0,0.3);
-    margin:0 0 15px;
+    
     border:none;
     background:#494855;
     resize:none;

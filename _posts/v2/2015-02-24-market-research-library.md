@@ -14,7 +14,7 @@ layout: body
 
 [http://api.trade.gov/market_research_library/search](http://api.trade.gov/market_research_library/search)
 
-{% include query.html %}
+{% include mrl-query.html %}
 
 ##Search Parameters for market research library sources
 
