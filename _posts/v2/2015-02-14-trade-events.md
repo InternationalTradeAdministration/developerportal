@@ -13,7 +13,7 @@ published: true
 ##Resource URL
 This endpoint will search across all five trade event sources.  To search a subset, see sources below.
 
-[http://api.trade.gov/trade_events/search](http://api.trade.gov/trade_events/search)
+[http://api.trade.gov/v2/trade_events/search](http://api.trade.gov/v2/trade_events/search)
 
 	{
 	id: "Live Google Hangout: Opportunities in India Smart City Development",
@@ -57,42 +57,42 @@ This endpoint will search across all five trade event sources.  To search a subs
 
 Searches for a match within the **registration_title**, **description**, **event_name**, **industries**, **city**, **venues.city**, **venues.state**, **venues.country**, **contacts.first_name**, **contacts.last_name**, and **contacts.person_title** fields.
 
-    http://api.trade.gov/trade_events/search?api_key={your key}&q={term}
+    http://api.trade.gov/v2/trade_events/search?api_key={your key}&q={term}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?q=computer](http://api.trade.gov/trade_events/search?q=computer)
+[http://api.trade.gov/v2/trade_events/search?q=computer](http://api.trade.gov/v2/trade_events/search?q=computer)
 
 ###industries
 
 Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/trade_events/search?api_key={your key}&industries={terms}
+    http://api.trade.gov/v2/trade_events/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?industries=Chemical,Coal](http://api.trade.gov/trade_events/search?industries=Chemical,Coal)
+[http://api.trade.gov/v2/trade_events/search?industries=Chemical,Coal](http://api.trade.gov/v2/trade_events/search?industries=Chemical,Coal)
 
 ###countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/trade_events/search?api_key={your key}&countries={country code}
+    http://api.trade.gov/v2/trade_events/search?api_key={your key}&countries={country code}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?countries=MX](http://api.trade.gov/trade_events/search?countries=MX)
+[http://api.trade.gov/v2/trade_events/search?countries=MX](http://api.trade.gov/v2/trade_events/search?countries=MX)
 
 
 ###sources
 
 Searches only the events specified by the **Source** Abbreviation.
 
-	 http://api.trade.gov/trade_events/search?api_key={your key}&sources={event source}
+	 http://api.trade.gov/v2/trade_events/search?api_key={your key}&sources={event source}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?sources=DL,EXIM](http://api.trade.gov/trade_events/search?sources=DL,EXIM)
+[http://api.trade.gov/v2/trade_events/search?sources=DL,EXIM](http://api.trade.gov/v2/trade_events/search?sources=DL,EXIM)
 
 Source Abbreviations as follows:
 
@@ -108,11 +108,11 @@ Source Abbreviations as follows:
 Returns events based on their start date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/trade_events/search?api_key={your key}&start_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/v2/trade_events/search?api_key={your key}&start_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?start_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/trade_events/search?start_date=2015-03-25 TO 2015-12-31)
+[http://api.trade.gov/v2/trade_events/search?start_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/trade_events/search?start_date=2015-03-25 TO 2015-12-31)
 
 
 ###end_date
@@ -120,11 +120,11 @@ Returns events based on their start date.  Dates are filtered by comparing them 
 Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/trade_events/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
+    http://api.trade.gov/v2/trade_events/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?end_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/trade_events/search?end_date=2015-03-25 TO 2015-12-31)
+[http://api.trade.gov/v2/trade_events/search?end_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/trade_events/search?end_date=2015-03-25 TO 2015-12-31)
 
 
 ###size + offset
@@ -133,24 +133,24 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1](http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1)
+[http://api.trade.gov/v2/trade_events/search?country=BR&size=1&offset=1](http://api.trade.gov/v2/trade_events/search?country=BR&size=1&offset=1)
 
 
 ### Examples of the Five Event Sources: 
 
-State Department (DL) [http://api.trade.gov/trade_events/search?sources=DL](http://api.trade.gov/trade_events/search?sources=DL)
+State Department (DL) [http://api.trade.gov/v2/trade_events/search?sources=DL](http://api.trade.gov/v2/trade_events/search?sources=DL)
 
 
-Export-Import Bank (EXIM) [http://api.trade.gov/trade_events/search?sources=EXIM](http://api.trade.gov/trade_events/search?sources=EXIM)    
+Export-Import Bank (EXIM) [http://api.trade.gov/v2/trade_events/search?sources=EXIM](http://api.trade.gov/v2/trade_events/search?sources=EXIM)    
 
 
-International Trade Administration (ITA) [http://api.trade.gov/trade_events/search?sources=ITA](http://api.trade.gov/trade_events/search?sources=ITA)
+International Trade Administration (ITA) [http://api.trade.gov/v2/trade_events/search?sources=ITA](http://api.trade.gov/v2/trade_events/search?sources=ITA)
 
 
-Small Business Administration (SBA) [http://api.trade.gov/trade_events/search?sources=SBA](http://api.trade.gov/trade_events/search?sources=SBA)
+Small Business Administration (SBA) [http://api.trade.gov/v2/trade_events/search?sources=SBA](http://api.trade.gov/v2/trade_events/search?sources=SBA)
 
 
-U.S. Trade and Development Agency (USTDA)  [http://api.trade.gov/trade_events/search?sources=SBA](http://api.trade.gov/trade_events/search?sources=SBA)
+U.S. Trade and Development Agency (USTDA)  [http://api.trade.gov/v2/trade_events/search?sources=SBA](http://api.trade.gov/v2/trade_events/search?sources=SBA)
 
 Each event source returns a unique set of fields.
 
