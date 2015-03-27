@@ -29,15 +29,15 @@ Searches for a match within the **registration_title**, **description**, **event
 
 [http://api.trade.gov/trade_events/search?q=computer](http://api.trade.gov/trade_events/search?q=computer)
 
-###industry
+###industries
 
-Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html)
+Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/trade_events/search?api_key={your key}&industry={term}
+    http://api.trade.gov/trade_events/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
-[http://api.trade.gov/trade_events/search?industry=Chemical](http://api.trade.gov/trade_events/search?industry=Chemical)
+[http://api.trade.gov/trade_events/search?industries=Chemical,Coal](http://api.trade.gov/trade_events/search?industries=Chemical,Coal)
 
 ###countries
 

@@ -38,15 +38,15 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 [http://api.trade.gov/market_research_library/search?countries=MX](http://api.trade.gov/market_research_library/search?countries=MX)
 
-###industry
+###industries
 
-Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/industry-list-market-research-library.html)
+Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/industry-list-market-research-library.html).  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/market_research_library/search?api_key={your key}&industry={industry name}
+    http://api.trade.gov/market_research_library/search?api_key={your key}&industries={industry names}
 
 **_Example_**
 
-[http://api.trade.gov/market_research_library/search?industry=agribusiness](http://api.trade.gov/market_research_library/search?industry=agribusiness)
+[http://api.trade.gov/market_research_library/search?industries=agribusiness,energy & mining](http://api.trade.gov/market_research_library/search?industries=agribusiness,energy & mining)
 
 
 ###expiration_date
