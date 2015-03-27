@@ -13,7 +13,15 @@ published: true
 
 [http://api.trade.gov/ita_faqs/search](http://api.trade.gov/ita_faqs/search)
 
-{% include faqs-query.html %}
+	{
+	id: "4",
+	question: "Despite my CE marking why does my importer ask for an A.TR-1 Certificate? What is the A.TR-1-Certificate?",
+	answer: "In the early stages of EU directives implementation, the Government of Turkey exhibited a bias towards CE marked products originating in Europe. The Government was suspicious of certificates of conformity originating outside of the European Union. The A.TR-1 Certificate is a document that establishes that goods are freely allowed to be sold to Turkey within the scope of Turkey's Customs Union with the European Union. Initially, companies were able to clear Turkish Customs easily by providing the Certificate of Conformity and the A.TR-1. Companies asked to ship via the European Union or are asked to acquire an A.TR-1 Certificate should contact the U.S. Embassy's Commercial Section for resolution of this matter. Any U.S. company providing evidence of directives conformity should be allowed access to the Turkish market without having to transship via the European continent.",
+	update_date: "2013-01-11",
+	topic: [ ],
+	industry: [ ],
+	country: [ ]
+	},
 
 ##Search Parameters
 

@@ -13,7 +13,46 @@ published: true
 
 [http://api.trade.gov/tariff_rates/search](http://api.trade.gov/tariff_rates/search)
 
-{% include tariff-rates-query.html %}
+	{
+	source_id: "144354",
+	tariff_line: "16051020",
+	subheading_description: "Crabmeat, prepared or preserved, in airtight containers",
+	hs_6: "160510",
+	base_rate: "0",
+	base_rate_alt: null,
+	final_year: "2004",
+	tariff_rate_quota: null,
+	tariff_rate_quota_note: null,
+	tariff_eliminated: null,
+	ag_id: null,
+	partner_name: "CL",
+	reporter_name: "US",
+	staging_basket: "Immediate",
+	partner_start_year: "2004",
+	reporter_start_year: null,
+	partner_agreement_name: "CL",
+	reporter_agreement_name: "US",
+	partner_agreement_approved: "true",
+	reporter_agreement_approved: null,
+	quota_name: null,
+	rule_text: "A change to heading 16.01 through 16.05 from any other chapter.",
+	link_text: null,
+	link_url: null,
+	annual_rates: {
+	y2004: "0.0000",
+	y2005: "0.0000",
+	y2006: "0.0000",
+	y2007: "0.0000",
+	y2008: "0.0000",
+	y2009: "0.0000",
+	y2010: "0.0000",
+	y2011: "0.0000",
+	y2012: "0.0000",
+	y2013: "0.0000"
+	},
+	alt_annual_rates: { },
+	source: "CL"
+	},
 
 ##Search Parameters
 

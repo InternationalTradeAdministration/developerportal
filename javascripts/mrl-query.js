@@ -138,8 +138,8 @@ library.json = {
                 .find(".metric").addClass("visible")
         })
     }), $(".api-explorer button.go").click(function() {
-        var e = 'http://api.govwizely.com/v2/consolidated_screening_list/search?api_key=-DgaM8IefU4280JDV36SHZC1'+ $(this).parents(".api-explorer-form").find(
-                 ".api-explorer-query-csl" ).val(),
+        var e = 'http://api.govwizely.com/v2/market_research_library/search?api_key=-DgaM8IefU4280JDV36SHZC1'+ $(this).parents(".api-explorer-form").find(
+                 ".api-explorer-query-mrl" ).val(),
             a = $(this).parents("div.api-explorer").find(
                 ".return");
         $(this), $(a).find(".response pre").html("Loading..."),
@@ -163,7 +163,7 @@ library.json = {
                     "The API response was an error. Check the syntax and give it another try."
                 )
             })
-    }), $(".api-explorer-query-csl").keypress(function(e) {
+    }), $(".api-explorer-query-mrl").keypress(function(e) {
         var a = e.keyCode ? e.keyCode : e.which,
             t = $(this).parents("div.api-explorer").find(
                 "button.go");

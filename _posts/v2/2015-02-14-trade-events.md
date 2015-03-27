@@ -15,7 +15,41 @@ This endpoint will search across all five trade event sources.  To search a subs
 
 [http://api.trade.gov/trade_events/search](http://api.trade.gov/trade_events/search)
 
-{% include trade-events-query.html %}
+	{
+	id: "Live Google Hangout: Opportunities in India Smart City Development",
+	event_name: "Live Google Hangout: Opportunities in India Smart City Development",
+	event_type: "",
+	start_date: "2015-03-16",
+	end_date: "2015-03-16",
+	cost: null,
+	cost_currency: "",
+	registration_link: "https://plus.google.com/events/c8i4j5d7cjmmurvludl61t7rloc",
+	registration_title: "Live Google Hangout: Opportunities in India Smart City Development",
+	description: "Join the U.S. Trade and Development Agency on Monday, Mar. 16, 2015 from 9:30 AM 10:30 AM EST, as we explore upcoming smart city development projects and opportunities in India. This live Google Hangout will feature a Q & A session with smart city experts and thought leaders with insight into Indias development plans. Henry Steingass, USTDAs Regional Director for South and Southeast Asia will moderate the Q & A. Panelists include: Mr. Pratap Padode - Executive Director of Smart Cities Council India Nolty Theriot - Director, U.S.-India Business Council Lux Rao CTO & Leader, HP Future Cities This Google Hangout follows USTDAs efforts to catalyze nearly $2 billion in capital for priority renewable energy projects in India. As part of these efforts, USTDA Director Leocadia I. Zak signed agreements on Jan. 26, 2015 with three Indian state governments to mobilize U.S. industry expertise and technologies to modernize the cities of Ajmer (Rajasthan), Allahabad (Uttar Pradesh) and Vishakhapatnam (Andhra Pradesh). Under these Memoranda of Understanding, USTDA plans to sponsor activities that will help each city develop safe, efficient and integrated energy, transportation and communications infrastructure.",
+	industries: [
+	"Energy, ICT, Transportation"
+	],
+	url: "http://www.ustda.gov/news/events/2015/SouthAsia/India/Google-Hangout-India-Smart-Cities.asp",
+	venues: [
+	{
+	country: "US",
+	state: "VA",
+	city: "Arlington",
+	venue: ""
+	}
+	],
+	contacts: [
+	{
+	first_name: "Steve",
+	last_name: "Lewis",
+	post: "USTDA",
+	person_title: "Public Affairs Specialist",
+	phone: "703-875-4357",
+	email: "slewis@ustda.gov"
+	}
+	],
+	source: "USTDA"
+	},
 
 ##Search Parameters for trade events sources
 

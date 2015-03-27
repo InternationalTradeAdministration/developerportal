@@ -13,7 +13,30 @@ published: true
 
 [http://api.trade.gov/trade_leads/search](http://api.trade.gov/trade_leads/search)
 
-{% include trade-leads-query.html %}
+	{
+	id: "DATATABLE.471",
+	lead_source: "African Development Bank",
+	country: "CF",
+	specific_location: "Africa",
+	title: "Pan-African University Support Project (PHASE II)",
+	project_number: "P-Z1-IAD-018",
+	industry: "Educational Services",
+	project_size: 50000000,
+	description: "Expansion of the thematic networks: support the inclusion of 10 Centers of Excellence by thematic area. Establishing the virtual platform to expand e-learning and m-learning in Africa (based on needs assessment conducted in Phase 1). Strenghtening R&D and Innovation as a major instrument for Africa's economic transformation through inclusive and green growth. Support consolidation of the PAU Governance structure. Currency: UAC",
+	tags: "Human Capital Development, Education",
+	publish_date: "2016-04-01",
+	end_date: "2016-10-16",
+	funding_source: "Development Banks",
+	borrowing_entity: "Pan African University for Science, Technology and Innovation",
+	procurement_organization: "Pan African University for Science, Technology and Innovation",
+	contact: "Corbin Michel Casimir Guedegbe - OSHD2, African Development Bank",
+	comments: null,
+	submitting_officer: "Chuka Asike",
+	submitting_officer_contact: "asikec@state.gov",
+	url: "http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-Z1-IAD-018/",
+	status: "Pipeline",
+	source: "STATE"
+	},
 
 ##Search Parameters for all leads
 

@@ -13,7 +13,26 @@ published: true
 
 [http://api.trade.gov/ita_office_locations/search](http://api.trade.gov/ita_office_locations/search)
 
-{% include office-centers-query.html %}
+	{
+	id: "AE:AbuDhabi",
+	post: "Abu Dhabi",
+	office_name: "Abu Dhabi",
+	country: "AE",
+	state: null,
+	city: "Abu Dhabi",
+	address: [
+	"American Embassy",
+	"Embassies District",
+	"Plot 38, Sector W59-02",
+	"Street No 4",
+	"Abu Dhabi, UAE"
+	],
+	email: "Office.Abudhabi@trade.gov",
+	fax: "971-2-414-2228",
+	mail_instructions: "Work Week: Sunday - Thursday",
+	phone: "971-2-414-2304",
+	post_type: "F"
+	},
 
 ##Search Parameters for ITA office locations sources
 
