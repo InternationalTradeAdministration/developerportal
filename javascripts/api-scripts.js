@@ -138,8 +138,8 @@ library.json = {
                 .find(".metric").addClass("visible")
         })
     }), $(".api-explorer button.go").click(function() {
-        var e = $(this).parents(".api-explorer-form").find(
-                ".api-explorer-query").val(),
+        var e = 'http://api.govwizely.com/v2/consolidated_screening_list/search?api_key=-DgaM8IefU4280JDV36SHZC1'+ $(this).parents(".api-explorer-form").find(
+                 ".api-explorer-query" ).val(),
             a = $(this).parents("div.api-explorer").find(
                 ".return");
         $(this), $(a).find(".response pre").html("Loading..."),
@@ -154,7 +154,7 @@ library.json = {
                     '<button class="btn pull-left response-close">Close</button>'
                 ), $(".response-close").click(function() {
                     $(this).parent().find("pre").html(
-                        'Click "Run query" to see its results.'
+                        'Add Search Parameters and click "Run query" to see results.'
                     ), $(this).parent().find(
                         ".response-close").remove()
                 })
