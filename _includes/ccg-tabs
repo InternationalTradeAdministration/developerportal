@@ -5,14 +5,16 @@
 <input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 
 	<div class="pane" id="step1">
-		<p>The Country Commercial Guides API is the atomization of more than 200 Country Commercial Guides from PDF format.</p>
-		<p> This data set is updated monthly.  The output format for this API is JSON.</p>
+		<p>Country Commercial Guides (CCGs) are present a comprehensive look at countries' commercial environments, using economic, political and market analysis. The CCGs were established by recommendation of the Trade Promotion Coordinating Committee (TPCC), a multi-agency task force, to consolidate various reporting documents prepared for the U.S. business community.</p>
+		<p>The Country Commercial Guides API breaks down the large report into searchable sections for countries of Argentina, Brazil, Colombia, China, and Panama.</p>
+		<p>The output format for this API is JSON.</p>
 	</div>
 	<div class="pane" id="step2">
-		<p> This data showcases the many industries within each country.</p>
+		<p>The Country Commercial Guides offer valuable content about an exporting market, but the content was only currently available in via a formatted document.</p>
 	</div>
 	<div class="pane" id="step3">
-		<p> This data can help international businesses select the best countries do business with.</p>
+		<p>Sections of the Country Commercial Guides appeal to different types of business users, so you may target specific types of content to the right audience. 
+		</p>
 	</div>
 
 </div>
