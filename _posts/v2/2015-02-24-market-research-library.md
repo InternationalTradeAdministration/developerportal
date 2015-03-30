@@ -11,7 +11,9 @@ layout: body
 
 ##Resource URL
 
-[http://api.trade.gov/v2/market_research_library/search](http://api.trade.gov/v2/market_research_library/search)
+    http://api.trade.gov/v2/market_research_library/search
+
+Sample JSON:
 
 	{
 	id: "14270225",
@@ -40,10 +42,12 @@ layout: body
 Returns market research reports for a match in the **description** or **title** fields.
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&q={keyword}
-    
+
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/market_research_library/search?q=modernization](http://api.trade.gov/v2/market_research_library/search?q=modernization)
+-->
 
 ###countries
 
@@ -51,9 +55,13 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&countries={country code}
 
+<!---    
+
 **_Example_**
 
 [http://api.trade.gov/v2/market_research_library/search?countries=MX](http://api.trade.gov/v2/market_research_library/search?countries=MX)
+
+-->
 
 ###industries
 
@@ -61,10 +69,11 @@ Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&industries={industry names}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/market_research_library/search?industries=agribusiness,energy & mining](http://api.trade.gov/v2/market_research_library/search?industries=agribusiness,energy & mining)
-
+-->
 
 ###expiration_date
 
@@ -73,18 +82,21 @@ Returns entries based on their expiration date.  Dates are filtered by comparing
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/market_research_library/search?expiration_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/market_research_library/search?expiration_date=2015-03-25 TO 2015-12-31)
-
+-->
 
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/v2/market_research_library/search?country=CA&size=1&offset=1)
+-->
 
 ###Return Values
 

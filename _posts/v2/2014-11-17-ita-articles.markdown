@@ -7,12 +7,13 @@ layout: body
 
 #Trade Articles API
 
-
 {% include articles-tabs %}
 
 ##Resource URL
 
-[http://api.trade.gov/v2/trade_articles/search](http://api.trade.gov/v2/trade_articles/search)
+    http://api.trade.gov/v2/trade_articles/search
+    
+Sample JSON:
 
 	{
 	id: "23",
@@ -43,10 +44,11 @@ Searches for a match within the **title**, **short_title**, **summary**, **conte
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&q={term}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?q=logistics](http://api.trade.gov/v2/trade_articles/search?q=logistics)
-
+-->
 
 ###export_phases
 
@@ -54,10 +56,11 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&export_phases={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?export_phases=Expand,Exporting](http://api.trade.gov/v2/trade_articles/search?export_phases=Expand,Exporting)
-
+-->
 
 ###industries
 
@@ -65,10 +68,11 @@ Returns articles based on [industry name](industry-list-ita-articles.html).  Ent
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&industries={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?industries=Education,Finance](http://api.trade.gov/v2/trade_articles/search?industries=Education,Finance)
-
+-->
 
 ###countries
 
@@ -76,10 +80,11 @@ Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/hom
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&countries={country codes}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?countries=MX,TR](http://api.trade.gov/v2/trade_articles/search?countries=MX,TR)
-
+-->
 
 ###topics
 
@@ -87,10 +92,11 @@ Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&topics={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?topics=Exporting,Trade Finance](http://api.trade.gov/v2/trade_articles/search?topics=Exporting,Trade Finance)
-
+-->
 
 ###sub_topics
 
@@ -98,10 +104,11 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&sub_topics={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?sub_topics=Export Training,Shipping](http://api.trade.gov/v2/trade_articles/search?sub_topics=Export Training,Shipping)
-
+-->
 
 ###geo_regions
 
@@ -109,10 +116,11 @@ Returns articles based on [geo region](geo-region-list.html).  Enter multiple te
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&geo_regions={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?geo_regions=Africa,Asia](http://api.trade.gov/v2/trade_articles/search?geo_regions=Africa,Asia)
-
+-->
 
 ###geo_subregions
 
@@ -120,10 +128,11 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&geo_subregions={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?geo_subregions=North Africa,East Asia](http://api.trade.gov/v2/trade_articles/search?geo_subregions=North Africa,East Asia)
-
+-->
 
 ###trade_regions
 
@@ -131,10 +140,11 @@ Returns articles based on [trade region](trade-region-list.html).  Enter multipl
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&trade_regions={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act](http://api.trade.gov/v2/trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act)
-
+-->
 
 ###trade_programs
 
@@ -142,10 +152,11 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&trade_programs={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?trade_programs=Advisory Committees,Advocacy](http://api.trade.gov/v2/trade_articles/search?trade_programs=Advisory Committees,Advocacy)
-
+-->
 
 ###trade_initiatives
 
@@ -153,10 +164,11 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&trade_initiatives={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next](http://api.trade.gov/v2/trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next)
-
+-->
 
 ###creation_date
 
@@ -165,10 +177,11 @@ Returns articles based on the date they were created.  Dates are filtered by com
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&creation_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?creation_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/trade_articles/search?creation_date=2014-01-01 TO 2014-11-1)
-
+-->
 
 ###release_date
 
@@ -177,10 +190,11 @@ Returns articles based on their release date.  Dates are filtered by comparing t
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&release_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?release_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/trade_articles/search?release_date=2014-01-01 TO 2014-11-01)
-
+-->
 
 ###expiration_date
 
@@ -189,19 +203,21 @@ Returns articles based on their expiration date.  Dates are filtered by comparin
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?expiration_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/trade_articles/search?expiration_date=2014-01-01 TO 2014-11-1)
-
+-->
 
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/trade_articles/search?countries=BR&size=1&offset=1](http://api.trade.gov/v2/trade_articles/search?countries=BR&size=1&offset=1)
-
+-->
 
 ##Return Values
 

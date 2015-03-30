@@ -11,7 +11,9 @@ published: true
 
 ##Resource URL
 
-[http://api.trade.gov/v2/tariff_rates/search](http://api.trade.gov/v2/tariff_rates/search)
+    http://api.trade.gov/v2/tariff_rates/search
+    
+Sample JSON:
 
 	{
 	source_id: "144354",
@@ -62,10 +64,11 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
     http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&q={term}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/tariff_rates/search?q=horses](http://api.trade.gov/v2/tariff_rates/search?q=horses)
-
+-->
 
 ###sources
 
@@ -73,10 +76,11 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 
 	http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&sources={source countries}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/tariff_rates/search?sources=GT,AU](http://api.trade.gov/v2/tariff_rates/search?sources=GT,AU)
-
+-->
 
 ###final_year
 
@@ -85,10 +89,11 @@ Returns entries based on the final_year field.  Dates are filtered by comparing 
 
     http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&final_year={YYYY TO YYYY}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/tariff_rates/search?final_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?final_year=2005 TO 2006)
-
+-->
 
 ###partner_start_year
 
@@ -97,10 +102,11 @@ Returns entries based on the partner_start_year field.  Dates are filtered by co
 
     http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&partner_start_year={YYYY TO YYYY}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/tariff_rates/search?partner_start_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?partner_start_year=2005 TO 2006)
-
+-->
 
 ###reporter_start_year
 
@@ -109,20 +115,21 @@ Returns entries based on the reporter_start_year field.  Dates are filtered by c
 
     http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&reporter_start_year={YYYY TO YYYY}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/tariff_rates/search?reporter_start_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?reporter_start_year=2005 TO 2006)
-
+-->
 
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/tariff_rates/search?size=1&offset=1](http://api.trade.gov/v2/tariff_rates/search?size=1&offset=1)
-
-
+-->
 
 ##Return Values
 

@@ -11,7 +11,9 @@ published: true
 
 ##Resource URL
 
-[http://api.trade.gov/v2/ita_faqs/search](http://api.trade.gov/v2/ita_faqs/search)
+    http://api.trade.gov/v2/ita_faqs/search
+
+Sample JSON:
 
 	{
 	id: "4",
@@ -31,9 +33,11 @@ Searches for a match within the question and answer fields.
 
     http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&q={term}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/ita_faqs/search?q=tpcc](http://api.trade.gov/v2/ita_faqs/search?q=tpcc)
+-->
 
 ###industries
 
@@ -41,9 +45,11 @@ Returns FAQs based on industry name.  Enter multiple terms by separating with a 
 
     http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&industries={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/ita_faqs/search?industries=Education,Legal Assistance](http://api.trade.gov/v2/ita_faqs/search?industries=Education,Legal Assistance)
+-->
 
 ###countries
 
@@ -51,9 +57,11 @@ Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/st
 
     http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&countries={country codes}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/ita_faqs/search?countries=MX,TR](http://api.trade.gov/v2/ita_faqs/search?countries=MX,TR)
+-->
 
 ###topics
 
@@ -61,9 +69,11 @@ Returns FAQs based on topic name.  Enter multiple terms by separating with a com
 
     http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&topics={terms}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/ita_faqs/search?topics=CE Marking,Trade Barriers](http://api.trade.gov/v2/ita_faqs/search?topics=CE Marking,Trade Barriers)
+-->
 
 ###update_date
 
@@ -71,18 +81,21 @@ Returns FAQs based on the date they were last updated.  Dates are filtered by co
 
     http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/ita_faqs/search?update_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/ita_faqs/search?update_date=2014-01-01 TO 2014-11-01)
+-->
 
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
+<!---    
 **_Example_**
 
 [http://api.trade.gov/v2/ita_faqs/search?countries=BR&size=1&offset=1](http://api.trade.gov/v2/ita_faqs/search?countries=BR&size=1&offset=1)
-
+-->
 
 ##Return Values
 
