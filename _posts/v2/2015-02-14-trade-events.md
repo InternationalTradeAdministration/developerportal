@@ -69,7 +69,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 ###industries
 
-Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
+Searches events for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_events/search?api_key={your key}&industries={terms}
 <!---    
