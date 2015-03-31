@@ -163,7 +163,7 @@ Small Business Administration (SBA) [http://api.trade.gov/v2/trade_events/search
 U.S. Trade and Development Agency (USTDA)  [http://api.trade.gov/v2/trade_events/search?sources=SBA](http://api.trade.gov/v2/trade_events/search?sources=SBA)
 -->
 
-Each event source returns a unique set of fields.
+Each event source returns a unique set of fields.  Not every source provides all fields.
 
 | Field              | Description                             | Source             |
 | ------------------ | --------------------------------------- | ------------------ |
