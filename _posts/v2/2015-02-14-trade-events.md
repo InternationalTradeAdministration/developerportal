@@ -80,7 +80,7 @@ Searches events for specific controlled [industry names]({{ site.baseurl }}/v1/i
 
 ###countries
 
-Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
+Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per location.
 
     http://api.trade.gov/v2/trade_events/search?api_key={your key}&countries={country code}
 <!---    
