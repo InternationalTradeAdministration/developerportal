@@ -11,4 +11,4 @@ exclude:
   - Gemfile.lock
   - vendor
 markdown: kramdown
-apikeyurl: 'https://api.govwizely.com'
+apikeyurl: 'https://api.trade.gov'
