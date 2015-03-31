@@ -41,7 +41,7 @@ Searches for a match within the question and answer fields.
 
 ###industries
 
-Returns FAQs based on industry name.  Enter multiple terms by separating with a comma.
+Returns FAQs based on [industry name](industry-list-faqs.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&industries={terms}
 
@@ -65,7 +65,7 @@ Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/st
 
 ###topics
 
-Returns FAQs based on topic name.  Enter multiple terms by separating with a comma.
+Returns FAQs based on [topic name](topic-list-faqs.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&topics={terms}
 
