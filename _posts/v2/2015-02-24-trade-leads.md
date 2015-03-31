@@ -80,7 +80,7 @@ Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso
 
 ###sources
 
-Searches only the leads specified by the **Source** field.
+Searches only the leads specified by the **Source** field.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per lead.
 
     http://api.trade.gov/v2/trade_leads/search?api_key={your key}&sources={lead source}
 
