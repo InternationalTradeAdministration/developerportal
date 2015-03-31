@@ -72,7 +72,7 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 ###sources
 
-Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.
+Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.
 
 	http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&sources={source countries}
 
