@@ -142,6 +142,8 @@ The **size** parameter allows you to configure the number of results to be retur
 [http://api.trade.gov/v2/trade_leads/search?size=1&offset=1](http://api.trade.gov/v2/trade_leads/search?size=1&offset=1)
 -->
 
+##The Four Sets of Trade Leads, Their Sources, and Specific Fields
+
 
 ###Canadian Leads
 
