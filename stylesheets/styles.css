@@ -403,6 +403,15 @@ background:none;
 margin-right:0;
 }
 
+.scroll {
+overflow:scroll;
+height:600px;
+}
+
+.child {
+height:1000px;
+}
+
 
 #guidance-for-information-users {
 background:#F9FCFD; 
