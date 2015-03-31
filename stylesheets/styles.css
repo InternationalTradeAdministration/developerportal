@@ -35,16 +35,28 @@ font-size:12px;
 }
 
 h2 {
-  font-size:16px; font-style:italic;color:#535353;
+  font-size:18px; color:#535353;
   border-bottom:1px solid #e5e5e5;
     border-width:1px 0;
     padding-bottom:20px;
+    padding-top:20px;
     
 }
 
 h3, h4, h5, h6 {
   color:#494949;
 }
+
+h3 {
+font-size: 16px;
+color:#000;
+}
+
+h5 {
+font-size: 15px;
+color:red;
+}
+
 
 a {
   color:#494949;
@@ -56,6 +68,7 @@ a:hover {
 text-decoration:underline;
 
 }
+
 
 a small {
   font-size:11px;
@@ -360,6 +373,12 @@ margin-bottom:20px;
 border-bottom: 1px solid #e8e8e8;
 } 
 
+.expander {
+text-indent: 50px;
+cursor: pointer; 
+cursor: hand;
+}
+
 #home {
 padding:15px;
 background:#0B5394;
@@ -393,6 +412,44 @@ background:#F9FCFD;
 padding:0 25px; 
 }
 
+.l-ribbon {
+  position: relative;
+  z-index: 1;
+  width: 735px;
+  background: none;
+}
+
+.ribbon__title {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 10px 30px;
+  margin: 0 -50px 10px;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  background: #e74c3c;
+  zoom: 1;
+}
+.ribbon__title:before, .ribbon__title:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  left: 0;
+  border-width: 0 10px 10px 0;
+  border-style: solid;
+  border-color: transparent #d62c1a;
+}
+.ribbon__title:after {
+  left: auto;
+  right: 0;
+  border-width: 0 0 10px 10px;
+}
 
 .imageBox {
 		position: relative;
@@ -513,6 +570,12 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+  
+  .l-ribbon {
+
+  width: auto;
+
+}
 
 }
 
@@ -524,7 +587,34 @@ footer {
   header ul {
     display:none;
   }
-  
+  .l-ribbon {
+
+  width: 275px;
+
+}
+
+header {
+text-align: center;
+padding-bottom:25px;
+}
+
+.imageBox {
+margin-top: -30px;
+}
+
+.imageBox img {
+width: 25px;
+}
+
+#sect2{
+padding-left:50px;
+padding-right:50px;
+}
+
+#side {
+    padding-left:50px;
+padding-right:50px;
+}
     
 }
 
