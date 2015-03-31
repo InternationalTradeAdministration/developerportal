@@ -65,7 +65,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 ###industries
 
-Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/industry-list-market-research-library.html).  Enter multiple terms by separating with a comma.
+Returns market research reports for specific controlled [industries]({{ site.baseurl }}/v1/industry-list-market-research-library.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&industries={industry names}
 
