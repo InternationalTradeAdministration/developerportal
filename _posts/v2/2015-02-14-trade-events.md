@@ -72,6 +72,7 @@ Searches for a match within the **registration_title**, **description**, **event
 Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_events/search?api_key={your key}&industries={terms}
+
 <!---    
 **_Example_**
 
@@ -83,6 +84,7 @@ Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
     http://api.trade.gov/v2/trade_events/search?api_key={your key}&countries={country code}
+
 <!---    
 **_Example_**
 
