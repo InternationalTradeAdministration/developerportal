@@ -23,8 +23,8 @@
 
 		<p><a href="http://apps.fas.usda.gov/agtarifftracker/Home/Search">The United States Department of Agriculture</a> (USDA) also publishes tariff rates from the same FTAs that this API uses as a source.  The USDA does not publish rates for as many countries as this API, however they do provide more detailed information, especially about products that have safeguards and quotas.  They also list the thresholds where the tariff rate changes when the quantity of the product being shipped changes.</p>
 
+		<p>The U.S. Census Bureau provides <a href="https://uscensus.prod.3ceonline.com/">a search tool</a> for finding the HS-6 code assigned to a particular product.  Developers could integrate this functionality into their own tool to help U.S. companies find tariff rates for their products more easily.</p>
 
-		<p>The U.S. Census Bureau provides <a href="https://uscensus.prod.3ceonline.com/">a search tool</a> for finding the HS-6 code assigned to a particular product.  Developers could integrate this functionality into their own tool to help U.S. companies find tariff rates for their products.</p>
 		<p>Mashed together, the data from this API as well as the data from the World Bank, the USDA, and Census can enhance Web pages about shipping particular products overseas.</p>
 	</div>
 
