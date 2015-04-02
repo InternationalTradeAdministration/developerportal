@@ -104,6 +104,7 @@
 
 .api-explorer pre {
     width:100%;
+    max-height:300px;
     font-size:13px;
     color:#555;
     margin-top:1ex;

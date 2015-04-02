@@ -56,7 +56,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 ###industries
 
-Returns **industry** that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) separated by commas, but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
+Returns **industry** that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
 
     http://api.trade.gov/v2/trade_leads/search?api_key={your key}&industries={term}
 
@@ -67,7 +67,7 @@ Returns **industry** that the lead relates to.  Note:  This method allows you to
 
 ###countries
 
-Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per lead.  
+Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
 
     http://api.trade.gov/v2/trade_leads/search?api_key={your key}&countries={country code}
 
@@ -80,7 +80,7 @@ Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso
 
 ###sources
 
-Searches only the leads specified by the **Source** field.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per lead.
+Searches only the leads specified by the **Source** field.
 
     http://api.trade.gov/v2/trade_leads/search?api_key={your key}&sources={lead source}
 
@@ -141,8 +141,6 @@ The **size** parameter allows you to configure the number of results to be retur
 
 [http://api.trade.gov/v2/trade_leads/search?size=1&offset=1](http://api.trade.gov/v2/trade_leads/search?size=1&offset=1)
 -->
-
-##The Four Sets of Trade Leads, Their Sources, and Specific Fields
 
 
 ###Canadian Leads

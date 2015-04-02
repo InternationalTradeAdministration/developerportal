@@ -69,7 +69,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 ###industries
 
-Searches events for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
+Searches for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_events/search?api_key={your key}&industries={terms}
 
@@ -81,7 +81,7 @@ Searches events for specific controlled [industry names]({{ site.baseurl }}/v1/i
 
 ###countries
 
-Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per location.
+Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
     http://api.trade.gov/v2/trade_events/search?api_key={your key}&countries={country code}
 
@@ -165,7 +165,7 @@ Small Business Administration (SBA) [http://api.trade.gov/v2/trade_events/search
 U.S. Trade and Development Agency (USTDA)  [http://api.trade.gov/v2/trade_events/search?sources=SBA](http://api.trade.gov/v2/trade_events/search?sources=SBA)
 -->
 
-Each event source returns a unique set of fields.  Not every source provides all fields.
+Each event source returns a unique set of fields.
 
 | Field              | Description                             | Source             |
 | ------------------ | --------------------------------------- | ------------------ |

@@ -128,7 +128,7 @@ library.json = {
                         $(e).find(".metric").addClass(
                             "visible"))
             })
-        }).fail(function() {
+       }).fail(function() {
         $(".api-status").each(function() {
             var e = this;
             $(e).data("endpoint"), $(e).find(".status")
@@ -138,8 +138,8 @@ library.json = {
                 .find(".metric").addClass("visible")
         })
     }), $(".api-explorer button.go").click(function() {
-        var e = 'http://api.govwizely.com/v2/market_research_library/search?api_key=-DgaM8IefU4280JDV36SHZC1'+ $(this).parents(".api-explorer-form").find(
-                 ".api-explorer-query-mrl" ).val(),
+        var e = $(this).parents(".api-explorer-form").find(
+                ".api-explorer-query").val(),
             a = $(this).parents("div.api-explorer").find(
                 ".return");
         $(this), $(a).find(".response pre").html("Loading..."),
@@ -154,7 +154,7 @@ library.json = {
                     '<button class="btn pull-left response-close">Close</button>'
                 ), $(".response-close").click(function() {
                     $(this).parent().find("pre").html(
-                        'Add Search Parameters and click "Run query" to see results.'
+                        '{..}'
                     ), $(this).parent().find(
                         ".response-close").remove()
                 })
@@ -163,7 +163,7 @@ library.json = {
                     "The API response was an error. Check the syntax and give it another try."
                 )
             })
-    }), $(".api-explorer-query-mrl").keypress(function(e) {
+    }), $(".api-explorer-query").keypress(function(e) {
         var a = e.keyCode ? e.keyCode : e.which,
             t = $(this).parents("div.api-explorer").find(
                 "button.go");

@@ -8,7 +8,7 @@
 		<p>The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.</p>
 		<p>In the event that a company, entity or person on the list appears to match a party potentially involved in an export transaction, additional due diligence should be conducted before proceeding. There may be a strict export prohibition, requirement for seeking a license application, evaluation of the end-use or user to ensure it does not result in an activity prohibited by any U.S. export regulations, or other restriction.  For more information view the <a href="https://www.youtube.com/watch?v=OOB6kdVKH4Q">informational video</a> from the National Customs Brokers.</p>
 		<p>Note: The API only contains active entities on the list. For historical research, please reference the sources directly.</p>
-		<p>The output format for this API is JSON.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
+		<p>The output format for this API is JSON.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries">demo search app</a>.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>When using this API, developers must provide the following information to their users to help them <a href="http://export.gov/ecr/index.asp">stay compliant with exporting law</a>.</p>
