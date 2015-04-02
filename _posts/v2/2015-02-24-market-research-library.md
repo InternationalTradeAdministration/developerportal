@@ -15,25 +15,7 @@ layout: body
 
 Sample JSON:
 
-	{
-	id: "14270225",
-	countries: [
-	"MX"
-	],
-	description: "Overview of port modernization projects to be developed in the next two years.",
-	expiration_date: "2014-02-15",
-	industries: {
-	original: [
-	"Construction, Building & Heavy Equipment",
-	"Industrial Equipment & Supplies",
-	"Marine Industries"
-	],
-	mapped: [ ]
-	},
-	report_type: "Market Research Report",
-	title: "Port Modernization Projects 2011",
-	url: "http://mr.export.gov/docs/x_2679968.pdf"
-	},
+{% include mrl-query.html %}
 
 ##Search Parameters for market research library sources
 
