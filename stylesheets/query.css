@@ -137,12 +137,10 @@
 
 .api-explorer .btn,.api-demo .btn {
     font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#535353;
+  color:#08c;
   font-weight:300;
     padding:0;
-    font-weight:400;
-    color:inherit;
-   
+    font-weight:400;   
     border:none;
     background:none;
 
@@ -153,14 +151,14 @@
 }
 
 .api-explorer .btn:hover,.api-demo .btn:hover {
-    color:inherit;
+    color:#08c;
     text-decoration: underline;
     background:none;
 
 }
 
 .api-explorer .btn:focus,.api-demo .btn:focus {
-    color:inherit;
+    color:#08c;
     outline:none
 }
 

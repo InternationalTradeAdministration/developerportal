@@ -11,8 +11,6 @@ layout: body
 
 ##Resource URL
 
-    http://api.trade.gov/v2/market_research_library/search
-
 {% include mrl-query.html %}
 
 ##Search Parameters for market research library sources
