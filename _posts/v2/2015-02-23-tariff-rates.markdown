@@ -72,7 +72,7 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 ###sources
 
-Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.
+Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.
 
 	http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&sources={source countries}
 
@@ -135,6 +135,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 | Field                        | Description                             |
 | ------------------           | --------------------------------------- |
+| source                       |    Two letter code for the “reporter” country with whom the U.S. as the Free Trade Agreement.   |
 | source_id                    | Unique identifier            |
 | tariff_line         	       | Product’s Harmonized System (HS) code for the product according to the reporter’s nomenclature |
 | subheading_description       |  English description at the subheading level (6-digit HS code)  |
@@ -161,4 +162,3 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | link_url                     |    URL to more detailed rule of origin information.   |
 | annual_rates                 |  Numeric year-by-year tariff rates under the FTA as the tariff is eliminated    |
 | alt_annual_rates             |    Non-numeric (specific) year-by-year tariff rates under the FTA.    |
-| source                       |    Two letter code for the “reporter” country with whom the U.S. as the Free Trade Agreement.   |
