@@ -13,8 +13,6 @@ layout: body
 
     http://api.trade.gov/v2/market_research_library/search
 
-Sample JSON:
-
 {% include mrl-query.html %}
 
 ##Search Parameters for market research library sources
