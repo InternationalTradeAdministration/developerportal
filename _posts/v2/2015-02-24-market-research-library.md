@@ -13,7 +13,27 @@ layout: body
 
     http://api.trade.gov/v2/market_research_library/search
 
-{% include mrl-query.html %}
+Sample JSON:
+
+	{
+	id: "14270225",
+	countries: [
+	"MX"
+	],
+	description: "Overview of port modernization projects to be developed in the next two years.",
+	expiration_date: "2014-02-15",
+	industries: {
+	original: [
+	"Construction, Building & Heavy Equipment",
+	"Industrial Equipment & Supplies",
+	"Marine Industries"
+	],
+	mapped: [ ]
+	},
+	report_type: "Market Research Report",
+	title: "Port Modernization Projects 2011",
+	url: "http://mr.export.gov/docs/x_2679968.pdf"
+	},
 
 ##Search Parameters for market research library sources
 
@@ -45,7 +65,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 ###industries
 
-Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/industry-list-market-research-library.html).  Enter multiple terms by separating with a comma.
+Returns market research reports for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-market-research-library.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&industries={industry names}
 
