@@ -17,6 +17,9 @@ Currently there are no limits, however, we track traffic associated with an indi
 
 <!-- The default setting will be no more than **X** calls per second and **XXX** calls per day. This threshold can be raised for either a specific API key or globally if needed. We expect to make adjustments to the default settings over time. Our goal is to encourage the development of applications that help exporters. We do not want to introduce any limitations that work against that. -->
 
+###How come I'm getting _"error": "Unauthorized"_ when I make a call to the API?
+You are now required to [register for](https://api.trade.gov/users/sign_up) and use a key to access the data in the APIs.
+
 ###What kind of data can I get from the API?
 Visit the links on the [Home page](http://developer.trade.gov) to learn more about the different data sets and their methods.
 
