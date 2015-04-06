@@ -153,7 +153,7 @@ library.json = {
                     '<button class="btn pull-left response-close">Close</button>'
                 ), $(".response-close").click(function() {
                     $(this).parent().find("pre").html(
-                        '{..}'
+                        ''
                     ), $(this).parent().find(
                         ".response-close").remove()
                 })
