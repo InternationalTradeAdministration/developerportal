@@ -11,29 +11,7 @@ layout: body
 
 ##Resource URL
 
-    http://api.trade.gov/v2/market_research_library/search
-
-Sample JSON:
-
-	{
-	id: "14270225",
-	countries: [
-	"MX"
-	],
-	description: "Overview of port modernization projects to be developed in the next two years.",
-	expiration_date: "2014-02-15",
-	industries: {
-	original: [
-	"Construction, Building & Heavy Equipment",
-	"Industrial Equipment & Supplies",
-	"Marine Industries"
-	],
-	mapped: [ ]
-	},
-	report_type: "Market Research Report",
-	title: "Port Modernization Projects 2011",
-	url: "http://mr.export.gov/docs/x_2679968.pdf"
-	},
+{% include mrl-query.html %}
 
 ##Search Parameters for market research library sources
 
@@ -42,6 +20,10 @@ Sample JSON:
 Returns market research reports for a match in the **description** or **title** fields.
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&q={keyword}
+
+**_Example_**
+
+{% include mrl-query-keyword.html %}
 
 <!---    
 **_Example_**
@@ -54,6 +36,10 @@ Returns market research reports for a match in the **description** or **title** 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&countries={country code}
+    
+**_Example_**
+
+{% include mrl-query-keyword-country.html %}
 
 <!---    
 
@@ -69,6 +55,10 @@ Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&industries={industry names}
 
+**_Example_**
+
+{% include mrl-query-keyword-industry.html %}
+
 <!---    
 **_Example_**
 
@@ -82,6 +72,10 @@ Returns entries based on their expiration date.  Dates are filtered by comparing
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+**_Example_**
+
+{% include mrl-query-keyword-date.html %}
+
 <!---    
 **_Example_**
 
@@ -91,6 +85,10 @@ Returns entries based on their expiration date.  Dates are filtered by comparing
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
+
+**_Example_**
+
+{% include mrl-query-size.html %}
 
 <!---    
 **_Example_**

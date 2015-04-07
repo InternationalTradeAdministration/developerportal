@@ -135,7 +135,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 | Field                        | Description                             |
 | ------------------           | --------------------------------------- |
-| source                       |    Two letter code for the “reporter” country with whom the U.S. as the Free Trade Agreement.   |
+| source                       |    Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.   |
 | source_id                    | Unique identifier            |
 | tariff_line         	       | Product’s Harmonized System (HS) code for the product according to the reporter’s nomenclature |
 | subheading_description       |  English description at the subheading level (6-digit HS code)  |
