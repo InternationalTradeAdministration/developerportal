@@ -136,13 +136,15 @@
 }
 
 .api-explorer .btn,.api-demo .btn {
-    font-size:13px;
-    padding:7px 10px;
-    font-weight:400;
-    color:#fafafa;
-    white-space:nowrap;
+    font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#08c;
+  font-weight:300;
+    padding:0;
+    font-weight:400;   
     border:none;
-    background:#3288c5;
+    background:none;
+    width:100%;
+    text-align:left;
 
 }
 
@@ -151,13 +153,14 @@
 }
 
 .api-explorer .btn:hover,.api-demo .btn:hover {
-    color:#fff;
-    background:#269afd;
+    color:#08c;
+    text-decoration: underline;
+    background:none;
 
 }
 
 .api-explorer .btn:focus,.api-demo .btn:focus {
-    color:#fff;
+    color:#08c;
     outline:none
 }
 

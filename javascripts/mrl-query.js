@@ -148,13 +148,12 @@ library.json = {
                     .prettyPrint(e)), $(a).parent().find(
                     ".response-close").remove(), $(a).find(
                     ".response pre").after(
-                    '<button class="btn pull-left response-close">Close</button>'
                 ), $(a).height() > 200 && $(a).find(
                     ".response pre").before(
                     '<button class="btn pull-left response-close">Close</button>'
                 ), $(".response-close").click(function() {
                     $(this).parent().find("pre").html(
-                        '{..}'
+                        ''
                     ), $(this).parent().find(
                         ".response-close").remove()
                 })

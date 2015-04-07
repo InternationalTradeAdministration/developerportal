@@ -15,4 +15,6 @@ Each API has an associated search app for demonstration purposes:
 * [Consolidated Screening List](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries)
 * [Trade Events](http://internationaltradeadministration.github.io/explorer/#/trade-events)
 * [Trade Leads](http://internationaltradeadministration.github.io/explorer/#/trade-leads)
+* [Tariff Rates](http://internationaltradeadministration.github.io/explorer/#/tariff-rates)
+* [FAQs on Exporting](http://internationaltradeadministration.github.io/explorer/#/faqs)
 * [ITA Offices & Centers](http://internationaltradeadministration.github.io/explorer/#/ita-office-locations)
