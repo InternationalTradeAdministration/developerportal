@@ -223,7 +223,7 @@ State Department leads are subject to their open government license located at:
 | Field	                             | Description  |
 | ------                             | -------------|  
 | id                                 | ID of the trade lead|
-| source                             | Source of the trade lead, typically an organization|
+| lead_source                             | Source of the trade lead, typically an organization|
 | country                            | The country associated with the lead |
 | specific_location                  | Location of the opportunity | 
 | title                              | Title of the lead |
@@ -243,6 +243,7 @@ State Department leads are subject to their open government license located at:
 | submitting_officer_contact         | Contract officer email|
 | url                                  | URL that pertains to the bid |
 | status                             | Status of the lead (note this API only shows open leads) |
+| source                             | STATE |
 
 ###UK Government Leads
 
@@ -273,6 +274,7 @@ UK leads are subject to their open government license located at:
 | notice_type                     | Type of contract |
 | industry                        | Industry tag associated with the lead |
 | specific_location               | Location of the opportunity | 
+| source                          | UK |
 
 This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html) page for the Version 1 documentation.
 
