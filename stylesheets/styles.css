@@ -614,6 +614,22 @@ padding-right:50px;
     padding-left:50px;
 padding-right:50px;
 }
+
+  table {
+  font-size:11px;
+}
+
+th, td {
+  font-size:11px;
+}
+
+dt {
+  font-size:11px;
+}
+
+th {
+  font-size:11px;
+}
     
 }
 
@@ -623,4 +639,5 @@ padding-right:50px;
     font-size:12pt;
     color:#444;
   }
+
 }
