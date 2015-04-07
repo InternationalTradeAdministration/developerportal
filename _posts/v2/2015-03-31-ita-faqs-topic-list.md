@@ -6,21 +6,21 @@ layout: body
 
 ## Topic Terms for FAQs
 
-* TPCC
-* Export Documents and Forms
 * Business Matchmaking
-* Trade Data
+* CAFTA-DR
+* Export Documents and Forms
+* Freight Forwarder
+* Getting Paid
+* Incoterms
 * Insurance
 * International Buyer Program
 * Loans
-* CAFTA-DR
 * NAFTA
-* Getting Paid
-* Shipping
-* Incoterms
-* Schedule B and HS Number
-* Tariffs and Import Fees
 * Personal Shipments
-* Freight Forwarder
-* Sales and Promotion
 * Product Labeling
+* Sales and Promotion
+* Schedule B and HS Number
+* Shipping
+* Tariffs and Import Fees
+* TPCC
+* Trade Data
