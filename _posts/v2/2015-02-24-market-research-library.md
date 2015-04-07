@@ -21,6 +21,7 @@ Returns market research reports for a match in the **description** or **title** 
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&q={keyword}
 
+**_Example_**
 
 {% include mrl-query-keyword.html %}
 
@@ -35,6 +36,8 @@ Returns market research reports for a match in the **description** or **title** 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&countries={country code}
+    
+**_Example_**
 
 {% include mrl-query-keyword-country.html %}
 
@@ -52,6 +55,8 @@ Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&industries={industry names}
 
+**_Example_**
+
 {% include mrl-query-keyword-industry.html %}
 
 <!---    
@@ -67,6 +72,8 @@ Returns entries based on their expiration date.  Dates are filtered by comparing
 
     http://api.trade.gov/v2/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+**_Example_**
+
 {% include mrl-query-keyword-date.html %}
 
 <!---    
@@ -79,6 +86,7 @@ Returns entries based on their expiration date.  Dates are filtered by comparing
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
+**_Example_**
 
 {% include mrl-query-size.html %}
 
