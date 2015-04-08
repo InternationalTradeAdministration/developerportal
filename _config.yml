@@ -12,3 +12,4 @@ exclude:
   - vendor
 markdown: kramdown
 apikeyurl: 'https://api.govwizely.com'
+apikey: '_aZaWWLd8jSl8Ha4S6Xv7OMI'
