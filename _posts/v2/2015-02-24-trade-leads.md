@@ -191,6 +191,7 @@ Canadian leads are subject to Canada's license located at:
 
 ##Return Values for FBOpen
 
+
 | Field	                               | Description  |
 | ------                               | -------------|  
 | notice_type                          | Type of contract |
