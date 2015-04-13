@@ -10,7 +10,8 @@ Title: Guidance
     <title>Trade.gov Developer Portal</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
-    
+    <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/bootstrap.min.css">
+     <link rel="stylesheet" href="{{ site.baseurl }}/octicons/octicons.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     
@@ -20,7 +21,8 @@ Title: Guidance
   </head>
   <body>
   
-    <div class="wrapper">
+  {% include topbar.html %}
+    <div class="wrapper" style="margin-top:50px;">
       {% include header.html %}
       
       
