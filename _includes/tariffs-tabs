@@ -19,7 +19,7 @@
 		<p>For more information read the <a href="http://export.gov/FTA/index.asp">U.S. Free Trade Agreements page</a> on export.gov.  U.S. businesses should pay close attention to the Rules of Origin pages for each country to determine whether or not their product qualifies for the reduced tariff rates under that FTA.</p>
 	</div>
 	<div class="pane" id="step3">
-		<p>The FTA API only includes tariff data for the 16 countries listed on the Background tab.  The <a href="http://data.worldbank.org/indicator/TM.TAX.MRCH.WM.FN.ZS">World Bank</a> negotiates trade agreements among many countries around the world, not just those with the U.S.  As such, they have different tariff rates that developers can use to compare with the rates in this API.</p>
+		<p>The FTA API only includes tariff data for the 16 countries listed on the Background tab.  The <a href="https://www.wto.org/english/res_e/reser_e/tariff_profiles_e.htm">World Trade Organization</a> publishes trade agreements among many countries around the world, not just those with the U.S.  As such, they have different tariff rates that developers can use to compare with the rates in this API.</p>
 
 		<p><a href="http://apps.fas.usda.gov/agtarifftracker/Home/Search">The United States Department of Agriculture</a> (USDA) also publishes tariff rates from the same FTAs that this API uses as a source.  The USDA does not publish rates for as many countries as this API, however they do provide more detailed information, especially about products that have safeguards and quotas.  They also list the thresholds where the tariff rate changes when the quantity of the product being shipped changes.</p>
 
