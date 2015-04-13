@@ -11,30 +11,7 @@ published: true
 
 ##Resource URL
 
-    http://api.trade.gov/v2/ita_office_locations/search
-    
-Sample JSON:
-
-	{
-	id: "AE:AbuDhabi",
-	post: "Abu Dhabi",
-	office_name: "Abu Dhabi",
-	country: "AE",
-	state: null,
-	city: "Abu Dhabi",
-	address: [
-	"American Embassy",
-	"Embassies District",
-	"Plot 38, Sector W59-02",
-	"Street No 4",
-	"Abu Dhabi, UAE"
-	],
-	email: "Office.Abudhabi@trade.gov",
-	fax: "971-2-414-2228",
-	mail_instructions: "Work Week: Sunday - Thursday",
-	phone: "971-2-414-2304",
-	post_type: "F"
-	},
+{% include office-centers-query.html %}
 
 ##Search Parameters for ITA office locations sources
 
@@ -43,6 +20,10 @@ Sample JSON:
 Returns office locations for a match within the **post** or **office name** fields.
 
     http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&q={keyword}
+
+**_Example_**
+
+{% include office-centers-query-keyword.html %}
 
 <!---    
 **_Example_**
@@ -56,6 +37,10 @@ Returns office locations based on city name
 
     http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&city={name of city}
 
+**_Example_**
+
+{% include office-centers-query-city.html %}
+
 <!---    
 **_Example_**
 
@@ -67,6 +52,10 @@ Returns office locations based on city name
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per office location.
 
     http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&countries={country codes}
+	
+**_Example_**	
+	
+{% include office-centers-query-country.html %}
 	
 <!---    
 **_Example_**
@@ -80,6 +69,10 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
     http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&state={state postal code abbreviation>}
 
+**_Example_**
+
+{% include office-centers-query-state.html %}
+
 <!---    
 **_Example_**
 
@@ -89,6 +82,10 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
+
+**_Example_**
+
+{% include office-centers-query-size.html %}
 
 <!---    
 **_Example_**

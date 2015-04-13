@@ -11,30 +11,7 @@ layout: body
 
 ##Resource URL
 
-    http://api.trade.gov/v2/trade_articles/search
-    
-Sample JSON:
-
-	{
-	id: "23",
-	content: " A factor, i.e. a commercial bank or a specialized financial firm, can assist an exporter with financing through the purchase of invoices or accounts receivable. Export factoring is offered under an agreement between the factor and the exporter, in which the factor purchases the exporter's short-term foreign accounts receivable for cash at a discount from the face value, normally without recourse, and assumes the risk on the ability of the foreign buyer to pay, and handles collections on the receivables. Thus, by virtually eliminating the risk of nonpayment by foreign buyers, factoring allows the exporter to offer open accounts, improves liquidity position, and boosts competitiveness in the global marketplace. Factoring foreign accounts receivables can be a viable alternative to export credit insurance, long-term bank financing, expensive short-term bridge loans or other types of borrowing that will create debt on the balance sheet. This method may be useful for more experienced exporters that are involved in multiple transactions and have a certain volume of yearly international sales. For more details on how factoring works and its pros and cons see Chapter 9 of the Trade Finance Guide. To find a factor, contact the Factors Chain International or the International Factoring Association. A forfaiter is a specialized finance firm or a department in banks offers non-recourse export financing through the purchase of medium-term trade receivables. Similar to factoring, forfaiting virtually eliminates the risk of nonpayment, once the goods have been delivered to the foreign buyer in accordance with the terms of sale. However, unlike factors, forfaiters typically work with the exporter who sells capital goods, commodities, or large projects and needs to offer periods of credit from 180 days to up to seven years. In forfaiting, receivables are normally guaranteed by the importer's bank, allowing the exporter to take the transaction off the balance sheet to enhance its key financial ratios. Forfeiting typically requires a bank guarantee for the foreign buyer. It allows opening an account in markets with relatively high credit risk. It is can be more expensive than commercial bank financing. For more information on forfaiting see Chapter 10 the Trade Finance Guide. To find a forfaiter, you may contact the Association of Trade and Forfaiting in the Americas, Inc. or the International Forfaiting Association. ",
-	pub_date: "2012-12-20",
-	title: "Factoring and Forfaiting",
-	update_date: "2013-04-30",
-	evergreen: null,
-	content_type: [ ],
-	export_phase: [ ],
-	industry: [ ],
-	topic: [ ],
-	subtopic: [ ],
-	trade_region: [ ],
-	geo_region: [ ],
-	geo_subregion: [ ],
-	country: [ ],
-	keyword: [
-	"Factoring & Forfaiting"
-	]
-	},
+{% include articles-query.html %}
 
 ##Search Parameters
 
@@ -43,6 +20,8 @@ Sample JSON:
 Searches for a match within the **title**, **short_title**, **summary**, **content**, and **keyword** fields.
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&q={term}
+
+{% include articles-query-keyword.html %}
 
 <!---    
 **_Example_**
@@ -56,6 +35,10 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&export_phases={terms}
 
+**_Example_**
+
+{% include articles-query-phases.html %}
+
 <!---    
 **_Example_**
 
@@ -67,6 +50,10 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 Returns articles based on [industry name](industry-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&industries={terms}
+
+**_Example_**
+
+{% include articles-query-industry.html %}
 
 <!---    
 **_Example_**
@@ -80,6 +67,10 @@ Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/hom
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&countries={country codes}
 
+**_Example_**
+
+{% include articles-query-country.html %}
+
 <!---    
 **_Example_**
 
@@ -91,6 +82,10 @@ Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/hom
 Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&topics={terms}
+
+**_Example_**
+
+{% include articles-query-topics.html %}
 
 <!---    
 **_Example_**
@@ -104,6 +99,10 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&sub_topics={terms}
 
+**_Example_**
+
+{% include articles-query-subtopics.html %}
+
 <!---    
 **_Example_**
 
@@ -115,6 +114,10 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 Returns articles based on [geo region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&geo_regions={terms}
+
+**_Example_**
+
+{% include articles-query-georegions.html %}
 
 <!---    
 **_Example_**
@@ -128,6 +131,10 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&geo_subregions={terms}
 
+**_Example_**
+
+{% include articles-query-subregions.html %}
+
 <!---    
 **_Example_**
 
@@ -139,6 +146,10 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 Returns articles based on [trade region](trade-region-list.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&trade_regions={terms}
+
+**_Example_**
+
+{% include articles-query-regions.html %}
 
 <!---    
 **_Example_**
@@ -152,6 +163,10 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&trade_programs={terms}
 
+**_Example_**
+
+{% include articles-query-programs.html %}
+
 <!---    
 **_Example_**
 
@@ -163,6 +178,10 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 Returns articles based on [trade initiative](trade-initiative-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&trade_initiatives={terms}
+
+**_Example_**
+
+{% include articles-query-initiatives.html %}
 
 <!---    
 **_Example_**
@@ -177,6 +196,10 @@ Returns articles based on the date they were created.  Dates are filtered by com
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&creation_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+**_Example_**
+
+{% include articles-query-creationdate.html %}
+
 <!---    
 **_Example_**
 
@@ -189,6 +212,10 @@ Returns articles based on their release date.  Dates are filtered by comparing t
 
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&release_date={YYYY-mm-dd TO YYYY-mm-dd}
+
+**_Example_**
+
+{% include articles-query-releasedate.html %}
 
 <!---    
 **_Example_**
@@ -203,6 +230,10 @@ Returns articles based on their expiration date.  Dates are filtered by comparin
 
     http://api.trade.gov/v2/trade_articles/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
+**_Example_**
+
+{% include articles-query-expirationdate.html %}
+
 <!---    
 **_Example_**
 
@@ -212,6 +243,10 @@ Returns articles based on their expiration date.  Dates are filtered by comparin
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
+
+**_Example_**
+
+{% include articles-query-size.html %}
 
 <!---    
 **_Example_**
