@@ -26,7 +26,6 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   color:#0851ab;
- 
 }
 
 h7 {
@@ -185,6 +184,10 @@ header {
   float:left;
   position:fixed;
   margin-bottom: auto;
+}
+
+#welcome {
+font-weight:normal
 }
 
 #news {
@@ -447,9 +450,10 @@ padding:0 25px;
 
 .imageBox {
 		position: relative;
-		float: right;
-		width:100px;
+		top:15px;
+		width:70px;
 		line-height:20px;
+		float:right;
 		}
 		.imageBox .hoverImg {
 			position: absolute;
@@ -470,16 +474,17 @@ padding:0 25px;
     /* To horizontally center images and caption */
     text-align: center;
     /* The width of the container also implies margin around the images. */
-    width: 120px;
+    width: 70px;
 }
-img {
-    
+.imageBox img {
+width: 25px;
+}    
 
-}
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
-    font-size:10px;
+    font-size:11px;
+    color:#08c;
     }
 
 #foot {
@@ -599,11 +604,12 @@ padding-top:35px;
 }
 
 .imageBox {
-margin-top: 0px;
+margin-top: -100px;
+margin-right: 300px;
 }
 
 .imageBox img {
-width: 25px;
+width: 40px;
 }
 
 #sect2{
