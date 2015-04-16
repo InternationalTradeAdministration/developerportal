@@ -1,14 +1,10 @@
-<header>
+<header id="full">
   <h3>API Key</h3>
   <p class="view"><a href="{{ site.apikeyurl }}">Get an API Key</a></p>
   <br/>
   <h3>Available APIs</h3>
-  <p class="view"><a href="{{ site.baseurl }}/market-research-library.html">Market Research Library</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/consolidated-screening-list.html">Consolidated Screening List</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/trade-events.html">Trade Events</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/trade-leads.html">Trade Leads</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/tariff-rates.html">Tariff Rates</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/faqs-exporting.html">FAQs on Exporting</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/ita-office-locations.html">ITA Offices & Centers</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/ita-trade-articles.html">Trade News & Articles</a></p>
+  {% for link in site.available_apis_nav %}
+    <p class="view"><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></p>
+  {% endfor %}
+  </p>
 </header>

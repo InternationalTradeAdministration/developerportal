@@ -26,7 +26,6 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   color:#0851ab;
- 
 }
 
 h7 {
@@ -80,6 +79,7 @@ a small {
 .wrapper {
   width:1200px;
   margin:0 auto;
+  margin-top:50px;
 }
 
 blockquote {
@@ -185,6 +185,10 @@ header {
   float:left;
   position:fixed;
   margin-bottom: auto;
+}
+
+#welcome {
+font-weight:normal
 }
 
 #news {
@@ -447,9 +451,10 @@ padding:0 25px;
 
 .imageBox {
 		position: relative;
-		float: right;
-		width:100px;
+		top:15px;
+		width:70px;
 		line-height:20px;
+		float:right;
 		}
 		.imageBox .hoverImg {
 			position: absolute;
@@ -470,16 +475,14 @@ padding:0 25px;
     /* To horizontally center images and caption */
     text-align: center;
     /* The width of the container also implies margin around the images. */
-    width: 120px;
+    width: 70px;
 }
-img {
-    
-
-}
+  
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
-    font-size:10px;
+    font-size:11px;
+    color:#08c;
     }
 
 #foot {
@@ -570,6 +573,23 @@ footer {
   width: auto;
 
 }
+section {
+  margin-top:75px;
+  border: 1px solid;
+  border-color: #e7e7e7;
+  padding-left:0px;
+  padding-right:0px;
+}
+
+#full{
+display:none;
+}
+
+#mob {
+text-align:center;
+float:right;
+border:none
+}
 
 }
 
@@ -588,22 +608,33 @@ footer {
 }
 
 section {
+  margin-top:75px;
   border: 1px solid;
   border-color: #e7e7e7;
+  padding-left:0px;
+  padding-right:0px;
 }
 
-header {
-text-align: center;
-margin-bottom:25px;
-padding-top:35px;
+#full{
+display:none;
+}
+
+#mob {
+text-align:center;
+margin-right:15%;
+border:none
+}
+
+#mob:hover {
+    background:none
 }
 
 .imageBox {
-margin-top: 0px;
+margin-right:40%;
 }
 
-.imageBox img {
-width: 25px;
+#mob h3 {
+margin-right: 20px;
 }
 
 #sect2{
