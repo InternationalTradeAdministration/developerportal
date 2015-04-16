@@ -13,3 +13,13 @@ exclude:
 markdown: kramdown
 apikeyurl: 'https://api.govwizely.com'
 apikey: '_aZaWWLd8jSl8Ha4S6Xv7OMI'
+available_apis_nav:
+  "market-research-library.html": "Market Research Library"
+  "consolidated-screening-list.html": "Consolidated Screening List"
+  "trade-events.html": "Trade Events"
+  "trade-leads.html": "Trade Leads"
+  "tariff-rates.html": "Tariff Rates"
+  "faqs-exporting.html": "FAQs on Exporting"
+  "ita-office-locations.html": "ITA Offices & Centers"
+  "ita-trade-articles.html": "Trade News & Articles"
+  
