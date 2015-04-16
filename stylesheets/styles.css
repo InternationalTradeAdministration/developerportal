@@ -79,6 +79,7 @@ a small {
 .wrapper {
   width:1200px;
   margin:0 auto;
+  margin-top:50px;
 }
 
 blockquote {
@@ -476,10 +477,7 @@ padding:0 25px;
     /* The width of the container also implies margin around the images. */
     width: 70px;
 }
-.imageBox img {
-width: 25px;
-}    
-
+  
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
@@ -575,6 +573,23 @@ footer {
   width: auto;
 
 }
+section {
+  margin-top:75px;
+  border: 1px solid;
+  border-color: #e7e7e7;
+  padding-left:0px;
+  padding-right:0px;
+}
+
+#full{
+display:none;
+}
+
+#mob {
+text-align:center;
+float:right;
+border:none
+}
 
 }
 
@@ -593,23 +608,33 @@ footer {
 }
 
 section {
+  margin-top:75px;
   border: 1px solid;
   border-color: #e7e7e7;
+  padding-left:0px;
+  padding-right:0px;
 }
 
-header {
-text-align: center;
-margin-bottom:25px;
-padding-top:35px;
+#full{
+display:none;
+}
+
+#mob {
+text-align:center;
+margin-right:15%;
+border:none
+}
+
+#mob:hover {
+    background:none
 }
 
 .imageBox {
-margin-top: -100px;
-margin-right: 300px;
+margin-right:40%;
 }
 
-.imageBox img {
-width: 40px;
+#mob h3 {
+margin-right: 20px;
 }
 
 #sect2{

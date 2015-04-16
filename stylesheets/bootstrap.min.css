@@ -4138,7 +4138,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
     padding-right:15px;
     padding-left:15px;
     overflow-x:visible;
-    text-align:right;
+    text-align:center;
     -webkit-overflow-scrolling:touch;
     border-top:1px solid transparent;
     -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.1);
@@ -4301,7 +4301,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 .navbar-nav .open .dropdown-menu {
     position:static;
     float:none;
-    text-align:right;
+    text-align:center;
     width:auto;
     margin-top:0;
     background-color:transparent;
