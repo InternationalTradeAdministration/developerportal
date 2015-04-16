@@ -3,11 +3,7 @@
   <p class="view"><a href="{{ site.apikeyurl }}">Get an API Key</a></p>
   <br/>
   <h3>Available APIs</h3>
-  {% for link in site.navigation %}
-    {% assign current = nil %}
-    {% if page.url == link.url %}
-      {% assign current = 'current' %}
-    {% endif %}
+  {% for link in site.available_apis_nav %}
     <p class="view"><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></p>
   {% endfor %}
   </p>

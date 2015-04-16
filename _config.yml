@@ -13,7 +13,7 @@ exclude:
 markdown: kramdown
 apikeyurl: 'https://api.govwizely.com'
 apikey: '_aZaWWLd8jSl8Ha4S6Xv7OMI'
-navigation:
+available_apis_nav:
 - text: Market Research Library
   url: market-research-library.html
 - text: Consolidated Screening List
