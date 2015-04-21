@@ -595,6 +595,10 @@ display:none;
 display:none;
 }
 
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+background:#E1E1E1;
+}
+
 }
 
 @media print, screen and (max-width: 480px) {
@@ -621,6 +625,10 @@ section {
 
 #full{
 display:none;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+background:#E1E1E1;
 }
 
 #mob {
