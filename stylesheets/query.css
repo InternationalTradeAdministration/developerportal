@@ -103,7 +103,7 @@
 }
 
 .api-explorer pre {
-    max-width:80%;
+    width:100%;
     max-height:300px;
     font-size:13px;
     color:#555;

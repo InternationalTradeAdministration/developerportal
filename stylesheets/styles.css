@@ -77,7 +77,7 @@ a small {
 }
 
 .wrapper {
-  width:1200px;
+  width:1250px;
   margin:0 auto;
   margin-top:50px;
 }
@@ -103,19 +103,17 @@ blockquote {
 
 
 #info {
-max-width:600px;	
+max-width:650px;	
 display: inline-block;
 float:left;
-padding-right: 20px;
+padding-right: 10px;
 }
 
 #side {
-width:300px;	
+width:275px;	
 display: inline-block;
 float:left;
 }
-
-
 
 
 code, pre {
@@ -297,7 +295,7 @@ header ul a strong {
 }
 
 section {
-  width:950px;
+  width:1000px;
   float:right;
   padding:30px 15px ;
   background:#fff;
@@ -451,7 +449,7 @@ padding:0 25px;
 
 .imageBox {
 		position: relative;
-		top:15px;
+		top:13px;
 		width:70px;
 		line-height:20px;
 		float:right;
@@ -586,9 +584,15 @@ display:none;
 }
 
 #mob {
-text-align:center;
-float:right;
 border:none
+}
+
+.imageBox {
+display:none;
+}
+
+#box-menu {
+display:none;
 }
 
 }
@@ -620,9 +624,9 @@ display:none;
 }
 
 #mob {
-text-align:center;
-margin-right:15%;
-border:none
+margin-right:125px;
+margin-top:-5px;
+border:none;
 }
 
 #mob:hover {
@@ -630,11 +634,15 @@ border:none
 }
 
 .imageBox {
-margin-right:40%;
+display:none;
 }
 
 #mob h3 {
 margin-right: 20px;
+}
+
+#box-menu {
+display:none;
 }
 
 #sect2{

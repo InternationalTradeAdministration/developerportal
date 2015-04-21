@@ -13,7 +13,7 @@ exclude:
 markdown: kramdown
 apikeyurl: 'https://api.govwizely.com'
 apikey: '_aZaWWLd8jSl8Ha4S6Xv7OMI'
-available_apis_nav:
+left_nav_available_apis:
 - text: Market Research Library
   url: market-research-library.html
 - text: Consolidated Screening List
@@ -30,3 +30,41 @@ available_apis_nav:
   url: ita-office-locations.html
 - text: Trade News & Articles
   url: ita-trade-articles.html
+  
+mobile_nav_apikey:
+- text: Get an API Key
+  url: https://api.govwizely.com/
+  
+mobile_nav_available_apis:
+- text: Market Research Library
+  url: market-research-library.html
+- text: Consolidated Screening List
+  url: consolidated-screening-list.html
+- text: Trade Events
+  url: trade-events.html
+- text: Trade Leads
+  url: trade-leads.html
+- text: Tariff Rates
+  url: tariff-rates.html
+- text: FAQs on Exporting
+  url: faqs-exporting.html
+- text: ITA Offices & Centers
+  url: ita-office-locations.html
+- text: Trade News & Articles
+  url: ita-trade-articles.html
+  
+mobile_nav_additional_resources:
+- text: Guidance
+  url: guidance.html
+- text: Contact Us
+  url: contact-us.html
+- text: App Gallery
+  url: app-gallery.html
+- text: API FAQs
+  url: api-faqs.html
+- text: Change Log
+  url: change-log.html
+- text: Terms of Service
+  url: tos.html
+  
+  
