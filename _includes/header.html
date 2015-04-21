@@ -3,7 +3,7 @@
   <p class="view"><a href="{{ site.apikeyurl }}">Get an API Key</a></p>
   <br/>
   <h3>Available APIs</h3>
-  {% for link in site.available_apis_nav %}
+  {% for link in site.left_nav_available_apis %}
     <p class="view"><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></p>
   {% endfor %}
   </p>
