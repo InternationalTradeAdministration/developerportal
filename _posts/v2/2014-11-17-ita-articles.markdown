@@ -5,7 +5,7 @@ title: ITA Trade Articles API
 layout: body
 ---
 
-#Trade Articles API
+#Trade News & Articles API
 
 {% include articles-tabs %}
 
