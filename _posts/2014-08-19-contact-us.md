@@ -14,6 +14,9 @@ Let us know if you would like to become an **API tester**.  We are working on ne
 **Feedback Survey**
 Please give us feedback about the APIs and the documentation by filling out our [survey on Survey Monkey](https://www.surveymonkey.com/s/LYVLXW9).
 
+**Get Email Notifications**
+[Submit your email address](https://public.govdelivery.com/accounts/USITATRADE/subscriber/new?topic_id=USITATRADE_568) and we will send you notifications everytime we update the APIs.
+
 **Submit Issues on GitHub**
 Visit our [Issues page](https://github.com/InternationalTradeAdministration/developerportal/issues) if you would like to report a bug, enhancement, or question.  Someone from the Data Services group will get back to you as soon as possible.
 
