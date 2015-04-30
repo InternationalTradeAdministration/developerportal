@@ -1,10 +1,10 @@
 ---
-permalink: contact-us.html
+permalink: contact.html
 layout: body
-title: Contact Us
+title: Contact
 ---
 
-#Contact Us
+#Contact
 
 **Email Us**
 Please email our [Data Services address](mailto:DataServices@trade.gov) if you would like to contact us directly.

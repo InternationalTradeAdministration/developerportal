@@ -547,6 +547,10 @@ footer {
     right:50px;
     top:52px;
   }
+  #full{
+display:none;
+}
+  
 }
 
 @media print, screen and (max-width: 720px) {
@@ -635,6 +639,19 @@ background:#E1E1E1;
 margin-right:125px;
 margin-top:-5px;
 border:none;
+  width:100%;
+  float:left;
+  position:relative;
+  margin-bottom: 0;
+}
+
+#mob h3 {
+margin:0;
+margin-bottom:5px;
+}
+
+#mob p {
+margin-left:0;
 }
 
 #mob:hover {
@@ -643,10 +660,6 @@ border:none;
 
 .imageBox {
 display:none;
-}
-
-#mob h3 {
-margin-right: 20px;
 }
 
 #box-menu {

@@ -3450,7 +3450,7 @@ tbody.collapse.in {
     z-index:1000;
     display:none;
     float:left;
-    min-width:160px;
+    min-width:200px;
     padding:5px 0;
     margin:2px 0 0;
     font-size:16px;
@@ -4525,7 +4525,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-default .navbar-toggle {
-    border-color:#ddd
+    
 }
 
 .navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover {
@@ -4533,7 +4533,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color:#888
+    background-color:#08c
 }
 
 .navbar-default .navbar-collapse,.navbar-default .navbar-form {

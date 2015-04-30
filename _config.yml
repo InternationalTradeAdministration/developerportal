@@ -56,8 +56,8 @@ mobile_nav_available_apis:
 mobile_nav_additional_resources:
 - text: Guidance
   url: guidance.html
-- text: Contact Us
-  url: contact-us.html
+- text: Contact
+  url: contact.html
 - text: App Gallery
   url: app-gallery.html
 - text: API FAQs
