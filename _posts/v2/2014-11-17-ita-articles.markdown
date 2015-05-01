@@ -7,6 +7,8 @@ layout: body
 
 #Trade News & Articles API
 
+######Data set updated daily
+
 {% include articles-tabs %}
 
 ##Resource URL

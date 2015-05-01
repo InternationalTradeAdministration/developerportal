@@ -7,6 +7,8 @@ published: true
 
 #Trade Leads API
 
+######Data set updated daily
+
 {% include trade-leads-tabs %}
 
 ##Resource URL

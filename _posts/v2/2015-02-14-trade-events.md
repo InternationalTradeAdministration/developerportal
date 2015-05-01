@@ -7,6 +7,7 @@ published: true
 
 #Trade Events API
 
+######Data set updated daily
 
 {% include events-tabs %}
 
