@@ -1,17 +1,17 @@
 <!--news line 1-->
         <p>
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Submit-Your-App-that-Uses-ITA's-APIs">
+        <p class="news">Have you used ITA's APIs to create a cool app or Web page?  Let us know.</p>
+        </a>
+        <h7>May 4, 2015</h7>
+        </p>
+        
+        <!--news line 2-->
+        <p>
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Version-2-of-ITA%E2%80%99s-Data-Services-Platform-Released">
         <p class="news">Version 2 of ITA's Data Services Platform Released.</p>
         </a>
         <h7>March 31, 2015</h7>
-        </p>
-            
-        <!--news line 2-->
-        <p class="list">
-        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/We%27ll-Be-At-Collaborate-2015!-on-January-23">
-        <p class="news">We'll Be At Collaborate 2015! in Washington DC on January 23.</p>
-        </a>
-        <h7>January 19, 2015</h7>
         </p>
         
         <!--news line 3-->
