@@ -7,8 +7,6 @@ published: true
 
 #ITA Offices & Centers API
 
-######Dataset updated monthly
-
 {% include offices-tabs %}
 
 ##Resource URL

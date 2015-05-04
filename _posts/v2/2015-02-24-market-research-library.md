@@ -7,8 +7,6 @@ layout: body
 
 #Market Research Library API 
 
-######Data set updated weekly
-
 {% include mrl-tabs %}
 
 ##Resource URL

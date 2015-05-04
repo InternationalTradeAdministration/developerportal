@@ -7,8 +7,6 @@ published: true
 
 #Tariff Rates API
 
-######Data set updated yearly
-
 {% include tariffs-tabs %}
 
 ##Resource URL

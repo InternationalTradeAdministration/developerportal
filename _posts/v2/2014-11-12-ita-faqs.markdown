@@ -7,8 +7,6 @@ published: true
 
 #FAQs on Exporting API
 
-######Data set updated monthly
-
 {% include faqs-tabs %}
 
 ##Resource URL
