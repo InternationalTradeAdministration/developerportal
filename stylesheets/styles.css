@@ -449,7 +449,7 @@ padding:0 25px;
 
 .imageBox {
 		position: relative;
-		top:13px;
+		top:15px;
 		width:70px;
 		line-height:20px;
 		float:right;
@@ -482,6 +482,10 @@ padding:0 25px;
     font-size:11px;
     color:#08c;
     }
+    
+#additional-resources {
+display:block;padding: 3px 20px;margin-bottom:5px;
+}
 
 #foot {
 background:transparent;
@@ -514,7 +518,7 @@ footer {
 }
 
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1250px) {
   
   div.wrapper {
     width:auto;
@@ -530,13 +534,16 @@ footer {
   header {
     padding-right:320px;
   }
+
   
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:30px 15px;
-    margin:0 0 20px;
-  }
+  border:1px solid #e5e5e5;
+  margin-top:50px;
+  border: 1px solid;
+  border-color: #e7e7e7;
+  padding-left:0px;
+  padding-right:0px;
+}
   
   header a small {
     display:inline;
@@ -547,9 +554,37 @@ footer {
     right:50px;
     top:52px;
   }
+  #full{
+margin-top:50px;
 }
 
-@media print, screen and (max-width: 720px) {
+#mob {
+margin-right:125px;
+margin-top:-5px;
+border:none;
+  width:100%;
+  float:left;
+  position:relative;
+  margin-bottom: 0;
+}
+
+#mob h3 {
+margin:0;
+margin-bottom:5px;
+}
+
+#mob p {
+margin-left:0;
+}
+
+#mob:hover {
+    background:none
+}
+
+  
+}
+
+@media print, screen and (max-width: 768px) {
   body {
     word-wrap:break-word;
   }
@@ -572,7 +607,7 @@ footer {
 
 }
 section {
-  margin-top:75px;
+  margin-top:40px;
   border: 1px solid;
   border-color: #e7e7e7;
   padding-left:0px;
@@ -597,6 +632,30 @@ display:none;
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
 background:#E1E1E1;
+padding-left:25px;
+}
+
+#mob {
+margin-right:125px;
+margin-top:-5px;
+border:none;
+  width:100%;
+  float:left;
+  position:relative;
+  margin-bottom: 0;
+}
+
+#mob h3 {
+margin:0;
+margin-bottom:5px;
+}
+
+#mob p {
+margin-left:0;
+}
+
+#mob:hover {
+    background:none
 }
 
 }
@@ -629,12 +688,26 @@ display:none;
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
 background:#E1E1E1;
+padding-left:25px;
 }
 
 #mob {
 margin-right:125px;
 margin-top:-5px;
 border:none;
+  width:100%;
+  float:left;
+  position:relative;
+  margin-bottom: 0;
+}
+
+#mob h3 {
+margin:0;
+margin-bottom:5px;
+}
+
+#mob p {
+margin-left:0;
 }
 
 #mob:hover {
@@ -643,10 +716,6 @@ border:none;
 
 .imageBox {
 display:none;
-}
-
-#mob h3 {
-margin-right: 20px;
 }
 
 #box-menu {
