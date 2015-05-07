@@ -19,7 +19,7 @@ published: true
 
 Searches for a match within the question and answer fields.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -35,7 +35,7 @@ Searches for a match within the question and answer fields.
 
 Returns FAQs based on [industry name](industry-list-faqs.html).  This method allows you to search for multiple industries (plural) separated by commas, but will only return one industry (singular) per FAQ.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&industries={terms}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
@@ -51,7 +51,7 @@ Returns FAQs based on [industry name](industry-list-faqs.html).  This method all
 
 Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per FAQ.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&countries={country codes}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&countries={country codes}
 
 **_Example_**
 
@@ -67,7 +67,7 @@ Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/st
 
 Returns FAQs based on [topic name](topic-list-faqs.html).  This method allows you to search for multiple topics (plural) separated by commas, but will only return one topic (singular) per FAQ.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&topics={terms}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&topics={terms}
 
 **_Example_**
 
@@ -83,7 +83,7 @@ Returns FAQs based on [topic name](topic-list-faqs.html).  This method allows yo
 
 Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
