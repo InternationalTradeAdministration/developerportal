@@ -12,7 +12,7 @@ exclude:
   - vendor
 markdown: kramdown
 webservices_baseurl: 'https://api.govwizely.com'
-apikey: '_aZaWWLd8jSl8Ha4S6Xv7OMI'
+apikey: 'Jnl2JctPOiUL9x7HVFR2m8Sr'
 
 left_nav_available_apis:
 - text: Market Research Library
