@@ -29,12 +29,6 @@ Searches for a match within the **registration_title**, **description**, **event
 
 {% include trade-events-query-keyword.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_events/search?q=computer](http://api.trade.gov/v2/trade_events/search?q=computer)
--->
-
 ###industries
 
 Searches events for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
@@ -44,12 +38,6 @@ Searches events for specific controlled [industry names]({{ site.baseurl }}/v1/i
 **_Example_**
 
 {% include trade-events-query-industry.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_events/search?industries=Chemical,Coal](http://api.trade.gov/v2/trade_events/search?industries=Chemical,Coal)
--->
 
 ###countries
 
@@ -61,12 +49,6 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 {% include trade-events-query-country.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_events/search?countries=MX](http://api.trade.gov/v2/trade_events/search?countries=MX)
--->
-
 ###sources
 
 Searches only the events specified by the **Source** Abbreviation.
@@ -76,12 +58,6 @@ Searches only the events specified by the **Source** Abbreviation.
 **_Example_**
 
 {% include trade-events-query-source.html %}
-
-<!---
-**_Example_**
-
-[http://api.trade.gov/v2/trade_events/search?sources=DL,EXIM](http://api.trade.gov/v2/trade_events/search?sources=DL,EXIM)
--->
 
 Source Abbreviations as follows:
 
@@ -103,12 +79,6 @@ Returns events based on their start date.  Dates are filtered by comparing them 
 
 {% include trade-events-query-startdate.html %}
 
-<!---
-**_Example_**
-
-[http://api.trade.gov/v2/trade_events/search?start_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/trade_events/search?start_date=2015-03-25 TO 2015-12-31)
--->
-
 ###end_date
 
 Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
@@ -120,12 +90,6 @@ Returns events based on their end date.  Dates are filtered by comparing them ag
 
 {% include trade-events-query-enddate.html %}
 
-<!---
-**_Example_**
-
-[http://api.trade.gov/v2/trade_events/search?end_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/trade_events/search?end_date=2015-03-25 TO 2015-12-31)
--->
-
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
@@ -133,12 +97,6 @@ The **size** parameter allows you to configure the number of results to be retur
 **_Example_**
 
 {% include trade-events-query-size.html %}
-
-<!---
-**_Example_**
-
-[http://api.trade.gov/v2/trade_events/search?country=BR&size=1&offset=1](http://api.trade.gov/v2/trade_events/search?country=BR&size=1&offset=1)
--->
 
 ### Examples of the Five Event Sources: 
 

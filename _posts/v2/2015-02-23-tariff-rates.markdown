@@ -25,12 +25,6 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 {% include tariff-rates-query-keyword.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/tariff_rates/search?q=horses](http://api.trade.gov/v2/tariff_rates/search?q=horses)
--->
-
 ###sources
 
 Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.
@@ -40,12 +34,6 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 **_Example_**
 
 {% include tariff-rates-query-source.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/tariff_rates/search?sources=GT,AU](http://api.trade.gov/v2/tariff_rates/search?sources=GT,AU)
--->
 
 ###final_year
 
@@ -58,12 +46,6 @@ Returns entries based on the final_year field.  Dates are filtered by comparing 
 
 {% include tariff-rates-query-finalyear.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/tariff_rates/search?final_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?final_year=2005 TO 2006)
--->
-
 ###partner_start_year
 
 Returns entries based on the partner_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
@@ -73,12 +55,6 @@ Returns entries based on the partner_start_year field.  Dates are filtered by co
 **_Example_**
 
 {% include tariff-rates-query-partner-startyear.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/tariff_rates/search?partner_start_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?partner_start_year=2005 TO 2006)
--->
 
 ###reporter_start_year
 
@@ -90,12 +66,6 @@ Returns entries based on the reporter_start_year field.  Dates are filtered by c
 
 {% include tariff-rates-query-reporter-startyear.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/tariff_rates/search?reporter_start_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?reporter_start_year=2005 TO 2006)
--->
-
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
@@ -103,12 +73,6 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 **_Example_**
 
 {% include tariff-rates-query-size.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/tariff_rates/search?size=1&offset=1](http://api.trade.gov/v2/tariff_rates/search?size=1&offset=1)
--->
 
 ##Return Values
 

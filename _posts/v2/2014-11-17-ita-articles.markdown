@@ -25,12 +25,6 @@ Searches for a match within the **title**, **short_title**, **summary**, **conte
 
 {% include articles-query-keyword.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?q=logistics](http://api.trade.gov/v2/trade_articles/search?q=logistics)
--->
-
 ###export_phases
 
 Returns articles based on the [export phase](export-phases-ita-articles.html).  Enter multiple terms by separating with a comma.
@@ -40,12 +34,6 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 **_Example_**
 
 {% include articles-query-phases.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?export_phases=Expand,Exporting](http://api.trade.gov/v2/trade_articles/search?export_phases=Expand,Exporting)
--->
 
 ###industries
 
@@ -57,12 +45,6 @@ Returns articles based on [industry name](industry-list-ita-articles.html).  Ent
 
 {% include articles-query-industry.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?industries=Education,Finance](http://api.trade.gov/v2/trade_articles/search?industries=Education,Finance)
--->
-
 ###countries
 
 Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
@@ -72,12 +54,6 @@ Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/hom
 **_Example_**
 
 {% include articles-query-country.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?countries=MX,TR](http://api.trade.gov/v2/trade_articles/search?countries=MX,TR)
--->
 
 ###topics
 
@@ -89,12 +65,6 @@ Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple
 
 {% include articles-query-topics.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?topics=Exporting,Trade Finance](http://api.trade.gov/v2/trade_articles/search?topics=Exporting,Trade Finance)
--->
-
 ###sub_topics
 
 Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
@@ -104,12 +74,6 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 **_Example_**
 
 {% include articles-query-subtopics.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?sub_topics=Export Training,Shipping](http://api.trade.gov/v2/trade_articles/search?sub_topics=Export Training,Shipping)
--->
 
 ###geo_regions
 
@@ -121,12 +85,6 @@ Returns articles based on [geo region](geo-region-list.html).  Enter multiple te
 
 {% include articles-query-georegions.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?geo_regions=Africa,Asia](http://api.trade.gov/v2/trade_articles/search?geo_regions=Africa,Asia)
--->
-
 ###geo_subregions
 
 Returns articles based on [geo sub-region](geo-region-list.html).  Enter multiple terms by separating with a comma.
@@ -136,12 +94,6 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 **_Example_**
 
 {% include articles-query-subregions.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?geo_subregions=North Africa,East Asia](http://api.trade.gov/v2/trade_articles/search?geo_subregions=North Africa,East Asia)
--->
 
 ###trade_regions
 
@@ -153,12 +105,6 @@ Returns articles based on [trade region](trade-region-list.html).  Enter multipl
 
 {% include articles-query-regions.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act](http://api.trade.gov/v2/trade_articles/search?trade_regions=Andean Community,African Growth and Opportunity Act)
--->
-
 ###trade_programs
 
 Returns articles based on [trade program](trade-program-list-ita-articles.html).  Enter multiple terms by separating with a comma.
@@ -169,12 +115,6 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 
 {% include articles-query-programs.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?trade_programs=Advisory Committees,Advocacy](http://api.trade.gov/v2/trade_articles/search?trade_programs=Advisory Committees,Advocacy)
--->
-
 ###trade_initiatives
 
 Returns articles based on [trade initiative](trade-initiative-list-ita-articles.html).  Enter multiple terms by separating with a comma.
@@ -184,12 +124,6 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 **_Example_**
 
 {% include articles-query-initiatives.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next](http://api.trade.gov/v2/trade_articles/search?trade_initiatives=Discover Global Markets,NEI Next)
--->
 
 ###creation_date
 
@@ -202,12 +136,6 @@ Returns articles based on the date they were created.  Dates are filtered by com
 
 {% include articles-query-creationdate.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?creation_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/trade_articles/search?creation_date=2014-01-01 TO 2014-11-1)
--->
-
 ###release_date
 
 Returns articles based on their release date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
@@ -218,12 +146,6 @@ Returns articles based on their release date.  Dates are filtered by comparing t
 **_Example_**
 
 {% include articles-query-releasedate.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?release_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/trade_articles/search?release_date=2014-01-01 TO 2014-11-01)
--->
 
 ###expiration_date
 
@@ -236,12 +158,6 @@ Returns articles based on their expiration date.  Dates are filtered by comparin
 
 {% include articles-query-expirationdate.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?expiration_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/trade_articles/search?expiration_date=2014-01-01 TO 2014-11-1)
--->
-
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
@@ -249,12 +165,6 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 **_Example_**
 
 {% include articles-query-size.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/trade_articles/search?countries=BR&size=1&offset=1](http://api.trade.gov/v2/trade_articles/search?countries=BR&size=1&offset=1)
--->
 
 ##Return Values
 

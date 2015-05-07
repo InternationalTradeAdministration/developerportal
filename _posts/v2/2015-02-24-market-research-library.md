@@ -25,12 +25,6 @@ Returns market research reports for a match in the **description** or **title** 
 
 {% include mrl-query-keyword.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?q=modernization](http://api.trade.gov/v2/market_research_library/search?q=modernization)
--->
-
 ###countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
@@ -51,12 +45,6 @@ Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/
 
 {% include mrl-query-keyword-industry.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?industries=agribusiness,energy & mining](http://api.trade.gov/v2/market_research_library/search?industries=agribusiness,energy & mining)
--->
-
 ###expiration_date
 
 Returns entries based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
@@ -68,12 +56,6 @@ Returns entries based on their expiration date.  Dates are filtered by comparing
 
 {% include mrl-query-keyword-date.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?expiration_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/market_research_library/search?expiration_date=2015-03-25 TO 2015-12-31)
--->
-
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
@@ -81,12 +63,6 @@ The **size** parameter allows you to configure the number of results to be retur
 **_Example_**
 
 {% include mrl-query-size.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/v2/market_research_library/search?country=CA&size=1&offset=1)
--->
 
 ###Return Values
 

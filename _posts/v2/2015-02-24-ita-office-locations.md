@@ -25,12 +25,6 @@ Returns office locations for a match within the **post** or **office name** fiel
 
 {% include office-centers-query-keyword.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/ita_office_locations/search?q=Sao+Paulo](http://api.trade.gov/v2/ita_office_locations/search?q=Sao+Paulo)
--->
-
 ###city
 
 Returns office locations based on city name
@@ -40,12 +34,6 @@ Returns office locations based on city name
 **_Example_**
 
 {% include office-centers-query-city.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/ita_office_locations/search?city=Sao+Paulo](http://api.trade.gov/v2/ita_office_locations/search?city=Sao+Paulo)
--->
 
 ###countries
 
@@ -67,12 +55,6 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
 {% include office-centers-query-state.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/ita_office_locations/search?state=TN](http://api.trade.gov/v2/ita_office_locations/search?state=TN)
--->
-
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
@@ -80,12 +62,6 @@ The **size** parameter allows you to configure the number of results to be retur
 **_Example_**
 
 {% include office-centers-query-size.html %}
-
-<!---    
-**_Example_**
-
-<div><a href="http://api.trade.gov/v2/ita_office_locations/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/v2/ita_office_locations/search?country=BR&size=1&offset=1</pre></a></div>
--->
 
 ###Data Elements
 
