@@ -19,65 +19,41 @@ published: true
 
 Returns office locations for a match within the **post** or **office name** fields.
 
-    http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
 {% include office-centers-query-keyword.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/ita_office_locations/search?q=Sao+Paulo](http://api.trade.gov/v2/ita_office_locations/search?q=Sao+Paulo)
--->
-
 ###city
 
 Returns office locations based on city name
 
-    http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&city={name of city}
+    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&city={name of city}
 
 **_Example_**
 
 {% include office-centers-query-city.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/ita_office_locations/search?city=Sao+Paulo](http://api.trade.gov/v2/ita_office_locations/search?city=Sao+Paulo)
--->
-
 ###countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per office location.
 
-    http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&countries={country codes}
-	
-**_Example_**	
-	
-{% include office-centers-query-country.html %}
-	
-<!---    
+    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&countries={country codes}
+
 **_Example_**
 
-[http://api.trade.gov/v2/ita_office_locations/search?countries=BR,GT](http://api.trade.gov/v2/ita_office_locations/search?countries=BR,GT)
--->
+{% include office-centers-query-country.html %}
 
 ###state
 
 Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](https://www.usps.com/send/official-abbreviations.htm).
 
-    http://api.trade.gov/v2/ita_office_locations/search?api_key={your key}&state={state postal code abbreviation>}
+    {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&state={state postal code abbreviation>}
 
 **_Example_**
 
 {% include office-centers-query-state.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/ita_office_locations/search?state=TN](http://api.trade.gov/v2/ita_office_locations/search?state=TN)
--->
 
 ###size + offset
 
@@ -86,12 +62,6 @@ The **size** parameter allows you to configure the number of results to be retur
 **_Example_**
 
 {% include office-centers-query-size.html %}
-
-<!---    
-**_Example_**
-
-<div><a href="http://api.trade.gov/v2/ita_office_locations/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/v2/ita_office_locations/search?country=BR&size=1&offset=1</pre></a></div>
--->
 
 ###Data Elements
 

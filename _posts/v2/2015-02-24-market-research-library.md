@@ -19,68 +19,42 @@ layout: body
 
 Returns market research reports for a match in the **description** or **title** fields.
 
-    http://api.trade.gov/v2/market_research_library/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
 {% include mrl-query-keyword.html %}
 
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?q=modernization](http://api.trade.gov/v2/market_research_library/search?q=modernization)
--->
-
 ###countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
-    http://api.trade.gov/v2/market_research_library/search?api_key={your key}&countries={country code}
-    
+    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&countries={country code}
+
 **_Example_**
 
 {% include mrl-query-keyword-country.html %}
-
-<!---    
-
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?countries=MX](http://api.trade.gov/v2/market_research_library/search?countries=MX)
-
--->
 
 ###industries
 
 Returns market research reports for a specific [industry]({{ site.baseurl }}/v1/industry-list-market-research-library.html).  Enter multiple terms by separating with a comma.
 
-    http://api.trade.gov/v2/market_research_library/search?api_key={your key}&industries={industry names}
+    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&industries={industry names}
 
 **_Example_**
 
 {% include mrl-query-keyword-industry.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?industries=agribusiness,energy & mining](http://api.trade.gov/v2/market_research_library/search?industries=agribusiness,energy & mining)
--->
 
 ###expiration_date
 
 Returns entries based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/v2/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&expiration_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
 {% include mrl-query-keyword-date.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?expiration_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/market_research_library/search?expiration_date=2015-03-25 TO 2015-12-31)
--->
 
 ###size + offset
 
@@ -89,12 +63,6 @@ The **size** parameter allows you to configure the number of results to be retur
 **_Example_**
 
 {% include mrl-query-size.html %}
-
-<!---    
-**_Example_**
-
-[http://api.trade.gov/v2/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/v2/market_research_library/search?country=CA&size=1&offset=1)
--->
 
 ###Return Values
 

@@ -11,8 +11,9 @@ exclude:
   - Gemfile.lock
   - vendor
 markdown: kramdown
-apikeyurl: 'https://api.govwizely.com'
-apikey: '_aZaWWLd8jSl8Ha4S6Xv7OMI'
+webservices_baseurl: 'https://api.govwizely.com'
+apikey: 'Jnl2JctPOiUL9x7HVFR2m8Sr'
+
 left_nav_available_apis:
 - text: Market Research Library
   url: market-research-library.html
@@ -30,11 +31,7 @@ left_nav_available_apis:
   url: ita-office-locations.html
 - text: Trade News & Articles
   url: ita-trade-articles.html
-  
-mobile_nav_apikey:
-- text: Get an API Key
-  url: https://api.govwizely.com/
-  
+
 mobile_nav_available_apis:
 - text: Market Research Library
   url: market-research-library.html
