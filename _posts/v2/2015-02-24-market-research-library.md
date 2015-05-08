@@ -78,4 +78,4 @@ The **size** parameter allows you to configure the number of results to be retur
 | url             | URL for the report                                              |
 
 
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/market-research-library.html) page for the Version 1 documentation.
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-market-research-library.html) page for the Version 1 documentation.

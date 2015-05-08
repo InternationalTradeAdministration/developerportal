@@ -234,5 +234,5 @@ UK leads are subject to their open government license located at:
 | specific_location               | Location of the opportunity | 
 | source                          | UK |
 
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html) page for the Version 1 documentation.
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-trade-leads.html) page for the Version 1 documentation.
 

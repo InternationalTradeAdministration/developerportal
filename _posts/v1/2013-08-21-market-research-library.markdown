@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "/v1/market-research-library.html"
+permalink: "/v1-market-research-library.html"
 title: Market Research Library API
 layout: body
 ---

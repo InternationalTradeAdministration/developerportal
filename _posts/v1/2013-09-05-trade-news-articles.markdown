@@ -1,11 +1,11 @@
 ---
-permalink: "/v1/trade-news-articles.html"
+permalink: "/v1-ita-trade-articles.html"
 layout: body
 title: Trade News & Articles API
 published: true
 ---
 
-#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/trade-news-articles.html).
+#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/ita-trade-articles.html).
 
 #Trade News & Articles API
 
