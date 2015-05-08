@@ -17,7 +17,7 @@
 			<li>Canada</li>
 		</ul>
 		<p>
-		All leads are consolidated into one endpoint and the output format for this API is JSON.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/trade-leads">demo search app</a>.  Resource URL and Search Parameters can be found towards the bottom of this page.</p>
+		All leads are consolidated into one endpoint and the output format for this API is JSON. This data set is updated daily. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/trade-leads">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API. Resource URL and Search Parameters can be found towards the bottom of this page.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>U.S. Businesses often request more notifications about trade leads.  It can be difficult for them to learn about overseas opportunities especially those within complex industries where partnerships and sub-contracts are the norm.  This API aggregates trade leads from several domestic and international sources so users have a broad selection of opportunities to choose from.</p>

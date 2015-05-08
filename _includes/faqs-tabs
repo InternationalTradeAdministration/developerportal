@@ -7,7 +7,7 @@
 	<div class="pane" id="step1">
 		<p>The Frequently Asked Questions (FAQs) API includes more than 300 commonly asked questions about exporting.  The answers provided are from government experts that specialize in unique aspects of trade.</p>
 
-		<p>The output format for this API is JSON.  This data set is updated daily.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/faqs">demo search app.</a></p>
+		<p>The output format for this API is JSON.  This data set is updated daily.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/faqs">demo search app.</a> Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
 		
 	</div>
 	<div class="pane" id="step2">
