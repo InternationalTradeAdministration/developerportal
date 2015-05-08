@@ -23,9 +23,7 @@ ITA has developed [simple search apps for each API](demo-search-apps.html) desig
 
 [![businessusa](images/businessusa.png)](http://business.usa.gov/export)
 
-**BusinessUSA** helps small businesses find the government resources they need. Their [Exporting](http://business.usa.gov/export) section automatically populates its pages using ITA's [Trade Events](http://business.usa.gov/events-search/) and [Offices & Centers APIs](http://business.usa.gov/export). 
-
-Just click Change Location and enter a new zip code to see the results.
+**BusinessUSA** helps small businesses find the government resources they need. Their [Exporting](http://business.usa.gov/export) section automatically populates its pages using ITA's [Trade Events](http://business.usa.gov/events-search/) and [Offices & Centers APIs](http://business.usa.gov/export). Just click Change Location and enter a new zip code to see the results.
 
 ------
 
