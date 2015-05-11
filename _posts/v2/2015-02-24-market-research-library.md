@@ -9,6 +9,8 @@ layout: body
 
 {% include mrl-tabs %}
 
+{% swagger http://petstore.swagger.io/v2/swagger.json %}
+
 ##Resource URL
 
 {% include mrl-query.html %}
