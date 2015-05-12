@@ -6,7 +6,7 @@
 
 	<div class="pane" id="step1">
 		<p>The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies such as:</p>
-		<ul><li>Export-Import Bank</li><li>Overseas Private Investment Corporation (OPIC)</li><li>U.S. Trade and Development Agency (USTDA)</li><li>Small Business Administration (SBA)</li></ul><p>The news and articles are categorized by industry, country, and topic area.  This data set is updated daily.  The output format for this API is JSON. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/sharepoint-trade-articles">demo search app</a></p>
+		<ul><li>Export-Import Bank</li><li>Overseas Private Investment Corporation (OPIC)</li><li>U.S. Trade and Development Agency (USTDA)</li><li>Small Business Administration (SBA)</li></ul><p>The news and articles are categorized by industry, country, and topic area. The output format for this API is JSON. This data set is updated daily. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/sharepoint-trade-articles">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>Exporting can be very lucrative but also very complicated – especially for new businesses.  The Trade News and Articles provide cover a broad range of topics to help businesses learn about exporting.  Topics including:  the basics, licenses and regulations, compliance, and resolving trade problems.</p>
