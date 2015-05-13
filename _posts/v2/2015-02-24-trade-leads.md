@@ -11,34 +11,7 @@ published: true
 
 ##Resource URL
 
-    http://api.trade.gov/v2/trade_leads/search
-
-Sample JSON:    
-
-	{
-	id: "DATATABLE.471",
-	lead_source: "African Development Bank",
-	country: "CF",
-	specific_location: "Africa",
-	title: "Pan-African University Support Project (PHASE II)",
-	project_number: "P-Z1-IAD-018",
-	industry: "Educational Services",
-	project_size: 50000000,
-	description: "Expansion of the thematic networks: support the inclusion of 10 Centers of Excellence by thematic area. Establishing the virtual platform to expand e-learning and m-learning in Africa (based on needs assessment conducted in Phase 1). Strenghtening R&D and Innovation as a major instrument for Africa's economic transformation through inclusive and green growth. Support consolidation of the PAU Governance structure. Currency: UAC",
-	tags: "Human Capital Development, Education",
-	publish_date: "2016-04-01",
-	end_date: "2016-10-16",
-	funding_source: "Development Banks",
-	borrowing_entity: "Pan African University for Science, Technology and Innovation",
-	procurement_organization: "Pan African University for Science, Technology and Innovation",
-	contact: "Corbin Michel Casimir Guedegbe - OSHD2, African Development Bank",
-	comments: null,
-	submitting_officer: "Chuka Asike",
-	submitting_officer_contact: "asikec@state.gov",
-	url: "http://www.afdb.org/en/projects-and-operations/project-portfolio/project/P-Z1-IAD-018/",
-	status: "Pipeline",
-	source: "STATE"
-	},
+{% include trade-leads-query.html %}
 
 ##Search Parameters for all leads
 
@@ -46,102 +19,84 @@ Sample JSON:
 
 Searches for a match within the **title**, **description**, **topic**, **tags**, and **procurement_organization** fields.
 
-    http://api.trade.gov/v2/trade_leads/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&q={term}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/trade_leads/search?q=electrical](http://api.trade.gov/v2/trade_leads/search?q=electrical)
--->
+{% include trade-leads-query-keyword.html %}
 
 ###industries
 
 Returns **industry** that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
 
-    http://api.trade.gov/v2/trade_leads/search?api_key={your key}&industries={term}
+    {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&industries={term}
 
-<!---    
 **_Example_**
-[http://api.trade.gov/v2/trade_leads/search?industries=chemical](http://api.trade.gov/v2/trade_leads/search?industries=chemical)
--->
+
+{% include trade-leads-query-industry.html %}
 
 ###countries
 
 Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
 
-    http://api.trade.gov/v2/trade_leads/search?api_key={your key}&countries={country code}
+    {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&countries={country code}
 
-<!---        
 **_Example_**
 
-[http://api.trade.gov/v2/trade_leads/search?countries=MX,CA,GB](http://api.trade.gov/v2/trade_leads/search?countries=MX,CA,GB)
-
--->
+{% include trade-leads-query-country.html %}
 
 ###sources
 
 Searches only the leads specified by the **Source** field.
 
-    http://api.trade.gov/v2/trade_leads/search?api_key={your key}&sources={lead source}
+    {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&sources={lead source}
 
 Possible values of the source field:  CANADA, FBO, STATE, UK (United Kingdom)
 
-<!---        
 **_Example_**
 
-[http://api.trade.gov/v2/consolidated_screening_list/search?sources=state,uk](http://api.trade.gov/v2/consolidated_screening_list/search?sources=state,uk)
--->
-	
+{% include trade-leads-query-source.html %}
+
 ###publish_date
 
 Returns leads based on their publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/v2/trade_leads/search?api_key={your key}&publish_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&publish_date={YYYY-mm-dd TO YYYY-mm-dd}
 
-<!---        
 **_Example_**
 
-[http://api.trade.gov/v2/trade_leads/search?publish_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/trade_leads/search?publish_date=2015-03-25 TO 2015-12-31)
--->
-
+{% include trade-leads-query-publishdate.html %}
 
 ###end_date
 
 Returns leads based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/v2/trade_leads/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
-<!---        
 **_Example_**
 
-[http://api.trade.gov/v2/trade_leads/search?end_date=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/trade_leads/search?end_date=2015-03-25 TO 2015-12-31)
--->
+{% include trade-leads-query-enddate.html %}
 
 ###publish_date_amended
 
 Returns leads based on their amended publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/v2/trade_leads/search?api_key={your key}&publish_date_amended={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&publish_date_amended={YYYY-mm-dd TO YYYY-mm-dd}
 
-<!---        
 **_Example_**
 
-[http://api.trade.gov/v2/trade_leads/search?publish_date_amended=2015-03-25 TO 2015-12-31](http://api.trade.gov/v2/trade_leads/search?publish_date_amended=2015-03-25 TO 2015-12-31)
--->
+{% include trade-leads-query-publishdate-amended.html %}
 
 ###size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
-<!---        
 **_Example_**
 
-[http://api.trade.gov/v2/trade_leads/search?size=1&offset=1](http://api.trade.gov/v2/trade_leads/search?size=1&offset=1)
--->
-
+{% include trade-leads-query-size.html %}
 
 ###Canadian Leads
 
@@ -186,6 +141,7 @@ Canadian leads are subject to Canada's license located at:
 
 
 ##Return Values for FBOpen
+
 
 | Field	                               | Description  |
 | ------                               | -------------|  
@@ -276,5 +232,5 @@ UK leads are subject to their open government license located at:
 | specific_location               | Location of the opportunity | 
 | source                          | UK |
 
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/trade-leads.html) page for the Version 1 documentation.
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-trade-leads.html) page for the Version 1 documentation.
 

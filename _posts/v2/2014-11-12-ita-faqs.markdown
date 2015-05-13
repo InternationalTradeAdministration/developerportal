@@ -11,19 +11,7 @@ published: true
 
 ##Resource URL
 
-    http://api.trade.gov/v2/ita_faqs/search
-
-Sample JSON:
-
-	{
-	id: "4",
-	question: "Despite my CE marking why does my importer ask for an A.TR-1 Certificate? What is the A.TR-1-Certificate?",
-	answer: "In the early stages of EU directives implementation, the Government of Turkey exhibited a bias towards CE marked products originating in Europe. The Government was suspicious of certificates of conformity originating outside of the European Union. The A.TR-1 Certificate is a document that establishes that goods are freely allowed to be sold to Turkey within the scope of Turkey's Customs Union with the European Union. Initially, companies were able to clear Turkish Customs easily by providing the Certificate of Conformity and the A.TR-1. Companies asked to ship via the European Union or are asked to acquire an A.TR-1 Certificate should contact the U.S. Embassy's Commercial Section for resolution of this matter. Any U.S. company providing evidence of directives conformity should be allowed access to the Turkish market without having to transship via the European continent.",
-	update_date: "2013-01-11",
-	topic: [ ],
-	industry: [ ],
-	country: [ ]
-	},
+{% include faqs-query.html %}
 
 ##Search Parameters
 
@@ -31,71 +19,59 @@ Sample JSON:
 
 Searches for a match within the question and answer fields.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&q={term}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/ita_faqs/search?q=tpcc](http://api.trade.gov/v2/ita_faqs/search?q=tpcc)
--->
+{% include faqs-query-keyword.html %}
 
 ###industries
 
 Returns FAQs based on [industry name](industry-list-faqs.html).  This method allows you to search for multiple industries (plural) separated by commas, but will only return one industry (singular) per FAQ.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&industries={terms}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&industries={terms}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/ita_faqs/search?industries=Education,Legal Assistance](http://api.trade.gov/v2/ita_faqs/search?industries=Education,Legal Assistance)
--->
+{% include faqs-query-industry.html %}
 
 ###countries
 
 Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per FAQ.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&countries={country codes}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&countries={country codes}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/ita_faqs/search?countries=MX,TR](http://api.trade.gov/v2/ita_faqs/search?countries=MX,TR)
--->
+{% include faqs-query-country.html %}
 
 ###topics
 
 Returns FAQs based on [topic name](topic-list-faqs.html).  This method allows you to search for multiple topics (plural) separated by commas, but will only return one topic (singular) per FAQ.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&topics={terms}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&topics={terms}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/ita_faqs/search?topics=CE Marking,Trade Barriers](http://api.trade.gov/v2/ita_faqs/search?topics=CE Marking,Trade Barriers)
--->
+{% include faqs-query-topic.html %}
 
 ###update_date
 
 Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
-    http://api.trade.gov/v2/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/ita_faqs/search?update_date=2014-01-01 TO 2014-11-01](http://api.trade.gov/v2/ita_faqs/search?update_date=2014-01-01 TO 2014-11-01)
--->
+{% include faqs-query-updatedate.html %}
 
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/ita_faqs/search?countries=BR&size=1&offset=1](http://api.trade.gov/v2/ita_faqs/search?countries=BR&size=1&offset=1)
--->
+{% include faqs-query-size.html %}
 
 ##Return Values
 

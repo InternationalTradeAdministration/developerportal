@@ -1,0 +1,58 @@
+<nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/trade_developer.png" alt="logo"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li id="box-menu"><a href="{{ site.baseurl }}/guidance.html">Guidance</a></li>
+                <li id="box-menu"><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" id="box-menu" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="{{ site.baseurl }}/images/grid-icon.png" alt="logo"></a>
+              <ul class="dropdown-menu" role="menu">
+              <h3 id="additional-resources">Additional Resources</h3>
+                <li><a href="{{ site.baseurl }}/app-gallery.html">App Gallery</a></li>
+                <li><a href="{{ site.baseurl }}/api-faqs.html">API FAQs</a></li>
+                <li><a href="{{ site.baseurl }}/change-log.html">Change Log</a></li>
+                <li><a href="{{ site.baseurl }}/tos.html">Terms of Service</a></li>
+              </ul>
+            </li>
+            <li><div class="imageBox">
+    <div class="imageinn">
+    <div class="item">
+      <img src="{{ site.baseurl }}/images/github-blue.png" alt="github-light">
+      </div>
+    </div>
+
+    <div class="hoverImg">
+    <div class="item">
+      <a href="https://github.com/InternationalTradeAdministration/developerportal"><img src="{{ site.baseurl }}/images/github-dark.png" alt="github-grey"></a>
+      <span class="caption">ITA on Github</span>
+    </div>
+    </div>
+    </div></li>
+
+    <header id="mob" class="navbar-toggle collapsed" aria-expanded="false">
+      <h3>API Key</h3>
+      <p class="view"><a class="{{ current }}" href="{{ site.webservices_baseurl }}">Get an API Key</a></p>
+      <h3>Available APIs</h3>
+      {% for link in site.mobile_nav_available_apis %}
+        <p class="view"><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></p>
+      {% endfor %}
+      <h3>Additional Resources</h3>
+      {% for link in site.mobile_nav_additional_resources %}
+        <p class="view"><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></p>
+      {% endfor %}
+      <p class="view"><a href="https://github.com/InternationalTradeAdministration/developerportal">ITA on Github</a></p>
+    </header>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>

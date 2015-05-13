@@ -11,50 +11,7 @@ published: true
 
 ##Resource URL
 
-    http://api.trade.gov/v2/tariff_rates/search
-    
-Sample JSON:
-
-	{
-	source_id: "144354",
-	tariff_line: "16051020",
-	subheading_description: "Crabmeat, prepared or preserved, in airtight containers",
-	hs_6: "160510",
-	base_rate: "0",
-	base_rate_alt: null,
-	final_year: "2004",
-	tariff_rate_quota: null,
-	tariff_rate_quota_note: null,
-	tariff_eliminated: null,
-	ag_id: null,
-	partner_name: "CL",
-	reporter_name: "US",
-	staging_basket: "Immediate",
-	partner_start_year: "2004",
-	reporter_start_year: null,
-	partner_agreement_name: "CL",
-	reporter_agreement_name: "US",
-	partner_agreement_approved: "true",
-	reporter_agreement_approved: null,
-	quota_name: null,
-	rule_text: "A change to heading 16.01 through 16.05 from any other chapter.",
-	link_text: null,
-	link_url: null,
-	annual_rates: {
-	y2004: "0.0000",
-	y2005: "0.0000",
-	y2006: "0.0000",
-	y2007: "0.0000",
-	y2008: "0.0000",
-	y2009: "0.0000",
-	y2010: "0.0000",
-	y2011: "0.0000",
-	y2012: "0.0000",
-	y2013: "0.0000"
-	},
-	alt_annual_rates: { },
-	source: "CL"
-	},
+{% include tariff-rates-query.html %}
 
 ##Search Parameters
 
@@ -62,80 +19,66 @@ Sample JSON:
 
 Searches for a match within the **subheading_description**, **tariff_rate_quota_note**, **rule_text**, and **tariff_line** fields.
 
-    http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&q={term}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/tariff_rates/search?q=horses](http://api.trade.gov/v2/tariff_rates/search?q=horses)
--->
+{% include tariff-rates-query-keyword.html %}
 
 ###sources
 
 Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.
 
-	http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&sources={source countries}
+	{{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&sources={source countries}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/tariff_rates/search?sources=GT,AU](http://api.trade.gov/v2/tariff_rates/search?sources=GT,AU)
--->
+{% include tariff-rates-query-source.html %}
 
 ###final_year
 
 Returns entries based on the final_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
 
-    http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&final_year={YYYY TO YYYY}
+    {{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&final_year={YYYY TO YYYY}
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/tariff_rates/search?final_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?final_year=2005 TO 2006)
--->
+{% include tariff-rates-query-finalyear.html %}
 
 ###partner_start_year
 
 Returns entries based on the partner_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
+    {{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&partner_start_year={YYYY TO YYYY}
 
-    http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&partner_start_year={YYYY TO YYYY}
-
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/tariff_rates/search?partner_start_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?partner_start_year=2005 TO 2006)
--->
+{% include tariff-rates-query-partner-startyear.html %}
 
 ###reporter_start_year
 
 Returns entries based on the reporter_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
+	{{ site.webservices_baseurl }}/v2/tariff_rates/search?api_key={your key}&reporter_start_year={YYYY TO YYYY}
 
-    http://api.trade.gov/v2/tariff_rates/search?api_key={your key}&reporter_start_year={YYYY TO YYYY}
-
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/tariff_rates/search?reporter_start_year=2005 TO 2006](http://api.trade.gov/v2/tariff_rates/search?reporter_start_year=2005 TO 2006)
--->
+{% include tariff-rates-query-reporter-startyear.html %}
 
 ###size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-<!---    
 **_Example_**
 
-[http://api.trade.gov/v2/tariff_rates/search?size=1&offset=1](http://api.trade.gov/v2/tariff_rates/search?size=1&offset=1)
--->
+{% include tariff-rates-query-size.html %}
 
 ##Return Values
 
 | Field                        | Description                             |
 | ------------------           | --------------------------------------- |
-| source                       |    Two letter code for the “reporter” country with whom the U.S. as the Free Trade Agreement.   |
+| source                       |    Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.   |
 | source_id                    | Unique identifier            |
 | tariff_line         	       | Product’s Harmonized System (HS) code for the product according to the reporter’s nomenclature |
 | subheading_description       |  English description at the subheading level (6-digit HS code)  |

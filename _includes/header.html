@@ -1,30 +1,10 @@
-<header>
-  <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/trade_url_white2.png" width="210" alt="logo"></a>
-  <br/><br/>
+<header id="full">
   <h3>API Key</h3>
-  <p class="view"><a href="{{ site.apikeyurl }}">Get an API Key</a></p>
+  <p class="view"><a href="{{ site.webservices_baseurl }}">Get an API Key</a></p>
   <br/>
   <h3>Available APIs</h3>
-  <p class="view"><a href="{{ site.baseurl }}/market-research-library.html">Market Research Library</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/consolidated-screening-list.html">Consolidated Screening List</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/trade-events.html">Trade Events</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/trade-leads.html">Trade Leads</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/tariff-rates.html">Tariff Rates</a></p>
-   <div id="demo-simplest" >
-                    <a class="expander">More APIs</a>
-                    <div class="content">
-                        <p class="view"><a href="{{ site.baseurl }}/faqs-exporting.html">FAQs on Exporting</a></p>
-                        <p class="view"><a href="{{ site.baseurl }}/ita-office-locations.html">ITA Offices & Centers</a></p>
-                        <p class="view"><a href="{{ site.baseurl }}/ita-trade-articles.html">Trade News & Articles</a></p>
-            
-                    </div>
-                </div>
-  <br/>
-  <h3>Additional Resources</h3>
-  <p class="view"><a href="{{ site.baseurl }}/guidance.html">Guidance</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/app-gallery.html">App Gallery</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/api-faqs.html">API FAQs</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/change-log.html">Change Log</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/tos.html">Terms of Service</a></p>
-  <p class="view"><a href="{{ site.baseurl }}/contact-us.html">Contact Us</a></p>
+  {% for link in site.left_nav_available_apis %}
+    <p class="view"><a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a></p>
+  {% endfor %}
+  </p>
 </header>
