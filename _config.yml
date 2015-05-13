@@ -1,6 +1,6 @@
 name: Developer Portal
 highlighter: pygments
-baseurl: 
+baseurl: /developerportal
 exclude:
   - .bundle
   - .git
@@ -11,4 +11,57 @@ exclude:
   - Gemfile.lock
   - vendor
 markdown: kramdown
-apikeyurl: 'https://api.trade.gov'
+webservices_baseurl: 'https://api.govwizely.com'
+apikey: 'Jnl2JctPOiUL9x7HVFR2m8Sr'
+
+left_nav_available_apis:
+- text: Market Research Library
+  url: market-research-library.html
+- text: Consolidated Screening List
+  url: consolidated-screening-list.html
+- text: Trade Events
+  url: trade-events.html
+- text: Trade Leads
+  url: trade-leads.html
+- text: Tariff Rates
+  url: tariff-rates.html
+- text: FAQs on Exporting
+  url: faqs-exporting.html
+- text: ITA Offices & Centers
+  url: ita-office-locations.html
+- text: Trade News & Articles
+  url: ita-trade-articles.html
+
+mobile_nav_available_apis:
+- text: Market Research Library
+  url: market-research-library.html
+- text: Consolidated Screening List
+  url: consolidated-screening-list.html
+- text: Trade Events
+  url: trade-events.html
+- text: Trade Leads
+  url: trade-leads.html
+- text: Tariff Rates
+  url: tariff-rates.html
+- text: FAQs on Exporting
+  url: faqs-exporting.html
+- text: ITA Offices & Centers
+  url: ita-office-locations.html
+- text: Trade News & Articles
+  url: ita-trade-articles.html
+  
+mobile_nav_additional_resources:
+- text: Guidance
+  url: guidance.html
+- text: Contact
+  url: contact.html
+- text: App Gallery
+  url: app-gallery.html
+- text: API FAQs
+  url: api-faqs.html
+- text: Change Log
+  url: change-log.html
+- text: Terms of Service
+  url: tos.html
+  
+  
