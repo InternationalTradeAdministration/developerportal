@@ -11,7 +11,7 @@ published: true
 
 {% include events-tabs %}
 
-{% swagger /api/my-api.json %}
+{% swagger /developerportal/api/my-api.json %}
 
 ##Resource URL
 
