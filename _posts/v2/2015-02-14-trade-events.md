@@ -9,7 +9,7 @@ published: true
 
 {% include events-tabs %}
 
-{% swagger /developerportal/api/my-api.json %}
+{% swagger http://developer.trade.gov.apievangelist.com/definitions/trade-events.json %}
 
 ##Resource URL
 
