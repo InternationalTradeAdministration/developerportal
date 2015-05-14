@@ -9,6 +9,8 @@ published: true
 
 {% include events-tabs %}
 
+{% swagger /developerportal/api/my-api.json %}
+
 ##Resource URL
 
 This endpoint will search across all five trade event sources.  To search a subset, see sources below.
