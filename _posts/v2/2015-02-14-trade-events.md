@@ -9,7 +9,7 @@ published: true
 
 {% include events-tabs %}
 
-{% swagger http://developer.trade.gov.apievangelist.com/definitions/trade-events.json %}
+{% include swag.html %}
 
 ##Resource URL
 
