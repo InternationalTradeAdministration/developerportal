@@ -11,7 +11,7 @@ ITA has developed simple search apps for each API designed to help users easily 
 
 Each API has an associated search app for demonstration purposes:
 
-* [Market Research Library](http://internationaltradeadministration.github.io/explorer/#/market-research-library)
+* [Market Research Library](http://internationaltradeadministration.github.io/explorer/#/market-research-library-entries)
 * [Consolidated Screening List](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries)
 * [Trade Events](http://internationaltradeadministration.github.io/explorer/#/trade-events)
 * [Trade Leads](http://internationaltradeadministration.github.io/explorer/#/trade-leads)
