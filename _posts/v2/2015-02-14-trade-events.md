@@ -9,7 +9,7 @@ published: true
 
 {% include events-tabs %}
 
-{% include swag.html %}
+{% include swagger-ui.html %}
 
 ##Resource URL
 
