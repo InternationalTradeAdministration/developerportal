@@ -8,85 +8,21 @@ layout: body
 
 The following terms are the only **geo_region** and **geo_subregion** terms that the API will accept:
 
-<table border="0">
-<tr>
-<th>geo_region</th>
-<th>geo_subregion</th>
-</tr>
+| geo_region              | geo_subregion                             |
+| ------------------ | --------------------------------------- |
+| **Africa**                 | North Africa             |
+|                 | Sub-Saharan Africa             |
+|                 | West Africa             |
+| **Asia**                 | Asia Pacific             |
+|                  | Central Asia             |
+|                  | East Asia             |
+|                  | South Asia             |
+|                  | Southeast Asia             |
+| **Caribbean**                |              |
+| **Central America**                |              |
+| **Europe**               |              |
+| **Middle East**                |              |
+| **North America**               |              |
+| **Oceania**               |              |
+| **South America**               |              |
 
-<tr>
-  <td>**Africa**</td>
-  <td>North Africa</td>
- </tr>
- 
- <tr>
-  <td></td>
-  <td>Sub-Saharan Africa</td>
- </tr>
- 
- <tr>
-  <td></td>
-  <td>West Africa</td>
- </tr>
-
-<tr>
-  <td>**Asia**</td>
-  <td>Asia Pacific</td>
- </tr>
- 
- <tr>
-  <td></td>
-  <td>Central Asia</td>
- </tr>
- 
- <tr>
-  <td></td>
-  <td>East Asia</td>
- </tr>
- 
- <tr>
-  <td></td>
-  <td>South Asia</td>
- </tr>
- 
- <tr>
-  <td></td>
-  <td>Southeast Asia</td>
- </tr>
-
-<tr>
-  <td>**Caribbean**</td>
-  <td></td>
- </tr>
-
-<tr>
-  <td>**Central America**</td>
-  <td></td>
- </tr>
-
-<tr>
-  <td>**Europe**</td>
-  <td></td>
- </tr>
-
-<tr>
-  <td>**Middle East**</td>
-  <td></td>
- </tr>
-
-<tr>
-  <td>**North America**</td>
-  <td></td>
- </tr>
-
-<tr>
-  <td>**Oceania**</td>
-  <td></td>
- </tr>
-
-<tr>
-  <td>**South America**</td>
-  <td></td>
- </tr>
-
-</table>
