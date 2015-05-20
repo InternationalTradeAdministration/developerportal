@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "/v1/industry-list.html"
+permalink: "/v1-industry-list.html"
 layout: body
 ---
 

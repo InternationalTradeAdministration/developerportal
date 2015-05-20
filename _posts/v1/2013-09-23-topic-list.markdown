@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "/v1/topic-list.html"
+permalink: "/v1-topic-list.html"
 layout: body
 ---
 
