@@ -9,8 +9,6 @@ published: true
 
 {% include events-tabs %}
 
-{% swagger http://developer.trade.gov.apievangelist.com/definitions/trade-events.json %}
-
 ##Resource URL
 
 This endpoint will search across all five trade event sources.  To search a subset, see sources below.
