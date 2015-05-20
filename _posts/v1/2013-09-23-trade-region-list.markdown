@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "/v1/trade-region-list.html"
+permalink: "/v1-trade-region-list.html"
 layout: body
 ---
 

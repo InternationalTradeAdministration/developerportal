@@ -75,7 +75,7 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
 ###geo_regions
 
-Returns articles based on [geo region](geo-region-list.html).  Enter multiple terms by separating with a comma.
+Returns articles based on [geo region](v1-geo-region-list.html).  Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&geo_regions={terms}
 
@@ -85,7 +85,7 @@ Returns articles based on [geo region](geo-region-list.html).  Enter multiple te
 
 ###geo_subregions
 
-Returns articles based on [geo sub-region](geo-region-list.html).  Enter multiple terms by separating with a comma.
+Returns articles based on [geo sub-region](v1-geo-region-list.html).  Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&geo_subregions={terms}
 
@@ -95,7 +95,7 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 
 ###trade_regions
 
-Returns articles based on [trade region](trade-region-list.html).  Enter multiple terms by separating with a comma.
+Returns articles based on [trade region](v1-trade-region-list.html).  Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&trade_regions={terms}
 
