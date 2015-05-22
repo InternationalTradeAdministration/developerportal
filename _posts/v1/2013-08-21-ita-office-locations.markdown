@@ -1,5 +1,5 @@
 ---
-permalink: "/v1/ita-office-locations.html"
+permalink: "/v1-ita-office-locations.html"
 layout: body
 title: ITA Offices & Centers API
 published: true

@@ -496,6 +496,12 @@ box-shadow:none;
 
 }
 
+#resources_container {
+width:100%;
+margin-left:0;
+padding-left:0;
+}
+
 .foot {
 font-size:10px;
 }
