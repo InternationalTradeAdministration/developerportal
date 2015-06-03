@@ -80,4 +80,4 @@ The **size** parameter allows you to configure the number of results to be retur
 | phone             | Office phone number                                             |
 | post_type         | Type of post (domestic or international)                        |
 
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1/ita-office-locations.html) page for the Version 1 documentation.
+This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-ita-office-locations.html) page for the Version 1 documentation.

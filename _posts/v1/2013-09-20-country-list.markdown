@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: "/v1/country-list.html"
+permalink: "/v1-country-list.html"
 layout: body
 ---
 
