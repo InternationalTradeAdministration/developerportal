@@ -246,7 +246,7 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 | url                    		  | Link to the full procurement notice | 
 | country              			  | The country associated with the lead |
 | categories              		  | Categories array |
-| &nbsp;&nbsp;&nbsp;&nbsp; _item 1_                        | Items in the array contains “note” text such as “CPV” number |
+| &nbsp;&nbsp;&nbsp;&nbsp; _item 1_                        | Items in the array contain “note” text such as “CPV” number |
 | &nbsp;&nbsp;&nbsp;&nbsp; _item 2_                        | 				|
 | &nbsp;&nbsp;&nbsp;&nbsp; … 	      					  |  				|
 | &nbsp;&nbsp;&nbsp;&nbsp; _item n_                        | 			    |
