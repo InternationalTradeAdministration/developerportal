@@ -1,7 +1,9 @@
 {
     "swagger": "2.0",
     "info": {
-		"version": "2.0.0"
+    	"title": "",
+-    	"description": "",
+	 	"version": "2.0.0"
     },
     "host": "api.govwizely.com",
     "schemes": [
