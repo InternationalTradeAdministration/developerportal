@@ -234,7 +234,7 @@ UK leads are subject to their open government license located at:
 
 ##Millennium Challenge Corporation Account (MCA) Leads
 
-The Millennium Challenge Corporation provides procurement information for opportunities that meet their rigorous standards.
+The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement information for opportunities that meet their rigorous standards.
 
 ##Return Values for MCA
 
@@ -246,10 +246,10 @@ The Millennium Challenge Corporation provides procurement information for opport
 | url                    		  | Link to the full procurement notice | 
 | country              			  | The country associated with the lead |
 | categories              		  | Categories array |
-| _item 1_                        | _Array contains “note” text such as “CPV” number_ |
-| _item 2_                        | 				|
-| … 	      					  |  				|
-| _item n_                        | 			    |
+| &nbsp;&nbsp;&nbsp;&nbsp; _item 1_                        | Items in the array contains “note” text such as “CPV” number |
+| &nbsp;&nbsp;&nbsp;&nbsp; _item 2_                        | 				|
+| &nbsp;&nbsp;&nbsp;&nbsp; … 	      					  |  				|
+| &nbsp;&nbsp;&nbsp;&nbsp; _item n_                        | 			    |
 | funding_source                  | Millennium Challenge Account (MCA)", |
 | source                     	  | MCA |
 
