@@ -1,0 +1,102 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "2.0.0"
+    },
+    "host": "api.govwizely.com",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/ita_office_locations/search": {
+            "get": {
+                "summary": "ITA Offices & Centers API",
+                "description": "The ITA Offices & Centers API provides contact and address information for all of ITA’s domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITA’s internal office management system.\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Returns office locations for a match within the post or office name fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "city",
+                        "in": "query",
+                        "description": "Returns office locations based on city name",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "state",
+                        "in": "query",
+                        "description": "Returns locations for export assistance centers located in a specific U.S. State or Dependent Area.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "Tariff Rates",
+                    "Domestic and International Export Assistance Centers"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Office Response",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Office"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Office": {
+            "properties": {
+                "source": {
+                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
+                    "type": "string"
+                },
+                "source_id": {
+                    "description": "Unique identifier",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

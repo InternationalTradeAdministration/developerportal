@@ -9,7 +9,9 @@ published: true
 
 {% include events-tabs %}
 
-{% include swagger-ui.html %}
+####Test the live API Responses with Swagger:
+
+{% include swagger-events.html %}
 
 ##Resource URL
 
