@@ -250,7 +250,7 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 | &nbsp;&nbsp;&nbsp;&nbsp; _item 2_                        | 				|
 | &nbsp;&nbsp;&nbsp;&nbsp; … 	      					  |  				|
 | &nbsp;&nbsp;&nbsp;&nbsp; _item n_                        | 			    |
-| funding_source                  | Millennium Challenge Account (MCA)", |
+| funding_source                  | Millennium Challenge Account (MCA) |
 | source                     	  | MCA |
 
 CPV numbers in the categories array refer to the [Common Procurement Vocabulary](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) of the European Union.  Use these to help categorize the leads from the MCA.  For example, CPV/45331110 refers to Boiler installation work.
