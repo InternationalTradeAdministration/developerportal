@@ -31,6 +31,8 @@ left_nav_available_apis:
   url: ita-office-locations.html
 - text: Trade News & Articles
   url: ita-trade-articles.html
+- text: Export Assistance Centers
+  url: ita-zip-codes.html
 
 mobile_nav_available_apis:
 - text: Market Research Library
@@ -49,6 +51,8 @@ mobile_nav_available_apis:
   url: ita-office-locations.html
 - text: Trade News & Articles
   url: ita-trade-articles.html
+- text: Export Assistance Centers
+  url: ita-zip-codes.html
   
 mobile_nav_additional_resources:
 - text: Guidance
