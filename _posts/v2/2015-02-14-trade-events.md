@@ -33,7 +33,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 ###industries
 
-Searches events for specific controlled [industry names]({{ site.baseurl }}/v1/industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
+Searches events for specific controlled [industry names]({{ site.baseurl }}/v1-industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/trade_events/search?api_key={your key}&industries={terms}
 
@@ -146,7 +146,7 @@ Each event source returns a unique set of fields.  Not every source provides all
 | &nbsp;&nbsp;&nbsp;&nbsp; _person_title_       | contact's company title                 | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _phone_              | contact's phone number                  | EXIM, ITA, SBA, USTDA 						|
 | &nbsp;&nbsp;&nbsp;&nbsp; _post_               | contact's location                      | EXIM, ITA, SBA, USTDA 						|
-| event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1/event-type-list.html)) | ITA, SBA, USTDA 					    |
+| event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1-event-type-list.html)) | ITA, SBA, USTDA 					    |
 | cost               | Cost of the event                       | ITA, SBA, USTDA							|
 | registration_link  | URL for the event's registration page   | ITA, SBA, USTDA							|
 | url        		 | Link to the event's web page 		   | DL, EXIM, ITA 								|
