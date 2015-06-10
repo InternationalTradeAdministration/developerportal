@@ -1,7 +1,7 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "International Trade Administration Trade Events API",
+	    "title": "International Trade Administration Trade Events API",
         "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce. Developers can use this API to keep businesses aware of the latest events in their industry or location.",
         "version": "2.0.0"
     },
@@ -84,7 +84,7 @@
         "Event": {
             "properties": {
                 "id": {
-                    "description": "Unique identifier for post",
+                    "description": "Unique identifier assigned to the event",
                     "type": "string"
                 },
                 "event_name": {

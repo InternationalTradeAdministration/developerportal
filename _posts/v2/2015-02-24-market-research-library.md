@@ -68,7 +68,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
-| id              | Unique identifier assigned to the event                         |
+| id              | Unique identifier assigned to the report                         |
 | countries       | Country category(ies) assigned to the report                    |
 | description     | Abstract of the report’s content                                |
 | expiration_date | Date when the report is no longer valid                         |
