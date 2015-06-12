@@ -1,10 +1,10 @@
 ---
 published: true
-permalink: "/emenu-bsps-categories.html"
+permalink: "/business-service-providers-categories.html"
 layout: body
 ---
 
-##Categories for Emenu BSPs
+##Categories for Business Service Providers
 
 Accounting, Auditing and Tax Services
 
