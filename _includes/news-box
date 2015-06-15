@@ -1,12 +1,20 @@
 		<!--news line 1-->
-        <p>
+        <p class="list">
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/%E2%80%9CFuzzy%E2%80%9D-Name-Search-is-Live-for-the-CSL">
+        <p class="news">You can now do <em>fuzzy</em> names searches on the Consolidated Screening List.</p>
+        </a>
+        <h7>May 4, 2015</h7>
+        </p>
+        
+        <!--news line 2-->
+        <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Submit-Your-App-that-Uses-ITA's-APIs">
         <p class="news">Have you used ITA's APIs to create a cool app or Web page?  Let us know.</p>
         </a>
         <h7>May 4, 2015</h7>
         </p>
         
-        <!--news line 2-->
+        <!--news line 3-->
         <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Version-2-of-ITA%E2%80%99s-Data-Services-Platform-Released">
         <p class="news">Version 2 of ITA's Data Services Platform Released.</p>
@@ -14,18 +22,10 @@
         <h7>March 31, 2015</h7>
         </p>
         
-        <!--news line 3-->
+        <!--news line 4-->
         <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/You-Can-Now-Use-HTTPS-for-Your-Calls">
         <p class="news">You can now use HTTPS as well as HTTP for your API calls.</p>
         </a>
         <h7>January 13, 2015</h7>
-        </p>
-        
-        <!--news line 4-->
-        <p class="list">
-        <a href="https://www.surveymonkey.com/s/LYVLXW9">
-        <p class="news">Please give us feedback about the APIs and the documentation by filling out our survey on Survey Monkey.</p>
-        </a>
-        <h7>December 12, 2014</h7>
         </p>
