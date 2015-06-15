@@ -189,6 +189,10 @@ header {
 font-weight:normal
 }
 
+#home-title {
+padding-left:40px;
+}
+
 #news {
   width:100px;
   float:right;
@@ -733,9 +737,14 @@ padding-left:50px;
 padding-right:50px;
 }
 
+#info {
+width:100%;
+padding-right:40px;
+}
+
 #side {
-    padding-left:50px;
-padding-right:50px;
+    width:100%;
+    padding-right:40px;
 }
 
 /* Force table to not be like tables anymore */
