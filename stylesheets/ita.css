@@ -78,16 +78,6 @@ body {
 	display:block;
 }
 
-#leftnav_wrapper a:hover{
-font-family:Verdana, Arial, Helvetica, sans-serif;
-font-size:13px;
-color:#fff;
-width: 220px;
-padding: 3px;
-background-color:#0851ab;
-display:block;
-}
-
 header, section, footer {
   display: block;
 }
