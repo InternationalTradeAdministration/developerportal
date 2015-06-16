@@ -19,7 +19,7 @@ layout: body
 
 Returns market research reports for a match in the **company_name**, **company_description**, or **contact_name** fields.
 
-    {{ site.webservices_baseurl }}/v2/emenu_bsps/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/v2/business_service_providers/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Returns market research reports for a match in the **company_name**, **company_d
 
 Returns office locations based on country.  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/emenu_bsps/search?api_key={your key}&ita_offices={countries}
+    {{ site.webservices_baseurl }}/v2/business_service_providers/search?api_key={your key}&ita_offices={countries}
 
 **_Example_**
 
@@ -39,7 +39,7 @@ Returns office locations based on country.  Enter multiple terms by separating w
 
 Returns market research reports for a specific [category]({{ site.baseurl }}/business-service-providers-categories.html).  Enter multiple terms by separating with a comma.
 
-    {{ site.webservices_baseurl }}/v2/emenu_bsps/search?api_key={your key}&categories={categories}
+    {{ site.webservices_baseurl }}/v2/business_service_providers/search?api_key={your key}&categories={categories}
 
 **_Example_**
 

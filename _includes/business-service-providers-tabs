@@ -1,16 +1,17 @@
 <div class="tabs">
   <input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
-  <input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/why.png" alt="why">Why This Data Matters</label>
+  <input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/announcement.png" alt="announcement">Endorsement Notice</label>
   <input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 
   <div class="pane" id="step1">
-    <p>[Placeholder for Background content.]</p>
+    <p>The Business Service Providers (BSP) API is a directory of U.S. businesses that provide services that many small and medium sized exporters require, both here in the United States and internationally.</p>
+    <p>The output format for this API is JSON. Be sure to <a href="{{ site.webservices_baseurl }}">sign up for an API key</a> to get access to the API.</p>
   </div>
   <div class="pane" id="step2">
-    <p>[Placeholder for Why This Data Matters content.]</p>
+    <p>The BSP directory is intended to provide an additional resource to U.S. exporters. The BSP directory is not comprehensive. Inclusion does not constitute an endorsement or recommendation by the International Trade Administration (ITA). ITA has performed limited due diligence research but strongly recommends that you perform your own due diligence investigation and background research on any company. ITA assumes no responsibility for the professional ability or integrity of the providers listed. ITA reserves the right not to list any particular company.</p>
   </div>
   <div class="pane" id="step3">
-    <p>[Placeholder for Ideas for Using the Data content.]</p>
+    <p>Business Service Providers are particularly helpful for U.S. companies that are just getting started exporting or that are looking to expand into a new market. Integrate the BSP directory into an “Export Resources” page that lets user search the BSP by geographic market or industry.</p>
   </div>
 
 </div>
