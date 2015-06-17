@@ -5,7 +5,7 @@
 
   <div class="pane" id="step1">
     <p>The Business Service Providers (BSP) API is a directory of U.S. businesses that provide services that many small and medium sized exporters require, both here in the United States and internationally.</p>
-    <p>The output format for this API is JSON. Be sure to <a href="{{ site.webservices_baseurl }}">sign up for an API key</a> to get access to the API.</p>
+    <p>The output format for this API is JSON. This data set is updated weekly. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/business-service-providers">demo search app</a>. Be sure to <a href="{{ site.webservices_baseurl }}">sign up for an API key</a> to get access to the API.</p>
   </div>
   <div class="pane" id="step2">
     <p>The BSP directory is intended to provide an additional resource to U.S. exporters. The BSP directory is not comprehensive. Inclusion does not constitute an endorsement or recommendation by the International Trade Administration (ITA). ITA has performed limited due diligence research but strongly recommends that you perform your own due diligence investigation and background research on any company. ITA assumes no responsibility for the professional ability or integrity of the providers listed. ITA reserves the right not to list any particular company.</p>
