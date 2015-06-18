@@ -1,11 +1,11 @@
 ---
 permalink: "/ita-zip-codes.html"
 layout: body
-title: Export Assistance Centers
+title: Zip Code to USEAC
 published: true
 ---
 
-#Export Assistance Centers API
+#Zip Code to USEAC API
 
 {% include zipcodes-tabs %}
 
@@ -13,7 +13,7 @@ published: true
 
 {% include zipcodes-query.html %}
 
-##Search Parameters for Export Assistance Centers Zip Codes
+##Search Parameters for Zip Code to USEAC
 
 ###keyword
 
