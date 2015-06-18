@@ -1,0 +1,692 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "International Trade Administration API",
+        "description": "This is an inventory of APIs available at the International Trade Administration",
+        "version": "2.0.0"
+    },
+    "host": "api.govwizely.com",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/trade_events/search": {
+            "get": {
+                "summary": "Trade Events",
+                "description": "Provides information on industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce.\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industry",
+                        "in": "query",
+                        "description": "Searches for specific controlled industry names.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade Events"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Product"
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/market_research_library/search": {
+            "get": {
+                "summary": "Market Research Library",
+                "description": "U.S. businesses can use these reports to plan their market-entry the right way. The reports help them learn their productâ€™s potential in a given market and the best prospects for success.\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industry",
+                        "in": "query",
+                        "description": "Searches for specific controlled industry names.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Market Research Library"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of price estimates by product",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/PriceEstimate"
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/consolidated_screening_list/search": {
+            "get": {
+                "summary": "Consolidated Screening List API",
+                "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "sources",
+                        "in": "query",
+                        "description": "Searches only the lists specified by the Source Abbreviation.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industry",
+                        "in": "query",
+                        "description": "Searches for specific controlled industry names.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "address",
+                        "in": "query",
+                        "description": "Searches against fields in the addresses array.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Consolidated Screening List"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of price estimates by product",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Product"
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/trade_leads/search": {
+            "get": {
+                "summary": "Trade Leads API",
+                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources and we continue to expand the number of leads available.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industry",
+                        "in": "query",
+                        "description": "Searches for specific controlled industry names.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade Leads"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Activities"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/tariff_rates/search": {
+            "get": {
+                "summary": "Tariff Rates API",
+                "description": "The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA). When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products. A tariff is a tax that a company must pay a foreign country when shipping a product to that country. Typically the FTA tariffs rates decline over several years.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industry",
+                        "in": "query",
+                        "description": "Searches for specific controlled industry names.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Tariff Rates"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Activities"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/ita_faqs/search": {
+            "get": {
+                "summary": "FAQs on Exporting API",
+                "description": "The Frequently Asked Questions (FAQs) API includes more than 300 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "topics",
+                        "in": "query",
+                        "description": "Returns FAQs based on topic name.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industry",
+                        "in": "query",
+                        "description": "Searches for specific controlled industry names.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "FAQs on Exporting"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Activities"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/ita_office_locations/search": {
+            "get": {
+                "summary": "ITA Offices & Centers API",
+                "description": "The ITA Offices & Centers API provides contact and address information for all of ITAâ€™s domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITAâ€™s internal office management system.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "city",
+                        "in": "query",
+                        "description": "Returns office locations based on city name.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "state",
+                        "in": "query",
+                        "description": "Returns locations for export assistance centers located in a specific U.S. State or Dependent Area.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "ITA Offices & Centers"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Activities"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/trade_articles/search": {
+            "get": {
+                "summary": "Trade News & Articles API",
+                "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "export_phases",
+                        "in": "query",
+                        "description": "Returns articles based on the export phase.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industries",
+                        "in": "query",
+                        "description": "Returns articles based on industry name.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade News & Articles"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Activities"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Product": {
+            "properties": {
+                "product_id": {
+                    "type": "string",
+                    "description": "Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles."
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Description of product."
+                },
+                "display_name": {
+                    "type": "string",
+                    "description": "Display name of product."
+                },
+                "capacity": {
+                    "type": "string",
+                    "description": "Capacity of product. For example, 4 people."
+                },
+                "image": {
+                    "type": "string",
+                    "description": "Image URL representing the product."
+                }
+            }
+        },
+        "PriceEstimate": {
+            "properties": {
+                "product_id": {
+                    "type": "string",
+                    "description": "Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles"
+                },
+                "currency_code": {
+                    "type": "string",
+                    "description": "[ISO 4217](http://en.wikipedia.org/wiki/ISO_4217) currency code."
+                },
+                "display_name": {
+                    "type": "string",
+                    "description": "Display name of product."
+                },
+                "estimate": {
+                    "type": "string",
+                    "description": "Formatted string of estimate in local currency of the start location. Estimate could be a range, a single number (flat rate) or \"Metered\" for TAXI."
+                },
+                "low_estimate": {
+                    "type": "number",
+                    "description": "Lower bound of the estimated price."
+                },
+                "high_estimate": {
+                    "type": "number",
+                    "description": "Upper bound of the estimated price."
+                },
+                "surge_multiplier": {
+                    "type": "number",
+                    "description": "Expected surge multiplier. Surge is active if surge_multiplier is greater than 1. Price estimate already factors in the surge multiplier."
+                }
+            }
+        },
+        "Activity": {
+            "properties": {
+                "uuid": {
+                    "type": "string",
+                    "description": "Unique identifier for the activity"
+                }
+            }
+        },
+        "Activities": {
+            "properties": {
+                "offset": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "Position in pagination."
+                },
+                "limit": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "Number of items to retrieve (100 max)."
+                },
+                "count": {
+                    "type": "integer",
+                    "format": "int32",
+                    "description": "Total number of items available."
+                },
+                "history": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Activity"
+                    }
+                }
+            }
+        },
+        "Error": {
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
