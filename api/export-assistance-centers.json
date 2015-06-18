@@ -12,10 +12,10 @@
         "application/json"
     ],
     "paths": {
-        "/trade_events/search": {
+        "/ita_zipcode_to_post/search": {
             "get": {
-                "summary": "Trade Events",
-                "description": "Provides information on industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce.\n",
+                "summary": "Export Assistance Centers API",
+                "description": "The Export Assistance Centers API provides ...",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -26,17 +26,9 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "zip_codes",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
-                    },
-                    {
-                        "name": "countries",
-                        "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns zip code entries that match the specified zip codes. Enter muliple values separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -59,16 +51,13 @@
                     }
                 ],
                 "tags": [
-                    "Trade Events"
+                    "Export Assistance Centers"
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of products",
+                        "description": "History information for the given user",
                         "schema": {
-                            "type": "array",
-                            "items": {
-                                "$ref": "#/definitions/Event"
-                            }
+                            "$ref": "#/definitions/Center"
                         }
                     }
                 }
@@ -76,9 +65,9 @@
         }
     },
     "definitions": {
-        "Event": {
+        "Center": {
             "properties": {
-                "id": {
+                "source": {
                     "type": "string",
                     "description": "ID of the trade lead."
                 },

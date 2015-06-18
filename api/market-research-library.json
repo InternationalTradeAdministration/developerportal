@@ -12,15 +12,15 @@
         "application/json"
     ],
     "paths": {
-        "/trade_events/search": {
+        "/market_research_library/search": {
             "get": {
-                "summary": "Trade Events",
-                "description": "Provides information on industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce.\n",
+                "summary": "Market Research Library",
+                "description": "U.S. businesses can use these reports to plan their market-entry the right way. The reports help them learn their product’s potential in a given market and the best prospects for success.\n",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Returns market research reports for a match in the description or title fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -28,7 +28,7 @@
                     {
                         "name": "industry",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Searches for specific controlled industry names",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,7 +44,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -59,15 +59,18 @@
                     }
                 ],
                 "tags": [
-                    "Trade Events"
+                    "Trade",
+                    "Commerce",
+                    "Reports",
+                    "Research"
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of products",
+                        "description": "Successful Report Response",
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/Event"
+                                "$ref": "#/definitions/Report"
                             }
                         }
                     }
@@ -76,23 +79,39 @@
         }
     },
     "definitions": {
-        "Event": {
+        "Report": {
             "properties": {
                 "id": {
-                    "type": "string",
-                    "description": "ID of the trade lead."
+                    "description": "Unique identifier assigned to the report",
+                    "type": "string"
                 },
-                "lead_source": {
-                    "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
+                "countries": {
+                    "description": "Country category(ies) assigned to the report",
+                    "type": "string"
                 },
-                "country": {
-                    "type": "string",
-                    "description": "The country associated with the lead."
+                "description": {
+                    "description": "Abstract of the report’s content",
+                    "type": "string"
                 },
-                "specific_location": {
-                    "type": "string",
-                    "description": "Location of the opportunity."
+                "expiration_date": {
+                    "description": "Date when the report is no longer valid",
+                    "type": "string"
+                },
+                "industries": {
+                    "description": "Industry categories assigned to the report",
+                    "type": "string"
+                },
+                "report_type": {
+                    "description": "The report type can either be CCG, Best Market Report, or Market Research Report",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Report title (default sort)",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "URL for the report",
+                    "type": "string"
                 }
             }
         }

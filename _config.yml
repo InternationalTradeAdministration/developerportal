@@ -61,6 +61,8 @@ mobile_nav_additional_resources:
   url: contact.html
 - text: App Gallery
   url: app-gallery.html
+- text: Documentation Endpoints
+  url: documentation-endpoints.html
 - text: API FAQs
   url: api-faqs.html
 - text: Change Log

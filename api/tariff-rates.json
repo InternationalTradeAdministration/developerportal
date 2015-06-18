@@ -12,10 +12,10 @@
         "application/json"
     ],
     "paths": {
-        "/trade_events/search": {
+        "/tariff_rates/search": {
             "get": {
-                "summary": "Trade Events",
-                "description": "Provides information on industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce.\n",
+                "summary": "Tariff Rates API",
+                "description": "The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA). When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products. A tariff is a tax that a company must pay a foreign country when shipping a product to that country. Typically the FTA tariffs rates decline over several years.\n",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -26,9 +26,17 @@
                         "format": "string"
                     },
                     {
+                        "name": "sources",
+                        "in": "query",
+                        "description": "Returns tariff rates based on the ISO alpha-2 country codes of the source country.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
                         "name": "industry",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Searches for specific controlled industry names",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,7 +52,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -59,15 +67,17 @@
                     }
                 ],
                 "tags": [
-                    "Trade Events"
+                    "Trade",
+                    "Tariff Rates",
+                    "Free Trade Agreement (FTA)"
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of products",
+                        "description": "Successful Rate Response",
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/Event"
+                                "$ref": "#/definitions/Lead"
                             }
                         }
                     }
@@ -76,23 +86,15 @@
         }
     },
     "definitions": {
-        "Event": {
+        "Lead": {
             "properties": {
-                "id": {
-                    "type": "string",
-                    "description": "ID of the trade lead."
+                "source": {
+                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
+                    "type": "string"
                 },
-                "lead_source": {
-                    "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
-                },
-                "country": {
-                    "type": "string",
-                    "description": "The country associated with the lead."
-                },
-                "specific_location": {
-                    "type": "string",
-                    "description": "Location of the opportunity."
+                "source_id": {
+                    "description": "Unique identifier",
+                    "type": "string"
                 }
             }
         }

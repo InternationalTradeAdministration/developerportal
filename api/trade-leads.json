@@ -12,10 +12,10 @@
         "application/json"
     ],
     "paths": {
-        "/trade_events/search": {
+        "/trade_leads/search": {
             "get": {
-                "summary": "Trade Events",
-                "description": "Provides information on industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce.\n",
+                "summary": "Trade Leads API",
+                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources and we continue to expand the number of leads available.\n",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -28,7 +28,7 @@
                     {
                         "name": "industry",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Searches for specific controlled industry names",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,7 +44,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -59,15 +59,18 @@
                     }
                 ],
                 "tags": [
-                    "Trade Events"
+                    "Trade",
+                    "Overseas Opportunities",
+                    "Products and Services",
+                    "Domestic and International sources"
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of products",
+                        "description": "Successful Lead Response",
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/Event"
+                                "$ref": "#/definitions/Lead"
                             }
                         }
                     }
@@ -76,23 +79,23 @@
         }
     },
     "definitions": {
-        "Event": {
+        "Lead": {
             "properties": {
                 "id": {
-                    "type": "string",
-                    "description": "ID of the trade lead."
+                    "description": "ID of the trade lead",
+                    "type": "string"
                 },
                 "lead_source": {
-                    "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
+                    "description": "Source of the trade lead, typically an organization",
+                    "type": "string"
                 },
                 "country": {
-                    "type": "string",
-                    "description": "The country associated with the lead."
+                    "description": "The country associated with the lead",
+                    "type": "string"
                 },
                 "specific_location": {
-                    "type": "string",
-                    "description": "Location of the opportunity."
+                    "description": "Location of the opportunity",
+                    "type": "string"
                 }
             }
         }

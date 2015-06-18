@@ -12,23 +12,31 @@
         "application/json"
     ],
     "paths": {
-        "/trade_events/search": {
+        "/ita_office_locations/search": {
             "get": {
-                "summary": "Trade Events",
-                "description": "Provides information on industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce.\n",
+                "summary": "ITA Offices & Centers API",
+                "description": "The ITA Offices & Centers API provides contact and address information for all of ITA’s domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITA’s internal office management system.\n",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Returns office locations for a match within the post or office name fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "city",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Returns office locations based on city name",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "state",
+                        "in": "query",
+                        "description": "Returns locations for export assistance centers located in a specific U.S. State or Dependent Area.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,7 +52,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -59,15 +67,17 @@
                     }
                 ],
                 "tags": [
-                    "Trade Events"
+                    "Trade",
+                    "Tariff Rates",
+                    "Domestic and International Export Assistance Centers"
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of products",
+                        "description": "Successful Office Response",
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/Event"
+                                "$ref": "#/definitions/Office"
                             }
                         }
                     }
@@ -76,23 +86,15 @@
         }
     },
     "definitions": {
-        "Event": {
+        "Office": {
             "properties": {
-                "id": {
-                    "type": "string",
-                    "description": "ID of the trade lead."
+                "source": {
+                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
+                    "type": "string"
                 },
-                "lead_source": {
-                    "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
-                },
-                "country": {
-                    "type": "string",
-                    "description": "The country associated with the lead."
-                },
-                "specific_location": {
-                    "type": "string",
-                    "description": "Location of the opportunity."
+                "source_id": {
+                    "description": "Unique identifier",
+                    "type": "string"
                 }
             }
         }

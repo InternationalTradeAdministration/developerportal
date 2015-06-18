@@ -12,23 +12,31 @@
         "application/json"
     ],
     "paths": {
-        "/trade_events/search": {
+        "/trade_articles/search": {
             "get": {
-                "summary": "Trade Events",
-                "description": "Provides information on industry conferences, webinars, lectures and trade missions organized by the U.S. Dept. of Commerce.\n",
+                "summary": "Trade News & Articles API",
+                "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies.\n",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Searches for a match within the title, short_title, summary, content, and keyword fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "export_phases",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Returns articles based on the export phase.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industries",
+                        "in": "query",
+                        "description": "Returns articles based on industry name.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,7 +52,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -59,15 +67,19 @@
                     }
                 ],
                 "tags": [
-                    "Trade Events"
+                    "Trade",
+                    "ITA",
+                    "Trade Specialists",
+                    "Trade Promotion Coordinating Committee (TPCC)",
+                    "Trade News and Articles"
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of products",
+                        "description": "Successful Article Response",
                         "schema": {
                             "type": "array",
                             "items": {
-                                "$ref": "#/definitions/Event"
+                                "$ref": "#/definitions/Article"
                             }
                         }
                     }
@@ -76,23 +88,15 @@
         }
     },
     "definitions": {
-        "Event": {
+        "Article": {
             "properties": {
-                "id": {
-                    "type": "string",
-                    "description": "ID of the trade lead."
+                "source": {
+                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
+                    "type": "string"
                 },
-                "lead_source": {
-                    "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
-                },
-                "country": {
-                    "type": "string",
-                    "description": "The country associated with the lead."
-                },
-                "specific_location": {
-                    "type": "string",
-                    "description": "Location of the opportunity."
+                "source_id": {
+                    "description": "Unique identifier",
+                    "type": "string"
                 }
             }
         }
