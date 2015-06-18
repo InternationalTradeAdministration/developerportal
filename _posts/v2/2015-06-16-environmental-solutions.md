@@ -1,19 +1,19 @@
 ---
 published: true
-permalink: "/ests.html"
+permalink: "/environmental_solutions.html"
 title: Environmental Solutions Toolkit
 layout: body
 ---
 
 #Environmental Solutions Toolkit
 
-{% include est-tabs %}
+{% include environmental-solutions-tabs %}
 
 ##Resource URL
 
 This endpoint will search environmental solutions with the defined languages: english, chinese, french, portuguese, and spanish.
 
-{% include est-query.html %}
+{% include environmental-solutions-query.html %}
 
 ##Search Parameters for Environmental Solutions Toolkit
 
@@ -21,7 +21,7 @@ This endpoint will search environmental solutions with the defined languages: en
 
 Returns solutions for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
-    {{ site.webservices_baseurl }}/v2/ests/search?api_key={your key}&q={keyword}
+    {{ site.webservices_baseurl }}/v2/environmental_solutions/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
