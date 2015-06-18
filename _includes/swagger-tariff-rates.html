@@ -4,7 +4,7 @@ $(function () {
   if (url && url.length > 1) {
     url = decodeURIComponent(url[1]);
   } else {
-    url = "{{ site.baseurl }}/api/trade-apis.json";
+    url = "{{ site.baseurl }}/api/tariff-rates.json";
   }
   var swaggerUi = new SwaggerUi({
     url: url,

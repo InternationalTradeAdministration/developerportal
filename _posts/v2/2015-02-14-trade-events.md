@@ -9,10 +9,6 @@ published: true
 
 {% include events-tabs %}
 
-####Test the live API Responses with Swagger:
-
-{% include swagger-events.html %}
-
 ##Resource URL
 
 This endpoint will search across all five trade event sources.  To search a subset, see sources below.

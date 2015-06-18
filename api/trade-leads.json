@@ -1,0 +1,103 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "2.0.0"
+    },
+    "host": "api.govwizely.com",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/trade_leads/search": {
+            "get": {
+                "summary": "Trade Leads API",
+                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources and we continue to expand the number of leads available.\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industry",
+                        "in": "query",
+                        "description": "Searches for specific controlled industry names",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "Overseas Opportunities",
+                    "Products and Services",
+                    "Domestic and International sources"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Lead Response",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Lead"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Lead": {
+            "properties": {
+                "id": {
+                    "description": "ID of the trade lead",
+                    "type": "string"
+                },
+                "lead_source": {
+                    "description": "Source of the trade lead, typically an organization",
+                    "type": "string"
+                },
+                "country": {
+                    "description": "The country associated with the lead",
+                    "type": "string"
+                },
+                "specific_location": {
+                    "description": "Location of the opportunity",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
