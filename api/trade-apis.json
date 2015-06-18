@@ -28,17 +28,17 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "countries",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "countries",
+                        "name": "expiration_date",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns entries based on their expiration date.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -65,7 +65,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of price estimates by product",
+                        "description": "An array of reports",
                         "schema": {
                             "type": "array",
                             "items": {
@@ -98,17 +98,73 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "countries",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Searches only parties whose country field matches the country code based on ISO alpha-2 country codes.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "countries",
+                        "name": "address",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Searches against fields in the addresses array.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "name",
+                        "in": "query",
+                        "description": "Searches against the name and alt_names fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "fuzzy_name",
+                        "in": "query",
+                        "description": "Fuzzy name matching enables users to query a name and get usable results without knowing the exact spelling of an entry. It works by expanding queries to include results that are fuzzily similar to the given term, where similarity is defined by distance - the number of changes required to get from one term to another.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "Searches based on the type of the entry (e.g, Individual, Entity, Vessel).",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "start_date",
+                        "in": "query",
+                        "description": "Returns entries based on their start date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "Returns entries based on their end date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "issue_date",
+                        "in": "query",
+                        "description": "Returns entries based on the issue dates of the ids array.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "in": "query",
+                        "description": "Returns entries based on the expiration dates of the ids array.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -128,14 +184,6 @@
                         "required": false,
                         "type": "string",
                         "format": "string"
-                    },
-                    {
-                        "name": "address",
-                        "in": "query",
-                        "description": "Searches against fields in the addresses array.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
                     }
                 ],
                 "tags": [
@@ -143,7 +191,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "An array of price estimates by product",
+                        "description": "An array of lists",
                         "schema": {
                             "type": "array",
                             "items": {
@@ -574,7 +622,7 @@
                     }
                 ],
                 "tags": [
-                    "Export Assistance Centers"
+                    "Trade News & Articles"
                 ],
                 "responses": {
                     "200": {
@@ -630,13 +678,29 @@
                     "type": "string",
                     "description": "Array of Entity's complete addresses."
                 },
+                "end_date": {
+                    "type": "string",
+                    "description": "The date on which the entity’s inclusion on the list will be lifted, wavied, or will have expired."
+                },
+                "federal_register_notice": {
+                    "type": "string",
+                    "description": "The official source of information about the parties on this list."
+                },
                 "name": {
                     "type": "string",
-                    "description": "Entity's name."
+                    "description": "Entity’s name."
                 },
-                "alt_names": {
+                "remarks": {
                     "type": "string",
-                    "description": "Alias names used by the entity."
+                    "description": "Additional remarks or notes regarding the company, entity, or person on the list."
+                },
+                "standard_order": {
+                    "type": "string",
+                    "description": "Whether or not (Y/N) the standard order applies to the Denied Party as defined by the Bureau of Industry and Security (BIS)."
+                },
+                "start_date": {
+                    "type": "string",
+                    "description": "The effective date for the entity to be included on the list as defined by the Federal Register Notice."
                 },
                 "source_list_url": {
                     "type": "string",
@@ -646,9 +710,45 @@
                     "type": "string",
                     "description": "Information from the Source agency about the list."
                 },
-                "ids": {
+                "source": {
                     "type": "string",
-                    "description": "An array showing specific identification information of the entity."
+                    "description": "Denied Persons List (DPL) - Bureau of Industry and Security."
+                },
+                "license_requirement": {
+                    "type": "string",
+                    "description": "The license requirement as determined by the Export Administration Regulations."
+                },
+                "license_policy": {
+                    "type": "string",
+                    "description": "The policy set forth in the Export Administration Regulations regarding denial."
+                },
+                "alt_names": {
+                    "type": "string",
+                    "description": "Alias names used by the entity."
+                },
+                "programs": {
+                    "type": "string",
+                    "description": "Agency program related to the entity on the list."
+                },
+                "citizenships": {
+                    "type": "string",
+                    "description": "Entity’s citizenships."
+                },
+                "dates_of_birth": {
+                    "type": "string",
+                    "description": "Entity’s date of birth."
+                },
+                "entity_number": {
+                    "type": "string",
+                    "description": "Unique id assigned by the originating list."
+                },
+                "nationalities": {
+                    "type": "string",
+                    "description": "Entity’s nationalities."
+                },
+                "places_of_birth": {
+                    "type": "string",
+                    "description": "Entity’s place of birth."
                 }
             }
         },
