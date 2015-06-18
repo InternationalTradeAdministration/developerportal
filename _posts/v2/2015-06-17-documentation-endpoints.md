@@ -25,7 +25,7 @@ ITA Offices & Centers ([download JSON](api/ita-office-locations.json))
 
 Trade News & Articles ([download JSON](api/ita-articles.json))
 
-Export Assistance Centers ([download JSON]())
+Export Assistance Centers ([download JSON](api/export-assistance-centers.json))
 
 ---
 

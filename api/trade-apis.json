@@ -534,6 +534,57 @@
                     }
                 }
             }
+        },
+        "/ita_zipcode_to_post/search": {
+            "get": {
+                "summary": "Export Assistance Centers API",
+                "description": "The Export Assistance Centers API provides ...",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "zip_codes",
+                        "in": "query",
+                        "description": "Returns zip code entries that match the specified zip codes. Enter muliple values separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Export Assistance Centers"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Center"
+                        }
+                    }
+                }
+            }
         }
     },
     "definitions": {
@@ -702,6 +753,26 @@
             }
         },
         "Article": {
+            "properties": {
+                "source": {
+                    "type": "string",
+                    "description": "ID of the trade lead."
+                },
+                "lead_source": {
+                    "type": "string",
+                    "description": "Source of the trade lead, typically an organization."
+                },
+                "country": {
+                    "type": "string",
+                    "description": "The country associated with the lead."
+                },
+                "specific_location": {
+                    "type": "string",
+                    "description": "Location of the opportunity."
+                }
+            }
+        },
+        "Center": {
             "properties": {
                 "source": {
                     "type": "string",
