@@ -216,7 +216,7 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "industries",
                         "in": "query",
                         "description": "Searches for specific controlled industry names.",
                         "required": false,
@@ -227,6 +227,30 @@
                         "name": "countries",
                         "in": "query",
                         "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "sources",
+                        "in": "query",
+                        "description": "Searches only the events specified by the Source Abbreviation.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "start_date",
+                        "in": "query",
+                        "description": "Returns events based on their start date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "Returns events based on their end date.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -272,15 +296,15 @@
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Searches for a match within the title, description, topic, tags, and procurement_organization fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "industries",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names.",
+                        "description": "Returns industry that the lead relates to.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -288,7 +312,39 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns location of lead based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "sources",
+                        "in": "query",
+                        "description": "Searches only the leads specified by the Source field.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "publish_date",
+                        "in": "query",
+                        "description": "Returns leads based on their publish date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "Returns leads based on their end date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "publish_date_amended",
+                        "in": "query",
+                        "description": "Returns leads based on their amended publish date.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -622,7 +678,7 @@
                     }
                 ],
                 "tags": [
-                    "Trade News & Articles"
+                    "Export Assistance Centers"
                 ],
                 "responses": {
                     "200": {
@@ -758,37 +814,97 @@
                     "type": "string",
                     "description": "ID of the trade lead."
                 },
-                "lead_source": {
+                "event_name": {
                     "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
+                    "description": "Name given for the event."
                 },
-                "country": {
+                "description": {
                     "type": "string",
-                    "description": "The country associated with the lead."
+                    "description": "Text describing the event."
                 },
-                "specific_location": {
+                "registration_link": {
                     "type": "string",
-                    "description": "Location of the opportunity."
+                    "description": "URL for the event’s registration page."
+                },
+                "start_date": {
+                    "type": "string",
+                    "description": "Start date of the event."
+                },
+                "end_date": {
+                    "type": "string",
+                    "description": "The date the event will end."
+                },
+                "industries": {
+                    "type": "string",
+                    "description": "Industry categories assigned to the event."
+                },
+                "venues": {
+                    "type": "string",
+                    "description": "Venues array. Fields in italics."
+                },
+                "contacts": {
+                    "type": "string",
+                    "description": "Contacts array. Fields in italics."
+                },
+                "event_type": {
+                    "type": "string",
+                    "description": "The type of the event (ITA Values)."
+                },
+                "cost": {
+                    "type": "string",
+                    "description": "Cost of the event."
+                },
+                "url": {
+                    "type": "string",
+                    "description": "Link to the event’s web page."
+                },
+                "source": {
+                    "type": "string",
+                    "description": "State Department (DL)."
+                },
+                "registration_title": {
+                    "type": "string",
+                    "description": "Title of the registration URL."
+                },
+                "cost_currency": {
+                    "type": "string",
+                    "description": "The currency of the cost value."
                 }
             }
         },
         "Lead": {
             "properties": {
-                "id": {
-                    "type": "string",
-                    "description": "ID of the trade lead."
-                },
-                "lead_source": {
-                    "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
-                },
                 "country": {
                     "type": "string",
                     "description": "The country associated with the lead."
                 },
-                "specific_location": {
+                "title": {
                     "type": "string",
-                    "description": "Location of the opportunity."
+                    "description": "Title of the lead."
+                },
+                "reference_number": {
+                    "type": "string",
+                    "description": "The lead’s reference number."
+                },
+                "contract_number": {
+                    "type": "string",
+                    "description": "Contract number for the opportunity."
+                },
+                "publish_date": {
+                    "type": "string",
+                    "description": "Date lead was posted."
+                },
+                "end_date": {
+                    "type": "string",
+                    "description": "Closing date for the lead."
+                },
+                "publish_date_amended": {
+                    "type": "string",
+                    "description": "Amended publish date for the lead."
+                },
+                "status": {
+                    "type": "string",
+                    "description": "Status of the lead (note this API only shows open leads)."
                 }
             }
         },

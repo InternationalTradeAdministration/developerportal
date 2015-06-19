@@ -523,6 +523,21 @@ footer {
   bottom:0px;
 }
 
+/* Custom Swagger UI styles */
+
+
+.swagger-ui-wrap h2 {
+border-bottom: 0;
+}
+
+.collapseResource {
+display:none;
+}
+
+.expandResource {
+display:none;
+}
+
 
 @media print, screen and (max-width: 1250px) {
   

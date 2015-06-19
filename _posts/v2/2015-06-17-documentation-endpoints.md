@@ -7,25 +7,27 @@ published: true
 
 #Documentation Endpoints
 
-All available APIs ([download JSON](api/trade-apis.json))
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
 
-Market Research Library ([download JSON](api/market-research-library.json))
+All available APIs ([_download JSON_](api/trade-apis.json))
 
-Consolidated Screening List ([download JSON](api/consolidated-screening-lists.json))
+[Market Research Library](market-research-library.html) ([_download JSON_](api/market-research-library.json))
 
-Trade Events ([download JSON](api/trade-events.json))
+[Consolidated Screening List](consolidated-screening-list.html) ([_download JSON_](api/consolidated-screening-lists.json))
 
-Trade Leads ([download JSON](api/trade-leads.json))
+[Trade Events](trade-events.html) ([_download JSON_](api/trade-events.json))
 
-Tariff Rates ([download JSON](api/tariff-rates.json))
+[Trade Leads](trade-leads.html) ([_download JSON_](api/trade-leads.json))
 
-FAQs on Exporting ([download JSON](api/ita-faqs.json))
+[Tariff Rates](tariff-rates.html) ([_download JSON_](api/tariff-rates.json))
 
-ITA Offices & Centers ([download JSON](api/ita-office-locations.json))
+[FAQs on Exporting](faqs-exporting.html) ([_download JSON_](api/ita-faqs.json))
 
-Trade News & Articles ([download JSON](api/ita-articles.json))
+[ITA Offices & Centers](ita-office-locations.html) ([_download JSON_](api/ita-office-locations.json))
 
-Export Assistance Centers ([download JSON](api/export-assistance-centers.json))
+[Trade News & Articles](ita-trade-articles.html) ([_download JSON_](api/ita-articles.json))
+
+[Export Assistance Centers](ita-zip-codes.html) ([_download JSON_](api/export-assistance-centers.json))
 
 ---
 
