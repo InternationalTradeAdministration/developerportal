@@ -6,7 +6,6 @@ body {
   color: #535353;
   font-weight: 300;
   background: #f1f1f1;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,12 +24,10 @@ h1, h2, h3 {
 h1 {
   font-size: 28px;
   color: #494949;
-
 }
 
 h7 {
   font-size: 12px;
-
 }
 
 h2 {
@@ -40,7 +37,6 @@ h2 {
   border-bottom: 1px solid #e5e5e5;
   border-width: 1px 0;
   padding-bottom: 20px;
-
 }
 
 h3, h4, h5, h6 {
@@ -55,7 +51,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-
 }
 
 a small {
@@ -111,7 +106,6 @@ code, pre {
 }
 
 pre {
-
   padding: 4px 8px;
   background: #f8f8f8;
   border-radius: 5px;
@@ -147,12 +141,10 @@ img {
 }
 
 td img {
-
   box-shadow: 3px 3px 2px #888888;
 }
 
 section img {
-
   padding: 2px;
   background: #fafafa;
   border: 3px solid #eee;
@@ -180,7 +172,6 @@ header h3 {
 header ul {
   list-style: none;
   height: 40px;
-
   padding: 0;
 
   background: #eee;
@@ -217,12 +208,10 @@ header ul a {
 header p {
   margin-left: 20px;
   margin: 0 20px 5px;
-
 }
 
 .view a {
   color: #494949;
-
 }
 
 .clearfix:after {
@@ -315,7 +304,6 @@ section p a {
   -moz-border-radius: 3px;
   -o-border-radius: 3px;
   -khtml-border-radius: 3px;
-
   margin: 0px;
 }
 
@@ -330,7 +318,6 @@ section p a {
   left: 0;
   top: 0;
   display: none;
-
 }
 
 .imageBox:hover .hoverImg {
@@ -346,10 +333,6 @@ div.item {
   text-align: center;
   /* The width of the container also implies margin around the images. */
   width: 120px;
-}
-
-img {
-
 }
 
 .caption {

@@ -175,10 +175,6 @@ header {
   margin-bottom: auto;
 }
 
-#welcome {
-  font-weight: normal
-}
-
 #home-title {
   padding-left: 40px;
 }
@@ -369,86 +365,8 @@ section p a {
   border-bottom: 1px solid #e8e8e8;
 }
 
-.expander {
-  text-indent: 50px;
-  cursor: pointer;
-  cursor: hand;
-}
-
-#home {
-  padding: 10px 10px;
-  background: #fff;
-  border: 1px solid;
-  border-color: #e7e7e7;
-  border-bottom: 0px;
-  margin: 0px;
-}
-
-#home h1 {
-  color: #08c;
-  font-weight: normal;
-  margin: 0 auto;
-  padding-left: 20px;
-  font-size: 24px;
-  line-height: 40px;
-}
-
-#home img {
-  box-shadow: none;
-  padding: 0;
-  border: none;
-  float: none;
-  background: none;
-  margin-right: 0;
-}
-
 #guidance-for-information-users {
   background: #F9FCFD;
-}
-
-.guide {
-  padding: 0 25px;
-}
-
-.l-ribbon {
-  position: relative;
-  z-index: 1;
-  width: 735px;
-  background: none;
-}
-
-.ribbon__title {
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  position: relative;
-  padding: 10px 30px;
-  margin: 0 -50px 10px;
-  font-size: 28px;
-  line-height: 32px;
-  font-weight: 700;
-  text-align: center;
-  color: #fff;
-  background: #e74c3c;
-  zoom: 1;
-}
-
-.ribbon__title:before, .ribbon__title:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 100%;
-  left: 0;
-  border-width: 0 10px 10px 0;
-  border-style: solid;
-  border-color: transparent #d62c1a;
-}
-
-.ribbon__title:after {
-  left: auto;
-  right: 0;
-  border-width: 0 0 10px 10px;
 }
 
 .imageBox {
@@ -626,10 +544,6 @@ display:none;
     word-wrap: normal;
   }
 
-  .l-ribbon {
-    width: auto;
-  }
-
   section {
     margin-top: 20px;
     border: 1px solid;
@@ -652,11 +566,6 @@ display:none;
 
   #box-menu {
     display: none;
-  }
-
-  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-    background: #E1E1E1;
-    padding-left: 25px;
   }
 
   #mob {
@@ -693,10 +602,6 @@ display:none;
     display: none;
   }
 
-  .l-ribbon {
-    width: 275px;
-  }
-
   section {
     border: 1px solid;
     border-color: #e7e7e7;
@@ -706,11 +611,6 @@ display:none;
 
   #full {
     display: none;
-  }
-
-  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-    background: #E1E1E1;
-    padding-left: 25px;
   }
 
   #mob {
