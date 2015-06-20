@@ -18,18 +18,21 @@
   box-sizing: border-box;
 }
 
-
 /* ==========
    Setup Tabs */
 .tabs {
   background: white;
   border-radius: 10px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   margin-top: 10px;
 }
 
 .tabs img {
-  box-shadow: 0;padding: 2px;background: none;border: none;width:40px;
+  box-shadow: 0;
+  padding: 2px;
+  background: none;
+  border: none;
+  width: 40px;
 }
 
 .tabs input[type='radio'] {
@@ -45,7 +48,7 @@
   line-height: 2.75em;
   text-align: center;
   text-overflow: ellipse;
-  text-indent:-25px;
+  text-indent: -25px;
   background: white;
   border: 1px solid #ccc;
   border-right: none;
@@ -57,17 +60,19 @@
   margin-bottom: 1em;
 }
 
-.tabs input[type='radio'] + label:before {  }
+.tabs input[type='radio'] + label:before {
+}
 
-.tabs input[type='radio'] + label:after {  }
+.tabs input[type='radio'] + label:after {
+}
 
 .tabs input[type='radio'] + label.first {
-  border-radius: 0 ;
+  border-radius: 0;
 }
 
 .tabs input[type='radio'] + label.last {
   border-right: 1px solid #ccc;
-  border-radius: 0 ;
+  border-radius: 0;
 }
 
 .tabs input[type='radio'] + label.last:before, .tabs input[type='radio'] + label.last:after {
@@ -119,11 +124,11 @@
 
   .tabs input[type='radio'] + label.first {
     border-right: 1px solid #ccc;
-    border-radius: 0 ;
+    border-radius: 0;
   }
 
   .tabs input[type='radio'] + label.last {
     border-right: 1px solid #ccc;
-    border-radius: 0 ;
+    border-radius: 0;
   }
 }

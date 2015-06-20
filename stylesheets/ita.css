@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
 html {
   background: #6C7989;
   background: #6c7989 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6c7989), color-stop(100%, #434b55)) fixed;
@@ -7,7 +8,6 @@ html {
   background: #6c7989 -o-linear-gradient(#6c7989, #434b55) fixed;
   background: #6c7989 -ms-linear-gradient(#6c7989, #434b55) fixed;
   background: #6c7989 linear-gradient(#6c7989, #434b55) fixed;
-
 }
 
 body {
@@ -16,10 +16,10 @@ body {
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #555;
   font-weight: 300;
-  background-color:#051854;
-  background-image:url('../images/globe.jpg');
-  background-position:center top;
-  background-attachment:fixed;
+  background-color: #051854;
+  background-image: url('../images/globe.jpg');
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 .wrapper {
@@ -37,40 +37,37 @@ body {
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
 }
 
-#leftnav_wrapper li
-{
-	margin-left:-20px;
-	padding-top: 10px;
-	list-style-type: none;
-	font-weight:bold;
-	color: #0851ab;
-	font-size: 13px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	display:block;
+#leftnav_wrapper li {
+  margin-left: -20px;
+  padding-top: 10px;
+  list-style-type: none;
+  font-weight: bold;
+  color: #0851ab;
+  font-size: 13px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  display: block;
 }
 
-#leftnav_wrapper li ul li a
-{
-	text-decoration: none;
-	color: #777777;
-	font-size: 13px;
-	padding: 3px;
-	font-weight: normal;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	display:block;
+#leftnav_wrapper li ul li a {
+  text-decoration: none;
+  color: #777777;
+  font-size: 13px;
+  padding: 3px;
+  font-weight: normal;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  display: block;
 }
-	
-#leftnav_wrapper li ul li
-{
-	list-style-type: none;
-	
-	color: #777777;
-	font-size: 13px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	padding: 3px;
-	
-	padding-bottom: 0px;
-	display:block;
+
+#leftnav_wrapper li ul li {
+  list-style-type: none;
+
+  color: #777777;
+  font-size: 13px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  padding: 3px;
+
+  padding-bottom: 0px;
+  display: block;
 }
 
 header, section, footer {
@@ -116,7 +113,6 @@ header h1 {
 
 header.without-description h1 {
   margin: 10px 0;
-  
 }
 
 header.without-description p {
@@ -233,7 +229,7 @@ header ul a strong {
 .grow img {
   height: 180px;
   width: 180px;
-  padding:11px;
+  padding: 11px;
 }
 
 section {
@@ -395,16 +391,18 @@ footer p + p {
     padding: 20px;
     width: auto;
   }
+
   footer p {
     float: none;
     margin: 0;
   }
+
   footer p + p {
     float: none;
   }
 }
 
-@media print, screen and (max-width:580px) {
+@media print, screen and (max-width: 580px) {
   header ul {
     display: none;
   }
