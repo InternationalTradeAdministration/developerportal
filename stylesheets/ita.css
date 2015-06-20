@@ -11,7 +11,6 @@ html {
 }
 
 body {
-
   padding: 50px 0;
   margin: 0;
   font: 14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -25,7 +24,7 @@ body {
 
 .wrapper {
   width: 980px;
-	height: auto;
+  height: auto;
   margin: 0 auto;
   background: #DEDEDE;
   -webkit-border-radius: 8px;
@@ -38,7 +37,6 @@ body {
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
 }
 
-
 #leftnav_wrapper li
 {
 	margin-left:-20px;
@@ -49,8 +47,6 @@ body {
 	font-size: 13px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	display:block;
-	
-	
 }
 
 #leftnav_wrapper li ul li a
@@ -62,7 +58,6 @@ body {
 	font-weight: normal;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	display:block;
-	
 }
 	
 #leftnav_wrapper li ul li
@@ -85,7 +80,6 @@ header, section, footer {
 a {
   color: #069;
   text-decoration: none;
-  
 }
 
 p {
@@ -110,6 +104,7 @@ header {
   border-bottom: 10px solid #0851ab;
   min-height: 100px;
 }
+
 header h1 {
   margin: 0;
   padding: 0;
@@ -118,15 +113,15 @@ header h1 {
   color: #069;
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
 }
+
 header.without-description h1 {
   margin: 10px 0;
   
 }
+
 header.without-description p {
   margin: -95px 0 0 0;
   float: right;
-  
-  
 }
 
 header p {
@@ -135,18 +130,22 @@ header p {
   width: 300px;
   font-size: 13px;
 }
+
 header p.view {
   display: none;
   font-weight: 700;
   text-shadow: rgba(255, 255, 255, 0.9) 0 1px 0;
   -webkit-font-smoothing: antialiased;
 }
+
 header p.view a {
   color: #06c;
 }
+
 header p.view small {
   font-weight: 400;
 }
+
 header ul {
   margin: 0;
   padding: 0;
@@ -170,6 +169,7 @@ header ul {
   box-shadow: inset rgba(255, 255, 255, 0.45) 0 1px 0, inset rgba(0, 0, 0, 0.2) 0 -1px 0;
   width: auto;
 }
+
 header ul:before {
   content: '';
   position: absolute;
@@ -188,23 +188,28 @@ header ul:before {
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
   box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 0, inset rgba(255, 255, 255, 0.7) 0 -1px 0;
 }
+
 header ul li {
   width: 79px;
   float: left;
   border-right: 1px solid #3A7CBE;
   height: 38px;
 }
+
 header ul li.single {
   border: none;
 }
+
 header ul li + li {
   width: 78px;
   border-left: 1px solid #8BBEF3;
 }
+
 header ul li + li + li {
   border-right: none;
   width: 79px;
 }
+
 header ul a {
   line-height: 1;
   font-size: 11px;
@@ -217,26 +222,22 @@ header ul a {
   height: 40px;
   text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 }
+
 header ul a strong {
   font-size: 14px;
   display: block;
   color: #fff;
   -webkit-font-smoothing: antialiased;
 }
+
 .grow img {
- 
   height: 180px;
   width: 180px;
   padding:11px;
-
- 
-
 }
 
 section {
-	
   padding: 15px 20px;
- 
   font-size: 15px;
   border-top: 1px solid #fff;
   background: -webkit-gradient(linear, 50% 0%, 50% 700, color-stop(0%, #fafafa), color-stop(100%, #dedede));
@@ -252,7 +253,6 @@ section {
   border-radius: 0 0 8px 8px;
   position: relative;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -307,9 +307,11 @@ pre {
   color: #f8f8f2;
   margin: 0 -20px 20px;
 }
+
 pre code {
   color: #f8f8f2;
 }
+
 li pre {
   margin-left: -60px;
   padding-left: 60px;
@@ -353,13 +355,16 @@ footer {
   color: #ccc;
   overflow: hidden;
 }
+
 footer a {
   color: #fff;
   font-weight: bold;
 }
+
 footer p {
   float: left;
 }
+
 footer p + p {
   float: right;
 }
@@ -398,6 +403,7 @@ footer p + p {
     float: none;
   }
 }
+
 @media print, screen and (max-width:580px) {
   header ul {
     display: none;
@@ -411,6 +417,7 @@ footer p + p {
     width: 100%;
   }
 }
+
 @media print {
   header p.view a small:before {
     content: 'at http://github.com/';

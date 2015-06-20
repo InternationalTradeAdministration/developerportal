@@ -10,22 +10,19 @@
 .api-explorer {
     height:100%;
     width:100%;
- 
 }
 
 @media (max-width:767px) {
-.api-explorer {
-}
-
-.api-explorer:last-child {
-    border-bottom:1px solid #d1d1d1
-}
+    .api-explorer {  }
+    .api-explorer:last-child {
+        border-bottom:1px solid #d1d1d1
+    }
 }
 
 @media (min-width:768px) {
-.api-explorer {
-    display:table
-}
+    .api-explorer {
+        display:table
+    }
 }
 
 .api-explorer .query {
@@ -34,21 +31,19 @@
     vertical-align:top;
     position:relative;
     min-height:1px;
-    
 }
 
 @media (min-width:768px) {
-.api-explorer .query {
-    float:left;
-    
-}
+    .api-explorer .query {
+        float:left;
+    }
 }
 
 @media (min-width:768px) {
-.api-explorer .query {
-    float:none!important;
-    display:table-cell;
-}
+    .api-explorer .query {
+        float:none!important;
+        display:table-cell;
+    }
 }
 
 .api-explorer .query h4 {
@@ -84,22 +79,19 @@
     
     position:relative;
     min-height:1px;
-    
 }
 
 @media (min-width:768px) {
-.api-explorer .explorer {
-    float:left;
-    
-}
+    .api-explorer .explorer {
+        float:left;
+    }
 }
 
 @media (min-width:768px) {
-.api-explorer .explorer {
-    
-    float:none!important;
-    display:table-cell
-}
+    .api-explorer .explorer {
+        float:none!important;
+        display:table-cell
+    }
 }
 
 .api-explorer pre {
@@ -137,15 +129,14 @@
 
 .api-explorer .btn,.api-demo .btn {
     font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#08c;
-  font-weight:300;
+    color:#08c;
+    font-weight:300;
     padding:0;
     font-weight:400;   
     border:none;
     background:none;
     width:100%;
     text-align:left;
-
 }
 
 .api-explorer .btn.go,.api-demo .btn.go {
@@ -156,7 +147,6 @@
     color:#08c;
     text-decoration: underline;
     background:none;
-
 }
 
 .api-explorer .btn:focus,.api-demo .btn:focus {
@@ -171,7 +161,6 @@
     border:none;
     background:#494855;
     resize:none;
-
 }
 
 .api-explorer textarea:hover,.api-demo textarea:hover {
@@ -183,6 +172,7 @@
     color:#d2e2ff;
     background:#535362
 }
+
 .form-control {
     display:block;
     width:100%;
@@ -193,13 +183,11 @@
     color:#555;
     background-color:#fff;
     background-image:none;
-
 }
 
 .form-control:focus {
     border-color:#66afe9;
     outline:0;
-
 }
 
 .form-control::-moz-placeholder {
