@@ -1,0 +1,17 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/announcement.png" alt="announcement">Stay Compliant</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+	<div class="pane" id="step1">
+		<p>sample text step 1.</p>
+	</div>
+	<div class="pane" id="step2">
+		<p>sample text step 2.</p>
+	</div>
+	<div class="pane" id="step3">
+		<p>sample text step 3.</p>
+	</div>
+
+</div>
