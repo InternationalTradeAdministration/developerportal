@@ -1,36 +1,31 @@
 ---
-permalink: "/documentation-endpoints.html"
+permalink: "/api-list.html"
 layout: body
-title: Documentation Endpoints
+title: API List
 published: true
 ---
 
-#Documentation Endpoints
+#APIs from the International Trade Administration
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+The International Trade Administration (ITA) provides Application Programming Interfaces (APIs) as JSON endpoints for authoritative information on U.S. exporting and international trade.  ITA continually updates the APIs so please check this portal often. Please [provide feedback](contact.html) to help improve the APIs and to recommend new data sets.
 
-All available APIs ([_download JSON_](api/trade-apis.json))
+###Endpoints for Documentation
 
-[Market Research Library](market-research-library.html) ([_download JSON_](api/market-research-library.json))
+Below is the list of all available APIs that ITA provides.  Documentation for each endpoint is published as HTML pages and as JSON endpoints through [Swagger](http://swagger.io/). You can also test out the endpoints using the Swagger UI tool at the bottom of this page.
 
-[Consolidated Screening List](consolidated-screening-list.html) ([_download JSON_](api/consolidated-screening-lists.json))
+| Endpoint Name	| HTML Documentation | JSON Documentation |
+| -------------| -------------|-------------|
+| All endpoints | N/A | [JSON](api/trade-apis.json) |
+| Market Research Library | [HTML](market-research-library.html) | [JSON](api/market-research-library.json) |
+| Consolidated Screening List | [HTML](consolidated-screening-list.html) | [JSON](api/consolidated-screening-lists.json) |
+| Trade Events | [HTML](trade-events.html) | [JSON](api/trade-events.json) |
+| Trade Leads | [HTML](trade-leads.html) | [JSON](api/trade-leads.json) |
+| Tariff Rates | [HTML](tariff-rates.html) | [JSON](api/tariff-rates.json) |
+| FAQs on Exporting | [HTML](faqs-exporting.html) | [JSON](api/ita-faqs.json) |
+| ITA Offices & Centers | [HTML](ita-office-locations.html) | [JSON](api/ita-office-locations.json) |
+| Trade News & Articles | [HTML](ita-trade-articles.html) | [JSON](api/ita-articles.json) |
+| Zip Code to USEAC | [HTML](ita-zip-codes.html) | [JSON](api/export-assistance-centers.json) |
 
-[Trade Events](trade-events.html) ([_download JSON_](api/trade-events.json))
-
-[Trade Leads](trade-leads.html) ([_download JSON_](api/trade-leads.json))
-
-[Tariff Rates](tariff-rates.html) ([_download JSON_](api/tariff-rates.json))
-
-[FAQs on Exporting](faqs-exporting.html) ([_download JSON_](api/ita-faqs.json))
-
-[ITA Offices & Centers](ita-office-locations.html) ([_download JSON_](api/ita-office-locations.json))
-
-[Trade News & Articles](ita-trade-articles.html) ([_download JSON_](api/ita-articles.json))
-
-[Export Assistance Centers](ita-zip-codes.html) ([_download JSON_](api/export-assistance-centers.json))
-
----
-
-###Test the live endpoints using Swagger:
+###Test the live endpoints using Swagger UI
 
 {% include swagger-ui.html %}
