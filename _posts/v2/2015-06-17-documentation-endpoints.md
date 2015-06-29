@@ -26,6 +26,8 @@ Below is the list of all available APIs that ITA provides.  Documentation for ea
 | Trade News & Articles | [HTML](ita-trade-articles.html) | [JSON](api/ita-articles.json) |
 | Zip Code to USEAC | [HTML](ita-zip-codes.html) | [JSON](api/export-assistance-centers.json) |
 
+<!--
 ###Test the live endpoints using Swagger UI
 
 {% include swagger-ui.html %}
+-->
