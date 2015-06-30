@@ -7,11 +7,11 @@ published: true
 
 #APIs from the International Trade Administration
 
-The International Trade Administration (ITA) provides Application Programming Interfaces (APIs) as JSON endpoints for authoritative information on U.S. exporting and international trade.  ITA continually updates the APIs so please check this portal often. Please [provide feedback](contact.html) to help improve the APIs and to recommend new data sets.
+The International Trade Administration (ITA) provides Application Programming Interfaces (APIs) as JSON endpoints for authoritative information on U.S. exporting and international trade.  ITA continually updates the APIs so check this portal often. Please [provide feedback](contact.html) to help improve the APIs and to recommend new data sets.
 
 ###Endpoints for Documentation
 
-Below is the list of all available APIs that ITA provides.  Documentation for each endpoint is published as HTML pages and as JSON endpoints through [Swagger](http://swagger.io/). You can also test out the endpoints using the Swagger UI tool at the bottom of this page.
+Below is the list of all available APIs that ITA provides.  Documentation for each endpoint is published as HTML pages and as JSON endpoints through [Swagger](http://swagger.io/).
 
 | Endpoint Name	| HTML Documentation | JSON Documentation |
 | -------------| -------------|-------------|
