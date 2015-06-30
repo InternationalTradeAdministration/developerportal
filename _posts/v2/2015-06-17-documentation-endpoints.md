@@ -11,7 +11,7 @@ The International Trade Administration (ITA) provides Application Programming In
 
 ###Endpoints for Documentation
 
-Below is the list of all available APIs that ITA provides.  Documentation for each endpoint is published as HTML pages and as JSON endpoints through [Swagger](http://swagger.io/).
+Below is the list of all available APIs that ITA provides.  Documentation for each endpoint is published as HTML pages and as JSON endpoints through [Swagger](http://swagger.io/). Explore the data with [Demo Search Apps](demo-search-apps.html) built for each API.
 
 | Endpoint Name	| HTML Documentation | JSON Documentation |
 | -------------| -------------|-------------|
