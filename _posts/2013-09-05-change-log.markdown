@@ -12,6 +12,9 @@ We will continue to add updates and features to ITA’s API on an ongoing basis.
 
 | Date            | Change                                                     |
 | --------------- | --------------------------------------------------------------- |
+| 6/30/15         | Added the ability to download the complete Consolidated Screening List data set as a [CSV](https://api.trade.gov/consolidated_screening_list/search.csv) or [TSV](https://api.trade.gov/consolidated_screening_list/search.tsv) file  |
+| 6/15/15         | Added a new value in the JSON for the [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html):  ```score: integer```     |
+| 6/15/15         | Added a new parameter to the [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html):  ```fuzzy_name=true```     |
 | 5/13/2015       | Added procurement opportunities from the Millennium Challenge Corporation Account (MCA) to the [Trade Leads API]({{ site.baseurl }}/trade-leads.html)  | 
 | 5/13/2015       | Added JSON examples inline with the documentation for each API  |
 | 5/13/2015       | Updated the layout of Developer Portal - Look for additional menu items in the upper right corner  |
