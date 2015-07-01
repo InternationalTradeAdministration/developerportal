@@ -433,6 +433,32 @@ small {
   font-size: 11px;
 }
 
+.normal {
+font-weight:normal;
+}
+
+.bold {
+font-weight:bold;
+}
+
+#guidance-heading {
+color:#3a4047;
+}
+
+#guidance-heading-thin {
+color:#3a4047;
+font-weight:normal;
+}
+
+.guidance-pannel {
+padding:0 25px;
+}
+
+.alt_background {
+background:#F9FCFD;
+color:#000;
+}
+
 hr {
   border: 0;
   background: #e5e5e5;
