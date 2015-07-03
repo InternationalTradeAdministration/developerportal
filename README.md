@@ -50,7 +50,7 @@ http://net.tutsplus.com/tutorials/ruby/how-to-install-ruby-on-a-mac/
 
 We recommend using Bundler to manage dependencies. Once you have Ruby installed, install Bundler by running the following command: 'gem install bundler'
 
-Once Bundler is installed, you install/update depencies by simply running 'bundle install' within your project folder.
+Once Bundler is installed, you install/update dependencies by simply running 'bundle install' within your project folder.
 
 More information on Bundler may be found here: http://gembundler.com/
 
