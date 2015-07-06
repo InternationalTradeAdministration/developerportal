@@ -1,17 +1,19 @@
 <div class="tabs">
 
-<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
-<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/announcement.png" alt="announcement">Stay Compliant</label>
-<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+  <input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
+  <input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/announcement.png" alt="announcement">Stay Compliant</label>
+  <input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 
-	<div class="pane" id="step1">
-		<p>sample text step 1.</p>
-	</div>
-	<div class="pane" id="step2">
-		<p>sample text step 2.</p>
-	</div>
-	<div class="pane" id="step3">
-		<p>sample text step 3.</p>
-	</div>
+  <div class="pane" id="step1">
+    <p>Export Control Classification Numbers (ECCNs) are five character alpha-numeric designations used on the Commerce Control List (CCL) to identify “dual-use” items.  Dual use, for export control purposes, refers to products that have commercial as well as military applications.</p>
+    <p>All ECCNs are divided into ten broad categories, based on the nature of the product, i.e. type of commodity, software, or technology and its respective technical parameters.  Each category is further subdivided into five product groups.  The first character of the ECCN identifies the broader category to which it belongs and the second character identifies the product group.  Example categories include *Materials, Chemicals, Microorganisms and Toxins* as well as *Sensors and Lasers*.</p>
+    <p>The API returns the ECCN, its description, as well as a link to the section of the CCL that is related to the product.  The output format for this API is JSON. This data set is updated weekly. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/eccns">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
+  </div>
+  <div class="pane" id="step2">
+    <p>A relatively small percentage of total U.S. goods require a license to be exported. License requirements are dependent upon an item’s technical characteristics, the destination, the end-user, and the end-use.  Use the API to find ECCNs whose description match particular keywords.  Nevertheless, exporters are highly encouraged to contact the <a href="http://www.bis.doc.gov/">Bureau of Industry and Security</a> to verify whether or not a license is indeed required to export a particular good.</p>
+  </div>
+  <div class="pane" id="step3">
+    <p>An ECCN is different from a <a href="https://www.census.gov/foreign-trade/schedules/b/2015/index.html">Schedule B</a> number, which is used by the Bureau of Census to collect trade statistics. It is also different from the <a href="http://www.usitc.gov/2015_htsa_basic_edition.htm">Harmonized Tariff System Nomenclature</a>, which is used to determine import duties.  Help exporters navigate through the sea of product codes by querying and combining the results from all three classifications.</p>
+  </div>
 
 </div>
