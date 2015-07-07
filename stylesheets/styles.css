@@ -157,7 +157,7 @@ td img {
 section img {
   padding: 2px;
   background: #fafafa;
-  border: 3px solid #eee;
+  border: 1px solid #eee;
   display: inline-block;
   float: left;
   margin-right: 25px;
