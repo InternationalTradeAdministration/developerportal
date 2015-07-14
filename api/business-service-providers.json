@@ -1,0 +1,117 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "2.0.0"
+    },
+    "host": "api.govwizely.com",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/business_service_providers/search": {
+            "get": {
+                "summary": "Business Service Providers API",
+                "description": "The Business Service Providers (BSP) API is a directory of U.S. businesses that provide services that many small and medium sized exporters require, both here in the United States and internationally.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "zip_codes",
+                        "in": "query",
+                        "description": "Returns zip code entries that match the specified zip codes. Enter muliple values separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Export Assistance Centers"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Center"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Provider": {
+            "properties": {
+                "company_name": {
+                    "type": "string",
+                    "description": "Name of company providing the service."
+                },
+                "category": {
+                    "type": "string",
+                    "description": "Category of services that company provides."
+                },
+                "company_description": {
+                    "type": "string",
+                    "description": "Description of company."
+                },
+                "contact_name": {
+                    "type": "string",
+                    "description": "Name of contact at company."
+                },
+                "contact_title": {
+                    "type": "string",
+                    "description": "Title of contact at company."
+                },
+                "company_email": {
+                    "type": "string",
+                    "description": "Email for contact at company."
+                },
+                "company_address": {
+                    "type": "string",
+                    "description": "Street, city, and country address for company."
+                },
+                "company_phone": {
+                    "type": "string",
+                    "description": "Phone number for company."
+                },
+                "company_website": {
+                    "type": "string",
+                    "description": "URL for company site."
+                },
+                "ita_office": {
+                    "type": "string",
+                    "description": "Name of ITA office that has provided company information."
+                },
+                "ita_contact_email": {
+                    "type": "string",
+                    "description": "Email for ITA contact."
+                }
+            }
+        }
+    }
+}

@@ -74,27 +74,5 @@
                 }
             }
         }
-    },
-    "definitions": {
-        "Event": {
-            "properties": {
-                "id": {
-                    "type": "string",
-                    "description": "ID of the trade lead."
-                },
-                "lead_source": {
-                    "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
-                },
-                "country": {
-                    "type": "string",
-                    "description": "The country associated with the lead."
-                },
-                "specific_location": {
-                    "type": "string",
-                    "description": "Location of the opportunity."
-                }
-            }
-        }
     }
 }

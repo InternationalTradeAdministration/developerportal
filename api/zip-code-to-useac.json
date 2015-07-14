@@ -67,21 +67,53 @@
     "definitions": {
         "Center": {
             "properties": {
-                "source": {
+                "zip_code": {
                     "type": "string",
-                    "description": "ID of the trade lead."
+                    "description": "5-digit U.S. ZIP Code."
                 },
-                "lead_source": {
+                "zip_city": {
                     "type": "string",
-                    "description": "Source of the trade lead, typically an organization."
+                    "description": "Name of the city corresponding to the ZIP code."
+                },
+                "post": {
+                    "type": "string",
+                    "description": "Name of the post (Default sort)."
+                },
+                "office_name": {
+                    "type": "string",
+                    "description": "Office Name"
+                },
+                "state": {
+                    "type": "string",
+                    "description": "State abbreviation"
+                },
+                "post_city": {
+                    "type": "string",
+                    "description": "Name of the city corresponding to the office location."
+                },
+                "address": {
+                    "type": "string",
+                    "description": "Street address of office"
                 },
                 "country": {
                     "type": "string",
-                    "description": "The country associated with the lead."
+                    "description": "This will always be US since this is a list of ITA offices in the U.S."
                 },
-                "specific_location": {
+                "email": {
                     "type": "string",
-                    "description": "Location of the opportunity."
+                    "description": "Office email address"
+                },
+                "fax": {
+                    "type": "string",
+                    "description": "Fax number"
+                },
+                "mail_instructions": {
+                    "type": "string",
+                    "description": "Snail mail instructions"
+                },
+                "phone": {
+                    "type": "string",
+                    "description": "Office phone number"
                 }
             }
         }

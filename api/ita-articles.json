@@ -90,12 +90,128 @@
     "definitions": {
         "Article": {
             "properties": {
-                "source": {
-                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
+                "id": {
+                    "description": "Unique identifier for the article.",
                     "type": "string"
                 },
-                "source_id": {
-                    "description": "Unique identifier",
+                "title": {
+                    "description": "The title of the article.",
+                    "type": "string"
+                },
+                "short_title": {
+                    "description": "A shortened title for the article.",
+                    "type": "string"
+                },
+                "summary": {
+                    "description": "A summary of the article’s content.",
+                    "type": "string"
+                },
+                "creation_date": {
+                    "description": "The date of the article’s creation.",
+                    "type": "string"
+                },
+                "release_date": {
+                    "description": "The date of the article’s release.",
+                    "type": "string"
+                },
+                "expiration_date": {
+                    "description": "The date of the article’s expiration.",
+                    "type": "string"
+                },
+                "source_agencies": {
+                    "description": "The article’s source agencies.",
+                    "type": "string"
+                },
+                "source_business_units": {
+                    "description": "The business units for each source agency.",
+                    "type": "string"
+                },
+                "source_offices": {
+                    "description": "The offices for each source business unit.",
+                    "type": "string"
+                },
+                "evergreen": {
+                    "description": "Flag to designate “timeless” articles, always topically relevant.",
+                    "type": "string"
+                },
+                "content": {
+                    "description": "The body of the article.",
+                    "type": "string"
+                },
+                "keyword": {
+                    "description": "A list of keywords for the article assigned by the author.",
+                    "type": "string"
+                },
+                "export_phases": {
+                    "description": "The export phases assigned to the article.",
+                    "type": "string"
+                },
+                "industries": {
+                    "description": "The industries assigned to the article.",
+                    "type": "string"
+                },
+                "countries": {
+                    "description": "The countries associated with the article",
+                    "type": "string"
+                },
+                "topics": {
+                    "description": "The topics assigned to the article.",
+                    "type": "string"
+                },
+                "sub_topics": {
+                    "description": "The sub-topics assigned to the article for each topic.",
+                    "type": "string"
+                },
+                "geo_regions": {
+                    "description": "The world regions covered by the article’s content.",
+                    "type": "string"
+                },
+                "geo_subregions": {
+                    "description": "The world sub-regions associated with the article for each geo region.",
+                    "type": "string"
+                },
+                "trade_regions": {
+                    "description": "The trade regions covered by the article’s content.",
+                    "type": "string"
+                },
+                "trade_programs": {
+                    "description": "The trade programs covered by the article’s content.",
+                    "type": "string"
+                },
+                "trade_initiatives": {
+                    "description": "The trade initiatives covered by the article’s content.",
+                    "type": "string"
+                },
+                "seo_metadata_title": {
+                    "description": "Title metadata for the article.",
+                    "type": "string"
+                },
+                "seo_metadata_description": {
+                    "description": "Description metadata for the article.",
+                    "type": "string"
+                },
+                "seo_metadata_keyword": {
+                    "description": "Keyword metadata for the article.",
+                    "type": "string"
+                },
+                "trade_url": {
+                    "description": "The article’s export.gov URL.",
+                    "type": "string"
+                },
+                "file_url": {
+                    "description": "The URLs for files included in the article.",
+                    "type": "string"
+                },
+                "image_url": {
+                    "description": "The URLs for images included in the article.",
+                    "type": "string"
+                },
+                "url_html_source": {
+                    "description": "The URL for the HTML of the article’s source.",
+                    "type": "string"
+                },
+                "url_xml_source": {
+                    "description": "The URL for the XML of the article’s source.",
                     "type": "string"
                 }
             }

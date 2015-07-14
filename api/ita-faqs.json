@@ -88,12 +88,32 @@
     "definitions": {
         "FAQ": {
             "properties": {
-                "source": {
-                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
+                "id": {
+                    "description": "Unique identifier for the FAQ.",
                     "type": "string"
                 },
-                "source_id": {
-                    "description": "Unique identifier",
+                "question": {
+                    "description": "The question being addressed by the FAQ.",
+                    "type": "string"
+                },
+                "answer": {
+                    "description": "The answer portion of the FAQ.",
+                    "type": "string"
+                },
+                "update_date": {
+                    "description": "The date the FAQ was last updated.",
+                    "type": "string"
+                },
+                "industry": {
+                    "description": "Industry category assigned to the FAQ.",
+                    "type": "string"
+                },
+                "country": {
+                    "description": "Countries relevent to the FAQ.",
+                    "type": "string"
+                },
+                "topic": {
+                    "description": "Topic category assigned to the FAQ.",
                     "type": "string"
                 }
             }
