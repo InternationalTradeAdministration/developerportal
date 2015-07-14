@@ -46,7 +46,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -172,7 +172,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -258,7 +258,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -352,7 +352,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -411,7 +411,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -478,7 +478,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -545,7 +545,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -612,7 +612,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -642,7 +642,7 @@
         "/ita_zipcode_to_post/search": {
             "get": {
                 "summary": "Export Assistance Centers API",
-                "description": "The Export Assistance Centers API provides ...",
+                "description": "The Zip Code to USEAC API provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -663,7 +663,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -685,6 +685,65 @@
                         "description": "History information for the given user",
                         "schema": {
                             "$ref": "#/definitions/Center"
+                        }
+                    }
+                }
+            }
+        },
+        "/business_service_providers/search": {
+            "get": {
+                "summary": "Business Service Providers API",
+                "description": "The Business Service Providers (BSP) API is a directory of U.S. businesses that provide services that many small and medium sized exporters require, both here in the United States and internationally.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Returns market research reports for a match in the company_name, company_description, or contact_name fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "ita_offices",
+                        "in": "query",
+                        "description": "Returns office locations based on country. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "categories",
+                        "in": "query",
+                        "description": "Returns market research reports for a specific category. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Business Service Providers"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Provider"
                         }
                     }
                 }
@@ -1005,6 +1064,54 @@
                 "specific_location": {
                     "type": "string",
                     "description": "Location of the opportunity."
+                }
+            }
+        },
+        "Provider": {
+            "properties": {
+                "company_name": {
+                    "type": "string",
+                    "description": "Name of company providing the service."
+                },
+                "category": {
+                    "type": "string",
+                    "description": "Category of services that company provides."
+                },
+                "company_description": {
+                    "type": "string",
+                    "description": "Description of company."
+                },
+                "contact_name": {
+                    "type": "string",
+                    "description": "Name of contact at company."
+                },
+                "contact_title": {
+                    "type": "string",
+                    "description": "Title of contact at company."
+                },
+                "company_email": {
+                    "type": "string",
+                    "description": "Email for contact at company."
+                },
+                "company_address": {
+                    "type": "string",
+                    "description": "Street, city, and country address for company."
+                },
+                "company_phone": {
+                    "type": "string",
+                    "description": "Phone number for company."
+                },
+                "company_website": {
+                    "type": "string",
+                    "description": "URL for company site."
+                },
+                "ita_office": {
+                    "type": "string",
+                    "description": "Name of ITA office that has provided company information."
+                },
+                "ita_contact_email": {
+                    "type": "string",
+                    "description": "Email for ITA contact."
                 }
             }
         }
