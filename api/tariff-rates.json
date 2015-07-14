@@ -84,19 +84,5 @@
                 }
             }
         }
-    },
-    "definitions": {
-        "Lead": {
-            "properties": {
-                "source": {
-                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
-                    "type": "string"
-                },
-                "source_id": {
-                    "description": "Unique identifier",
-                    "type": "string"
-                }
-            }
-        }
     }
 }

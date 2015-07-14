@@ -88,12 +88,52 @@
     "definitions": {
         "Office": {
             "properties": {
-                "source": {
-                    "description": "Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.",
+                "id": {
+                    "description": "Unique identifier for post",
                     "type": "string"
                 },
-                "source_id": {
-                    "description": "Unique identifier",
+                "post": {
+                    "description": "Name of the post (Default sort)",
+                    "type": "string"
+                },
+                "office_name": {
+                    "description": "Office Name",
+                    "type": "string"
+                },
+                "state": {
+                    "description": "State abbreviation, for domestic offices",
+                    "type": "string"
+                },
+                "city": {
+                    "description": "City",
+                    "type": "string"
+                },
+                "address": {
+                    "description": "Street address of office",
+                    "type": "string"
+                },
+                "country": {
+                    "description": "Country",
+                    "type": "string"
+                },
+                "email": {
+                    "description": "Office email address",
+                    "type": "string"
+                },
+                "fax": {
+                    "description": "Fax number",
+                    "type": "string"
+                },
+                "mail_instructions": {
+                    "description": "Snail mail instructions",
+                    "type": "string"
+                },
+                "phone": {
+                    "description": "Office phone number",
+                    "type": "string"
+                },
+                "post_type": {
+                    "description": "Type of post (domestic or international",
                     "type": "string"
                 }
             }
