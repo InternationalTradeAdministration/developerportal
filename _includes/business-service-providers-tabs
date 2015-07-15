@@ -4,7 +4,7 @@
   <input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 
   <div class="pane" id="step1">
-    <p>The Business Service Providers (BSP) API is a directory of U.S. and foreign-based businesses providing services that many small and medium sized exporters require to succeed in foreign markets.</p>
+    <p>The Business Service Providers (BSP) API is a directory of U.S. and foreign-based businesses providing services that many small and medium sized exporters require to succeed in foreign markets.  Businesses can sign up to be a Service Provider on <a href='https://emenuapps.ita.doc.gov/ePublic/bsp-reg'>export.gov</a>.</p>
     <p>The output format for this API is JSON. This data set is updated weekly. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/business-service-providers">demo search app</a>. Be sure to <a href="{{ site.webservices_baseurl }}">sign up for an API key</a> to get access to the API.</p>
   </div>
   <div class="pane" id="step2">
