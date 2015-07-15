@@ -6,7 +6,7 @@
 
 	<div class="pane" id="step1">
 		<p>The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures, and trade missions organized by ITA and other trade agencies including:</p>
-		<ul><li>The U.S. Trade and Development Agency</li><li>The Export-Import Bank</li><li>The State Department</li><li>The Small Business Administration.</li></ul><p>The output format for this API is JSON. This data set is updated daily. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/trade-events">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
+		<ul><li>The U.S. Trade and Development Agency</li><li>The State Department</li><li>The Small Business Administration.</li></ul><p>The output format for this API is JSON. This data set is updated daily. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/trade-events">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>Exporting can be very lucrative but also very complicated – especially for new businesses.  Businesses can get tremendous value from meeting with trade specialists and learning about new opportunities for their business.</p>
