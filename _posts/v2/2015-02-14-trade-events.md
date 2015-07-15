@@ -11,7 +11,7 @@ published: true
 
 ##Resource URL
 
-This endpoint will search across all five trade event sources.  To search a subset, see sources below.
+This endpoint will search across all four trade event sources.  To search a subset, see sources below.
 
 {% include trade-events-query.html %}
 
@@ -60,7 +60,6 @@ Searches only the events specified by the **Source** Abbreviation.
 Source Abbreviations as follows:
 
 * State Department's Direct Line = **DL**
-* Export-Import Bank = **EXIM**
 * International Trade Administration = **ITA**
 * Small Business Administration = **SBA**
 * U.S. Trade and Development Agency = **USTDA**
@@ -96,15 +95,11 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include trade-events-query-size.html %}
 
-### Examples of the Five Event Sources: 
+### Examples of the Four Event Sources: 
 
 State Department (DL) 
 
 {% include trade-events-query-dl.html %}
-
-Export-Import Bank (EXIM)    
-
-{% include trade-events-query-exim.html %}
 
 International Trade Administration (ITA) 
 
@@ -122,31 +117,31 @@ Each event source returns a unique set of fields.  Not every source provides all
 
 | Field              | Description                             | Source             |
 | ------------------ | --------------------------------------- | ------------------ |
-| id                 | Unique identifier for event             | DL, EXIM, ITA, SBA, USTDA					|
-| event_name         | Name given for the event                | DL, EXIM, ITA, SBA, USTDA 					|
-| description        | Text describing the event 			   | DL, EXIM, ITA, SBA, USTDA 					|
-| registration_link  | URL for the event's registration page   | DL, EXIM, ITA, SBA, USTDA 					|
-| start_date         | Start date of the event 			       | EXIM, ITA, SBA, USTDA 					    |
-| end_date           | The date the event will end  		   | EXIM, ITA, SBA, USTDA 					    |
-| industries         | Industry categories assigned to the event    | EXIM, ITA, SBA, USTDA						|
-| venues             | Venues array. Fields in italics.    | EXIM, ITA, SBA, USTDA						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _address_            | street address of the venue     		   | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _city_               | city of the venue                       | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _country_            | country of the venue                    | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _state_              | state of the venue                      | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _venue_              | name of the venue                       | EXIM, ITA, SBA, USTDA 						| 
-| contacts           | Contacts array. Fields in italics.              | EXIM, ITA, SBA, USTDA 							|
-| &nbsp;&nbsp;&nbsp;&nbsp; _email_              | contact's email address                 | EXIM, ITA, SBA, USTDA 						| 
-| &nbsp;&nbsp;&nbsp;&nbsp; _first_name_         | contact's first name                    | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _last_name_          | contact's last name                     | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _person_title_       | contact's company title                 | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _phone_              | contact's phone number                  | EXIM, ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _post_               | contact's location                      | EXIM, ITA, SBA, USTDA 						|
+| id                 | Unique identifier for event             | DL, ITA, SBA, USTDA					|
+| event_name         | Name given for the event                | DL, ITA, SBA, USTDA 					|
+| description        | Text describing the event 			   | DL, ITA, SBA, USTDA 					|
+| registration_link  | URL for the event's registration page   | DL, ITA, SBA, USTDA 					|
+| start_date         | Start date of the event 			       | ITA, SBA, USTDA 					    |
+| end_date           | The date the event will end  		   | ITA, SBA, USTDA 					    |
+| industries         | Industry categories assigned to the event    | ITA, SBA, USTDA						|
+| venues             | Venues array. Fields in italics.    | ITA, SBA, USTDA						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _address_            | street address of the venue     		   | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _city_               | city of the venue                       | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _country_            | country of the venue                    | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _state_              | state of the venue                      | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _venue_              | name of the venue                       | ITA, SBA, USTDA 						| 
+| contacts           | Contacts array. Fields in italics.              | ITA, SBA, USTDA 							|
+| &nbsp;&nbsp;&nbsp;&nbsp; _email_              | contact's email address                 | ITA, SBA, USTDA 						| 
+| &nbsp;&nbsp;&nbsp;&nbsp; _first_name_         | contact's first name                    | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _last_name_          | contact's last name                     | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _person_title_       | contact's company title                 | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _phone_              | contact's phone number                  | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _post_               | contact's location                      | ITA, SBA, USTDA 						|
 | event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1-event-type-list.html)) | ITA, SBA, USTDA 					    |
 | cost               | Cost of the event                       | ITA, SBA, USTDA							|
 | registration_link  | URL for the event's registration page   | ITA, SBA, USTDA							|
-| url        		 | Link to the event's web page 		   | DL, EXIM, ITA 								|
-| source        	 | State Department (DL) 			   	   | DL, EXIM, ITA								|
+| url        		 | Link to the event's web page 		   | DL, ITA 								|
+| source        	 | State Department (DL) 			   	   | DL, ITA								|
 | registration_title | Title of the registration URL           | ITA, USTDA									|
 | cost_currency      | The currency of the cost value          | USTDA										|
 
