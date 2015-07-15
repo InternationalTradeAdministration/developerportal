@@ -139,7 +139,6 @@ Each event source returns a unique set of fields.  Not every source provides all
 | &nbsp;&nbsp;&nbsp;&nbsp; _post_               | contact's location                      | ITA, SBA, USTDA 						|
 | event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1-event-type-list.html)) | ITA, SBA, USTDA 					    |
 | cost               | Cost of the event                       | ITA, SBA, USTDA							|
-| registration_link  | URL for the event's registration page   | ITA, SBA, USTDA							|
 | url        		 | Link to the event's web page 		   | DL, ITA 								|
 | source        	 | State Department (DL) 			   	   | DL, ITA								|
 | registration_title | Title of the registration URL           | ITA, USTDA									|
