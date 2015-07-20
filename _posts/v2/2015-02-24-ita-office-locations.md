@@ -37,7 +37,7 @@ Returns office locations based on city name
 
 ###countries
 
-Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per office location.
+Returns office locations for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per office location.
 
     {{ site.webservices_baseurl }}/v2/ita_office_locations/search?api_key={your key}&countries={country codes}
 

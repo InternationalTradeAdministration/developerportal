@@ -27,7 +27,7 @@ Searches for a match within the question and answer fields.
 
 ###industries
 
-Returns FAQs based on [industry name](industry-list-faqs.html).  This method allows you to search for multiple industries (plural) separated by commas, but will only return one industry (singular) per FAQ.
+Returns FAQs for a specific [controlled industry terms](industry-list-faqs.html). This method allows you to search for multiple industries (plural) separated by commas but will only return one industry (singular) per FAQ.
 
     {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&industries={terms}
 
@@ -37,7 +37,7 @@ Returns FAQs based on [industry name](industry-list-faqs.html).  This method all
 
 ###countries
 
-Returns FAQs based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per FAQ.
+Returns FAQs for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per FAQ.
 
     {{ site.webservices_baseurl }}/v2/ita_faqs/search?api_key={your key}&countries={country codes}
 

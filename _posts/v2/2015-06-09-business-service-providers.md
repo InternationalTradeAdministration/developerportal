@@ -17,7 +17,7 @@ layout: body
 
 ###keyword
 
-Returns market research reports for a match in the **company_name**, **company_description**, or **contact_name** fields.
+Returns business service providers for a match in the **company_name**, **company_description**, or **contact_name** fields.
 
     {{ site.webservices_baseurl }}/v2/business_service_providers/search?api_key={your key}&q={keyword}
 
@@ -27,7 +27,7 @@ Returns market research reports for a match in the **company_name**, **company_d
 
 ###ita_offices
 
-Returns office locations based on country.  Enter multiple terms by separating with a comma.
+Returns business service providers based on country. Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/business_service_providers/search?api_key={your key}&ita_offices={countries}
 
@@ -37,7 +37,7 @@ Returns office locations based on country.  Enter multiple terms by separating w
 
 ###categories
 
-Returns market research reports for a specific [category]({{ site.baseurl }}/business-service-providers-categories.html).  Enter multiple terms by separating with a comma.
+Returns business service providers for a specific [category]({{ site.baseurl }}/business-service-providers-categories.html). Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/business_service_providers/search?api_key={your key}&categories={categories}
 

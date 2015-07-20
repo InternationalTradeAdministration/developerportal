@@ -1,6 +1,8 @@
 {
     "swagger": "2.0",
     "info": {
+        "title": "Market Research Library API",
+        "description": "The Market Research Library API provides metadata for country and industry reports that are produced by ITA's trade experts and are available in ITA's online market research library. ITA commercial officers that are stationed around the world, publish these authoritative reports in conjunction with Foreign Service officers from the State Department.",
         "version": "2.0.0"
     },
     "host": "api.govwizely.com",
@@ -14,8 +16,8 @@
     "paths": {
         "/market_research_library/search": {
             "get": {
-                "summary": "Market Research Library",
-                "description": "U.S. businesses can use these reports to plan their market-entry the right way. The reports help them learn their product’s potential in a given market and the best prospects for success.\n",
+                "summary": "Market Research Library API",
+                "description": "The Market Research Library API provides metadata for country and\nindustry reports that are produced by ITA's trade experts and are\navailable in ITA's online market research library. ITA commercial\nofficers that are stationed around the world, publish these authoritative\nreports in conjunction with Foreign Service officers from the State\nDepartment.\n",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -26,17 +28,25 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "countries",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names",
+                        "description": "Returns market research reports for a specific country based on ISO alpha-2 country codes. Enter multiple terms by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "countries",
+                        "name": "industries",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns market research reports for a specific controlled industry terms. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "in": "query",
+                        "description": "Returns entries based on their expiration date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,7 +54,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -52,7 +62,7 @@
                     {
                         "name": "offset",
                         "in": "query",
-                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -60,9 +70,11 @@
                 ],
                 "tags": [
                     "Trade",
-                    "Commerce",
-                    "Reports",
-                    "Research"
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Market Research",
+                    "Market Intelligence"
                 ],
                 "responses": {
                     "200": {
@@ -90,7 +102,7 @@
                     "type": "string"
                 },
                 "description": {
-                    "description": "Abstract of the report’s content",
+                    "description": "Abstract of the report's content",
                     "type": "string"
                 },
                 "expiration_date": {

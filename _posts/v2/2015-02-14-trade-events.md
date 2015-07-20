@@ -29,7 +29,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 ###industries
 
-Searches events for specific controlled [industry names]({{ site.baseurl }}/v1-industry-list-trade-events.html).  Enter multiple terms by separating with a comma.
+Returns trade events for a specific [controlled industry names]({{ site.baseurl }}/v1-industry-list-trade-events.html). This method allows you to search for multiple industries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/v2/trade_events/search?api_key={your key}&industries={terms}
 
@@ -39,7 +39,7 @@ Searches events for specific controlled [industry names]({{ site.baseurl }}/v1-i
 
 ###countries
 
-Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas, but will only return one country (singular) per location.
+Returns trade events for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per event.
 
     {{ site.webservices_baseurl }}/v2/trade_events/search?api_key={your key}&countries={country code}
 
@@ -140,7 +140,7 @@ Each event source returns a unique set of fields.  Not every source provides all
 | event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1-event-type-list.html)) | ITA, SBA, USTDA 					    |
 | cost               | Cost of the event                       | ITA, SBA, USTDA							|
 | url        		 | Link to the event's web page 		   | DL, ITA 								|
-| source        	 | State Department (DL) 			   	   | DL, ITA								|
+| source        	 | Agency providing the event information. 			   	   | DL, ITA								|
 | registration_title | Title of the registration URL           | ITA, USTDA									|
 | cost_currency      | The currency of the cost value          | USTDA										|
 

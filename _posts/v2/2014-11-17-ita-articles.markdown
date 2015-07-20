@@ -35,7 +35,7 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 
 ###industries
 
-Returns articles based on [industry name](industry-list-ita-articles.html).  Enter multiple terms by separating with a comma.
+Returns articles for a specific [controlled industry terms](industry-list-ita-articles.html). This method allows you to search for multiple industries separated by commas.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&industries={terms}
 
@@ -45,7 +45,7 @@ Returns articles based on [industry name](industry-list-ita-articles.html).  Ent
 
 ###countries
 
-Returns articles based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
+Returns articles for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries separated by commas.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&countries={country codes}
 

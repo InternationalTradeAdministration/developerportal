@@ -27,7 +27,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 ###industries
 
-Returns **industry** that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
+Returns trade leads for a specific [controlled industry terms](#). This method allows you to search for multiple industries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&industries={term}
 
@@ -37,7 +37,7 @@ Returns **industry** that the lead relates to.  Note:  This method allows you to
 
 ###countries
 
-Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
+Returns trade leads for a specific **country** based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per lead. 
 
     {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&countries={country code}
 
@@ -185,7 +185,7 @@ State Department leads are subject to their open government license located at:
 | title                              | Title of the lead |
 | project_number                     | Number for the opportunity|
 | industry                           | Industry tag associated with the lead |
-| project_size                       | Project size |
+| project_size                       | Budget for project in U.S. dollars. |
 | description                        | Description of the opportunity |
 | tags                               | Keywords associated with the opportunity|
 | publish_date                       | Date lead was posted | 
