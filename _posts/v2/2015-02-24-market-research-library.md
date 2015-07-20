@@ -58,7 +58,7 @@ Returns entries based on their expiration date.  Dates are filtered by comparing
 
 ###size + offset
 
-The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.  To download the entire Market Research Library in one call set ```size=-1```
+The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.  **Note:**  To download the entire Market Research Library in one call set ```size=-1```
 
 **_Example_**
 
