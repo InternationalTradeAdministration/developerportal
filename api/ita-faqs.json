@@ -1,9 +1,11 @@
 {
     "swagger": "2.0",
     "info": {
+        "title": "FAQs on Exporting API",
+        "description": "The Frequently Asked Questions (FAQs) API includes more than 300 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.",
         "version": "2.0.0"
     },
-    "host": "api.govwizely.com",
+    "host": "api.trade.gov",
     "schemes": [
         "https"
     ],
@@ -34,9 +36,9 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "industries",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names",
+                        "description": "Returns FAQs for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas but will only return one industry (singular) per FAQ.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,7 +46,7 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns office locations for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per office location.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -52,7 +54,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -60,7 +62,7 @@
                     {
                         "name": "offset",
                         "in": "query",
-                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -69,7 +71,9 @@
                 "tags": [
                     "Trade",
                     "Exporting",
-                    "Domestic and International Export Assistance Centers"
+                    "ITA",
+                    "International",
+                    "FAQs"
                 ],
                 "responses": {
                     "200": {

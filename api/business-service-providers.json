@@ -1,9 +1,11 @@
 {
     "swagger": "2.0",
     "info": {
+        "title": "Business Service Providers API",
+        "description": "The Business Service Providers (BSP) API is a directory of U.S. and foreign-based businesses providing services that many small and medium sized exporters require to succeed in foreign markets Parameters.",
         "version": "2.0.0"
     },
-    "host": "api.govwizely.com",
+    "host": "api.trade.gov",
     "schemes": [
         "https"
     ],
@@ -15,20 +17,28 @@
         "/business_service_providers/search": {
             "get": {
                 "summary": "Business Service Providers API",
-                "description": "The Business Service Providers (BSP) API is a directory of U.S. businesses that provide services that many small and medium sized exporters require, both here in the United States and internationally.",
+                "description": "The Business Service Providers (BSP) API is a directory of U.S. and foreign-based businesses providing services that many small and medium sized exporters require to succeed in foreign markets Parameters.",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Returns business service providers for a match in the company_name, company_description, or contact_name fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "zip_codes",
+                        "name": "ita_offices",
                         "in": "query",
-                        "description": "Returns zip code entries that match the specified zip codes. Enter muliple values separated by commas.",
+                        "description": "Returns business service providers based on country. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "categories",
+                        "in": "query",
+                        "description": "Returns business service providers for a specific category. Enter multiple terms by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -36,7 +46,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,20 +54,24 @@
                     {
                         "name": "offset",
                         "in": "query",
-                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     }
                 ],
                 "tags": [
-                    "Export Assistance Centers"
+                    "Trade",
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Service Providers"
                 ],
                 "responses": {
                     "200": {
                         "description": "History information for the given user",
                         "schema": {
-                            "$ref": "#/definitions/Center"
+                            "$ref": "#/definitions/Provider"
                         }
                     }
                 }

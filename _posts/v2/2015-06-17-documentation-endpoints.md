@@ -26,5 +26,5 @@ ITA has also developed simple search apps designed to help our data customers ea
 | FAQs on Exporting | [HTML](faqs-exporting.html) | [JSON](api/ita-faqs.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-faqs) |
 | ITA Offices & Centers | [HTML](ita-office-locations.html) | [JSON](api/ita-office-locations.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-office-locations) |
 | Trade News & Articles | [HTML](ita-trade-articles.html) | [JSON](api/ita-articles.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/sharepoint-trade-articles) |
-| Zip Code to USEAC | [HTML](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://govwizely.github.io/explorer/#/ita-zip-codes) |
-| Business Service Providers | [HTML](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://govwizely.github.io/explorer/#/business-service-providers) |
+| Zip Code to USEAC | [HTML](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) |
+| Business Service Providers | [HTML](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/business-service-providers) |

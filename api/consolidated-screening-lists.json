@@ -1,9 +1,11 @@
 {
     "swagger": "2.0",
     "info": {
+        "title": "Consolidated Screening List API",
+        "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",
         "version": "2.0.0"
     },
-    "host": "api.govwizely.com",
+    "host": "api.trade.gov",
     "schemes": [
         "https"
     ],
@@ -20,7 +22,7 @@
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Searches for a match within the name, alt_names, remarks, and title fields from all eleven lists.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -36,15 +38,63 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Searches only entities whose country field matches the country code based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per entity.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "name",
                         "in": "query",
-                        "description": "Searches for specific controlled industry names",
+                        "description": "Searches against the name and alt_names fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "fuzzy_name",
+                        "in": "query",
+                        "description": "Set fuzzy_name=true to utilize fuzzy name matching.  Fuzzy name matching enables users to query a name and get usable results without knowing the exact spelling of an entry.  The fuzzy_name parameter only works in tandem with name.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "type",
+                        "in": "query",
+                        "description": "Searches based on the type of the entry (e.g, Individual, Entity, Vessel).",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "start_date",
+                        "in": "query",
+                        "description": "Returns entries based on their start date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "Returns entries based on their end date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "issue_date",
+                        "in": "query",
+                        "description": "Returns entries based on the issue dates of the ids array.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "in": "query",
+                        "description": "Returns entries based on the expiration dates of the ids array.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -60,7 +110,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -68,7 +118,7 @@
                     {
                         "name": "offset",
                         "in": "query",
-                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -76,9 +126,12 @@
                 ],
                 "tags": [
                     "Trade",
-                    "Consolidated",
-                    "Regulated",
-                    "Export prohibitted"
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Screening Lists",
+                    "Compliance",
+                    "Denied Parties"
                 ],
                 "responses": {
                     "200": {
@@ -98,11 +151,11 @@
         "List": {
             "properties": {
                 "addresses": {
-                    "description": "Array of Entity’s complete addresses.",
+                    "description": "Array of Entity's complete addresses.",
                     "type": "string"
                 },
                 "name": {
-                    "description": "Entity’s name",
+                    "description": "Entity's name",
                     "type": "string"
                 },
                 "alt_names": {
@@ -119,6 +172,66 @@
                 },
                 "ids": {
                     "description": "An array showing specific identification information of the entity.",
+                    "type": "string"
+                },
+                "citizenships": {
+                    "description": "Entity's citizenships.",
+                    "type": "string"
+                },
+                "dates_of_birth": {
+                    "description": "Entity's date of birth.",
+                    "type": "string"
+                },
+                "nationalities": {
+                    "description": "Entity's nationalities.",
+                    "type": "string"
+                },
+                "places_of_birth": {
+                    "description": "Entity's place of birth.",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Entity's title.",
+                    "type": "string"
+                },
+                "entity_number": {
+                    "description": "Unique id assigned by the originating list.",
+                    "type": "string"
+                },
+                "start_date": {
+                    "description": "The effective date for the entity to be included on the list as defined by the Federal Register Notice.",
+                    "type": "string"
+                },
+                "end_date": {
+                    "description": "The date on which the entity's inclusion on the list will be lifted, waived, or will have expired.",
+                    "type": "string"
+                },
+                "federal_register_notice": {
+                    "description": "The official source of information about the parties on this list.",
+                    "type": "string"
+                },
+                "license_requirement": {
+                    "description": "The license requirement as determined by the Export Administration Regulations.",
+                    "type": "string"
+                },
+                "license_policy": {
+                    "description": "The policy set forth in the Export Administration Regulations regarding denial.",
+                    "type": "string"
+                },
+                "remarks": {
+                    "description": "Additional remarks or notes regarding the company, entity, or person on the list.",
+                    "type": "string"
+                },
+                "standard_order": {
+                    "description": "Whether or not (Y/N) the standard order applies to the Denied Party as defined by the Bureau of Industry and Security (BIS).",
+                    "type": "string"
+                },
+                "programs": {
+                    "description": "Agency program related to the entity on the list.",
+                    "type": "string"
+                },
+                "source": {
+                    "description": "The name of the source list where this entity is listed.",
                     "type": "string"
                 }
             }

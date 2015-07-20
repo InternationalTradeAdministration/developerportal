@@ -27,7 +27,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 ###industries
 
-Returns **industry** that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
+Returns trade leads for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&industries={term}
 
@@ -37,7 +37,7 @@ Returns **industry** that the lead relates to.  Note:  This method allows you to
 
 ###countries
 
-Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
+Returns trade leads for a specific **country** based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per lead. 
 
     {{ site.webservices_baseurl }}/v2/trade_leads/search?api_key={your key}&countries={country code}
 
@@ -112,27 +112,27 @@ Canadian leads are subject to Canada's license located at:
 
 | Field	                               | Description  |
 | ------                               | -------------|
-| country                              | CA (Canada)  |
-| title                                | Title of the lead |
-| reference_number                     | The lead's reference number |
-| contract_number                      | Contract number for the opportunity |
-| publish_date                         | Date lead was posted |
-| end_date                             | Closing date for the lead |
-| publish_date_amended                 | Amended publish date for the lead |
-| status                               | Status of the lead (note this API only shows open leads) |
-| industry                             | Industry category assigned to the opportunity | 
-| specific_location                    | Location of the opportunity | 
-| notice_type                          | Type of contract |
-| trade_agreement                      | Relevant trade agreement for the contract | 
-| bid_type                             | The criteria for the contract  |
-| competitive_procurement_strategy     | Bidding criteria for respondents |
-| non_competitive_procurement_strategy | States whether it is a competitive procurement |
-| procurement_organization             | Agency responsible for the contract |
-| implementing_entity                  | Agency responsible for the implementation |
-| description                          | Description of the opportunity |
-| contact                              | Point of contact |
-| urls                                 | URLs that pertain to the bid |
-| source                               | CANADA |
+| country                              | CA (Canada).  |
+| title                                | Title of the lead. |
+| reference_number                     | The lead's reference number. |
+| contract_number                      | Contract number for the opportunity. |
+| publish_date                         | Date lead was posted. |
+| end_date                             | Closing date for the lead. |
+| publish_date_amended                 | Amended publish date for the lead. |
+| status                               | Status of the lead (note this API only shows open leads). |
+| industry                             | Industry category assigned to the opportunity. | 
+| specific_location                    | Location of the opportunity. | 
+| notice_type                          | Type of contract. |
+| trade_agreement                      | Relevant trade agreement for the contract. | 
+| bid_type                             | The criteria for the contract.  |
+| competitive_procurement_strategy     | Bidding criteria for respondents. |
+| non_competitive_procurement_strategy | States whether it is a competitive procurement. |
+| procurement_organization             | Agency responsible for the contract. |
+| implementing_entity                  | Agency responsible for the implementation. |
+| description                          | Description of the opportunity. |
+| contact                              | Point of contact. |
+| urls                                 | URLs that pertain to the bid. |
+| source                               | CANADA. |
 
 
 ### FedBizOps / FBOpen Leads
@@ -145,23 +145,23 @@ Canadian leads are subject to Canada's license located at:
 
 | Field	                               | Description  |
 | ------                               | -------------|  
-| notice_type                          | Type of contract |
-| procurement_organization             | Agency responsible for the contract |
-| procurement_office                   | Office responsible of the contract |
-| procurement_organization_address     | Address of the procurement organization |
-| classification_code			       | Code that classifies the lead |
-| industry                             | Industry tag associated with the lead |
-| procurement_office_address           | Address of the procurement office |
-| title                                | Title of the lead |
-| contract_number                      | Contract number for the opportunity |
-| end_date                             | Closing date for the lead |
-| contact                               | Point of contact |
-| description                          | Description of the opportunity |
-| competitive_procurement_strategy     | Bidding criteria for respondents |
-| url                                  | URL that pertains to the bid |
-| specific_location                    | Location of the opportunity | 
-| specific_address                     | Address of the opportunity's location | 
-| source                               | FBO |
+| notice_type                          | Type of contract. |
+| procurement_organization             | Agency responsible for the contract. |
+| procurement_office                   | Office responsible of the contract. |
+| procurement_organization_address     | Address of the procurement organization. |
+| classification_code			       | Code that classifies the lead. |
+| industry                             | Industry tag associated with the lead. |
+| procurement_office_address           | Address of the procurement office. |
+| title                                | Title of the lead. |
+| contract_number                      | Contract number for the opportunity. |
+| end_date                             | Closing date for the lead. |
+| contact                               | Point of contact. |
+| description                          | Description of the opportunity. |
+| competitive_procurement_strategy     | Bidding criteria for respondents. |
+| url                                  | URL that pertains to the bid. |
+| specific_location                    | Location of the opportunity. | 
+| specific_address                     | Address of the opportunity's location. | 
+| source                               | FBO. |
 
 
 ###State Department Description
@@ -178,28 +178,28 @@ State Department leads are subject to their open government license located at:
 
 | Field	                             | Description  |
 | ------                             | -------------|  
-| id                                 | ID of the trade lead|
-| lead_source                             | Source of the trade lead, typically an organization|
-| country                            | The country associated with the lead |
-| specific_location                  | Location of the opportunity | 
-| title                              | Title of the lead |
-| project_number                     | Number for the opportunity|
-| industry                           | Industry tag associated with the lead |
-| project_size                       | Project size |
-| description                        | Description of the opportunity |
-| tags                               | Keywords associated with the opportunity|
-| publish_date                       | Date lead was posted | 
-| end_date                           | Closing date for the lead|
-| funding_source                     | Funding source of the project|
-| borrowing_entity                   | Bank funding the project|
-| procurement_organization 	         | Agency responsible for the contract |
-| contact                            | Point of contact |
-| comments                           | Comments about the project|
-| submitting_officer                 | Contract officer name|
-| submitting_officer_contact         | Contract officer email|
-| url                                  | URL that pertains to the bid |
-| status                             | Status of the lead (note this API only shows open leads) |
-| source                             | STATE |
+| id                                 | ID of the trade lead.|
+| lead_source                             | Source of the trade lead, typically an organization.|
+| country                            | The country associated with the lead. |
+| specific_location                  | Location of the opportunity. | 
+| title                              | Title of the lead. |
+| project_number                     | Number for the opportunity.|
+| industry                           | Industry tag associated with the lead. |
+| project_size                       | Budget for project in U.S. dollars. |
+| description                        | Description of the opportunity. |
+| tags                               | Keywords associated with the opportunity.|
+| publish_date                       | Date lead was posted. | 
+| end_date                           | Closing date for the lead.|
+| funding_source                     | Funding source of the project.|
+| borrowing_entity                   | Bank funding the project.|
+| procurement_organization 	         | Agency responsible for the contract. |
+| contact                            | Point of contact. |
+| comments                           | Comments about the project.|
+| submitting_officer                 | Contract officer name.|
+| submitting_officer_contact         | Contract officer email.|
+| url                                  | URL that pertains to the bid. |
+| status                             | Status of the lead (note this API only shows open leads). |
+| source                             | STATE. |
 
 ###UK Government Leads
 
@@ -215,22 +215,22 @@ UK leads are subject to their open government license located at:
 
 | Field	                          | Description  |
 | ------                          | -------------|  
-| id                              | ID of the trade lead|
-| country                         | GB (Great Britain) |
-| reference_number                | Reference number for the opportunity |
-| publish_date                    | Date lead was posted | 
-| min_contract_value              | Minimum value of the lead (in pounds) |
-| max_contract_value              | Maximum value of the lead (in pounds) |
-| status                          | Status of the lead (note this API only shows open leads) |
-| url                             | URL that pertains to the bid |
-| procurement_organization 	      | Agency responsible for the contract |
-| contact                         | Point of contact |
-| title                           | Title of the lead |
-| description                     | Description of the opportunity |
-| notice_type                     | Type of contract |
-| industry                        | Industry tag associated with the lead |
-| specific_location               | Location of the opportunity | 
-| source                          | UK |
+| id                              | ID of the trade lead.|
+| country                         | GB (Great Britain). |
+| reference_number                | Reference number for the opportunity. |
+| publish_date                    | Date lead was posted. | 
+| min_contract_value              | Minimum value of the lead (in pounds). |
+| max_contract_value              | Maximum value of the lead (in pounds). |
+| status                          | Status of the lead (note this API only shows open leads). |
+| url                             | URL that pertains to the bid. |
+| procurement_organization 	      | Agency responsible for the contract. |
+| contact                         | Point of contact. |
+| title                           | Title of the lead. |
+| description                     | Description of the opportunity. |
+| notice_type                     | Type of contract. |
+| industry                        | Industry tag associated with the lead. |
+| specific_location               | Location of the opportunity. | 
+| source                          | UK. |
 
 ##Millennium Challenge Corporation Account (MCA) Leads
 
@@ -240,18 +240,18 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 
 | Field	                          | Description  |
 | ------                          | -------------|  
-| title                           | Title of the procurement opportunity|
-| publish_date                    | Date the procurement was published |
-| description                	  | Description of the procurement opportunity |
-| url                    		  | Link to the full procurement notice | 
-| country              			  | The country associated with the lead |
-| categories              		  | Categories array |
-| &nbsp;&nbsp;&nbsp;&nbsp; _item 1_                        | Items in the array contain “note” text such as “CPV” number |
+| title                           | Title of the procurement opportunity.|
+| publish_date                    | Date the procurement was published. |
+| description                	  | Description of the procurement opportunity. |
+| url                    		  | Link to the full procurement notice. | 
+| country              			  | The country associated with the lead. |
+| categories              		  | Categories array. |
+| &nbsp;&nbsp;&nbsp;&nbsp; _item 1_                        | Items in the array contain “note” text such as “CPV” number. |
 | &nbsp;&nbsp;&nbsp;&nbsp; _item 2_                        | 				|
 | &nbsp;&nbsp;&nbsp;&nbsp; … 	      					  |  				|
 | &nbsp;&nbsp;&nbsp;&nbsp; _item n_                        | 			    |
-| funding_source                  | Millennium Challenge Account (MCA) |
-| source                     	  | MCA |
+| funding_source                  | Millennium Challenge Account (MCA). |
+| source                     	  | MCA. |
 
 CPV numbers in the categories array refer to the [Common Procurement Vocabulary](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0213) of the European Union.  Use these to help categorize the leads from the MCA.  For example, CPV/45331110 refers to Boiler installation work.
 
