@@ -47,16 +47,16 @@ The **size** parameter allows you to configure the number of results to be retur
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
-| zip_code          | 5-digit U.S. ZIP Code                                                     |
+| zip_code          | 5-digit U.S. ZIP Code.                                                     |
 | zip_city          | Name of the city corresponding to the ZIP code.             |
-| post              | Name of the post (Default sort)                                 |
-| office_name       | Office Name                                                     |
-| state             | State abbreviation                       |
+| post              | Name of the post (Default sort).                                 |
+| office_name       | Office Name.                                                     |
+| state             | State abbreviation.                       |
 | post_city         | Name of the city corresponding to the office location.           |
-| address           | Street address of office                                        |
+| address           | Street address of office.                                        |
 | country           | This will always be US since this is a list of ITA offices in the U.S.    |
-| email             | Office email address                                            |
-| fax               | Fax number                                                      |
-| mail_instructions | Snail mail instructions                                         |
-| phone             | Office phone number                                             |
+| email             | Office email address.                                            |
+| fax               | Fax number.                                                      |
+| mail_instructions | Snail mail instructions.                                         |
+| phone             | Office phone number.                                             |
 

@@ -79,19 +79,19 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | Field                        | Description                             |
 | ------------------           | --------------------------------------- |
 | source                       |    Two letter code for the “reporter” country with whom the U.S. has the Free Trade Agreement.   |
-| source_id                    | Unique identifier            |
-| tariff_line         	       | Product’s Harmonized System (HS) code for the product according to the reporter’s nomenclature |
-| subheading_description       |  English description at the subheading level (6-digit HS code)  |
-| hs_6                         | 6-digit HS code for the product |
+| source_id                    | Unique identifier.            |
+| tariff_line         	       | Product’s Harmonized System (HS) code for the product according to the reporter’s nomenclature. |
+| subheading_description       |  English description at the subheading level (6-digit HS code).  |
+| hs_6                         | 6-digit HS code for the product. |
 | base_rate                    | The numeric tariff rate from which tariff reductions are calculated.  Typically, this is the applied tariff rate at the time the FTA was negotiated. |
 | base_rate_alt                |    The non-numeric (specific) tariff rate from which the tariff reductions are calculated.  Typically, this is the applied tariff rate at the time the FTA was negotiated.     |
 | final_year                   |   The year the tariff is eliminated under the FTA.    |
 | tariff_rate_quota            |   Flag noting tariff treatment for products within quota (2) and out of quota (1).    |
 | tariff_rate_quota_note       |   Text note about the tariff-rate quota (TRQ) applicable to the product.    |
-| tariff_eliminated            |    Flag noting whether or not the tariff is eventually eliminated.  “False”= not eliminated    |
-| ag_id                        |   Unique identifier for agricultural goods    |
-| partner_name                 |    Exporting country’s code   |
-| reporter_name                |    Importing country’s code   |
+| tariff_eliminated            |    Flag noting whether or not the tariff is eventually eliminated.  “False”= not eliminated.    |
+| ag_id                        |   Unique identifier for agricultural goods.    |
+| partner_name                 |    Exporting country’s code.   |
+| reporter_name                |    Importing country’s code.   |
 | staging_basket               |     The agreed tariff phase-out period for the product under the FTA.   |
 | partner_start_year           |    Year the agreement entered into force for the partner.  (The first year of tariff cuts).    |
 | reporter_start_year          |   Year the agreement entered into force for the reporter.  (The first year of tariff cuts).    |
@@ -103,5 +103,5 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | rule_text                    |   Text describing the applicable rule of origin for the product.    |
 | link_text                    |   Text describing URL to more detailed rule of origin information.    |
 | link_url                     |    URL to more detailed rule of origin information.   |
-| annual_rates                 |  Numeric year-by-year tariff rates under the FTA as the tariff is eliminated    |
+| annual_rates                 |  Numeric year-by-year tariff rates under the FTA as the tariff is eliminated.    |
 | alt_annual_rates             |    Non-numeric (specific) year-by-year tariff rates under the FTA.    |

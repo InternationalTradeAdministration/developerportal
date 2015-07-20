@@ -5,7 +5,7 @@ title: Business Service Providers
 layout: body
 ---
 
-#Business Service Providers
+#Business Service Providers API
 
 {% include business-service-providers-tabs %}
 
@@ -57,14 +57,14 @@ The **size** parameter allows you to configure the number of results to be retur
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
-| company_name | Name of company providing the service
-| category | Category of services that company provides
-| company_description | Description of company
-| contact_name | Name of contact at company
-| contact_title | Title of contact at company
-| company_email | Email for contact at company
-| company_address | Street, city, and country address for company
-| company_phone | Phone number for company
-| company_website | URL for company site
-| ita_office | Name of ITA office that has provided company information
-| ita_contact_email | Email for ITA contact
+| company_name | Name of company providing the service.
+| category | Category of services that company provides.
+| company_description | Description of company.
+| contact_name | Name of contact at company.
+| contact_title | Title of contact at company.
+| company_email | Email for contact at company.
+| company_address | Street, city, and country address for company.
+| company_phone | Phone number for company.
+| company_website | URL for company site.
+| ita_office | Name of ITA office that has provided company information.
+| ita_contact_email | Email for ITA contact.

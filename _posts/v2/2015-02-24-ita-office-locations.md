@@ -67,17 +67,17 @@ The **size** parameter allows you to configure the number of results to be retur
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
-| id                | Unique identifier for post                                      |
-| post              | Name of the post (Default sort)                                 |
-| office_name       | Office Name                                                     |
-| state             | State abbreviation, for domestic offices                        |
-| city              | City                                                            |
-| address           | Street address of office                                        |
-| country           | Country                                                         |
-| email             | Office email address                                            |
-| fax               | Fax number                                                      |
-| mail_instructions | Snail mail instructions                                         |
-| phone             | Office phone number                                             |
-| post_type         | Type of post (domestic or international)                        |
+| id                | Unique identifier for post.                                      |
+| post              | Name of the post (Default sort).                                 |
+| office_name       | Office Name.                                                     |
+| state             | State abbreviation, for domestic offices.                        |
+| city              | City.                                                            |
+| address           | Street address of office.                                        |
+| country           | Country.                                                         |
+| email             | Office email address.                                            |
+| fax               | Fax number.                                                      |
+| mail_instructions | Snail mail instructions.                                         |
+| phone             | Office phone number.                                             |
+| post_type         | Type of post (domestic or international).                        |
 
 This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-ita-office-locations.html) page for the Version 1 documentation.

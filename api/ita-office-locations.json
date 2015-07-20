@@ -1,9 +1,11 @@
 {
     "swagger": "2.0",
     "info": {
+        "title": "ITA Offices & Centers API",
+        "description": "The ITA Offices & Centers API provides contact and address information for all of ITA's domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITA's internal office management system.",
         "version": "2.0.0"
     },
-    "host": "api.govwizely.com",
+    "host": "api.trade.gov",
     "schemes": [
         "https"
     ],
@@ -15,7 +17,7 @@
         "/ita_office_locations/search": {
             "get": {
                 "summary": "ITA Offices & Centers API",
-                "description": "The ITA Offices & Centers API provides contact and address information for all of ITA’s domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITA’s internal office management system.\n",
+                "description": "The ITA Offices & Centers API provides contact and address information for all of ITA's domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITA's internal office management system.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -44,7 +46,7 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns office locations for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per office location.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -52,7 +54,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -60,7 +62,7 @@
                     {
                         "name": "offset",
                         "in": "query",
-                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -68,8 +70,10 @@
                 ],
                 "tags": [
                     "Trade",
-                    "Tariff Rates",
-                    "Domestic and International Export Assistance Centers"
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Offices"
                 ],
                 "responses": {
                     "200": {

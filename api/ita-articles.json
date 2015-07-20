@@ -1,9 +1,11 @@
 {
     "swagger": "2.0",
     "info": {
+        "title": "Trade News & Articles API",
+        "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies.",
         "version": "2.0.0"
     },
-    "host": "api.govwizely.com",
+    "host": "api.trade.gov",
     "schemes": [
         "https"
     ],
@@ -28,7 +30,7 @@
                     {
                         "name": "export_phases",
                         "in": "query",
-                        "description": "Returns articles based on the export phase.",
+                        "description": "Returns articles based on the export phase. Enter multiple terms by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -36,7 +38,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns articles based on industry name.",
+                        "description": "Returns articles for a specific controlled industry terms. This method allows you to search for multiple industries separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -50,9 +52,25 @@
                         "format": "string"
                     },
                     {
+                        "name": "topics",
+                        "in": "query",
+                        "description": "Returns articles based on topic. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "sub_topics",
+                        "in": "query",
+                        "description": "Returns articles based on sub-topic. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned. ",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -68,10 +86,11 @@
                 ],
                 "tags": [
                     "Trade",
+                    "Exporting",
                     "ITA",
-                    "Trade Specialists",
-                    "Trade Promotion Coordinating Committee (TPCC)",
-                    "Trade News and Articles"
+                    "International",
+                    "News",
+                    "Articles"
                 ],
                 "responses": {
                     "200": {
@@ -103,23 +122,23 @@
                     "type": "string"
                 },
                 "summary": {
-                    "description": "A summary of the article’s content.",
+                    "description": "A summary of the article's content.",
                     "type": "string"
                 },
                 "creation_date": {
-                    "description": "The date of the article’s creation.",
+                    "description": "The date of the article's creation.",
                     "type": "string"
                 },
                 "release_date": {
-                    "description": "The date of the article’s release.",
+                    "description": "The date of the article's release.",
                     "type": "string"
                 },
                 "expiration_date": {
-                    "description": "The date of the article’s expiration.",
+                    "description": "The date of the article's expiration.",
                     "type": "string"
                 },
                 "source_agencies": {
-                    "description": "The article’s source agencies.",
+                    "description": "The article's source agencies.",
                     "type": "string"
                 },
                 "source_business_units": {
@@ -163,7 +182,7 @@
                     "type": "string"
                 },
                 "geo_regions": {
-                    "description": "The world regions covered by the article’s content.",
+                    "description": "The world regions covered by the article's content.",
                     "type": "string"
                 },
                 "geo_subregions": {
@@ -171,15 +190,15 @@
                     "type": "string"
                 },
                 "trade_regions": {
-                    "description": "The trade regions covered by the article’s content.",
+                    "description": "The trade regions covered by the article's content.",
                     "type": "string"
                 },
                 "trade_programs": {
-                    "description": "The trade programs covered by the article’s content.",
+                    "description": "The trade programs covered by the article's content.",
                     "type": "string"
                 },
                 "trade_initiatives": {
-                    "description": "The trade initiatives covered by the article’s content.",
+                    "description": "The trade initiatives covered by the article's content.",
                     "type": "string"
                 },
                 "seo_metadata_title": {
@@ -195,7 +214,7 @@
                     "type": "string"
                 },
                 "trade_url": {
-                    "description": "The article’s export.gov URL.",
+                    "description": "The article's export.gov URL.",
                     "type": "string"
                 },
                 "file_url": {
@@ -207,11 +226,11 @@
                     "type": "string"
                 },
                 "url_html_source": {
-                    "description": "The URL for the HTML of the article’s source.",
+                    "description": "The URL for the HTML of the article's source.",
                     "type": "string"
                 },
                 "url_xml_source": {
-                    "description": "The URL for the XML of the article’s source.",
+                    "description": "The URL for the XML of the article's source.",
                     "type": "string"
                 }
             }

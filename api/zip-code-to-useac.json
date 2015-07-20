@@ -1,9 +1,11 @@
 {
     "swagger": "2.0",
     "info": {
+        "title": "Zip Code to USEAC API",
+        "description": "The Zip Code to USEAC API provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.",
         "version": "2.0.0"
     },
-    "host": "api.govwizely.com",
+    "host": "api.trade.gov",
     "schemes": [
         "https"
     ],
@@ -14,13 +16,13 @@
     "paths": {
         "/ita_zipcode_to_post/search": {
             "get": {
-                "summary": "Export Assistance Centers API",
-                "description": "The Export Assistance Centers API provides ...",
+                "summary": "Zip Code to USEAC API",
+                "description": "The Zip Code to USEAC API provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Returns zip code entries for a match within the post, office_name or zip_city fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -36,7 +38,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -44,14 +46,18 @@
                     {
                         "name": "offset",
                         "in": "query",
-                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     }
                 ],
                 "tags": [
-                    "Export Assistance Centers"
+                    "Trade",
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Offices"
                 ],
                 "responses": {
                     "200": {

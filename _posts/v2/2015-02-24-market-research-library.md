@@ -68,14 +68,14 @@ The **size** parameter allows you to configure the number of results to be retur
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
-| id              | Unique identifier assigned to the report                         |
-| countries       | Country category(ies) assigned to the report                    |
-| description     | Abstract of the report’s content                                |
-| expiration_date | Date when the report is no longer valid                         |
-| industries        | Industry categories assigned to the report                        |
-| report_type     | The report type can either be CCG, Best Market Report, or Market Research Report|
-| title           | Report title  (default sort)                                    |
-| url             | URL for the report                                              |
+| id              | Unique identifier assigned to the report.                         |
+| countries       | Country category(ies) assigned to the report.                    |
+| description     | Abstract of the report’s content.                                |
+| expiration_date | Date when the report is no longer valid.                         |
+| industries        | Industry categories assigned to the report.                        |
+| report_type     | The report type can either be CCG, Best Market Report, or Market Research Report.|
+| title           | Report title  (default sort).                                    |
+| url             | URL for the report.                                              |
 
 
 This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-market-research-library.html) page for the Version 1 documentation.
