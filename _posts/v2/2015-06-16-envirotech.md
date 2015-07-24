@@ -1,19 +1,19 @@
 ---
 published: true
-permalink: "/environmental_solutions.html"
+permalink: "/envirotech.html"
 title: Environmental Solutions Toolkit
 layout: body
 ---
 
 #Environmental Solutions Toolkit
 
-{% include environmental-solutions-tabs %}
+{% include envirotech-tabs %}
 
 ##Resource URL
 
 This endpoint will search environmental solutions with the defined languages: english, chinese, french, portuguese, and spanish.
 
-{% include environmental-solutions-query.html %}
+{% include envirotech-query.html %}
 
 ##Search Parameters for Environmental Solutions Toolkit
 
