@@ -1,25 +1,25 @@
 	<!--news line 1-->
         <p>
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Two-New-APIs:-More-Resources-for-U.S.-Exporters">
+        <p class="news">Version 1 of the APIs will be deprecated in two weeks!</p>
+        </a>
+        <h7>July 28, 2015</h7>
+        </p>
+        
+	<!--news line 2-->
+        <p class="list">
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Two-New-APIs:-More-Resources-for-U.S.-Exporters">
         <p class="news">Two New APIs: More Resources for U.S. Exporters.</p>
         </a>
         <h7>July 22, 2015</h7>
         </p>
         
-       	<!--news line 2-->
+       	<!--news line 3-->
         <p class="list">
         <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/%E2%80%9CFuzzy%E2%80%9D-Name-Search-is-Live-for-the-CSL">
         <p class="news">You can now do <em>fuzzy</em> name searches on the Consolidated Screening List.</p>
         </a>
         <h7>June 15, 2015</h7>
-        </p>
-        
-        <!--news line 3-->
-        <p class="list">
-        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Submit-Your-App-that-Uses-ITA's-APIs">
-        <p class="news">Have you used ITA's APIs to create a cool app or Web page?  Let us know.</p>
-        </a>
-        <h7>May 4, 2015</h7>
         </p>
         
         <!--news line 4-->
@@ -29,4 +29,13 @@
         </a>
         <h7>March 31, 2015</h7>
         </p>
+        
+ 	<!--news line X - SAVE THIS FOR FUTURE DATE -->
+        <!-- <p class="list"> -->
+        <!-- <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Submit-Your-App-that-Uses-ITA's-APIs"> -->
+        <!-- <p class="news">Have you used ITA's APIs to create a cool app or Web page?  Let us know.</p> -->
+        <!-- </a> -->
+        <!-- <h7>MM DD, YYYY</h7> -->
+        <!-- </p> -->
+        
         
