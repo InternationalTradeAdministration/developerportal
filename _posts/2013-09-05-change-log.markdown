@@ -12,7 +12,7 @@ We will continue to add updates and features to ITA’s API on an ongoing basis.
 
 | Date            | Change                                                     |
 | --------------- | --------------------------------------------------------------- |
-| 7/22/15         | Added two new APIs:  ITA [Business Service Providers](http://govwizely.github.io/developerportal/business-service-providers.html) and the [Zip Code to USEAC](http://govwizely.github.io/developerportal/ita-zip-codes.html) mappings   |
+| 7/22/15         | Added two new APIs:  ITA [Business Service Providers](http://developer.trade.gov/business-service-providers.html) and the [Zip Code to USEAC](http://developer.trade.gov/ita-zip-codes.html) mappings   |
 | 6/30/15         | Added the ability to download the complete Consolidated Screening List data set as a [CSV](https://api.trade.gov/consolidated_screening_list/search.csv) or [TSV](https://api.trade.gov/consolidated_screening_list/search.tsv) file  |
 | 6/15/15         | Added a new value in the JSON for the [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html):  ```score: integer```     |
 | 6/15/15         | Added a new parameter to the [Consolidated Screening List API](http://developer.trade.gov/consolidated-screening-list.html):  ```fuzzy_name=true```     |
