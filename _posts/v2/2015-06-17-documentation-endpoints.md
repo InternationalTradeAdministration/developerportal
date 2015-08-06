@@ -28,3 +28,4 @@ ITA has also developed simple search apps designed to help our data customers ea
 | Trade News & Articles | [HTML](ita-trade-articles.html) | [JSON](api/ita-articles.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/sharepoint-trade-articles) |
 | Zip Code to USEAC | [HTML](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) |
 | Business Service Providers | [HTML](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/business-service-providers) |
+| ITA Taxonomies | [HTML](ita-taxonomies.html) | [JSON](api/ita-taxonomies.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies) |
