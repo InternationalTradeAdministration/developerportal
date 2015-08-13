@@ -29,7 +29,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 ###industries
 
-Returns trade events for a specific [controlled industry names]({{ site.baseurl }}/v1-industry-list-trade-events.html). This method allows you to search for multiple industries (plural) separated by commas.
+Returns trade events for a specific [controlled industry names]({{ site.baseurl }}/industry-list-trade-events.html). This method allows you to search for multiple industries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/v2/trade_events/search?api_key={your key}&industries={terms}
 
@@ -143,8 +143,3 @@ Each event source returns a unique set of fields.  Not every source provides all
 | source        	 | Agency providing the event information. 			   	   | DL, ITA, SBA								|
 | registration_title | Title of the registration URL.           | ITA, USTDA									|
 | cost_currency      | The currency of the cost value.          | USTDA										|
-
-
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-trade-events.html) page for the Version 1 documentation.
-
-

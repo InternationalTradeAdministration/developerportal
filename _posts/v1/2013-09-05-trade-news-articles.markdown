@@ -2,7 +2,7 @@
 permalink: "/v1-ita-trade-articles.html"
 layout: body
 title: Trade News & Articles API
-published: true
+published: false
 ---
 
 #####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/ita-trade-articles.html).

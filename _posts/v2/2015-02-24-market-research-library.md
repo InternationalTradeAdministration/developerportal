@@ -37,7 +37,7 @@ Returns market research reports for a specific country based on [alpha-2 country
 
 ###industries
 
-Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/v1-industry-list-market-research-library.html). Enter multiple terms by separating with a comma.
+Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html). Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/market_research_library/search?api_key={your key}&industries={industry names}
 
@@ -76,6 +76,3 @@ The **size** parameter allows you to configure the number of results to be retur
 | report_type     | The report type can either be CCG, Best Market Report, or Market Research Report.|
 | title           | Report title  (default sort).                                    |
 | url             | URL for the report.                                              |
-
-
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-market-research-library.html) page for the Version 1 documentation.
