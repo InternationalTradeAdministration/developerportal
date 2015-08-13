@@ -75,7 +75,7 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
 ###geo_regions
 
-Returns articles based on [geo region](v1-geo-region-list.html).  Enter multiple terms by separating with a comma.
+Returns articles based on [geo region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&geo_regions={terms}
 
@@ -85,7 +85,7 @@ Returns articles based on [geo region](v1-geo-region-list.html).  Enter multiple
 
 ###geo_subregions
 
-Returns articles based on [geo sub-region](v1-geo-region-list.html).  Enter multiple terms by separating with a comma.
+Returns articles based on [geo sub-region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&geo_subregions={terms}
 
@@ -95,7 +95,7 @@ Returns articles based on [geo sub-region](v1-geo-region-list.html).  Enter mult
 
 ###trade_regions
 
-Returns articles based on [trade region](v1-trade-region-list.html).  Enter multiple terms by separating with a comma.
+Returns articles based on [trade region](trade-region-list.html).  Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v2/trade_articles/search?api_key={your key}&trade_regions={terms}
 
@@ -199,5 +199,3 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 | image_url             | The URLs for images included in the article.    |
 | url_html_source             | The URL for the HTML of the article's source.     |
 | url_xml_source            | The URL for the XML of the article's source.    |
-
-This endpoint and its documentation has been updated to Version 2. Please visit the [API v1 Documentation]({{ site.baseurl }}/v1-ita-trade-articles.html) page for the Version 1 documentation.
