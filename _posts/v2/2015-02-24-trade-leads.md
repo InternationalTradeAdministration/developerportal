@@ -98,6 +98,18 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include trade-leads-query-size.html %}
 
+##Last Updated and Last Imported
+
+Recency information about each source queried is given in **sources_used** in the following fields:
+
+| Field	| Description |
+| ------| -------------|
+| source | The name of the issuing organization. |
+| source_last_updated | The most recent date and time the data changed. |
+| last_imported | The most recent date and time the data was imported. |
+
+The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
+
 ###Canadian Leads
 
 The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.
