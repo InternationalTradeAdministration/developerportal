@@ -1,0 +1,92 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "ITA Taxonomies",
+        "description": "",
+        "version": "2.0.0"
+    },
+    "host": "api.trade.gov",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/ita_taxonomies/search": {
+            "get": {
+                "summary": "Ita Taxonomies API",
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Returns taxonomy terms for a match within the name and parent_names fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "taxonomies",
+                        "in": "query",
+                        "description": "Returns taxonomy terms that are members of the specified taxonomies.  Enter muliple values separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "ITA"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/Taxonomy"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Taxonomy": {
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "The id assigned to the term."
+                },
+                "name": {
+                    "type": "string",
+                    "description": "The name of the given taxonomy term."
+                },
+                "taxonomy": {
+                    "type": "string",
+                    "description": "The taxonomy under which the given term belongs."
+                },
+                "parent_names": {
+                    "type": "string",
+                    "description": "The names of any parent terms, if any, for the given term."
+                }
+            }
+        }
+    }
+}

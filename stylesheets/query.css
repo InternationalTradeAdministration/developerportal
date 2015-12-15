@@ -1,0 +1,217 @@
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after, .api-explorer:before, .api-explorer:after, .statuses:before, .statuses:after, .statuses .api-status .metrics:before, .statuses .api-status .metrics:after, .site-wrapper:before, .site-wrapper:after, .community:before, .community:after, .beta-notice:before, .beta-notice:after, .beta-notice .beta-notice-content:before, .beta-notice .beta-notice-content:after, .site-navigation ul .columnize ul:before, .site-navigation ul .columnize ul:after, .principles:before, .principles:after, .content-heading:before, .content-heading:after, .site-footer:before, .site-footer:after, .site-footer .site-footer-section:before, .site-footer .site-footer-section:after, .pointers:before, .pointers:after, .homepage:before, .homepage:after, article.post-page .author-info:before, article.post-page .author-info:after, .getting-started:before, .getting-started:after, .dataset-summary:before, .dataset-summary:after {
+  content: " ";
+  display: table
+}
+
+.clearfix:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after, .api-explorer:after, .statuses:after, .statuses .api-status .metrics:after, .site-wrapper:after, .community:after, .beta-notice:after, .beta-notice .beta-notice-content:after, .site-navigation ul .columnize ul:after, .principles:after, .content-heading:after, .site-footer:after, .site-footer .site-footer-section:after, .pointers:after, .homepage:after, article.post-page .author-info:after, .getting-started:after, .dataset-summary:after {
+  clear: both
+}
+
+.api-explorer {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+  .api-explorer {
+  }
+
+  .api-explorer:last-child {
+    border-bottom: 1px solid #d1d1d1
+  }
+}
+
+@media (min-width: 768px) {
+  .api-explorer {
+    display: table
+  }
+}
+
+.api-explorer .query {
+  border-top: 1px solid #dadada;
+  height: 100%;
+  vertical-align: top;
+  position: relative;
+  min-height: 1px;
+}
+
+@media (min-width: 768px) {
+  .api-explorer .query {
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .api-explorer .query {
+    float: none !important;
+    display: table-cell;
+  }
+}
+
+.api-explorer .query h4 {
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  background: none;
+  font-style: normal;
+  line-height: 1.2
+}
+
+.api-explorer .query p {
+  margin-bottom: 15px
+}
+
+.api-explorer .query ul {
+  padding-left: 0;
+  list-style-position: inside
+}
+
+.api-explorer .query ul li {
+  padding-bottom: 5px
+}
+
+.api-explorer .query code, .api-explorer .query pre {
+  border: none
+}
+
+.api-explorer .explorer {
+  height: 100%;
+  vertical-align: top;
+
+  position: relative;
+  min-height: 1px;
+}
+
+@media (min-width: 768px) {
+  .api-explorer .explorer {
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .api-explorer .explorer {
+    float: none !important;
+    display: table-cell
+  }
+}
+
+.api-explorer pre {
+  width: 100%;
+  max-height: 300px;
+  font-size: 13px;
+  color: #555;
+  margin-top: 1ex;
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  background: #fff !important;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word
+}
+
+.api-explorer .response {
+  clear: both
+}
+
+.api-explorer .json-key {
+  color: #c20a3e
+}
+
+.api-explorer .json-value {
+  color: #b75de6
+}
+
+.api-explorer .json-string {
+  color: #a86c65
+}
+
+.api-explorer .btn, .api-demo .btn {
+  font: 15px Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #08c;
+  font-weight: 300;
+  padding: 0;
+  font-weight: 400;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+.api-explorer .btn.go, .api-demo .btn.go {
+
+}
+
+.api-explorer .btn:hover, .api-demo .btn:hover {
+  color: #08c;
+  text-decoration: underline;
+  background: none;
+}
+
+.api-explorer .btn:focus, .api-demo .btn:focus {
+  color: #08c;
+  outline: none
+}
+
+.api-explorer textarea, .api-demo textarea {
+  color: #bedfff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+  margin: 0 0 15px;
+  border: none;
+  background: #494855;
+  resize: none;
+}
+
+.api-explorer textarea:hover, .api-demo textarea:hover {
+  color: #d2e2ff;
+  background: #535362
+}
+
+.api-explorer textarea:focus, .api-demo textarea:focus {
+  color: #d2e2ff;
+  background: #535362
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+}
+
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  background-color: #eee;
+  opacity: 1
+}
+
+textarea.form-control {
+  height: auto
+}

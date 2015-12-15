@@ -1,0 +1,127 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Zip Code to USEAC API",
+        "description": "The Zip Code to USEAC API provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.",
+        "version": "2.0.0"
+    },
+    "host": "api.trade.gov",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/ita_zipcode_to_post/search": {
+            "get": {
+                "summary": "Zip Code to USEAC API",
+                "description": "The Zip Code to USEAC API provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Returns zip code entries for a match within the post, office_name or zip_city fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "zip_codes",
+                        "in": "query",
+                        "description": "Returns zip code entries that match the specified zip codes. Enter muliple values separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Offices"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "History information for the given user",
+                        "schema": {
+                            "$ref": "#/definitions/Center"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Center": {
+            "properties": {
+                "zip_code": {
+                    "type": "string",
+                    "description": "5-digit U.S. ZIP Code."
+                },
+                "zip_city": {
+                    "type": "string",
+                    "description": "Name of the city corresponding to the ZIP code."
+                },
+                "post": {
+                    "type": "string",
+                    "description": "Name of the post (Default sort)."
+                },
+                "office_name": {
+                    "type": "string",
+                    "description": "Office Name"
+                },
+                "state": {
+                    "type": "string",
+                    "description": "State abbreviation"
+                },
+                "post_city": {
+                    "type": "string",
+                    "description": "Name of the city corresponding to the office location."
+                },
+                "address": {
+                    "type": "string",
+                    "description": "Street address of office"
+                },
+                "country": {
+                    "type": "string",
+                    "description": "This will always be US since this is a list of ITA offices in the U.S."
+                },
+                "email": {
+                    "type": "string",
+                    "description": "Office email address"
+                },
+                "fax": {
+                    "type": "string",
+                    "description": "Fax number"
+                },
+                "mail_instructions": {
+                    "type": "string",
+                    "description": "Snail mail instructions"
+                },
+                "phone": {
+                    "type": "string",
+                    "description": "Office phone number"
+                }
+            }
+        }
+    }
+}

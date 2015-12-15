@@ -1,0 +1,126 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "FAQs on Exporting API",
+        "description": "The Frequently Asked Questions (FAQs) API includes more than 300 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.",
+        "version": "2.0.0"
+    },
+    "host": "api.trade.gov",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/ita_faqs/search": {
+            "get": {
+                "summary": "FAQs on Exporting API",
+                "description": "The Frequently Asked Questions (FAQs) API includes more than 300 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the event_name and description fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "topics",
+                        "in": "query",
+                        "description": "Returns FAQs based on topic name.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industries",
+                        "in": "query",
+                        "description": "Returns FAQs for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas but will only return one industry (singular) per FAQ.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per office location.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "FAQs"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Rate Response",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/FAQ"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "FAQ": {
+            "properties": {
+                "id": {
+                    "description": "Unique identifier for the FAQ.",
+                    "type": "string"
+                },
+                "question": {
+                    "description": "The question being addressed by the FAQ.",
+                    "type": "string"
+                },
+                "answer": {
+                    "description": "The answer portion of the FAQ.",
+                    "type": "string"
+                },
+                "update_date": {
+                    "description": "The date the FAQ was last updated.",
+                    "type": "string"
+                },
+                "industry": {
+                    "description": "Industry category assigned to the FAQ.",
+                    "type": "string"
+                },
+                "country": {
+                    "description": "Countries relevent to the FAQ.",
+                    "type": "string"
+                },
+                "topic": {
+                    "description": "Topic category assigned to the FAQ.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

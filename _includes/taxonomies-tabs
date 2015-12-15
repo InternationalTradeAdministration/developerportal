@@ -1,0 +1,35 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+	<div class="pane" id="step1">
+		<p>
+		The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its <a href="api-list.html">other APIs</a>.  Currently, ITA has three taxonomies:  Geographic Regions, Industries, and Topics.  This API includes all terms in their proper hierarchy in the relevant taxonomy.
+		</p>
+		<p>
+		ITA imports data for its other APIs from many sources.  If the source data is already tagged, ITA does the following:
+		<ul>
+			<li>Imports those tags (terms) along with the data</li>
+			<li>Maps the terms to ITA’s taxonomies</li>
+			<li>Publishes both the original terms and the ITA terms with the data in the API.</li>
+		</ul>
+		</p>
+		<p>The output format for this API is JSON.  This data set is updated weekly.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
+	</div>
+	<div class="pane" id="step2">
+		<p>
+		Having an established taxonomy enables developers to quickly search for particular content and data.  ITA tags content and data at the lowest, reasonable level of detail.
+		</p>
+		<p>
+		ITA reviews and upgrades its taxonomies on a regular basis to ensure it reflects the content and data accurately.  As such, developers can be assured that when they perform a query on a particular term they will receive only the results that are relevant to that term.
+		</p>
+	</div>
+	<div class="pane" id="step3">
+		<p>
+		Use this API to populate drop downs, picklists, or a faceted navigation in your software.  You can also use this API to populate your own trade terms.
+		</p>
+	</div>
+
+</div>

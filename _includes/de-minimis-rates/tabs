@@ -1,0 +1,39 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+  <div class="pane" id="step1">
+    <p>
+      The De Minimis API provides data about the De Minimis amount and the Value Added Tax (VAT) amount
+      that products may be subject to when exported to foreign countries.  “De Minimis”  is the threshold for a product’s value below which no duty or tariff is charged.  Furthermore, products below the De Minimis
+      undergo minimal clearance procedures, such as customs and paperwork requirements.
+      Similarly, the value of the exported products must exceed the VAT amount before it is subject to VAT.
+    </p>
+    <p>
+      The API includes De Minimis and VAT amounts for almost 80 countries in that country’s currency.
+      The output format for this API is JSON. This data set is updated only when the De Minimis or VAT
+      amounts have been updated, which is usually once a year. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/de-minimis">demo search app</a>.
+      Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.
+    </p>
+  </div>
+  <div class="pane" id="step2">
+    <p>
+      U.S. companies interested in exporting their products to new foreign markets need to be aware of the
+      tariff rates and taxes that their products may be subject to, in order to price products for the end customer.
+      A U.S. company is less likely to be subject to tariffs if the value of their product falls below the
+      De Minimis amount.  U.S. companies selling low value, small shipments are more likely to export to countries
+      with high De Minimis levels.
+    </p>
+  </div>
+  <div class="pane" id="step3">
+    <p>
+      De Minimis and VAT are two factors in determining the “total landed cost” for exporting a product overseas.
+      Use this data, along with the tariff data from <a href="tariff-rates.html">ITA’s Tariff Rates API</a> to improve your algorithm for
+      computing landed cost.  Other factors to consider are:  packing charges, shipping and freight charges,
+      and local taxes.
+    </p>
+  </div>
+
+</div>

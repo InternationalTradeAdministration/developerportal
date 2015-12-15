@@ -1,0 +1,24 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+	<div class="pane" id="step1">
+		<p>
+		The Zip Code to USEAC API provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.  It’s not enough to do a proximity search for a zip code and a USEAC.  Each center has specialists on hand for each particular region.
+		</p>
+		<p>The output format for this API is JSON.  This data set is updated weekly.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
+	</div>
+	<div class="pane" id="step2">
+		<p>
+		ITA USEACs are often collocated with offices from the State Department or other trade agencies and have access to experts that specialize in particular regions.  Using will help your users find the right specialist for their region.
+		</p>
+	</div>
+	<div class="pane" id="step3">
+		<p>
+		Use this zip code to USEAC API in conjunction with <a href="http://developer.trade.gov/ita-office-locations.html">ITA’s Offices and Centers API</a> to let your users search for a USEAC by zip or to let them see a list of all USEACs in the U.S.  Other agencies, such as the Small Business Administration, also publish tools for letting users search for assistance centers by zip code.  Build a comprehensive search tool that lets users find the help centers they’re looking for.
+		</p>
+	</div>
+
+</div>

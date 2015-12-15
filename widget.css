@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+.ita-search-widget-container {
+  line-height: 1; }
+  .ita-search-widget-container html, .ita-search-widget-container body, .ita-search-widget-container div, .ita-search-widget-container span, .ita-search-widget-container applet, .ita-search-widget-container object, .ita-search-widget-container iframe,
+  .ita-search-widget-container h1, .ita-search-widget-container h2, .ita-search-widget-container h3, .ita-search-widget-container h4, .ita-search-widget-container h5, .ita-search-widget-container h6, .ita-search-widget-container p, .ita-search-widget-container blockquote, .ita-search-widget-container pre,
+  .ita-search-widget-container a, .ita-search-widget-container abbr, .ita-search-widget-container acronym, .ita-search-widget-container address, .ita-search-widget-container big, .ita-search-widget-container cite, .ita-search-widget-container code,
+  .ita-search-widget-container del, .ita-search-widget-container dfn, .ita-search-widget-container em, .ita-search-widget-container img, .ita-search-widget-container ins, .ita-search-widget-container kbd, .ita-search-widget-container q, .ita-search-widget-container s, .ita-search-widget-container samp,
+  .ita-search-widget-container small, .ita-search-widget-container strike, .ita-search-widget-container strong, .ita-search-widget-container sub, .ita-search-widget-container sup, .ita-search-widget-container tt, .ita-search-widget-container var,
+  .ita-search-widget-container b, .ita-search-widget-container u, .ita-search-widget-container i, .ita-search-widget-container center,
+  .ita-search-widget-container dl, .ita-search-widget-container dt, .ita-search-widget-container dd, .ita-search-widget-container ol, .ita-search-widget-container ul, .ita-search-widget-container li,
+  .ita-search-widget-container fieldset, .ita-search-widget-container form, .ita-search-widget-container label, .ita-search-widget-container legend,
+  .ita-search-widget-container table, .ita-search-widget-container caption, .ita-search-widget-container tbody, .ita-search-widget-container tfoot, .ita-search-widget-container thead, .ita-search-widget-container tr, .ita-search-widget-container th, .ita-search-widget-container td,
+  .ita-search-widget-container article, .ita-search-widget-container aside, .ita-search-widget-container canvas, .ita-search-widget-container details, .ita-search-widget-container embed,
+  .ita-search-widget-container figure, .ita-search-widget-container figcaption, .ita-search-widget-container footer, .ita-search-widget-container header, .ita-search-widget-container hgroup,
+  .ita-search-widget-container menu, .ita-search-widget-container nav, .ita-search-widget-container output, .ita-search-widget-container ruby, .ita-search-widget-container section, .ita-search-widget-container summary,
+  .ita-search-widget-container time, .ita-search-widget-container mark, .ita-search-widget-container audio, .ita-search-widget-container video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+  .ita-search-widget-container ol, .ita-search-widget-container ul {
+    list-style: none; }
+  .ita-search-widget-container blockquote, .ita-search-widget-container q {
+    quotes: none; }
+  .ita-search-widget-container blockquote:before, .ita-search-widget-container blockquote:after,
+  .ita-search-widget-container q:before, .ita-search-widget-container q:after {
+    content: '';
+    content: none; }
+  .ita-search-widget-container table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+/* http://tobiasahlin.com/spinkit */
+.ita-search-widget-container .spinner {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px; }
+
+.ita-search-widget-container .spinner > div {
+  background-color: #ddd;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  margin: 0 2px; }
+
+.ita-search-widget-container .spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s; }
+
+.ita-search-widget-container .spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s; }
+
+.ita-search-widget-container .spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s; }
+
+.ita-search-widget-container .spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s; }
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    -webkit-transform: scaleY(0.4); }
+  20% {
+    -webkit-transform: scaleY(1); } }
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4); }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1); } }
+
+.ita-search-widget-container {
+  background-color: white;
+  display: block;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  line-height: 1em; }
+  .ita-search-widget-container * {
+    box-sizing: content-box; }
+  .ita-search-widget-container a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0851ab; }
+    .ita-search-widget-container a:hover,
+    .ita-search-widget-container a:active {
+      text-decoration: underline; }
+  .ita-search-widget-container form {
+    background-color: #0851ab;
+    display: block;
+    margin: 0;
+    padding: 10px 15px;
+    width: 570px; }
+    .ita-search-widget-container form p {
+      color: white;
+      display: block;
+      font-size: 16px;
+      height: 19px;
+      margin: 0 0 8px 0;
+      width: 590px; }
+      .ita-search-widget-container form p strong {
+        color: white; }
+    .ita-search-widget-container form input[type=text] {
+      -webkit-appearance: none;
+      -webkit-rtl-ordering: logical;
+      -webkit-user-select: text;
+      background-color: white;
+      border: 0;
+      color: #444;
+      cursor: auto;
+      display: inline-block;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      height: 24px;
+      letter-spacing: normal;
+      line-height: 24px;
+      margin: 0;
+      padding: 1px;
+      text-align: start;
+      text-indent: 5px;
+      text-rendering: auto;
+      text-shadow: none;
+      text-transform: none;
+      vertical-align: baseline;
+      width: 388px;
+      word-spacing: 0px;
+      writing-mode: lr-tb;
+      -webkit-writing-mode: horizontal-tb;
+      zoom: 1; }
+    .ita-search-widget-container form .ita-search-widget-input-wrapper {
+      float: left; }
+      .ita-search-widget-container form .ita-search-widget-input-wrapper input[type=text] {
+        margin: 0;
+        width: 254px; }
+      .ita-search-widget-container form .ita-search-widget-input-wrapper select {
+        border: 0;
+        background-color: white;
+        height: 26px;
+        width: 132px;
+        margin: 0 0 0 2px;
+        font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        color: #444;
+        position: relative; }
+    .ita-search-widget-container form input[type=submit] {
+      -webkit-appearance: none;
+      -webkit-rtl-ordering: logical;
+      -webkit-user-drag: none;
+      -webkit-user-select: none;
+      background-color: white;
+      border: 0;
+      color: #0851ab;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 14px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      height: 24px;
+      letter-spacing: normal;
+      line-height: normal;
+      margin: 0 0 0 8px;
+      padding: 1px;
+      text-align: center;
+      text-indent: 0px;
+      text-rendering: auto;
+      text-shadow: none;
+      text-transform: none;
+      vertical-align: baseline;
+      white-space: nowrap;
+      width: 170px;
+      word-spacing: 0px;
+      writing-mode: lr-tb; }
+  .ita-search-widget-container .ita-search-widget-results {
+    border: 1px solid #ddd;
+    border-top: 0;
+    display: block;
+    width: 598px; }
+    .ita-search-widget-container .ita-search-widget-results .ita-search-widget-total {
+      color: #444;
+      display: block;
+      font-size: 16px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 300;
+      height: 24px;
+      line-height: 24px;
+      margin: 0;
+      padding: 15px;
+      zoom: 1; }
+      .ita-search-widget-container .ita-search-widget-results .ita-search-widget-total a {
+        font-weight: bold; }
+    .ita-search-widget-container .ita-search-widget-results ul {
+      display: block;
+      list-style-type: none;
+      margin: 0;
+      padding: 0 30px 15px;
+      width: 518px; }
+      .ita-search-widget-container .ita-search-widget-results ul li {
+        line-height: 24px;
+        margin-bottom: 8px; }
+        .ita-search-widget-container .ita-search-widget-results ul li a {
+          background-color: white;
+          color: #0851ab;
+          display: inline;
+          font-size: 16px;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          height: auto;
+          width: auto;
+          zoom: 1; }
+        .ita-search-widget-container .ita-search-widget-results ul li table {
+          -webkit-border-horizontal-spacing: 0px;
+          -webkit-border-vertical-spacing: 0px;
+          background-color: white;
+          border: 1px solid #ddd;
+          border-width: 0 0 1px 1px;
+          color: #444;
+          display: table;
+          empty-cells: show;
+          list-style-type: none;
+          margin: 5px 0 15px;
+          overflow-x: visible;
+          overflow-y: visible;
+          text-align: left;
+          width: 518px;
+          word-break: normal;
+          zoom: 1; }
+          .ita-search-widget-container .ita-search-widget-results ul li table tr {
+            display: table-row;
+            border-collapse: collapse;
+            color: #444;
+            vertical-align: middle; }
+            .ita-search-widget-container .ita-search-widget-results ul li table tr td {
+              background-color: white;
+              border: 1px solid #ddd;
+              border-width: 1px 1px 0 0;
+              color: #444;
+              display: table-cell;
+              empty-cells: show;
+              font-size: 16px;
+              font-style: normal;
+              font-variant: normal;
+              font-weight: 300;
+              line-height: 24px;
+              margin: 0;
+              padding: 5px;
+              overflow-x: visible;
+              overflow-y: visible;
+              text-align: left;
+              vertical-align: top;
+              zoom: 1; }
+              .ita-search-widget-container .ita-search-widget-results ul li table tr td:first-child {
+                word-wrap: break-word;
+                word-break: break-word;
+                width: 140px;
+                text-transform: capitalize; }
+              .ita-search-widget-container .ita-search-widget-results ul li table tr td:nth-child(2) {
+                word-wrap: break-word;
+                word-break: break-word;
+                width: 440px; }
+  .ita-search-widget-container .ita-search-widget-footer {
+    background-color: #0851ab;
+    color: white;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 15px 0 10px;
+    width: 575px; }
+    .ita-search-widget-container .ita-search-widget-footer .ita-search-widget-pagination {
+      height: 26px;
+      padding: 0;
+      float: left; }
+      .ita-search-widget-container .ita-search-widget-footer .ita-search-widget-pagination a {
+        color: white;
+        display: block;
+        float: left;
+        padding: 0 5px;
+        width: auto; }
+      .ita-search-widget-container .ita-search-widget-footer .ita-search-widget-pagination span.current {
+        color: white;
+        display: block;
+        float: left;
+        padding: 0 5px;
+        width: auto;
+        background-color: #052e62;
+        height: 26px; }
+    .ita-search-widget-container .ita-search-widget-footer .ita-search-widget-clear {
+      height: 26px;
+      float: right;
+      padding: 0; }
+      .ita-search-widget-container .ita-search-widget-footer .ita-search-widget-clear a {
+        color: white; }

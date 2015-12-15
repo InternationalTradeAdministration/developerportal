@@ -1,0 +1,106 @@
+---
+permalink: "faqs-exporting.html"
+layout: body
+title: FAQs on Exporting API
+published: true
+---
+
+#FAQs on Exporting API
+
+{% include faqs-tabs %}
+
+##Resource URL
+
+{% include faqs-query.html %}
+
+##Search Parameters
+
+###keyword
+
+Searches for a match within the question and answer fields.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&q={term}
+
+**_Example_**
+
+{% include faqs-query-keyword.html %}
+
+###industries
+
+Returns FAQs for a specific [controlled industry terms](industry-list-faqs.html). This method allows you to search for multiple industries (plural) separated by commas but will only return one industry (singular) per FAQ.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&industries={terms}
+
+**_Example_**
+
+{% include faqs-query-industry.html %}
+
+###countries
+
+Returns FAQs for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per FAQ.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&countries={country codes}
+
+**_Example_**
+
+{% include faqs-query-country.html %}
+
+###topics
+
+Returns FAQs based on [topic name](topic-list-faqs.html).  This method allows you to search for multiple topics (plural) separated by commas, but will only return one topic (singular) per FAQ.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&topics={terms}
+
+**_Example_**
+
+{% include faqs-query-topic.html %}
+
+###update_date
+
+Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
+
+**_Example_**
+
+{% include faqs-query-updatedate.html %}
+
+###size + offset
+
+The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+
+**_Example_**
+
+{% include faqs-query-size.html %}
+
+##Metadata
+
+###Last Updated and Last Imported
+
+Recency information about each source queried is given in **sources_used** in the following fields:
+
+| Field	| Description |
+| ------| -------------|
+| source | The name of the issuing agency. |
+| source_last_updated | The most recent date and time the data changed. |
+| last_imported | The most recent date and time the data was imported. |
+
+The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
+
+###Search Performed At
+
+The *search_performed_at* field displays the date and time of the current search in UTC.
+
+##Return Values
+
+| Field              | Description                             |
+| ------------------ | --------------------------------------- |
+| id                 | Unique identifier for the FAQ.             |
+| question         	 | The question being addressed by the FAQ.|
+| answer             | The answer portion of the FAQ.  |
+| update_date        | The date the FAQ was last updated.  |
+| industry           | Industry category assigned to the FAQ. |
+| country            | Countries relevent to the FAQ.          |
+| topic              | Topic category assigned to the FAQ.      |

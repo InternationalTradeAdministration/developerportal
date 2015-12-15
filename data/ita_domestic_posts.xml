@@ -1,0 +1,1538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POSTLIST>
+    <POSTINFO>
+        <POST>Anchorage</POST>
+        <OFFICENAME>Alaska U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1407</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Alaska">AK</STATE>
+        <EMAIL>greg@wtcak.org</EMAIL>
+        <FAX>907-278-2982</FAX>
+        <MAIL_INSTR/>
+        <PHONE>907-271-6237</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>3</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Birmingham</POST>
+        <OFFICENAME>Birmingham U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1410</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Alabama">AL</STATE>
+        <EMAIL>Office.Birmingham@trade.gov</EMAIL>
+        <FAX>205-731-0076</FAX>
+        <MAIL_INSTR/>
+        <PHONE>205-731-1331</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Little Rock</POST>
+        <OFFICENAME>Little Rock U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1452</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Arkansas">AR</STATE>
+        <EMAIL>Office.LittleRock@trade.gov</EMAIL>
+        <FAX>501-324-7380</FAX>
+        <MAIL_INSTR/>
+        <PHONE>501-324-5794</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Phoenix</POST>
+        <OFFICENAME>Phoenix U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1437</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Arizona">AZ</STATE>
+        <EMAIL>Office.Phoenix@trade.gov</EMAIL>
+        <FAX>602-745-7210</FAX>
+        <MAIL_INSTR/>
+        <PHONE>602-640-2513</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tucson</POST>
+        <OFFICENAME>Tucson U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1447</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Arizona">AZ</STATE>
+        <EMAIL>Office.Tucson@trade.gov</EMAIL>
+        <FAX>520-243-1910</FAX>
+        <MAIL_INSTR/>
+        <PHONE>520-670-5540</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Ventura County</POST>
+        <OFFICENAME>Ventura County U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1409</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>gerald.vaughn@trade.gov</EMAIL>
+        <FAX>805-488-7801</FAX>
+        <MAIL_INSTR/>
+        <PHONE>805-488-4844</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Cabazon</POST>
+        <OFFICENAME>Coachella Valley/Inland Empire USEAC</OFFICENAME>
+        <CTRNUMBER>14A3</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>fred.latuperissa@trade.gov</EMAIL>
+        <FAX>909-390-5616</FAX>
+        <MAIL_INSTR/>
+        <PHONE>909-390-8283</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Bakersfield</POST>
+        <OFFICENAME>Bakersfield U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A4</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>glen.roberts@trade.gov</EMAIL>
+        <FAX>661-637-0156</FAX>
+        <MAIL_INSTR>Please mail packages and supplies to Glen Roberts in the Fresno USEAC which covers Bakersfield</MAIL_INSTR>
+        <PHONE>661-637-0136</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Irvine</POST>
+        <OFFICENAME>Irvine U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1498</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>OfficeIrvine@trade.gov</EMAIL>
+        <FAX>949-660-1338</FAX>
+        <MAIL_INSTR/>
+        <PHONE>949-660-1688</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Inland Empire</POST>
+        <OFFICENAME>Inland Empire U.S. Export Assistance Center (Ontario, California)</OFFICENAME>
+        <CTRNUMBER>1499</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>office.inlandempire@trade.gov</EMAIL>
+        <FAX>909-390-5315</FAX>
+        <MAIL_INSTR/>
+        <PHONE>909-390-8283</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Fresno</POST>
+        <OFFICENAME>Fresno U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1402</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>glen.roberts@trade.gov</EMAIL>
+        <FAX>661 637-0156</FAX>
+        <MAIL_INSTR/>
+        <PHONE>559 348-9859</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>North Bay</POST>
+        <OFFICENAME>San Rafael (North Bay) U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1494</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>North.Bay.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>415-485-6219</FAX>
+        <MAIL_INSTR/>
+        <PHONE>415-485-6200</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Monterey Bay</POST>
+        <OFFICENAME>Monterey Bay U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1497</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>Chris.Damm@mail.doc.gov</EMAIL>
+        <FAX>408-535-2758</FAX>
+        <MAIL_INSTR/>
+        <PHONE>408-535-2757 x 108</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Los Angeles (West)</POST>
+        <OFFICENAME>Los Angeles (West) U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1429</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>Julieanne.Hennessy@trade.gov</EMAIL>
+        <FAX>310-235-7220</FAX>
+        <MAIL_INSTR/>
+        <PHONE>310-235-7104</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Los Angeles (Downtown)</POST>
+        <OFFICENAME>Los Angeles (Downtown) U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A1</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>rachid.sayouty@trade.gov</EMAIL>
+        <FAX>213-894-8789</FAX>
+        <MAIL_INSTR/>
+        <PHONE>213-894-8784</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Pacific South Network Dir</POST>
+        <OFFICENAME>Pacific South Network Director</OFFICENAME>
+        <CTRNUMBER>16N8</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>Richard.Swanson@trade.gov</EMAIL>
+        <FAX>949-660-1338</FAX>
+        <MAIL_INSTR/>
+        <PHONE>949-660-1688 x 153</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>0</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Pacific North Network Dir</POST>
+        <OFFICENAME>Pacific North Network Director</OFFICENAME>
+        <CTRNUMBER>16N7</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>Greg.Mignano@mail.doc.gov</EMAIL>
+        <FAX>503-326-6351</FAX>
+        <MAIL_INSTR/>
+        <PHONE>408-242-9770</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Oakland</POST>
+        <OFFICENAME>Oakland U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1495</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>Rod.Hirsch@mail.doc.gov</EMAIL>
+        <FAX>510-273-7352</FAX>
+        <MAIL_INSTR/>
+        <PHONE>510-273-7350</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>San Jose CA</POST>
+        <OFFICENAME>San Jose (Silicon Valley) U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1615</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>Joanne.Vliet@mail.doc.gov</EMAIL>
+        <FAX>408-535-2758</FAX>
+        <MAIL_INSTR/>
+        <PHONE>408-535-2757</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>San Francisco</POST>
+        <OFFICENAME>San Francisco U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1444</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>office.sanfrancisco@trade.gov</EMAIL>
+        <FAX>415-705-2299</FAX>
+        <MAIL_INSTR/>
+        <PHONE>415-705-2300</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>San Diego</POST>
+        <OFFICENAME>San Diego U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1457</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>Matt.Andersen@trade.gov</EMAIL>
+        <FAX>858-467-7043</FAX>
+        <MAIL_INSTR/>
+        <PHONE>858-467-7032</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Sacramento</POST>
+        <OFFICENAME>Sacramento U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1493</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="California">CA</STATE>
+        <EMAIL>george.tastard@mail.doc.gov</EMAIL>
+        <FAX>916-566-7123</FAX>
+        <MAIL_INSTR>N/A</MAIL_INSTR>
+        <PHONE>916-566-7170</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Denver</POST>
+        <OFFICENAME>Denver U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1620</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Colorado">CO</STATE>
+        <EMAIL>Paul.Bergman@mail.doc.gov</EMAIL>
+        <FAX>303-844-5651</FAX>
+        <MAIL_INSTR/>
+        <PHONE>303-844-6623</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Southwest Network Dir</POST>
+        <OFFICENAME>Southwest Network Director</OFFICENAME>
+        <CTRNUMBER>16N6</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Colorado">CO</STATE>
+        <EMAIL>James.Kennedy@mail.doc.gov</EMAIL>
+        <FAX>303-844-5651</FAX>
+        <MAIL_INSTR/>
+        <PHONE>303-844-6623 x 211</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>0</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Middletown</POST>
+        <OFFICENAME>Middletown U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1461</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Connecticut">CT</STATE>
+        <EMAIL>Anne.Evans@mail.doc.gov</EMAIL>
+        <FAX>860-638-6970</FAX>
+        <MAIL_INSTR/>
+        <PHONE>860-638-6950</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>ODO/FSS</POST>
+        <OFFICENAME>ODO - National Field Support Team</OFFICENAME>
+        <CTRNUMBER>1140</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="District of Columbia">DC</STATE>
+        <EMAIL>Kathy.DuPriest@mail.doc.gov</EMAIL>
+        <FAX>513-684-3200</FAX>
+        <MAIL_INSTR/>
+        <PHONE>513-684-3293</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>ODO/DAS</POST>
+        <OFFICENAME>DAS - Office of Domestic Operations</OFFICENAME>
+        <CTRNUMBER>1140</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="District of Columbia">DC</STATE>
+        <EMAIL>NOT AVAILABLE</EMAIL>
+        <FAX>202-482-0687</FAX>
+        <MAIL_INSTR/>
+        <PHONE>202-482-0143</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Clearwater</POST>
+        <OFFICENAME>Clearwater U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1479</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Florida">FL</STATE>
+        <EMAIL>Sandra.Campbell@trade.gov</EMAIL>
+        <FAX>727-893-3839</FAX>
+        <MAIL_INSTR/>
+        <PHONE>727-893-3738</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Jacksonville</POST>
+        <OFFICENAME>Jacksonville U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A7</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Florida">FL</STATE>
+        <EMAIL>Jorge.Arce@trade.gov</EMAIL>
+        <FAX>904-232-1271</FAX>
+        <MAIL_INSTR/>
+        <PHONE>904-232-1270</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Fort Lauderdale</POST>
+        <OFFICENAME>Fort Lauderdale U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1631</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Florida">FL</STATE>
+        <EMAIL>Office.Miami@mail.doc.gov</EMAIL>
+        <FAX>954-356-6644</FAX>
+        <MAIL_INSTR/>
+        <PHONE>954-356-6640</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Miami</POST>
+        <OFFICENAME>Miami U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A2</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Florida">FL</STATE>
+        <EMAIL>Office.Miami@trade.gov</EMAIL>
+        <FAX>305-526-7434</FAX>
+        <MAIL_INSTR/>
+        <PHONE>305-526-7425</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Orlando</POST>
+        <OFFICENAME>Orlando U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1480</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Florida">FL</STATE>
+        <EMAIL>office.orlando@trade.gov</EMAIL>
+        <FAX>407-420-4425</FAX>
+        <MAIL_INSTR/>
+        <PHONE>407-420-4848, ext. 260</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tallahassee</POST>
+        <OFFICENAME>Tallahassee U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1481</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Florida">FL</STATE>
+        <EMAIL>Michael.Higgins@trade.gov</EMAIL>
+        <FAX>850-298-6659</FAX>
+        <MAIL_INSTR/>
+        <PHONE>850-942-9635</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Atlanta</POST>
+        <OFFICENAME>Atlanta U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1608</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Georgia">GA</STATE>
+        <EMAIL>Office.Atlanta@trade.gov</EMAIL>
+        <FAX>404-347-0002</FAX>
+        <MAIL_INSTR/>
+        <PHONE>404-815-1498</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Southern Network Dir</POST>
+        <OFFICENAME>Southern Regional Director</OFFICENAME>
+        <CTRNUMBER>16N4</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Georgia">GA</STATE>
+        <EMAIL>Thomas.Strauss@trade.gov</EMAIL>
+        <FAX>404-347-0002</FAX>
+        <MAIL_INSTR/>
+        <PHONE>404-815-1529</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Savannah</POST>
+        <OFFICENAME>Savannah U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1446</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Georgia">GA</STATE>
+        <EMAIL>Todd.Gerken@mail.doc.gov</EMAIL>
+        <FAX>912-652-4675</FAX>
+        <MAIL_INSTR/>
+        <PHONE>912-652-4204</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Honolulu</POST>
+        <OFFICENAME>Hawaii U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1425</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Hawaii">HI</STATE>
+        <EMAIL>John.Holman@trade.gov</EMAIL>
+        <FAX>808-522-8045</FAX>
+        <MAIL_INSTR/>
+        <PHONE>808-522-8040</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>2</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Des Moines</POST>
+        <OFFICENAME>Des Moines U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1421</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Iowa">IA</STATE>
+        <EMAIL>Patricia.Cook@trade.gov</EMAIL>
+        <FAX>515-288-1437</FAX>
+        <MAIL_INSTR/>
+        <PHONE>515-284-4590</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Boise</POST>
+        <OFFICENAME>Boise U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1439</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Idaho">ID</STATE>
+        <EMAIL>Amy.Benson@mail.doc.gov</EMAIL>
+        <FAX>208-334-2783</FAX>
+        <MAIL_INSTR/>
+        <PHONE>208-364-7791</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Chicago</POST>
+        <OFFICENAME>Chicago U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1616</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Illinois">IL</STATE>
+        <EMAIL>Julie.Carducci@trade.gov</EMAIL>
+        <FAX>312-353-8120</FAX>
+        <MAIL_INSTR/>
+        <PHONE>312-353-8040</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Libertyville</POST>
+        <OFFICENAME>Libertyville U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1490</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Illinois">IL</STATE>
+        <EMAIL>cary.freeman@trade.gov</EMAIL>
+        <FAX>000-000-0000</FAX>
+        <MAIL_INSTR/>
+        <PHONE>VACANT</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Midwest Network Dir</POST>
+        <OFFICENAME>Midwest Network Director</OFFICENAME>
+        <CTRNUMBER>16N5</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Illinois">IL</STATE>
+        <EMAIL>Mary.Joyce@mail.doc.gov</EMAIL>
+        <FAX>312-353-8120</FAX>
+        <MAIL_INSTR/>
+        <PHONE>312-886-8094</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>0</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Rockford</POST>
+        <OFFICENAME>Rockford U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1488</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Illinois">IL</STATE>
+        <EMAIL>Patrick.Hope@trade.gov</EMAIL>
+        <FAX>888-628-2571</FAX>
+        <MAIL_INSTR/>
+        <PHONE>815-316-2380</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Peoria</POST>
+        <OFFICENAME>Peoria U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1489</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Illinois">IL</STATE>
+        <EMAIL>shari.stout@trade.gov</EMAIL>
+        <FAX>309-671-7818</FAX>
+        <MAIL_INSTR/>
+        <PHONE>309-671-7815</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Indianapolis</POST>
+        <OFFICENAME>Indianapolis U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1450</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Indiana">IN</STATE>
+        <EMAIL>Mark.Cooper@trade.gov</EMAIL>
+        <FAX>317-582-2301</FAX>
+        <MAIL_INSTR/>
+        <PHONE>317-582-2300</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Wichita</POST>
+        <OFFICENAME>Wichita U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1486</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Kansas">KS</STATE>
+        <EMAIL>andrew.anderson@mail.doc.gov</EMAIL>
+        <FAX>316-263-8306</FAX>
+        <MAIL_INSTR/>
+        <PHONE>316-263-4067</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Lexington</POST>
+        <OFFICENAME>Lexington  U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A5</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Kentucky">KY</STATE>
+        <EMAIL>Sara.Moreno@trade.gov</EMAIL>
+        <FAX>859-201-1139</FAX>
+        <MAIL_INSTR/>
+        <PHONE>859-225-7001</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Louisville</POST>
+        <OFFICENAME>Louisville U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1455</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Kentucky">KY</STATE>
+        <EMAIL>Peggy.Pauley@mail.doc.gov</EMAIL>
+        <FAX>502-582-6573</FAX>
+        <MAIL_INSTR/>
+        <PHONE>502-582-5066</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>New Orleans</POST>
+        <OFFICENAME>New Orleans U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1634</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Louisiana">LA</STATE>
+        <EMAIL>dvandewe@mail.doc.gov</EMAIL>
+        <FAX>504-589-2337</FAX>
+        <MAIL_INSTR/>
+        <PHONE>504-589-6546</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Shreveport</POST>
+        <OFFICENAME>Shreveport U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1485</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Louisiana">LA</STATE>
+        <EMAIL>Shreveport.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>318-676-3063</FAX>
+        <MAIL_INSTR/>
+        <PHONE>318-676-3064</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Boston</POST>
+        <OFFICENAME>Boston U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1611</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Massachusetts">MA</STATE>
+        <EMAIL>Office.Boston@mail.doc.gov</EMAIL>
+        <FAX>617-565-4313</FAX>
+        <MAIL_INSTR/>
+        <PHONE>617-565-4301</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Northeast Network Dir</POST>
+        <OFFICENAME>Northeast Network Director</OFFICENAME>
+        <CTRNUMBER>16N1</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Massachusetts">MA</STATE>
+        <EMAIL>Jim.Cox@mail.doc.gov</EMAIL>
+        <FAX>617-565-4313</FAX>
+        <MAIL_INSTR/>
+        <PHONE>617-565-4307</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Baltimore</POST>
+        <OFFICENAME>Baltimore U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1609</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Maryland">MD</STATE>
+        <EMAIL>bill.burwell@mail.doc.gov</EMAIL>
+        <FAX>410-962-4529</FAX>
+        <MAIL_INSTR/>
+        <PHONE>410-962-4539</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Portland ME</POST>
+        <OFFICENAME>Portland, ME U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1466</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Maine">ME</STATE>
+        <EMAIL>Jeffrey.Porter@mail.doc.gov</EMAIL>
+        <FAX>207-541-7420</FAX>
+        <MAIL_INSTR/>
+        <PHONE>207-541-7430</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Grand Rapids</POST>
+        <OFFICENAME>Grand Rapids U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1472</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Michigan">MI</STATE>
+        <EMAIL>Thomas.Maguire@mail.doc.gov</EMAIL>
+        <FAX>616-458-3872</FAX>
+        <MAIL_INSTR/>
+        <PHONE>616-458-3564</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Detroit</POST>
+        <OFFICENAME>Detroit U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1622</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Michigan">MI</STATE>
+        <EMAIL>Sara.Coulter@trade.gov</EMAIL>
+        <FAX>313-872-6795</FAX>
+        <MAIL_INSTR/>
+        <PHONE>313-872-6794</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Pontiac</POST>
+        <OFFICENAME>Pontiac U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1473</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Michigan">MI</STATE>
+        <EMAIL>Richard.Corson@Trade.gov</EMAIL>
+        <FAX>248-975-9606</FAX>
+        <MAIL_INSTR/>
+        <PHONE>248-975-9600</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Ypsilanti</POST>
+        <OFFICENAME>Ypsilanti U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1471</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Michigan">MI</STATE>
+        <EMAIL>Thomas.Maguire@trade.gov</EMAIL>
+        <FAX>616-458-3872</FAX>
+        <MAIL_INSTR/>
+        <PHONE>616-458-3564</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Minneapolis</POST>
+        <OFFICENAME>Minneapolis U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1633</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Minnesota">MN</STATE>
+        <EMAIL>Ryan.Kanne@trade.gov</EMAIL>
+        <FAX>612-348-1650</FAX>
+        <MAIL_INSTR/>
+        <PHONE>612-348-1638</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Kansas City</POST>
+        <OFFICENAME>Kansas City U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1453</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Missouri">MO</STATE>
+        <EMAIL>Office.KansasCity@trade.gov</EMAIL>
+        <FAX>816-471-7839</FAX>
+        <MAIL_INSTR/>
+        <PHONE>816-421-1876</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>St. Louis</POST>
+        <OFFICENAME>St. Louis U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1642</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Missouri">MO</STATE>
+        <EMAIL>Office.StLouis@trade.gov</EMAIL>
+        <FAX>314-260-3791</FAX>
+        <MAIL_INSTR/>
+        <PHONE>314-260-3780</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Jackson</POST>
+        <OFFICENAME>Mississippi U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1454</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Mississippi">MS</STATE>
+        <EMAIL>carol.moore@mail.doc.gov</EMAIL>
+        <FAX>601-373-0959</FAX>
+        <MAIL_INSTR/>
+        <PHONE>601-373-0773</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Montana</POST>
+        <OFFICENAME>Missoula U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1411</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Montana">MT</STATE>
+        <EMAIL>Montana.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>503-326-6351</FAX>
+        <MAIL_INSTR/>
+        <PHONE>406-370-0097</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Charlotte</POST>
+        <OFFICENAME>Charlotte U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1610</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="North Carolina">NC</STATE>
+        <EMAIL>greg.sizemore@trade.gov</EMAIL>
+        <FAX>704-332-2681</FAX>
+        <MAIL_INSTR/>
+        <PHONE>704-333-4886</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Greensboro</POST>
+        <OFFICENAME>Greensboro U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1423</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="North Carolina">NC</STATE>
+        <EMAIL>debbie.strader@trade.gov</EMAIL>
+        <FAX>336-333-5158</FAX>
+        <MAIL_INSTR/>
+        <PHONE>336-333-5345</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Raleigh</POST>
+        <OFFICENAME>Raleigh US Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1406</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="North Carolina">NC</STATE>
+        <EMAIL>Sandra.Edwards@trade.gov</EMAIL>
+        <FAX>919-281-2754</FAX>
+        <MAIL_INSTR/>
+        <PHONE>919-281-2750</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Fargo</POST>
+        <OFFICENAME>Fargo U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1617</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="North Dakota">ND</STATE>
+        <EMAIL>heather.ranck@mail.doc.gov</EMAIL>
+        <FAX>701-237-9734</FAX>
+        <MAIL_INSTR/>
+        <PHONE>701-239-5080</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Omaha</POST>
+        <OFFICENAME>Omaha U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1451</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Nebraska">NE</STATE>
+        <EMAIL>Meredith.Bond@trade.gov</EMAIL>
+        <FAX>402-554-3473</FAX>
+        <MAIL_INSTR/>
+        <PHONE>402-597-0193</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>New Hampshire</POST>
+        <OFFICENAME>New Hampshire U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1465</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New Hampshire">NH</STATE>
+        <EMAIL>Office.Portsmouth@trade.gov</EMAIL>
+        <FAX>603-953-0213</FAX>
+        <MAIL_INSTR/>
+        <PHONE>603-953-0212</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Central-Southern NJ</POST>
+        <OFFICENAME>Central-Southern NJ U.S. Export Assistant Center</OFFICENAME>
+        <CTRNUMBER>1448</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New Jersey">NJ</STATE>
+        <EMAIL>debora.sykes@trade.gov</EMAIL>
+        <FAX>609-896-4249</FAX>
+        <MAIL_INSTR/>
+        <PHONE>609-896-2734</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Northern New Jersey</POST>
+        <OFFICENAME>Northern New Jersey U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1458</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New Jersey">NJ</STATE>
+        <EMAIL>Office.Newark@trade.gov</EMAIL>
+        <FAX>na</FAX>
+        <MAIL_INSTR/>
+        <PHONE>973-645-4682</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Santa Fe</POST>
+        <OFFICENAME>Santa Fe U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1431</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New Mexico">NM</STATE>
+        <EMAIL>Sandra.Necessary@mail.doc.gov</EMAIL>
+        <FAX>505-827-0211</FAX>
+        <MAIL_INSTR/>
+        <PHONE>505-231-0075</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Las Vegas</POST>
+        <OFFICENAME>Las Vegas U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A6</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Nevada">NV</STATE>
+        <EMAIL>Andrew.Edlefsen@trade.gov</EMAIL>
+        <FAX>702-388-6469</FAX>
+        <MAIL_INSTR/>
+        <PHONE>702-388-6694</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Reno</POST>
+        <OFFICENAME>Reno U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1440</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Nevada">NV</STATE>
+        <EMAIL>bill.cline@mail.doc.gov</EMAIL>
+        <FAX>775-784-5343</FAX>
+        <MAIL_INSTR/>
+        <PHONE>775-784-5342</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Buffalo</POST>
+        <OFFICENAME>Buffalo U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1412</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New York">NY</STATE>
+        <EMAIL>rosanna.masucci@trade.gov</EMAIL>
+        <FAX>716-551-5290</FAX>
+        <MAIL_INSTR/>
+        <PHONE>716-551-4191</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Harlem</POST>
+        <OFFICENAME>Harlem U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1468</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New York">NY</STATE>
+        <EMAIL>Office.Harlem@trade.gov</EMAIL>
+        <FAX>212-860-6203</FAX>
+        <MAIL_INSTR/>
+        <PHONE>212-860-6200</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>New York</POST>
+        <OFFICENAME>New York U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1635</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New York">NY</STATE>
+        <EMAIL>Office.NewYork@trade.gov</EMAIL>
+        <FAX>212-809-2687</FAX>
+        <MAIL_INSTR/>
+        <PHONE>212-809-2675</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Long Island</POST>
+        <OFFICENAME>Long Island U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1460</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New York">NY</STATE>
+        <EMAIL>Shakir.Farsakh@trade.gov</EMAIL>
+        <FAX>N/A</FAX>
+        <MAIL_INSTR/>
+        <PHONE>516-876-3418/646-722-0182</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Rochester</POST>
+        <OFFICENAME>Rochester U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1637</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New York">NY</STATE>
+        <EMAIL>timothy.mccall@mail.doc.gov</EMAIL>
+        <FAX>585-423-7570</FAX>
+        <MAIL_INSTR/>
+        <PHONE>585-399-7065</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Westchester</POST>
+        <OFFICENAME>Westchester U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1467</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="New York">NY</STATE>
+        <EMAIL>Joan.Kanlian@trade.gov</EMAIL>
+        <FAX>914-682-6698</FAX>
+        <MAIL_INSTR/>
+        <PHONE>914-682-6712</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Columbus</POST>
+        <OFFICENAME>Columbus U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1475</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Ohio">OH</STATE>
+        <EMAIL>roberta.ford@trade.gov</EMAIL>
+        <FAX>614-365-9598</FAX>
+        <MAIL_INSTR/>
+        <PHONE>614-365-9510</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Cleveland</POST>
+        <OFFICENAME>Cleveland U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1618</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Ohio">OH</STATE>
+        <EMAIL>Office.Cleveland@trade.gov</EMAIL>
+        <FAX>216-522-2235</FAX>
+        <MAIL_INSTR/>
+        <PHONE>216-522-4750</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Cincinnati</POST>
+        <OFFICENAME>Cincinnati U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1417</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Ohio">OH</STATE>
+        <EMAIL>Marcia.Brandstadt@mail.doc.gov</EMAIL>
+        <FAX>513-684-3227</FAX>
+        <MAIL_INSTR/>
+        <PHONE>513-684-2944</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Great Lakes Network Dir</POST>
+        <OFFICENAME>Great Lakes Network Director</OFFICENAME>
+        <CTRNUMBER>16N3</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Ohio">OH</STATE>
+        <EMAIL>michael.miller@mail.doc.gov</EMAIL>
+        <FAX>216-522-2235</FAX>
+        <MAIL_INSTR/>
+        <PHONE>216-522-4750</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>0</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Toledo</POST>
+        <OFFICENAME>Toledo U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1474</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Ohio">OH</STATE>
+        <EMAIL>melissa.blackledge@trade.gov</EMAIL>
+        <FAX>419-241-0684</FAX>
+        <MAIL_INSTR/>
+        <PHONE>419-241-0683</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Oklahoma City</POST>
+        <OFFICENAME>Oklahoma City U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1456</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Oklahoma">OK</STATE>
+        <EMAIL>office.oklahomacity@trade.gov</EMAIL>
+        <FAX>405-608-4211</FAX>
+        <MAIL_INSTR/>
+        <PHONE>405-608-5302</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tulsa</POST>
+        <OFFICENAME>Tulsa U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1484</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Oklahoma">OK</STATE>
+        <EMAIL>Jim.Williams@mail.doc.gov</EMAIL>
+        <FAX>918-581-6263</FAX>
+        <MAIL_INSTR/>
+        <PHONE>918-581-7650</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Portland OR</POST>
+        <OFFICENAME>Portland, OR U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1639</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Oregon">OR</STATE>
+        <EMAIL>scott.goddin@mail.doc.gov</EMAIL>
+        <FAX>503-326-6351</FAX>
+        <MAIL_INSTR/>
+        <PHONE>503-326-3001</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Harrisburg</POST>
+        <OFFICENAME>VACANT Please Contact CS Pittsburgh or CS Philadelphia</OFFICENAME>
+        <CTRNUMBER>1470</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Pennsylvania">PA</STATE>
+        <EMAIL>Joseph.Hanley@trade.gov</EMAIL>
+        <FAX>VACANT</FAX>
+        <MAIL_INSTR/>
+        <PHONE>VACANT</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Mid-Atlantic Network Dir</POST>
+        <OFFICENAME>Mid-Atlantic Network Director</OFFICENAME>
+        <CTRNUMBER>16N2</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Pennsylvania">PA</STATE>
+        <EMAIL>Joseph.Hanley@mail.doc.gov</EMAIL>
+        <FAX>215-597-6123</FAX>
+        <MAIL_INSTR/>
+        <PHONE>215-597-6108</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Pittsburgh</POST>
+        <OFFICENAME>Pittsburgh U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1438</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Pennsylvania">PA</STATE>
+        <EMAIL>Lyn.Doverspike@trade.gov</EMAIL>
+        <FAX>412-644-2803</FAX>
+        <MAIL_INSTR/>
+        <PHONE>412-644-2800</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Philadelphia</POST>
+        <OFFICENAME>Philadelphia U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1636</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Pennsylvania">PA</STATE>
+        <EMAIL>Office.Philadelphia@mail.doc.gov</EMAIL>
+        <FAX>215-597-6123</FAX>
+        <MAIL_INSTR/>
+        <PHONE>215-597-6101</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>San Juan</POST>
+        <OFFICENAME>San Juan (Guaynabo) U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1445</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Puerto Rico">PR</STATE>
+        <EMAIL>Jose.Burgos@trade.gov</EMAIL>
+        <FAX>787-781-7178</FAX>
+        <MAIL_INSTR/>
+        <PHONE>787-775-1992,1974</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>55</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Providence</POST>
+        <OFFICENAME>Providence U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1462</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Rhode Island">RI</STATE>
+        <EMAIL>keith.yatsuhashi@trade.gov</EMAIL>
+        <FAX>401-528-5067</FAX>
+        <MAIL_INSTR/>
+        <PHONE>401-528-5104</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Columbia</POST>
+        <OFFICENAME>Columbia U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1449</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="South Carolina">SC</STATE>
+        <EMAIL>Office.Columbia@mail.doc.gov</EMAIL>
+        <FAX>803-777-2615</FAX>
+        <MAIL_INSTR/>
+        <PHONE>803-777-2571</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Charleston SC</POST>
+        <OFFICENAME>Charleston, SC U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1428</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="South Carolina">SC</STATE>
+        <EMAIL>Phil.Minard@mail.doc.gov</EMAIL>
+        <FAX>843-529-0305</FAX>
+        <MAIL_INSTR/>
+        <PHONE>843-746-3404</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Greenville</POST>
+        <OFFICENAME>Greenville U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1427</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="South Carolina">SC</STATE>
+        <EMAIL>denis.csizmadia@mail.doc.gov</EMAIL>
+        <FAX>864-250-6729</FAX>
+        <MAIL_INSTR/>
+        <PHONE>864-250-8429</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Sioux Falls</POST>
+        <OFFICENAME>South Dakota Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1487</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="South Dakota">SD</STATE>
+        <EMAIL>cinnamon.king@mail.doc.gov</EMAIL>
+        <FAX>605-330-4266</FAX>
+        <MAIL_INSTR/>
+        <PHONE>605-330-4265</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Knoxville</POST>
+        <OFFICENAME>Knoxville U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1477</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Tennessee">TN</STATE>
+        <EMAIL>robert.leach@mail.doc.gov</EMAIL>
+        <FAX>865-545-4435</FAX>
+        <MAIL_INSTR/>
+        <PHONE>865-545-4637</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Nashville</POST>
+        <OFFICENAME>Nashville U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1430</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Tennessee">TN</STATE>
+        <EMAIL>Office.Nashville@trade.gov</EMAIL>
+        <FAX>615-736-2226</FAX>
+        <MAIL_INSTR/>
+        <PHONE>615-736-2222</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Memphis</POST>
+        <OFFICENAME>Memphis U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1476</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Tennessee">TN</STATE>
+        <EMAIL>david.spann@mail.doc.gov</EMAIL>
+        <FAX>901-543-3510</FAX>
+        <MAIL_INSTR/>
+        <PHONE>901-544-0930</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Austin</POST>
+        <OFFICENAME>Austin U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1483</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Texas">TX</STATE>
+        <EMAIL>Karen.Parker@trade.gov</EMAIL>
+        <FAX>512-916-5940</FAX>
+        <MAIL_INSTR/>
+        <PHONE>512-916-5939</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Houston</POST>
+        <OFFICENAME>Houston U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1426</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Texas">TX</STATE>
+        <EMAIL>Office.Houston@trade.gov</EMAIL>
+        <FAX>713-209-3135</FAX>
+        <MAIL_INSTR/>
+        <PHONE>713-209-3104</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>El Paso</POST>
+        <OFFICENAME>El Paso U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1434</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Texas">TX</STATE>
+        <EMAIL>Robert.Queen@trade.gov</EMAIL>
+        <FAX>915-858-8827</FAX>
+        <MAIL_INSTR/>
+        <PHONE>915-929-6971</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>North Texas</POST>
+        <OFFICENAME>North Texas U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1619</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Texas">TX</STATE>
+        <EMAIL>daniel.swart@trade.gov</EMAIL>
+        <FAX>817-684-5345</FAX>
+        <MAIL_INSTR>North Texas USEAC covers all of Dallas and Ft Worth</MAIL_INSTR>
+        <PHONE>817-684-5347</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>South Texas</POST>
+        <OFFICENAME>South Texas U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A8</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Texas">TX</STATE>
+        <EMAIL>Daniel.Rodriguez@trade.gov</EMAIL>
+        <FAX>956-661-0239</FAX>
+        <MAIL_INSTR/>
+        <PHONE>956-661-0238</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>San Antonio</POST>
+        <OFFICENAME>San Antonio U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1482</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Texas">TX</STATE>
+        <EMAIL>Daniel.Rodriguez@Trade.gov</EMAIL>
+        <FAX>210-472-4019</FAX>
+        <MAIL_INSTR/>
+        <PHONE>210-472-4020</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>West Texas</POST>
+        <OFFICENAME>West Texas U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>14A9</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Texas">TX</STATE>
+        <EMAIL>harry.henson@trade.gov</EMAIL>
+        <FAX>432-552-3490</FAX>
+        <MAIL_INSTR/>
+        <PHONE>432-552-2490</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Salt Lake City</POST>
+        <OFFICENAME>Salt Lake City U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1443</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Utah">UT</STATE>
+        <EMAIL>Salt.Lake.City.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>801-255-3147</FAX>
+        <MAIL_INSTR/>
+        <PHONE>801-255-1871</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>10</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Richmond</POST>
+        <OFFICENAME>Richmond U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1441</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Virginia">VA</STATE>
+        <EMAIL>Eric.McDonald@mail.doc.gov</EMAIL>
+        <FAX>804-771-2390</FAX>
+        <MAIL_INSTR/>
+        <PHONE>804-771-2246</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Northern VA</POST>
+        <OFFICENAME>Northern Virginia U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1415</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Virginia">VA</STATE>
+        <EMAIL>William.Fanjoy@trade.gov</EMAIL>
+        <FAX>703-756-1701</FAX>
+        <MAIL_INSTR/>
+        <PHONE>703-756-1702</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Montpelier</POST>
+        <OFFICENAME>Montpelier U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1464</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Vermont">VT</STATE>
+        <EMAIL>Susan.Murray@mail.doc.gov</EMAIL>
+        <FAX>802-828-3258</FAX>
+        <MAIL_INSTR/>
+        <PHONE>802-828-4508</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Tacoma</POST>
+        <OFFICENAME>Tacoma U.S. Export Assistance Center is closed</OFFICENAME>
+        <CTRNUMBER>1442</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Washington">WA</STATE>
+        <EMAIL>Seattle.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>206-553-7253</FAX>
+        <MAIL_INSTR/>
+        <PHONE>206-553-5615</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Spokane</POST>
+        <OFFICENAME>Spokane U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1491</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Washington">WA</STATE>
+        <EMAIL>Spokane.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>503-326-6351</FAX>
+        <MAIL_INSTR/>
+        <PHONE>509-344-9398</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Seattle</POST>
+        <OFFICENAME>Seattle U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1647</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Washington">WA</STATE>
+        <EMAIL>Seattle.Office.Box@mail.doc.gov</EMAIL>
+        <FAX>206-553-7253</FAX>
+        <MAIL_INSTR/>
+        <PHONE>206-553-5615</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>4</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Milwaukee</POST>
+        <OFFICENAME>Milwaukee U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1432</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="Wisconsin">WI</STATE>
+        <EMAIL>Office.Milwaukee@trade.gov</EMAIL>
+        <FAX>414-297-3470</FAX>
+        <MAIL_INSTR/>
+        <PHONE>414-297-3473</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>20</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Charleston WV</POST>
+        <OFFICENAME>Charleston, WV U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1414</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="West Virginia">WV</STATE>
+        <EMAIL>Leslie.Drake@mail.doc.gov</EMAIL>
+        <FAX>304-347-5408</FAX>
+        <MAIL_INSTR/>
+        <PHONE>304-347-5123</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+    <POSTINFO>
+        <POST>Wheeling</POST>
+        <OFFICENAME>Wheeling U.S. Export Assistance Center</OFFICENAME>
+        <CTRNUMBER>1459</CTRNUMBER>
+        <COUNTRYID name="United States">840</COUNTRYID>
+        <STATE name="West Virginia">WV</STATE>
+        <EMAIL>Diego.Gattesco@mail.doc.gov</EMAIL>
+        <FAX>304-243-5494</FAX>
+        <MAIL_INSTR/>
+        <PHONE>304-243-5493</PHONE>
+        <POSTTYPE>D</POSTTYPE>
+        <TIMEZONE>35</TIMEZONE>
+    </POSTINFO>
+</POSTLIST>
+

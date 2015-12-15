@@ -1,0 +1,146 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "ITA Offices & Centers API",
+        "description": "The ITA Offices & Centers API provides contact and address information for all of ITA's domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITA's internal office management system.",
+        "version": "2.0.0"
+    },
+    "host": "api.trade.gov",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/ita_office_locations/search": {
+            "get": {
+                "summary": "ITA Offices & Centers API",
+                "description": "The ITA Offices & Centers API provides contact and address information for all of ITA's domestic and international export assistance centers. There are almost 200 ITA centers worldwide whose locations are managed by ITA's internal office management system.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Returns office locations for a match within the post or office name fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "city",
+                        "in": "query",
+                        "description": "Returns office locations based on city name",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "state",
+                        "in": "query",
+                        "description": "Returns locations for export assistance centers located in a specific U.S. State or Dependent Area.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns office locations for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per office location.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Offices"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Office Response",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Office"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Office": {
+            "properties": {
+                "id": {
+                    "description": "Unique identifier for post",
+                    "type": "string"
+                },
+                "post": {
+                    "description": "Name of the post (Default sort)",
+                    "type": "string"
+                },
+                "office_name": {
+                    "description": "Office Name",
+                    "type": "string"
+                },
+                "state": {
+                    "description": "State abbreviation, for domestic offices",
+                    "type": "string"
+                },
+                "city": {
+                    "description": "City",
+                    "type": "string"
+                },
+                "address": {
+                    "description": "Street address of office",
+                    "type": "string"
+                },
+                "country": {
+                    "description": "Country",
+                    "type": "string"
+                },
+                "email": {
+                    "description": "Office email address",
+                    "type": "string"
+                },
+                "fax": {
+                    "description": "Fax number",
+                    "type": "string"
+                },
+                "mail_instructions": {
+                    "description": "Snail mail instructions",
+                    "type": "string"
+                },
+                "phone": {
+                    "description": "Office phone number",
+                    "type": "string"
+                },
+                "post_type": {
+                    "description": "Type of post (domestic or international",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,135 @@
+/* =========
+   Get Fonts */
+/* ================
+   Assign Variables */
+/* ===========================
+   Setup Mixins/Helper Classes */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ==========
+   Setup Page */
+.tabs *, .tabs *:before, .tabs *:after {
+  box-sizing: border-box;
+}
+
+/* ==========
+   Setup Tabs */
+.tabs {
+    background: #f6f9fa;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 20px 40px;
+    color:#222;
+}
+
+.tabs img {
+  box-shadow: 0;
+  padding: 2px;
+  background: none;
+  border: none;
+  width: 40px;
+}
+
+.tabs input[type='radio'] {
+  display: none;
+}
+
+.tabs input[type='radio'] + label {
+  display: block;
+  float: left;
+  position: relative;
+  width: 33.33333%;
+  font-size: .89em;
+  line-height: 2.75em;
+  text-align: center;
+  text-overflow: ellipse;
+  text-indent: -25px;
+  background: white;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+  padding-right: .4em;
+  padding-left: .7em;
+  padding-top: .25em;
+  padding-bottom: .25em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.tabs input[type='radio'] + label:before {
+}
+
+.tabs input[type='radio'] + label:after {
+}
+
+.tabs input[type='radio'] + label.first {
+  border-radius: 0;
+}
+
+.tabs input[type='radio'] + label.last {
+  border-right: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.tabs input[type='radio'] + label.last:before, .tabs input[type='radio'] + label.last:after {
+  display: none;
+}
+
+.tabs input[type='radio'] + label:hover {
+  background: #eee;
+}
+
+.tabs input[type='radio'] + label:hover:after {
+  border-left-color: #eee;
+}
+
+.tabs input[type='radio']:checked + label {
+  background: #6EB590;
+  border-color: #6EB590;
+  color: white;
+}
+
+.tabs input[type='radio']:checked + label:after {
+  border-left-color: #6EB590;
+}
+
+.tabs input[type='radio']:checked + label:before {
+  border-left-color: #6EB590;
+}
+
+.tabs .pane {
+  display: none;
+}
+
+.tabs #step1radio:checked ~ #step1 {
+  display: block;
+}
+
+.tabs #step2radio:checked ~ #step2 {
+  display: block;
+}
+
+.tabs #step3radio:checked ~ #step3 {
+  display: block;
+}
+
+@media print, screen and (max-width: 480px) {
+  .tabs input[type='radio'] + label {
+    width: 100%;
+  }
+
+  .tabs input[type='radio'] + label.first {
+    border-right: 1px solid #ccc;
+    border-radius: 0;
+  }
+
+  .tabs input[type='radio'] + label.last {
+    border-right: 1px solid #ccc;
+    border-radius: 0;
+  }
+}

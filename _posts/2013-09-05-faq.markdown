@@ -1,0 +1,66 @@
+---
+permalink: api-faqs.html
+layout: body
+title: API FAQs
+published: true
+---
+
+#API FAQs
+
+##Getting Started
+
+###Do I need to register?
+You are now required to [register for](https://api.trade.gov/users/sign_up) and use a key to access the data in the APIs.  Nevertheless, you may still use the APIs and other data free of charge and you are allowed unlimited access.  Just don’t spike us ;-)
+
+###Are there any data limits for a single application or a developer?
+Currently there are no limits, however, we track traffic associated with an individual API key.
+
+<!-- The default setting will be no more than **X** calls per second and **XXX** calls per day. This threshold can be raised for either a specific API key or globally if needed. We expect to make adjustments to the default settings over time. Our goal is to encourage the development of applications that help exporters. We do not want to introduce any limitations that work against that. -->
+
+###How come I'm getting _"error": "Unauthorized"_ when I make a call to the API?
+You are now required to [register for](https://api.trade.gov/users/sign_up) and use a key to access the data in the APIs.
+
+###What kind of data can I get from the API?
+Visit the links on the [Home page](http://developer.trade.gov) to learn more about the different data sets and their methods.
+
+##Monetization
+
+###Does ITA charge for this service?
+No. It's completely free.
+
+###Does ITA allow for profit applications that use this data?
+Yes, any application (including those for-profit) are welcome to use the API in any way that they see fit.
+
+<!-- as long as they conform to the [Developer License Agreement](/developer-license.html). -->
+
+<!-- Developers need to **register** and get an API key. ITA uses **XXX** to handle registration, API key distribution, and general management of the data flow. -->
+
+##Data Formats
+
+###What is the format of this feed?
+API data is accessible as JavaScript Object Notation (JSON).
+
+###Do you also provide XML for these data sets?
+No.  We are not planning to publish XML for the data at this time.
+
+<!-- ###I am ready to deploy my application. How can I get my data limits increased?
+When you are ready to release your app, please **XXX...** -->
+
+##General
+
+###Did something change?  My app is not working.
+The ITA API is constantly evolving and we will continually make updates. If you have an application that's no longer working, visit the [Change Log](change-log.html) page to see if any updates are affecting it.
+
+If you have specific questions please email our [Data Services address](mailto:DataServices@trade.gov) or [post an issue on our GitHub account](https://github.com/InternationalTradeAdministration/developerportal/issues).
+
+###What sort of load are ITA's servers able to handle?
+ITA uses cloud computing, so there is no impact on ITA’s infrastructure.
+
+###How real-time is "real-time"? Is the data updated continuously or is there some sort of delay?
+It will vary based on the type of information requested and the system that it is drawn from. Our goal is to provide the data as close to “real-time” as possible. The documentation for each API specifies how often we update the data.
+
+###What sort of applications does ITA expect/hope developers will make?
+We get excited for unique and creative applications that provide benefit to businesses that export their products and services overseas.  Applications that share ITA’s resources with a wide audience are particularly desirable.  Visit our [Apps Gallery page](app-gallery.html) for ideas.
+
+###Why does ITA offer this data?
+ITA would like to share its valuable resources (data, content, information) with as many businesses as possible.  Our mission is to assist American businesses in planning their international sales strategies and succeed in today’s global marketplace.  **By sharing ITA’s resources, your applications help us help them!**

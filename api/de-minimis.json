@@ -1,0 +1,109 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "De Minimis API",
+        "description": "The De Minimis API provides data about the De Minimis amount and the Value Added Tax (VAT) amount that products may be subject to when exported to foreign countries.  De Minimis is the threshold for a product's value below which no duty or tariff is charged.  Furthermore, products below the De Minimis undergo minimal clearance procedures, such as customs and paperwork requirements.  Similarly, the value of the exported products must exceed the VAT amount before it is subject to VAT.",
+        "version": "2.0.0"
+    },
+    "host": "api.trade.gov",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v1",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/de_minimis/search": {
+            "get": {
+                "summary": "De Minimis API",
+                "description": "The De Minimis API provides data about the De Minimis amount and the Value Added Tax (VAT) amount that products may be subject to when exported to foreign countries.  De Minimis is the threshold for a product's value below which no duty or tax is charged.  Furthermore, products below the De Minimis undergo minimal clearance procedures, such as customs and paperwork requirements.  Similarly, the value of the exported products must exceed the VAT amount before it is subject to VAT.",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Returns de minimis rates for a match in the country or notes fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns de minimis rates based on ISO alpha-2 country codes.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the maximum amount of hits to be returned.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "Exporting",
+                    "ITA",
+                    "International"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful De Minimis Response",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/DeMinimis"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "DeMinimis": {
+            "properties": {
+                "country_name": {
+                    "description": "Name of the country",
+                    "type": "string"
+                },
+                "country": {
+                    "description": "ISO-2 country code",
+                    "type": "string"
+                },
+                "de_minimis_value": {
+                    "description": "De Minimis value for that country",
+                    "type": "string"
+                },
+                "de_minimis_currency": {
+                    "description": "ISO-3 currency code for the country's De Minimis",
+                    "type": "string"
+                },
+                "vat_amount": {
+                    "description": "Value Added Tax amount",
+                    "type": "string"
+                },
+                "vat_currency": {
+                    "description": "ISO-3 currency code for the country's VAT",
+                    "type": "string"
+                },
+                "notes": {
+                    "description": "Notes for each De Minimis and VAT amount",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

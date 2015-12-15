@@ -1,0 +1,66 @@
+name: Developer Portal
+highlighter: pygments
+baseurl: 
+exclude:
+  - .bundle
+  - .git
+  - .gitignore
+  - bin
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+markdown: kramdown
+webservices_baseurl: 'https://api.trade.gov'
+webservices_baseurl_users_signup: 'https://api.trade.gov/users/sign_up'
+apikey: 'd0lmowK8tvxPixAfm9sKOd_f'
+
+left_nav_top_apis:
+- text: Consolidated Screening List
+  url: consolidated-screening-list.html
+- text: Trade Events
+  url: trade-events.html
+- text: Trade Leads
+  url: trade-leads.html
+- text: Tariff Rates
+  url: tariff-rates.html
+- text: De Minimis
+  url: de-minimis.html
+
+left_nav_api_resources:
+- text: List of all APIs
+  url: api-list.html
+- text: Search Widgets
+  url: search-widgets.html
+
+mobile_nav_top_apis:
+- text: Consolidated Screening List
+  url: consolidated-screening-list.html
+- text: Trade Events
+  url: trade-events.html
+- text: Trade Leads
+  url: trade-leads.html
+- text: Tariff Rates
+  url: tariff-rates.html
+- text: De Minimis
+  url: de-minimis.html
+
+mobile_nav_additional_resources:
+- text: Guidance
+  url: guidance.html
+- text: Contact
+  url: contact.html
+- text: App Gallery
+  url: app-gallery.html
+- text: List of all APIs
+  url: api-list.html
+- text: API FAQs
+  url: api-faqs.html
+- text: Change Log
+  url: change-log.html
+- text: APIs from Trade Agencies
+  url: trade-agency-apis.html
+- text: Terms of Service
+  url: tos.html
+
+

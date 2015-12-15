@@ -1,0 +1,28 @@
+<section id="foot">
+ <center><p><small> <a href="http://www.usa.gov">USA.gov</a> | <a href="http://trade.gov/foia">FOIA</a>  | <a href="http://trade.gov/privacy.asp">Privacy Policy</a>  | <a href="http://trade.gov/endorse.asp">Disclaimer</a>  |
+            <a href="http://trade.gov/ITAiqs.pdf">Information Quality Guidelines</a></small></p></center>
+
+<p class="foot">The <a href="http://www.trade.gov">International Trade Administration</a>, <a href="http://www.commerce.gov">U.S.
+            Department of Commerce</a>, manages this global trade site to provide access to ITA information on promoting trade and investment, strengthening
+            the competitiveness of U.S. industry, and ensuring fair trade and compliance with trade laws and agreements. External links to other Internet
+            sites should not be construed as an endorsement of the views or privacy policies contained therein.</p>
+</section>
+
+<script src="{{ site.baseurl }}/javascripts/scale.fix.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="{{ site.baseurl }}/javascripts/ie10-viewport-bug-workaround.js"></script>
+<script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
+</script>
+<script src="{{ site.baseurl }}/javascripts/jquery-xdomainrequest.js"></script>
+<script src="{{ site.baseurl }}/javascripts/affix.js"></script>
+<script src="{{ site.baseurl }}/javascripts/jquery.autosize.js"></script>
+<script src="{{ site.baseurl }}/javascripts/mrl-query.js"></script>

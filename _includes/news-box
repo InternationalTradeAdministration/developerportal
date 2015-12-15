@@ -1,0 +1,41 @@
+	<!--news line 1-->
+        <p>
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Five-%E2%80%9CWidgets%E2%80%9D-You-Can-Immediately-Drop-Into-Your-Site">
+        <p class="news">Five “Widgets” You Can Immediately Drop Into Your Site</p>
+        </a>
+        <h7>December 1, 2015</h7>
+        </p>
+        
+        <!--news line 2-->
+        <p class="list">
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/ITA-has-Frozen-the-FAQs-on-Exporting-API">
+        <p class="news">ITA has Frozen the FAQs on Exporting API</p>
+        </a>
+        <h7>November 2, 2015</h7>
+        </p>
+        
+        <!--news line 3-->
+        <p class="list">
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Updates-to-the-Market-Research-Library-API">
+        <p class="news">Updates to the Market Research Library API are Coming this Fall</p>
+        </a>
+        <h7>September 9, 2015</h7>
+        </p>
+        
+        <!--news line 4-->
+        <p class="list">
+        <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Version-1-of-the-APIs-Has-Been-Deprecated">
+        <p class="news">Version 1 of the APIs Has Been Deprecated</p>
+        </a>
+        <h7>August 19, 2015</h7>
+        </p>
+        
+ 	<!--news line X - SAVE THIS FOR FUTURE DATE -->
+        <!-- <p class="list"> -->
+        <!-- <a href="https://github.com/InternationalTradeAdministration/developerportal/wiki/Submit-Your-App-that-Uses-ITA's-APIs"> -->
+        <!-- <p class="news">Have you used ITA's APIs to create a cool app or Web page?  Let us know.</p> -->
+        <!-- </a> -->
+        <!-- <h7>MM DD, YYYY</h7> -->
+        <!-- </p> -->
+        
+        

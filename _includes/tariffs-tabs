@@ -1,0 +1,32 @@
+<div class="tabs">
+
+<input checked="checked" id="step1radio" name="radio" type="radio" /><label class="first" for="step1radio"><img src="{{ site.baseurl }}/images/background.png" alt="background">Background</label>
+<input id="step2radio" name="radio" type="radio" /><label class="first" for="step2radio"><img src="{{ site.baseurl }}/images/why.png" alt="why">Why This Data Matters</label>
+<input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
+
+	<div class="pane" id="step1">
+		<p>The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA).  When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products.  A tariff is a tax that a company must pay a foreign country when shipping a product to that country.  Typically the FTA tariffs rates decline over several years.</p>
+
+		<p>The API provides information on tariff rates for the following countries: Australia, Bahrain, Chile, Colombia, Costa Rica, Dominican Republic, El Salvador, Guatemala, Honduras, Morocco, Nicaragua, Oman, Panama, Peru, Singapore, and South Korea.  Products are are indicated by their <a href="http://www.export.gov/faq/eg_main_017509.asp">HS-6 code</a>.</p>
+
+		<p>Because the North American Free Trade Agreement (NAFTA) tariff rates have declined to zero, Canada and Mexico data is not included.  Similarly, the tariff rates for almost all products shipped to Israel and Jordon have declined to zero and are not included here.</p>
+
+		<p>The output format for this API is JSON.  This data set is updated only when the corresponding Free Trade Agreement is negotiated or updated.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/tariff-rates">demo search app.</a> Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API. </p>
+		
+	</div>
+	<div class="pane" id="step2">
+		<p>Free Trade Agreements help lower the cost for companies to ship their products overseas.  Knowing tariffs rates for exporting specific products to each country helps companies understand the true cost of doing business with that country.  There are other tariff schedules, such as those negotiated by the World Bank, so it’s important for U.S. companies to know their options.</p>
+
+		<p>For more information read the <a href="http://export.gov/FTA/index.asp">U.S. Free Trade Agreements page</a> on export.gov.  U.S. businesses should pay close attention to the Rules of Origin pages for each country to determine whether or not their product qualifies for the reduced tariff rates under that FTA.</p>
+	</div>
+	<div class="pane" id="step3">
+		<p>The FTA API only includes tariff data for the 16 countries listed on the Background tab.  The <a href="https://www.wto.org/english/res_e/reser_e/tariff_profiles_e.htm">World Trade Organization</a> publishes trade agreements among many countries around the world, not just those with the U.S.  As such, they have different tariff rates that developers can use to compare with the rates in this API.</p>
+
+		<p><a href="http://apps.fas.usda.gov/agtarifftracker/Home/Search">The United States Department of Agriculture</a> (USDA) also publishes tariff rates from the same FTAs that this API uses as a source.  The USDA does not publish rates for as many countries as this API, however they do provide more detailed information, especially about products that have safeguards and quotas.  They also list the thresholds where the tariff rate changes when the quantity of the product being shipped changes.</p>
+
+		<p>The U.S. Census Bureau provides <a href="https://uscensus.prod.3ceonline.com/">a search tool</a> for finding the HS-6 code assigned to a particular product.  Developers could integrate this functionality into their own tool to help U.S. companies find tariff rates for their products more easily.</p>
+
+		<p>Mashed together, the data from this API as well as the data from the World Bank, the USDA, and Census can enhance Web pages about shipping particular products overseas.</p>
+	</div>
+
+</div>

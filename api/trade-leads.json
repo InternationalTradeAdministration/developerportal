@@ -1,0 +1,304 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Trade Leads API",
+        "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources.",
+        "version": "2.0.0"
+    },
+    "host": "api.trade.gov",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/trade_leads/search": {
+            "get": {
+                "summary": "Trade Leads API",
+                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources.\n",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the title, description, topic, tags, and procurement_organization fields.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industries",
+                        "in": "query",
+                        "description": "Returns trade leads for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns trade leads for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per lead.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "sources",
+                        "in": "query",
+                        "description": "Searches only the leads specified by the Source field.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "publish_date",
+                        "in": "query",
+                        "description": "Returns leads based on their publish date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "end_date",
+                        "in": "query",
+                        "description": "Returns leads based on their end date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "publish_date_amended",
+                        "in": "query",
+                        "description": "Returns leads based on their amended publish date.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "Trade",
+                    "Exporting",
+                    "ITA",
+                    "International",
+                    "Leads",
+                    "Procurement Opportunities",
+                    "Contracting Opportunities"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful Lead Response",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/Lead"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Lead": {
+            "properties": {
+                "country": {
+                    "description": "Country where the procurement opportunity is taking place.",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "Title of the lead.",
+                    "type": "string"
+                },
+                "reference_number": {
+                    "description": "The lead's reference number.",
+                    "type": "string"
+                },
+                "contract_number": {
+                    "description": "Contract number for the opportunity.",
+                    "type": "string"
+                },
+                "project_number": {
+                    "description": "Number for the opportunity.",
+                    "type": "string"
+                },
+                "publish_date": {
+                    "description": "Date lead was posted.",
+                    "type": "string"
+                },
+                "end_date": {
+                    "description": "Closing date for the lead.",
+                    "type": "string"
+                },
+                "publish_date_amended": {
+                    "description": "Amended publish date for the lead.",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "Status of the lead (note this API only shows open leads).",
+                    "type": "string"
+                },
+                "industry": {
+                    "description": "Industry category assigned to the opportunity.",
+                    "type": "string"
+                },
+                "project_size": {
+                    "description": "Budget for project in U.S. dollars.",
+                    "type": "string"
+                },
+                "min_contract_value": {
+                    "description": "Minimum value of the lead (in U.K. pounds).",
+                    "type": "string"
+                },
+                "max_contract_value": {
+                    "description": "Maximum value of the lead (in U.K. pounds).",
+                    "type": "string"
+                },
+                "specific_location": {
+                    "description": "Location of the opportunity.",
+                    "type": "string"
+                },
+                "specific_address": {
+                    "description": "Address of the opportunity's location.",
+                    "type": "string"
+                },
+                "notice_type": {
+                    "description": "Type of contract.",
+                    "type": "string"
+                },
+                "trade_agreement": {
+                    "description": "Relevant trade agreement for the contract.",
+                    "type": "string"
+                },
+                "bid_type": {
+                    "description": "The criteria for the contract.",
+                    "type": "string"
+                },
+                "funding_source": {
+                    "description": "Funding source of the project.",
+                    "type": "string"
+                },
+                "borrowing_entity": {
+                    "description": "Bank funding the project.",
+                    "type": "string"
+                },
+                "competitive_procurement_strategy": {
+                    "description": "Bidding criteria for respondents.",
+                    "type": "string"
+                },
+                "non_competitive_procurement_strategy": {
+                    "description": "States whether it is a competitive procurement.",
+                    "type": "string"
+                },
+                "procurement_organization": {
+                    "description": "Agency responsible for the contract.",
+                    "type": "string"
+                },
+                "procurement_office": {
+                    "description": "Office responsible of the contract.",
+                    "type": "string"
+                },
+                "procurement_office_address": {
+                    "description": "Address of the procurement office.",
+                    "type": "string"
+                },
+                "procurement_organization_address": {
+                    "description": "Address of the procurement organization.",
+                    "type": "string"
+                },
+                "classification_code": {
+                    "description": "Code that classifies the lead.",
+                    "type": "string"
+                },
+                "implementing_entity": {
+                    "description": "Agency responsible for the implementation.",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "Description of the opportunity.",
+                    "type": "string"
+                },
+                "tags": {
+                    "description": "Keywords associated with the opportunity.",
+                    "type": "string"
+                },
+                "contact": {
+                    "description": "Point of contact.",
+                    "type": "string"
+                },
+                "urls": {
+                    "description": "URLs that pertain to the bid.",
+                    "type": "string"
+                },
+                "source": {
+                    "description": "Entity providing the trade lead information.",
+                    "type": "string"
+                },
+                "lead_source": {
+                    "description": "Source of the trade lead, typically an organization.",
+                    "type": "string"
+                },
+                "comments": {
+                    "description": "Comments about the project.",
+                    "type": "string"
+                },
+                "submitting_officer": {
+                    "description": "Contract officer name.",
+                    "type": "string"
+                },
+                "submitting_officer_contact": {
+                    "description": "Contract officer email.",
+                    "type": "string"
+                },
+                "categories": {
+                    "description": "Array of categories that describe the procurement opportunity.",
+                    "type": "string"
+                },
+                "agency": {
+                    "description": "Agency responsible for the contract.",
+                    "type": "string"
+                },
+                "contract_value": {
+                    "description": "Value of the lead.",
+                    "type": "string"
+                },
+                "parent_id": {
+                    "description": "Procurement opportunity that this lead is related to.",
+                    "type": "string"
+                },
+                "procurement_method": {
+                    "description": "Describes who may respond to the lead.",
+                    "type": "string"
+                },
+                "topic": {
+                    "description": "Short description of the category that the lead falls under",
+                    "type": "string"
+                },
+                "topic": {
+                    "description": "Short description of the category that the lead falls under",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "URL that pertains to the bid.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
