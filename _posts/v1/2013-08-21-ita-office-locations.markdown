@@ -5,20 +5,20 @@ title: ITA Offices & Centers API
 published: false
 ---
 
-#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/ita-office-locations.html).
+##### This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/ita-office-locations.html).
 
-#ITA Offices & Centers API
+# ITA Offices & Centers API
 
 {% include offices-tabs %}
 
 
-##Resource URL
+## Resource URL
 
 [http://api.trade.gov/ita_office_locations/search](http://api.trade.gov/ita_office_locations/search)
 
-##Search Parameters for ITA office locations sources
+## Search Parameters for ITA office locations sources
 
-###keyword
+### keyword
 
 Returns office locations for a match within the **post** or **office name** fields.
 
@@ -28,13 +28,13 @@ Returns office locations for a match within the **post** or **office name** fiel
 
 [http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo](http://api.trade.gov/ita_office_locations/search?q=Sao+Paulo)
 
-###city
+### city
 
 Returns office locations based on city name
 
 [http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo](http://api.trade.gov/ita_office_locations/search?city=Sao+Paulo)
 
-###country
+### country
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
@@ -44,7 +44,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 [http://api.trade.gov/ita_office_locations/search?country=BR](http://api.trade.gov/ita_office_locations/search?country=BR)
 
-###state
+### state
 
 Returns locations for export assistance centers located in a specific  [U.S. State or Dependent Area](https://www.usps.com/send/official-abbreviations.htm).
 
@@ -55,7 +55,7 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
 [http://api.trade.gov/ita_office_locations/search?state=TN](http://api.trade.gov/ita_office_locations/search?state=TN)
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -64,7 +64,7 @@ The **size** parameter allows you to configure the number of results to be retur
 <div><a href="http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1"><pre>http://api.trade.gov/ita_office_locations/search?country=BR&size=1&offset=1</pre></a></div>
 
 
-###Data Elements
+### Data Elements
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |

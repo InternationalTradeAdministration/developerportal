@@ -4,7 +4,7 @@ layout: body
 title: About Our APIs
 ---
 
-#About Our APIs
+# About Our APIs
 
 Through its Trade Developer Portal, the International Trade Administration (ITA) provides APIs to data intended for public use and dissemination.  Trade experts from ITA and from Trade Promotion Coordinating Committee (TPCC) agencies produce the wide spectrum of data provided by these APIs.  Developers who work with trade and exporting information will find this data particularly useful as it originates from authoritative, federal government sources.
 
@@ -24,7 +24,7 @@ In addition to meeting these requirements we include additional documentation an
 
 In addition to publishing a growing number of datasets, ITA is using the datasets to populate its own Web sites.  ITA will be publishing new datasets on an ongoing basis to help developers help exporters, and to expand the breadth of information available on trade.gov and export.gov.
 
-###What's Possible
+### What's Possible
 
 Developers have a wealth of opportunities to turn ITA's trade information into useful and valuable applications for exporters.  Immediate ideas for using the trade information include:
 

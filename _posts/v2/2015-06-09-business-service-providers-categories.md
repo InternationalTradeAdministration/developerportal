@@ -4,7 +4,7 @@ permalink: "/business-service-providers-categories.html"
 layout: body
 ---
 
-##Categories for Business Service Providers
+## Categories for Business Service Providers
 
 Accounting, Auditing and Tax Services
 

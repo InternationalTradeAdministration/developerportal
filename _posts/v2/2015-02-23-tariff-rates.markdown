@@ -5,17 +5,17 @@ title: Tariff Rates API
 published: true
 ---
 
-#Tariff Rates API
+# Tariff Rates API
 
 {% include tariffs-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include tariff-rates-query.html %}
 
-##Search Parameters
+## Search Parameters
 
-###keyword
+### keyword
 
 Searches for a match within the **subheading_description**, **tariff_rate_quota_note**, **rule_text**, and **tariff_line** fields.
 
@@ -25,7 +25,7 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 {% include tariff-rates-query-keyword.html %}
 
-###sources
+### sources
 
 Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.
 
@@ -35,7 +35,7 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 
 {% include tariff-rates-query-source.html %}
 
-###final_year
+### final_year
 
 Returns entries based on the final_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
@@ -46,7 +46,7 @@ Returns entries based on the final_year field.  Dates are filtered by comparing 
 
 {% include tariff-rates-query-finalyear.html %}
 
-###partner_start_year
+### partner_start_year
 
 Returns entries based on the partner_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
@@ -56,7 +56,7 @@ Returns entries based on the partner_start_year field.  Dates are filtered by co
 
 {% include tariff-rates-query-partner-startyear.html %}
 
-###reporter_start_year
+### reporter_start_year
 
 Returns entries based on the reporter_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
 
@@ -66,7 +66,7 @@ Returns entries based on the reporter_start_year field.  Dates are filtered by c
 
 {% include tariff-rates-query-reporter-startyear.html %}
 
-###size + offset
+### size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
@@ -76,9 +76,9 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 {% include tariff-rates-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -90,11 +90,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the data for the source country had been updated. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Return Values
+## Return Values
 
 | Field                        | Description                             |
 | ------------------           | --------------------------------------- |

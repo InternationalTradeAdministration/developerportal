@@ -2,20 +2,20 @@
 permalink: "/country-fact-sheets.html"
 layout: body
 title: Country Fact Sheets API
-published: true
+published: false
 ---
 
-#Country Fact Sheets API
+# Country Fact Sheets API
 
 {% include country-fact-sheets-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include country-fact-sheets-query.html %}
 
-##Search Parameters for country fact sheets
+## Search Parameters for country fact sheets
 
-###keyword
+### keyword
 
 Returns country fact sheets for a match in the **title** or **content_html** fields.
 
@@ -25,7 +25,7 @@ Returns country fact sheets for a match in the **title** or **content_html** fie
 
 {% include country-fact-sheets-query-keyword.html %}
 
-###countries
+### countries
 
 Returns country fact sheets for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). Enter multiple terms by seperating with a comma.
 
@@ -35,7 +35,7 @@ Returns country fact sheets for a specific country based on [ISO alpha-2 country
 
 {% include country-fact-sheets-query-keyword-country.html %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -43,7 +43,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include country-fact-sheets-query-size.html %}
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |

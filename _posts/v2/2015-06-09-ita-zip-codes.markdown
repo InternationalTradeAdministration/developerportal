@@ -5,17 +5,17 @@ title: Zip Code to USEAC
 published: true
 ---
 
-#Zip Code to USEAC API
+# Zip Code to USEAC API
 
 {% include zipcodes-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include zipcodes-query.html %}
 
-##Search Parameters for Zip Code to USEAC
+## Search Parameters for Zip Code to USEAC
 
-###keyword
+### keyword
 
 Returns zip code entries for a match within the **post**, **office_name** or **zip_city** fields.
 
@@ -25,7 +25,7 @@ Returns zip code entries for a match within the **post**, **office_name** or **z
 
 {% include zipcodes-query-keyword.html %}
 
-###zip_codes
+### zip_codes
 
 Returns zip code entries that match the specified zip codes.  Enter muliple values separated by commas.
 
@@ -35,7 +35,7 @@ Returns zip code entries that match the specified zip codes.  Enter muliple valu
 
 {% include zipcodes-query-zipcodes.html %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -45,9 +45,9 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include zipcodes-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -59,11 +59,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Return Values
+## Return Values
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |

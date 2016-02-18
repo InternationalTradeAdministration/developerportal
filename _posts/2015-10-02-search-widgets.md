@@ -5,7 +5,7 @@ title: ITA Search Widgets
 published: true 
 ---
 
-#ITA Search Widgets
+# ITA Search Widgets
 
 ITA has created these widgets to make it as easy as possible to put a search engine for several of our APIs on your web page.  Simply follow the instructions below to embed the code, and to change the look and feel to match your site.
 
@@ -50,7 +50,7 @@ These search widgets deliver results straight from our APIs so your customers ge
 
 ---
 
-##Consolidated Screening List Widget
+## Consolidated Screening List Widget
 
 The [Consolidated Screening List](consolidated-screening-list.html) widget searches eleven export screening lists from the Departments of Commerce, State and the Treasury.  The widget enables your customers to do a quick screening search for people or companies with whom they are doing business or are party to their overseas transactions.
 
@@ -64,7 +64,7 @@ The widget returns results that are either exact matches and near matches in cas
 </div>
 </div>
 
-##Trade Leads Widget
+## Trade Leads Widget
 
 The [Trade Leads](trade-leads.html) widget searches contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources including FedBizOps, The United Kingdom, Canada, The Millennium Challenge Corporation, and Australia.
 
@@ -78,7 +78,7 @@ The widget enables your customers to do a quick search for trade leads, procurem
 </div>
 </div>
 
-##Trade Events Widget
+## Trade Events Widget
 
 The [Trade Events](trade-events.html) widget searches for events organized by ITA, the U.S. Trade and Development Agency, the State Department, and the Small Business Administration.
 
@@ -93,7 +93,7 @@ The widget enables your customers to do a quick search for trade events such as 
 </div>
 
 
-##Export Assistance Centers Widget
+## Export Assistance Centers Widget
 
 The [Export Assistance Centers](ita-zip-codes.html) widget provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.
 
@@ -107,7 +107,7 @@ The widget enables your customers to do a quick search for search for both a zip
 </div>
 </div>
 
-##International Office Locations Widget
+## International Office Locations Widget
 
 The [International Office Locations](ita-office-locations.html) provides direct access to ITA offices and centers around the world. The widget enables your customers to do a quick search for an office in a particular city or country. Each office has specialists on hand for each particular region.
 
@@ -120,7 +120,7 @@ The [International Office Locations](ita-office-locations.html) provides direct 
 </div>
 
 
-####Add a widget to your web page:
+#### Add a widget to your web page:
 
 1.  Download the [JavaScript](widget.js) and [CSS](widget.css) source files and host them on your site.
 2.  Make sure you load jQuery:

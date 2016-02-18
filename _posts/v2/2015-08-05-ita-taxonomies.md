@@ -5,17 +5,17 @@ title: ITA Taxonomies
 published: true
 ---
 
-#ITA Taxonomies API
+# ITA Taxonomies API
 
 {% include taxonomies-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include taxonomies-query.html %}
 
-##Search Parameters for ITA Taxonomies
+## Search Parameters for ITA Taxonomies
 
-###keyword
+### keyword
 
 Returns taxonomy terms for a match within the **name** and **parent_names** fields.
 
@@ -25,7 +25,7 @@ Returns taxonomy terms for a match within the **name** and **parent_names** fiel
 
 {% include taxonomies-query-keyword.html %}
 
-###taxonomies
+### taxonomies
 
 Returns taxonomy terms that are members of the specified taxonomies.  Enter muliple values separated by commas.
 
@@ -35,7 +35,7 @@ Returns taxonomy terms that are members of the specified taxonomies.  Enter muli
 
 {% include taxonomies-query-taxonomies.html %}
 
-###size + offset
+### size + offset
 
     {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&size={1 to 100}&offset={1 to n}
 
@@ -45,9 +45,9 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include taxonomies-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -59,11 +59,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Return Values
+## Return Values
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |

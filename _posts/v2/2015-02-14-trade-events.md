@@ -5,19 +5,19 @@ title: Trade Events API
 published: true
 ---
 
-#Trade Events API
+# Trade Events API
 
-{% include events-tabs %}
+{% include trade-events/events-tabs %}
 
-##Resource URL
+## Resource URL
 
 This endpoint will search across all four trade event sources.  To search a subset, see sources below.
 
-{% include trade-events-query.html %}
+{% include trade-events/trade-events-query.html %}
 
-##Search Parameters for trade events sources
+## Search Parameters for trade events sources
 
-###keyword
+### keyword
 
 Searches for a match within the **registration_title**, **description**, **event_name**, **industries**, **city**, **venues.city**, **venues.state**, **venues.country**, **contacts.first_name**, **contacts.last_name**, and **contacts.person_title** fields.
 
@@ -25,9 +25,9 @@ Searches for a match within the **registration_title**, **description**, **event
 
 **_Example_**
 
-{% include trade-events-query-keyword.html %}
+{% include trade-events/trade-events-query-keyword.html %}
 
-###industries
+### industries
 
 Returns trade events for a specific [controlled industry names]({{ site.baseurl }}/industry-list-trade-events.html). This method allows you to search for multiple industries (plural) separated by commas.
 
@@ -35,9 +35,9 @@ Returns trade events for a specific [controlled industry names]({{ site.baseurl 
 
 **_Example_**
 
-{% include trade-events-query-industry.html %}
+{% include trade-events/trade-events-query-industry.html %}
 
-###countries
+### countries
 
 Returns trade events for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per event.
 
@@ -45,9 +45,29 @@ Returns trade events for a specific country based on [ISO alpha-2 country codes]
 
 **_Example_**
 
-{% include trade-events-query-country.html %}
+{% include trade-events/trade-events-query-country.html %}
 
-###sources
+### trade_regions
+
+Returns trade events for a specific Trade Region.  Enter multiple values by separating with a comma.
+
+    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&trade_regions={Region 1,Region 2}
+
+**_Example_**
+
+{% include trade-events/trade-events-query-trade-regions.html %}
+
+### world_regions
+
+Returns trade events for a specific World Region.  Enter multiple values by separating with a comma.
+
+    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&trade_regions={Region 1,Region 2}
+
+**_Example_**
+
+{% include trade-events/trade-events-query-world-regions.html %}
+
+### sources
 
 Searches only the events specified by the **Source** Abbreviation.
 
@@ -55,7 +75,7 @@ Searches only the events specified by the **Source** Abbreviation.
 
 **_Example_**
 
-{% include trade-events-query-source.html %}
+{% include trade-events/trade-events-query-source.html %}
 
 Source Abbreviations as follows:
 
@@ -65,7 +85,7 @@ Source Abbreviations as follows:
 * U.S. Trade and Development Agency = **USTDA**
 
 
-###start_date
+### start_date
 
 Returns events based on their start date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -74,9 +94,9 @@ Returns events based on their start date.  Dates are filtered by comparing them 
 
 **_Example_**
 
-{% include trade-events-query-startdate.html %}
+{% include trade-events/trade-events-query-startdate.html %}
 
-###end_date
+### end_date
 
 Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -85,9 +105,9 @@ Returns events based on their end date.  Dates are filtered by comparing them ag
 
 **_Example_**
 
-{% include trade-events-query-enddate.html %}
+{% include trade-events/trade-events-query-enddate.html %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -95,11 +115,11 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-{% include trade-events-query-size.html %}
+{% include trade-events/trade-events-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -111,29 +131,29 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Four Sources for Trade Events
+## Four Sources for Trade Events
 
 State Department (DL) 
 
-{% include trade-events-query-dl.html %}
+{% include trade-events/trade-events-query-dl.html %}
 
 International Trade Administration (ITA) 
 
-{% include trade-events-query-ita.html %}
+{% include trade-events/trade-events-query-ita.html %}
 
 Small Business Administration (SBA) 
 
-{% include trade-events-query-sba.html %}
+{% include trade-events/trade-events-query-sba.html %}
 
 U.S. Trade and Development Agency (USTDA) 
 
-{% include trade-events-query-ustda.html %}
+{% include trade-events/trade-events-query-ustda.html %}
 
-##Return Values
+## Return Values
 
 Each event source returns a unique set of fields.  Not every source provides all fields.
 
@@ -165,3 +185,5 @@ Each event source returns a unique set of fields.  Not every source provides all
 | source        	 | Agency providing the event information. 			   	   | DL, ITA, SBA								|
 | registration_title | Title of the registration URL.           | ITA, USTDA									|
 | cost_currency      | The currency of the cost value.          | USTDA										|
+| trade_regions      | The trade regions associated with the event.  |  ITA, SBA, USTDA |
+| world_regions      | The world regions associated with the event.  |  ITA, SBA, USTDA  |

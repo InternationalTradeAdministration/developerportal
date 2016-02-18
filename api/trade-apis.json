@@ -251,6 +251,22 @@
                         "format": "string"
                     },
                     {
+                        "name": "trade_regions",
+                        "in": "query",
+                        "description": "Returns trade events for a specific Trade Region.  Enter multiple values by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "world_regions",
+                        "in": "query",
+                        "description": "Returns trade events for a specific World Region.  Enter multiple values by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
                         "name": "sources",
                         "in": "query",
                         "description": "Searches only the events specified by the Source Abbreviation.",
@@ -339,6 +355,22 @@
                         "name": "countries",
                         "in": "query",
                         "description": "Returns trade leads for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per lead.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_regions",
+                        "in": "query",
+                        "description": "Returns trade leads for a specific Trade Region.  Enter multiple values by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "world_regions",
+                        "in": "query",
+                        "description": "Returns trade leads for a specific World Region.  Enter multiple values by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -1151,6 +1183,14 @@
                 "cost_currency": {
                     "description": "The currency of the cost value.",
                     "type": "string"
+                },
+                "trade_regions": {
+                    "description": "The trade regions associated with the event.",
+                    "type": "string"
+                },
+                "world_regions": {
+                    "description": "The world regions associated with the event.",
+                    "type": "string"
                 }
             }
         },
@@ -1334,6 +1374,14 @@
                 },
                 "url": {
                     "description": "URL that pertains to the bid.",
+                    "type": "string"
+                },
+                "trade_regions": {
+                    "description": "The trade regions associated with the lead.",
+                    "type": "string"
+                },
+                "world_regions": {
+                    "description": "The world regions associated with the lead.",
                     "type": "string"
                 }
             }

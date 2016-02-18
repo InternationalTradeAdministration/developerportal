@@ -22,7 +22,7 @@ For ITA events, the API returns the following terms for **event_type:**
 | Post Initiated Event-Under 5k 	| Local Event	| 
 | Training 	| Local Event	| 
 
-###Regions
+### Regions
 
 **Region** refers to the office that has initiated the event.  These are not returned by the method.  They only help clarify how the event_type can be used:
 

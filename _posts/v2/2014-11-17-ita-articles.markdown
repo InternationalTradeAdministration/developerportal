@@ -5,17 +5,17 @@ title: ITA Trade Articles API
 layout: body
 ---
 
-#Trade News & Articles API
+# Trade News & Articles API
 
 {% include articles-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include articles-query.html %}
 
-##Search Parameters
+## Search Parameters
 
-###keyword
+### keyword
 
 Searches for a match within the **title**, **short_title**, **summary**, **content**, and **keyword** fields.
 
@@ -23,7 +23,7 @@ Searches for a match within the **title**, **short_title**, **summary**, **conte
 
 {% include articles-query-keyword.html %}
 
-###export_phases
+### export_phases
 
 Returns articles based on the [export phase](export-phases-ita-articles.html).  Enter multiple terms by separating with a comma.
 
@@ -33,7 +33,7 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 
 {% include articles-query-phases.html %}
 
-###industries
+### industries
 
 Returns articles for a specific [controlled industry terms](industry-list-ita-articles.html). This method allows you to search for multiple industries separated by commas.
 
@@ -43,7 +43,7 @@ Returns articles for a specific [controlled industry terms](industry-list-ita-ar
 
 {% include articles-query-industry.html %}
 
-###countries
+### countries
 
 Returns articles for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries separated by commas.
 
@@ -53,7 +53,7 @@ Returns articles for a specific country based on [ISO alpha-2 country codes](htt
 
 {% include articles-query-country.html %}
 
-###topics
+### topics
 
 Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
@@ -63,7 +63,7 @@ Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple
 
 {% include articles-query-topics.html %}
 
-###sub_topics
+### sub_topics
 
 Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
@@ -73,7 +73,7 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
 {% include articles-query-subtopics.html %}
 
-###geo_regions
+### geo_regions
 
 Returns articles based on [geo region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
@@ -83,7 +83,7 @@ Returns articles based on [geo region](geo-region-list.html).  Enter multiple te
 
 {% include articles-query-georegions.html %}
 
-###geo_subregions
+### geo_subregions
 
 Returns articles based on [geo sub-region](geo-region-list.html).  Enter multiple terms by separating with a comma.
 
@@ -93,7 +93,7 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 
 {% include articles-query-subregions.html %}
 
-###trade_regions
+### trade_regions
 
 Returns articles based on [trade region](trade-region-list.html).  Enter multiple terms by separating with a comma.
 
@@ -103,7 +103,7 @@ Returns articles based on [trade region](trade-region-list.html).  Enter multipl
 
 {% include articles-query-regions.html %}
 
-###trade_programs
+### trade_programs
 
 Returns articles based on [trade program](trade-program-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
@@ -113,7 +113,7 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 
 {% include articles-query-programs.html %}
 
-###trade_initiatives
+### trade_initiatives
 
 Returns articles based on [trade initiative](trade-initiative-list-ita-articles.html).  Enter multiple terms by separating with a comma.
 
@@ -123,7 +123,7 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 
 {% include articles-query-initiatives.html %}
 
-###creation_date
+### creation_date
 
 Returns articles based on the date they were created.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -134,7 +134,7 @@ Returns articles based on the date they were created.  Dates are filtered by com
 
 {% include articles-query-creationdate.html %}
 
-###release_date
+### release_date
 
 Returns articles based on their release date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -145,7 +145,7 @@ Returns articles based on their release date.  Dates are filtered by comparing t
 
 {% include articles-query-releasedate.html %}
 
-###expiration_date
+### expiration_date
 
 Returns articles based on their expiration date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -156,7 +156,7 @@ Returns articles based on their expiration date.  Dates are filtered by comparin
 
 {% include articles-query-expirationdate.html %}
 
-###size + offset
+### size + offset
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
@@ -166,9 +166,9 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 {% include articles-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -180,11 +180,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Return Values
+## Return Values
 
 | Field              | Description                             |
 | ------------------ | --------------------------------------- |

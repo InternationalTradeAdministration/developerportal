@@ -5,7 +5,7 @@ title: ITA Programs Directory API
 published: true
 ---
 
-#ITA Programs Directory API
+# ITA Programs Directory API
 
 This API provides information about ITA programs that provide assistance and services to exporters, including:
 
@@ -16,10 +16,10 @@ This API provides information about ITA programs that provide assistance and ser
 
 JSON is the output format for this API.
 
-##Request Methods
+## Request Methods
 You may call the ITA Programs Directory API using the following request method:
 
-####Keyword
+#### Keyword
 Returns a listing of ITA programs that match any keyword in the data set
 
     http://api.trade.gov/ita_programs/search.json?q=<keyword>
@@ -28,7 +28,7 @@ Example:
 
     http://api.trade.gov/ita_programs/search.json?q=financing
 
-##Return Values
+## Return Values
 <table border="0">
 <tr>
 <th>Field</th>

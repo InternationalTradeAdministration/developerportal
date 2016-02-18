@@ -5,17 +5,17 @@ title: Market Research Library API
 layout: body
 ---
 
-#Market Research Library API 
+# Market Research Library API 
 
 {% include mrl-tabs %}
 
-##Resource URL
+## Resource URL
 
 {% include mrl-query.html %}
 
-##Search Parameters for market research library sources
+## Search Parameters for market research library sources
 
-###keyword
+### keyword
 
 Returns market research reports for a match in the **description** or **title** fields.
 
@@ -25,7 +25,7 @@ Returns market research reports for a match in the **description** or **title** 
 
 {% include mrl-query-keyword.html %}
 
-###countries
+### countries
 
 Returns market research reports for a specific country based on [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). Enter multiple terms by separating with a comma.
 
@@ -35,7 +35,7 @@ Returns market research reports for a specific country based on [alpha-2 country
 
 {% include mrl-query-keyword-country.html %}
 
-###industries
+### industries
 
 Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html) or ITA Industry. Enter multiple terms by separating with a comma.
 
@@ -45,7 +45,7 @@ Returns market research reports for a specific [controlled industry term]({{ sit
 
 {% include mrl-query-keyword-industry.html %}
 
-###expiration_date
+### expiration_date
 
 Returns entries based on their expiration date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.
 
@@ -56,7 +56,7 @@ Returns entries based on their expiration date. Dates are filtered by comparing 
 
 {% include mrl-query-keyword-date.html %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.  **Note:**  To download the entire Market Research Library in one call set ```size=-1```
 
@@ -66,9 +66,9 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include mrl-query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -80,11 +80,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Return Values
+## Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |

@@ -4,4 +4,4 @@ layout: body
 title: Registration
 ---
 
-#Placeholder for Developer Registration
+# Placeholder for Developer Registration

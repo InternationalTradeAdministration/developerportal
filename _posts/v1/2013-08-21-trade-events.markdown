@@ -5,19 +5,19 @@ title: Trade Events API
 published: false
 ---
 
-#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/trade-events.html).
+##### This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/trade-events.html).
 
-#Trade Events API
+# Trade Events API
 
 {% include events-tabs %}
 
-##Resource URL
+## Resource URL
 
 [http://api.trade.gov/trade_events/search](http://api.trade.gov/trade_events/search)
 
-##Search Parameters for trade events sources
+## Search Parameters for trade events sources
 
-###keyword
+### keyword
 
 Searches for a match within the event_name and description fields.
 
@@ -27,7 +27,7 @@ Searches for a match within the event_name and description fields.
 
 [http://api.trade.gov/trade_events/search?q=computer](http://api.trade.gov/trade_events/search?q=computer)
 
-###industry
+### industry
 
 Searches for specific controlled [industry names]({{ site.baseurl }}/v1-industry-list-trade-events.html)
 
@@ -37,7 +37,7 @@ Searches for specific controlled [industry names]({{ site.baseurl }}/v1-industry
 
 [http://api.trade.gov/trade_events/search?industry=Chemical](http://api.trade.gov/trade_events/search?industry=Chemical)
 
-###countries
+### countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
@@ -47,7 +47,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 [http://api.trade.gov/trade_events/search?countries=MX](http://api.trade.gov/trade_events/search?countries=MX)
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -56,7 +56,7 @@ The **size** parameter allows you to configure the number of results to be retur
 [http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1](http://api.trade.gov/trade_events/search?country=BR&size=1&offset=1)
 
 
-###Return Values
+### Return Values
 
 | Field              | Description                             |
 | ------------------ | --------------------------------------- |

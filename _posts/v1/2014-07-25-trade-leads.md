@@ -5,19 +5,19 @@ title: Trade Leads API
 published: false
 ---
 
-#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/trade-leads.html).
+##### This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/trade-leads.html).
 
-#Trade Leads API
+# Trade Leads API
 
 {% include trade-leads-tabs %}
 
-##Resource URL
+## Resource URL
 
 [http://api.trade.gov/trade_leads/search](http://api.trade.gov/trade_leads/search)
 
-##Search Parameters for all leads
+## Search Parameters for all leads
 
-###keyword
+### keyword
 
 Searches for a match within the **title** and **description** fields.
 
@@ -27,7 +27,7 @@ Searches for a match within the **title** and **description** fields.
 
 [http://api.trade.gov/trade_leads/search?q=electrical](http://api.trade.gov/trade_leads/search?q=electrical)
 
-###industries
+### industries
 
 Returns **industry** that the lead relates to.  Note:  This method allows you to search for multiple industries (plural) but will only return one industry (singular) per lead.  Also, this method will soon be updated to limit the search to controlled industry names.
 
@@ -37,7 +37,7 @@ Returns **industry** that the lead relates to.  Note:  This method allows you to
 
 [http://api.trade.gov/trade_leads/search?industries=chemical](http://api.trade.gov/trade_leads/search?industries=chemical)
 
-###countries
+### countries
 
 Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  Note:  This method allows you to search for multiple countries (plural) but will only return one country (singular) per lead.  
 
@@ -47,7 +47,7 @@ Returns **location** of lead based on ISO [alpha-2 country codes](http://www.iso
 
 [http://api.trade.gov/trade_leads/search?countries=MX,CA,GB](http://api.trade.gov/trade_leads/search?countries=MX,CA,GB)
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -56,7 +56,7 @@ The **size** parameter allows you to configure the number of results to be retur
 [http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1](http://api.trade.gov/trade_leads/search?country=BR&size=1&offset=1)
 
 
-###Return Values for All Leads
+### Return Values for All Leads
 
 
 | Field	| Description |
@@ -119,7 +119,7 @@ The **size** parameter allows you to configure the number of results to be retur
 | title | Title of the opportunity (Canadian Leads)	State
 | type | Trade lead source|
 
-###State Department Description
+### State Department Description
 
 The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
 
@@ -129,7 +129,7 @@ State Department leads are subject to their open government license located at:
 
 [https://github.com/USStateDept/bids](https://github.com/USStateDept/bids)
 
-###Canadian leads
+### Canadian leads
 
 The [Canadian Government](https://buyandsell.gc.ca/procurement-data/) provides procurement information for their government opportunities.  Leads provided by the Canadian government have the following data model:
 
@@ -139,7 +139,7 @@ Canadian leads are subject to Canada's license located at:
 
 [http://data.gc.ca/eng/open-government-licence-canada](http://data.gc.ca/eng/open-government-licence-canada)
 
-###UK Government leads
+### UK Government leads
 
 The [UK Government](https://www.contractsfinder.businesslink.gov.uk/) provides procurement information for their government opportunities. Leads provided by the UK government have the following data model:
 

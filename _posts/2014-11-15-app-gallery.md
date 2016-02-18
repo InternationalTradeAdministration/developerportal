@@ -5,7 +5,7 @@ title: App Gallery
 published: true 
 ---
 
-#App Gallery
+# App Gallery
 
 ITA encourages developers to use the trade data in its APIs to build applications. These data sets are particularly valuable because they originate from authoritative, federal government sources. Developers should build applications that benefit businesses who export their products and services overseas. They can also enhance their existing applications by mashing ITA’s data with other trade-related data.
 

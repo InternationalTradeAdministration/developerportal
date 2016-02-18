@@ -44,6 +44,22 @@
                         "format": "string"
                     },
                     {
+                        "name": "trade_regions",
+                        "in": "query",
+                        "description": "Returns trade leads for a specific Trade Region.  Enter multiple values by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "world_regions",
+                        "in": "query",
+                        "description": "Returns trade leads for a specific World Region.  Enter multiple values by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
                         "name": "sources",
                         "in": "query",
                         "description": "Searches only the leads specified by the Source field.",
@@ -296,6 +312,14 @@
                 },
                 "url": {
                     "description": "URL that pertains to the bid.",
+                    "type": "string"
+                },
+                "trade_regions": {
+                    "description": "The trade regions associated with the lead.",
+                    "type": "string"
+                },
+                "world_regions": {
+                    "description": "The world regions associated with the lead.",
                     "type": "string"
                 }
             }

@@ -5,19 +5,19 @@ title: Market Research Library API
 layout: body
 ---
 
-#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/market-research-library.html).
+##### This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/market-research-library.html).
 
-#Market Research Library API
+# Market Research Library API
 
 {% include mrl-tabs %}
 
-##Resource URL
+## Resource URL
 
 [http://api.trade.gov/market_research_library/search](http://api.trade.gov/market_research_library/search)
 
-##Search Parameters for market research library sources
+## Search Parameters for market research library sources
 
-###keyword
+### keyword
 
 Returns market research reports for a match in the **description** or **title** fields.
 
@@ -27,7 +27,7 @@ Returns market research reports for a match in the **description** or **title** 
 
 [http://api.trade.gov/market_research_library/search?q=modernization](http://api.trade.gov/market_research_library/search?q=modernization)
 
-###countries
+### countries
 
 Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).
 
@@ -37,7 +37,7 @@ Returns office locations based on ISO [alpha-2 country codes](http://www.iso.org
 
 [http://api.trade.gov/market_research_library/search?countries=MX](http://api.trade.gov/market_research_library/search?countries=MX)
 
-###industry
+### industry
 
 Returns market research reports for a specific [industry]({{ site.baseurl }}/v1-industry-list-market-research-library.html)
 
@@ -47,7 +47,7 @@ Returns market research reports for a specific [industry]({{ site.baseurl }}/v1-
 
 [http://api.trade.gov/market_research_library/search?industry=agribusiness](http://api.trade.gov/market_research_library/search?industry=agribusiness)
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -55,7 +55,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 [http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1](http://api.trade.gov/market_research_library/search?country=BR&size=1&offset=1)
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |

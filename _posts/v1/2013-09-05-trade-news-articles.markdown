@@ -5,19 +5,19 @@ title: Trade News & Articles API
 published: false
 ---
 
-#####This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/ita-trade-articles.html).
+##### This is an old version of the API and will be deprecated soon. Please upgrade to the [new version of the API]({{ site.baseurl }}/ita-trade-articles.html).
 
-#Trade News & Articles API
+# Trade News & Articles API
 
 {% include articles-tabs %}
 
-##Resource URL
+## Resource URL
 
 [http://api.trade.gov/trade_articles/search](http://api.trade.gov/trade_articles/search)
 
-##Request Methods
+## Request Methods
 
-###keyword
+### keyword
 
 Returns articles for a match in the content and title fields.
 
@@ -27,7 +27,7 @@ Returns articles for a match in the content and title fields.
 
 [http://api.trade.gov/trade_articles/search?q=logistics](http://api.trade.gov/trade_articles/search?q=logistics)
 
-###evergreen
+### evergreen
 
 Flag to designate articles that are always relevant to particular topic.
 
@@ -37,9 +37,9 @@ Flag to designate articles that are always relevant to particular topic.
 
 [http://api.trade.gov/trade_articles/search?evergreen=true](http://api.trade.gov/trade_articles/search?evergreen=true)
 
-###pub_date
+### pub_date
 
-####pub_date_start
+#### pub_date_start
 
 Returns articles created on or after a specific date.
 
@@ -49,7 +49,7 @@ Returns articles created on or after a specific date.
 
 [http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04](http://api.trade.gov/trade_articles/search?pub_date_start=2013-01-04)
 
-####pub_date_end
+#### pub_date_end
 
 Returns articles created on or before a specified date.
 
@@ -59,7 +59,7 @@ Returns articles created on or before a specified date.
 
 [http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07](http://api.trade.gov/trade_articles/search?pub_date_end=2013-01-07)
 
-###update_date
+### update_date
 
 Returns articles created on a specified date.
 
@@ -69,7 +69,7 @@ Returns articles created on a specified date.
 
 [http://api.trade.gov/trade_articles/search?update_date=2013-04-30](http://api.trade.gov/trade_articles/search?update_date=2013-04-30)
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -77,7 +77,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 [http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1](http://api.trade.gov/trade_articles/search?q=logistics&size=1&offset=1)
     
-###Return Values
+### Return Values
 
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |

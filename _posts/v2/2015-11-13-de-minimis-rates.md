@@ -5,19 +5,19 @@ title: De Minimis API
 published: true
 ---
 
-#De Minimis API
+# De Minimis API
 
 {% include de-minimis-rates/tabs %}
 
-##Resource URL
+## Resource URL
 
 _Note: be sure to include the version number (v#) in the URL as specified below._
 
 {% include de-minimis-rates/query.html %}
 
-##Search Parameters
+## Search Parameters
 
-###keyword
+### keyword
 
 Returns de minimis rates for a match in the **country** or **notes** fields.
 
@@ -27,9 +27,9 @@ Returns de minimis rates for a match in the **country** or **notes** fields.
 
 {% include de-minimis-rates/query-keyword.html %}
 
-###countries
+### countries
 
-Returns de minimis rates for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/country_codes). Enter multiple terms by seperating with a comma.
+Returns de minimis rates for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/country_codes). Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/v1/de_minimis/search?api_key={your key}&countries={country code}
 
@@ -37,7 +37,7 @@ Returns de minimis rates for a specific country based on [ISO alpha-2 country co
 
 {% include de-minimis-rates/query-country.html %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
@@ -47,9 +47,9 @@ The **size** parameter allows you to configure the number of results to be retur
 
 {% include de-minimis-rates/query-size.html %}
 
-##Metadata
+## Metadata
 
-###Last Updated and Last Imported
+### Last Updated and Last Imported
 
 Recency information about each source queried is given in **sources_used** in the following fields:
 
@@ -61,11 +61,11 @@ Recency information about each source queried is given in **sources_used** in th
 
 The *source_last_updated* field reflects the most recent date and time that we have updated the data.
 
-###Search Performed At
+### Search Performed At
 
 The *search_performed_at* field displays the date and time of the current search in UTC.
 
-##Return Values
+## Return Values
 
 | Field               | Description                                                     |
 | ---------------     | --------------------------------------------------------------- |

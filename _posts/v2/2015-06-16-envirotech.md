@@ -5,7 +5,7 @@ title: Environmental Solutions Toolkit
 layout: body
 ---
 
-#Environmental Solutions Toolkit
+# Environmental Solutions Toolkit
 
 {% include envirotech-tabs %}
 
@@ -13,13 +13,13 @@ The Environmental Solutions Toolkit contains six types of content, which are ava
 
 
 
-##Envirotech Issues
+## Envirotech Issues
 
-###Search Parameters
+### Search Parameters
 
 The Issues endpoint can be searched via the following parameters:
 
-####keyword
+#### keyword
 
 Returns entities for a match in the **name_chinese**, **abstract_chinese**, **name_english**, **abstract_english**, **name_french**, **abstract_french**, **name_portuguese**, **abstract_portuguese**, **name_spanish** or **abstract_spanish** fields.
 
@@ -29,13 +29,13 @@ Returns entities for a match in the **name_chinese**, **abstract_chinese**, **na
 
 {% include envirotech-query.html endpoint="issues" q="odorless" %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
 This endpoint will search Envirotech Issues with the defined languages: English, Chinese, French, Portuguese, and Spanish.
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
@@ -55,13 +55,13 @@ This endpoint will search Envirotech Issues with the defined languages: English,
 
 
 
-##Envirotech Regulations
+## Envirotech Regulations
 
-###Search Parameters
+### Search Parameters
 
 The Regulations endpoint can be searched via the following parameters:
 
-####keyword
+#### keyword
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
@@ -71,13 +71,13 @@ Returns entities for a match in the **name_chinese**, **name_english**, **name_f
 
 {% include envirotech-query.html endpoint="regulations" q="Sludge" %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
 This endpoint will search Envirotech Regulations with the defined languages: English, Chinese, French, Portuguese, and Spanish.
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
@@ -92,13 +92,13 @@ This endpoint will search Envirotech Regulations with the defined languages: Eng
 
 
 
-##Envirotech Solutions
+## Envirotech Solutions
 
-###Search Parameters
+### Search Parameters
 
 The Solutions endpoint can be searched via the following parameters:
 
-####keyword
+#### keyword
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
@@ -108,13 +108,13 @@ Returns entities for a match in the **name_chinese**, **name_english**, **name_f
 
 {% include envirotech-query.html endpoint="solutions" q="biologique" %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
 This endpoint will search Envirotech Solutions with the defined languages: English, Chinese, French, Portuguese, and Spanish.
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
@@ -129,13 +129,13 @@ This endpoint will search Envirotech Solutions with the defined languages: Engli
 
 
 
-##Envirotech Providers
+## Envirotech Providers
 
-###Search Parameters
+### Search Parameters
 
 The Providers endpoint can be searched via the following parameters:
 
-####keyword
+#### keyword
 
 Returns entities for a match in the **name_english** field.
 
@@ -145,13 +145,13 @@ Returns entities for a match in the **name_english** field.
 
 {% include envirotech-query.html endpoint="providers" q="Catalyst" %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
 This endpoint will search Envirotech Providers with the defined languages: English.
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
@@ -161,13 +161,13 @@ This endpoint will search Envirotech Providers with the defined languages: Engli
 | source_id
 
 
-##Envirotech Regulatory Analysis Links
+## Envirotech Regulatory Analysis Links
 
-###Search Parameters
+### Search Parameters
 
 The Regulatory Analysis Links endpoint can be searched via the following parameters:
 
-####keyword
+#### keyword
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
@@ -177,13 +177,13 @@ Returns entities for a match in the **name_chinese**, **name_english**, **name_f
 
 {% include envirotech-query.html endpoint="analysis_links" q="Memorandum" %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
 This endpoint will search Envirotech Regulatory Analysis Links with the defined languages: English, Chinese, French, Portuguese, and Spanish.
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
@@ -199,13 +199,13 @@ This endpoint will search Envirotech Regulatory Analysis Links with the defined 
 | source_id
 
 
-##Envirotech Regulatory Background Links
+## Envirotech Regulatory Background Links
 
-###Search Parameters
+### Search Parameters
 
 The Regulatory Background Links endpoint can be searched via the following parameters:
 
-####keyword
+#### keyword
 
 Returns entities for a match in the **name_chinese**, **name_english**, **name_french**, **name_portuguese**, or **name_spanish** fields.
 
@@ -215,13 +215,13 @@ Returns entities for a match in the **name_chinese**, **name_english**, **name_f
 
 {% include envirotech-query.html endpoint="background_links" q="Environmental" %}
 
-###size + offset
+### size + offset
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
 This endpoint will search Envirotech Background Analysis Links with the defined languages: English, Chinese, French, Portuguese, and Spanish.
 
-###Return Values
+### Return Values
 
 | Field           | Description                                                     |
 | --------------- | --------------------------------------------------------------- |
