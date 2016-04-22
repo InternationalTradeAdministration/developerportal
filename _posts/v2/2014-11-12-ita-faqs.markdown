@@ -7,11 +7,11 @@ published: true
 
 # FAQs on Exporting API
 
-{% include faqs-tabs %}
+{% include faqs/faqs-tabs %}
 
 ## Resource URL
 
-{% include faqs-query.html %}
+{% include faqs/faqs-query.html %}
 
 ## Search Parameters
 
@@ -23,47 +23,82 @@ Searches for a match within the question and answer fields.
 
 **_Example_**
 
-{% include faqs-query-keyword.html %}
+{% include faqs/faqs-query-keyword.html %}
 
 ### industries
 
-Returns FAQs for a specific [controlled industry terms](industry-list-faqs.html). This method allows you to search for multiple industries (plural) separated by commas but will only return one industry (singular) per FAQ.
+Returns FAQs for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
-{% include faqs-query-industry.html %}
+{% include faqs/faqs-query-industries.html %}
 
 ### countries
 
-Returns FAQs for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per FAQ.
+Returns FAQs for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&countries={country codes}
 
 **_Example_**
 
-{% include faqs-query-country.html %}
+{% include faqs/faqs-query-countries.html %}
+
 
 ### topics
 
-Returns FAQs based on [topic name](topic-list-faqs.html).  This method allows you to search for multiple topics (plural) separated by commas, but will only return one topic (singular) per FAQ.
+Returns FAQs based on topic name.  This method allows you to search for multiple topics (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&topics={terms}
 
 **_Example_**
 
-{% include faqs-query-topic.html %}
+{% include faqs/faqs-query-topics.html %}
 
-### update_date
 
-Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+### trade_regions
 
-    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&update_date={YYYY-mm-dd TO YYYY-mm-dd}
+Returns FAQs based on trade region.  This method allows you to search for multiple trade regions separated by commas.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&trade_regions={terms}
 
 **_Example_**
 
-{% include faqs-query-updatedate.html %}
+{% include faqs/faqs-query-trade-regions.html %}
+
+
+### world_regions
+
+Returns FAQs based on world region.  This method allows you to search for multiple world regions (plural) separated by commas.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&world_regions={terms}
+
+**_Example_**
+
+{% include faqs/faqs-query-world-regions.html %}
+
+
+### first_published_date
+
+Returns FAQs based on the date they were first published.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&first_published_date={YYYY-mm-dd TO YYYY-mm-dd}
+
+**_Example_**
+
+{% include faqs/faqs-query-first-published-date.html %}
+
+### last_published_date
+
+Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
+
+    {{ site.webservices_baseurl }}/ita_faqs/search?api_key={your key}&last_published_date={YYYY-mm-dd TO YYYY-mm-dd}
+
+**_Example_**
+
+{% include faqs/faqs-query-last-published-date.html %}
+
 
 ### size + offset
 
@@ -73,7 +108,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 **_Example_**
 
-{% include faqs-query-size.html %}
+{% include faqs/faqs-query-size.html %}
 
 ## Metadata
 
@@ -100,7 +135,11 @@ The *search_performed_at* field displays the date and time of the current search
 | id                 | Unique identifier for the FAQ.             |
 | question         	 | The question being addressed by the FAQ.|
 | answer             | The answer portion of the FAQ.  |
-| update_date        | The date the FAQ was last updated.  |
-| industry           | Industry category assigned to the FAQ. |
-| country            | Countries relevent to the FAQ.          |
-| topic              | Topic category assigned to the FAQ.      |
+| first_published_date        | The date the FAQ was first published.  |
+| last_published_date        | The date the FAQ was last updated.  |
+| url       | The URL where the published FAQ can be viewed.  |
+| industries           | Industry categories assigned to the FAQ. |
+| topics              | Topic categories assigned to the FAQ.      |
+| countries            | Countries relevent to the FAQ.          |
+| trade_regions            | Trade regions relevent to the FAQ.          |
+| world_regions            | World regions relevent to the FAQ.          |

@@ -2,7 +2,7 @@
     "swagger": "2.0",
     "info": {
         "title": "FAQs on Exporting API",
-        "description": "The Frequently Asked Questions (FAQs) API includes more than 300 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.",
+        "description": "The Frequently Asked Questions (FAQs) API includes more than 200 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.",
         "version": "2.0.0"
     },
     "host": "api.trade.gov",
@@ -17,12 +17,12 @@
         "/ita_faqs/search": {
             "get": {
                 "summary": "FAQs on Exporting API",
-                "description": "The Frequently Asked Questions (FAQs) API includes more than 300 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.\n",
+                "description": "The Frequently Asked Questions (FAQs) API includes more than 200 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.\n",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the event_name and description fields.",
+                        "description": "Searches for a match within the question and answer fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -30,7 +30,7 @@
                     {
                         "name": "topics",
                         "in": "query",
-                        "description": "Returns FAQs based on topic name.",
+                        "description": "Returns FAQs based on topic name.  This method allows you to search for multiple topics (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -38,7 +38,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns FAQs for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas but will only return one industry (singular) per FAQ.",
+                        "description": "Returns FAQs for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -46,7 +46,39 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns office locations for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per office location.",
+                        "description": "Returns office locations for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_regions",
+                        "in": "query",
+                        "description": "Returns FAQs based on trade region.  This method allows you to search for multiple trade regions separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "world_regions",
+                        "in": "query",
+                        "description": "Returns FAQs based on world region.  This method allows you to search for multiple world regions separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "first_published_date",
+                        "in": "query",
+                        "description": "Returns FAQs based on the date they were first published.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "last_published_date",
+                        "in": "query",
+                        "description": "Returns FAQs based on the date they were last updated.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -104,20 +136,36 @@
                     "description": "The answer portion of the FAQ.",
                     "type": "string"
                 },
-                "update_date": {
+                "first_published_date": {
+                    "description": "The date the FAQ was first published.",
+                    "type": "string"
+                },
+                "last_published_date": {
                     "description": "The date the FAQ was last updated.",
                     "type": "string"
                 },
-                "industry": {
-                    "description": "Industry category assigned to the FAQ.",
+                "url": {
+                    "description": "The URL where the published FAQ can be viewed.",
                     "type": "string"
                 },
-                "country": {
+                "industries": {
+                    "description": "Industry categories assigned to the FAQ.",
+                    "type": "string"
+                },
+                "topics": {
+                    "description": "Topic categories assigned to the FAQ.",
+                    "type": "string"
+                },
+                "countries": {
                     "description": "Countries relevent to the FAQ.",
                     "type": "string"
                 },
-                "topic": {
-                    "description": "Topic category assigned to the FAQ.",
+                "trade_regions": {
+                    "description": "Trade regions relevent to the FAQ.",
+                    "type": "string"
+                },
+                "world_regions": {
+                    "description": "World regions relevent to the FAQ.",
                     "type": "string"
                 }
             }
