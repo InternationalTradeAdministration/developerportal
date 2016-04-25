@@ -19,7 +19,7 @@ published: true
 
 Searches for a match within the **subheading_description**, **tariff_rate_quota_note**, **rule_text**, and **tariff_line** fields.
 
-    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -27,40 +27,40 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 ### sources
 
-Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.
+Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm) of the source country.  This method allows you to search for multiple sources (plural) separated by commas.
 
-	{{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&sources={source countries}
+	{{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&sources={source countries}
 
 **_Example_**
 
 {% include tariff-rates-query-source.html %}
 
-### final_year
+### final_years
 
-Returns entries based on the final_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
+Returns entries based on the final_year field.  Years are specified as a comma-delimited list.
 
 
-    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&final_year={YYYY TO YYYY}
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&final_years={YYYY,YYYY}
 
 **_Example_**
 
 {% include tariff-rates-query-finalyear.html %}
 
-### partner_start_year
+### partner_start_years
 
-Returns entries based on the partner_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
+Returns entries based on the partner_start_year field.  Years are specified as a comma-delimited list.
 
-    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&partner_start_year={YYYY TO YYYY}
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&partner_start_years={YYYY,YYYY}
 
 **_Example_**
 
 {% include tariff-rates-query-partner-startyear.html %}
 
-### reporter_start_year
+### reporter_start_years
 
-Returns entries based on the reporter_start_year field.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY TO YYYY.  Searching on a single year can be done by entering the same value for the start and end of the range.
+Returns entries based on the reporter_start_year field.  Years are specified as a comma-delimited list.
 
-	{{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&reporter_start_year={YYYY TO YYYY}
+	{{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&reporter_start_years={YYYY,YYYY}
 
 **_Example_**
 
@@ -70,7 +70,7 @@ Returns entries based on the reporter_start_year field.  Dates are filtered by c
 
 The size parameter allows you to configure the maximum amount of hits to be returned. The offset parameter defines the offset from the first result you want to fetch.
 
-    {{ site.webservices_baseurl }}/tariff_rates/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&size={1 to 100}&offset={1 to n}
 
 **_Example_**
 
