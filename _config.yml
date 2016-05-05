@@ -1,5 +1,5 @@
 name: Developer Portal
-highlighter: pygments
+highlighter: rouge
 baseurl: 
 exclude:
   - .bundle
