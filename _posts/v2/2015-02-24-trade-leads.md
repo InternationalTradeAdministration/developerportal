@@ -71,7 +71,7 @@ Searches only the leads specified by the **Source** field.
 
     {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&sources={lead source}
 
-Possible values of the source field:  CANADA, FBO, STATE, UK, MCA
+Possible values of the source field:  CANADA, FBO, STATE, UK, MCA, AUSTRALIA, USTDA
 
 **_Example_**
 
