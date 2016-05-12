@@ -30,7 +30,7 @@
                     {
                         "name": "city",
                         "in": "query",
-                        "description": "Returns office locations based on city name",
+                        "description": "Returns office locations based on city name.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -93,51 +93,51 @@
         "Office": {
             "properties": {
                 "id": {
-                    "description": "Unique identifier for post",
+                    "description": "Unique identifier for post.",
                     "type": "string"
                 },
                 "post": {
-                    "description": "Name of the post (Default sort)",
+                    "description": "Name of the post (Default sort).",
                     "type": "string"
                 },
                 "office_name": {
-                    "description": "Office Name",
+                    "description": "Office name.",
                     "type": "string"
                 },
                 "state": {
-                    "description": "State abbreviation, for domestic offices",
+                    "description": "State abbreviation, for domestic offices.",
                     "type": "string"
                 },
                 "city": {
-                    "description": "City",
+                    "description": "City.",
                     "type": "string"
                 },
                 "address": {
-                    "description": "Street address of office",
+                    "description": "Street address of office.",
                     "type": "string"
                 },
                 "country": {
-                    "description": "Country",
+                    "description": "Country.",
                     "type": "string"
                 },
                 "email": {
-                    "description": "Office email address",
+                    "description": "Office email address.",
                     "type": "string"
                 },
                 "fax": {
-                    "description": "Fax number",
+                    "description": "Fax number.",
                     "type": "string"
                 },
                 "mail_instructions": {
-                    "description": "Snail mail instructions",
+                    "description": "Snail mail instructions.",
                     "type": "string"
                 },
                 "phone": {
-                    "description": "Office phone number",
+                    "description": "Office phone number.",
                     "type": "string"
                 },
                 "post_type": {
-                    "description": "Type of post (domestic or international",
+                    "description": "Type of post (domestic or international).",
                     "type": "string"
                 }
             }

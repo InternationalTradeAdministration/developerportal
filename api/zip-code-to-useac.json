@@ -83,15 +83,19 @@
                 },
                 "post": {
                     "type": "string",
-                    "description": "Name of the post (Default sort)."
+                    "description": "Name of the post (default sort)."
                 },
                 "office_name": {
                     "type": "string",
-                    "description": "Office Name"
+                    "description": "Office name."
+                },
+                "country": {
+                    "type": "string",
+                    "description": "This will always be US since this is a list of ITA offices in the U.S."
                 },
                 "state": {
                     "type": "string",
-                    "description": "State abbreviation"
+                    "description": "State abbreviation."
                 },
                 "post_city": {
                     "type": "string",
@@ -99,27 +103,23 @@
                 },
                 "address": {
                     "type": "string",
-                    "description": "Street address of office"
-                },
-                "country": {
-                    "type": "string",
-                    "description": "This will always be US since this is a list of ITA offices in the U.S."
+                    "description": "Street address of office."
                 },
                 "email": {
                     "type": "string",
-                    "description": "Office email address"
+                    "description": "Office email address."
                 },
                 "fax": {
                     "type": "string",
-                    "description": "Fax number"
+                    "description": "Fax number."
                 },
                 "mail_instructions": {
                     "type": "string",
-                    "description": "Snail mail instructions"
+                    "description": "Snail mail instructions."
                 },
                 "phone": {
                     "type": "string",
-                    "description": "Office phone number"
+                    "description": "Office phone number."
                 }
             }
         }

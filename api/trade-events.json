@@ -17,7 +17,7 @@
         "/trade_events/search": {
             "get": {
                 "summary": "Trade Events API",
-                "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures, and trade missions organized by ITA and other trade agencies.\n",
+                "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures, and trade missions organized by ITA and other trade agencies.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -28,9 +28,9 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "industries",
                         "in": "query",
-                        "description": "Returns trade events for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "description": "Returns trade events for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -78,7 +78,7 @@
                     {
                         "name": "end_date",
                         "in": "query",
-                        "description": "Returns events based on their end date.",
+                        "description": "Returns events based on their end date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -135,24 +135,60 @@
                     "description": "Name given for the event.",
                     "type": "string"
                 },
-                "description": {
-                    "description": "Text describing the event.",
-                    "type": "string"
-                },
-                "registration_link": {
-                    "description": "URL for the event's registration page.",
+                "event_type": {
+                    "description": "The type of the event.",
                     "type": "string"
                 },
                 "start_date": {
                     "description": "Start date of the event.",
                     "type": "string"
                 },
+                "start_time": {
+                    "description": "The start time of the event.",
+                    "type": "string"
+                },
                 "end_date": {
                     "description": "The date the event will end.",
                     "type": "string"
                 },
+                "end_time": {
+                    "description": "The end time of the event.",
+                    "type": "string"
+                },
+                "time_zone": {
+                    "description": "The time zone of the event’s location.",
+                    "type": "string"
+                },
+                "cost": {
+                    "description": "Cost of the event.",
+                    "type": "string"
+                },
+                "cost_currency": {
+                    "description": "The currency of the cost value.",
+                    "type": "string"
+                },
+                "registration_link": {
+                    "description": "URL for the event's registration page.",
+                    "type": "string"
+                },
+                "registration_title": {
+                    "description": "Title of the registration URL.",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "Text describing the event.",
+                    "type": "string"
+                },
                 "industries": {
                     "description": "Industry categories assigned to the event.",
+                    "type": "string"
+                },
+                "ita_industries": {
+                    "description": "The ITA industries associated with the assigned industries.",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "Link to the event's web page.",
                     "type": "string"
                 },
                 "venues": {
@@ -163,28 +199,32 @@
                     "description": "Array of contact information.",
                     "type": "string"
                 },
-                "event_type": {
-                    "description": "The type of the event.",
+                "first_name": {
+                    "description": "The event contact’s first name.",
                     "type": "string"
                 },
-                "cost": {
-                    "description": "Cost of the event.",
+                "last_name": {
+                    "description": "The event contact’s last name.",
                     "type": "string"
                 },
-                "url": {
-                    "description": "Link to the event's web page.",
+                "post": {
+                    "description": "The event contact’s location.",
+                    "type": "string"
+                },
+                "person_title": {
+                    "description": "The event contact’s title.",
+                    "type": "string"
+                },
+                "phone": {
+                    "description": "The event contact’s phone number.",
+                    "type": "string"
+                },
+                "email": {
+                    "description": "The event contact’s email address.",
                     "type": "string"
                 },
                 "source": {
                     "description": "Agency providing the event information.",
-                    "type": "string"
-                },
-                "registration_title": {
-                    "description": "Title of the registration URL.",
-                    "type": "string"
-                },
-                "cost_currency": {
-                    "description": "The currency of the cost value.",
                     "type": "string"
                 },
                 "trade_regions": {

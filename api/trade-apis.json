@@ -17,7 +17,7 @@
         "/market_research_library/search": {
             "get": {
                 "summary": "Market Research Library API",
-                "description": "The Market Research Library API provides metadata for country and\nindustry reports that are produced by ITA's trade experts and are\navailable in ITA's online market research library. ITA commercial\nofficers that are stationed around the world, publish these authoritative\nreports in conjunction with Foreign Service officers from the State\nDepartment.\n",
+                "description": "The Market Research Library API provides metadata for country and industry reports that are produced by ITA's trade experts and are available in ITA's online market research library. ITA commercial officers that are stationed around the world, publish these authoritative reports in conjunction with Foreign Service officers from the State Department.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -38,7 +38,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns market research reports for a specific controlled industry terms. Enter multiple terms by separating with a comma.",
+                        "description": "Returns market research reports for specific controlled industry terms. Enter multiple terms by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -92,7 +92,7 @@
         "/consolidated_screening_list/search": {
             "get": {
                 "summary": "Consolidated Screening List API",
-                "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.\n",
+                "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -113,7 +113,15 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Searches only entities whose country field matches the country code based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per entity.",
+                        "description": "Searches only entities whose country, nationalities, or citizenships fields match the country code based on ISO alpha-2 country codes. The country fields are found in the addresses and ids arrays. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per entity.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "address",
+                        "in": "query",
+                        "description": "Searches against fields in the addresses array.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -153,7 +161,7 @@
                     {
                         "name": "end_date",
                         "in": "query",
-                        "description": "Returns entries based on their end date.",
+                        "description": "Returns entries based on their end date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -161,7 +169,7 @@
                     {
                         "name": "issue_date",
                         "in": "query",
-                        "description": "Returns entries based on the issue dates of the ids array.",
+                        "description": "Returns entries based on the issue dates of the ids array. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -169,18 +177,10 @@
                     {
                         "name": "expiration_date",
                         "in": "query",
-                        "description": "Returns entries based on the expiration dates of the ids array.",
+                        "description": "Returns entries based on the expiration dates of the ids array. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
-                    },
-                    {
-                        "name": "address",
-                        "in": "query",
-                        "description": "Searches against fields in the addresses array.",
-                        "required": false,
-                        "type": "string",
-                        "format": "array"
                     },
                     {
                         "name": "size",
@@ -224,7 +224,7 @@
         "/trade_events/search": {
             "get": {
                 "summary": "Trade Events API",
-                "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures, and trade missions organized by ITA and other trade agencies.\n",
+                "description": "The Trade Events API provides data on events for U.S. businesses interested in selling their products and services overseas. These events include industry conferences, webinars, lectures, and trade missions organized by ITA and other trade agencies.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -235,9 +235,9 @@
                         "format": "string"
                     },
                     {
-                        "name": "industry",
+                        "name": "industries",
                         "in": "query",
-                        "description": "Returns trade events for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "description": "Returns trade events for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -285,7 +285,7 @@
                     {
                         "name": "end_date",
                         "in": "query",
-                        "description": "Returns events based on their end date.",
+                        "description": "Returns events based on their end date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -333,12 +333,12 @@
         "/trade_leads/search": {
             "get": {
                 "summary": "Trade Leads API",
-                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources.\n",
+                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources.",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the title, description, topic, tags, and procurement_organization fields.",
+                        "description": "Searches for a match within the title, description, topic, tags, industry, ita_industries, and procurement_organization fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -346,7 +346,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns trade leads for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "description": "Returns trade leads for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -394,7 +394,7 @@
                     {
                         "name": "end_date",
                         "in": "query",
-                        "description": "Returns leads based on their end date.",
+                        "description": "Returns leads based on their end date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -402,7 +402,7 @@
                     {
                         "name": "publish_date_amended",
                         "in": "query",
-                        "description": "Returns leads based on their amended publish date.",
+                        "description": "Returns leads based on their amended publish date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -449,7 +449,7 @@
         "/tariff_rates/search": {
             "get": {
                 "summary": "Tariff Rates API",
-                "description": "The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA). When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products. A tariff is a tax that a company must pay a foreign country when shipping a product to that country. Typically the FTA tariffs rates decline over several years.\n",
+                "description": "The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA). When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products. A tariff is a tax that a company must pay a foreign country when shipping a product to that country. Typically the FTA tariffs rates decline over several years.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -462,31 +462,31 @@
                     {
                         "name": "sources",
                         "in": "query",
-                        "description": "Returns tariff rates based on the ISO alpha-2 country codes of the source country. This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.",
+                        "description": "Returns tariff rates based on the ISO alpha-2 country codes of the source country. This method allows you to search for multiple sources (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "final_year",
+                        "name": "final_years",
                         "in": "query",
-                        "description": "Returns entries based on the final_year field. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY TO YYYY. Searching on a single year can be done by entering the same value for the start and end of the range.",
+                        "description": "Returns entries based on the final_year field. Years are specified as a comma-delimited list.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "partner_start_year",
+                        "name": "partner_start_years",
                         "in": "query",
-                        "description": "Returns entries based on the partner_start_year field.",
+                        "description": "Returns entries based on the partner_start_year field. Years are specified as a comma-delimited list.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "reporter_start_year",
+                        "name": "reporter_start_years",
                         "in": "query",
-                        "description": "Returns entries based on the reporter_start_year field.",
+                        "description": "Returns entries based on the reporter_start_year field. Years are specified as a comma-delimited list.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -554,7 +554,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns FAQs for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "description": "Returns FAQs for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -652,7 +652,7 @@
                     {
                         "name": "city",
                         "in": "query",
-                        "description": "Returns office locations based on city name",
+                        "description": "Returns office locations based on city name.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -713,7 +713,7 @@
         "/trade_articles/search": {
             "get": {
                 "summary": "Trade News & Articles API",
-                "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies.\n",
+                "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -734,7 +734,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns articles for a specific controlled industry terms. This method allows you to search for multiple industries separated by commas.",
+                        "description": "Returns articles for specific controlled industry terms. This method allows you to search for multiple industries separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -742,7 +742,7 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.  This method allows you to search for multiple countries separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -759,6 +759,70 @@
                         "name": "sub_topics",
                         "in": "query",
                         "description": "Returns articles based on sub-topic. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "geo_regions",
+                        "in": "query",
+                        "description": "Returns articles based on geo region. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "geo_subregions",
+                        "in": "query",
+                        "description": "Returns articles based on geo sub-region. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_regions",
+                        "in": "query",
+                        "description": "Returns articles based on trade region. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_programs",
+                        "in": "query",
+                        "description": "Returns articles based on trade program. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_initiatives",
+                        "in": "query",
+                        "description": "Returns articles based on trade initiative. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "creation_date",
+                        "in": "query",
+                        "description": "Returns articles based on the date they were created. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "release_date",
+                        "in": "query",
+                        "description": "Returns articles based on their release date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "in": "query",
+                        "description": "Returns articles based on their expiration date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -922,20 +986,28 @@
         "/ita_taxonomies/search": {
             "get": {
                 "summary": "Ita Taxonomies API",
-                "description": "",
+                "description": "The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its other APIs.",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Returns taxonomy terms for a match within the name and parent_names fields.",
+                        "description": "Returns taxonomy terms for a match within label field.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "taxonomies",
+                        "name": "types",
                         "in": "query",
-                        "description": "Returns taxonomy terms that are members of the specified taxonomies.  Enter muliple values separated by commas.",
+                        "description": "Returns terms that fall under the given high-level taxonomy types. Enter multiple values separated by commas. The possible values are Industries, Topics, Countries, Trade Regions, and World Regions.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "labels",
+                        "in": "query",
+                        "description": "Returns terms based on exact matching of the label field. Enter multiple values separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -987,7 +1059,7 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns de minimis rates based on ISO alpha-2 country codes.",
+                        "description": "Returns de minimis rates based on ISO alpha-2 country codes.  Enter multiple terms by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -1033,35 +1105,39 @@
         "Report": {
             "properties": {
                 "id": {
-                    "description": "Unique identifier assigned to the report",
+                    "description": "Unique identifier assigned to the report.",
                     "type": "string"
                 },
                 "countries": {
-                    "description": "Country category(ies) assigned to the report",
+                    "description": "Country category(ies) assigned to the report.",
                     "type": "string"
                 },
                 "description": {
-                    "description": "Abstract of the report's content",
+                    "description": "Abstract of the report's content.",
                     "type": "string"
                 },
                 "expiration_date": {
-                    "description": "Date when the report is no longer valid",
+                    "description": "Date when the report is no longer valid.",
                     "type": "string"
                 },
                 "industries": {
-                    "description": "Industry categories assigned to the report",
+                    "description": "Industry categories assigned to the report.",
+                    "type": "string"
+                },
+                 "ita_industries": {
+                    "description": "The ITA industries associated with the report.",
                     "type": "string"
                 },
                 "report_type": {
-                    "description": "The report type can either be CCG, Best Market Report, or Market Research Report",
+                    "description": "The report type can either be CCG, Best Market Report, or Market Research Report.",
                     "type": "string"
                 },
                 "title": {
-                    "description": "Report title (default sort)",
+                    "description": "Report title (default sort).",
                     "type": "string"
                 },
                 "url": {
-                    "description": "URL for the report",
+                    "description": "URL for the report.",
                     "type": "string"
                 }
             }
@@ -1069,23 +1145,23 @@
         "List": {
             "properties": {
                 "addresses": {
-                    "description": "Array of Entity's complete addresses.",
+                    "description": "Array of entity's complete addresses.",
                     "type": "string"
                 },
                 "name": {
-                    "description": "Entity's name",
+                    "description": "Entity's name.",
                     "type": "string"
                 },
                 "alt_names": {
-                    "description": "Alias names used by the entity",
+                    "description": "Alias names used by the entity.",
                     "type": "string"
                 },
                 "source_list_url": {
-                    "description": "Location of the original list",
+                    "description": "Location of the original list.",
                     "type": "string"
                 },
                 "source_information_url": {
-                    "description": "Information from the Source agency about the list",
+                    "description": "Information from the Source agency about the list.",
                     "type": "string"
                 },
                 "ids": {
@@ -1097,7 +1173,7 @@
                     "type": "string"
                 },
                 "dates_of_birth": {
-                    "description": "Entity's date of birth.",
+                    "description": "Entity's dates of birth.",
                     "type": "string"
                 },
                 "nationalities": {
@@ -1105,7 +1181,7 @@
                     "type": "string"
                 },
                 "places_of_birth": {
-                    "description": "Entity's place of birth.",
+                    "description": "Entity's places of birth.",
                     "type": "string"
                 },
                 "title": {
@@ -1145,11 +1221,39 @@
                     "type": "string"
                 },
                 "programs": {
-                    "description": "Agency program related to the entity on the list.",
+                    "description": "Agency programs related to the entity on the list.",
                     "type": "string"
                 },
                 "source": {
                     "description": "The name of the source list where this entity is listed.",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Classification of the entity.",
+                    "type": "string"
+                },
+                "call_sign": {
+                    "description": "Call sign of the vessel.",
+                    "type": "string"
+                },
+                "gross_registered_tonnage": {
+                    "description": "The gross weight in tons registered for the vessel.",
+                    "type": "string"
+                },
+                "gross_tonnage": {
+                    "description": "The gross weight in tons not-registered for the vessel.",
+                    "type": "string"
+                },
+                "vessel_flag": {
+                    "description": "Country flag of the vessel.",
+                    "type": "string"
+                },
+                "vessel_owner": {
+                    "description": "Owner/Operator of the vessel.",
+                    "type": "string"
+                },
+                "vessel_type": {
+                    "description": "Describes the type of vessel (ferry, bulk cargo, tug).",
                     "type": "string"
                 }
             }
@@ -1164,24 +1268,60 @@
                     "description": "Name given for the event.",
                     "type": "string"
                 },
-                "description": {
-                    "description": "Text describing the event.",
-                    "type": "string"
-                },
-                "registration_link": {
-                    "description": "URL for the event's registration page.",
+                "event_type": {
+                    "description": "The type of the event.",
                     "type": "string"
                 },
                 "start_date": {
                     "description": "Start date of the event.",
                     "type": "string"
                 },
+                "start_time": {
+                    "description": "The start time of the event.",
+                    "type": "string"
+                },
                 "end_date": {
                     "description": "The date the event will end.",
                     "type": "string"
                 },
+                "end_time": {
+                    "description": "The end time of the event.",
+                    "type": "string"
+                },
+                "time_zone": {
+                    "description": "The time zone of the event’s location.",
+                    "type": "string"
+                },
+                "cost": {
+                    "description": "Cost of the event.",
+                    "type": "string"
+                },
+                "cost_currency": {
+                    "description": "The currency of the cost value.",
+                    "type": "string"
+                },
+                "registration_link": {
+                    "description": "URL for the event's registration page.",
+                    "type": "string"
+                },
+                "registration_title": {
+                    "description": "Title of the registration URL.",
+                    "type": "string"
+                },
+                "description": {
+                    "description": "Text describing the event.",
+                    "type": "string"
+                },
                 "industries": {
                     "description": "Industry categories assigned to the event.",
+                    "type": "string"
+                },
+                "ita_industries": {
+                    "description": "The ITA industries associated with the assigned industries.",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "Link to the event's web page.",
                     "type": "string"
                 },
                 "venues": {
@@ -1192,28 +1332,32 @@
                     "description": "Array of contact information.",
                     "type": "string"
                 },
-                "event_type": {
-                    "description": "The type of the event.",
+                "first_name": {
+                    "description": "The event contact’s first name.",
                     "type": "string"
                 },
-                "cost": {
-                    "description": "Cost of the event.",
+                "last_name": {
+                    "description": "The event contact’s last name.",
                     "type": "string"
                 },
-                "url": {
-                    "description": "Link to the event's web page.",
+                "post": {
+                    "description": "The event contact’s location.",
+                    "type": "string"
+                },
+                "person_title": {
+                    "description": "The event contact’s title.",
+                    "type": "string"
+                },
+                "phone": {
+                    "description": "The event contact’s phone number.",
+                    "type": "string"
+                },
+                "email": {
+                    "description": "The event contact’s email address.",
                     "type": "string"
                 },
                 "source": {
                     "description": "Agency providing the event information.",
-                    "type": "string"
-                },
-                "registration_title": {
-                    "description": "Title of the registration URL.",
-                    "type": "string"
-                },
-                "cost_currency": {
-                    "description": "The currency of the cost value.",
                     "type": "string"
                 },
                 "trade_regions": {
@@ -1230,6 +1374,10 @@
             "properties": {
                 "country": {
                     "description": "Country where the procurement opportunity is taking place.",
+                    "type": "string"
+                },
+                "country_name": {
+                    "description": "Full country name.",
                     "type": "string"
                 },
                 "title": {
@@ -1266,6 +1414,10 @@
                 },
                 "industry": {
                     "description": "Industry category assigned to the opportunity.",
+                    "type": "string"
+                },
+                "ita_industries": {
+                    "description": "ITA industry terms associated with the assigned industry.",
                     "type": "string"
                 },
                 "project_size": {
@@ -1425,19 +1577,19 @@
                     "type": "string"
                 },
                 "source_id": {
-                    "description": "Unique identifier",
+                    "description": "Unique identifier.",
                     "type": "string"
                 },
                 "tariff_line": {
-                    "description": "Product's Harmonized System (HS) code for the product according to the reporter's nomenclature",
+                    "description": "Product's Harmonized System (HS) code for the product according to the reporter's nomenclature.",
                     "type": "string"
                 },
                 "subheading_description": {
-                    "description": "English description at the subheading level (6-digit HS code)",
+                    "description": "English description at the subheading level (6-digit HS code).",
                     "type": "string"
                 },
                 "hs_6": {
-                    "description": "6-digit HS code for the product",
+                    "description": "6-digit HS code for the product.",
                     "type": "string"
                 },
                 "base_rate": {
@@ -1461,19 +1613,15 @@
                     "type": "string"
                 },
                 "tariff_eliminated": {
-                    "description": "Flag noting whether or not the tariff is eventually eliminated. “False”= not eliminated",
-                    "type": "string"
-                },
-                "ag_id": {
-                    "description": "Unique identifier for agricultural goods",
+                    "description": "Flag noting whether or not the tariff is eventually eliminated. “False”= not eliminated.",
                     "type": "string"
                 },
                 "partner_name": {
-                    "description": "Exporting country's code",
+                    "description": "Exporting country's code.",
                     "type": "string"
                 },
                 "reporter_name": {
-                    "description": "Importing country's code",
+                    "description": "Importing country's code.",
                     "type": "string"
                 },
                 "staging_basket": {
@@ -1496,14 +1644,6 @@
                     "description": "Agreement name for the reporter country.",
                     "type": "string"
                 },
-                "partner_agreement_approved": {
-                    "description": "Flag describing if partner has approved the agreement (true=approved; false=pending).",
-                    "type": "string"
-                },
-                "reporter_agreement_approved": {
-                    "description": "Flag describing if reporter has approved the agreement (true=approved; false=pending).",
-                    "type": "string"
-                },
                 "quota_name": {
                     "description": "Description for products subject to tariff-rate quotas. (Describes in-quota and out-of-quota tariff lines).",
                     "type": "string"
@@ -1521,10 +1661,10 @@
                     "type": "string"
                 },
                 "annual_rates": {
-                    "description": "Numeric year-by-year tariff rates under the FTA as the tariff is eliminated",
+                    "description": "Numeric year-by-year tariff rates under the FTA as the tariff is eliminated.",
                     "type": "string"
                 },
-                "alt_annual_rates": {
+                "annual_rates_alt": {
                     "description": "Non-numeric (specific) year-by-year tariff rates under the FTA.",
                     "type": "string"
                 }
@@ -1581,51 +1721,51 @@
         "Office": {
             "properties": {
                 "id": {
-                    "description": "Unique identifier for post",
+                    "description": "Unique identifier for post.",
                     "type": "string"
                 },
                 "post": {
-                    "description": "Name of the post (Default sort)",
+                    "description": "Name of the post (Default sort).",
                     "type": "string"
                 },
                 "office_name": {
-                    "description": "Office Name",
+                    "description": "Office name.",
                     "type": "string"
                 },
                 "state": {
-                    "description": "State abbreviation, for domestic offices",
+                    "description": "State abbreviation, for domestic offices.",
                     "type": "string"
                 },
                 "city": {
-                    "description": "City",
+                    "description": "City.",
                     "type": "string"
                 },
                 "address": {
-                    "description": "Street address of office",
+                    "description": "Street address of office.",
                     "type": "string"
                 },
                 "country": {
-                    "description": "Country",
+                    "description": "Country.",
                     "type": "string"
                 },
                 "email": {
-                    "description": "Office email address",
+                    "description": "Office email address.",
                     "type": "string"
                 },
                 "fax": {
-                    "description": "Fax number",
+                    "description": "Fax number.",
                     "type": "string"
                 },
                 "mail_instructions": {
-                    "description": "Snail mail instructions",
+                    "description": "Snail mail instructions.",
                     "type": "string"
                 },
                 "phone": {
-                    "description": "Office phone number",
+                    "description": "Office phone number.",
                     "type": "string"
                 },
                 "post_type": {
-                    "description": "Type of post (domestic or international",
+                    "description": "Type of post (domestic or international).",
                     "type": "string"
                 }
             }
@@ -1693,7 +1833,7 @@
                     "type": "string"
                 },
                 "countries": {
-                    "description": "The countries associated with the article",
+                    "description": "The countries associated with the article.",
                     "type": "string"
                 },
                 "topics": {
@@ -1770,15 +1910,19 @@
                 },
                 "post": {
                     "type": "string",
-                    "description": "Name of the post (Default sort)."
+                    "description": "Name of the post (default sort)."
                 },
                 "office_name": {
                     "type": "string",
-                    "description": "Office Name"
+                    "description": "Office name."
+                },
+                "country": {
+                    "type": "string",
+                    "description": "This will always be US since this is a list of ITA offices in the U.S."
                 },
                 "state": {
                     "type": "string",
-                    "description": "State abbreviation"
+                    "description": "State abbreviation."
                 },
                 "post_city": {
                     "type": "string",
@@ -1786,75 +1930,72 @@
                 },
                 "address": {
                     "type": "string",
-                    "description": "Street address of office"
-                },
-                "country": {
-                    "type": "string",
-                    "description": "This will always be US since this is a list of ITA offices in the U.S."
+                    "description": "Street address of office."
                 },
                 "email": {
                     "type": "string",
-                    "description": "Office email address"
+                    "description": "Office email address."
                 },
                 "fax": {
                     "type": "string",
-                    "description": "Fax number"
+                    "description": "Fax number."
                 },
                 "mail_instructions": {
                     "type": "string",
-                    "description": "Snail mail instructions"
+                    "description": "Snail mail instructions."
                 },
                 "phone": {
                     "type": "string",
-                    "description": "Office phone number"
+                    "description": "Office phone number."
                 }
             }
         },
         "Provider": {
             "properties": {
+                "ita_contact_email": {
+                    "type": "string",
+                    "description": "Email for ITA contact."
+                },
                 "company_name": {
                     "type": "string",
                     "description": "Name of company providing the service."
-                },
-                "category": {
-                    "type": "string",
-                    "description": "Category of services that company provides."
-                },
-                "company_description": {
-                    "type": "string",
-                    "description": "Description of company."
-                },
-                "contact_name": {
-                    "type": "string",
-                    "description": "Name of contact at company."
-                },
-                "contact_title": {
-                    "type": "string",
-                    "description": "Title of contact at company."
-                },
-                "company_email": {
-                    "type": "string",
-                    "description": "Email for contact at company."
-                },
-                "company_address": {
-                    "type": "string",
-                    "description": "Street, city, and country address for company."
                 },
                 "company_phone": {
                     "type": "string",
                     "description": "Phone number for company."
                 },
+                "company_address": {
+                    "type": "string",
+                    "description": "Street, city, and country address for company."
+                },
                 "company_website": {
                     "type": "string",
                     "description": "URL for company site."
+                },
+                "company_description": {
+                    "type": "string",
+                    "description": "Description of company."
+                },
+                "company_email": {
+                    "type": "string",
+                    "description": "Email for contact at company."
                 },
                 "ita_office": {
                     "type": "string",
                     "description": "Name of ITA office that has provided company information."
                 },
-                "ita_contact_email": {
-                    "type": "string"
-                }
+                "contact_title": {
+                    "type": "string",
+                    "description": "Title of contact at company."
+                },
+                "contact_name": {
+                    "type": "string",
+                    "description": "Name of contact at company."
+                },
+                "category": {
+                    "type": "string",
+                    "description": "Category of services that company provides."
+                }                
             }
         },
         "Taxonomy": {
@@ -1863,17 +2004,29 @@
                     "type": "string",
                     "description": "The id assigned to the term."
                 },
-                "name": {
+                "label": {
                     "type": "string",
                     "description": "The name of the given taxonomy term."
                 },
-                "taxonomy": {
+                "type": {
                     "type": "string",
-                    "description": "The taxonomy under which the given term belongs."
+                    "description": "The high level taxonomy type under which the given term belongs."
                 },
-                "parent_names": {
+                "sub_class_of": {
                     "type": "string",
-                    "description": "The names of any parent terms, if any, for the given term."
+                    "description": "An array containing hashes with the id and label of each parent term."
+                },
+                "annotations": {
+                    "type": "string",
+                    "description": "A hash containing key/value pairs of annotation properties."
+                },
+                "datatype_properties": {
+                    "type": "string",
+                    "description": "A hash containing key/array pairs of datatype properties. Each array contains id/label hashes."
+                },
+                "annotations": {
+                    "type": "string",
+                    "description": "A hash containing key/array pairs of object properties. Each array contains id/label hashes."
                 }
             }
         },

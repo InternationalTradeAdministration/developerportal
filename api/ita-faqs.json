@@ -17,7 +17,7 @@
         "/ita_faqs/search": {
             "get": {
                 "summary": "FAQs on Exporting API",
-                "description": "The Frequently Asked Questions (FAQs) API includes more than 200 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.\n",
+                "description": "The Frequently Asked Questions (FAQs) API includes more than 200 commonly asked questions about exporting. The answers provided are from government experts that specialize in unique aspects of trade.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -38,7 +38,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns FAQs for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "description": "Returns FAQs for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"

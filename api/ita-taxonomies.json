@@ -2,7 +2,7 @@
     "swagger": "2.0",
     "info": {
         "title": "ITA Taxonomies",
-        "description": "",
+        "description": "The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its other APIs.",
         "version": "2.0.0"
     },
     "host": "api.trade.gov",
@@ -17,20 +17,28 @@
         "/ita_taxonomies/search": {
             "get": {
                 "summary": "Ita Taxonomies API",
-                "description": "",
+                "description": "The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its other APIs.",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Returns taxonomy terms for a match within the name and parent_names fields.",
+                        "description": "Returns taxonomy terms for a match within label field.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "taxonomies",
+                        "name": "types",
                         "in": "query",
-                        "description": "Returns taxonomy terms that are members of the specified taxonomies.  Enter muliple values separated by commas.",
+                        "description": "Returns terms that fall under the given high-level taxonomy types. Enter multiple values separated by commas. The possible values are Industries, Topics, Countries, Trade Regions, and World Regions.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "labels",
+                        "in": "query",
+                        "description": "Returns terms based on exact matching of the label field. Enter multiple values separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -74,17 +82,29 @@
                     "type": "string",
                     "description": "The id assigned to the term."
                 },
-                "name": {
+                "label": {
                     "type": "string",
                     "description": "The name of the given taxonomy term."
                 },
-                "taxonomy": {
+                "type": {
                     "type": "string",
-                    "description": "The taxonomy under which the given term belongs."
+                    "description": "The high level taxonomy type under which the given term belongs."
                 },
-                "parent_names": {
+                "sub_class_of": {
                     "type": "string",
-                    "description": "The names of any parent terms, if any, for the given term."
+                    "description": "An array containing hashes with the id and label of each parent term."
+                },
+                "annotations": {
+                    "type": "string",
+                    "description": "A hash containing key/value pairs of annotation properties."
+                },
+                "datatype_properties": {
+                    "type": "string",
+                    "description": "A hash containing key/array pairs of datatype properties. Each array contains id/label hashes."
+                },
+                "annotations": {
+                    "type": "string",
+                    "description": "A hash containing key/array pairs of object properties. Each array contains id/label hashes."
                 }
             }
         }

@@ -140,6 +140,6 @@ The *search_performed_at* field displays the date and time of the current search
 | url       | The URL where the published FAQ can be viewed.  |
 | industries           | Industry categories assigned to the FAQ. |
 | topics              | Topic categories assigned to the FAQ.      |
-| countries            | Countries relevent to the FAQ.          |
-| trade_regions            | Trade regions relevent to the FAQ.          |
-| world_regions            | World regions relevent to the FAQ.          |
+| countries            | Countries relevant to the FAQ.          |
+| trade_regions            | Trade regions relevant to the FAQ.          |
+| world_regions            | World regions relevant to the FAQ.          |

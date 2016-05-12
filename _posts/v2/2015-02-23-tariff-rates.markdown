@@ -7,11 +7,11 @@ published: true
 
 # Tariff Rates API
 
-{% include tariffs-tabs %}
+{% include tariff-rates/tariffs-tabs %}
 
 ## Resource URL
 
-{% include tariff-rates-query.html %}
+{% include tariff-rates/tariff-rates-query.html %}
 
 ## Search Parameters
 
@@ -23,7 +23,7 @@ Searches for a match within the **subheading_description**, **tariff_rate_quota_
 
 **_Example_**
 
-{% include tariff-rates-query-keyword.html %}
+{% include tariff-rates/tariff-rates-query-keyword.html %}
 
 ### sources
 
@@ -33,7 +33,7 @@ Returns tariff rates based on the ISO [alpha-2 country codes](http://www.iso.org
 
 **_Example_**
 
-{% include tariff-rates-query-source.html %}
+{% include tariff-rates/tariff-rates-query-source.html %}
 
 ### final_years
 
@@ -44,7 +44,7 @@ Returns entries based on the final_year field.  Years are specified as a comma-d
 
 **_Example_**
 
-{% include tariff-rates-query-finalyear.html %}
+{% include tariff-rates/tariff-rates-query-finalyear.html %}
 
 ### partner_start_years
 
@@ -54,7 +54,7 @@ Returns entries based on the partner_start_year field.  Years are specified as a
 
 **_Example_**
 
-{% include tariff-rates-query-partner-startyear.html %}
+{% include tariff-rates/tariff-rates-query-partner-startyear.html %}
 
 ### reporter_start_years
 
@@ -64,7 +64,7 @@ Returns entries based on the reporter_start_year field.  Years are specified as 
 
 **_Example_**
 
-{% include tariff-rates-query-reporter-startyear.html %}
+{% include tariff-rates/tariff-rates-query-reporter-startyear.html %}
 
 ### size + offset
 
@@ -74,7 +74,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 **_Example_**
 
-{% include tariff-rates-query-size.html %}
+{% include tariff-rates/tariff-rates-query-size.html %}
 
 ## Metadata
 
@@ -88,7 +88,7 @@ Recency information about each source queried is given in **sources_used** in th
 | source_last_updated | The most recent date and time the data changed. |
 | last_imported | The most recent date and time the data was imported. |
 
-The *source_last_updated* field reflects the most recent date and time we noticed that the data for the source country had been updated. We check for updates and import lists at the same time daily.
+The *source_last_updated* field reflects the most recent date and time we noticed that the data for the source country had been updated.
 
 ### Search Performed At
 
@@ -109,7 +109,6 @@ The *search_performed_at* field displays the date and time of the current search
 | tariff_rate_quota            |   Flag noting tariff treatment for products within quota (2) and out of quota (1).    |
 | tariff_rate_quota_note       |   Text note about the tariff-rate quota (TRQ) applicable to the product.    |
 | tariff_eliminated            |    Flag noting whether or not the tariff is eventually eliminated.  “False”= not eliminated.    |
-| ag_id                        |   Unique identifier for agricultural goods.    |
 | partner_name                 |    Exporting country’s code.   |
 | reporter_name                |    Importing country’s code.   |
 | staging_basket               |     The agreed tariff phase-out period for the product under the FTA.   |
@@ -117,11 +116,9 @@ The *search_performed_at* field displays the date and time of the current search
 | reporter_start_year          |   Year the agreement entered into force for the reporter.  (The first year of tariff cuts).    |
 | partner_agreement_name       |   Agreement name for the partner country.    |
 | reporter_agreement_name      |   Agreement name for the reporter country.    |
-| partner_agreement_approved   |   Flag describing if partner has approved the agreement (true=approved; false=pending).    |
-| reporter_agreement_approved  |    Flag describing if reporter has approved the agreement (true=approved; false=pending).    |
 | quota_name                   |   Description for products subject to tariff-rate quotas.  (Describes in-quota and out-of-quota tariff lines).    |
 | rule_text                    |   Text describing the applicable rule of origin for the product.    |
 | link_text                    |   Text describing URL to more detailed rule of origin information.    |
 | link_url                     |    URL to more detailed rule of origin information.   |
 | annual_rates                 |  Numeric year-by-year tariff rates under the FTA as the tariff is eliminated.    |
-| alt_annual_rates             |    Non-numeric (specific) year-by-year tariff rates under the FTA.    |
+| annual_rates_alt             |    Non-numeric (specific) year-by-year tariff rates under the FTA.    |

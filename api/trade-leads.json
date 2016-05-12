@@ -17,12 +17,12 @@
         "/trade_leads/search": {
             "get": {
                 "summary": "Trade Leads API",
-                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources.\n",
+                "description": "The Trade Leads API provides contract opportunities for U.S. businesses selling their products and services overseas. These leads come from a variety of sources.",
                 "parameters": [
                     {
                         "name": "keyword",
                         "in": "query",
-                        "description": "Searches for a match within the title, description, topic, tags, and procurement_organization fields.",
+                        "description": "Searches for a match within the title, description, topic, tags, industry, ita_industries, and procurement_organization fields.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -30,7 +30,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns trade leads for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "description": "Returns trade leads for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -78,7 +78,7 @@
                     {
                         "name": "end_date",
                         "in": "query",
-                        "description": "Returns leads based on their end date.",
+                        "description": "Returns leads based on their end date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -86,7 +86,7 @@
                     {
                         "name": "publish_date_amended",
                         "in": "query",
-                        "description": "Returns leads based on their amended publish date.",
+                        "description": "Returns leads based on their amended publish date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -138,6 +138,10 @@
                     "description": "Country where the procurement opportunity is taking place.",
                     "type": "string"
                 },
+                "country_name": {
+                    "description": "Full country name.",
+                    "type": "string"
+                },
                 "title": {
                     "description": "Title of the lead.",
                     "type": "string"
@@ -172,6 +176,10 @@
                 },
                 "industry": {
                     "description": "Industry category assigned to the opportunity.",
+                    "type": "string"
+                },
+                "ita_industries": {
+                    "description": "ITA industry terms associated with the assigned industry.",
                     "type": "string"
                 },
                 "project_size": {

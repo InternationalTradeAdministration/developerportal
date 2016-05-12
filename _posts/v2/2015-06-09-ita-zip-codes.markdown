@@ -7,11 +7,11 @@ published: true
 
 # Zip Code to USEAC API
 
-{% include zipcodes-tabs %}
+{% include zip-codes/zipcodes-tabs %}
 
 ## Resource URL
 
-{% include zipcodes-query.html %}
+{% include zip-codes/zipcodes-query.html %}
 
 ## Search Parameters for Zip Code to USEAC
 
@@ -23,7 +23,7 @@ Returns zip code entries for a match within the **post**, **office_name** or **z
 
 **_Example_**
 
-{% include zipcodes-query-keyword.html %}
+{% include zip-codes/zipcodes-query-keyword.html %}
 
 ### zip_codes
 
@@ -33,7 +33,7 @@ Returns zip code entries that match the specified zip codes.  Enter muliple valu
 
 **_Example_**
 
-{% include zipcodes-query-zipcodes.html %}
+{% include zip-codes/zipcodes-query-zipcodes.html %}
 
 ### size + offset
 
@@ -43,7 +43,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-{% include zipcodes-query-size.html %}
+{% include zip-codes/zipcodes-query-size.html %}
 
 ## Metadata
 
@@ -69,12 +69,12 @@ The *search_performed_at* field displays the date and time of the current search
 | ----------------- | --------------------------------------------------------------- |
 | zip_code          | 5-digit U.S. ZIP Code.                                                     |
 | zip_city          | Name of the city corresponding to the ZIP code.             |
-| post              | Name of the post (Default sort).                                 |
-| office_name       | Office Name.                                                     |
+| post              | Name of the post (default sort).                                 |
+| office_name       | Office name.                                                     |
+| country           | This will always be US since this is a list of ITA offices in the U.S.    |
 | state             | State abbreviation.                       |
 | post_city         | Name of the city corresponding to the office location.           |
 | address           | Street address of office.                                        |
-| country           | This will always be US since this is a list of ITA offices in the U.S.    |
 | email             | Office email address.                                            |
 | fax               | Fax number.                                                      |
 | mail_instructions | Snail mail instructions.                                         |

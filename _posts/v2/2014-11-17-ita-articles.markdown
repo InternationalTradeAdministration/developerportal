@@ -7,11 +7,11 @@ layout: body
 
 # Trade News & Articles API
 
-{% include articles-tabs %}
+{% include trade-articles/articles-tabs %}
 
 ## Resource URL
 
-{% include articles-query.html %}
+{% include trade-articles/articles-query.html %}
 
 ## Search Parameters
 
@@ -21,7 +21,7 @@ Searches for a match within the **title**, **short_title**, **summary**, **conte
 
     {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&q={term}
 
-{% include articles-query-keyword.html %}
+{% include trade-articles/articles-query-keyword.html %}
 
 ### export_phases
 
@@ -31,17 +31,17 @@ Returns articles based on the [export phase](export-phases-ita-articles.html).  
 
 **_Example_**
 
-{% include articles-query-phases.html %}
+{% include trade-articles/articles-query-phases.html %}
 
 ### industries
 
-Returns articles for a specific [controlled industry terms](industry-list-ita-articles.html). This method allows you to search for multiple industries separated by commas.
+Returns articles for specific [controlled industry terms](industry-list-ita-articles.html). This method allows you to search for multiple industries separated by commas.
 
     {{ site.webservices_baseurl }}/trade_articles/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
-{% include articles-query-industry.html %}
+{% include trade-articles/articles-query-industry.html %}
 
 ### countries
 
@@ -51,7 +51,7 @@ Returns articles for a specific country based on [ISO alpha-2 country codes](htt
 
 **_Example_**
 
-{% include articles-query-country.html %}
+{% include trade-articles/articles-query-country.html %}
 
 ### topics
 
@@ -61,7 +61,7 @@ Returns articles based on [topic](topic-list-ita-articles.html).  Enter multiple
 
 **_Example_**
 
-{% include articles-query-topics.html %}
+{% include trade-articles/articles-query-topics.html %}
 
 ### sub_topics
 
@@ -71,7 +71,7 @@ Returns articles based on [sub-topic](subtopic-list-ita-articles.html).  Enter m
 
 **_Example_**
 
-{% include articles-query-subtopics.html %}
+{% include trade-articles/articles-query-subtopics.html %}
 
 ### geo_regions
 
@@ -81,7 +81,7 @@ Returns articles based on [geo region](geo-region-list.html).  Enter multiple te
 
 **_Example_**
 
-{% include articles-query-georegions.html %}
+{% include trade-articles/articles-query-georegions.html %}
 
 ### geo_subregions
 
@@ -91,7 +91,7 @@ Returns articles based on [geo sub-region](geo-region-list.html).  Enter multipl
 
 **_Example_**
 
-{% include articles-query-subregions.html %}
+{% include trade-articles/articles-query-subregions.html %}
 
 ### trade_regions
 
@@ -101,7 +101,7 @@ Returns articles based on [trade region](trade-region-list.html).  Enter multipl
 
 **_Example_**
 
-{% include articles-query-regions.html %}
+{% include trade-articles/articles-query-regions.html %}
 
 ### trade_programs
 
@@ -111,7 +111,7 @@ Returns articles based on [trade program](trade-program-list-ita-articles.html).
 
 **_Example_**
 
-{% include articles-query-programs.html %}
+{% include trade-articles/articles-query-programs.html %}
 
 ### trade_initiatives
 
@@ -121,7 +121,7 @@ Returns articles based on [trade initiative](trade-initiative-list-ita-articles.
 
 **_Example_**
 
-{% include articles-query-initiatives.html %}
+{% include trade-articles/articles-query-initiatives.html %}
 
 ### creation_date
 
@@ -132,7 +132,7 @@ Returns articles based on the date they were created.  Dates are filtered by com
 
 **_Example_**
 
-{% include articles-query-creationdate.html %}
+{% include trade-articles/articles-query-creationdate.html %}
 
 ### release_date
 
@@ -143,7 +143,7 @@ Returns articles based on their release date.  Dates are filtered by comparing t
 
 **_Example_**
 
-{% include articles-query-releasedate.html %}
+{% include trade-articles/articles-query-releasedate.html %}
 
 ### expiration_date
 
@@ -154,7 +154,7 @@ Returns articles based on their expiration date.  Dates are filtered by comparin
 
 **_Example_**
 
-{% include articles-query-expirationdate.html %}
+{% include trade-articles/articles-query-expirationdate.html %}
 
 ### size + offset
 
@@ -164,7 +164,7 @@ The size parameter allows you to configure the maximum amount of hits to be retu
 
 **_Example_**
 
-{% include articles-query-size.html %}
+{% include trade-articles/articles-query-size.html %}
 
 ## Metadata
 

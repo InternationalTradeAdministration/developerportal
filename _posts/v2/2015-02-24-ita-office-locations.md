@@ -7,13 +7,13 @@ published: true
 
 # ITA Offices & Centers API
 
-{% include offices-tabs %}
+{% include ita-offices/offices-tabs %}
 
 ## Resource URL
 
-{% include office-centers-query.html %}
+{% include ita-offices/office-centers-query.html %}
 
-## Search Parameters for ITA office locations sources
+## Search Parameters for ITA Office Locations
 
 ### keyword
 
@@ -23,7 +23,7 @@ Returns office locations for a match within the **post** or **office name** fiel
 
 **_Example_**
 
-{% include office-centers-query-keyword.html %}
+{% include ita-offices/office-centers-query-keyword.html %}
 
 ### city
 
@@ -33,7 +33,7 @@ Returns office locations based on city name
 
 **_Example_**
 
-{% include office-centers-query-city.html %}
+{% include ita-offices/office-centers-query-city.html %}
 
 ### countries
 
@@ -43,7 +43,7 @@ Returns office locations for a specific country based on [ISO alpha-2 country co
 
 **_Example_**
 
-{% include office-centers-query-country.html %}
+{% include ita-offices/office-centers-query-country.html %}
 
 ### state
 
@@ -53,7 +53,7 @@ Returns locations for export assistance centers located in a specific  [U.S. Sta
 
 **_Example_**
 
-{% include office-centers-query-state.html %}
+{% include ita-offices/office-centers-query-state.html %}
 
 ### size + offset
 
@@ -63,7 +63,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-{% include office-centers-query-size.html %}
+{% include ita-offices/office-centers-query-size.html %}
 
 ## Metadata
 
@@ -77,7 +77,7 @@ Recency information about each source queried is given in **sources_used** in th
 | source_last_updated | The most recent date and time the data changed. |
 | last_imported | The most recent date and time the data was imported. |
 
-The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
+The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time weekly.
 
 ### Search Performed At
 
@@ -88,12 +88,12 @@ The *search_performed_at* field displays the date and time of the current search
 | Field             | Description                                                     |
 | ----------------- | --------------------------------------------------------------- |
 | id                | Unique identifier for post.                                      |
-| post              | Name of the post (Default sort).                                 |
-| office_name       | Office Name.                                                     |
+| post              | Name of the post (default sort).                                 |
+| office_name       | Office name.                                                     |
+| country           | Country.                                                         |
 | state             | State abbreviation, for domestic offices.                        |
 | city              | City.                                                            |
 | address           | Street address of office.                                        |
-| country           | Country.                                                         |
 | email             | Office email address.                                            |
 | fax               | Fax number.                                                      |
 | mail_instructions | Snail mail instructions.                                         |

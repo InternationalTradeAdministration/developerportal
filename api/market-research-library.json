@@ -17,7 +17,7 @@
         "/market_research_library/search": {
             "get": {
                 "summary": "Market Research Library API",
-                "description": "The Market Research Library API provides metadata for country and\nindustry reports that are produced by ITA's trade experts and are\navailable in ITA's online market research library. ITA commercial\nofficers that are stationed around the world, publish these authoritative\nreports in conjunction with Foreign Service officers from the State\nDepartment.\n",
+                "description": "The Market Research Library API provides metadata for country and industry reports that are produced by ITA's trade experts and are available in ITA's online market research library. ITA commercial officers that are stationed around the world, publish these authoritative reports in conjunction with Foreign Service officers from the State Department.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -38,7 +38,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns market research reports for a specific controlled industry terms. Enter multiple terms by separating with a comma.",
+                        "description": "Returns market research reports for specific controlled industry terms. Enter multiple terms by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -94,35 +94,39 @@
         "Report": {
             "properties": {
                 "id": {
-                    "description": "Unique identifier assigned to the report",
+                    "description": "Unique identifier assigned to the report.",
                     "type": "string"
                 },
                 "countries": {
-                    "description": "Country category(ies) assigned to the report",
+                    "description": "Country category(ies) assigned to the report.",
                     "type": "string"
                 },
                 "description": {
-                    "description": "Abstract of the report's content",
+                    "description": "Abstract of the report's content.",
                     "type": "string"
                 },
                 "expiration_date": {
-                    "description": "Date when the report is no longer valid",
+                    "description": "Date when the report is no longer valid.",
                     "type": "string"
                 },
                 "industries": {
-                    "description": "Industry categories assigned to the report",
+                    "description": "Industry categories assigned to the report.",
+                    "type": "string"
+                },
+                 "ita_industries": {
+                    "description": "The ITA industries associated with the report.",
                     "type": "string"
                 },
                 "report_type": {
-                    "description": "The report type can either be CCG, Best Market Report, or Market Research Report",
+                    "description": "The report type can either be CCG, Best Market Report, or Market Research Report.",
                     "type": "string"
                 },
                 "title": {
-                    "description": "Report title (default sort)",
+                    "description": "Report title (default sort).",
                     "type": "string"
                 },
                 "url": {
-                    "description": "URL for the report",
+                    "description": "URL for the report.",
                     "type": "string"
                 }
             }

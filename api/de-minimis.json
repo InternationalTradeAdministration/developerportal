@@ -30,7 +30,7 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns de minimis rates based on ISO alpha-2 country codes.",
+                        "description": "Returns de minimis rates based on ISO alpha-2 country codes.  Enter multiple terms by separating with a comma.",
                         "required": false,
                         "type": "string",
                         "format": "string"

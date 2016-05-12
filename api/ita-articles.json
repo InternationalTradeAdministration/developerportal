@@ -17,7 +17,7 @@
         "/trade_articles/search": {
             "get": {
                 "summary": "Trade News & Articles API",
-                "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies.\n",
+                "description": "The Trade News & Articles API provides in-depth news and articles written by Trade Specialists working in the Federal government. The authors include staff from ITA as well as other Trade Promotion Coordinating Committee (TPCC) agencies.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -38,7 +38,7 @@
                     {
                         "name": "industries",
                         "in": "query",
-                        "description": "Returns articles for a specific controlled industry terms. This method allows you to search for multiple industries separated by commas.",
+                        "description": "Returns articles for specific controlled industry terms. This method allows you to search for multiple industries separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -46,7 +46,7 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Returns office locations based on ISO alpha-2 country codes.",
+                        "description": "Returns office locations based on ISO alpha-2 country codes.  This method allows you to search for multiple countries separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -63,6 +63,70 @@
                         "name": "sub_topics",
                         "in": "query",
                         "description": "Returns articles based on sub-topic. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "geo_regions",
+                        "in": "query",
+                        "description": "Returns articles based on geo region. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "geo_subregions",
+                        "in": "query",
+                        "description": "Returns articles based on geo sub-region. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_regions",
+                        "in": "query",
+                        "description": "Returns articles based on trade region. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_programs",
+                        "in": "query",
+                        "description": "Returns articles based on trade program. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_initiatives",
+                        "in": "query",
+                        "description": "Returns articles based on trade initiative. Enter multiple terms by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "creation_date",
+                        "in": "query",
+                        "description": "Returns articles based on the date they were created. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "release_date",
+                        "in": "query",
+                        "description": "Returns articles based on their release date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "expiration_date",
+                        "in": "query",
+                        "description": "Returns articles based on their expiration date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format: YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -170,7 +234,7 @@
                     "type": "string"
                 },
                 "countries": {
-                    "description": "The countries associated with the article",
+                    "description": "The countries associated with the article.",
                     "type": "string"
                 },
                 "topics": {

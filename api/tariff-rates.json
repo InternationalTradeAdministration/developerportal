@@ -17,7 +17,7 @@
         "/tariff_rates/search": {
             "get": {
                 "summary": "Tariff Rates API",
-                "description": "The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA). When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products. A tariff is a tax that a company must pay a foreign country when shipping a product to that country. Typically the FTA tariffs rates decline over several years.\n",
+                "description": "The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA). When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products. A tariff is a tax that a company must pay a foreign country when shipping a product to that country. Typically the FTA tariffs rates decline over several years.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -30,31 +30,31 @@
                     {
                         "name": "sources",
                         "in": "query",
-                        "description": "Returns tariff rates based on the ISO alpha-2 country codes of the source country. This method allows you to search for multiple sources (plural) separated by commas, but will only return one source (singular) per tariff rate.",
+                        "description": "Returns tariff rates based on the ISO alpha-2 country codes of the source country. This method allows you to search for multiple sources (plural) separated by commas.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "final_year",
+                        "name": "final_years",
                         "in": "query",
-                        "description": "Returns entries based on the final_year field. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY TO YYYY. Searching on a single year can be done by entering the same value for the start and end of the range.",
+                        "description": "Returns entries based on the final_year field. Years are specified as a comma-delimited list.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "partner_start_year",
+                        "name": "partner_start_years",
                         "in": "query",
-                        "description": "Returns entries based on the partner_start_year field.",
+                        "description": "Returns entries based on the partner_start_year field. Years are specified as a comma-delimited list.",
                         "required": false,
                         "type": "string",
                         "format": "string"
                     },
                     {
-                        "name": "reporter_start_year",
+                        "name": "reporter_start_years",
                         "in": "query",
-                        "description": "Returns entries based on the reporter_start_year field.",
+                        "description": "Returns entries based on the reporter_start_year field. Years are specified as a comma-delimited list.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -107,19 +107,19 @@
                     "type": "string"
                 },
                 "source_id": {
-                    "description": "Unique identifier",
+                    "description": "Unique identifier.",
                     "type": "string"
                 },
                 "tariff_line": {
-                    "description": "Product's Harmonized System (HS) code for the product according to the reporter's nomenclature",
+                    "description": "Product's Harmonized System (HS) code for the product according to the reporter's nomenclature.",
                     "type": "string"
                 },
                 "subheading_description": {
-                    "description": "English description at the subheading level (6-digit HS code)",
+                    "description": "English description at the subheading level (6-digit HS code).",
                     "type": "string"
                 },
                 "hs_6": {
-                    "description": "6-digit HS code for the product",
+                    "description": "6-digit HS code for the product.",
                     "type": "string"
                 },
                 "base_rate": {
@@ -143,19 +143,15 @@
                     "type": "string"
                 },
                 "tariff_eliminated": {
-                    "description": "Flag noting whether or not the tariff is eventually eliminated. “False”= not eliminated",
-                    "type": "string"
-                },
-                "ag_id": {
-                    "description": "Unique identifier for agricultural goods",
+                    "description": "Flag noting whether or not the tariff is eventually eliminated. “False”= not eliminated.",
                     "type": "string"
                 },
                 "partner_name": {
-                    "description": "Exporting country's code",
+                    "description": "Exporting country's code.",
                     "type": "string"
                 },
                 "reporter_name": {
-                    "description": "Importing country's code",
+                    "description": "Importing country's code.",
                     "type": "string"
                 },
                 "staging_basket": {
@@ -178,14 +174,6 @@
                     "description": "Agreement name for the reporter country.",
                     "type": "string"
                 },
-                "partner_agreement_approved": {
-                    "description": "Flag describing if partner has approved the agreement (true=approved; false=pending).",
-                    "type": "string"
-                },
-                "reporter_agreement_approved": {
-                    "description": "Flag describing if reporter has approved the agreement (true=approved; false=pending).",
-                    "type": "string"
-                },
                 "quota_name": {
                     "description": "Description for products subject to tariff-rate quotas. (Describes in-quota and out-of-quota tariff lines).",
                     "type": "string"
@@ -203,10 +191,10 @@
                     "type": "string"
                 },
                 "annual_rates": {
-                    "description": "Numeric year-by-year tariff rates under the FTA as the tariff is eliminated",
+                    "description": "Numeric year-by-year tariff rates under the FTA as the tariff is eliminated.",
                     "type": "string"
                 },
-                "alt_annual_rates": {
+                "annual_rates_alt": {
                     "description": "Non-numeric (specific) year-by-year tariff rates under the FTA.",
                     "type": "string"
                 }

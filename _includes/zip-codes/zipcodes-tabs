@@ -8,7 +8,7 @@
 		<p>
 		The Zip Code to USEAC API provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.  It’s not enough to do a proximity search for a zip code and a USEAC.  Each center has specialists on hand for each particular region.
 		</p>
-		<p>The output format for this API is JSON.  This data set is updated weekly.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
+		<p>The output format for this API is JSON.  This data set is updated daily.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes">demo search app</a>. Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>

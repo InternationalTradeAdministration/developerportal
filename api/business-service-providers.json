@@ -81,50 +81,50 @@
     "definitions": {
         "Provider": {
             "properties": {
+                "ita_contact_email": {
+                    "type": "string",
+                    "description": "Email for ITA contact."
+                },
                 "company_name": {
                     "type": "string",
                     "description": "Name of company providing the service."
-                },
-                "category": {
-                    "type": "string",
-                    "description": "Category of services that company provides."
-                },
-                "company_description": {
-                    "type": "string",
-                    "description": "Description of company."
-                },
-                "contact_name": {
-                    "type": "string",
-                    "description": "Name of contact at company."
-                },
-                "contact_title": {
-                    "type": "string",
-                    "description": "Title of contact at company."
-                },
-                "company_email": {
-                    "type": "string",
-                    "description": "Email for contact at company."
-                },
-                "company_address": {
-                    "type": "string",
-                    "description": "Street, city, and country address for company."
                 },
                 "company_phone": {
                     "type": "string",
                     "description": "Phone number for company."
                 },
+                "company_address": {
+                    "type": "string",
+                    "description": "Street, city, and country address for company."
+                },
                 "company_website": {
                     "type": "string",
                     "description": "URL for company site."
+                },
+                "company_description": {
+                    "type": "string",
+                    "description": "Description of company."
+                },
+                "company_email": {
+                    "type": "string",
+                    "description": "Email for contact at company."
                 },
                 "ita_office": {
                     "type": "string",
                     "description": "Name of ITA office that has provided company information."
                 },
-                "ita_contact_email": {
+                "contact_title": {
                     "type": "string",
-                    "description": "Email for ITA contact."
-                }
+                    "description": "Title of contact at company."
+                },
+                "contact_name": {
+                    "type": "string",
+                    "description": "Name of contact at company."
+                },
+                "category": {
+                    "type": "string",
+                    "description": "Category of services that company provides."
+                }                
             }
         }
     }

@@ -7,13 +7,13 @@ layout: body
 
 # Market Research Library API 
 
-{% include mrl-tabs %}
+{% include market-research-library/mrl-tabs %}
 
 ## Resource URL
 
-{% include mrl-query.html %}
+{% include market-research-library/mrl-query.html %}
 
-## Search Parameters for market research library sources
+## Search Parameters for Market Research Library
 
 ### keyword
 
@@ -23,7 +23,7 @@ Returns market research reports for a match in the **description** or **title** 
 
 **_Example_**
 
-{% include mrl-query-keyword.html %}
+{% include market-research-library/mrl-query-keyword.html %}
 
 ### countries
 
@@ -33,17 +33,17 @@ Returns market research reports for a specific country based on [alpha-2 country
 
 **_Example_**
 
-{% include mrl-query-keyword-country.html %}
+{% include market-research-library/mrl-query-keyword-country.html %}
 
 ### industries
 
-Returns market research reports for a specific [controlled industry term]({{ site.baseurl }}/industry-list-market-research-library.html) or ITA Industry. Enter multiple terms by separating with a comma.
+Returns market research reports for specific [controlled industry terms]({{ site.baseurl }}/industry-list-market-research-library.html) or ITA Industry. Enter multiple terms by separating with a comma.
 
     {{ site.webservices_baseurl }}/market_research_library/search?api_key={your key}&industries={industry names}
 
 **_Example_**
 
-{% include mrl-query-keyword-industry.html %}
+{% include market-research-library/mrl-query-keyword-industry.html %}
 
 ### expiration_date
 
@@ -54,7 +54,7 @@ Returns entries based on their expiration date. Dates are filtered by comparing 
 
 **_Example_**
 
-{% include mrl-query-keyword-date.html %}
+{% include market-research-library/mrl-query-keyword-date.html %}
 
 ### size + offset
 
@@ -64,7 +64,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-{% include mrl-query-size.html %}
+{% include market-research-library/mrl-query-size.html %}
 
 ## Metadata
 

@@ -15,7 +15,7 @@ This endpoint will search across all four trade event sources.  To search a subs
 
 {% include trade-events/trade-events-query.html %}
 
-## Search Parameters for trade events sources
+## Search Parameters for Trade Events Sources
 
 ### keyword
 
@@ -29,7 +29,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 ### industries
 
-Returns trade events for a specific [controlled industry names]({{ site.baseurl }}/industry-list-trade-events.html). This method allows you to search for multiple industries (plural) separated by commas.
+Returns trade events for specific [controlled industry names]({{ site.baseurl }}/industry-list-trade-events.html). This method allows you to search for multiple industries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&industries={terms}
 
@@ -77,7 +77,7 @@ Searches only the events specified by the **Source** Abbreviation.
 
 {% include trade-events/trade-events-query-source.html %}
 
-Source Abbreviations as follows:
+Source Abbreviations are as follows:
 
 * State Department's Direct Line = **DL**
 * International Trade Administration = **ITA**
@@ -129,7 +129,7 @@ Recency information about each source queried is given in **sources_used** in th
 | source_last_updated | The most recent date and time the data changed. |
 | last_imported | The most recent date and time the data was imported. |
 
-The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
+The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists hourly.
 
 ### Search Performed At
 
@@ -161,29 +161,40 @@ Each event source returns a unique set of fields.  Not every source provides all
 | ------------------ | --------------------------------------- | ------------------ |
 | id                 | Unique identifier for event.             | DL, ITA, SBA, USTDA					|
 | event_name         | Name given for the event.                | DL, ITA, SBA, USTDA 					|
+| event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1-event-type-list.html)). | ITA, SBA, USTDA  |
+| start_date         | Start date of the event.              | ITA, SBA, USTDA              |
+| start_time         | The start time of the event.         | SBA, USTDA  |
+| end_date           | The date the event will end.        | ITA, SBA, USTDA              |
+| end_time         | The end time of the event.         | SBA, USTDA  |
+| time_zone         | The time zone of the event's location.        | SBA  |
+| cost               | Cost of the event.                       | ITA, SBA, USTDA   |
+| cost_currency      | The currency of the cost value.          | USTDA                   |
+| registration_link  | URL for the event's registration page.   | ITA, SBA, USTDA           |
+| registration_title | Title of the registration URL.           | ITA, USTDA                  |
 | description        | Text describing the event. 			   | DL, ITA, SBA, USTDA 					|
-| registration_link  | URL for the event's registration page.   | DL, ITA, SBA, USTDA 					|
-| start_date         | Start date of the event. 			       | ITA, SBA, USTDA 					    |
-| end_date           | The date the event will end.  		   | ITA, SBA, USTDA 					    |
-| industries         | Industry categories assigned to the event.    | ITA, SBA, USTDA						|
+| industries         | Industry categories assigned to the event.    | ITA, SBA, USTDA			|
+| ita_industries         | The ITA industries associated with the assigned industries.    | ITA, SBA, USTDA      |
+| url            | Link to the event's web page.       | DL, ITA, USTDA              |
+
 | venues             | Venues array. Fields in italics.    | ITA, SBA, USTDA						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _address_            | street address of the venue.     		   | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _city_               | city of the venue.                       | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _country_            | country of the venue.                    | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _state_              | state of the venue.                      | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _venue_              | name of the venue.                       | ITA, SBA, USTDA 						| 
-| contacts           | Contacts array. Fields in italics.              | ITA, SBA, USTDA 							|
-| &nbsp;&nbsp;&nbsp;&nbsp; _email_              | contact's email address.                 | ITA, SBA, USTDA 						| 
-| &nbsp;&nbsp;&nbsp;&nbsp; _first_name_         | contact's first name.                    | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _last_name_          | contact's last name.                     | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _person_title_       | contact's company title.                 | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _phone_              | contact's phone number.                  | ITA, SBA, USTDA 						|
-| &nbsp;&nbsp;&nbsp;&nbsp; _post_               | contact's location.                      | ITA, SBA, USTDA 						|
-| event_type         | The type of the event ([ITA Values]({{ site.baseurl }}/v1-event-type-list.html)). | ITA, SBA, USTDA 					    |
-| cost               | Cost of the event.                       | ITA, SBA, USTDA							|
-| url        		 | Link to the event's web page. 		   | DL, ITA 								|
+| &nbsp;&nbsp;&nbsp;&nbsp; _address_            | Street address of the venue.     		   | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _city_               | City of the venue.                       | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _country_            | Country of the venue.                    | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _state_              | State of the venue.                      | ITA, SBA, USTDA 						|
+| &nbsp;&nbsp;&nbsp;&nbsp; _venue_              | Name of the venue.                       | ITA, SBA, USTDA 						| 
+| contacts           | Contacts array. Fields in italics.              | ITA, SBA							|
+| &nbsp;&nbsp;&nbsp;&nbsp; _email_              | Contact's email address.                 | ITA, SBA			| 
+| &nbsp;&nbsp;&nbsp;&nbsp; _first_name_         | Contact's first name.                    | ITA, SBA			|
+| &nbsp;&nbsp;&nbsp;&nbsp; _last_name_          | Contact's last name.                     | ITA, SBA			|
+| &nbsp;&nbsp;&nbsp;&nbsp; _person_title_       | Contact's company title.                 | ITA, SBA			|
+| &nbsp;&nbsp;&nbsp;&nbsp; _phone_              | Contact's phone number.                  | ITA, SBA			|
+| &nbsp;&nbsp;&nbsp;&nbsp; _post_               | Contact's location.                      | ITA, SBA		|
+| first_name   |   The event contact's first name. |  USTDA  |
+| last_name    |   The event contact's last name.  |  USTDA  |
+| post         |   The event contact's location.   |  USTDA  |
+| person_title |   The event contact's title.  |  USTDA  |
+| phone        |  The event contact's phone number.   |  USTDA  |
+| email        |  The event contact's email address.    |  USTDA  |
 | source        	 | Agency providing the event information. 			   	   | DL, ITA, SBA								|
-| registration_title | Title of the registration URL.           | ITA, USTDA									|
-| cost_currency      | The currency of the cost value.          | USTDA										|
 | trade_regions      | The trade regions associated with the event.  |  ITA, SBA, USTDA |
 | world_regions      | The world regions associated with the event.  |  ITA, SBA, USTDA  |

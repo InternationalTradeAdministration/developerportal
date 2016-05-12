@@ -13,11 +13,11 @@ published: true
 
 {% include trade-leads/trade-leads-query.html %}
 
-## Search Parameters for all leads
+## Search Parameters for All Leads
 
 ### keyword
 
-Searches for a match within the **title**, **description**, **topic**, **tags**, and **procurement_organization** fields.
+Searches for a match within the **title**, **description**, **topic**, **tags**, **industry**, **ita_industries**, and **procurement_organization** fields.
 
     {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&q={term}
 
@@ -27,7 +27,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 ### industries
 
-Returns trade leads for a specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.
+Returns trade leads for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.
 
     {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&industries={term}
 
@@ -153,6 +153,7 @@ Canadian leads are subject to Canada's license located at:
 | Field	                               | Description  |
 | ------                               | -------------|
 | country                              | CA (Canada).  |
+| country_name                         | Full country name (Canada).  |
 | title                                | Title of the lead. |
 | reference_number                     | The lead's reference number. |
 | contract_number                      | Contract number for the opportunity. |
@@ -161,6 +162,7 @@ Canadian leads are subject to Canada's license located at:
 | publish_date_amended                 | Amended publish date for the lead. |
 | status                               | Status of the lead (note this API only shows open leads). |
 | industry                             | Industry category assigned to the opportunity. | 
+| ita_industries                       | ITA industry terms associated with the assigned industry. |
 | specific_location                    | Location of the opportunity. | 
 | notice_type                          | Type of contract. |
 | trade_agreement                      | Relevant trade agreement for the contract. | 
@@ -188,11 +190,13 @@ Canadian leads are subject to Canada's license located at:
 | Field	                               | Description  |
 | ------                               | -------------|  
 | notice_type                          | Type of contract. |
+| publish_date                         | Date lead was first posted.  |
 | procurement_organization             | Agency responsible for the contract. |
 | procurement_office                   | Office responsible of the contract. |
 | procurement_organization_address     | Address of the procurement organization. |
 | classification_code			       | Code that classifies the lead. |
 | industry                             | Industry tag associated with the lead. |
+| ita_industries                       | ITA industries associated with the assigned industry. |
 | procurement_office_address           | Address of the procurement office. |
 | title                                | Title of the lead. |
 | contract_number                      | Contract number for the opportunity. |
@@ -201,14 +205,15 @@ Canadian leads are subject to Canada's license located at:
 | description                          | Description of the opportunity. |
 | competitive_procurement_strategy     | Bidding criteria for respondents. |
 | url                                  | URL that pertains to the bid. |
-| specific_location                    | Location of the opportunity. | 
+| country                              | The country that pertains to the bid. |
+| country_name                         | The full name of the country field. |
 | specific_address                     | Address of the opportunity's location. | 
 | source                               | FBO. |
 | trade_regions                        | Trade Regions associated with the lead.  |
 | world_regions                        | World Regions associated with the lead.  |
 
 
-## State Department Description
+## State Department Leads
 
 The [State Department's](http://bids.state.gov/) Business Information Database System (BIDS) is a portal built to help U.S. businesses learn about significant international commercial opportunities.:
 
@@ -225,10 +230,12 @@ State Department leads are subject to their open government license located at:
 | id                                 | ID of the trade lead.|
 | lead_source                             | Source of the trade lead, typically an organization.|
 | country                            | The country associated with the lead. |
+| country_name                       | The full name of the country field. |
 | specific_location                  | Location of the opportunity. | 
 | title                              | Title of the lead. |
 | project_number                     | Number for the opportunity.|
 | industry                           | Industry tag associated with the lead. |
+| ita_industries                       | ITA industries associated with the assigned industry. |
 | project_size                       | Budget for project in U.S. dollars. |
 | description                        | Description of the opportunity. |
 | tags                               | Keywords associated with the opportunity.|
@@ -263,6 +270,7 @@ UK leads are subject to their open government license located at:
 | ------                          | -------------|  
 | id                              | ID of the trade lead.|
 | country                         | GB (Great Britain). |
+| country_name                    | Full name of the country (United Kingdom). |
 | reference_number                | Reference number for the opportunity. |
 | publish_date                    | Date lead was posted. | 
 | min_contract_value              | Minimum value of the lead (in pounds). |
@@ -275,6 +283,7 @@ UK leads are subject to their open government license located at:
 | description                     | Description of the opportunity. |
 | notice_type                     | Type of contract. |
 | industry                        | Industry tag associated with the lead. |
+| ita_industries                       | ITA industries associated with the assigned industry. |
 | specific_location               | Location of the opportunity. | 
 | source                          | UK. |
 | trade_regions                        | Trade Regions associated with the lead.  |
@@ -288,16 +297,17 @@ The [Millennium Challenge Corporation](https://mcc.gov/) provides procurement in
 
 | Field	                          | Description  |
 | ------                          | -------------|  
-| title                           | Title of the procurement opportunity.|
+| country                         | The country associated with the lead. |
+| country_name                     | The full name of the country field.  |
 | publish_date                    | Date the procurement was published. |
-| description                	  | Description of the procurement opportunity. |
 | url                    		  | Link to the full procurement notice. | 
-| country              			  | The country associated with the lead. |
 | categories              		  | Categories array. |
 | &nbsp;&nbsp;&nbsp;&nbsp; _item 1_                        | Items in the array contain “note” text such as “CPV” number. |
 | &nbsp;&nbsp;&nbsp;&nbsp; _item 2_                        | 				|
 | &nbsp;&nbsp;&nbsp;&nbsp; … 	      					  |  				|
 | &nbsp;&nbsp;&nbsp;&nbsp; _item n_                        | 			    |
+| title                           | Title of the procurement opportunity.|
+| description                     | Description of the procurement opportunity. |
 | funding_source                  | Millennium Challenge Account (MCA). |
 | source                     	  | MCA. |
 | trade_regions                        | Trade Regions associated with the lead.  |
@@ -321,12 +331,13 @@ The [Australian Government](https://www.tenders.gov.au/) provides procurement in
 | publish_date_amended            | Amended publish date for the lead. | 
 | status                          | Status of the lead (note this API only shows open leads). |
 | industry                        | Industry tag associated with the lead. |
+| ita_industries                  | ITA industry terms associated with the assigned industry.  |
 | project_number                  | Unique number assigned to the lead.  |
 | publish_date                    | Date lead was posted. |
 | start_date                      | Beginning date for the contract period.  |
 | end_date                        | Closing date for the contract period.  |
 | country                         | The country associated with the lead. | 
-| topic                           | Short description of the category that the lead falls under. |
+| country_name                         | The full name of the country. | 
 | url                             | URL that pertains to the bid. |
 | source                          | AUSTRALIA |
 | trade_regions                        | Trade Regions associated with the lead.  |
@@ -340,10 +351,12 @@ The [Australian Government](https://www.tenders.gov.au/) provides procurement in
 | Field                           | Description  |
 | ------                          | -------------|  
 | title                           | Title of the procurement opportunity. |
-| description                     | Description of the opportunity. |
 | publish_date                    | Date lead was posted. |
 | end_date                        | Closing date for the contract period.  |
+| description                     | Description of the opportunity. |
 | url                             | URL that pertains to the bid. |
 | source                          | USTDA |
+| country                         | The country associated with the lead. |
+| country_name                     | The full name of the country field.  |
 | trade_regions                        | Trade Regions associated with the lead.  |
 | world_regions                        | World Regions associated with the lead.  |

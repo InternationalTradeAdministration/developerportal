@@ -7,33 +7,43 @@ published: true
 
 # ITA Taxonomies API
 
-{% include taxonomies-tabs %}
+{% include taxonomies/taxonomies-tabs %}
 
 ## Resource URL
 
-{% include taxonomies-query.html %}
+{% include taxonomies/taxonomies-query.html %}
 
 ## Search Parameters for ITA Taxonomies
 
 ### keyword
 
-Returns taxonomy terms for a match within the **name** and **parent_names** fields.
+Returns taxonomy terms for a match within the **label** field.
 
     {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&q={keyword}
 
 **_Example_**
 
-{% include taxonomies-query-keyword.html %}
+{% include taxonomies/taxonomies-query-keyword.html %}
 
-### taxonomies
+### types
 
-Returns taxonomy terms that are members of the specified taxonomies.  Enter muliple values separated by commas.
+Returns terms that fall under the given high-level taxonomy types.  Enter multiple values separated by commas.  The possible values are Industries, Topics, Countries, Trade Regions, and World Regions.
 
-    {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&taxonomies={value1,value2}
+    {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&types={value1,value2}
 
 **_Example_**
 
-{% include taxonomies-query-taxonomies.html %}
+{% include taxonomies/taxonomies-query-types.html %}
+
+### labels
+
+Returns terms based on exact matching of the **label** field.  Enter multiple values separated by commas.
+
+    {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&labels={value1,value2}
+
+**_Example_**
+
+{% include taxonomies/taxonomies-query-labels.html %}
 
 ### size + offset
 
@@ -43,7 +53,7 @@ The **size** parameter allows you to configure the number of results to be retur
 
 **_Example_**
 
-{% include taxonomies-query-size.html %}
+{% include taxonomies/taxonomies-query-size.html %}
 
 ## Metadata
 
@@ -57,7 +67,7 @@ Recency information about each source queried is given in **sources_used** in th
 | source_last_updated | The most recent date and time the data changed. |
 | last_imported | The most recent date and time the data was imported. |
 
-The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists at the same time daily.
+The *source_last_updated* field reflects the most recent date and time we noticed that the issuing agency had updated the data. We check for updates and import lists hourly.
 
 ### Search Performed At
 
@@ -65,10 +75,13 @@ The *search_performed_at* field displays the date and time of the current search
 
 ## Return Values
 
-| Field             | Description                                                     |
-| ----------------- | --------------------------------------------------------------- |
-| id         		| The id assigned to the term.                                    |
-| name              | The name of the given taxonomy term.                            |
-| taxonomy          | The taxonomy under which the given term belongs.                |
-| parent_names      | The names of any parent terms, if any, for the given term.      |
+| Field                | Description                                                     |
+| -----------------    | --------------------------------------------------------------- |
+| id         		       | The id assigned to the term.                                    |
+| label                | The name of the given taxonomy term.                            |
+| type                 | The high level taxonomy type under which the given term belongs.      |
+| sub_class_of         | An array containing hashes with the id and label of each parent term.   |
+| annotations          | A hash containing key/value pairs of annotation properties.  |
+| datatype_properties  | A hash containing key/array pairs of datatype properties.  Each array contains id/label hashes.  |
+| object_properties    | A hash containing key/array pairs of object properties.  Each array contains id/label hashes.  |
 

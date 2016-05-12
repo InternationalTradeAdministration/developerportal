@@ -17,7 +17,7 @@
         "/consolidated_screening_list/search": {
             "get": {
                 "summary": "Consolidated Screening List API",
-                "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.\n",
+                "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",
                 "parameters": [
                     {
                         "name": "keyword",
@@ -38,7 +38,15 @@
                     {
                         "name": "countries",
                         "in": "query",
-                        "description": "Searches only entities whose country field matches the country code based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per entity.",
+                        "description": "Searches only entities whose country, nationalities, or citizenships fields match the country code based on ISO alpha-2 country codes. The country fields are found in the addresses and ids arrays. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per entity.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "address",
+                        "in": "query",
+                        "description": "Searches against fields in the addresses array.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -78,7 +86,7 @@
                     {
                         "name": "end_date",
                         "in": "query",
-                        "description": "Returns entries based on their end date.",
+                        "description": "Returns entries based on their end date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -86,7 +94,7 @@
                     {
                         "name": "issue_date",
                         "in": "query",
-                        "description": "Returns entries based on the issue dates of the ids array.",
+                        "description": "Returns entries based on the issue dates of the ids array. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
@@ -94,18 +102,10 @@
                     {
                         "name": "expiration_date",
                         "in": "query",
-                        "description": "Returns entries based on the expiration dates of the ids array.",
+                        "description": "Returns entries based on the expiration dates of the ids array. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
                         "required": false,
                         "type": "string",
                         "format": "string"
-                    },
-                    {
-                        "name": "address",
-                        "in": "query",
-                        "description": "Searches against fields in the addresses array.",
-                        "required": false,
-                        "type": "string",
-                        "format": "array"
                     },
                     {
                         "name": "size",
@@ -151,23 +151,23 @@
         "List": {
             "properties": {
                 "addresses": {
-                    "description": "Array of Entity's complete addresses.",
+                    "description": "Array of entity's complete addresses.",
                     "type": "string"
                 },
                 "name": {
-                    "description": "Entity's name",
+                    "description": "Entity's name.",
                     "type": "string"
                 },
                 "alt_names": {
-                    "description": "Alias names used by the entity",
+                    "description": "Alias names used by the entity.",
                     "type": "string"
                 },
                 "source_list_url": {
-                    "description": "Location of the original list",
+                    "description": "Location of the original list.",
                     "type": "string"
                 },
                 "source_information_url": {
-                    "description": "Information from the Source agency about the list",
+                    "description": "Information from the Source agency about the list.",
                     "type": "string"
                 },
                 "ids": {
@@ -179,7 +179,7 @@
                     "type": "string"
                 },
                 "dates_of_birth": {
-                    "description": "Entity's date of birth.",
+                    "description": "Entity's dates of birth.",
                     "type": "string"
                 },
                 "nationalities": {
@@ -187,7 +187,7 @@
                     "type": "string"
                 },
                 "places_of_birth": {
-                    "description": "Entity's place of birth.",
+                    "description": "Entity's places of birth.",
                     "type": "string"
                 },
                 "title": {
@@ -227,11 +227,39 @@
                     "type": "string"
                 },
                 "programs": {
-                    "description": "Agency program related to the entity on the list.",
+                    "description": "Agency programs related to the entity on the list.",
                     "type": "string"
                 },
                 "source": {
                     "description": "The name of the source list where this entity is listed.",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Classification of the entity.",
+                    "type": "string"
+                },
+                "call_sign": {
+                    "description": "Call sign of the vessel.",
+                    "type": "string"
+                },
+                "gross_registered_tonnage": {
+                    "description": "The gross weight in tons registered for the vessel.",
+                    "type": "string"
+                },
+                "gross_tonnage": {
+                    "description": "The gross weight in tons not-registered for the vessel.",
+                    "type": "string"
+                },
+                "vessel_flag": {
+                    "description": "Country flag of the vessel.",
+                    "type": "string"
+                },
+                "vessel_owner": {
+                    "description": "Owner/Operator of the vessel.",
+                    "type": "string"
+                },
+                "vessel_type": {
+                    "description": "Describes the type of vessel (ferry, bulk cargo, tug).",
                     "type": "string"
                 }
             }
