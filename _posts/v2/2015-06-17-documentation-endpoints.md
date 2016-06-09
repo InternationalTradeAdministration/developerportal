@@ -32,4 +32,4 @@ Finally, ITA provides [widgets](search-widgets.html) for several of its APIs.  T
 | [Business Service Providers](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/business-service-providers) | N/A | 
 | [ITA Taxonomies](ita-taxonomies.html) | [JSON](api/ita-taxonomies.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies) | N/A |
 | [De Minimis](de-minimis.html) | [JSON](api/de-minimis.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/de-minimis) | N/A | 
-
+| [Market Intelligence](market-intelligence.html) | [JSON](api/market-intelligence.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/market-intelligence) | N/A | 

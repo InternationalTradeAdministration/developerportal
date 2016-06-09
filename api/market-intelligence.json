@@ -1,0 +1,190 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Market Intelligence API",
+        "description": "",
+        "version": "2.0.0"
+    },
+    "host": "api.trade.gov",
+    "schemes": [
+        "https"
+    ],
+    "basePath": "/v2",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/market_intelligence/search": {
+            "get": {
+                "summary": "Market Intelligence API",
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "keyword",
+                        "in": "query",
+                        "description": "Searches for a match within the atom, references, section, summary, and title fields.  Note:  the atom field is searchable, but not returned in the JSON results.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "industries",
+                        "in": "query",
+                        "description": "Returns articles for a specific controlled industry term. This method allows you to search for multiple industries (plural) separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "topics",
+                        "in": "query",
+                        "description": "Returns articles for a specific topic term. This method allows you to search for multiple topics (plural) separated by commas.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "countries",
+                        "in": "query",
+                        "description": "Returns articles for a specific country based on ISO alpha-2 country codes. This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per event.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "trade_regions",
+                        "in": "query",
+                        "description": "Returns articles for a specific Trade Region.  Enter multiple values by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "world_regions",
+                        "in": "query",
+                        "description": "Returns articles for a specific World Region.  Enter multiple values by separating with a comma.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "sources",
+                        "in": "query",
+                        "description": "Searches only the articles specified by the Source Abbreviation.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "first_published_date",
+                        "in": "query",
+                        "description": "Returns articles based on their initial publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "last_published_date",
+                        "in": "query",
+                        "description": "Returns articles based on their most recent publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "size",
+                        "in": "query",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    }
+                ],
+                "tags": [
+                    "ITA"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/MarketIntelligence"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "MarketIntelligence": {
+            "properties": {
+                "id": {
+                    "description": "Unique identifier for the article.",
+                    "type": "string"
+                },
+                "source": {
+                    "description": "The source type of the article.",
+                    "type": "string"
+                },
+                "title": {
+                    "description": "The title of the article.",
+                    "type": "string"
+                },
+                "summary": {
+                    "description": "A short summary of the article's content.",
+                    "type": "string"
+                },
+                "first_published_date": {
+                    "description": "The date that the article of first published.",
+                    "type": "string"
+                },
+                "last_published_date": {
+                    "description": "The article's most recent publish date.",
+                    "type": "string"
+                },
+                "url": {
+                    "description": "",
+                    "type": "string"
+                },
+                "references": {
+                    "description": "",
+                    "type": "string"
+                },
+                "url_name": {
+                    "description": "A unique URL indentifier for the article.",
+                    "type": "string"
+                },
+                "industries": {
+                    "description": "The ITA industry terms associated with the article.",
+                    "type": "string"
+                },    
+                "topics": {
+                    "description": "The ITA topic terms associated with the article.",
+                    "type": "string"
+                }, 
+                "countries": {
+                    "description": "The countries relevant to the article.",
+                    "type": "string"
+                }, 
+                "trade_regions": {
+                    "description": "The trade regions relevant to the article.",
+                    "type": "string"
+                },  
+                "world_regions": {
+                    "description": "The world regions relevant to the article.",
+                    "type": "string"
+                }         
+            }
+        }
+    }
+}

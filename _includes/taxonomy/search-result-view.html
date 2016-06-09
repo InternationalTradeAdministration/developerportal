@@ -1,0 +1,26 @@
+<div id='top-bar'>
+  <button data-toggle="collapse" data-target="#json-collapsible">JSON</button>
+  <button onclick="getFullTerms()">View Full Taxonomy</button>
+  <button onclick="downloadTerms()">Download Taxonomy</button>
+
+  <form class="taxonomy-search-form" onsubmit="performSearch()">
+    <input type="text" id="query">
+    <input type="submit" value="Search">
+  </form> 
+</div>
+
+<div class="view">
+
+  <div id="json-collapsible" class="collapse">
+    <pre class='json'><%= JSON.stringify(obj, undefined, 4) %></pre>
+  </div>
+
+  <h2>Search Results</h2>
+
+  <ul>
+    <% _.each(obj, function(term) { %>
+      <li><a href=<%= '#' + term.id %> > <%= term.label %> </a></li>
+    <% }); %> 
+  </ul>
+
+</div>
