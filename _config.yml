@@ -14,6 +14,7 @@ markdown: kramdown
 webservices_baseurl: 'https://api.trade.gov'
 webservices_baseurl_users_signup: 'https://api.trade.gov/users/sign_up'
 apikey: 'd0lmowK8tvxPixAfm9sKOd_f'
+permalink: pretty
 
 left_nav_top_apis:
 - text: Consolidated Screening List
@@ -32,6 +33,8 @@ left_nav_api_resources:
   url: api-list.html
 - text: Search Widgets
   url: search-widgets.html
+- text: ITA Taxonomy
+  url: taxonomy
 
 mobile_nav_top_apis:
 - text: Consolidated Screening List
