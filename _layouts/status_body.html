@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+
+  <body>
+  <script src="{{ site.baseurl }}/javascripts/iframeResizer.js"></script>
+
+  {% include topbar.html %}
+    <div class="container">
+    <div class="wrapper">
+    {% include header.html %}
+      <section id="status-section">
+      <div id="body-content">
+        {{ content }}
+        </div>
+        </section>
+        {% include footer.html %}
+    </div>
+    </div>
+  </body>
+</html>

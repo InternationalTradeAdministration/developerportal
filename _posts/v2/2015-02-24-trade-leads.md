@@ -59,7 +59,7 @@ Returns trade leads for a specific Trade Region.  Enter multiple values by separ
 
 Returns trade leads for a specific World Region.  Enter multiple values by separating with a comma.
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&trade_regions={Region 1,Region 2}
+    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&world_regions={Region 1,Region 2}
 
 **_Example_**
 
