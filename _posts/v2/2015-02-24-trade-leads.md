@@ -17,9 +17,9 @@ published: true
 
 ### keyword
 
-Searches for a match within the **title**, **description**, **topic**, **tags**, **industry**, **ita_industries**, and **procurement_organization** fields.
+Searches for a match within the **title**, **description**, **industry**, and **procurement_organization** fields.
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -29,7 +29,7 @@ Searches for a match within the **title**, **description**, **topic**, **tags**,
 
 Returns trade leads for specific controlled industry terms. This method allows you to search for multiple industries (plural) separated by commas.
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&industries={term}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&industries={term}
 
 **_Example_**
 
@@ -39,7 +39,7 @@ Returns trade leads for specific controlled industry terms. This method allows y
 
 Returns trade leads for a specific **country** based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm).  This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per lead. 
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&countries={country code}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&countries={country code}
 
 **_Example_**
 
@@ -49,7 +49,7 @@ Returns trade leads for a specific **country** based on [ISO alpha-2 country cod
 
 Returns trade leads for a specific Trade Region.  Enter multiple values by separating with a comma.
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&trade_regions={Region 1,Region 2}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&trade_regions={Region 1,Region 2}
 
 **_Example_**
 
@@ -59,7 +59,7 @@ Returns trade leads for a specific Trade Region.  Enter multiple values by separ
 
 Returns trade leads for a specific World Region.  Enter multiple values by separating with a comma.
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&world_regions={Region 1,Region 2}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&world_regions={Region 1,Region 2}
 
 **_Example_**
 
@@ -69,7 +69,7 @@ Returns trade leads for a specific World Region.  Enter multiple values by separ
 
 Searches only the leads specified by the **Source** field.
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&sources={lead source}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&sources={lead source}
 
 Possible values of the source field:  CANADA, FBO, STATE, UK, MCA, AUSTRALIA, USTDA
 
@@ -82,7 +82,7 @@ Possible values of the source field:  CANADA, FBO, STATE, UK, MCA, AUSTRALIA, US
 Returns leads based on their publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&publish_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&publish_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -93,7 +93,7 @@ Returns leads based on their publish date.  Dates are filtered by comparing them
 Returns leads based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -104,7 +104,7 @@ Returns leads based on their end date.  Dates are filtered by comparing them aga
 Returns leads based on their amended publish date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&publish_date_amended={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&publish_date_amended={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -114,7 +114,7 @@ Returns leads based on their amended publish date.  Dates are filtered by compar
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
-    {{ site.webservices_baseurl }}/trade_leads/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+    {{ site.webservices_baseurl }}/v1/trade_leads/search?api_key={your key}&size={1 to 100}&offset={1 to n}
 
 **_Example_**
 
