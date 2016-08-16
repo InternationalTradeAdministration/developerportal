@@ -47,26 +47,6 @@ Returns trade events for a specific country based on [ISO alpha-2 country codes]
 
 {% include trade-events/trade-events-query-country.html %}
 
-### trade_regions
-
-Returns trade events for a specific Trade Region.  Enter multiple values by separating with a comma.
-
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&trade_regions={Region 1,Region 2}
-
-**_Example_**
-
-{% include trade-events/trade-events-query-trade-regions.html %}
-
-### world_regions
-
-Returns trade events for a specific World Region.  Enter multiple values by separating with a comma.
-
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&trade_regions={Region 1,Region 2}
-
-**_Example_**
-
-{% include trade-events/trade-events-query-world-regions.html %}
-
 ### sources
 
 Searches only the events specified by the **Source** Abbreviation.
@@ -196,5 +176,3 @@ Each event source returns a unique set of fields.  Not every source provides all
 | phone        |  The event contact's phone number.   |  USTDA  |
 | email        |  The event contact's email address.    |  USTDA  |
 | source        	 | Agency providing the event information. 			   	   | DL, ITA, SBA								|
-| trade_regions      | The trade regions associated with the event.  |  ITA, SBA, USTDA |
-| world_regions      | The world regions associated with the event.  |  ITA, SBA, USTDA  |
