@@ -21,7 +21,7 @@ This endpoint will search across all four trade event sources.  To search a subs
 
 Searches for a match within the **registration_title**, **description**, **event_name**, **industries**, **city**, **venues.city**, **venues.state**, **venues.country**, **contacts.first_name**, **contacts.last_name**, and **contacts.person_title** fields.
 
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&q={term}
+    {{ site.webservices_baseurl }}/v1/trade_events/search?api_key={your key}&q={term}
 
 **_Example_**
 
@@ -31,7 +31,7 @@ Searches for a match within the **registration_title**, **description**, **event
 
 Returns trade events for specific [controlled industry names]({{ site.baseurl }}/industry-list-trade-events.html). This method allows you to search for multiple industries (plural) separated by commas.
 
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&industries={terms}
+    {{ site.webservices_baseurl }}/v1/trade_events/search?api_key={your key}&industries={terms}
 
 **_Example_**
 
@@ -41,7 +41,7 @@ Returns trade events for specific [controlled industry names]({{ site.baseurl }}
 
 Returns trade events for a specific country based on [ISO alpha-2 country codes](http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements.htm). This method allows you to search for multiple countries (plural) separated by commas but will only return one country (singular) per event.
 
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&countries={country code}
+    {{ site.webservices_baseurl }}/v1/trade_events/search?api_key={your key}&countries={country code}
 
 **_Example_**
 
@@ -70,7 +70,7 @@ Source Abbreviations are as follows:
 Returns events based on their start date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&start_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v1/trade_events/search?api_key={your key}&start_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -81,7 +81,7 @@ Returns events based on their start date.  Dates are filtered by comparing them 
 Returns events based on their end date.  Dates are filtered by comparing them against an inclusive range, which must be entered with the following format:  YYYY-mm-dd TO YYYY-mm-dd.  Searching on a single date can be done by entering the same value for the start and end of the range.
 
 
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
+    {{ site.webservices_baseurl }}/v1/trade_events/search?api_key={your key}&end_date={YYYY-mm-dd TO YYYY-mm-dd}
 
 **_Example_**
 
@@ -91,7 +91,7 @@ Returns events based on their end date.  Dates are filtered by comparing them ag
 
 The **size** parameter allows you to configure the number of results to be returned up to a maximum of 100. The **offset** parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.
 
-    {{ site.webservices_baseurl }}/trade_events/search?api_key={your key}&size={1 to 100}&offset={1 to n}
+    {{ site.webservices_baseurl }}/v1/trade_events/search?api_key={your key}&size={1 to 100}&offset={1 to n}
 
 **_Example_**
 
