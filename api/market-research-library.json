@@ -97,7 +97,7 @@
                     "description": "Unique identifier assigned to the report.",
                     "type": "string"
                 },
-                "countries": {
+                "country": {
                     "description": "Country category(ies) assigned to the report.",
                     "type": "string"
                 },
@@ -109,12 +109,12 @@
                     "description": "Date when the report is no longer valid.",
                     "type": "string"
                 },
-                "industries": {
-                    "description": "Industry categories assigned to the report.",
+                 "source_industry": {
+                    "description": "The industries associated with the report.",
                     "type": "string"
                 },
-                 "ita_industries": {
-                    "description": "The ITA industries associated with the report.",
+                "industry": {
+                    "description": "Industry categories assigned to the report.",
                     "type": "string"
                 },
                 "report_type": {
@@ -127,6 +127,10 @@
                 },
                 "url": {
                     "description": "URL for the report.",
+                    "type": "string"
+                },
+                "click_url": {
+                    "description": "Clickable link to the report.",
                     "type": "string"
                 }
             }

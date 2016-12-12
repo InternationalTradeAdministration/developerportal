@@ -16,3 +16,8 @@
 .taxonomy-search-form{
   float: right;
 }
+
+.ui-widget.ui-autocomplete {
+  font: 16px/1.4 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}

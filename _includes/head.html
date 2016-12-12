@@ -25,5 +25,14 @@
       ga('create', 'UA-27059663-3', 'trade.gov');
       ga('send', 'pageview');
     </script>
-    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    {% for css_asset in page.remote_css_assets %}
+    <link rel="stylesheet" href="{{ css_asset }}">
+    {% endfor %}
+
+    {% for css_asset in page.css_assets %}
+    <link rel="stylesheet" href="{{ site.baseurl }}{{ css_asset }}">
+    {% endfor %}
   </head>
