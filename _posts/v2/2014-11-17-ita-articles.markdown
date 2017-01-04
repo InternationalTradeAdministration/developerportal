@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 permalink: "ita-trade-articles.html"
 title: ITA Trade Articles API
 layout: body
