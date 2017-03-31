@@ -56,6 +56,16 @@ Returns entries based on the partner_start_year field.  Years are specified as a
 
 {% include tariff-rates/tariff-rates-query-partner-startyear.html %}
 
+### reporter_names
+
+Returns entries based on the reporter_names field.  Reporter names are specified as a comma-delimited list.
+
+    {{ site.webservices_baseurl }}/v1/tariff_rates/search?api_key={your key}&reporter_names={first+reporter+name,second+reporter+name}
+
+**_Example_**
+
+{% include tariff-rates/tariff-rates-query-reporter-names.html %}
+
 ### reporter_start_years
 
 Returns entries based on the reporter_start_year field.  Years are specified as a comma-delimited list.
