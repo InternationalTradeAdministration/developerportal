@@ -16,6 +16,9 @@ webservices_baseurl_users_signup: 'https://api.trade.gov/users/sign_up'
 apikey: 'd0lmowK8tvxPixAfm9sKOd_f'
 permalink: pretty
 
+gems:
+- jekyll-coffeescript
+
 left_nav_top_apis:
 - text: Consolidated Screening List
   url: consolidated-screening-list.html
