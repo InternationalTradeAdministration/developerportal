@@ -103,16 +103,9 @@ blockquote {
 }
 
 #info {
-  max-width: 550px;
   display: inline-block;
   float: left;
-  padding-right: 10px;
-}
-
-#side {
-  width: 250px;
-  display: inline-block;
-  float: left;
+  padding-right: 30px;
 }
 
 code, pre {
@@ -382,10 +375,6 @@ section p a {
 
 .content {
   display: none;
-}
-
-#side h3 {
-  color: #A9A9A9;
 }
 
 .news {
@@ -709,16 +698,6 @@ display:none;
   #sect2 {
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  #info {
-    width: 100%;
-    padding-right: 40px;
-  }
-
-  #side {
-    width: 100%;
-    padding-right: 40px;
   }
 
   /* Force table to not be like tables anymore */

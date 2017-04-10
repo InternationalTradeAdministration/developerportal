@@ -93,12 +93,6 @@ blockquote {
   padding-right: 25px;
 }
 
-#side {
-  width: 200px;
-  display: inline-block;
-  float: left;
-}
-
 code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color: #333;

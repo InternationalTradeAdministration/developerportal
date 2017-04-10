@@ -14,40 +14,26 @@
 
     <h2><%- term.label %></h2>
 
-    <h3>Sub Class of</h3>
-      <ul>
-        <% _.each(term.sub_class_of, function(parent) { %>
-          <li><a href=<%= '#' + parent.id %> > <%= parent.label %> </a></li>
-        <% }); %> 
-      </ul>
-
-    <h3>Annotations</h3>
-      <ul>
-        <% _.each(term.annotations, function(value, key) { %>
+  <h3>Term Information</h3>
+    <ul>
+      <% _.each(term.annotations, function(object) { %>
+        <% _.each(object, function(value, key) { %>
           <li> <b><%= key %></b>:  <%= value %> </a> </li>
-        <% }); %> 
-      </ul>
-
-    <h3>Datatype Properties</h3>
-      <% _.each(term.datatype_properties, function(value, key) { %>
-        <h4><%= key %></h4>
-        <ul>
-          <% _.each(value, function(property) { %>
-            <li><%= property %></li>
-          <% }); %> 
-        </ul>
+        <% }); %>
       <% }); %> 
+    </ul>
 
-    <h3>Object Properties</h3>
-      <% _.each(term.object_properties, function(value, key) { %>
-        <h4><%= key %></h4>
+  <h3>Term Relationships</h3>
+    <% _.each(term.object_properties, function(object) { %>
+      <% _.each(object, function(value, key) { %>
+        <h4><%= key %>:</h4>
         <ul>
           <% _.each(value, function(property) { %>
             <li><a href=<%= '#' + property.id %> > <%= property.label %> </a></li>
           <% }); %> 
         </ul>
       <% }); %> 
-
+    <% }); %> 
 
   <% }); %> 
 </div>

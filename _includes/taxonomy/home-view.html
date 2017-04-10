@@ -1,0 +1,44 @@
+<div id='top-bar'>
+  <button data-toggle="collapse" data-target="#json-collapsible">JSON</button>
+  <button onclick="getFullTerms()">View Full Taxonomy</button>
+  <button onclick="downloadTerms()">Download Taxonomy</button>
+
+  <form class="taxonomy-search-form" onsubmit="performSearch()">
+    <input type="text" id="query">
+    <input type="submit" value="Search">
+  </form> 
+</div>
+
+<div class="view">
+
+  <div id="json-collapsible" class="collapse">
+    <pre class='json'><%= JSON.stringify(obj, undefined, 4) %></pre>
+  </div>
+
+  <h2>Thesaurus of International Trade Terms</h2>
+
+  <p>
+    The International Trade Administration’s (ITA) Thesaurus of International Trade Terms is a controlled and structured list of words and phrases used to tag and index information found on the ITA’s websites and databases.  The thesaurus covers all subjects related to international trade and foreign investment with particular emphasis on exporting, trade promotion, market access and enforcement and compliance.
+  </p>
+
+  <p>
+    The thesaurus is structured into six domains or micro-thesauri:
+  </p>
+
+  <ul>
+    <li><a href='#RBBed4Voz7iS3nUECA3yzNM'> Trade Topics </a></li>
+    <li><a href='#R79uIjoQaQ9KzvJfyB1H7Ru'> Industries </a></li>
+    <li><a href='#R8W91u35GBegWcXXFflYE4'> Countries </a></li>
+    <li><a href='#R8cndKa2D8NuNg7djwJcXxB'> World Regions </a></li>
+    <li><a href='#R7ySyiNxcfeZ6bfNjhocNun'> Trade Regions </a></li>
+    <li><a href='#RBqqOvJ9rXMcmc5SDhGjWTp'> U.S. Trade Initiatives </a></li>
+  </ul>
+
+  <p>
+    The thesaurus is available to the software developer community as a JSON endpoint. 
+  </p>
+
+  <p>
+    The thesaurus was developed by ITA’s staff of international trade specialists, consulting several authoritative sources and vocabularies covering the language of international trade and investment.
+  </p>
+</div>
