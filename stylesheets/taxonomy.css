@@ -10,9 +10,11 @@
   margin-top: 10px;
 }
 
-#top-bar button {
-  padding: 2px;
+#top-bar {
+  display: block;
+  overflow: auto;
 }
+
 .taxonomy-search-form{
   float: right;
 }
@@ -20,4 +22,12 @@
 .ui-widget.ui-autocomplete {
   font: 16px/1.4 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
+}
+
+#taxonomy-content a {
+  color: #08C;
+}
+
+#taxonomy-content h2 {
+  margin-top: 10px;
 }

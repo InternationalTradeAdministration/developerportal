@@ -3,10 +3,6 @@ function performSearch(){
   window.location.assign("#search/" + encodeURIComponent(query_string))
 }
 
-function getFullTerms(){
-  window.location.assign("#full_taxonomy")
-}
-
 function downloadTerms(){
   var query = '&size=-1';
   app.termCollection.update_query(query);
