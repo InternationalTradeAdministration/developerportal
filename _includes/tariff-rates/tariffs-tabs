@@ -5,7 +5,7 @@
 <input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 
 	<div class="pane" id="step1">
-		<p>The Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA).  When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products.  A tariff is a tax that a company must pay a foreign country when shipping a product to that country.  Typically the FTA tariffs rates decline over several years.</p>
+		<p>The FTA Tariff Rates API provides data about each country with whom the United States has a Free Trade Agreement (FTA).  When the U.S. enters into an FTA with a foreign government, it negotiates lower tariff rates with that government for a wide variety of products.  A tariff is a tax that a company must pay a foreign country when shipping a product to that country.  Typically the FTA tariffs rates decline over several years.</p>
 
 		<p>The API provides information on tariff rates for the following countries: Australia, Bahrain, Chile, Colombia, Costa Rica, Dominican Republic, El Salvador, Guatemala, Honduras, Morocco, Nicaragua, Oman, Panama, Peru, Singapore, and South Korea.  Products are indicated by their <a href="http://www.export.gov/faq/eg_main_017509.asp">HS-6 code</a>.</p>
 

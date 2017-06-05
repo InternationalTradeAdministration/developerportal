@@ -1,11 +1,11 @@
 ---
 permalink: "tariff-rates.html"
 layout: body
-title: Tariff Rates API
+title: FTA Tariff Rates API
 published: true
 ---
 
-# Tariff Rates API
+# FTA Tariff Rates API
 
 {% include tariff-rates/tariffs-tabs %}
 

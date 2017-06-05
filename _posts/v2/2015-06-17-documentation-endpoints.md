@@ -24,7 +24,7 @@ Finally, ITA provides [widgets](search-widgets.html) for several of its APIs.  T
 | [Consolidated Screening List](consolidated-screening-list.html) | [JSON](api/consolidated-screening-lists.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries) | [Code](search-widgets.html) | 
 | [Trade Events](trade-events.html) | [JSON](api/trade-events.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-events) | [Code](search-widgets.html) | 
 | [Trade Leads](trade-leads.html) | [JSON](api/trade-leads.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-leads) | [Code](search-widgets.html) | 
-| [Tariff Rates](tariff-rates.html) | [JSON](api/tariff-rates.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/tariff-rates) | N/A | 
+| [FTA Tariff Rates](tariff-rates.html) | [JSON](api/tariff-rates.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/tariff-rates) | N/A | 
 | [FAQs on Exporting](faqs-exporting.html) | [JSON](api/ita-faqs.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-faqs) | N/A | 
 | [ITA Offices & Centers](ita-office-locations.html) | [JSON](api/ita-office-locations.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-office-locations) | [Code](search-widgets.html) |  
 | [Zip Code to USEAC](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) | [Code](search-widgets.html) | 

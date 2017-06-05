@@ -108,6 +108,14 @@
                         "format": "string"
                     },
                     {
+                        "name": "sort",
+                        "in": "query",
+                        "description": "The sort parameter returns entries sorted on the given field.  Possible fields are name, start_date, issue_date, end_date, and expiration date.  Enter the field name followed by a colon, then asc (ascending) or desc (descending).",
+                        "required": false,
+                        "type": "string",
+                        "format": "string"
+                    },
+                    {
                         "name": "size",
                         "in": "query",
                         "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
