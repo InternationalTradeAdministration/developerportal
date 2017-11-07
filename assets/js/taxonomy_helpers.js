@@ -49,7 +49,11 @@ var annotation_mapping = {
   definition: "Definition",
   scope_note: "Usage",
   note: "Note",
-  source: "Term Source"
+  source: "Term Source",
+  iso_alpha_2: "ISO 3166 Alpha-2",
+  iso_alpha_3: "ISO 3166 Alpha-3",
+  iso_numeric: "ISO 3166 Numeric",
+  iso_short_name: "ISO 3166 Short Name"
 };
 
 var object_property_mapping = {
