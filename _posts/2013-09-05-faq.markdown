@@ -49,9 +49,7 @@ When you are ready to release your app, please **XXX...** -->
 ## General
 
 ### Did something change?  My app is not working.
-The ITA API is constantly evolving and we will continually make updates. If you have an application that's no longer working, visit the [Change Log](change-log.html) page to see if any updates are affecting it.
-
-If you have specific questions please email our [Data Services address](mailto:DataServices@trade.gov) or [post an issue on our GitHub account](https://github.com/InternationalTradeAdministration/developerportal/issues).
+The ITA API is constantly evolving and we will continually make updates. If you have specific questions please email our [Data Services address](mailto:DataServices@trade.gov) or [post an issue on our GitHub account](https://github.com/InternationalTradeAdministration/developerportal/issues).
 
 ### What sort of load are ITA's servers able to handle?
 ITA uses cloud computing, so there is no impact on ITA’s infrastructure.

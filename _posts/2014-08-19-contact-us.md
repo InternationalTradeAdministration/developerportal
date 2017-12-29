@@ -18,4 +18,4 @@ Let us know if you would like to become an **API tester**.  We are working on ne
 Visit our [Issues page](https://github.com/InternationalTradeAdministration/developerportal/issues) if you would like to report a bug, enhancement, or question.  Someone from the Data Services group will get back to you as soon as possible.
 
 **Get Notifications About Updates**
-The [Change Log](change-log.html) has the most recent updates to the APIs so please visit it frequently.  You can also update your [Notifications in GitHub](https://github.com/settings/notifications) to [watch](https://github.com/watching) the various pages on the Portal that you're interested in.
+You can update your [Notifications in GitHub](https://github.com/settings/notifications) to [watch](https://github.com/watching) the various pages on the Portal that you're interested in.
