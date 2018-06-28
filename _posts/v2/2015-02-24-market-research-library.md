@@ -9,6 +9,29 @@ layout: body
 
 {% include market-research-library/mrl-tabs %}
 
+The [Market Research Library API](https://developer.export.gov/market-research-library.html) is scheduled for retirement on *October 1, 2018*.
+
+To continue serving your market intelligence needs, we would like to introduce you to the [Market Intelligence API](https://developer.export.gov/market-intelligence.html). The Market Intelligence API provides metadata for [Country Commercial Guides](https://www.export.gov/ccg) and other market insight reports that are produced by ITA’s trade experts. ITA Commercial Officers that are stationed around the world publish these authoritative reports in conjunction with Foreign Service Officers from the State Department.
+
+
+Similar to the Market Research Library API, the Market Intelligence API provides metadata about and links to the reports – not the reports themselves. With the Market Intelligence API, you can still limit your results set based on:
+
+ * keyword,
+ * countries, and
+ * industries
+
+
+The Market Intelligence API gives you additional control with the ability to also limit your results set by:
+
+ * trade_regions,
+ * world_regions,
+ * first_published_date, and
+ * last_published_date
+
+
+If you have any questions about this transition or the Market Intelligence API, please reach out to us at [DataServices@trade.gov](mailto:DataServices@trade.gov).
+
+
 ## Resource URL
 
 {% include market-research-library/mrl-query.html %}

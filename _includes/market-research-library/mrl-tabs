@@ -5,8 +5,8 @@
 <input id="step3radio" name="radio" type="radio" /><label class="last" for="step3radio"><img src="{{ site.baseurl }}/images/ideas.png" alt="ideas">Ideas for Using the Data</label>
 	
 	<div class="pane" id="step1">
-		<p>The Market Research Library API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.  ITA commercial officers that are stationed around the world, publish these authoritative reports in conjunction with Foreign Service officers from the State Department.</p>
-		<p>The API only provides the metadata and links to the reports – not the reports themselves.  The output format for this API is JSON. This data set is updated daily. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/market-research-library-entries">demo search app</a>.  Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
+    <p>The Market Research Library API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.  ITA commercial officers that are stationed around the world, publish these authoritative reports in conjunction with Foreign Service officers from the State Department.</p>
+    <p>The API only provides the metadata and links to the reports – not the reports themselves.  The output format for this API is JSON. This data set is updated daily. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/market-research-library-entries">demo search app</a>.  Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.</p>
 	</div>
 	<div class="pane" id="step2">
 		<p>U.S. businesses can use these reports to plan their market-entry the right way.  The reports help them learn their product’s potential in a given market and the best prospects for success.</p>
@@ -17,5 +17,4 @@
 		<p>Use these reports to augment other market intelligence that you provide for your customers.  For example, WebPort Global provides access to ITA’s reports alongside market research from the World Trade Center of Dublin, the World Bank Group, and the Small Business Administration.</p>
 		<p>The API provides methods for accessing the reports by country or by industry.  Therefore, you can display links to specific reports depending upon which country or industry your customer is interested in.  The API also provides access to two years worth of reports so you may want to use the expiration_date field to display only the most recent.</p>
 	</div>
-
 </div>
