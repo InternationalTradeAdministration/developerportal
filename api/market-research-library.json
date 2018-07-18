@@ -54,7 +54,7 @@
                     {
                         "name": "size",
                         "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100. Note: To download the entire Market Research Library in one call set size=-1",
+                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
                         "required": false,
                         "type": "string",
                         "format": "string"
