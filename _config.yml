@@ -37,7 +37,7 @@ left_nav_api_resources:
 - text: Search Widgets
   url: search-widgets.html
 - text: ITA Taxonomy
-  url: taxonomy
+  url: taxonomy.html
 
 mobile_nav_top_apis:
 - text: Consolidated Screening List
