@@ -1,10 +1,10 @@
 ---
 published: true
-permalink: "/industry-list-market-research-library.html"
+permalink: "/industry-list.html"
 layout: body
 ---
 
-## Industry Terms for Market Research Library
+## Industry Terms
 
 Aerospace &amp; Defense
 

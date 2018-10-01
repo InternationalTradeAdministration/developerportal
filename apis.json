@@ -3,7 +3,6 @@
   "description": "This is an inventory of APIs available at the International Trade Administration",
   "image": "http://developer.trade.gov/images/trade_url_white2.png",
   "tags": [
-    "Market Research Library",
     "Consolidated Screening List",
     "Trade Events",
     "Trade Leads",
@@ -17,45 +16,6 @@
   "url": "http://developer.trade.gov/api.json",
   "specificationVersion": "0.14",
   "apis": [
-    {
-      "name": "Market Research Library",
-      "description": "The Market Research Library API provides metadata for country and industry reports that are produced by ITA’s trade experts and are available in ITA’s online market research library.",
-      "image": "http://developer.trade.gov/images/trade_url_white2.png",
-      "humanURL": "http://developer.trade.gov/market-research-library.html",
-      "baseURL": "http://developer.trade.gov/market-research-library.html",
-      "tags": [
-        "Trade",
-        "ITA",
-        "Market Research Reports",
-        "Best Market Reports",
-        "Country Commercial Guides",
-        "API"
-      ],
-      "properties": [
-       {
-          "type": "X-Portal",
-          "url": "http://developer.trade.gov/market-research-library.html"
-        },
-        {
-          "type": "X-Documentation",
-          "url": "http://developer.trade.gov/market-research-library.html"
-        },
-        {
-          "type": "Swagger",
-          "url": "http://developer.trade.gov.apievangelist.com/definitions/market-research-library.json"
-        },
-        {
-          "type": "TermsOfService",
-          "url": "http://developer.trade.gov/tos.html"
-        }
-      ],
-      "contact": [
-        {
-          "FN": "Market Research Library API",
-          "email": "DataServices@trade.gov"
-        }
-      ]
-    },
     {
       "name": "Consolidated Screening List",
       "description": "The Consolidated Screening List API consolidates eleven export screening lists of the Departments of Commerce, State and the Treasury into a single data feed as an aid to industry in conducting electronic screens of potential parties to regulated transactions.",

@@ -20,7 +20,6 @@ Finally, ITA provides [widgets](search-widgets.html) for several of its APIs.  T
 | Endpoint HTML Documentation	| JSON Documentation | Explore the Data | Widget Code
 | -------------| -------------|-------------|-------------|
 | All endpoints | [JSON](api/trade-apis.json) | N/A |  N/A | 
-| [Market Research Library](market-research-library.html) | [JSON](api/market-research-library.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/market-research-library-entries) | N/A | 
 | [Consolidated Screening List](consolidated-screening-list.html) | [JSON](api/consolidated-screening-lists.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries) | [Code](search-widgets.html) | 
 | [Trade Events](trade-events.html) | [JSON](api/trade-events.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-events) | [Code](search-widgets.html) | 
 | [Trade Leads](trade-leads.html) | [JSON](api/trade-leads.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-leads) | [Code](search-widgets.html) | 

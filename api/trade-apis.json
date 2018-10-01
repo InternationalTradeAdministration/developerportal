@@ -14,81 +14,6 @@
         "application/json"
     ],
     "paths": {
-        "/market_research_library/search": {
-            "get": {
-                "summary": "Market Research Library API",
-                "description": "The Market Research Library API provides metadata for country and industry reports that are produced by ITA's trade experts and are available in ITA's online market research library. ITA commercial officers that are stationed around the world, publish these authoritative reports in conjunction with Foreign Service officers from the State Department.",
-                "parameters": [
-                    {
-                        "name": "keyword",
-                        "in": "query",
-                        "description": "Returns market research reports for a match in the description or title fields.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
-                    },
-                    {
-                        "name": "countries",
-                        "in": "query",
-                        "description": "Returns market research reports for a specific country based on ISO alpha-2 country codes. Enter multiple terms by separating with a comma.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
-                    },
-                    {
-                        "name": "industries",
-                        "in": "query",
-                        "description": "Returns market research reports for specific controlled industry terms. Enter multiple terms by separating with a comma.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
-                    },
-                    {
-                        "name": "expiration_date",
-                        "in": "query",
-                        "description": "Returns entries based on their expiration date. Dates are filtered by comparing them against an inclusive range, which must be entered with the following format YYYY-mm-dd TO YYYY-mm-dd. Searching on a single date can be done by entering the same value for the start and end of the range.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
-                    },
-                    {
-                        "name": "size",
-                        "in": "query",
-                        "description": "The size parameter allows you to configure the number of results to be returned up to a maximum of 100.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
-                    },
-                    {
-                        "name": "offset",
-                        "in": "query",
-                        "description": "The offset parameter defines the offset from the first result you want to fetch. Unless specified the API returns 10 results at a time.",
-                        "required": false,
-                        "type": "string",
-                        "format": "string"
-                    }
-                ],
-                "tags": [
-                    "Trade",
-                    "Exporting",
-                    "ITA",
-                    "International",
-                    "Market Research",
-                    "Market Intelligence"
-                ],
-                "responses": {
-                    "200": {
-                        "description": "Successful Report Response",
-                        "schema": {
-                            "type": "array",
-                            "items": {
-                                "$ref": "#/definitions/Report"
-                            }
-                        }
-                    }
-                }
-            }
-        },
         "/consolidated_screening_list/search": {
             "get": {
                 "summary": "Consolidated Screening List API",
@@ -1239,7 +1164,7 @@
                     "type": "string"
                 },
                 "report_type": {
-                    "description": "The report type can either be CCG, Best Market Report, or Market Research Report.",
+                    "description": "The report type can either be CCG or Best Market Report.",
                     "type": "string"
                 },
                 "title": {

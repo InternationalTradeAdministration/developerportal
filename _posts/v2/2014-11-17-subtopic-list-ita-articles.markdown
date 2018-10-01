@@ -26,7 +26,7 @@ Certificate of Origin
 
 Schedule B and HS Number
 
-Market Research
+Market Intelligence
 
 Trade Data and Analysis
 

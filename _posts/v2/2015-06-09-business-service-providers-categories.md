@@ -64,7 +64,7 @@ Legal Services
 
 Manufacturing and Industrial Production Services
 
-Market Research
+Market Intelligence
 
 Marketing, Public Relations and Sales
 
