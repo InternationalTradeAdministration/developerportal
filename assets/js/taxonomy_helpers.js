@@ -1,8 +1,3 @@
-function performSearch(){
-  var query_string = $('#query').val();
-  window.location.assign("#search/" + encodeURIComponent(query_string))
-}
-
 function downloadTerms(){
   var query = '&size=-1';
   app.termCollection.update_query(query);
@@ -32,7 +27,7 @@ function sortByLabel(object_properties) {
 }
 
 function transformLabels(obj, mapping) {
-  transformed = []; 
+  transformed = [];
   _.each(mapping, function(v, k){
     if (k in obj){
       var entry = {};

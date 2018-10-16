@@ -1,20 +1,21 @@
 ---
 ---
 
-renderData = (response) ->
-  (data) ->
-    response data
+extractData = (data) ->
+  data.results
 
-renderError = (response) ->
-  () ->
-    response []
+onSubmit = (e) ->
+  e.preventDefault()
+  query = $('#query').val()
+  href = "taxonomy.html?#search/" + encodeURIComponent(query)
+  window.location.href = href
 
 remoteSource = (request, response) ->
-  url = '{{ site.webservices_baseurl }}/ita_taxonomies/suggest'
+  url = '{{ site.webservices_baseurl }}/ita_taxonomies/search'
   data = {
     api_key: '{{ site.apikey }}',
-    size: 10,
-    term: request.term
+    size: 100,
+    q: request.term
   }
 
   $.ajax
@@ -25,16 +26,13 @@ remoteSource = (request, response) ->
     xhrFields: {
       withCredentials: false
     },
-    success: renderData(response),
-    error: renderError(response)
+    success: (data) ->
+      response extractData(data)
+    error: ->
+      response []
 
 selectEvent = (event, ui) ->
-  window.location.assign('#search/' + encodeURIComponent(ui.item.value))
-
-jQuery ->
-  $('#query').autocomplete
-    source: remoteSource
-    minLength: 2
+  window.location.assign("?##{ui.item.id}")
 
 loadTaxonomyAutocomplete = ->
   jQuery ->
@@ -42,5 +40,6 @@ loadTaxonomyAutocomplete = ->
       source: remoteSource
       select: selectEvent
       minLength: 2
+    $('.taxonomy-search-form').on 'submit', onSubmit
 
 window.loadTaxonomyAutocomplete = loadTaxonomyAutocomplete

@@ -1,8 +1,8 @@
 <div id='top-bar'>
-  <form class="taxonomy-search-form" onsubmit="performSearch()">
+  <form class="taxonomy-search-form">
     <input type="text" id="query">
     <input type="submit" value="Search">
-  </form> 
+  </form>
 </div>
 
 <div class="view">
@@ -14,7 +14,7 @@
         <% _.each(object, function(value, key) { %>
           <li> <b><%= key %></b>:  <%= value %> </a> </li>
         <% }); %>
-      <% }); %> 
+      <% }); %>
     </ul>
 
   <h3>Term Relationships</h3>
@@ -24,10 +24,10 @@
         <ul>
           <% _.each(value, function(property) { %>
             <li><a href=<%= '#' + property.id %> > <%= property.label %> </a></li>
-          <% }); %> 
+          <% }); %>
         </ul>
-      <% }); %> 
-    <% }); %> 
+      <% }); %>
+    <% }); %>
 
   <h4>For Developers</h4>
     <button data-toggle="collapse" data-target="#json-collapsible">JSON</button>
