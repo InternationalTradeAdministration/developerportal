@@ -16,7 +16,7 @@
 		<p>If you are interested in learning which countries the U.S. has sanctions against, visit the U.S. Department of Treasury's <a href="http://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx">Sanctions Programs and Country Information page</a>.</p>
 	</div>
 	<div class="pane" id="step3">
-		<p>There are many screening lists available that developers can integrate with this Consolidated Screening List API.  Because this API only provides screening lists that relate to the export of products from the U.S. to foreign countries, consider other screening lists that address the sale of products domestically or the sales among foreign countries.</p><p>Furthermore, the results in this API often refer to notices in the Federal Register.  Consider mashing this API with <a href="https://www.federalregister.gov/blog/learn/developers">data from the Federal Register</a> to create a more comprehensive search tool.</p>
+		<p>There are many screening lists available that developers can integrate with this Consolidated Screening List API.  Consider mashing this API with <a href="https://www.federalregister.gov/blog/learn/developers">data from the Federal Register</a> to create a more comprehensive search tool.</p>
 	</div>
 
 </div>
