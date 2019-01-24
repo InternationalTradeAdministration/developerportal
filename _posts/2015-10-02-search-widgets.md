@@ -97,7 +97,7 @@ The widget enables your customers to do a quick search for trade events such as 
 
 The [Export Assistance Centers](ita-zip-codes.html) widget provides direct access to the U.S. Export Assistance Centers (USEACs) that have been assigned to all of the 40,000+ zip codes in the United States.
 
-The widget enables your customers to do a quick search for search for both a zip code and a USEAC. Each center has specialists on hand for each particular region.
+The widget enables your customers to do a quick search for both a zip code and a USEAC. Each center has specialists on hand for each particular region.
 
 <div class="jumbotron transparent">
   <div class="container">
@@ -118,28 +118,3 @@ The [International Office Locations](ita-office-locations.html) provides direct 
 
 </div>
 </div>
-
-
-#### Add a widget to your web page:
-
-1.  Download the [JavaScript](widget.js) and [CSS](widget.css) source files and host them on your site.
-2.  Make sure you load jQuery:
-
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-3.  Add the following to your page’s `<head>` after jQuery’s `<script>` tag:
-
-        <link rel="stylesheet" type="text/css" href="widget.css">
-        <script type="text/javascript" src="widget.js"></script>
-        <script>
-            $(document).ready(function ($) {
-                 $("#example-widget-container").searchWidget({
-                       apiKey: "Your API key", // get it from http://api.trade.gov/
-                       endpoint: "consolidated_screening_list"
-                       // Possible endpoints: "consolidated_screening_list"|"trade_leads"
-                 });
-            });
-        </script>
-
-4.  Endpoint should be set to `"consolidated_screening_list"` for CSL, `"trade_leads"` for Trade Leads Widget, or `"trade_events"` for Trade Events widget.
-5.  Add `<div id="example-widget-container"></div>` to wherever you wish the widget to appear.

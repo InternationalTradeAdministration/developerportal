@@ -9,25 +9,16 @@ published: true
 
 The International Trade Administration (ITA) provides Application Programming Interfaces (APIs) as JSON endpoints for authoritative information on U.S. exporting and international trade.  ITA continually updates the APIs so check this portal often.  Please [provide feedback](contact.html) to help improve the APIs and to recommend new data sets.
 
-## Endpoints for the Documentation and for Exploring the Data
+## Endpoints for the Documentation
 
-Below is the list of all available APIs that ITA provides.  Documentation for each endpoint is published as HTML pages and as JSON endpoints through [Swagger](http://swagger.io/).
-
-ITA has also developed simple search apps designed to help our data customers easily explore the data that’s available at each endpoint. Developers can also use the code for these demo apps as building-blocks for their own search applications. The code uses the Ember JavaScript framework and can be found on [ITA’s GitHub repo](https://github.com/InternationalTradeAdministration/explorer).
-
-Finally, ITA provides [widgets](search-widgets.html) for several of its APIs.  They make it as easy as possible to put a search engine for several of our APIs on your web page. Simply follow the instructions to embed the code, and to change the look and feel to match your site.
-
-| Endpoint HTML Documentation	| JSON Documentation | Explore the Data | Widget Code
-| -------------| -------------|-------------|-------------|
-| All endpoints | [JSON](api/trade-apis.json) | N/A |  N/A | 
-| [Consolidated Screening List](consolidated-screening-list.html) | [JSON](api/consolidated-screening-lists.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/consolidated-screening-list-entries) | [Code](search-widgets.html) | 
-| [Trade Events](trade-events.html) | [JSON](api/trade-events.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-events) | [Code](search-widgets.html) | 
-| [Trade Leads](trade-leads.html) | [JSON](api/trade-leads.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/trade-leads) | [Code](search-widgets.html) | 
-| [FTA Tariff Rates](tariff-rates.html) | [JSON](api/tariff-rates.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/tariff-rates) | N/A | 
-| [FAQs on Exporting](faqs-exporting.html) | [JSON](api/ita-faqs.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-faqs) | N/A | 
-| [ITA Offices & Centers](ita-office-locations.html) | [JSON](api/ita-office-locations.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-office-locations) | [Code](search-widgets.html) |  
-| [Zip Code to USEAC](ita-zip-codes.html) | [JSON](api/zip-code-to-useac.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-zip-codes) | [Code](search-widgets.html) | 
-| [Business Service Providers](business-service-providers.html) | [JSON](api/business-service-providers.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/business-service-providers) | N/A | 
-| [ITA Taxonomies](ita-taxonomies.html) | [JSON](api/ita-taxonomies.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/ita-taxonomies) | N/A |
-| [De Minimis](de-minimis.html) | [JSON](api/de-minimis.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/de-minimis) | N/A | 
-| [Market Intelligence](market-intelligence.html) | [JSON](api/market-intelligence.json) | [Explore](http://internationaltradeadministration.github.io/explorer/#/market-intelligence) | N/A | 
+**[Consolidated Screening List](consolidated-screening-list.html)**  
+**[Trade Events](trade-events.html)**  
+**[Trade Leads](trade-leads.html)**  
+**[FTA Tariff Rates](tariff-rates.html)**  
+**[FAQs on Exporting](faqs-exporting.html)**  
+**[ITA Offices & Centers](ita-office-locations.html)**  
+**[Zip Code to USEAC](ita-zip-codes.html)**  
+**[Business Service Providers](business-service-providers.html)**  
+**[ITA Taxonomies](ita-taxonomies.html)**  
+**[De Minimis](de-minimis.html)**  
+**[Market Intelligence](market-intelligence.html)**  
