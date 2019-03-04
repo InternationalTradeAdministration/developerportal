@@ -565,12 +565,16 @@ display:none;
   }
 
   #mob h3 {
-    margin: 0;
-    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 
   #mob p {
     margin-left: 0;
+  }
+
+  #mob p {
+    padding-left: 10px;
   }
 
   #mob:hover {
@@ -608,7 +612,8 @@ display:none;
   }
 
   #mob {
-    border: none
+    display: none;
+    border: none;
   }
 
   .imageBox {
@@ -630,12 +635,11 @@ display:none;
   }
 
   #mob h3 {
-    margin: 0;
     margin-bottom: 5px;
   }
 
   #mob p {
-    margin-left: 0;
+    margin-left: 5px;
   }
 
   #mob:hover {
@@ -680,7 +684,7 @@ display:none;
   }
 
   #mob p {
-    margin-left: 0;
+    margin-left: 5px;
   }
 
   #mob:hover {
