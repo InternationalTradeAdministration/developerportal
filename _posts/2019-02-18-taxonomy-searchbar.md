@@ -10,9 +10,9 @@ published: true
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var BASE_URL = "https://api.govwizely.com"; // or other host
-    var API_KEY = "SBHWMUxwu9amgwTRx0cnRvXO"; // get it from http://api.trade.gov/
-    var divID = "taxonomy_container"; // Or the ID of the div where you'd like it to appear
+    var BASE_URL = "{{ site.webservices_baseurl }}";
+    var API_KEY = "{{ site.apikey }}";
+    var divID = "taxonomy_container";
     window.Explorer.renderTaxonomy(BASE_URL, API_KEY, divID);
   });
 </script>
