@@ -32,6 +32,8 @@ left_nav_top_apis:
   url: de-minimis.html
 
 left_nav_api_resources:
+- text: Guidance
+  url: guidance.html
 - text: List of all APIs
   url: api-list.html
 - text: Search Widgets
@@ -56,8 +58,6 @@ mobile_nav_additional_resources:
   url: guidance.html
 - text: Contact
   url: contact.html
-- text: App Gallery
-  url: app-gallery.html
 - text: List of all APIs
   url: api-list.html
 - text: API FAQs
