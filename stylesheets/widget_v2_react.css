@@ -1,0 +1,287 @@
+:root {
+  --theme-color: #2E6AFC;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .root {
+    width: 750px;
+  }  
+}
+
+@media (min-width: 992) {
+  .root {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .root {
+    width: 1170px;
+  }
+}
+
+.root {
+  border: 0.75px solid lightgray;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.root > h1 {
+  color: var(--theme-color);
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.widget-container {
+  color: var(--theme-color);
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  width: 600px;
+  line-height: 1em;
+}
+
+.widget-container > form {
+  display: inline-block;
+  text-align: center;
+  background-color: var(--theme-color);
+  color: white;
+  margin: 0;
+  padding: 10px 15px;
+  width: 602px;
+}
+
+.widget-container #widget-title {
+/* .widget-container > form > h3 { */
+  margin: 3px auto 9px;
+  background: transparent;
+  padding: 0;
+  color: white;
+}
+
+.widget-container > form > input {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 33%;
+  height: 38px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.widget-container form ::placeholder {
+  color: #2D2D33;
+}
+
+.widget-container form .Dropdown .react-select__placeholder {
+  color: #292a2b;
+  font-weight: normal;
+}
+
+.widget-container > form > button[type=submit] {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background-color: #c3d5f0;
+  border: none;
+  height: 38px;
+  width: 38px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.widget-container > form > button[type=submit] svg {
+  padding-right: 3px;
+}
+
+.widget-container > form > .Dropdown {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  border: none;
+  width: 33%;
+  border-radius: 0;
+  color: black;
+  background-color: white;
+}
+
+.widget-container > form > .Dropdown > div {
+  border: none;
+  border-radius: 0;
+  border-left: 1px dotted var(--theme-color);
+  background-color: white;
+}
+
+.widget-container .react-select__menu-list {
+  background-color: white;
+  border: 1px dotted var(--theme-color);
+}
+
+.widget-container .resultsList {
+  color: black;
+  border: 1px solid #ddd;
+  border-top: 0;
+  display: block;
+  width: 600px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.widget-container .resultsList > p:first-child {
+  font-size: 16px;
+  margin-left: -15px;
+}
+
+.widget-container .resultsList > p:first-child a {
+  font-size: 16px;
+  color: var(--theme-color);
+}
+
+.widget-container .resultsList > div {
+  display: inline-block;
+  height: auto;
+  overflow: visible;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.widget-container .resultsList > div > p {
+  font-size: 16px;
+  height: auto;
+  margin: 0 0 8px 0;
+  width: 590px;
+  overflow: visible;
+}
+
+.widget-container .resultsList > div > p > a {
+  height: auto;
+  color: var(--theme-color);
+}
+
+.widget-container > .resultsList > div > p strong {
+  color: white; 
+}
+
+.widget-container .resultsList div table {
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  border: 1px solid;
+  border-width: 0 0 1px 1px;
+  table-layout: auto;
+  width: 518px;
+  word-break: normal;
+  empty-cells: show;
+  list-style-type: none;
+  margin: 5px 0px 0px 10px;
+  overflow-x: auto;
+  overflow-y: auto;
+  text-align: left;
+  word-break: normal;
+  zoom: 1;
+}
+
+.widget-container .resultsList div table tbody tr {
+  display: table-row;
+  border-collapse: collapse;
+  vertical-align: middle;
+  overflow-x: auto;
+}
+
+.widget-container .resultsList div table tbody td {
+  background-color: white;
+  border: 1px solid;
+  border-width: 1px 1px 0 0;
+  display: table-cell;
+  empty-cells: show;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0;
+  padding: 5px;
+  overflow-x: visible;
+  overflow-y: visible;
+  text-align: left;
+  vertical-align: top;
+  zoom: 1;
+}
+
+.widget-container .resultsList div table tbody td:first-child {
+  word-wrap: break-word;
+  word-break: break-word;
+  width: 140px;
+  text-transform: capitalize;
+}
+
+.widget-container .resultsList div table tbody td:nth-child(2) {
+  word-wrap: break-word;
+  word-break: break-word;
+  width: 440px;
+}
+
+.widget-container > .footer {
+  background-color: var(--theme-color);
+  color: white;
+  height: 43px;
+  line-height: 26px;
+  padding: 0 15px 0 10px;
+  width: 600px;
+  border-radius: 0 0 4px 4px;
+}
+
+.widget-container > .footer > ul.pagination {
+  float: left;
+  margin-top: 5px;
+}
+
+.widget-container > .footer > ul.pagination > li {
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  line-height: 26px;
+  background-color: var(--theme-color);
+}
+
+.widget-container > .footer > ul.pagination > li.active {
+  background-color: #11247D;
+}
+
+.widget-container > .footer > ul.pagination > li.active > a {
+  background-color: #11247D;
+}
+
+.widget-container > .footer > ul.pagination > li > a {
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: var(--theme-color);
+}
+
+.widget-container > .footer > ul.pagination > li > a:hover {
+  text-decoration: underline;
+  background-color: var(--theme-color);
+}
+
+.widget-container > .footer > button[type=reset] {
+  float: right;
+  margin-top: 8px;
+  margin-right: 20px;
+  background-color: #c3d5f0;
+  border: none;
+  height: 24px;
+}
+
+.widget-container .spinner {
+  width: 80px;
+  margin: auto;
+}
