@@ -84,6 +84,35 @@ select::-ms-expand {
   border: 2px solid darkgray;
 }
 
+.taxonomy_container .categoryList {
+  text-align: left;
+  /* margin-left: 140px; */
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.taxonomy_container .categoryList p > b {
+  padding-left: 13em;
+  /* margin: auto;
+  width: fit-content; */
+}
+
+.taxonomy_container .categoryList > ul {
+  padding-left: 0;
+  margin: auto;
+  width: fit-content;
+}
+
+.taxonomy_container .categoryList > ul > li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 25px;
+}
+
+.taxonomy_container .categoryList > ul > li > a:link {
+  text-decoration: underline;
+}
+
 /* ------- ResultsList view ------- */
 
 .taxonomy_container .resultsList {
@@ -92,7 +121,17 @@ select::-ms-expand {
 
 .taxonomy_container .resultsList li {
   list-style-type: none;
-  padding-bottom: 3px;
+  padding-bottom: 8px;
+}
+
+.taxonomy_container .resultsList li p.breadcrumbs {
+  font-size: 0.9em;
+  display: inline;
+  margin-right: auto;
+}
+
+.taxonomy_container .resultsList li p.termLabel {
+  display: inline;
 }
 
 .taxonomy_container .spinner {
@@ -100,18 +139,15 @@ select::-ms-expand {
 }
 
 .taxonomy_container ul.pagination li {
-  display: inline;
+  display: inline-block;
   text-align: center;
   line-height: 24px;
   margin: 3px 7px;
 }
 
-.taxonomy_container ul.pagination > li.active {
-  border-bottom: 2px solid black;
-}
-
 .taxonomy_container ul.pagination li.active > a {
   background-color: white;
+  border-bottom: 2px solid black;
 }
 
 .taxonomy_container ul.pagination li a {
@@ -258,4 +294,60 @@ select::-ms-expand {
 
 .taxonomy_container .newSearch button:hover {
   border: 2px solid black;
+}
+
+/* Footer */
+
+.taxonomy_container pre {
+  color: red;
+  font-size: 14px;
+  padding: 4px 8px;
+  background: #f8f8f8;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.taxonomy_container .footer {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.taxonomy_container .footer button {
+  border: 2px solid #757575;
+  background-color: white;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 8px;
+  padding-top: 1px;
+}
+
+.taxonomy_container .footer a[download] {
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 3px;
+  text-decoration: none;
+  border: 2px solid #757575;
+  background-color: white;
+  color: black;
+  padding: 1px 7px 3px 7px;
+}
+
+.taxonomy_container .footer button:hover {
+  border: 2px solid black;
+}
+
+.taxonomy_container .footer a[download]:hover {
+  border: 2px solid black;
+}
+
+.taxonomy_container .footer a[download] img {
+  height: 18px;
+  position: relative;
+  margin: auto;
+  padding: 0 0 2px 2px;
+  float: none;
+  background: none;
+  border: none;
 }

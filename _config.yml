@@ -58,15 +58,11 @@ mobile_nav_additional_resources:
   url: guidance.html
 - text: Contact
   url: contact.html
+- text: Service Status
+  url: status.html
 - text: List of all APIs
   url: api-list.html
-- text: API FAQs
-  url: api-faqs.html
-- text: Change Log
-  url: change-log.html
-- text: APIs from Trade Agencies
-  url: trade-agency-apis.html
-- text: Terms of Service
-  url: tos.html
-
-
+- text: Search Widgets
+  url: search-widgets.html
+- text: ITA Taxonomy
+  url: taxonomy.html
