@@ -555,30 +555,7 @@ display:none;
   }
 
   #mob {
-    margin-right: 125px;
-    margin-top: -5px;
-    border: none;
-    width: 100%;
-    float: left;
-    position: relative;
-    margin-bottom: 0;
-  }
-
-  #mob h3 {
-    padding-top: 10px;
-    padding-bottom: 5px;
-  }
-
-  #mob p {
-    margin-left: 0;
-  }
-
-  #mob p {
-    padding-left: 10px;
-  }
-
-  #mob:hover {
-    background: none
+    display: none;
   }
 }
 
@@ -611,11 +588,6 @@ display:none;
     display: none;
   }
 
-  #mob {
-    display: none;
-    border: none;
-  }
-
   .imageBox {
     display: none;
   }
@@ -624,7 +596,12 @@ display:none;
     display: none;
   }
 
+  .hidden {
+    display: none;
+  }
+
   #mob {
+    display: block;
     margin-right: 125px;
     margin-top: -5px;
     border: none;
@@ -668,7 +645,12 @@ display:none;
     display: none;
   }
 
+  .hidden {
+    display: none;
+  }
+
   #mob {
+    display: block;
     margin-right: 125px;
     margin-top: -5px;
     border: none;
