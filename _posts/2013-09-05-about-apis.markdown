@@ -8,7 +8,7 @@ title: About Our APIs
 
 Through its Trade Developer Portal, the International Trade Administration (ITA) provides APIs to data intended for public use and dissemination.  Trade experts from ITA and from Trade Promotion Coordinating Committee (TPCC) agencies produce the wide spectrum of data provided by these APIs.  Developers who work with trade and exporting information will find this data particularly useful as it originates from authoritative, federal government sources.
 
-We publish these APIs to help developers access information on exporting that they can then make available to businesses, which is a core tenet of the ITA.  The APIs also conform to President Obama’s _Open Data Policy_ that advances the management of Government information as an asset.  The policy directs agencies to “Collect or create information in a way that supports downstream information processing and dissemination activities,” which has four requirements:
+We publish these APIs to help developers access information on exporting that they can then make available to businesses, which is a core tenet of the ITA.  The APIs also conform to the [_Open Data Policy_](https://project-open-data.cio.gov/) that advances the management of Government information as an asset.  The policy directs agencies to “Collect or create information in a way that supports downstream information processing and dissemination activities,” which has four requirements:
 
 1. Use machine-readable and open formats
 2. Use data standards
