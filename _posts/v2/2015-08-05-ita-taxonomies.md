@@ -27,7 +27,7 @@ Returns taxonomy terms for a match within the **label** field.
 
 ### types
 
-Returns terms that fall under the given high-level taxonomy types.  Enter multiple values separated by commas.  The possible values are Industries, Topics, Countries, Trade Regions, and World Regions.
+Returns terms that fall under the given high-level taxonomy types.  Enter multiple values separated by commas.  The possible values are Industries, Trade Topics, Geographic Locations, and U.S. Government.
 
     {{ site.webservices_baseurl }}/ita_taxonomies/search?api_key={your key}&types={value1,value2}
 
@@ -77,11 +77,8 @@ The *search_performed_at* field displays the date and time of the current search
 
 | Field                | Description                                                     |
 | -----------------    | --------------------------------------------------------------- |
-| id         		       | The id assigned to the term.                                    |
+| id         		   | The id assigned to the term.                                    |
 | label                | The name of the given taxonomy term.                            |
-| type                 | The high level taxonomy type under which the given term belongs.      |
-| sub_class_of         | An array containing hashes with the id and label of each parent term.   |
-| annotations          | A hash containing key/value pairs of annotation properties.  |
-| datatype_properties  | A hash containing key/array pairs of datatype properties.  Each array contains id/label hashes.  |
-| object_properties    | A hash containing key/array pairs of object properties.  Each array contains id/label hashes.  |
-
+| type                 | The high level taxonomy type under which the given term belongs.  |
+| annotations          | A hash containing key/value pairs of annotation properties. Each value contains an array of label strings.  |
+| object_properties    | A hash containing key/array pairs of object properties.  Each value contains an array of id/label hashes.  |

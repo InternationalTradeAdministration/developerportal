@@ -6,7 +6,7 @@
 
 	<div class="pane" id="step1">
 		<p>
-		The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its <a href="api-list.html">other APIs</a>.  Currently, ITA has three taxonomies:  Geographic Regions, Industries, and Topics.  This API includes all terms in their proper hierarchy in the relevant taxonomy.
+		The ITA Taxonomies API gives developers direct access to the exporting, trade, and investment terms that ITA uses to tag the content and data in its <a href="api-list.html">other APIs</a>.  Currently, ITA has four taxonomies:  Industries, Trade Topics, Geographic Locations, and U.S. Government.  This API includes all terms in their proper hierarchy in the relevant taxonomy.
 		</p>
 		<p>
 		ITA imports data for its other APIs from many sources.  If the source data is already tagged, ITA does the following:
