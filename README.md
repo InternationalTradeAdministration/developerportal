@@ -1,3 +1,6 @@
+# The ITA Developer Portal is changing. Learn more about how this change affects you. 
+https://internationaltradeadministration.github.io/DevPortalMessages/DevPortalUpgrade.html
+
 # International Trade Administration - Developer Portal
 
 View the site here: http://developer.trade.gov
