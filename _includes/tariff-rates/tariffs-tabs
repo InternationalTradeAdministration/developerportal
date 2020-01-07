@@ -11,7 +11,7 @@
 
 		<p>Because the North American Free Trade Agreement (NAFTA) tariff rates have declined to zero, Canada and Mexico data is not included.  Similarly, the tariff rates for almost all products shipped to Israel and Jordon have declined to zero and are not included here.</p>
 
-		<p>The output format for this API is JSON.  This data set is updated only when the corresponding Free Trade Agreement is negotiated or updated.  Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/tariff-rates">demo search app.</a> Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API. </p>
+		<p>The output format for this API is JSON.  This data set is updated only when the corresponding Free Trade Agreement is negotiated or updated.</p>
 		
 	</div>
 	<div class="pane" id="step2">
