@@ -14,8 +14,7 @@
     <p>
       The API includes De Minimis and VAT amounts for almost 80 countries in that country’s currency.
       The output format for this API is JSON. This data set is updated only when the De Minimis or VAT
-      amounts have been updated, which is usually once a year. Test the API using the <a href="http://internationaltradeadministration.github.io/explorer/#/de-minimis">demo search app</a>.
-      Be sure to <a href="http://api.trade.gov/">sign up for an API key</a> to get access to the API.
+      amounts have been updated, which is usually once a year.
     </p>
   </div>
   <div class="pane" id="step2">
